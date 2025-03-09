@@ -1,8 +1,15 @@
 [
     {
         "data": {
-            "description": "Advanced study of current topics in elementary, middle and high school visual arts education.",
-            "id": "ARTED 425",
+            "description": "Student-designed project and activities to explore a topic in depth.",
+            "id": "ARTED 699",
+            "parent": "ARTED"
+        }
+    },
+    {
+        "data": {
+            "description": "Student-designed project and activities to explore a topic in depth.",
+            "id": "ARTED 999",
             "parent": "ARTED"
         }
     },
@@ -15,15 +22,14 @@
     },
     {
         "data": {
-            "description": "Study of principles in art curriculum planning, instruction and assessment, classroom management and learner diversity in elementary and secondary schools.",
-            "id": "ARTED 324",
-            "parent": "ARTED"
+            "id": "ARTED",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "id": "ARTED",
-            "type": "compound"
+            "source": "ARTED 324",
+            "target": "ARTED 424"
         }
     },
     {
@@ -35,8 +41,28 @@
     },
     {
         "data": {
-            "description": "Student-designed project and activities to explore a topic in depth.",
-            "id": "ARTED 699",
+            "description": "Observation and instruction of elementary and secondary pupils in a laboratory setting. Lecture and discussion of topics related to art instruction.",
+            "id": "ARTED/CURRIC 493"
+        }
+    },
+    {
+        "data": {
+            "description": "Observation and instruction of learners in elementary and secondary school settings. Study of art curriculum, instruction, assessment, learner diversity and class management.",
+            "id": "ARTED 327",
+            "parent": "ARTED"
+        }
+    },
+    {
+        "data": {
+            "description": "Advanced study of current topics in elementary, middle and high school visual arts education.",
+            "id": "ARTED 425",
+            "parent": "ARTED"
+        }
+    },
+    {
+        "data": {
+            "description": "Study of principles in art curriculum planning, instruction and assessment, classroom management and learner diversity in elementary and secondary schools.",
+            "id": "ARTED 324",
             "parent": "ARTED"
         }
     },
@@ -48,8 +74,14 @@
     },
     {
         "data": {
-            "description": "Observation and instruction of learners in elementary and secondary school settings. Study of art curriculum, instruction, assessment, learner diversity and class management.",
-            "id": "ARTED 327",
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Explore art education careers, develop art and art-integrated curriculum, practice instructional strategies, and conduct fieldwork in community and school-based settings.",
+            "id": "ARTED 321",
             "parent": "ARTED"
         }
     },
@@ -64,38 +96,6 @@
             "description": "Supervised student teaching in middle or high school art classrooms.",
             "id": "ARTED 424",
             "parent": "ARTED"
-        }
-    },
-    {
-        "data": {
-            "description": "Observation and instruction of elementary and secondary pupils in a laboratory setting. Lecture and discussion of topics related to art instruction.",
-            "id": "ARTED/CURRIC 493"
-        }
-    },
-    {
-        "data": {
-            "source": "ARTED 324",
-            "target": "ARTED 424"
-        }
-    },
-    {
-        "data": {
-            "description": "Explore art education careers, develop art and art-integrated curriculum, practice instructional strategies, and conduct fieldwork in community and school-based settings.",
-            "id": "ARTED 321",
-            "parent": "ARTED"
-        }
-    },
-    {
-        "data": {
-            "description": "Student-designed project and activities to explore a topic in depth.",
-            "id": "ARTED 999",
-            "parent": "ARTED"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
         }
     }
 ]
