@@ -1,6 +1,13 @@
 [
     {
         "data": {
+            "description": "Use, control and administration of centralized and distributed data bases. Topics include the definition, design, creation, revision, interrogation, update, security and integrity of data bases.",
+            "id": "INFOSYS/ISYE 722",
+            "title": "COMPUTER-BASED DATA MANAGEMENT"
+        }
+    },
+    {
+        "data": {
             "description": "Exploration of subject areas possibly to be introduced into the business curriculum.",
             "id": "INFOSYS 365",
             "parent": "INFOSYS",
@@ -9,18 +16,16 @@
     },
     {
         "data": {
-            "description": "Analysis of business systems to identify possible need for new or improved computer-based systems and the design of systems to meet those needs.",
-            "id": "INFOSYS 724",
-            "parent": "INFOSYS",
-            "title": "ANALYSIS AND DESIGN OF COMPUTER-BASED SYSTEMS"
+            "source": "COMPSCI 220",
+            "target": "INFOSYS 371"
         }
     },
     {
         "data": {
-            "description": "Focus is on developing applications and business information systems on the web using a variety of programming languages and tools. Emphasis on deployment as well as design concepts.",
-            "id": "INFOSYS 371",
+            "description": "Exploration of subject areas possibly to be introduced into the business curriculum.",
+            "id": "INFOSYS 765",
             "parent": "INFOSYS",
-            "title": "TECHNOLOGY OF COMPUTER-BASED BUSINESS SYSTEMS"
+            "title": "CONTEMPORARY TOPICS"
         }
     },
     {
@@ -41,8 +46,14 @@
     },
     {
         "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
+            "source": "INFOSYS/ISYE 722",
+            "target": "INFOSYS 724"
+        }
+    },
+    {
+        "data": {
+            "source": "INFOSYS 371",
+            "target": "INFOSYS 424"
         }
     },
     {
@@ -53,51 +64,8 @@
     },
     {
         "data": {
-            "description": "Exploration of subject areas possibly to be introduced into the business curriculum.",
-            "id": "INFOSYS 765",
-            "parent": "INFOSYS",
-            "title": "CONTEMPORARY TOPICS"
-        }
-    },
-    {
-        "data": {
-            "source": "INFOSYS 371",
-            "target": "INFOSYS/ISYE 722"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI 220",
-            "target": "INFOSYS 371"
-        }
-    },
-    {
-        "data": {
-            "description": "An introduction to data analysis procedures covering topics including: data collection, pre-processing, analysis, and presentation. Content covers important data analysis concepts, such as structured and unstructured data. Learn about supervised, unsupervised learning methods and advanced analytics topics, such as text mining, recommendation systems, and algorithm bias.",
-            "id": "INFOSYS 423",
-            "parent": "INFOSYS",
-            "title": "DIGITAL PLATFORM ANALYTICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Use, control and administration of centralized and distributed data bases. Topics include the definition, design, creation, revision, interrogation, update, security and integrity of data bases.",
-            "id": "INFOSYS/ISYE 722",
-            "title": "COMPUTER-BASED DATA MANAGEMENT"
-        }
-    },
-    {
-        "data": {
-            "id": "INFOSYS",
+            "id": "CROSSLISTED",
             "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Applied principles and techniques of information systems development including requirements identification and analysis, process and data modeling, team communication and collaboration, and system testing.",
-            "id": "INFOSYS 424",
-            "parent": "INFOSYS",
-            "title": "SYSTEMS ANALYSIS AND DESIGN"
         }
     },
     {
@@ -111,7 +79,7 @@
     {
         "data": {
             "source": "INFOSYS 371",
-            "target": "INFOSYS 424"
+            "target": "INFOSYS/ISYE 722"
         }
     },
     {
@@ -124,8 +92,40 @@
     },
     {
         "data": {
-            "source": "INFOSYS/ISYE 722",
-            "target": "INFOSYS 724"
+            "description": "Focus is on developing applications and business information systems on the web using a variety of programming languages and tools. Emphasis on deployment as well as design concepts.",
+            "id": "INFOSYS 371",
+            "parent": "INFOSYS",
+            "title": "TECHNOLOGY OF COMPUTER-BASED BUSINESS SYSTEMS"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to data analysis procedures covering topics including: data collection, pre-processing, analysis, and presentation. Content covers important data analysis concepts, such as structured and unstructured data. Learn about supervised, unsupervised learning methods and advanced analytics topics, such as text mining, recommendation systems, and algorithm bias.",
+            "id": "INFOSYS 423",
+            "parent": "INFOSYS",
+            "title": "DIGITAL PLATFORM ANALYTICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Applied principles and techniques of information systems development including requirements identification and analysis, process and data modeling, team communication and collaboration, and system testing.",
+            "id": "INFOSYS 424",
+            "parent": "INFOSYS",
+            "title": "SYSTEMS ANALYSIS AND DESIGN"
+        }
+    },
+    {
+        "data": {
+            "description": "Analysis of business systems to identify possible need for new or improved computer-based systems and the design of systems to meet those needs.",
+            "id": "INFOSYS 724",
+            "parent": "INFOSYS",
+            "title": "ANALYSIS AND DESIGN OF COMPUTER-BASED SYSTEMS"
+        }
+    },
+    {
+        "data": {
+            "id": "INFOSYS",
+            "type": "compound"
         }
     }
 ]
