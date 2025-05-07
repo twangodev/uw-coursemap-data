@@ -1,0 +1,70 @@
+[
+    {
+        "data": {
+            "description": "Introduction to consumer finance covering techniques of personal sector cash flow, asset and liability management, life cycle financial planning, investment management, tax planning, retirement, and estate planning. Analysis and evaluation related to personal financial planning.",
+            "id": "CNSRSCI 275",
+            "parent": "CNSRSCI",
+            "title": "INTRODUCTION TO PERSONAL FINANCIAL PLANNING"
+        }
+    },
+    {
+        "data": {
+            "id": "CNSRSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "CNSRSCI 665"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "source": "CNSRSCI 275",
+            "target": "CNSRSCI 665"
+        }
+    },
+    {
+        "data": {
+            "description": "Application of advanced analytical techniques to examine household financial risk. Implications for financial planning of changes in family structure and earnings. Private and social insurance that guard against economic consequences of death, disability, ill health, retirement, marital dissolution. Use of financial planning software.",
+            "id": "CNSRSCI 665",
+            "parent": "CNSRSCI",
+            "title": "HOUSEHOLD RISK MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 101"
+        }
+    }
+]

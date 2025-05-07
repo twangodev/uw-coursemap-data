@@ -1,0 +1,84 @@
+[
+    {
+        "data": {
+            "description": "Nature of risk, principal techniques of risk management, including insurance markets, and the bases for decision-making in managing risk effectively.",
+            "id": "RMI 700",
+            "parent": "RMI",
+            "title": "PRINCIPLES OF RISK MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "RMI 300"
+        }
+    },
+    {
+        "data": {
+            "description": "Consideration of the structure, use, benefits, and limitations of corporate insurance products. Fundamental to the material is the economic underpinning of the insurance contract structure. The major commercial property and liability insurance products will be analyzed in detail with the purpose of illustrating these economic principles and applying them to specific organizational situations.",
+            "id": "RMI 645",
+            "parent": "RMI",
+            "title": "COMMERCIAL INSURANCE"
+        }
+    },
+    {
+        "data": {
+            "description": "Nature of risk, principal techniques of risk management, including insurance markets, and the bases for decision-making in managing risk effectively.",
+            "id": "RMI 300",
+            "parent": "RMI",
+            "title": "PRINCIPLES OF RISK MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "id": "RMI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "RMI 700",
+            "target": "RMI 645"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "source": "RMI 300",
+            "target": "RMI 700"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 101"
+        }
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics, and selected topics in Animal Physiology. Designed for engineering majors that do not need a lab component.",
+            "id": "ZOOLOGY 153",
+            "parent": "ZOOLOGY",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
+            "id": "BIOLOGY/ZOOLOGY 101",
+            "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Instruction and laboratory experiments in basic molecular biology techniques, recombinant protein production, fermentation processes, protein purification and characterization, and related bioengineering laboratory topics. Geared towards those with interests in biotechnology and synthetic biology.",
+            "id": "CBE 361",
+            "parent": "CBE",
+            "title": "BIOMOLECULAR ENGINEERING LABORATORY"
+        }
+    },
+    {
+        "data": {
+            "id": "ZOOLOGY",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/ZOOLOGY 101"
+        }
+    },
+    {
+        "data": {
+            "id": "CBE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ZOOLOGY 153",
+            "target": "CBE 361"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "ZOOLOGY 153"
+        }
+    }
+]

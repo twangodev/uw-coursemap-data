@@ -1,0 +1,56 @@
+[
+    {
+        "data": {
+            "description": "Theory and applications of the general linear model; graphical methods; simultaneous inference; regression diagnostics; analysis of variance of fixed, random and mixed effects models; ANCOVA: violations of assumptions.",
+            "id": "STAT 849",
+            "parent": "STAT",
+            "title": "THEORY AND APPLICATION OF REGRESSION AND ANALYSIS OF VARIANCE I"
+        }
+    },
+    {
+        "data": {
+            "id": "STAT",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Probability distributions, statistical inference; multiple linear regression; introduction to econometric methods. It is expected that students will have completed three semesters calculus (such asMATH\u00a0234) and linear algebra (such asMATH\u00a0340).",
+            "id": "ECON 709",
+            "parent": "ECON",
+            "title": "ECONOMIC STATISTICS AND ECONOMETRICS I"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 709",
+            "target": "GENBUS 806"
+        }
+    },
+    {
+        "data": {
+            "id": "GENBUS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 849",
+            "target": "GENBUS 806"
+        }
+    },
+    {
+        "data": {
+            "description": "Linear fixed and random effects models; estimation and prediction; data exploration, diagnostics and model selection techniques; generalized linear panel data models.",
+            "id": "GENBUS 806",
+            "parent": "GENBUS",
+            "title": "PANEL DATA ANALYSIS"
+        }
+    }
+]

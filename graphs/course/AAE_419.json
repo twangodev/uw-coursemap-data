@@ -1,0 +1,70 @@
+[
+    {
+        "data": {
+            "description": "Introduction to basic finance concepts.  Topics include financial statements, ratio analysis and interpretation, investment analysis, capital budgeting, credit concepts, and capital markets.",
+            "id": "AAE 419",
+            "parent": "AAE",
+            "title": "AGRICULTURAL FINANCE"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to economic ways of thinking about a wide range of problems and issues. Topics include consumption, production, prices, markets, finance, trade, pollution, growth, farms, taxes, and development.",
+            "id": "AAE 101",
+            "parent": "AAE",
+            "title": "INTRODUCTION TO AGRICULTURAL AND APPLIED ECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "id": "AAE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "source": "AAE 101",
+            "target": "AAE 419"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "AAE 419"
+        }
+    }
+]

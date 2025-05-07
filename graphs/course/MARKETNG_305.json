@@ -1,0 +1,90 @@
+[
+    {
+        "data": {
+            "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
+            "id": "MARKETNG 300",
+            "parent": "MARKETNG",
+            "title": "MARKETING MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 300",
+            "target": "MARKETNG 305"
+        }
+    },
+    {
+        "data": {
+            "description": "Analyses from social and psychological perspectives. Motivation, perception, learning and attitude formation. Effects of social class, family structure, cultural backgrounds and reference groups.",
+            "id": "CNSRSCI 657",
+            "parent": "CNSRSCI",
+            "title": "CONSUMER BEHAVIOR"
+        }
+    },
+    {
+        "data": {
+            "id": "CNSRSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MARKETNG",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Consumer behavior is a broad field that studies how individuals, families and groups acquire, consume, and dispose of goods, services, ideas and experiences. Provides an integrated view of consumer behavior that draws on psychological, economic, anthropological and sociological perspectives to enhance understanding of consumer acquisition processes.",
+            "id": "MARKETNG 305",
+            "parent": "MARKETNG",
+            "title": "CONSUMER BEHAVIOR"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "MARKETNG 300"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "source": "CNSRSCI 657",
+            "target": "MARKETNG 305"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 101"
+        }
+    }
+]

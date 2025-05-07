@@ -1,0 +1,104 @@
+[
+    {
+        "data": {
+            "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
+            "id": "MARKETNG 300",
+            "parent": "MARKETNG",
+            "title": "MARKETING MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Provides a framework for evaluating marketing problems and developing a marketing strategy. Customer, competitor, and collaborator factors are emphasized as foundations for marketing decision-making. Examines the key aspects of product, pricing, distribution, and promotion strategy.",
+            "id": "MARKETNG 700",
+            "parent": "MARKETNG",
+            "title": "MARKETING MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "High-level introduction to concepts and practices in business. Overview of management, marketing, strategy, entrepreneurship, ethics, supply chain, and international business.",
+            "id": "GENBUS 311",
+            "parent": "GENBUS",
+            "title": "FUNDAMENTALS OF MANAGEMENT AND MARKETING FOR NON-BUSINESS MAJORS"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 700",
+            "target": "MARKETNG 730"
+        }
+    },
+    {
+        "data": {
+            "id": "GENBUS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 300",
+            "target": "MARKETNG 730"
+        }
+    },
+    {
+        "data": {
+            "description": "Pricing is one of the most important but least understood of marketing decisions. Focus on key concepts and techniques for evaluating and formulating pricing strategies through analytical and experiential learning methods.",
+            "id": "MARKETNG 730",
+            "parent": "MARKETNG",
+            "title": "STRATEGIC PRICING"
+        }
+    },
+    {
+        "data": {
+            "id": "MARKETNG",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "MARKETNG 300"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 311",
+            "target": "MARKETNG 730"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 101"
+        }
+    }
+]

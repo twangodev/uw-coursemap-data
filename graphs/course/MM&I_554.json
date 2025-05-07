@@ -1,0 +1,172 @@
+[
+    {
+        "data": {
+            "id": "MICROBIO",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
+            "id": "BIOLOGY/ZOOLOGY 101",
+            "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Survey of microorganisms and their activities; emphasis on structure, function, ecology, nutrition, physiology, genetics. Survey of applied microbiology--medical, agricultural, food and industrial microbiology. Intended to satisfy any curriculum which requires introductory level microbiology.",
+            "id": "MICROBIO 101",
+            "parent": "MICROBIO",
+            "title": "GENERAL MICROBIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Medically important bacteria, emphasizing the process of pathogenesis and host/parasite interactions, as well as intervention strategies, immunity and genetics as they apply to the pathogens.",
+            "id": "MM&I 301",
+            "parent": "MM&I",
+            "title": "PATHOGENIC BACTERIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Basic biology of microorganisms, including structure, function, physiology, genetics, ecology, diversity, and evolution.",
+            "id": "MICROBIO 303",
+            "parent": "MICROBIO",
+            "title": "BIOLOGY OF MICROORGANISMS"
+        }
+    },
+    {
+        "data": {
+            "description": "General concepts of animal biology at an introductory level emphasizing the evolutionary relationships between animals. Learn about general body plans and strategies used to accomplish the basic tasks of staying alive in major animal groups using preserved and live animals. Study the diversity within each group of animals by integrating the body plans with the lifestyle and ecology of animals. Dissections of earthworm, freshwater mussel, squid, sea star, and rat aid the study of these general principles.",
+            "id": "BIOLOGY/ZOOLOGY 102",
+            "title": "ANIMAL BIOLOGY LABORATORY"
+        }
+    },
+    {
+        "data": {
+            "source": "MICROBIO 303",
+            "target": "MICROBIO 101"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/ZOOLOGY 102"
+        }
+    },
+    {
+        "data": {
+            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
+            "id": "BIOCORE 381",
+            "parent": "BIOCORE",
+            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 102",
+            "target": "MM&I 301"
+        }
+    },
+    {
+        "data": {
+            "source": "MICROBIO 101",
+            "target": "MM&I 554"
+        }
+    },
+    {
+        "data": {
+            "id": "MM&I",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
+        }
+    },
+    {
+        "data": {
+            "id": "BIOCORE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to the basic principles and concepts of the biology of plants. an integrative approach stressing evolutionary sequences and the relationship between structure and function at succeeding levels of organization: molecule, cell, organism, population, community. Correlated lectures, laboratories, and discussions.",
+            "id": "BIOLOGY/BOTANY 130",
+            "title": "GENERAL BOTANY"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOCORE 381",
+            "target": "MM&I 301"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "MM&I 301"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/ZOOLOGY 101"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "MICROBIO 303"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY 130",
+            "target": "MICROBIO 303"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "MICROBIO 303"
+        }
+    },
+    {
+        "data": {
+            "description": "Identification of analysis and solution of emerging infectious disease problems and the problems of bioterrorism.",
+            "id": "MM&I 554",
+            "parent": "MM&I",
+            "title": "EMERGING INFECTIOUS DISEASES AND BIOTERRORISM"
+        }
+    },
+    {
+        "data": {
+            "source": "MM&I 301",
+            "target": "MM&I 554"
+        }
+    },
+    {
+        "data": {
+            "source": "MICROBIO 303",
+            "target": "MM&I 554"
+        }
+    }
+]

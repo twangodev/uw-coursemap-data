@@ -1,0 +1,70 @@
+[
+    {
+        "data": {
+            "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
+            "id": "MARKETNG 300",
+            "parent": "MARKETNG",
+            "title": "MARKETING MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "id": "MARKETNG",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "MARKETNG 300"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 300",
+            "target": "MARKETNG 410"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "description": "An overview of the issues and trends in sports marketing. Attention will be given to the issues facing sport organizations and to the use of marketing techniques to solve business-related problems. It will also focus on the challenges of organizations that use sports properties to enhance their marketing efforts. We will examine the world of sports as a business with a focus on attracting the customer in a competitive, fragmented and global market and consider how sports marketers develop and apply strategies to meet their objectives.",
+            "id": "MARKETNG 410",
+            "parent": "MARKETNG",
+            "title": "SPORTS MARKETING"
+        }
+    },
+    {
+        "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 101"
+        }
+    }
+]
