@@ -1,52 +1,26 @@
 [
     {
         "data": {
-            "id": "CIVENGR",
-            "type": "compound"
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
         "data": {
-            "source": "MATH 221",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "CIVENGR 311"
-        }
-    },
-    {
-        "data": {
-            "id": "MATH",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Water supply and demand are increasingly stressed by climate, population, land-use, policy, etc. Presents a variety of systems analysis techniques for water resources planning and management. Deterministic and stochastic optimization and simulation models will be developed and applied. Problems addressed include water supply, water quality, and river basin development.",
-            "id": "CIVENGR 416",
-            "parent": "CIVENGR",
-            "title": "WATER RESOURCES SYSTEMS ANALYSIS"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
-            "source": "CIVENGR 311",
-            "target": "CIVENGR 416"
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
         }
     },
     {
@@ -67,26 +41,28 @@
     },
     {
         "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
+            "description": "Water supply and demand are increasingly stressed by climate, population, land-use, policy, etc. Presents a variety of systems analysis techniques for water resources planning and management. Deterministic and stochastic optimization and simulation models will be developed and applied. Problems addressed include water supply, water quality, and river basin development.",
+            "id": "CIVENGR 416",
+            "parent": "CIVENGR",
+            "title": "WATER RESOURCES SYSTEMS ANALYSIS"
         }
     },
     {
         "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "id": "CIVENGR",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CIVENGR 311",
+            "target": "CIVENGR 416"
         }
     },
     {
@@ -97,8 +73,32 @@
     },
     {
         "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 213",
             "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "CIVENGR 311"
         }
     }
 ]

@@ -1,22 +1,34 @@
 [
     {
         "data": {
-            "source": "MATH 341",
-            "target": "MATH 540"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "MATH 340"
-        }
-    },
-    {
-        "data": {
-            "description": "The theory of linear algebra with an introduction to proofs and proof writing. Topics include vector spaces, linear dependence, span, basis, linear transformations, kernel, image, inner products and inner product spaces, geometry, eigenvalues, eigenvectors, standard matrix factorizations. Other content includes basic set theory, logical operations, quantifiers, direct and indirect arguments, and induction. Differential equations [MATH\u00a0320] not covered.",
-            "id": "MATH 341",
+            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
+            "id": "MATH 320",
             "parent": "MATH",
-            "title": "LINEAR ALGEBRA"
+            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
+            "id": "MATH 340",
+            "parent": "MATH",
+            "title": "ELEMENTARY MATRIX AND LINEAR ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
+        }
+    },
+    {
+        "data": {
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
@@ -29,8 +41,88 @@
     },
     {
         "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Review of linear transformations, duality. Diagonalization of linear transformations.The Cayley Hamilton Theorem. Minimal polynomials. The Jordan canonical form. Exponential function. Inner product spaces, orthonormal bases and Gram-Schmidt orthogonalization. Operators on inner product spaces. Self-adjoint, unitary and positive operators. Spectral theorem. singular value decomposition. Bilinear and quadratic forms. Norms, bounded linear operators, matrix norms. Basic multilinear algebra. This is a second course in linear algebra.",
+            "id": "MATH 540",
+            "parent": "MATH",
+            "title": "LINEAR ALGEBRA II"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "description": "The theory of linear algebra with an introduction to proofs and proof writing. Topics include vector spaces, linear dependence, span, basis, linear transformations, kernel, image, inner products and inner product spaces, geometry, eigenvalues, eigenvectors, standard matrix factorizations. Other content includes basic set theory, logical operations, quantifiers, direct and indirect arguments, and induction. Differential equations [MATH\u00a0320] not covered.",
+            "id": "MATH 341",
+            "parent": "MATH",
+            "title": "LINEAR ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 211",
             "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 234"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 340"
         }
     },
     {
@@ -53,100 +145,8 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "MATH 234"
-        }
-    },
-    {
-        "data": {
-            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
-            "id": "MATH 222",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
-            "id": "MATH 320",
-            "parent": "MATH",
-            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "MATH 320"
-        }
-    },
-    {
-        "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
-            "id": "MATH 340",
-            "parent": "MATH",
-            "title": "ELEMENTARY MATRIX AND LINEAR ALGEBRA"
-        }
-    },
-    {
-        "data": {
-            "id": "MATH",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
-            "description": "Review of linear transformations, duality. Diagonalization of linear transformations.The Cayley Hamilton Theorem. Minimal polynomials. The Jordan canonical form. Exponential function. Inner product spaces, orthonormal bases and Gram-Schmidt orthogonalization. Operators on inner product spaces. Self-adjoint, unitary and positive operators. Spectral theorem. singular value decomposition. Bilinear and quadratic forms. Norms, bounded linear operators, matrix norms. Basic multilinear algebra. This is a second course in linear algebra.",
-            "id": "MATH 540",
-            "parent": "MATH",
-            "title": "LINEAR ALGEBRA II"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "source": "MATH 341",
+            "target": "MATH 540"
         }
     }
 ]

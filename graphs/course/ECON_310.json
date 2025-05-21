@@ -1,28 +1,10 @@
 [
     {
         "data": {
-            "description": "Introduction to analysis of economic data. The techniques of descriptive statistics and statistical inference (hypothesis testing and estimation) as directed toward application in economic research.",
-            "id": "ECON 310",
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
             "parent": "ECON",
-            "title": "STATISTICS: MEASUREMENT IN ECONOMICS"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "ECON 310"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 102",
-            "target": "ECON 310"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
@@ -35,6 +17,14 @@
     },
     {
         "data": {
+            "description": "Introduction to analysis of economic data. The techniques of descriptive statistics and statistical inference (hypothesis testing and estimation) as directed toward application in economic research.",
+            "id": "ECON 310",
+            "parent": "ECON",
+            "title": "STATISTICS: MEASUREMENT IN ECONOMICS"
+        }
+    },
+    {
+        "data": {
             "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
             "id": "ECON 102",
             "parent": "ECON",
@@ -43,28 +33,38 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 102"
+            "id": "ECON",
+            "type": "compound"
         }
     },
     {
         "data": {
             "source": "ECON 101",
+            "target": "ECON 310"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
             "target": "ECON 111"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "source": "ECON 102",
+            "target": "ECON 310"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
         }
     }
 ]

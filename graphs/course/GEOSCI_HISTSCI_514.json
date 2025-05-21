@@ -1,8 +1,9 @@
 [
     {
         "data": {
-            "id": "GEOSCI",
-            "type": "compound"
+            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
+            "id": "ENVIRST/GEOSCI 106",
+            "title": "ENVIRONMENTAL GEOLOGY"
         }
     },
     {
@@ -15,6 +16,13 @@
     },
     {
         "data": {
+            "description": "Major concepts from earliest to modern times.",
+            "id": "GEOSCI/HISTSCI 514",
+            "title": "HISTORY OF GEOLOGIC THOUGHT"
+        }
+    },
+    {
+        "data": {
             "description": "Physical evolution of the earth and its relationship to the development of life through geologic time. Includes field trip.",
             "id": "GEOSCI 204",
             "parent": "GEOSCI",
@@ -23,33 +31,13 @@
     },
     {
         "data": {
-            "source": "GEOSCI 204",
-            "target": "GEOSCI/HISTSCI 514"
-        }
-    },
-    {
-        "data": {
-            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
-            "id": "ENVIRST/GEOSCI 106",
-            "title": "ENVIRONMENTAL GEOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI 100",
-            "target": "ENVIRST/GEOSCI 106"
-        }
-    },
-    {
-        "data": {
-            "description": "Major concepts from earliest to modern times.",
-            "id": "GEOSCI/HISTSCI 514",
-            "title": "HISTORY OF GEOLOGIC THOUGHT"
-        }
-    },
-    {
-        "data": {
             "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "GEOSCI",
             "type": "compound"
         }
     },
@@ -62,7 +50,19 @@
     {
         "data": {
             "source": "GEOSCI 100",
+            "target": "ENVIRST/GEOSCI 106"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 100",
             "target": "GEOSCI 204"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 204",
+            "target": "GEOSCI/HISTSCI 514"
         }
     }
 ]

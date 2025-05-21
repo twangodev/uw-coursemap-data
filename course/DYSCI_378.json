@@ -28,11 +28,78 @@
     },
     "description": "Focuses on lactation physiology across mammalian species. Structure and function of mammary glands; hormonal control of mammary development and lactation; cellular mechanisms of milk synthesis; the chemistry of milk synthesis; mastitis and other abnormalities of mammary functions.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "BMOLCHEM 314",
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 151,
                 "subjects": [
                     "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
@@ -51,36 +118,139 @@
                 ]
             },
             {
-                "course_number": 102,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
-            {
-                "course_number": 382,
+                "course_number": 384,
                 "subjects": [
                     "BIOCORE"
                 ]
             }
         ],
-        "prerequisites_text": "(BIOCHEM\u00a0301,501, BMOLCHEM 314, or concurrent enrollment) and (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0382,383, and384), or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 301,
                 "subjects": [
                     "BIOCHEM"
                 ]
             },
+            ", ",
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ", BMOLCHEM 314, or concurrent enrollment) and (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or (",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", and ",
+            {
+                "course_number": 384,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            "), or graduate/professional standing"
+        ],
+        "prerequisites_text": "(BIOCHEM\u00a0301,501, BMOLCHEM 314, or concurrent enrollment) and (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0382,383, and384), or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "BMOLCHEM 314",
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 151,
                 "subjects": [
@@ -90,14 +260,7 @@
                 ]
             },
             {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
-            {
-                "course_number": 383,
+                "course_number": 382,
                 "subjects": [
                     "BIOCORE"
                 ]
@@ -109,9 +272,29 @@
                 ]
             },
             {
-                "course_number": 382,
+                "course_number": 383,
                 "subjects": [
                     "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 301,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
                 ]
             },
             {
@@ -121,22 +304,72 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ", BMOLCHEM 314, or concurrent enrollment) and (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or (",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", and ",
+            {
+                "course_number": 384,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            "), or graduate/professional standing"
+        ],
         "prerequisites_text": "(BIOCHEM\u00a0301,501, BMOLCHEM 314, or concurrent enrollment) and (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0382,383, and384), or graduate/professional standing"
     },
     "similar_courses": [
-        {
-            "course_number": 373,
-            "subjects": [
-                "ANSCI",
-                "DYSCI"
-            ]
-        },
-        {
-            "course_number": 534,
-            "subjects": [
-                "DYSCI"
-            ]
-        },
         {
             "course_number": 569,
             "subjects": [
@@ -150,7 +383,20 @@
             ]
         },
         {
+            "course_number": 373,
+            "subjects": [
+                "ANSCI",
+                "DYSCI"
+            ]
+        },
+        {
             "course_number": 233,
+            "subjects": [
+                "DYSCI"
+            ]
+        },
+        {
+            "course_number": 900,
             "subjects": [
                 "DYSCI"
             ]

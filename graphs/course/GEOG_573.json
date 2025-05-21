@@ -1,33 +1,9 @@
 [
     {
         "data": {
-            "id": "GEOG",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOG 378",
-            "target": "GEOG 573"
-        }
-    },
-    {
-        "data": {
             "description": "Design, implementation and use of automated procedures for storage, analysis and display of spatial information. Covers data bases, information manipulation and display techniques, software systems and management issues. Case studies.",
             "id": "CIVENGR/ENVIRST/GEOG 377",
             "title": "AN INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS"
-        }
-    },
-    {
-        "data": {
-            "id": "COMPSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "CIVENGR/ENVIRST/GEOG 377",
-            "target": "GEOG 378"
         }
     },
     {
@@ -40,14 +16,10 @@
     },
     {
         "data": {
-            "source": "COMPSCI 220",
-            "target": "GEOG 573"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
+            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
+            "id": "COMPSCI 220",
+            "parent": "COMPSCI",
+            "title": "DATA SCIENCE PROGRAMMING I"
         }
     },
     {
@@ -60,10 +32,38 @@
     },
     {
         "data": {
-            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
-            "id": "COMPSCI 220",
-            "parent": "COMPSCI",
-            "title": "DATA SCIENCE PROGRAMMING I"
+            "id": "COMPSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "GEOG",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CIVENGR/ENVIRST/GEOG 377",
+            "target": "GEOG 378"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 220",
+            "target": "GEOG 573"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOG 378",
+            "target": "GEOG 573"
         }
     }
 ]

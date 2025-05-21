@@ -28,6 +28,25 @@
     },
     "description": "Principles of experimental physical chemistry applied to the acquisition and interpretation of basic data on molecular structure and dynamics, and properties of macromolecules; principles and use of spectroscopic and other electronic instrumentation.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 563,
@@ -42,18 +61,69 @@
                 ]
             }
         ],
-        "prerequisites_text": "(CHEM\u00a0562or concurrent enrollment) andCHEM\u00a0563"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 562,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            " or concurrent enrollment) and ",
             {
                 "course_number": 563,
                 "subjects": [
                     "CHEM"
                 ]
-            },
+            }
+        ],
+        "prerequisites_text": "(CHEM\u00a0562or concurrent enrollment) andCHEM\u00a0563"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
             {
                 "course_number": 562,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
+                "course_number": 563,
+                "subjects": [
+                    "CHEM"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 562,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            " or concurrent enrollment) and ",
+            {
+                "course_number": 563,
                 "subjects": [
                     "CHEM"
                 ]
@@ -69,7 +139,13 @@
             ]
         },
         {
-            "course_number": 561,
+            "course_number": 563,
+            "subjects": [
+                "CHEM"
+            ]
+        },
+        {
+            "course_number": 960,
             "subjects": [
                 "CHEM"
             ]
@@ -81,13 +157,7 @@
             ]
         },
         {
-            "course_number": 104,
-            "subjects": [
-                "CHEM"
-            ]
-        },
-        {
-            "course_number": 563,
+            "course_number": 664,
             "subjects": [
                 "CHEM"
             ]
@@ -107,8 +177,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "EDWIN MORRIS TURNER",
                     "ROBERT WOODS",
+                    "EDWIN MORRIS TURNER",
                     "Mark EDIGER"
                 ],
                 "no_credit": 0,
@@ -134,11 +204,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "EDWIN MORRIS TURNER",
+                    "QIANG CUI",
                     "JAMES WEISSHAAR",
                     "MICHAEL PATRICK GORMAN",
                     "F CRIM",
-                    "QIANG CUI"
+                    "EDWIN MORRIS TURNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -163,11 +233,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "EDWIN MORRIS TURNER",
                     "JAMES WEISSHAAR",
-                    "MICHAEL PATRICK GORMAN",
                     "WEI XIONG",
-                    "Mark EDIGER"
+                    "MICHAEL PATRICK GORMAN",
+                    "Mark EDIGER",
+                    "EDWIN MORRIS TURNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -192,12 +262,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "EDWIN MORRIS TURNER",
-                    "MICHAEL PATRICK GORMAN",
-                    "WEI XIONG",
                     "ROBERT WOODS",
+                    "WEI XIONG",
+                    "MICHAEL PATRICK GORMAN",
                     "ARUN YETHIRAJ",
-                    "EDWIN SIBERT"
+                    "EDWIN SIBERT",
+                    "EDWIN MORRIS TURNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -222,11 +292,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JAMES WEISSHAAR",
-                    "SILVIA CAVAGNERO",
                     "KENNETH BARNS",
+                    "JAMES WEISSHAAR",
                     "DANIEL RUSSELL ALBERT",
-                    "MARK WENDT"
+                    "MARK WENDT",
+                    "SILVIA CAVAGNERO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -251,9 +321,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "F CRIM",
                     "ARUN YETHIRAJ",
-                    "MARK WENDT"
+                    "MARK WENDT",
+                    "F CRIM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -278,9 +348,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "TIMOTHY STACEY",
                     "JAMES WEISSHAAR",
                     "SCHUYLER KAIN",
-                    "TIMOTHY STACEY",
                     "MARK WENDT",
                     "Mark EDIGER"
                 ],
@@ -307,15 +377,15 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SAMIR YOUSSEF",
-                    "MARTIN ZANNI",
                     "KENNETH BARNS",
                     "SAMUEL PENWELL",
+                    "MARTIN ZANNI",
+                    "SAMIR YOUSSEF",
                     "SCHUYLER KAIN",
-                    "YUN LING",
-                    "XAVIER PRAT-RESINA",
                     "ARUN YETHIRAJ",
-                    "MARK WENDT"
+                    "YUN LING",
+                    "MARK WENDT",
+                    "XAVIER PRAT-RESINA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -341,10 +411,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "CHRISTINE SMITH",
-                    "SILVIA CAVAGNERO",
                     "JENNIFER FAUST",
                     "ARUN YETHIRAJ",
-                    "MARK WENDT"
+                    "MARK WENDT",
+                    "SILVIA CAVAGNERO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -369,15 +439,15 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LEILI ZHANG",
                     "CHRISTINE SMITH",
+                    "LEILI ZHANG",
                     "EMILY GUINN",
-                    "DIANE LANCASTER",
-                    "F CRIM",
-                    "JENNIFER FAUST",
                     "QIANG CUI",
+                    "JENNIFER FAUST",
                     "KELLY CHRISTISON",
-                    "MARK WENDT"
+                    "MARK WENDT",
+                    "F CRIM",
+                    "DIANE LANCASTER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -403,12 +473,12 @@
                 "incomplete": 0,
                 "instructors": [
                     "MICHAEL SHALOSKI",
-                    "MARTIN ZANNI",
-                    "JUNG HO LEE",
-                    "MAHESH K MAHANTHAPPA",
                     "SHUYU FANG",
+                    "MARTIN ZANNI",
+                    "MARK WENDT",
                     "RUDY CLAUSEN",
-                    "MARK WENDT"
+                    "JUNG HO LEE",
+                    "MAHESH K MAHANTHAPPA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -433,14 +503,14 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GILBERT NATHANSON",
                     "CHRISTINE SMITH",
-                    "TIANQI ZHANG",
                     "ERIC HAGEE",
-                    "ETIENNE GARAND",
-                    "PAUL ZAZISKI",
+                    "TIANQI ZHANG",
+                    "GILBERT NATHANSON",
                     "ARUN YETHIRAJ",
-                    "MARK WENDT"
+                    "ETIENNE GARAND",
+                    "MARK WENDT",
+                    "PAUL ZAZISKI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -467,14 +537,14 @@
                 "instructors": [
                     "CHRISTINE SMITH",
                     "MICHAEL SHALOSKI",
-                    "QIANG CUI",
-                    "JAMES NG",
-                    "ERIC HAGEE",
-                    "ETIENNE GARAND",
-                    "KATHERINE LUPO",
                     "RANDALL GOLDSMITH",
+                    "ERIC HAGEE",
+                    "QIANG CUI",
+                    "ETIENNE GARAND",
+                    "JAMES NG",
+                    "MARK WENDT",
                     "PAUL ZAZISKI",
-                    "MARK WENDT"
+                    "KATHERINE LUPO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -499,10 +569,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "IVAN PALLARES",
-                    "MARK WENDT",
                     "CHRISTINE SMITH",
-                    "JAMES SKINNER"
+                    "MARK WENDT",
+                    "JAMES SKINNER",
+                    "IVAN PALLARES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -527,13 +597,13 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "IVAN PALLARES",
                     "CHRISTINE SMITH",
-                    "MARTIN ZANNI",
                     "KENNETH BARNS",
-                    "RANDALL GOLDSMITH",
                     "SONISILPA MOHAPATRA",
-                    "MARK WENDT"
+                    "RANDALL GOLDSMITH",
+                    "MARTIN ZANNI",
+                    "MARK WENDT",
+                    "IVAN PALLARES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -558,11 +628,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GILBERT NATHANSON",
-                    "IVAN PALLARES",
                     "CHRISTINE SMITH",
                     "ROBERT WOODS",
-                    "MARK WENDT"
+                    "GILBERT NATHANSON",
+                    "MARK WENDT",
+                    "IVAN PALLARES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -587,15 +657,15 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "IVAN PALLARES",
                     "CHRISTINE SMITH",
-                    "SILVIA CAVAGNERO",
-                    "SHIGANG RUAN",
-                    "JAMES SKINNER",
-                    "MAINAK MUSTAFI",
                     "ANURAG AGRAWAL",
                     "RANDALL GOLDSMITH",
-                    "MARK WENDT"
+                    "JAMES SKINNER",
+                    "MARK WENDT",
+                    "IVAN PALLARES",
+                    "SILVIA CAVAGNERO",
+                    "MAINAK MUSTAFI",
+                    "SHIGANG RUAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -620,10 +690,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JAMES WEISSHAAR",
+                    "ERIC HAGEE",
                     "MATTHEW ROWLEY",
                     "QIANG CUI",
-                    "ERIC HAGEE",
+                    "JAMES WEISSHAAR",
                     "SCHUYLER KAIN",
                     "MARK WENDT"
                 ],
@@ -650,9 +720,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "MATTHEW ROWLEY",
-                    "MARTIN ZANNI",
                     "ERIC HAGEE",
+                    "MARTIN ZANNI",
+                    "MATTHEW ROWLEY",
                     "SCHUYLER KAIN",
                     "ETIENNE GARAND",
                     "MARK WENDT"
@@ -680,11 +750,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JIA-JUNG HO",
-                    "SCHUYLER KAIN",
                     "ERIC HAGEE",
+                    "SCHUYLER KAIN",
                     "ARUN YETHIRAJ",
                     "MARK WENDT",
+                    "JIA-JUNG HO",
                     "Mark EDIGER"
                 ],
                 "no_credit": 0,
@@ -710,13 +780,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SILVIA CAVAGNERO",
-                    "MARTIN ZANNI",
-                    "JIA-JUNG HO",
-                    "SHIGANG RUAN",
-                    "SCHUYLER KAIN",
                     "ERIC HAGEE",
-                    "MARK WENDT"
+                    "MARTIN ZANNI",
+                    "SCHUYLER KAIN",
+                    "MARK WENDT",
+                    "JIA-JUNG HO",
+                    "SILVIA CAVAGNERO",
+                    "SHIGANG RUAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -741,9 +811,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "WEN-TSUNG HUANG",
-                    "MARK WENDT",
                     "ERIC HAGEE",
+                    "MARK WENDT",
+                    "WEN-TSUNG HUANG",
                     "SCHUYLER KAIN"
                 ],
                 "no_credit": 0,
@@ -769,12 +839,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "WEN-TSUNG HUANG",
+                    "RACHEL HUTCHINSON",
+                    "HANMING YANG",
                     "SCHUYLER KAIN",
                     "ETIENNE GARAND",
-                    "HANMING YANG",
-                    "RACHEL HUTCHINSON",
-                    "MARK WENDT"
+                    "MARK WENDT",
+                    "WEN-TSUNG HUANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -799,10 +869,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "HANMING YANG",
                     "RACHEL HUTCHINSON",
-                    "MARK WENDT",
-                    "JAMES WEISSHAAR"
+                    "JAMES WEISSHAAR",
+                    "HANMING YANG",
+                    "MARK WENDT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -827,12 +897,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JAMES WEISSHAAR",
-                    "DAVID LAFAYETTE",
-                    "HANMING YANG",
                     "JESSICA FLACH",
                     "RACHEL HUTCHINSON",
-                    "MARK WENDT"
+                    "HANMING YANG",
+                    "JAMES WEISSHAAR",
+                    "MARK WENDT",
+                    "DAVID LAFAYETTE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -857,10 +927,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GILBERT NATHANSON",
+                    "RACHEL HUTCHINSON",
                     "MADISON FELLOWS",
                     "HANMING YANG",
-                    "RACHEL HUTCHINSON",
+                    "GILBERT NATHANSON",
                     "MARK WENDT"
                 ],
                 "no_credit": 0,
@@ -886,13 +956,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MARTIN ZANNI",
                     "MADISON FELLOWS",
-                    "BRANDON MEHLENBACHER",
-                    "ENRAN XING",
                     "HANMING YANG",
+                    "MARTIN ZANNI",
+                    "ENRAN XING",
                     "MARK WENDT",
-                    "HOUSTON SMITH"
+                    "HOUSTON SMITH",
+                    "BRANDON MEHLENBACHER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -917,10 +987,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MARTIN ZANNI",
-                    "MARK WENDT",
+                    "HOUSTON SMITH",
                     "MADISON FELLOWS",
-                    "HOUSTON SMITH"
+                    "MARK WENDT",
+                    "MARTIN ZANNI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -945,10 +1015,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "HOUSTON SMITH",
                     "MADISON FELLOWS",
                     "MARK WENDT",
-                    "RANDALL GOLDSMITH",
-                    "HOUSTON SMITH"
+                    "RANDALL GOLDSMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -973,11 +1043,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CLAYTON MICKLES",
-                    "MARTIN ZANNI",
                     "MADISON FELLOWS",
-                    "GUSTAVO CRUZ DIAZ",
                     "RANDALL GOLDSMITH",
+                    "MARTIN ZANNI",
+                    "GUSTAVO CRUZ DIAZ",
+                    "CLAYTON MICKLES",
                     "MARK WENDT",
                     "HOUSTON SMITH"
                 ],
@@ -1004,14 +1074,14 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PATRICK CROSS",
-                    "CLAYTON MICKLES",
-                    "Mark EDIGER",
-                    "SILVIA CAVAGNERO",
                     "RANDALL GOLDSMITH",
                     "SIYU LI",
+                    "Patrick Cross",
+                    "CLAYTON MICKLES",
                     "MARK WENDT",
-                    "HOUSTON SMITH"
+                    "Mark EDIGER",
+                    "HOUSTON SMITH",
+                    "SILVIA CAVAGNERO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1036,13 +1106,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PATRICK CROSS",
-                    "Yuzhe Zhang",
-                    "JORDAN SCHMIDT",
+                    "CATHERINE WALKER",
                     "MARTIN ZANNI",
+                    "JORDAN SCHMIDT",
+                    "YUZHE ZHANG",
+                    "Patrick Cross",
                     "ARUN YETHIRAJ",
-                    "MARK WENDT",
-                    "Catherine Walker"
+                    "MARK WENDT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1067,11 +1137,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "CATHERINE WALKER",
+                    "Patrick Cross",
                     "GILBERT NATHANSON",
-                    "PATRICK CROSS",
                     "ETIENNE GARAND",
-                    "MARK WENDT",
-                    "Catherine Walker"
+                    "MARK WENDT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1096,12 +1166,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MARK WENDT",
-                    "PATRICK CROSS",
                     "RANDALL GOLDSMITH",
-                    "SIYU LI",
+                    "Patrick Cross",
                     "ARUN YETHIRAJ",
-                    "RIK HALDER"
+                    "MARK WENDT",
+                    "RIK HALDER",
+                    "SIYU LI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1126,13 +1196,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Yuzhe Zhang",
-                    "JORDAN SCHMIDT",
-                    "SILVIA CAVAGNERO",
+                    "CATHERINE WALKER",
                     "RANDALL GOLDSMITH",
+                    "JORDAN SCHMIDT",
+                    "YUZHE ZHANG",
                     "MARK WENDT",
                     "RIK HALDER",
-                    "Catherine Walker"
+                    "SILVIA CAVAGNERO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1144,33 +1214,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    1,
-                    1
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "ANUBHAB RIK Halder": "AHALDER2@WISC.EDU",
-                    "ARUN YETHIRAJ": "YETHIRAJ@WISC.EDU",
-                    "Catherine Walker": "CEWALKER6@WISC.EDU",
-                    "Harrison Esterly": "ESTERLY@WISC.EDU",
-                    "MARK WENDT": "MAWENDT@WISC.EDU",
-                    "Ruby Neisser": "NEISSER@WISC.EDU",
-                    "Yuzhe Zhang": "ZHANG2539@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
-        },
         "1256": {
             "enrollment_data": {
                 "credit_count": [
@@ -1179,8 +1222,11 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
-                "last_taught_term": "2025 Sprng",
+                "instructors": {
+                    "MARK WENDT": "MAWENDT@WISC.EDU",
+                    "Patrick Cross": "PCROSS@WISC.EDU"
+                },
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",
@@ -1198,8 +1244,10 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
-                "last_taught_term": "2025 Sprng",
+                "instructors": {
+                    "MARK WENDT": "MAWENDT@WISC.EDU"
+                },
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

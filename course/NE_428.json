@@ -28,6 +28,25 @@
     },
     "description": "Experiments on reactor operation, flux measurement, measurements of reactor parameters, using pool type reactor.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 427,
@@ -42,28 +61,79 @@
                 ]
             }
         ],
-        "prerequisites_text": "N\u00a0E\u00a0405and427, or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 405,
+                "subjects": [
+                    "NE"
+                ]
+            },
+            " and ",
             {
                 "course_number": 427,
                 "subjects": [
                     "NE"
                 ]
             },
+            ", or graduate/professional standing"
+        ],
+        "prerequisites_text": "N\u00a0E\u00a0405and427, or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 405,
                 "subjects": [
                     "NE"
                 ]
+            },
+            {
+                "course_number": 427,
+                "subjects": [
+                    "NE"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 405,
+                "subjects": [
+                    "NE"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 427,
+                "subjects": [
+                    "NE"
+                ]
+            },
+            ", or graduate/professional standing"
         ],
         "prerequisites_text": "N\u00a0E\u00a0405and427, or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 424,
+            "course_number": 427,
             "subjects": [
                 "NE"
             ]
@@ -75,19 +145,19 @@
             ]
         },
         {
-            "course_number": 234,
-            "subjects": [
-                "NE"
-            ]
-        },
-        {
             "course_number": 412,
             "subjects": [
                 "NE"
             ]
         },
         {
-            "course_number": 427,
+            "course_number": 550,
+            "subjects": [
+                "NE"
+            ]
+        },
+        {
+            "course_number": 602,
             "subjects": [
                 "NE"
             ]
@@ -307,8 +377,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHELLE MARIE BLANCHARD",
-                    "Robert Agasie"
+                    "Robert Agasie",
+                    "MICHELLE MARIE BLANCHARD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -358,8 +428,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHELLE MARIE BLANCHARD",
-                    "Robert Agasie"
+                    "Robert Agasie",
+                    "MICHELLE MARIE BLANCHARD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -384,8 +454,8 @@
                 "f": 0,
                 "incomplete": 4,
                 "instructors": [
-                    "MICHELLE MARIE BLANCHARD",
-                    "Robert Agasie"
+                    "Robert Agasie",
+                    "MICHELLE MARIE BLANCHARD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -410,8 +480,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "MICHELLE MARIE BLANCHARD",
-                    "Robert Agasie"
+                    "Robert Agasie",
+                    "MICHELLE MARIE BLANCHARD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -436,8 +506,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHELLE MARIE BLANCHARD",
-                    "Robert Agasie"
+                    "Robert Agasie",
+                    "MICHELLE MARIE BLANCHARD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -462,8 +532,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHELLE MARIE BLANCHARD",
-                    "Robert Agasie"
+                    "Robert Agasie",
+                    "MICHELLE MARIE BLANCHARD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -956,27 +1026,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    2,
-                    2
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Robert Agasie": "RAGASIE@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -988,7 +1037,7 @@
                 "instructors": {
                     "Corey EDWARDS": "CSEDWARDS@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",

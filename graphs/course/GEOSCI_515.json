@@ -1,21 +1,17 @@
 [
     {
         "data": {
-            "description": "Minerals, their physical and chemical properties, crystallography, and geologic significance.",
-            "id": "GEOSCI/GLE 360",
-            "title": "PRINCIPLES OF MINERALOGY"
+            "description": "Accelerated coverage of topics in general chemistry, including introduction to laboratory techniques. Topics include atomic and molecular structure, chemical equilibrium, acid-base chemistry, thermodynamics, kinetics, and electrochemistry.",
+            "id": "CHEM 109",
+            "parent": "CHEM",
+            "title": "ADVANCED GENERAL CHEMISTRY"
         }
     },
     {
         "data": {
-            "source": "GEOSCI 100",
-            "target": "GEOSCI/GLE 360"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI/GLE 360",
-            "target": "GEOSCI/GLE 370"
+            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
+            "id": "ENVIRST/GEOSCI 106",
+            "title": "ENVIRONMENTAL GEOLOGY"
         }
     },
     {
@@ -28,12 +24,6 @@
     },
     {
         "data": {
-            "source": "GEOSCI 100",
-            "target": "GEOSCI 204"
-        }
-    },
-    {
-        "data": {
             "description": "Geologic processes; structure and history of the earth; earthquakes, volcanos, glaciers, groundwater, minerals, rocks, deserts, fossils; topographic and geologic maps; climate change on geologic and human time scales.",
             "id": "GEOSCI 100",
             "parent": "GEOSCI",
@@ -42,35 +32,40 @@
     },
     {
         "data": {
-            "source": "CHEM 115",
-            "target": "GEOSCI/GLE 360"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI/GLE 370",
-            "target": "GEOSCI 515"
-        }
-    },
-    {
-        "data": {
-            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
-            "id": "CHEM 115",
-            "parent": "CHEM",
-            "title": "CHEMICAL PRINCIPLES I"
-        }
-    },
-    {
-        "data": {
-            "source": "ENVIRST/GEOSCI 106",
-            "target": "GEOSCI 100"
-        }
-    },
-    {
-        "data": {
             "description": "Igneous and metamorphic rocks, studied in hand sample and thin section.",
             "id": "GEOSCI/GLE 370",
             "title": "ELEMENTARY PETROLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Minerals, their physical and chemical properties, crystallography, and geologic significance.",
+            "id": "GEOSCI/GLE 360",
+            "title": "PRINCIPLES OF MINERALOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Physical evolution of the earth and its relationship to the development of life through geologic time. Includes field trip.",
+            "id": "GEOSCI 204",
+            "parent": "GEOSCI",
+            "title": "GEOLOGIC EVOLUTION OF THE EARTH"
+        }
+    },
+    {
+        "data": {
+            "description": "Principles and application of chemical equilibrium, coordination chemistry, oxidation-reduction and electrochemistry, kinetics, nuclear chemistry, introduction to organic chemistry, and chemistry laboratory skills.",
+            "id": "CHEM 104",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY II"
+        }
+    },
+    {
+        "data": {
+            "description": "Stoichiometry and the mole concept, the behavior of gases, liquids and solids, thermochemistry, electronic structure of atoms and chemical bonding, descriptive chemistry of selected elements and compounds, intermolecular forces, and chemistry laboratory skills.",
+            "id": "CHEM 103",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY I"
         }
     },
     {
@@ -93,17 +88,44 @@
     },
     {
         "data": {
-            "description": "Physical evolution of the earth and its relationship to the development of life through geologic time. Includes field trip.",
-            "id": "GEOSCI 204",
-            "parent": "GEOSCI",
-            "title": "GEOLOGIC EVOLUTION OF THE EARTH"
+            "source": "CHEM 103",
+            "target": "CHEM 104"
         }
     },
     {
         "data": {
-            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
-            "id": "ENVIRST/GEOSCI 106",
-            "title": "ENVIRONMENTAL GEOLOGY"
+            "source": "CHEM 103",
+            "target": "GEOSCI/GLE 360"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 104",
+            "target": "CHEM 109"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "ENVIRST/GEOSCI 106",
+            "target": "GEOSCI 100"
+        }
+    },
+    {
+        "data": {
+            "source": "ENVIRST/GEOSCI 106",
+            "target": "GEOSCI/GLE 360"
         }
     },
     {
@@ -114,14 +136,32 @@
     },
     {
         "data": {
+            "source": "GEOSCI 100",
+            "target": "GEOSCI 204"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 100",
+            "target": "GEOSCI/GLE 360"
+        }
+    },
+    {
+        "data": {
             "source": "GEOSCI 204",
             "target": "GEOSCI 515"
         }
     },
     {
         "data": {
-            "source": "ENVIRST/GEOSCI 106",
-            "target": "GEOSCI/GLE 360"
+            "source": "GEOSCI/GLE 360",
+            "target": "GEOSCI/GLE 370"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI/GLE 370",
+            "target": "GEOSCI 515"
         }
     }
 ]

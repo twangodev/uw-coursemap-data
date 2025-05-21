@@ -28,6 +28,32 @@
     },
     "description": "Teaches how to explore, model, and analyze data using R. Topics include basic probability models; the central limit theorem; Monte Carlo simulation; one- and two-sample hypothesis testing; Bayesian inference; linear and logistic regression; ANOVA; the bootstrap; random forests and cross-validation. Features the analysis of real-world data sets and the communication of findings in a clear and reproducible manner within a project setting.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 240,
@@ -42,18 +68,80 @@
                 ]
             }
         ],
-        "prerequisites_text": "(MATH\u00a0211,217, or221) andSTAT\u00a0240"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 211,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
             {
                 "course_number": 217,
                 "subjects": [
                     "MATH"
                 ]
             },
+            ", or ",
+            {
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and ",
+            {
+                "course_number": 240,
+                "subjects": [
+                    "STAT"
+                ]
+            }
+        ],
+        "prerequisites_text": "(MATH\u00a0211,217, or221) andSTAT\u00a0240"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
             {
                 "course_number": 211,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 240,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            {
+                "course_number": 217,
                 "subjects": [
                     "MATH"
                 ]
@@ -63,7 +151,31 @@
                 "subjects": [
                     "MATH"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 211,
+                "subjects": [
+                    "MATH"
+                ]
             },
+            ", ",
+            {
+                "course_number": 217,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and ",
             {
                 "course_number": 240,
                 "subjects": [
@@ -75,13 +187,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 612,
+            "course_number": 433,
             "subjects": [
                 "STAT"
             ]
         },
         {
-            "course_number": 433,
+            "course_number": 240,
             "subjects": [
                 "STAT"
             ]
@@ -93,13 +205,13 @@
             ]
         },
         {
-            "course_number": 303,
+            "course_number": 305,
             "subjects": [
                 "STAT"
             ]
         },
         {
-            "course_number": 240,
+            "course_number": 303,
             "subjects": [
                 "STAT"
             ]
@@ -144,8 +256,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Keith LEVIN",
-                    "Bi Cheng Wu"
+                    "Bi Cheng Wu",
+                    "Keith LEVIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -272,9 +384,9 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "YONGYI GUO",
                     "Bi Cheng Wu",
-                    "Brian POWERS"
+                    "Brian POWERS",
+                    "YONGYI GUO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -312,36 +424,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Bi Cheng Wu": "BWU62@WISC.EDU",
-                    "Brian POWERS": "BRPOWERS2@WISC.EDU",
-                    "Chenghui Zheng": "CHENGHUI.ZHENG@WISC.EDU",
-                    "Jingyang Lyu": "JLYU55@WISC.EDU",
-                    "Kessys Lorranya Peralta de Oliveira": "PERALTADEOLI@WISC.EDU",
-                    "Nabil Awan": "NAWAN2@WISC.EDU",
-                    "Nathan Aviles": "NAVILES@WISC.EDU",
-                    "Sifan Tao": "SIFAN.TAO@WISC.EDU",
-                    "Soham Ghosh": "SGHOSH39@WISC.EDU",
-                    "Xinyan Wang": "XWANG2587@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Not Applicable"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -351,7 +433,7 @@
                 "ethnics_studies": false,
                 "general_education": false,
                 "instructors": {},
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

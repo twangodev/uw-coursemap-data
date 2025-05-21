@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 501,
         "subjects": [
-            "MEDPHYS",
             "BME",
+            "MEDPHYS",
             "PHYSICS",
             "HONCOL"
         ]
@@ -31,15 +31,39 @@
     },
     "description": "Interactions and energy deposition by ionizing radiation in matter; concepts, quantities and units in radiological physics; principles and methods of radiation dosimetry.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "declared in Medical Physics VISP"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
-                "course_number": 323,
+                "course_number": 449,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 449,
+                "course_number": 323,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -51,18 +75,66 @@
                 ]
             }
         ],
-        "prerequisites_text": "(PHYSICS\u00a0323,449andMATH\u00a0320) or graduate/professional standing or declared in Medical Physics VISP"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 323,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
+            ", ",
             {
                 "course_number": 449,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") or graduate/professional standing or declared in Medical Physics VISP"
+        ],
+        "prerequisites_text": "(PHYSICS\u00a0323,449andMATH\u00a0320) or graduate/professional standing or declared in Medical Physics VISP"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "declared in Medical Physics VISP"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 449,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 323,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -73,43 +145,65 @@
                     "MATH"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 323,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 449,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") or graduate/professional standing or declared in Medical Physics VISP"
         ],
         "prerequisites_text": "(PHYSICS\u00a0323,449andMATH\u00a0320) or graduate/professional standing or declared in Medical Physics VISP"
     },
     "similar_courses": [
         {
+            "course_number": 770,
+            "subjects": [
+                "MEDPHYS"
+            ]
+        },
+        {
+            "course_number": 510,
+            "subjects": [
+                "MEDPHYS"
+            ]
+        },
+        {
             "course_number": 569,
             "subjects": [
-                "NE",
-                "MEDPHYS"
+                "MEDPHYS",
+                "NE"
             ]
         },
         {
             "course_number": 566,
             "subjects": [
-                "MEDPHYS",
-                "BME"
-            ]
-        },
-        {
-            "course_number": 580,
-            "subjects": [
-                "MEDPHYS",
-                "BME"
+                "BME",
+                "MEDPHYS"
             ]
         },
         {
             "course_number": 588,
             "subjects": [
-                "MEDPHYS",
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 567,
-            "subjects": [
-                "MEDPHYS",
-                "BME"
+                "PHYSICS",
+                "MEDPHYS"
             ]
         }
     ],
@@ -428,10 +522,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "XU JI",
                     "Guang-Hong CHEN",
+                    "Wesley Culberson",
                     "JUAN PABLO CRUZ BASTIDA",
-                    "Wesley Culberson"
+                    "XU JI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -456,8 +550,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "XU JI",
                     "Guang-Hong CHEN",
+                    "XU JI",
                     "DALTON GRINER"
                 ],
                 "no_credit": 0,
@@ -510,9 +604,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DALTON GRINER",
                     "Guang-Hong CHEN",
-                    "KEVIN TREB"
+                    "KEVIN TREB",
+                    "DALTON GRINER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -537,9 +631,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DALTON GRINER",
                     "Guang-Hong CHEN",
-                    "KEVIN TREB"
+                    "KEVIN TREB",
+                    "DALTON GRINER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -619,9 +713,9 @@
                 },
                 "last_taught_term": "Fall 2024",
                 "school": {
-                    "abbreviation": "M",
-                    "name": "Medicine and Public Health",
-                    "url": "http://www.med.wisc.edu/"
+                    "abbreviation": "L",
+                    "name": "Letters and Science",
+                    "url": "http://www.ls.wisc.edu/"
                 },
                 "typically_offered": "Fall"
             },

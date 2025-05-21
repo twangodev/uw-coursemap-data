@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 513,
         "subjects": [
-            "MATH",
-            "COMPSCI"
+            "COMPSCI",
+            "MATH"
         ]
     },
     "course_title": "NUMERICAL LINEAR ALGEBRA",
@@ -29,6 +29,71 @@
     },
     "description": "Direct and iterative solution of linear and nonlinear systems and of eigenproblems. LU and symmetric LU factorization. Complexity, stability, and conditioning. Nonlinear systems. Iterative methods for linear systems. QR-factorization and least squares. Eigenproblems: local and global methods.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "301",
+                                "302",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [
+                                        "placement into",
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        }
+                                    ],
+                                    "operator": "AND"
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                {
+                    "children": [
+                        "member of the Pre-Masters Mathematics",
+                        "Visiting International",
+                        "program"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 341,
@@ -49,24 +114,129 @@
                 ]
             }
         ],
-        "prerequisites_text": "(MATH\u00a0340,341, or375) and (COMP\u00a0SCI\u00a0200,300, 301, 302,310, or placement intoCOMP\u00a0SCI\u00a0300) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) program"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
             {
                 "course_number": 341,
                 "subjects": [
                     "MATH"
                 ]
             },
+            ", or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 200,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", 301, 302, ",
             {
                 "course_number": 310,
                 "subjects": [
                     "COMPSCI"
                 ]
             },
+            ", or placement into ",
             {
                 "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) program"
+        ],
+        "prerequisites_text": "(MATH\u00a0340,341, or375) and (COMP\u00a0SCI\u00a0200,300, 301, 302,310, or placement intoCOMP\u00a0SCI\u00a0300) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) program"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "301",
+                                "302",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [
+                                        "placement into",
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        }
+                                    ],
+                                    "operator": "AND"
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                {
+                    "children": [
+                        "member of the Pre-Masters Mathematics",
+                        "Visiting International",
+                        "program"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 310,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -78,9 +248,9 @@
                 ]
             },
             {
-                "course_number": 340,
+                "course_number": 300,
                 "subjects": [
-                    "MATH"
+                    "COMPSCI"
                 ]
             },
             {
@@ -88,13 +258,85 @@
                 "subjects": [
                     "MATH"
                 ]
+            },
+            {
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 341,
+                "subjects": [
+                    "MATH"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 341,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 200,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", 301, 302, ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", or placement into ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) program"
         ],
         "prerequisites_text": "(MATH\u00a0340,341, or375) and (COMP\u00a0SCI\u00a0200,300, 301, 302,310, or placement intoCOMP\u00a0SCI\u00a0300) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) program"
     },
     "similar_courses": [
         {
-            "course_number": 540,
+            "course_number": 532,
+            "subjects": [
+                "COMPSCI",
+                "ME",
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 320,
             "subjects": [
                 "MATH"
             ]
@@ -106,19 +348,13 @@
             ]
         },
         {
-            "course_number": 320,
+            "course_number": 412,
             "subjects": [
-                "MATH"
+                "COMPSCI"
             ]
         },
         {
-            "course_number": 345,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 341,
+            "course_number": 340,
             "subjects": [
                 "MATH"
             ]
@@ -363,9 +599,9 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
+                    "Amos RON",
                     "KARTIK SREENIVASAN",
-                    "Yi LIU",
-                    "Amos RON"
+                    "YIN LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -390,8 +626,8 @@
                 "f": 1,
                 "incomplete": 4,
                 "instructors": [
-                    "KANGHEE PARK",
-                    "Amos RON"
+                    "Amos RON",
+                    "KANGHEE PARK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -416,8 +652,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "YANG GUO",
-                    "Amos RON"
+                    "Amos RON",
+                    "YANG GUO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -442,8 +678,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "MINGCHEN MA",
-                    "Amos RON"
+                    "Amos RON",
+                    "MINGCHEN MA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -454,28 +690,6 @@
                 "total": 35,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Amos RON": "AMOS@CS.WISC.EDU",
-                    "Chris RYCROFT": "RYCROFT@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

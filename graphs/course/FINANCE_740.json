@@ -1,14 +1,10 @@
 [
     {
         "data": {
-            "id": "FINANCE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "FINANCE 700",
-            "target": "FINANCE 740"
+            "description": "Detailed coverage of fixed income securities and their derivatives; asset backed/mortgage backed securities; pricing and portfolio strategies; term structures models and other analytical tools.",
+            "id": "FINANCE 740",
+            "parent": "FINANCE",
+            "title": "ANALYSIS OF FIXED INCOME SECURITIES"
         }
     },
     {
@@ -21,16 +17,16 @@
     },
     {
         "data": {
-            "description": "Detailed coverage of fixed income securities and their derivatives; asset backed/mortgage backed securities; pricing and portfolio strategies; term structures models and other analytical tools.",
-            "id": "FINANCE 740",
+            "description": "Introduction to financial management of firms and investment decision making; both theory and practice are emphasized. Topics covered include the financial environment and securities markets, financial statements and analysis, working capital management and capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision making under uncertainty and selected topics such as mergers, options, futures.",
+            "id": "FINANCE 700",
             "parent": "FINANCE",
-            "title": "ANALYSIS OF FIXED INCOME SECURITIES"
+            "title": "INTRODUCTION TO FINANCIAL MANAGEMENT"
         }
     },
     {
         "data": {
-            "source": "GENBUS 704",
-            "target": "FINANCE 740"
+            "id": "FINANCE",
+            "type": "compound"
         }
     },
     {
@@ -41,10 +37,14 @@
     },
     {
         "data": {
-            "description": "Introduction to financial management of firms and investment decision making; both theory and practice are emphasized. Topics covered include the financial environment and securities markets, financial statements and analysis, working capital management and capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision making under uncertainty and selected topics such as mergers, options, futures.",
-            "id": "FINANCE 700",
-            "parent": "FINANCE",
-            "title": "INTRODUCTION TO FINANCIAL MANAGEMENT"
+            "source": "FINANCE 700",
+            "target": "FINANCE 740"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 704",
+            "target": "FINANCE 740"
         }
     }
 ]

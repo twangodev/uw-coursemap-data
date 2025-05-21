@@ -28,6 +28,40 @@
     },
     "description": "Studies modern African literature, written in English, and covering various genres such as poetry, the novel, drama, and/or the short story.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "211",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 201,
@@ -42,31 +76,97 @@
                 ]
             },
             {
-                "course_number": 210,
+                "course_number": 231,
                 "subjects": [
-                    "FOLKLORE",
                     "AFRICAN"
                 ]
             },
+            {
+                "course_number": 210,
+                "subjects": [
+                    "AFRICAN",
+                    "FOLKLORE"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 203,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", 211, ",
             {
                 "course_number": 231,
                 "subjects": [
                     "AFRICAN"
                 ]
-            }
+            },
+            ", or ",
+            {
+                "course_number": 210,
+                "subjects": [
+                    "AFRICAN",
+                    "FOLKLORE"
+                ]
+            },
+            "), or graduate/professional standing"
         ],
         "prerequisites_text": "Sophomore standing and (AFRICAN\u00a0201,203, 211,231, orFOLKLORE/\u200bAFRICAN\u00a0\u00a0210), or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "211",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
-                "course_number": 203,
+                "course_number": 201,
                 "subjects": [
                     "AFRICAN"
                 ]
             },
             {
-                "course_number": 201,
+                "course_number": 203,
                 "subjects": [
                     "AFRICAN"
                 ]
@@ -80,22 +180,48 @@
             {
                 "course_number": 210,
                 "subjects": [
-                    "FOLKLORE",
-                    "AFRICAN"
+                    "AFRICAN",
+                    "FOLKLORE"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 203,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", 211, ",
+            {
+                "course_number": 231,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 210,
+                "subjects": [
+                    "AFRICAN",
+                    "FOLKLORE"
+                ]
+            },
+            "), or graduate/professional standing"
         ],
         "prerequisites_text": "Sophomore standing and (AFRICAN\u00a0201,203, 211,231, orFOLKLORE/\u200bAFRICAN\u00a0\u00a0210), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 303,
-            "subjects": [
-                "AFRICAN"
-            ]
-        },
-        {
-            "course_number": 606,
+            "course_number": 412,
             "subjects": [
                 "AFRICAN"
             ]
@@ -108,6 +234,12 @@
         },
         {
             "course_number": 406,
+            "subjects": [
+                "AFRICAN"
+            ]
+        },
+        {
+            "course_number": 606,
             "subjects": [
                 "AFRICAN"
             ]
@@ -194,25 +326,6 @@
                 "total": 0,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2015",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Occasionally"
-            },
-            "grade_data": null
         }
     }
 }

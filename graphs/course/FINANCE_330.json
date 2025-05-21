@@ -1,46 +1,25 @@
 [
     {
         "data": {
-            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
-            "id": "ACCTIS 100",
-            "parent": "ACCTIS",
-            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+            "description": "Concepts and techniques in corporate finance and investments. Topics include the financial environment, securities markets, financial markets, financial statements and analysis, working capital management, capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision-making under uncertainty, mergers, options, and futures.",
+            "id": "ECON/FINANCE 300",
+            "title": "INTRODUCTION TO FINANCE"
         }
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON/FINANCE 300"
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
         "data": {
-            "id": "FINANCE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 300"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ECON/FINANCE 300"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 300",
-            "target": "ECON/FINANCE 300"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
@@ -53,6 +32,14 @@
     },
     {
         "data": {
+            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
+            "id": "ACCTIS 100",
+            "parent": "ACCTIS",
+            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+        }
+    },
+    {
+        "data": {
             "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
             "id": "MATH 213",
             "parent": "MATH",
@@ -61,22 +48,34 @@
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
             "id": "ECON 111",
             "parent": "ECON",
             "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Pricing and uses of the most common derivatives including options, forward contracts, futures contracts, and swaps.",
+            "id": "FINANCE 330",
+            "parent": "FINANCE",
+            "title": "DERIVATIVE SECURITIES"
         }
     },
     {
@@ -93,50 +92,14 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 111"
+            "id": "ECON",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Pricing and uses of the most common derivatives including options, forward contracts, futures contracts, and swaps.",
-            "id": "FINANCE 330",
-            "parent": "FINANCE",
-            "title": "DERIVATIVE SECURITIES"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON/FINANCE 300",
-            "target": "FINANCE 330"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "FINANCE 330"
+            "id": "FINANCE",
+            "type": "compound"
         }
     },
     {
@@ -147,21 +110,32 @@
     },
     {
         "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 300"
+        }
+    },
+    {
+        "data": {
             "source": "ACCTIS 300",
             "target": "ACCTIS 100"
         }
     },
     {
         "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
+            "source": "ACCTIS 300",
+            "target": "ECON/FINANCE 300"
         }
     },
     {
         "data": {
-            "description": "Concepts and techniques in corporate finance and investments. Topics include the financial environment, securities markets, financial markets, financial statements and analysis, working capital management, capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision-making under uncertainty, mergers, options, and futures.",
-            "id": "ECON/FINANCE 300",
-            "title": "INTRODUCTION TO FINANCE"
+            "source": "ECON 101",
+            "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
@@ -172,10 +146,50 @@
     },
     {
         "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "FINANCE 330"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "FINANCE 330"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
         }
     }
 ]

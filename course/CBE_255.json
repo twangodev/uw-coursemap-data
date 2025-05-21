@@ -28,6 +28,39 @@
     },
     "description": "Introduction to modeling of chemical processes and introduction to using modern computational tools to analyze the models.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 250,
@@ -36,26 +69,90 @@
                 ]
             },
             {
-                "course_number": 376,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
             }
         ],
-        "prerequisites_text": "(CBE\u00a0250or concurrent enrollment) and (MATH\u00a0319,320,376, or concurrent enrollment)"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 250,
                 "subjects": [
                     "CBE"
                 ]
             },
+            " or concurrent enrollment) and (",
             {
                 "course_number": 319,
                 "subjects": [
                     "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or concurrent enrollment)"
+        ],
+        "prerequisites_text": "(CBE\u00a0250or concurrent enrollment) and (MATH\u00a0319,320,376, or concurrent enrollment)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 250,
+                "subjects": [
+                    "CBE"
                 ]
             },
             {
@@ -71,9 +168,58 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 250,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            " or concurrent enrollment) and (",
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or concurrent enrollment)"
+        ],
         "prerequisites_text": "(CBE\u00a0250or concurrent enrollment) and (MATH\u00a0319,320,376, or concurrent enrollment)"
     },
     "similar_courses": [
+        {
+            "course_number": 430,
+            "subjects": [
+                "CBE"
+            ]
+        },
+        {
+            "course_number": 731,
+            "subjects": [
+                "CBE"
+            ]
+        },
+        {
+            "course_number": 961,
+            "subjects": [
+                "CBE"
+            ]
+        },
         {
             "course_number": 310,
             "subjects": [
@@ -81,25 +227,7 @@
             ]
         },
         {
-            "course_number": 250,
-            "subjects": [
-                "CBE"
-            ]
-        },
-        {
             "course_number": 450,
-            "subjects": [
-                "CBE"
-            ]
-        },
-        {
-            "course_number": 750,
-            "subjects": [
-                "CBE"
-            ]
-        },
-        {
-            "course_number": 731,
             "subjects": [
                 "CBE"
             ]
@@ -884,27 +1012,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Katelyn DAHLKE": "KDAHLKE@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -916,7 +1023,7 @@
                 "instructors": {
                     "Brendan BLACKWELL": "BCBLACKWELL2@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",

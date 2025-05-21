@@ -1,77 +1,26 @@
 [
     {
         "data": {
-            "source": "STAT 371",
-            "target": "STAT 324"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI 310",
-            "target": "COMPSCI/ECE/ISYE 524"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI/ECE 252",
-            "target": "COMPSCI 300"
-        }
-    },
-    {
-        "data": {
-            "source": "ISYE 315",
-            "target": "ISYE/ME 510"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 320",
-            "target": "COMPSCI/ECE/ISYE 524"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "MATH 340"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 324",
-            "target": "ISYE 315"
-        }
-    },
-    {
-        "data": {
-            "description": "The theory of linear algebra with an introduction to proofs and proof writing. Topics include vector spaces, linear dependence, span, basis, linear transformations, kernel, image, inner products and inner product spaces, geometry, eigenvalues, eigenvectors, standard matrix factorizations. Other content includes basic set theory, logical operations, quantifiers, direct and indirect arguments, and induction. Differential equations [MATH\u00a0320] not covered.",
-            "id": "MATH 341",
+            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
+            "id": "MATH 320",
             "parent": "MATH",
-            "title": "LINEAR ALGEBRA"
+            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
         }
     },
     {
         "data": {
-            "source": "ISYE 323",
-            "target": "ISYE/ME 510"
+            "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
+            "id": "MATH 340",
+            "parent": "MATH",
+            "title": "ELEMENTARY MATRIX AND LINEAR ALGEBRA"
         }
     },
     {
         "data": {
-            "source": "COMPSCI 300",
-            "target": "COMPSCI/ECE/ISYE 524"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to mathematical optimization from a modeling and solution perspective. Formulation of applications as discrete and continuous optimization problems and equilibrium models. Survey and appropriate usage of basic algorithms, data and software tools, including modeling languages and subroutine libraries.",
-            "id": "COMPSCI/ECE/ISYE 524",
-            "title": "INTRODUCTION TO OPTIMIZATION"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI 200",
-            "target": "COMPSCI 300"
+            "description": "Basic techniques for modeling and optimizing deterministic systems with emphasis on linear programming. Computer solution of optimization problems. Applications to production, logistics, and service systems.",
+            "id": "ISYE 323",
+            "parent": "ISYE",
+            "title": "OPERATIONS RESEARCH-DETERMINISTIC MODELING"
         }
     },
     {
@@ -84,49 +33,72 @@
     },
     {
         "data": {
-            "description": "Logic components built with transistors, rudimentary Boolean algebra, basic combinational logic design, basic synchronous sequential logic design, basic computer organization and design, introductory machine- and assembly-language programming.",
-            "id": "COMPSCI/ECE 252",
-            "title": "INTRODUCTION TO COMPUTER ENGINEERING"
+            "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
+            "id": "STAT 324",
+            "parent": "STAT",
+            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
         }
     },
     {
         "data": {
-            "description": "Introduction to calculus of functions of several variables; calculus on parameterized curves, derivatives of functions of several variables, multiple integrals, vector calculus.",
-            "id": "MATH 234",
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
             "parent": "MATH",
-            "title": "CALCULUS--FUNCTIONS OF SEVERAL VARIABLES"
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
         "data": {
-            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
-            "id": "COMPSCI 220",
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
+        }
+    },
+    {
+        "data": {
+            "description": "Gives students an introduction to computer and analytical skills to use in their subsequent course work and professional development. Discusses several methods of using computers to solve problems, including elementary programming techniques, symbolic manipulation languages, and software packages. Techniques will be illustrated using sample problems drawn from elementary engineering. Emphasis is on introduction of algorithms with the use of specific tools to illustrate the methods.",
+            "id": "COMPSCI 310",
             "parent": "COMPSCI",
-            "title": "DATA SCIENCE PROGRAMMING I"
+            "title": "PROBLEM SOLVING USING COMPUTERS"
         }
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
+            "description": "Introduction to basic probability and statistical tools and methods from an industrial application perspective. Random variables and probability distributions; descriptive statistics; point estimates. Perform hypothesis testing, construct confidence intervals, and understand design of experiments in the context of motivating case studies. Regression and correlation analysis. Focus on applying statistical methods and tools to solve engineering problems. Use of Microsoft Excel to interpret and analyze data.",
+            "id": "ISYE 210",
+            "parent": "ISYE",
+            "title": "INTRODUCTION TO INDUSTRIAL STATISTICS"
         }
     },
     {
         "data": {
-            "source": "COMPSCI 310",
-            "target": "COMPSCI 300"
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
         }
     },
     {
         "data": {
-            "source": "MATH 234",
-            "target": "MATH 341"
+            "description": "Introduction to mathematical optimization from a modeling and solution perspective. Formulation of applications as discrete and continuous optimization problems and equilibrium models. Survey and appropriate usage of basic algorithms, data and software tools, including modeling languages and subroutine libraries.",
+            "id": "COMPSCI/ECE/ISYE 524",
+            "title": "INTRODUCTION TO OPTIMIZATION"
         }
     },
     {
         "data": {
-            "source": "MATH 340",
-            "target": "ISYE 323"
+            "description": "Introduction to modern statistical practice in the life sciences, using the R programming language. Topics include: exploratory data analysis, probability and random variables; one-sample testing and confidence intervals, role of assumptions, sample size determination, two-sample inference; basic ideas in experimental design, analysis of variance, linear regression, goodness-of fit; biological applications.",
+            "id": "STAT 371",
+            "parent": "STAT",
+            "title": "INTRODUCTORY APPLIED STATISTICS FOR THE LIFE SCIENCES"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to plant location theory and analysis of models of plant location; models for determining plant size and time phasing; line balancing models; techniques for investigating conveyor and other material handling problems; and models of plant layout.",
+            "id": "ISYE/ME 510",
+            "title": "FACILITIES PLANNING"
         }
     },
     {
@@ -139,10 +111,10 @@
     },
     {
         "data": {
-            "description": "Gives students an introduction to computer and analytical skills to use in their subsequent course work and professional development. Discusses several methods of using computers to solve problems, including elementary programming techniques, symbolic manipulation languages, and software packages. Techniques will be illustrated using sample problems drawn from elementary engineering. Emphasis is on introduction of algorithms with the use of specific tools to illustrate the methods.",
-            "id": "COMPSCI 310",
-            "parent": "COMPSCI",
-            "title": "PROBLEM SOLVING USING COMPUTERS"
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -163,104 +135,16 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "MATH 234"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "STAT 371"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to basic probability and statistical tools and methods from an industrial application perspective. Random variables and probability distributions; descriptive statistics; point estimates. Perform hypothesis testing, construct confidence intervals, and understand design of experiments in the context of motivating case studies. Regression and correlation analysis. Focus on applying statistical methods and tools to solve engineering problems. Use of Microsoft Excel to interpret and analyze data.",
-            "id": "ISYE 210",
-            "parent": "ISYE",
-            "title": "INTRODUCTION TO INDUSTRIAL STATISTICS"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
+            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
+            "id": "MATH 375",
             "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
         "data": {
-            "description": "Introduction to modern statistical practice in the life sciences, using the R programming language. Topics include: exploratory data analysis, probability and random variables; one-sample testing and confidence intervals, role of assumptions, sample size determination, two-sample inference; basic ideas in experimental design, analysis of variance, linear regression, goodness-of fit; biological applications.",
-            "id": "STAT 371",
-            "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR THE LIFE SCIENCES"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI 220",
-            "target": "COMPSCI 300"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI/ECE/ISYE 524",
-            "target": "ISYE/ME 510"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "ISYE 210"
-        }
-    },
-    {
-        "data": {
-            "description": "Basic techniques for modeling and optimizing deterministic systems with emphasis on linear programming. Computer solution of optimization problems. Applications to production, logistics, and service systems.",
-            "id": "ISYE 323",
-            "parent": "ISYE",
-            "title": "OPERATIONS RESEARCH-DETERMINISTIC MODELING"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "COMPSCI 310"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
-            "id": "MATH 320",
-            "parent": "MATH",
-            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to Object-Oriented Programming using classes and objects to solve more complex problems. Introduces array-based and linked data structures: including lists, stacks, and queues. Programming assignments require writing and developing multi-class (file) programs using interfaces, generics, and exception handling to solve challenging real world problems. Topics reviewed include reading/writing data and objects from/to files and exception handling, and command line arguments. Topics introduced: object-oriented design; class vs. object; create and define interfaces and iterators; searching and sorting; abstract data types (List,Stack,Queue,PriorityQueue(Heap),Binary Search Tree); generic interfaces (parametric polymorphism); how to design and write test methods and classes; array based vs. linked node implementations; introduction to complexity analysis; recursion.",
-            "id": "COMPSCI 300",
-            "parent": "COMPSCI",
-            "title": "PROGRAMMING II"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 341",
-            "target": "ISYE 323"
+            "id": "COMPSCI",
+            "type": "compound"
         }
     },
     {
@@ -271,35 +155,85 @@
     },
     {
         "data": {
-            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
-            "id": "MATH 171",
-            "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
+            "id": "ISYE",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
+            "id": "MATH",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "source": "STAT 324",
+            "id": "STAT",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 200",
+            "target": "COMPSCI/ECE/ISYE 524"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 310",
+            "target": "COMPSCI/ECE/ISYE 524"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI/ECE/ISYE 524",
+            "target": "ISYE/ME 510"
+        }
+    },
+    {
+        "data": {
+            "source": "ISYE 210",
+            "target": "ISYE 315"
+        }
+    },
+    {
+        "data": {
+            "source": "ISYE 315",
+            "target": "ISYE/ME 510"
+        }
+    },
+    {
+        "data": {
+            "source": "ISYE 323",
+            "target": "ISYE/ME 510"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
             "target": "STAT 371"
         }
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "MATH 320"
+            "source": "MATH 211",
+            "target": "ISYE 210"
         }
     },
     {
         "data": {
-            "source": "MATH 221",
+            "source": "MATH 211",
+            "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
             "target": "STAT 371"
         }
     },
@@ -311,81 +245,80 @@
     },
     {
         "data": {
-            "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
-            "id": "STAT 324",
-            "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 171",
-            "target": "STAT 371"
-        }
-    },
-    {
-        "data": {
-            "source": "ISYE 210",
-            "target": "ISYE 315"
-        }
-    },
-    {
-        "data": {
-            "id": "STAT",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
-            "id": "MATH 340",
-            "parent": "MATH",
-            "title": "ELEMENTARY MATRIX AND LINEAR ALGEBRA"
-        }
-    },
-    {
-        "data": {
-            "id": "MATH",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 221",
             "target": "MATH 211"
         }
     },
     {
         "data": {
-            "id": "COMPSCI",
-            "type": "compound"
+            "source": "MATH 221",
+            "target": "MATH 222"
         }
     },
     {
         "data": {
-            "description": "Introduction to plant location theory and analysis of models of plant location; models for determining plant size and time phasing; line balancing models; techniques for investigating conveyor and other material handling problems; and models of plant layout.",
-            "id": "ISYE/ME 510",
-            "title": "FACILITIES PLANNING"
+            "source": "MATH 221",
+            "target": "STAT 371"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "COMPSCI 310"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 340"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 320",
+            "target": "COMPSCI/ECE/ISYE 524"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 340",
+            "target": "ISYE 323"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 375",
+            "target": "ISYE 323"
         }
     },
     {
         "data": {
             "source": "MATH 96",
-            "target": "MATH 171"
+            "target": "MATH 112"
         }
     },
     {
         "data": {
-            "id": "ISYE",
-            "type": "compound"
+            "source": "STAT 324",
+            "target": "ISYE 315"
         }
     },
     {
         "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "source": "STAT 324",
+            "target": "STAT 371"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 371",
+            "target": "STAT 324"
         }
     }
 ]

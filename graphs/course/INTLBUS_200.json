@@ -1,22 +1,10 @@
 [
     {
         "data": {
-            "description": "Technology, privatization, deregulation and other government policies, and growth of a mass culture are among the factors that drive global business today. Introduction to the key concepts necessary to understand the functioning of global markets and the inherent issues managers face in planning and executing international business strategies for products, services and investments.",
-            "id": "INTLBUS 200",
-            "parent": "INTLBUS",
-            "title": "INTERNATIONAL BUSINESS"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "INTLBUS 200"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
@@ -29,6 +17,28 @@
     },
     {
         "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Technology, privatization, deregulation and other government policies, and growth of a mass culture are among the factors that drive global business today. Introduction to the key concepts necessary to understand the functioning of global markets and the inherent issues managers face in planning and executing international business strategies for products, services and investments.",
+            "id": "INTLBUS 200",
+            "parent": "INTLBUS",
+            "title": "INTERNATIONAL BUSINESS"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "INTLBUS",
             "type": "compound"
         }
@@ -36,21 +46,25 @@
     {
         "data": {
             "source": "ECON 101",
-            "target": "ECON 111"
+            "target": "INTLBUS 200"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
         }
     }
 ]

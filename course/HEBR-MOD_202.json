@@ -28,6 +28,25 @@
     },
     "description": "Readings from modern Hebrew texts, intermediate grammar and syntax, development of oral proficiency, emphasis on class discussions.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        "placement into",
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 201,
@@ -36,12 +55,61 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 201,
+                "subjects": [
+                    "HEBR-MOD"
+                ]
+            },
+            " or placement into ",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "HEBR-MOD"
+                ]
+            }
+        ],
         "prerequisites_text": "HEBR-MOD\u00a0201or placement intoHEBR-MOD\u00a0202"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        "placement into",
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 201,
+                "subjects": [
+                    "HEBR-MOD"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 201,
+                "subjects": [
+                    "HEBR-MOD"
+                ]
+            },
+            " or placement into ",
+            {
+                "course_number": 202,
                 "subjects": [
                     "HEBR-MOD"
                 ]
@@ -51,20 +119,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 401,
-            "subjects": [
-                "HEBR-MOD",
-                "JEWISH"
-            ]
-        },
-        {
-            "course_number": 311,
+            "course_number": 201,
             "subjects": [
                 "HEBR-MOD"
             ]
         },
         {
-            "course_number": 310,
+            "course_number": 311,
             "subjects": [
                 "HEBR-MOD"
             ]
@@ -76,7 +137,13 @@
             ]
         },
         {
-            "course_number": 201,
+            "course_number": 101,
+            "subjects": [
+                "HEBR-MOD"
+            ]
+        },
+        {
+            "course_number": 310,
             "subjects": [
                 "HEBR-MOD"
             ]
@@ -282,27 +349,6 @@
                 "total": 6,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Judith Sone": "JSONE@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

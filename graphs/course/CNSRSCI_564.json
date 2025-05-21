@@ -1,62 +1,10 @@
 [
     {
         "data": {
-            "description": "Foundational knowledge of the retail industry including the retail process, the evolution of the industry, key drivers and trends to provide a framework and set of concepts that will support the remainder of the core retail courses.",
-            "id": "CNSRSCI 257",
-            "parent": "CNSRSCI",
-            "title": "INTRODUCTION TO RETAIL"
-        }
-    },
-    {
-        "data": {
-            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
-            "id": "ACCTIS 100",
-            "parent": "ACCTIS",
-            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
-        }
-    },
-    {
-        "data": {
-            "id": "CNSRSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Part of a two course sequence introducing non-business students to basic concepts, practices and analytical methods that are part of the market enterprise system. This course is a basic overview on: accounting, finance, and business law.",
-            "id": "GENBUS 310",
+            "description": "Build fundamental skills and processes to develop a strong foundation in business analysis utilizing Excel. Learn the fundamentals of data construction, manipulation, summarization, analysis and presentation.",
+            "id": "GENBUS 106",
             "parent": "GENBUS",
-            "title": "FUNDAMENTALS OF ACCOUNTING AND FINANCE FOR NON-BUSINESS MAJORS"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 300",
-            "target": "ACCTIS 100"
-        }
-    },
-    {
-        "data": {
-            "source": "CNSRSCI 257",
-            "target": "CNSRSCI 564"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 300",
-            "target": "CNSRSCI 564"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 300"
-        }
-    },
-    {
-        "data": {
-            "id": "ACCTIS",
-            "type": "compound"
+            "title": "FOUNDATIONAL SKILLS FOR BUSINESS ANALYSIS"
         }
     },
     {
@@ -69,8 +17,18 @@
     },
     {
         "data": {
-            "source": "GENBUS 310",
-            "target": "CNSRSCI 564"
+            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
+            "id": "ACCTIS 100",
+            "parent": "ACCTIS",
+            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+        }
+    },
+    {
+        "data": {
+            "description": "Foundational knowledge of the retail industry including the retail process, the evolution of the industry, key drivers and trends to provide a framework and set of concepts that will support the remainder of the core retail courses.",
+            "id": "CNSRSCI 257",
+            "parent": "CNSRSCI",
+            "title": "INTRODUCTION TO RETAIL"
         }
     },
     {
@@ -83,8 +41,50 @@
     },
     {
         "data": {
+            "id": "ACCTIS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CNSRSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "GENBUS",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 300",
+            "target": "ACCTIS 100"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 300",
+            "target": "CNSRSCI 564"
+        }
+    },
+    {
+        "data": {
+            "source": "CNSRSCI 257",
+            "target": "CNSRSCI 564"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 106",
+            "target": "CNSRSCI 564"
         }
     }
 ]

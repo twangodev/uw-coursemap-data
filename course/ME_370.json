@@ -28,6 +28,35 @@
     },
     "description": "Experimental evaluation and analysis of performance of various energy conversion systems such as turbines, compressors, refrigerators, fans, and internal combustion engines.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 368,
@@ -36,22 +65,80 @@
                 ]
             },
             {
-                "course_number": 364,
+                "course_number": 363,
                 "subjects": [
                     "ME"
                 ]
             },
             {
-                "course_number": 363,
+                "course_number": 364,
                 "subjects": [
                     "ME"
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 363,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 364,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or concurrent enrollment) and (",
+            {
+                "course_number": 368,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or concurrent enrollment)"
+        ],
         "prerequisites_text": "M\u00a0E\u00a0363and (M\u00a0E\u00a0364or concurrent enrollment) and (M\u00a0E\u00a0368or concurrent enrollment)"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
+            {
+                "course_number": 363,
+                "subjects": [
+                    "ME"
+                ]
+            },
             {
                 "course_number": 364,
                 "subjects": [
@@ -63,33 +150,44 @@
                 "subjects": [
                     "ME"
                 ]
-            },
+            }
+        ],
+        "linked_requisite_text": [
             {
                 "course_number": 363,
                 "subjects": [
                     "ME"
                 ]
-            }
+            },
+            " and (",
+            {
+                "course_number": 364,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or concurrent enrollment) and (",
+            {
+                "course_number": 368,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or concurrent enrollment)"
         ],
         "prerequisites_text": "M\u00a0E\u00a0363and (M\u00a0E\u00a0364or concurrent enrollment) and (M\u00a0E\u00a0368or concurrent enrollment)"
     },
     "similar_courses": [
         {
-            "course_number": 471,
+            "course_number": 461,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 504,
+            "course_number": 471,
             "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 355,
-            "subjects": [
-                "ECE"
+                "ME"
             ]
         },
         {
@@ -101,7 +199,13 @@
         {
             "course_number": 361,
             "subjects": [
-                "ME"
+                "EPD"
+            ]
+        },
+        {
+            "course_number": 355,
+            "subjects": [
+                "ECE"
             ]
         }
     ],
@@ -244,8 +348,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DANNY AERTS",
-                    "Jaal GHANDHI"
+                    "Jaal GHANDHI",
+                    "DANNY AERTS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -295,9 +399,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KEVIN MYERS",
                     "DANIEL O'CONNOR",
                     "DANNY AERTS",
+                    "KEVIN MYERS",
                     "Tom KRUPENKIN"
                 ],
                 "no_credit": 0,
@@ -424,8 +528,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DANNY AERTS",
-                    "Jaal GHANDHI"
+                    "Jaal GHANDHI",
+                    "DANNY AERTS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -990,34 +1094,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "ARGANTHAEL BERSON": "ARGANTHAEL.BERSON@WISC.EDU",
-                    "Diprajit Biswas": "DIPRAJIT.BISWAS@WISC.EDU",
-                    "Eli Gaeta": "EGAETA2@WISC.EDU",
-                    "Irfan Muzhaffar": "MUZHAFFAR@WISC.EDU",
-                    "Luca MASTROPASQUA": "LMASTROPASQU@WISC.EDU",
-                    "MOHAMMAD THAJMEEL Saigu Abdul Khader": "SAIGUABDULKH@WISC.EDU",
-                    "Shardul Shrikhande": "SSHRIKHANDE@WISC.EDU",
-                    "Tom KRUPENKIN": "TNK@ENGR.WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -1029,7 +1105,7 @@
                 "instructors": {
                     "Tom KRUPENKIN": "TNK@ENGR.WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",

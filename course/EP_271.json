@@ -28,28 +28,48 @@
     },
     "description": "Solution of engineering problems using commercially-available software tools (spreadsheets, symbolic manipulators, and equation solvers). The emphasis will be on nuclear engineering problems, including radioactive decay, nuclear cross sections, scattering, and criticality.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 201,
                 "subjects": [
                     "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "prerequisites_text": "MATH\u00a0222and (E\u00a0M\u00a0A\u00a0201,PHYSICS\u00a0201,207,247, or concurrent enrollment) or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
                 ]
             },
             {
@@ -57,7 +77,86 @@
                 "subjects": [
                     "PHYSICS"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
             },
+            " and (",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 207,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or concurrent enrollment) or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "MATH\u00a0222and (E\u00a0M\u00a0A\u00a0201,PHYSICS\u00a0201,207,247, or concurrent enrollment) or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 207,
                 "subjects": [
@@ -75,30 +174,77 @@
                 "subjects": [
                     "EMA"
                 ]
+            },
+            {
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 207,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or concurrent enrollment) or member of Engineering Guest Students"
         ],
         "prerequisites_text": "MATH\u00a0222and (E\u00a0M\u00a0A\u00a0201,PHYSICS\u00a0201,207,247, or concurrent enrollment) or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 547,
+            "course_number": 231,
             "subjects": [
-                "EP",
-                "EMA"
+                "NE"
+            ]
+        },
+        {
+            "course_number": 273,
+            "subjects": [
+                "ME"
             ]
         },
         {
             "course_number": 291,
             "subjects": [
-                "GLE",
-                "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 471,
-            "subjects": [
-                "EP",
-                "EMA"
+                "CIVENGR",
+                "GLE"
             ]
         },
         {
@@ -108,9 +254,10 @@
             ]
         },
         {
-            "course_number": 273,
+            "course_number": 471,
             "subjects": [
-                "ME"
+                "EP",
+                "EMA"
             ]
         }
     ],
@@ -414,25 +561,6 @@
                 "total": 47,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2024",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall"
-            },
-            "grade_data": null
         },
         "1262": {
             "enrollment_data": {

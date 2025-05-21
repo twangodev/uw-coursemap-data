@@ -28,6 +28,28 @@
     },
     "description": "Emphasizes the symmetry, structure and bonding of inorganic compounds. Selected topics may include applications in transition metal chemistry, organometallic chemistry, industrial catalysis, advanced bioinorganic chemistry, solid-state chemistry or main group chemistry.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                "concurrent enrollment",
+                                "junior standing"
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 345,
@@ -36,9 +58,41 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 345,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            " or concurrent enrollment and junior standing) or graduate/professional standing"
+        ],
         "prerequisites_text": "(CHEM\u00a0345or concurrent enrollment and junior standing) or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                "concurrent enrollment",
+                                "junior standing"
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 345,
@@ -46,24 +100,22 @@
                     "CHEM"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 345,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            " or concurrent enrollment and junior standing) or graduate/professional standing"
         ],
         "prerequisites_text": "(CHEM\u00a0345or concurrent enrollment and junior standing) or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 801,
-            "subjects": [
-                "CHEM"
-            ]
-        },
-        {
             "course_number": 652,
-            "subjects": [
-                "CHEM"
-            ]
-        },
-        {
-            "course_number": 641,
             "subjects": [
                 "CHEM"
             ]
@@ -76,6 +128,18 @@
         },
         {
             "course_number": 311,
+            "subjects": [
+                "CHEM"
+            ]
+        },
+        {
+            "course_number": 801,
+            "subjects": [
+                "CHEM"
+            ]
+        },
+        {
+            "course_number": 713,
             "subjects": [
                 "CHEM"
             ]
@@ -145,8 +209,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DIANE NUTBROWN",
-                    "JUDITH BURSTYN"
+                    "JUDITH BURSTYN",
+                    "DIANE NUTBROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -171,8 +235,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "XUAN YE",
-                    "Shannon STAHL"
+                    "Shannon STAHL",
+                    "XUAN YE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -272,8 +336,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN BERRY",
-                    "YEVGENIYA TUROV"
+                    "YEVGENIYA TUROV",
+                    "JOHN BERRY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -634,27 +698,6 @@
                 "total": 9,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "THOMAS BRUNOLD": "BRUNOLD@CHEM.WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

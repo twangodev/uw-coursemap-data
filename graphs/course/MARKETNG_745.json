@@ -1,6 +1,46 @@
 [
     {
         "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "High-level introduction to concepts and practices in business. Overview of management, marketing, strategy, entrepreneurship, ethics, supply chain, and international business.",
+            "id": "GENBUS 311",
+            "parent": "GENBUS",
+            "title": "FUNDAMENTALS OF MANAGEMENT AND MARKETING FOR NON-BUSINESS MAJORS"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduces business analytic techniques applied in the context of digital marketing.  Includes approaches to design, run, evaluate, and improve online marketing tactics in order to meet specific business objectives such as customer acquisition. Covers digital analytics methods and execution of marketing tactics with data-driven techniques. Emphasizes the implementation of analytic skills on practical problems.",
+            "id": "MARKETNG 745",
+            "parent": "MARKETNG",
+            "title": "DIGITAL MARKETING ANALYTICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
+        }
+    },
+    {
+        "data": {
             "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
             "id": "MARKETNG 300",
             "parent": "MARKETNG",
@@ -17,16 +57,8 @@
     },
     {
         "data": {
-            "description": "High-level introduction to concepts and practices in business. Overview of management, marketing, strategy, entrepreneurship, ethics, supply chain, and international business.",
-            "id": "GENBUS 311",
-            "parent": "GENBUS",
-            "title": "FUNDAMENTALS OF MANAGEMENT AND MARKETING FOR NON-BUSINESS MAJORS"
-        }
-    },
-    {
-        "data": {
-            "source": "MARKETNG 700",
-            "target": "MARKETNG 745"
+            "id": "ECON",
+            "type": "compound"
         }
     },
     {
@@ -49,44 +81,20 @@
     },
     {
         "data": {
-            "id": "ECON",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
-            "id": "ECON 111",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
-        }
-    },
-    {
-        "data": {
-            "source": "MARKETNG 300",
-            "target": "MARKETNG 745"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
+            "source": "ECON 102",
             "target": "ECON 111"
         }
     },
     {
         "data": {
-            "description": "Introduces business analytic techniques applied in the context of digital marketing.  Includes approaches to design, run, evaluate, and improve online marketing tactics in order to meet specific business objectives such as customer acquisition. Covers digital analytics methods and execution of marketing tactics with data-driven techniques. Emphasizes the implementation of analytic skills on practical problems.",
-            "id": "MARKETNG 745",
-            "parent": "MARKETNG",
-            "title": "DIGITAL MARKETING ANALYTICS"
+            "source": "ECON 111",
+            "target": "ECON 101"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "source": "ECON 111",
+            "target": "ECON 102"
         }
     },
     {
@@ -97,8 +105,14 @@
     },
     {
         "data": {
-            "source": "ECON 111",
-            "target": "ECON 101"
+            "source": "MARKETNG 300",
+            "target": "MARKETNG 745"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 700",
+            "target": "MARKETNG 745"
         }
     }
 ]

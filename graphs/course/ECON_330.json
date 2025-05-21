@@ -1,14 +1,10 @@
 [
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 330"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
@@ -29,12 +25,6 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 102"
-        }
-    },
-    {
-        "data": {
             "description": "Monetary economics; the role of money in the determination of output, prices and interest rates; commercial and central banking, monetary policy, the international monetary system.",
             "id": "ECON 330",
             "parent": "ECON",
@@ -43,7 +33,19 @@
     },
     {
         "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "ECON 101",
+            "target": "ECON 330"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
             "target": "ECON 111"
         }
     },
@@ -55,16 +57,14 @@
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "source": "ECON 111",
+            "target": "ECON 101"
         }
     },
     {
         "data": {
             "source": "ECON 111",
-            "target": "ECON 101"
+            "target": "ECON 102"
         }
     }
 ]

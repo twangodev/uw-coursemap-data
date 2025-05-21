@@ -28,6 +28,41 @@
     },
     "description": "Covers growth and development of an animal from a single cell to an organism and factors such as nutrition, hormone, genetics and gut microbials influencing growth and development in both cell and tissue levels. Includes the molecular and cellular basis of prenatal and postnatal growth and development. Focuses on development and growth of tissues including muscle, adipose, connective, mammary, and bone tissues that are associated with animal production. Also includes the use of growth promotants in livestock to improve growth performance and increase the quality of carcasses and animal production.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 102,
@@ -52,17 +87,8 @@
                 ]
             }
         ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151and152), (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), orBIOCORE\u00a0383"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 151,
                 "subjects": [
@@ -71,9 +97,90 @@
                     "BIOLOGY"
                 ]
             },
+            " and ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), (",
             {
                 "course_number": 101,
                 "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), or ",
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            }
+        ],
+        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151and152), (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), orBIOCORE\u00a0383"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
@@ -85,11 +192,60 @@
                 ]
             },
             {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
                 "course_number": 152,
                 "subjects": [
                     "BOTANY",
                     "ZOOLOGY",
                     "BIOLOGY"
+                ]
+            },
+            "), (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), or ",
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
                 ]
             }
         ],
@@ -97,14 +253,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 361,
-            "subjects": [
-                "ANSCI",
-                "DYSCI"
-            ]
-        },
-        {
-            "course_number": 373,
+            "course_number": 101,
             "subjects": [
                 "ANSCI",
                 "DYSCI"
@@ -118,16 +267,21 @@
             ]
         },
         {
-            "course_number": 415,
+            "course_number": 375,
             "subjects": [
                 "ANSCI"
             ]
         },
         {
-            "course_number": 363,
+            "course_number": 420,
             "subjects": [
-                "ANSCI",
-                "DYSCI"
+                "ANSCI"
+            ]
+        },
+        {
+            "course_number": 415,
+            "subjects": [
+                "ANSCI"
             ]
         }
     ],

@@ -1,6 +1,53 @@
 [
     {
         "data": {
+            "description": "Basic biology of microorganisms, including structure, function, physiology, genetics, ecology, diversity, and evolution.",
+            "id": "MICROBIO 303",
+            "parent": "MICROBIO",
+            "title": "BIOLOGY OF MICROORGANISMS"
+        }
+    },
+    {
+        "data": {
+            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
+            "id": "BIOCORE 381",
+            "parent": "BIOCORE",
+            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Cellular and molecular basis of life. The main themes are the structure and function of cells and organelles, the flow of energy in cells, and the storage, expression, and regulation of genetic information.",
+            "id": "BIOCORE 383",
+            "parent": "BIOCORE",
+            "title": "CELLULAR BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers techniques and procedures used in general microbiology, including cultivation, enumeration, aseptic techniques, physiology and selected applications.",
+            "id": "MICROBIO 102",
+            "parent": "MICROBIO",
+            "title": "GENERAL MICROBIOLOGY LABORATORY"
+        }
+    },
+    {
+        "data": {
+            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
+            "id": "BIOLOGY/ZOOLOGY 101",
+            "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to modern laboratory techniques used to study the distribution and properties of microorganisms.",
+            "id": "MICROBIO 304",
+            "parent": "MICROBIO",
+            "title": "BIOLOGY OF MICROORGANISMS LABORATORY"
+        }
+    },
+    {
+        "data": {
             "description": "Introduction to the basic principles and concepts of the biology of plants. an integrative approach stressing evolutionary sequences and the relationship between structure and function at succeeding levels of organization: molecule, cell, organism, population, community. Correlated lectures, laboratories, and discussions.",
             "id": "BIOLOGY/BOTANY 130",
             "title": "GENERAL BOTANY"
@@ -15,55 +62,32 @@
     },
     {
         "data": {
+            "id": "BIOCORE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "MICROBIO",
             "type": "compound"
         }
     },
     {
         "data": {
-            "source": "MICROBIO 303",
-            "target": "MICROBIO 304"
+            "source": "BIOCORE 381",
+            "target": "BIOCORE 383"
         }
     },
     {
         "data": {
-            "description": "Introduction to modern laboratory techniques used to study the distribution and properties of microorganisms.",
-            "id": "MICROBIO 304",
-            "parent": "MICROBIO",
-            "title": "BIOLOGY OF MICROORGANISMS LABORATORY"
-        }
-    },
-    {
-        "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Covers techniques and procedures used in general microbiology, including cultivation, enumeration, aseptic techniques, physiology and selected applications.",
-            "id": "MICROBIO 102",
-            "parent": "MICROBIO",
-            "title": "GENERAL MICROBIOLOGY LABORATORY"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
+            "source": "BIOCORE 383",
             "target": "MICROBIO 303"
-        }
-    },
-    {
-        "data": {
-            "source": "MICROBIO 304",
-            "target": "MICROBIO 102"
         }
     },
     {
@@ -75,13 +99,13 @@
     {
         "data": {
             "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "MICROBIO 303"
+            "target": "BIOLOGY/ZOOLOGY 101"
         }
     },
     {
         "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "MICROBIO 303"
         }
     },
     {
@@ -92,10 +116,14 @@
     },
     {
         "data": {
-            "description": "Basic biology of microorganisms, including structure, function, physiology, genetics, ecology, diversity, and evolution.",
-            "id": "MICROBIO 303",
-            "parent": "MICROBIO",
-            "title": "BIOLOGY OF MICROORGANISMS"
+            "source": "MICROBIO 303",
+            "target": "MICROBIO 304"
+        }
+    },
+    {
+        "data": {
+            "source": "MICROBIO 304",
+            "target": "MICROBIO 102"
         }
     }
 ]

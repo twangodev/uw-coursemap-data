@@ -28,6 +28,32 @@
     },
     "description": "Covers the origins of nuclear weapons, the reasons states seek them, the strategies developed for their use, the consequences of their development, and efforts to control and reverse their spread.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "POLI SCI 103 taken prior to fall 2017",
+                "graduate standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 140,
@@ -42,40 +68,94 @@
                 ]
             }
         ],
-        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0140orINTL\u00a0ST\u00a0101) or (POLI SCI 103 taken prior to fall 2017) or graduate standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 140,
+                "subjects": [
+                    "POLISCI"
+                ]
+            },
+            " or ",
             {
                 "course_number": 101,
                 "subjects": [
                     "INTLST"
                 ]
             },
+            ") or (POLI SCI 103 taken prior to fall 2017) or graduate standing"
+        ],
+        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0140orINTL\u00a0ST\u00a0101) or (POLI SCI 103 taken prior to fall 2017) or graduate standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "POLI SCI 103 taken prior to fall 2017",
+                "graduate standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 140,
                 "subjects": [
                     "POLISCI"
                 ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "INTLST"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 140,
+                "subjects": [
+                    "POLISCI"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "INTLST"
+                ]
+            },
+            ") or (POLI SCI 103 taken prior to fall 2017) or graduate standing"
         ],
         "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0140orINTL\u00a0ST\u00a0101) or (POLI SCI 103 taken prior to fall 2017) or graduate standing"
     },
     "similar_courses": [
         {
-            "course_number": 945,
+            "course_number": 960,
             "subjects": [
                 "POLISCI"
             ]
         },
         {
-            "course_number": 358,
-            "subjects": [
-                "POLISCI"
-            ]
-        },
-        {
-            "course_number": 359,
+            "course_number": 140,
             "subjects": [
                 "POLISCI"
             ]
@@ -87,7 +167,13 @@
             ]
         },
         {
-            "course_number": 140,
+            "course_number": 940,
+            "subjects": [
+                "POLISCI"
+            ]
+        },
+        {
+            "course_number": 347,
             "subjects": [
                 "POLISCI"
             ]
@@ -257,8 +343,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Andrew KYDD",
-                    "TIMOTHY WILLIAMS"
+                    "TIMOTHY WILLIAMS",
+                    "Andrew KYDD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -395,25 +481,6 @@
                 "total": 45,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Spring 2024",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
         }
     }
 }

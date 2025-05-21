@@ -1,26 +1,18 @@
 [
     {
         "data": {
-            "id": "HEBR-MOD",
-            "type": "compound"
+            "description": "Basic communication skills; speaking, reading, writing modern Hebrew; elements of grammar and syntax.",
+            "id": "HEBR-MOD 101",
+            "parent": "HEBR-MOD",
+            "title": "FIRST SEMESTER HEBREW"
         }
     },
     {
         "data": {
-            "source": "HEBR-MOD 201",
-            "target": "HEBR-MOD 202"
-        }
-    },
-    {
-        "data": {
-            "source": "HEBR-MOD 102",
-            "target": "HEBR-MOD 201"
-        }
-    },
-    {
-        "data": {
-            "source": "HEBR-MOD 101",
-            "target": "HEBR-MOD 102"
+            "description": "Basic communication skills; speaking, reading, writing modern Hebrew; elements of grammar and syntax.",
+            "id": "HEBR-MOD 102",
+            "parent": "HEBR-MOD",
+            "title": "SECOND SEMESTER HEBREW"
         }
     },
     {
@@ -41,18 +33,26 @@
     },
     {
         "data": {
-            "description": "Basic communication skills; speaking, reading, writing modern Hebrew; elements of grammar and syntax.",
-            "id": "HEBR-MOD 101",
-            "parent": "HEBR-MOD",
-            "title": "FIRST SEMESTER HEBREW"
+            "id": "HEBR-MOD",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "description": "Basic communication skills; speaking, reading, writing modern Hebrew; elements of grammar and syntax.",
-            "id": "HEBR-MOD 102",
-            "parent": "HEBR-MOD",
-            "title": "SECOND SEMESTER HEBREW"
+            "source": "HEBR-MOD 101",
+            "target": "HEBR-MOD 102"
+        }
+    },
+    {
+        "data": {
+            "source": "HEBR-MOD 102",
+            "target": "HEBR-MOD 201"
+        }
+    },
+    {
+        "data": {
+            "source": "HEBR-MOD 201",
+            "target": "HEBR-MOD 202"
         }
     }
 ]

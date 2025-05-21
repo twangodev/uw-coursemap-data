@@ -1,28 +1,17 @@
 [
     {
         "data": {
-            "source": "LINGUIS 101",
-            "target": "LINGUIS 310"
-        }
-    },
-    {
-        "data": {
-            "description": "In-depth exploration of a particular topic in linguistics. Training in data collection methodologies. Experience gathering, organizing, and analyzing linguistic data as part of a supervised research project.",
-            "id": "LINGUIS 690",
+            "description": "Analysis and formal statement of phonological systems; problems and methods of phonological theory.",
+            "id": "LINGUIS 310",
             "parent": "LINGUIS",
-            "title": "CAPSTONE IN LINGUISTICS"
+            "title": "PHONOLOGY"
         }
     },
     {
         "data": {
-            "source": "LINGUIS 330",
-            "target": "LINGUIS 690"
-        }
-    },
-    {
-        "data": {
-            "source": "ANTHRO/LINGUIS 301",
-            "target": "LINGUIS 101"
+            "description": "Elementary theory and practical work in phonetics, phonology, morphology, and syntax, with attention to formal grammar.",
+            "id": "ANTHRO/LINGUIS 301",
+            "title": "INTRODUCTION TO LINGUISTICS: DESCRIPTIVE AND THEORETICAL"
         }
     },
     {
@@ -35,27 +24,18 @@
     },
     {
         "data": {
-            "description": "Elementary theory and practical work in phonetics, phonology, morphology, and syntax, with attention to formal grammar.",
-            "id": "ANTHRO/LINGUIS 301",
-            "title": "INTRODUCTION TO LINGUISTICS: DESCRIPTIVE AND THEORETICAL"
+            "description": "Grammatical theory; types of elements and processes usable in syntactic description of various sorts.",
+            "id": "LINGUIS 330",
+            "parent": "LINGUIS",
+            "title": "SYNTAX"
         }
     },
     {
         "data": {
-            "id": "LINGUIS",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "LINGUIS 101",
-            "target": "ANTHRO/LINGUIS 301"
-        }
-    },
-    {
-        "data": {
-            "source": "ANTHRO/LINGUIS 301",
-            "target": "LINGUIS 330"
+            "description": "In-depth exploration of a particular topic in linguistics. Training in data collection methodologies. Experience gathering, organizing, and analyzing linguistic data as part of a supervised research project.",
+            "id": "LINGUIS 690",
+            "parent": "LINGUIS",
+            "title": "CAPSTONE IN LINGUISTICS"
         }
     },
     {
@@ -66,24 +46,44 @@
     },
     {
         "data": {
+            "id": "LINGUIS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ANTHRO/LINGUIS 301",
+            "target": "LINGUIS 101"
+        }
+    },
+    {
+        "data": {
+            "source": "LINGUIS 101",
+            "target": "ANTHRO/LINGUIS 301"
+        }
+    },
+    {
+        "data": {
+            "source": "LINGUIS 101",
+            "target": "LINGUIS 310"
+        }
+    },
+    {
+        "data": {
+            "source": "LINGUIS 101",
+            "target": "LINGUIS 330"
+        }
+    },
+    {
+        "data": {
             "source": "LINGUIS 310",
             "target": "LINGUIS 690"
         }
     },
     {
         "data": {
-            "description": "Grammatical theory; types of elements and processes usable in syntactic description of various sorts.",
-            "id": "LINGUIS 330",
-            "parent": "LINGUIS",
-            "title": "SYNTAX"
-        }
-    },
-    {
-        "data": {
-            "description": "Analysis and formal statement of phonological systems; problems and methods of phonological theory.",
-            "id": "LINGUIS 310",
-            "parent": "LINGUIS",
-            "title": "PHONOLOGY"
+            "source": "LINGUIS 330",
+            "target": "LINGUIS 690"
         }
     }
 ]

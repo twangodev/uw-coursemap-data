@@ -28,6 +28,19 @@
     },
     "description": "Analysis of the family as a unique economic unit in the changing American economy.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 101,
@@ -36,16 +49,59 @@
                 ]
             }
         ],
-        "prerequisites_text": "ECON\u00a0101or111"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 101,
                 "subjects": [
                     "ECON"
                 ]
             },
+            " or ",
+            {
+                "course_number": 111,
+                "subjects": [
+                    "ECON"
+                ]
+            }
+        ],
+        "prerequisites_text": "ECON\u00a0101or111"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 111,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ECON"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            " or ",
             {
                 "course_number": 111,
                 "subjects": [
@@ -58,6 +114,12 @@
     "similar_courses": [
         {
             "course_number": 830,
+            "subjects": [
+                "CNSRSCI"
+            ]
+        },
+        {
+            "course_number": 273,
             "subjects": [
                 "CNSRSCI"
             ]
@@ -76,12 +138,6 @@
         },
         {
             "course_number": 930,
-            "subjects": [
-                "CNSRSCI"
-            ]
-        },
-        {
-            "course_number": 273,
             "subjects": [
                 "CNSRSCI"
             ]

@@ -1,26 +1,6 @@
 [
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/BOTANY/ZOOLOGY 152"
-        }
-    },
-    {
-        "data": {
             "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
             "id": "BIOCORE 381",
             "parent": "BIOCORE",
@@ -37,15 +17,38 @@
     },
     {
         "data": {
-            "source": "BIOCORE 381",
-            "target": "ANTHRO/BOTANY/ZOOLOGY 410"
+            "description": "Evolutionary biology, emphasizing how modern scientists study evolution. Topics include: nature and mechanisms of microevolution, macroevolution, adaptation, speciation; systematics and taxonomy; quantitative genetics and measurement of natural selection; phylogenetic analyses of behavior, physiology, morphology, biochemistry; current controversies in evolution.",
+            "id": "ANTHRO/BOTANY/ZOOLOGY 410",
+            "title": "EVOLUTIONARY BIOLOGY"
         }
     },
     {
         "data": {
-            "description": "Evolutionary biology, emphasizing how modern scientists study evolution. Topics include: nature and mechanisms of microevolution, macroevolution, adaptation, speciation; systematics and taxonomy; quantitative genetics and measurement of natural selection; phylogenetic analyses of behavior, physiology, morphology, biochemistry; current controversies in evolution.",
-            "id": "ANTHRO/BOTANY/ZOOLOGY 410",
-            "title": "EVOLUTIONARY BIOLOGY"
+            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
+            "id": "BIOLOGY/ZOOLOGY 101",
+            "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Genetic basis of morphological, physiological and behavioral variations within and between human populations, and their origins and evolution.",
+            "id": "ANTHRO 105",
+            "parent": "ANTHRO",
+            "title": "PRINCIPLES OF BIOLOGICAL ANTHROPOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to the basic principles and concepts of the biology of plants. an integrative approach stressing evolutionary sequences and the relationship between structure and function at succeeding levels of organization: molecule, cell, organism, population, community. Correlated lectures, laboratories, and discussions.",
+            "id": "BIOLOGY/BOTANY 130",
+            "title": "GENERAL BOTANY"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
         }
     },
     {
@@ -63,8 +66,8 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 152",
-            "target": "ANTHRO/BOTANY/ZOOLOGY 410"
+            "id": "BIOCORE",
+            "type": "compound"
         }
     },
     {
@@ -75,16 +78,8 @@
     },
     {
         "data": {
-            "description": "Genetic basis of morphological, physiological and behavioral variations within and between human populations, and their origins and evolution.",
-            "id": "ANTHRO 105",
-            "parent": "ANTHRO",
-            "title": "PRINCIPLES OF BIOLOGICAL ANTHROPOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
+            "source": "ANTHRO 105",
+            "target": "ANTHRO 605"
         }
     },
     {
@@ -95,8 +90,20 @@
     },
     {
         "data": {
-            "id": "BIOCORE",
-            "type": "compound"
+            "source": "BIOCORE 381",
+            "target": "ANTHRO/BOTANY/ZOOLOGY 410"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY 130",
+            "target": "ANTHRO/BOTANY/ZOOLOGY 410"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 152"
         }
     },
     {
@@ -107,14 +114,14 @@
     },
     {
         "data": {
-            "source": "ANTHRO 105",
-            "target": "ANTHRO 605"
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 152",
+            "target": "ANTHRO/BOTANY/ZOOLOGY 410"
         }
     },
     {
         "data": {
             "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "ANTHRO/BOTANY/ZOOLOGY 410"
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
         }
     }
 ]

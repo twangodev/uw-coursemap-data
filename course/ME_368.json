@@ -28,6 +28,49 @@
     },
     "description": "Theory of modern instrumentation, the design and execution of experiments and the analysis of experimental data. Laboratory provides direct experience with concepts in the context of experimental design for hypothesis testing, for product evaluation and for control system design.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 376,
@@ -42,24 +85,113 @@
                 ]
             }
         ],
-        "prerequisites_text": "(M\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303),M\u00a0E\u00a0361,340, and (E\u00a0C\u00a0E\u00a0376,230, orM\u00a0E\u00a0376)"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 376,
-                "subjects": [
-                    "ECE"
-                ]
-            },
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 306,
                 "subjects": [
                     "ME"
                 ]
             },
+            " or ",
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            "), ",
             {
                 "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 340,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", and (",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 230,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ")"
+        ],
+        "prerequisites_text": "(M\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303),M\u00a0E\u00a0361,340, and (E\u00a0C\u00a0E\u00a0376,230, orM\u00a0E\u00a0376)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            {
+                "course_number": 340,
                 "subjects": [
                     "ME"
                 ]
@@ -68,12 +200,6 @@
                 "course_number": 230,
                 "subjects": [
                     "ECE"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ME"
                 ]
             },
             {
@@ -87,17 +213,75 @@
                 "subjects": [
                     "EMA"
                 ]
+            },
+            {
+                "course_number": 376,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 340,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", and (",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 230,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ")"
         ],
         "prerequisites_text": "(M\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303),M\u00a0E\u00a0361,340, and (E\u00a0C\u00a0E\u00a0376,230, orM\u00a0E\u00a0376)"
     },
     "similar_courses": [
-        {
-            "course_number": 770,
-            "subjects": [
-                "ME"
-            ]
-        },
         {
             "course_number": 768,
             "subjects": [
@@ -105,9 +289,15 @@
             ]
         },
         {
-            "course_number": 310,
+            "course_number": 370,
             "subjects": [
-                "BME"
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 770,
+            "subjects": [
+                "ME"
             ]
         },
         {
@@ -117,9 +307,9 @@
             ]
         },
         {
-            "course_number": 376,
+            "course_number": 524,
             "subjects": [
-                "ME"
+                "CHEM"
             ]
         }
     ],
@@ -362,8 +552,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DANNY AERTS",
-                    "Scott SANDERS"
+                    "Scott SANDERS",
+                    "DANNY AERTS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -438,8 +628,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DANNY AERTS",
-                    "Scott SANDERS"
+                    "Scott SANDERS",
+                    "DANNY AERTS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -539,8 +729,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael DeCicco",
-                    "DANNY AERTS"
+                    "DANNY AERTS",
+                    "Michael DeCicco"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1002,31 +1192,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Daniel Wickersham": "DWICKERSHAM@WISC.EDU",
-                    "Franklin MILLER": "FKMILLER@WISC.EDU",
-                    "Junye Huang": "JHUANG539@WISC.EDU",
-                    "Kevin Schnittker": "SCHNITTKER@WISC.EDU",
-                    "Thomas Jiang": "CJIANG85@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -1038,7 +1203,7 @@
                 "instructors": {
                     "Joseph ANDREWS": "JOSEPH.ANDREWS@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",

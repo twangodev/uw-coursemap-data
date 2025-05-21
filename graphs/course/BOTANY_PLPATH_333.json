@@ -1,6 +1,21 @@
 [
     {
         "data": {
+            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
+            "id": "BIOCORE 381",
+            "parent": "BIOCORE",
+            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Growth, development, variability and dispersal of saprophytic, parasitic, and symbiotic fungi, with a consideration of their ecological and economic significance.",
+            "id": "BOTANY/PLPATH 333",
+            "title": "BIOLOGY OF THE FUNGI"
+        }
+    },
+    {
+        "data": {
             "description": "Introduction to the basic principles and concepts of the biology of plants. an integrative approach stressing evolutionary sequences and the relationship between structure and function at succeeding levels of organization: molecule, cell, organism, population, community. Correlated lectures, laboratories, and discussions.",
             "id": "BIOLOGY/BOTANY 130",
             "title": "GENERAL BOTANY"
@@ -8,28 +23,8 @@
     },
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY 130",
-            "target": "BOTANY/PLPATH 333"
-        }
-    },
-    {
-        "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
+            "id": "BIOCORE",
+            "type": "compound"
         }
     },
     {
@@ -40,21 +35,14 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "source": "BIOCORE 381",
             "target": "BOTANY/PLPATH 333"
         }
     },
     {
         "data": {
-            "description": "Growth, development, variability and dispersal of saprophytic, parasitic, and symbiotic fungi, with a consideration of their ecological and economic significance.",
-            "id": "BOTANY/PLPATH 333",
-            "title": "BIOLOGY OF THE FUNGI"
+            "source": "BIOLOGY/BOTANY 130",
+            "target": "BOTANY/PLPATH 333"
         }
     }
 ]

@@ -9,14 +9,10 @@
     },
     {
         "data": {
-            "id": "COMPSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI 220",
-            "target": "COMPSCI 320"
+            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
+            "id": "COMPSCI 220",
+            "parent": "COMPSCI",
+            "title": "DATA SCIENCE PROGRAMMING I"
         }
     },
     {
@@ -29,16 +25,20 @@
     },
     {
         "data": {
-            "source": "COMPSCI 319",
+            "id": "COMPSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 220",
             "target": "COMPSCI 320"
         }
     },
     {
         "data": {
-            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
-            "id": "COMPSCI 220",
-            "parent": "COMPSCI",
-            "title": "DATA SCIENCE PROGRAMMING I"
+            "source": "COMPSCI 319",
+            "target": "COMPSCI 320"
         }
     }
 ]

@@ -28,15 +28,47 @@
     },
     "description": "Classical and modern optics, including imaging, polarization optics, optical telescopes, optical microscopes, interference and interferometers, optical fibers and fiber-optic communication, optical resonators, lasers, optical modulators, introduction to quantum and nonlinear optics. Concepts covered in lecture reinforced by weekly laboratory experiments.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -46,18 +78,87 @@
                 "subjects": [
                     "PHYSICS"
                 ]
+            },
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
             }
         ],
-        "prerequisites_text": "(PHYSICS\u00a0202,208, or248) and (PHYSICS\u00a0322or concurrent enrollment), or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
             {
                 "course_number": 248,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
+            ") and (",
+            {
+                "course_number": 322,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            " or concurrent enrollment), or graduate/professional standing"
+        ],
+        "prerequisites_text": "(PHYSICS\u00a0202,208, or248) and (PHYSICS\u00a0322or concurrent enrollment), or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 208,
                 "subjects": [
@@ -75,15 +176,58 @@
                 "subjects": [
                     "PHYSICS"
                 ]
+            },
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 322,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            " or concurrent enrollment), or graduate/professional standing"
         ],
         "prerequisites_text": "(PHYSICS\u00a0202,208, or248) and (PHYSICS\u00a0322or concurrent enrollment), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 751,
+            "course_number": 248,
             "subjects": [
-                "BME"
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 434,
+            "subjects": [
+                "ECE"
             ]
         },
         {
@@ -93,23 +237,15 @@
             ]
         },
         {
-            "course_number": 248,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 750,
-            "subjects": [
-                "MEDPHYS",
-                "BME",
-                "CHEM"
-            ]
-        },
-        {
-            "course_number": 434,
+            "course_number": 747,
             "subjects": [
                 "ECE"
+            ]
+        },
+        {
+            "course_number": 104,
+            "subjects": [
+                "PHYSICS"
             ]
         }
     ],
@@ -513,28 +649,6 @@
                 "total": 26,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Anirudh Yadav": "AYADAV22@WISC.EDU",
-                    "DENIZ YAVUZ": "YAVUZ@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

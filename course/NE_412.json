@@ -28,6 +28,39 @@
     },
     "description": "Reactor design projects, reactor hazards, economics.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "302",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 405,
@@ -48,10 +81,79 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 405,
+                "subjects": [
+                    "NE"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 271,
+                "subjects": [
+                    "EP"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", 302, or ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            "), or graduate/professional standing"
+        ],
         "prerequisites_text": "N\u00a0E\u00a0405and (E\u00a0P\u00a0271orCOMP\u00a0SCI\u00a0300, 302, or310), or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "302",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
+            {
+                "course_number": 405,
+                "subjects": [
+                    "NE"
+                ]
+            },
             {
                 "course_number": 300,
                 "subjects": [
@@ -59,41 +161,65 @@
                 ]
             },
             {
+                "course_number": 271,
+                "subjects": [
+                    "EP"
+                ]
+            },
+            {
                 "course_number": 310,
                 "subjects": [
                     "COMPSCI"
                 ]
-            },
+            }
+        ],
+        "linked_requisite_text": [
             {
                 "course_number": 405,
                 "subjects": [
                     "NE"
                 ]
             },
+            " and (",
             {
                 "course_number": 271,
                 "subjects": [
                     "EP"
                 ]
-            }
+            },
+            " or ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", 302, or ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            "), or graduate/professional standing"
         ],
         "prerequisites_text": "N\u00a0E\u00a0405and (E\u00a0P\u00a0271orCOMP\u00a0SCI\u00a0300, 302, or310), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 505,
-            "subjects": [
-                "NE"
-            ]
-        },
-        {
-            "course_number": 550,
+            "course_number": 231,
             "subjects": [
                 "NE"
             ]
         },
         {
             "course_number": 411,
+            "subjects": [
+                "NE"
+            ]
+        },
+        {
+            "course_number": 550,
             "subjects": [
                 "NE"
             ]
@@ -225,8 +351,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN MURPHY",
-                    "MICHAEL CORRADINI"
+                    "MICHAEL CORRADINI",
+                    "JOHN MURPHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -276,8 +402,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN MURPHY",
-                    "MICHAEL CORRADINI"
+                    "MICHAEL CORRADINI",
+                    "JOHN MURPHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -302,8 +428,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN MURPHY",
-                    "MICHAEL CORRADINI"
+                    "MICHAEL CORRADINI",
+                    "JOHN MURPHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -328,8 +454,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN MURPHY",
-                    "MICHAEL CORRADINI"
+                    "MICHAEL CORRADINI",
+                    "JOHN MURPHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -540,27 +666,6 @@
                 "total": 11,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    5,
-                    5
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "KENNETH PETERSEN": "KSPETERSEN@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Spring, Summer"
-            },
-            "grade_data": null
         }
     }
 }

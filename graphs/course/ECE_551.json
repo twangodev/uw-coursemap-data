@@ -1,13 +1,6 @@
 [
     {
         "data": {
-            "description": "Logic components, Boolean algebra, combinational logic analysis and synthesis, synchronous and asynchronous sequential logic analysis and design, digital subsystems, computer organization and design.",
-            "id": "COMPSCI/ECE 352",
-            "title": "DIGITAL SYSTEM FUNDAMENTALS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to the use of hardware description languages and automated synthesis in design. Advanced design principles. Verilog and VHDL description languages. Synthesis from hardware description languages. Timing-oriented synthesis. Relation of integrated circuit layout to timing-oriented design. Design for reuse.",
             "id": "ECE 551",
             "parent": "ECE",
@@ -16,8 +9,16 @@
     },
     {
         "data": {
-            "source": "COMPSCI/ECE 352",
-            "target": "ECE 551"
+            "description": "Logic components built with transistors, rudimentary Boolean algebra, basic combinational logic design, basic synchronous sequential logic design, basic computer organization and design, introductory machine- and assembly-language programming.",
+            "id": "COMPSCI/ECE 252",
+            "title": "INTRODUCTION TO COMPUTER ENGINEERING"
+        }
+    },
+    {
+        "data": {
+            "description": "Logic components, Boolean algebra, combinational logic analysis and synthesis, synchronous and asynchronous sequential logic analysis and design, digital subsystems, computer organization and design.",
+            "id": "COMPSCI/ECE 352",
+            "title": "DIGITAL SYSTEM FUNDAMENTALS"
         }
     },
     {
@@ -34,15 +35,14 @@
     },
     {
         "data": {
-            "description": "Logic components built with transistors, rudimentary Boolean algebra, basic combinational logic design, basic synchronous sequential logic design, basic computer organization and design, introductory machine- and assembly-language programming.",
-            "id": "COMPSCI/ECE 252",
-            "title": "INTRODUCTION TO COMPUTER ENGINEERING"
+            "source": "COMPSCI/ECE 252",
+            "target": "COMPSCI/ECE 352"
         }
     },
     {
         "data": {
-            "source": "COMPSCI/ECE 252",
-            "target": "COMPSCI/ECE 352"
+            "source": "COMPSCI/ECE 352",
+            "target": "ECE 551"
         }
     }
 ]

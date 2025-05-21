@@ -1,12 +1,6 @@
 [
     {
         "data": {
-            "source": "ECON 102",
-            "target": "ECON/HISTSCI 305"
-        }
-    },
-    {
-        "data": {
             "description": "Development of economic thought from the middle ages to the present; emphasis on major schools of thought including Classical, Marxian, Neo-Classical, and Keynesian schools.",
             "id": "ECON/HISTSCI 305",
             "title": "DEVELOPMENT OF ECONOMIC THOUGHT"
@@ -14,14 +8,40 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON/HISTSCI 305"
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
         "data": {
-            "source": "ECON 111",
-            "target": "ECON/HISTSCI 305"
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to economic ways of thinking about a wide range of problems and issues. Topics include consumption, production, prices, markets, finance, trade, pollution, growth, farms, taxes, and development.",
+            "id": "AAE 101",
+            "parent": "AAE",
+            "title": "INTRODUCTION TO AGRICULTURAL AND APPLIED ECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "id": "AAE",
+            "type": "compound"
         }
     },
     {
@@ -38,44 +58,38 @@
     },
     {
         "data": {
-            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
-            "id": "ECON 111",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
-        }
-    },
-    {
-        "data": {
-            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
-            "id": "ECON 102",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MACROECONOMICS"
+            "source": "AAE 101",
+            "target": "ECON/HISTSCI 305"
         }
     },
     {
         "data": {
             "source": "ECON 101",
-            "target": "ECON 102"
+            "target": "ECON/HISTSCI 305"
         }
     },
     {
         "data": {
-            "source": "ECON 101",
+            "source": "ECON 102",
             "target": "ECON 111"
-        }
-    },
-    {
-        "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON/HISTSCI 305"
         }
     }
 ]

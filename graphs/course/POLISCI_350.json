@@ -1,14 +1,10 @@
 [
     {
         "data": {
-            "id": "POLISCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "INTLST",
-            "type": "compound"
+            "description": "Covers the major issues in international relations since the end of World War II including: the causes of war; civil wars and ethnic conflict; economic development; international trade; exchange rates and international monetary relations; international capital flows and financial crises; foreign direct investment; globalization and the environment; the UN, the IMF, World Bank, WTO, and other international organizations; and international law and human rights. The focus is on states' relations with each other and the factors determining the nature and outcomes of these international interactions. The course seeks to develop analytical tools for thinking about important questions in world politics regardless of the countries or issues involved, to examine international affairs in a systematic way. Students who have taken POLI SCI 103 prior to Fall 2017 may not enroll in this course.",
+            "id": "POLISCI 140",
+            "parent": "POLISCI",
+            "title": "INTRODUCTION TO INTERNATIONAL RELATIONS"
         }
     },
     {
@@ -21,20 +17,6 @@
     },
     {
         "data": {
-            "description": "Covers the major issues in international relations since the end of World War II including: the causes of war; civil wars and ethnic conflict; economic development; international trade; exchange rates and international monetary relations; international capital flows and financial crises; foreign direct investment; globalization and the environment; the UN, the IMF, World Bank, WTO, and other international organizations; and international law and human rights. The focus is on states' relations with each other and the factors determining the nature and outcomes of these international interactions. The course seeks to develop analytical tools for thinking about important questions in world politics regardless of the countries or issues involved, to examine international affairs in a systematic way. Students who have taken POLI SCI 103 prior to Fall 2017 may not enroll in this course.",
-            "id": "POLISCI 140",
-            "parent": "POLISCI",
-            "title": "INTRODUCTION TO INTERNATIONAL RELATIONS"
-        }
-    },
-    {
-        "data": {
-            "source": "POLISCI 140",
-            "target": "POLISCI 350"
-        }
-    },
-    {
-        "data": {
             "description": "Introduces the field of international studies, and performs an interdisciplinary examination of the cultural, political, economic, and social patterns that have defined the modern world.",
             "id": "INTLST 101",
             "parent": "INTLST",
@@ -43,7 +25,25 @@
     },
     {
         "data": {
+            "id": "INTLST",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "POLISCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "INTLST 101",
+            "target": "POLISCI 350"
+        }
+    },
+    {
+        "data": {
+            "source": "POLISCI 140",
             "target": "POLISCI 350"
         }
     }

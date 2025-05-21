@@ -1,21 +1,6 @@
 [
     {
         "data": {
-            "description": "Rhetorical character of religious controversy and sectarian persuasion in Western religion.",
-            "id": "COMARTS/RELIGST 374",
-            "title": "THE RHETORIC OF RELIGION"
-        }
-    },
-    {
-        "data": {
-            "description": "Study of major theories of rhetoric from their origins in ancient Greece to Bacon, including theories of Plato, Aristotle, Cicero, Quintilian, Longinus, St. Augustine, and others.",
-            "id": "COMARTS 570",
-            "parent": "COMARTS",
-            "title": "CLASSICAL RHETORICAL THEORY"
-        }
-    },
-    {
-        "data": {
             "description": "An introduction to the study of rhetoric in politics and culture. Explores the interrelationship of theory, criticism, and practice. Students gain an understanding of rhetoric as a social force emerging from political and cultural contexts and as an influence on those contexts.",
             "id": "COMARTS 360",
             "parent": "COMARTS",
@@ -32,13 +17,23 @@
     },
     {
         "data": {
-            "source": "COMARTS 360",
-            "target": "COMARTS 570"
+            "description": "Public discourse as it affects and reflects the process of dynamic social change. Historical and contemporary instances of rhetorical processes.",
+            "id": "COMARTS 372",
+            "parent": "COMARTS",
+            "title": "RHETORIC OF CAMPAIGNS AND REVOLUTIONS"
         }
     },
     {
         "data": {
-            "id": "CROSSLISTED",
+            "description": "Study of major theories of rhetoric from their origins in ancient Greece to Bacon, including theories of Plato, Aristotle, Cicero, Quintilian, Longinus, St. Augustine, and others.",
+            "id": "COMARTS 570",
+            "parent": "COMARTS",
+            "title": "CLASSICAL RHETORICAL THEORY"
+        }
+    },
+    {
+        "data": {
+            "id": "COMARTS",
             "type": "compound"
         }
     },
@@ -50,14 +45,14 @@
     },
     {
         "data": {
-            "source": "COMARTS/RELIGST 374",
+            "source": "COMARTS 360",
             "target": "COMARTS 570"
         }
     },
     {
         "data": {
-            "id": "COMARTS",
-            "type": "compound"
+            "source": "COMARTS 372",
+            "target": "COMARTS 570"
         }
     }
 ]

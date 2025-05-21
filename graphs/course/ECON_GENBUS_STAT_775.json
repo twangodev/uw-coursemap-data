@@ -1,28 +1,10 @@
 [
     {
         "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 709",
-            "target": "ECON/GENBUS/STAT 775"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Probability distributions, statistical inference; multiple linear regression; introduction to econometric methods. It is expected that students will have completed three semesters calculus (such asMATH\u00a0234) and linear algebra (such asMATH\u00a0340).",
-            "id": "ECON 709",
-            "parent": "ECON",
-            "title": "ECONOMIC STATISTICS AND ECONOMETRICS I"
+            "description": "Conditioning, distribution theory, approximation to distributions, modes of convergence, limit theorems, statistical models, parameter estimation, comparision of estimators, confidence sets, theory of hypothesis tests, introduction to Bayesian inference and nonparametric estimation.",
+            "id": "STAT 610",
+            "parent": "STAT",
+            "title": "INTRODUCTION TO STATISTICAL INFERENCE"
         }
     },
     {
@@ -30,6 +12,24 @@
             "description": "Introduces the theory, methods, and computational procedures needed to perform advanced Bayesian data analyses. Predictive and decision-theoretic motivations including subjective probability, risk, admissibility, and exchangeability; highlights key components of Bayesian analysis (i.e., prior, likelihood, posterior, and predictive distributions) within standard parametric models and advanced hierarchical and multilevel models; demonstrates the iterative process of model specification, implementation, criticism, and revision with applied case studies; implements computational techniques (e.g., Markov chain Monte Carlo, variational inference) in modern probabilistic programming languages.",
             "id": "ECON/GENBUS/STAT 775",
             "title": "BAYESIAN STATISTICS"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "STAT",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 610",
+            "target": "ECON/GENBUS/STAT 775"
         }
     }
 ]

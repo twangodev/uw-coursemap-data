@@ -1,30 +1,10 @@
 [
     {
         "data": {
-            "id": "PORTUG",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "First-semester elementary-level Portuguese language practice: grammar, conversation, and reading. Requires no previous knowledge of Portuguese.",
             "id": "PORTUG 101",
             "parent": "PORTUG",
             "title": "FIRST SEMESTER PORTUGUESE"
-        }
-    },
-    {
-        "data": {
-            "description": "Second-semester elementary-level Portuguese language practice: grammar, conversation, and reading.",
-            "id": "PORTUG 102",
-            "parent": "PORTUG",
-            "title": "SECOND SEMESTER PORTUGUESE"
-        }
-    },
-    {
-        "data": {
-            "source": "PORTUG 102",
-            "target": "PORTUG 201"
         }
     },
     {
@@ -37,8 +17,32 @@
     },
     {
         "data": {
-            "source": "PORTUG 201",
-            "target": "PORTUG 202"
+            "description": "Grammar, conversation, and reading. Equivalent ofPORTUG\u00a0101and102.",
+            "id": "PORTUG 301",
+            "parent": "PORTUG",
+            "title": "INTENSIVE PORTUGUESE"
+        }
+    },
+    {
+        "data": {
+            "description": "Second-semester elementary-level Portuguese language practice: grammar, conversation, and reading.",
+            "id": "PORTUG 102",
+            "parent": "PORTUG",
+            "title": "SECOND SEMESTER PORTUGUESE"
+        }
+    },
+    {
+        "data": {
+            "description": "Second-semester intermediate-level Portuguese language review: readings, culture, and patterns of conversation.",
+            "id": "PORTUG 202",
+            "parent": "PORTUG",
+            "title": "FOURTH SEMESTER PORTUGUESE"
+        }
+    },
+    {
+        "data": {
+            "id": "PORTUG",
+            "type": "compound"
         }
     },
     {
@@ -49,10 +53,26 @@
     },
     {
         "data": {
-            "description": "Second-semester intermediate-level Portuguese language review: readings, culture, and patterns of conversation.",
-            "id": "PORTUG 202",
-            "parent": "PORTUG",
-            "title": "FOURTH SEMESTER PORTUGUESE"
+            "source": "PORTUG 101",
+            "target": "PORTUG 301"
+        }
+    },
+    {
+        "data": {
+            "source": "PORTUG 102",
+            "target": "PORTUG 301"
+        }
+    },
+    {
+        "data": {
+            "source": "PORTUG 201",
+            "target": "PORTUG 202"
+        }
+    },
+    {
+        "data": {
+            "source": "PORTUG 301",
+            "target": "PORTUG 201"
         }
     }
 ]

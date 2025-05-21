@@ -1,8 +1,9 @@
 [
     {
         "data": {
-            "id": "GEOSCI",
-            "type": "compound"
+            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
+            "id": "ENVIRST/GEOSCI 106",
+            "title": "ENVIRONMENTAL GEOLOGY"
         }
     },
     {
@@ -15,29 +16,10 @@
     },
     {
         "data": {
-            "source": "GEOSCI 100",
-            "target": "GEOSCI 202"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to recognition and mapping of geologic structures in the field. Landforms, folds, faults, tectonics, geologic maps, and field instrumentation.",
             "id": "GEOSCI 202",
             "parent": "GEOSCI",
             "title": "INTRODUCTION TO GEOLOGIC STRUCTURES"
-        }
-    },
-    {
-        "data": {
-            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
-            "id": "ENVIRST/GEOSCI 106",
-            "title": "ENVIRONMENTAL GEOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI 100",
-            "target": "ENVIRST/GEOSCI 106"
         }
     },
     {
@@ -48,8 +30,26 @@
     },
     {
         "data": {
+            "id": "GEOSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "ENVIRST/GEOSCI 106",
             "target": "GEOSCI 100"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 100",
+            "target": "ENVIRST/GEOSCI 106"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 100",
+            "target": "GEOSCI 202"
         }
     }
 ]

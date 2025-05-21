@@ -1,34 +1,18 @@
 [
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 111"
+            "description": "Behavior, including its development, motivation, frustrations, emotion, intelligence, learning, forgetting, personality, language, thinking, and social behavior.",
+            "id": "PSYCH 202",
+            "parent": "PSYCH",
+            "title": "INTRODUCTION TO PSYCHOLOGY"
         }
     },
     {
         "data": {
-            "description": "Introduction to analysis of economic data. The techniques of descriptive statistics and statistical inference (hypothesis testing and estimation) as directed toward application in economic research.",
-            "id": "ECON 310",
-            "parent": "ECON",
-            "title": "STATISTICS: MEASUREMENT IN ECONOMICS"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "ECON 310"
-        }
-    },
-    {
-        "data": {
-            "id": "CNSRSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 102",
-            "target": "ECON 310"
+            "description": "Measures of central tendency, variability; probability, sampling distributions; hypothesis testing, confidence intervals; t-tests; Chi-square; regression and correlation (linear) and introduction to analysis of variance (1-way).",
+            "id": "PSYCH 210",
+            "parent": "PSYCH",
+            "title": "BASIC STATISTICS FOR PSYCHOLOGY"
         }
     },
     {
@@ -48,41 +32,19 @@
     },
     {
         "data": {
-            "id": "ECON",
+            "id": "CNSRSCI",
             "type": "compound"
         }
     },
     {
         "data": {
-            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
-            "id": "ECON 111",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
-        }
-    },
-    {
-        "data": {
-            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
-            "id": "ECON 102",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MACROECONOMICS"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "ECON 102"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 310",
-            "target": "CNSRSCI 201"
-        }
-    },
-    {
-        "data": {
             "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "PSYCH",
             "type": "compound"
         }
     },
@@ -94,16 +56,14 @@
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "source": "PSYCH 202",
+            "target": "PSYCH 210"
         }
     },
     {
         "data": {
-            "source": "ECON 111",
-            "target": "ECON 101"
+            "source": "PSYCH 210",
+            "target": "CNSRSCI 201"
         }
     }
 ]

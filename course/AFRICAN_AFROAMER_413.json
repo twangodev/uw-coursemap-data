@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 413,
         "subjects": [
-            "AFROAMER",
-            "AFRICAN"
+            "AFRICAN",
+            "AFROAMER"
         ]
     },
     "course_title": "CONTEMPORARY AFRICAN AND CARIBBEAN DRAMA",
@@ -29,6 +29,40 @@
     },
     "description": "A critical study of the major works.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "211",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 201,
@@ -37,16 +71,16 @@
                 ]
             },
             {
-                "course_number": 210,
+                "course_number": 203,
                 "subjects": [
-                    "FOLKLORE",
                     "AFRICAN"
                 ]
             },
             {
-                "course_number": 203,
+                "course_number": 210,
                 "subjects": [
-                    "AFRICAN"
+                    "AFRICAN",
+                    "FOLKLORE"
                 ]
             },
             {
@@ -56,18 +90,84 @@
                 ]
             }
         ],
-        "prerequisites_text": "Sophomore standing and (AFRICAN\u00a0201,203, 211,231, orFOLKLORE/\u200bAFRICAN\u00a0\u00a0210), or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", ",
             {
                 "course_number": 203,
                 "subjects": [
                     "AFRICAN"
                 ]
             },
+            ", 211, ",
+            {
+                "course_number": 231,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 210,
+                "subjects": [
+                    "AFRICAN",
+                    "FOLKLORE"
+                ]
+            },
+            "), or graduate/professional standing"
+        ],
+        "prerequisites_text": "Sophomore standing and (AFRICAN\u00a0201,203, 211,231, orFOLKLORE/\u200bAFRICAN\u00a0\u00a0210), or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "211",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 201,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            {
+                "course_number": 203,
                 "subjects": [
                     "AFRICAN"
                 ]
@@ -81,23 +181,48 @@
             {
                 "course_number": 210,
                 "subjects": [
-                    "FOLKLORE",
-                    "AFRICAN"
+                    "AFRICAN",
+                    "FOLKLORE"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 203,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", 211, ",
+            {
+                "course_number": 231,
+                "subjects": [
+                    "AFRICAN"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 210,
+                "subjects": [
+                    "AFRICAN",
+                    "FOLKLORE"
+                ]
+            },
+            "), or graduate/professional standing"
         ],
         "prerequisites_text": "Sophomore standing and (AFRICAN\u00a0201,203, 211,231, orFOLKLORE/\u200bAFRICAN\u00a0\u00a0210), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 813,
-            "subjects": [
-                "AFROAMER",
-                "AFRICAN"
-            ]
-        },
-        {
-            "course_number": 606,
+            "course_number": 412,
             "subjects": [
                 "AFRICAN"
             ]
@@ -109,15 +234,22 @@
             ]
         },
         {
-            "course_number": 412,
+            "course_number": 227,
+            "subjects": [
+                "AFROAMER"
+            ]
+        },
+        {
+            "course_number": 802,
             "subjects": [
                 "AFRICAN"
             ]
         },
         {
-            "course_number": 329,
+            "course_number": 813,
             "subjects": [
-                "THEATRE"
+                "AFRICAN",
+                "AFROAMER"
             ]
         }
     ],

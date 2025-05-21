@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 520,
         "subjects": [
+            "AAE",
             "REALEST",
-            "URBRPL",
-            "AAE"
+            "URBRPL"
         ]
     },
     "course_title": "COMMUNITY ECONOMIC ANALYSIS",
@@ -30,6 +30,20 @@
     },
     "description": "Economic theory (location and growth) applicable to community economic development; the role of private and public sector in local economic development, and techniques for economic analysis of community.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 301,
@@ -43,35 +57,73 @@
                     "ECON"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 301,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 311,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            " or graduate/professional standing"
         ],
         "prerequisites_text": "ECON\u00a0301or311or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
+            {
+                "course_number": 301,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            {
+                "course_number": 311,
+                "subjects": [
+                    "ECON"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 301,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            " or ",
             {
                 "course_number": 311,
                 "subjects": [
                     "ECON"
                 ]
             },
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ECON"
-                ]
-            }
+            " or graduate/professional standing"
         ],
         "prerequisites_text": "ECON\u00a0301or311or graduate/professional standing"
     },
     "similar_courses": [
-        {
-            "course_number": 420,
-            "subjects": [
-                "REALEST",
-                "URBRPL",
-                "ECON"
-            ]
-        },
         {
             "course_number": 720,
             "subjects": [
@@ -80,26 +132,31 @@
             ]
         },
         {
-            "course_number": 306,
+            "course_number": 820,
             "subjects": [
-                "REALEST",
-                "URBRPL",
+                "PUBAFFR"
+            ]
+        },
+        {
+            "course_number": 875,
+            "subjects": [
+                "REALEST"
+            ]
+        },
+        {
+            "course_number": 420,
+            "subjects": [
                 "ECON",
-                "AAE"
+                "REALEST",
+                "URBRPL"
             ]
         },
         {
             "course_number": 734,
             "subjects": [
-                "URBRPL",
                 "PUBAFFR",
-                "ECON"
-            ]
-        },
-        {
-            "course_number": 820,
-            "subjects": [
-                "PUBAFFR"
+                "ECON",
+                "URBRPL"
             ]
         }
     ],
@@ -503,27 +560,6 @@
                 "total": 6,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Steven DELLER": "SCDELLER@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "B",
-                    "name": "Business",
-                    "url": "http://www.bus.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

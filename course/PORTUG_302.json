@@ -9,6 +9,44 @@
     "cumulative_grade_data": null,
     "description": "Equivalent of the third and fourth college semesters of Portuguese. Readings, culture, and patterns of conversation.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "."
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        "Not open to students with credit for",
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 301,
@@ -17,7 +55,36 @@
                 ]
             },
             {
+                "course_number": 202,
+                "subjects": [
+                    "PORTUG"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "PORTUG"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "PORTUG"
+                ]
+            },
+            ". Not open to students with credit for ",
+            {
                 "course_number": 201,
+                "subjects": [
+                    "PORTUG"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 202,
                 "subjects": [
                     "PORTUG"
                 ]
@@ -26,9 +93,47 @@
         "prerequisites_text": "PORTUG\u00a0102or301. Not open to students with credit forPORTUG\u00a0201and202"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "."
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        "Not open to students with credit for",
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
-                "course_number": 202,
+                "course_number": 201,
                 "subjects": [
                     "PORTUG"
                 ]
@@ -40,7 +145,7 @@
                 ]
             },
             {
-                "course_number": 201,
+                "course_number": 202,
                 "subjects": [
                     "PORTUG"
                 ]
@@ -52,23 +157,40 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "PORTUG"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "PORTUG"
+                ]
+            },
+            ". Not open to students with credit for ",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "PORTUG"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PORTUG"
+                ]
+            }
+        ],
         "prerequisites_text": "PORTUG\u00a0102or301. Not open to students with credit forPORTUG\u00a0201and202"
     },
     "similar_courses": [
         {
-            "course_number": 226,
-            "subjects": [
-                "PORTUG"
-            ]
-        },
-        {
             "course_number": 202,
-            "subjects": [
-                "PORTUG"
-            ]
-        },
-        {
-            "course_number": 102,
             "subjects": [
                 "PORTUG"
             ]
@@ -84,28 +206,21 @@
             "subjects": [
                 "PORTUG"
             ]
+        },
+        {
+            "course_number": 102,
+            "subjects": [
+                "PORTUG"
+            ]
+        },
+        {
+            "course_number": 411,
+            "subjects": [
+                "PORTUG"
+            ]
         }
     ],
     "term_data": {
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": null,
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Occasionally"
-            },
-            "grade_data": null
-        },
         "1256": {
             "enrollment_data": {
                 "credit_count": [
@@ -115,7 +230,7 @@
                 "ethnics_studies": false,
                 "general_education": false,
                 "instructors": {},
-                "last_taught_term": null,
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

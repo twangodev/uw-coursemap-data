@@ -28,6 +28,31 @@
     },
     "description": "Introduction to architecture, operation, and application of microprocessors; microprocessor programming; address decoding; system timing; parallel, serial, and analog I/O; interrupts and direct memory access; interfacing to static and dynamic RAM; microcontrollers.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "302 prior to Fall 2018"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 252,
@@ -43,10 +68,7 @@
                 ]
             }
         ],
-        "prerequisites_text": "E\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0252and (COMP\u00a0SCI\u00a0300or 302 prior to Fall 2018), or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 252,
                 "subjects": [
@@ -54,27 +76,81 @@
                     "ECE"
                 ]
             },
+            " and (",
             {
                 "course_number": 300,
                 "subjects": [
                     "COMPSCI"
                 ]
+            },
+            " or 302 prior to Fall 2018), or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "E\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0252and (COMP\u00a0SCI\u00a0300or 302 prior to Fall 2018), or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "302 prior to Fall 2018"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 252,
+                "subjects": [
+                    "COMPSCI",
+                    "ECE"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 252,
+                "subjects": [
+                    "COMPSCI",
+                    "ECE"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            " or 302 prior to Fall 2018), or member of Engineering Guest Students"
         ],
         "prerequisites_text": "E\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0252and (COMP\u00a0SCI\u00a0300or 302 prior to Fall 2018), or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 552,
+            "course_number": 453,
             "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 354,
-            "subjects": [
-                "COMPSCI",
                 "ECE"
             ]
         },
@@ -92,8 +168,15 @@
             ]
         },
         {
-            "course_number": 453,
+            "course_number": 751,
             "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 552,
+            "subjects": [
+                "COMPSCI",
                 "ECE"
             ]
         }
@@ -974,27 +1057,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Joseph KRACHEY": "JKRACHEY@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -1006,7 +1068,7 @@
                 "instructors": {
                     "Joseph KRACHEY": "JKRACHEY@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",

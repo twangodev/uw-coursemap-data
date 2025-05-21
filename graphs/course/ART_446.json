@@ -1,20 +1,6 @@
 [
     {
         "data": {
-            "description": "Techniques, philosophies, and concepts in photography as an art form. Emphasis on personal expression and relationship to other media.",
-            "id": "ART 376",
-            "parent": "ART",
-            "title": "PHOTOGRAPHY"
-        }
-    },
-    {
-        "data": {
-            "source": "ART 376",
-            "target": "ART 446"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to tools, techniques and concepts of digital photography, with an emphasis on the workflow beginning with composition and image capture, to digital manipulation and enhancement, to the end goal of print or online publication. Develop a robust fundamental skill set in digital photography through lectures, readings, discussions, practical instruction, instructor review and group critiques.",
             "id": "ART 176",
             "parent": "ART",
@@ -23,8 +9,10 @@
     },
     {
         "data": {
-            "id": "ART",
-            "type": "compound"
+            "description": "Techniques, philosophies, and concepts in photography as an art form. Emphasis on personal expression and relationship to other media.",
+            "id": "ART 376",
+            "parent": "ART",
+            "title": "PHOTOGRAPHY"
         }
     },
     {
@@ -37,8 +25,20 @@
     },
     {
         "data": {
+            "id": "ART",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "ART 176",
             "target": "ART 376"
+        }
+    },
+    {
+        "data": {
+            "source": "ART 376",
+            "target": "ART 446"
         }
     }
 ]

@@ -28,6 +28,37 @@
     },
     "description": "Study of various physical, mechanical, thermal and other properties of food and biological materials. Importance of such property values on the design and operation of various food and bioprocess engineering systems.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 249,
@@ -36,16 +67,84 @@
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 250,
                 "subjects": [
                     "CBE"
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 249,
+                "subjects": [
+                    "BSE"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 250,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            ")"
+        ],
         "prerequisites_text": "(BSE\u00a0249orCBE\u00a0250) and (M\u00a0E\u00a0361orCBE\u00a0310)"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
+            {
+                "course_number": 310,
+                "subjects": [
+                    "CBE"
+                ]
+            },
             {
                 "course_number": 250,
                 "subjects": [
@@ -53,9 +152,9 @@
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 249,
                 "subjects": [
-                    "CBE"
+                    "BSE"
                 ]
             },
             {
@@ -63,34 +162,52 @@
                 "subjects": [
                     "ME"
                 ]
-            },
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 249,
                 "subjects": [
                     "BSE"
                 ]
-            }
+            },
+            " or ",
+            {
+                "course_number": 250,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            ")"
         ],
         "prerequisites_text": "(BSE\u00a0249orCBE\u00a0250) and (M\u00a0E\u00a0361orCBE\u00a0310)"
     },
     "similar_courses": [
         {
-            "course_number": 560,
-            "subjects": [
-                "CBE",
-                "BME"
-            ]
-        },
-        {
-            "course_number": 365,
-            "subjects": [
-                "BSE"
-            ]
-        },
-        {
             "course_number": 440,
             "subjects": [
                 "FOODSCI"
+            ]
+        },
+        {
+            "course_number": 461,
+            "subjects": [
+                "BSE"
             ]
         },
         {
@@ -100,9 +217,16 @@
             ]
         },
         {
-            "course_number": 461,
+            "course_number": 560,
             "subjects": [
-                "BSE"
+                "BME",
+                "CBE"
+            ]
+        },
+        {
+            "course_number": 301,
+            "subjects": [
+                "FOODSCI"
             ]
         }
     ],
@@ -506,27 +630,6 @@
                 "total": 9,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Xuejun PAN": "XPAN@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

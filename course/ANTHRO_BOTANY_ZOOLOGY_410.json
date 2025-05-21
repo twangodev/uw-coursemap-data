@@ -30,14 +30,39 @@
     },
     "description": "Evolutionary biology, emphasizing how modern scientists study evolution. Topics include: nature and mechanisms of microevolution, macroevolution, adaptation, speciation; systematics and taxonomy; quantitative genetics and measurement of natural selection; phylogenetic analyses of behavior, physiology, morphology, biochemistry; current controversies in evolution.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "satisfied QR-A requirement"
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
             {
                 "course_number": 381,
                 "subjects": [
@@ -51,16 +76,98 @@
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
+            },
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
             }
         ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,BIOLOGY/\u200bBOTANY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152,BIOCORE\u00a0381, (ANTHRO\u00a0105and satisfied QR-A requirement), or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", (",
             {
                 "course_number": 105,
                 "subjects": [
                     "ANTHRO"
+                ]
+            },
+            " and satisfied QR-A requirement), or graduate/professional standing"
+        ],
+        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,BIOLOGY/\u200bBOTANY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152,BIOCORE\u00a0381, (ANTHRO\u00a0105and satisfied QR-A requirement), or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "satisfied QR-A requirement"
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
                 ]
             },
             {
@@ -71,12 +178,42 @@
                 ]
             },
             {
+                "course_number": 105,
+                "subjects": [
+                    "ANTHRO"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
                 "course_number": 101,
                 "subjects": [
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
             },
+            ", ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
             {
                 "course_number": 152,
                 "subjects": [
@@ -85,26 +222,38 @@
                     "BIOLOGY"
                 ]
             },
+            ", ",
             {
                 "course_number": 381,
                 "subjects": [
                     "BIOCORE"
                 ]
-            }
+            },
+            ", (",
+            {
+                "course_number": 105,
+                "subjects": [
+                    "ANTHRO"
+                ]
+            },
+            " and satisfied QR-A requirement), or graduate/professional standing"
         ],
         "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,BIOLOGY/\u200bBOTANY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152,BIOCORE\u00a0381, (ANTHRO\u00a0105and satisfied QR-A requirement), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 603,
+            "course_number": 152,
             "subjects": [
-                "ANTHRO"
+                "BOTANY",
+                "ZOOLOGY",
+                "BIOLOGY"
             ]
         },
         {
-            "course_number": 957,
+            "course_number": 541,
             "subjects": [
-                "ZOOLOGY"
+                "ZOOLOGY",
+                "GEOSCI"
             ]
         },
         {
@@ -114,19 +263,19 @@
             ]
         },
         {
-            "course_number": 820,
+            "course_number": 522,
             "subjects": [
-                "BOTANY",
-                "ZOOLOGY",
-                "ENTOM",
+                "BIOLOGY",
                 "GENETICS"
             ]
         },
         {
-            "course_number": 541,
+            "course_number": 820,
             "subjects": [
+                "BOTANY",
                 "ZOOLOGY",
-                "GEOSCI"
+                "GENETICS",
+                "ENTOM"
             ]
         }
     ],
@@ -446,8 +595,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "TIAGO DA SILVA RIBEIRO",
-                    "Carol LEE"
+                    "Carol LEE",
+                    "TIAGO DA SILVA RIBEIRO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -699,8 +848,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "NATHAN ANDERSON",
-                    "Carol LEE"
+                    "Carol LEE",
+                    "NATHAN ANDERSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -725,8 +874,8 @@
                 "f": 1,
                 "incomplete": 2,
                 "instructors": [
-                    "KRISTOFER SASSER",
-                    "Jesse WEBER"
+                    "Jesse WEBER",
+                    "KRISTOFER SASSER"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -776,7 +925,7 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Jeremy Abels",
+                    "JEREMY ABELS",
                     "Jesse WEBER"
                 ],
                 "no_credit": 0,
@@ -802,7 +951,7 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Emily Kerns",
+                    "EMILY KERNS",
                     "Jesse WEBER"
                 ],
                 "no_credit": 0,
@@ -890,29 +1039,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Emily Kerns": "KERNS3@WISC.EDU",
-                    "Jeremy Abels": "JABELS@WISC.EDU",
-                    "Jesse WEBER": "JNWEBER2@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
-        },
         "1256": {
             "enrollment_data": {
                 "credit_count": [
@@ -921,8 +1047,10 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
-                "last_taught_term": "2025 Sprng",
+                "instructors": {
+                    "Brandon Corder": "BCORDER@WISC.EDU"
+                },
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",
@@ -943,7 +1071,7 @@
                 "instructors": {
                     "David BAUM": "DBAUM@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

@@ -28,6 +28,19 @@
     },
     "description": "Fosters advanced practice competencies and deeper understandings of collaborative practice in population health. Employ structured systems thinking, stakeholder engagement, and interdisciplinary leadership to investigate and address complex issues in population health. Advanced practice competencies to be developed include: structured approaches to systems thinking, community engagement, collaborative leadership, responsive communication, teamwork, multidisciplinary program planning, cross-sector collaboration, and collective impact.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 720,
@@ -42,16 +55,59 @@
                 ]
             }
         ],
-        "prerequisites_text": "NURSING\u00a0720and723"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 720,
                 "subjects": [
                     "NURSING"
                 ]
             },
+            " and ",
+            {
+                "course_number": 723,
+                "subjects": [
+                    "NURSING"
+                ]
+            }
+        ],
+        "prerequisites_text": "NURSING\u00a0720and723"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 723,
+                "subjects": [
+                    "NURSING"
+                ]
+            },
+            {
+                "course_number": 720,
+                "subjects": [
+                    "NURSING"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 720,
+                "subjects": [
+                    "NURSING"
+                ]
+            },
+            " and ",
             {
                 "course_number": 723,
                 "subjects": [
@@ -63,13 +119,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 725,
-            "subjects": [
-                "NURSING"
-            ]
-        },
-        {
-            "course_number": 432,
+            "course_number": 724,
             "subjects": [
                 "NURSING"
             ]
@@ -81,13 +131,19 @@
             ]
         },
         {
+            "course_number": 432,
+            "subjects": [
+                "NURSING"
+            ]
+        },
+        {
             "course_number": 720,
             "subjects": [
                 "NURSING"
             ]
         },
         {
-            "course_number": 724,
+            "course_number": 725,
             "subjects": [
                 "NURSING"
             ]
@@ -243,27 +299,6 @@
                 "total": 0,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Katie Gillespie": "KHGILLESPIE@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "N",
-                    "name": "Nursing",
-                    "url": "http://www.son.wisc.edu/"
-                },
-                "typically_offered": "Not Applicable"
-            },
-            "grade_data": null
         }
     }
 }

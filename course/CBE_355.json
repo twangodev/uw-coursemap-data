@@ -9,6 +9,28 @@
     "cumulative_grade_data": null,
     "description": "Concepts and techniques from statistics, data science, and machine learning applied to problems in chemical engineering. Random variables, estimation, statistical data analysis and learning, and decision-making under uncertainty.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 255,
@@ -17,22 +39,61 @@
                 ]
             },
             {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
                 "course_number": 234,
                 "subjects": [
                     "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and ",
+            {
+                "course_number": 255,
+                "subjects": [
+                    "CBE"
                 ]
             }
         ],
         "prerequisites_text": "(MATH\u00a0234or375) andCBE\u00a0255"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
-            {
-                "course_number": 255,
-                "subjects": [
-                    "CBE"
-                ]
-            },
             {
                 "course_number": 234,
                 "subjects": [
@@ -44,21 +105,44 @@
                 "subjects": [
                     "MATH"
                 ]
+            },
+            {
+                "course_number": 255,
+                "subjects": [
+                    "CBE"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and ",
+            {
+                "course_number": 255,
+                "subjects": [
+                    "CBE"
+                ]
             }
         ],
         "prerequisites_text": "(MATH\u00a0234or375) andCBE\u00a0255"
     },
     "similar_courses": [
         {
-            "course_number": 324,
+            "course_number": 430,
             "subjects": [
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 661,
-            "subjects": [
-                "CHEM"
+                "CBE"
             ]
         },
         {
@@ -68,15 +152,21 @@
             ]
         },
         {
-            "course_number": 416,
+            "course_number": 961,
             "subjects": [
-                "EPD"
+                "CBE"
             ]
         },
         {
-            "course_number": 430,
+            "course_number": 660,
             "subjects": [
                 "CBE"
+            ]
+        },
+        {
+            "course_number": 613,
+            "subjects": [
+                "STAT"
             ]
         }
     ],

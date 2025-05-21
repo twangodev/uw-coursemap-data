@@ -9,6 +9,47 @@
     "cumulative_grade_data": null,
     "description": "Fundamentals of electronics, electronic elements, basic circuits; combinations of these into measuring instruments.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 248,
@@ -29,10 +70,95 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            "), or graduate/professional standing"
+        ],
         "prerequisites_text": "(PHYSICS\u00a0202,208, or248) and (MATH\u00a0234or376), or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
             {
                 "course_number": 248,
                 "subjects": [
@@ -56,33 +182,53 @@
                 "subjects": [
                     "MATH"
                 ]
-            },
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
-            }
+            },
+            ", ",
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            "), or graduate/professional standing"
         ],
         "prerequisites_text": "(PHYSICS\u00a0202,208, or248) and (MATH\u00a0234or376), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 768,
+            "course_number": 545,
             "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 728,
-            "subjects": [
-                "CHEM"
-            ]
-        },
-        {
-            "course_number": 365,
-            "subjects": [
-                "BSE"
+                "ECE"
             ]
         },
         {
@@ -96,30 +242,19 @@
             "subjects": [
                 "PHYSICS"
             ]
+        },
+        {
+            "course_number": 365,
+            "subjects": [
+                "BSE"
+            ]
+        },
+        {
+            "course_number": 768,
+            "subjects": [
+                "ME"
+            ]
         }
     ],
-    "term_data": {
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Dan MCCAMMON": "MCCAMMON@PHYSICS.WISC.EDU",
-                    "Mitch McNanna": "MCNANNA@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall"
-            },
-            "grade_data": null
-        }
-    }
+    "term_data": {}
 }

@@ -28,14 +28,42 @@
     },
     "description": "Basics about the notion, capabilities, and limitations of computation: elements of finite automata and regular languages, computability theory, and computational complexity theory. Additional topics include context-free grammars and languages, and complexity-theoretic cryptography.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                "COMP SCI 367",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "declared in the Capstone Certificate in Computer Sciences for Professionals"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "MATH",
-                    "COMPSCI"
-                ]
-            },
             {
                 "course_number": 400,
                 "subjects": [
@@ -43,31 +71,92 @@
                 ]
             },
             {
+                "course_number": 240,
+                "subjects": [
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            {
                 "course_number": 475,
                 "subjects": [
-                    "MATH",
+                    "STAT",
                     "COMPSCI",
-                    "STAT"
+                    "MATH"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 240,
+                "subjects": [
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 475,
+                "subjects": [
+                    "STAT",
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            ") and (COMP SCI 367 or ",
+            {
+                "course_number": 400,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            "), or graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
         ],
         "prerequisites_text": "(MATH/\u200bCOMP\u00a0SCI\u00a0\u00a0240orSTAT/\u200bCOMP\u00a0SCI/\u200bMATH\u00a0\u00a0475) and (COMP SCI 367 or400), or graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                "COMP SCI 367",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "declared in the Capstone Certificate in Computer Sciences for Professionals"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 475,
-                "subjects": [
-                    "MATH",
-                    "COMPSCI",
-                    "STAT"
-                ]
-            },
             {
                 "course_number": 240,
                 "subjects": [
-                    "MATH",
-                    "COMPSCI"
+                    "COMPSCI",
+                    "MATH"
                 ]
             },
             {
@@ -75,15 +164,61 @@
                 "subjects": [
                     "COMPSCI"
                 ]
+            },
+            {
+                "course_number": 475,
+                "subjects": [
+                    "STAT",
+                    "COMPSCI",
+                    "MATH"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 240,
+                "subjects": [
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 475,
+                "subjects": [
+                    "STAT",
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            ") and (COMP SCI 367 or ",
+            {
+                "course_number": 400,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            "), or graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
         ],
         "prerequisites_text": "(MATH/\u200bCOMP\u00a0SCI\u00a0\u00a0240orSTAT/\u200bCOMP\u00a0SCI/\u200bMATH\u00a0\u00a0475) and (COMP SCI 367 or400), or graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
     },
     "similar_courses": [
         {
-            "course_number": 102,
+            "course_number": 880,
             "subjects": [
-                "LIS",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 704,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 538,
+            "subjects": [
                 "COMPSCI"
             ]
         },
@@ -94,21 +229,9 @@
             ]
         },
         {
-            "course_number": 536,
+            "course_number": 773,
             "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 880,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 538,
-            "subjects": [
-                "COMPSCI"
+                "MATH"
             ]
         }
     ],
@@ -626,8 +749,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "GRAYSON ELIAS",
-                    "JIN-YI CAI"
+                    "JIN-YI CAI",
+                    "GRAYSON ELIAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -638,27 +761,6 @@
                 "total": 41,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "JIN-YI CAI": "JYC@CS.WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
         }
     }
 }

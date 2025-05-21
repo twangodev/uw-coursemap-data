@@ -28,12 +28,31 @@
     },
     "description": "Composition, structure, occurrence, origin, and economic investigation of important groups of mineral deposits; problems of mineral deposition.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 370,
                 "subjects": [
-                    "GLE",
-                    "GEOSCI"
+                    "GEOSCI",
+                    "GLE"
                 ]
             },
             {
@@ -43,56 +62,109 @@
                 ]
             }
         ],
-        "prerequisites_text": "GEOSCI\u00a0204andG\u00a0L\u00a0E/\u200bGEOSCI\u00a0\u00a0370, or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 370,
-                "subjects": [
-                    "GLE",
-                    "GEOSCI"
-                ]
-            },
+        "linked_requisite_text": [
             {
                 "course_number": 204,
                 "subjects": [
                     "GEOSCI"
                 ]
+            },
+            " and ",
+            {
+                "course_number": 370,
+                "subjects": [
+                    "GEOSCI",
+                    "GLE"
+                ]
+            },
+            ", or graduate/professional standing"
+        ],
+        "prerequisites_text": "GEOSCI\u00a0204andG\u00a0L\u00a0E/\u200bGEOSCI\u00a0\u00a0370, or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 204,
+                "subjects": [
+                    "GEOSCI"
+                ]
+            },
+            {
+                "course_number": 370,
+                "subjects": [
+                    "GEOSCI",
+                    "GLE"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 204,
+                "subjects": [
+                    "GEOSCI"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 370,
+                "subjects": [
+                    "GEOSCI",
+                    "GLE"
+                ]
+            },
+            ", or graduate/professional standing"
         ],
         "prerequisites_text": "GEOSCI\u00a0204andG\u00a0L\u00a0E/\u200bGEOSCI\u00a0\u00a0370, or graduate/professional standing"
     },
     "similar_courses": [
         {
+            "course_number": 459,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
+            "course_number": 875,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
+            "course_number": 755,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
+            "course_number": 765,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
             "course_number": 360,
             "subjects": [
-                "GLE",
-                "GEOSCI"
-            ]
-        },
-        {
-            "course_number": 302,
-            "subjects": [
-                "GEOG"
-            ]
-        },
-        {
-            "course_number": 375,
-            "subjects": [
-                "GEOSCI"
-            ]
-        },
-        {
-            "course_number": 100,
-            "subjects": [
-                "GEOSCI"
-            ]
-        },
-        {
-            "course_number": 510,
-            "subjects": [
-                "GEOG"
+                "GEOSCI",
+                "GLE"
             ]
         }
     ],
@@ -321,25 +393,6 @@
                 "total": 17,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Spring 2018",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall"
-            },
-            "grade_data": null
         }
     }
 }

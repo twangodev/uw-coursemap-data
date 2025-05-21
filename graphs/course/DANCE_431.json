@@ -1,20 +1,6 @@
 [
     {
         "data": {
-            "description": "One semester supervised experience in psychiatric setting, i.e., special school, hospital, or community mental health center, and one semester of independent study.",
-            "id": "DANCE 431",
-            "parent": "DANCE",
-            "title": "DANCE THERAPY PRACTICUM"
-        }
-    },
-    {
-        "data": {
-            "source": "DANCE 331",
-            "target": "DANCE 431"
-        }
-    },
-    {
-        "data": {
             "description": "Movement lab integrating theory and techniques of dance therapy. Field work in community service projects.",
             "id": "DANCE 331",
             "parent": "DANCE",
@@ -23,8 +9,10 @@
     },
     {
         "data": {
-            "id": "DANCE",
-            "type": "compound"
+            "description": "One semester supervised experience in psychiatric setting, i.e., special school, hospital, or community mental health center, and one semester of independent study.",
+            "id": "DANCE 431",
+            "parent": "DANCE",
+            "title": "DANCE THERAPY PRACTICUM"
         }
     },
     {
@@ -37,8 +25,20 @@
     },
     {
         "data": {
+            "id": "DANCE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "DANCE 231",
             "target": "DANCE 331"
+        }
+    },
+    {
+        "data": {
+            "source": "DANCE 331",
+            "target": "DANCE 431"
         }
     }
 ]

@@ -1,40 +1,17 @@
 [
     {
         "data": {
-            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
-            "id": "ACCTIS 100",
-            "parent": "ACCTIS",
-            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+            "description": "Concepts and techniques in corporate finance and investments. Topics include the financial environment, securities markets, financial markets, financial statements and analysis, working capital management, capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision-making under uncertainty, mergers, options, and futures.",
+            "id": "ECON/FINANCE 300",
+            "title": "INTRODUCTION TO FINANCE"
         }
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON/FINANCE 300"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 300"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ECON/FINANCE 300"
-        }
-    },
-    {
-        "data": {
-            "source": "MHR 322",
-            "target": "MHR 422"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 300",
-            "target": "ECON/FINANCE 300"
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
@@ -47,6 +24,22 @@
     },
     {
         "data": {
+            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
+            "id": "ACCTIS 100",
+            "parent": "ACCTIS",
+            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+        }
+    },
+    {
+        "data": {
+            "description": "Focuses on the process of starting and growing a new venture. Develop and utilize a set of qualitative and quantitative skills that can be applied in this context. Topics include how to assess and quantify growth potential of an entrepreneurial opportunity, how investors value startups, and how startups are effectively managed. Acquire a set of cross-functional concepts in finance, law, marketing, and strategy.",
+            "id": "MHR 422",
+            "parent": "MHR",
+            "title": "ADVANCED ENTREPRENEURSHIP"
+        }
+    },
+    {
+        "data": {
             "description": "Gain and apply knowledge about foundations of entrepreneurship, and key topics such as founding teams, customer/market discovery, starting and growing a business.",
             "id": "MHR 322",
             "parent": "MHR",
@@ -55,28 +48,18 @@
     },
     {
         "data": {
-            "id": "MHR",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON/FINANCE 300",
-            "target": "MHR 422"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
             "id": "ECON 111",
             "parent": "ECON",
             "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
         }
     },
     {
@@ -93,16 +76,20 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 111"
+            "id": "ECON",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "id": "MHR",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 300"
         }
     },
     {
@@ -113,23 +100,50 @@
     },
     {
         "data": {
-            "description": "Concepts and techniques in corporate finance and investments. Topics include the financial environment, securities markets, financial markets, financial statements and analysis, working capital management, capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision-making under uncertainty, mergers, options, and futures.",
-            "id": "ECON/FINANCE 300",
-            "title": "INTRODUCTION TO FINANCE"
+            "source": "ACCTIS 300",
+            "target": "ECON/FINANCE 300"
         }
     },
     {
         "data": {
-            "description": "Focuses on the process of starting and growing a new venture. Develop and utilize a set of qualitative and quantitative skills that can be applied in this context. Topics include how to assess and quantify growth potential of an entrepreneurial opportunity, how investors value startups, and how startups are effectively managed. Acquire a set of cross-functional concepts in finance, law, marketing, and strategy.",
-            "id": "MHR 422",
-            "parent": "MHR",
-            "title": "ADVANCED ENTREPRENEURSHIP"
+            "source": "ECON 101",
+            "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "MHR 422"
+        }
+    },
+    {
+        "data": {
+            "source": "MHR 322",
+            "target": "MHR 422"
         }
     }
 ]

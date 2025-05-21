@@ -29,19 +29,27 @@
     },
     "description": "Principles including morphology and classification.",
     "optimized_prerequisites": {
-        "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BOTANY",
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            }
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY\u00a0153, orBIOCORE\u00a0381"
-    },
-    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 101,
@@ -49,7 +57,65 @@
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
             },
+            ", ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 153,
+                "subjects": [
+                    "ZOOLOGY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            }
+        ],
+        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY\u00a0153, orBIOCORE\u00a0381"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 381,
                 "subjects": [
@@ -57,9 +123,8 @@
                 ]
             },
             {
-                "course_number": 151,
+                "course_number": 101,
                 "subjects": [
-                    "BOTANY",
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
@@ -69,27 +134,53 @@
                 "subjects": [
                     "ZOOLOGY"
                 ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 153,
+                "subjects": [
+                    "ZOOLOGY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
             }
         ],
         "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY\u00a0153, orBIOCORE\u00a0381"
     },
     "similar_courses": [
         {
-            "course_number": 331,
-            "subjects": [
-                "ENTOM"
-            ]
-        },
-        {
-            "course_number": 624,
-            "subjects": [
-                "ZOOLOGY",
-                "ENTOM",
-                "GENETICS"
-            ]
-        },
-        {
-            "course_number": 351,
+            "course_number": 468,
             "subjects": [
                 "ENTOM"
             ]
@@ -101,7 +192,19 @@
             ]
         },
         {
-            "course_number": 321,
+            "course_number": 450,
+            "subjects": [
+                "ENTOM"
+            ]
+        },
+        {
+            "course_number": 331,
+            "subjects": [
+                "ENTOM"
+            ]
+        },
+        {
+            "course_number": 432,
             "subjects": [
                 "ENTOM"
             ]
@@ -1008,27 +1111,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Dan YOUNG": "YOUNG@ENTOMOLOGY.WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -1040,7 +1122,7 @@
                 "instructors": {
                     "Dan YOUNG": "YOUNG@ENTOMOLOGY.WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

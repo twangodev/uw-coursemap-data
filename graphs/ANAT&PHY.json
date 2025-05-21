@@ -1,10 +1,49 @@
 [
     {
         "data": {
+            "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
+            "id": "PHYSICS 201",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
+            "id": "PHYSICS 207",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
+        }
+    },
+    {
+        "data": {
             "description": "Core concepts in human physiology from cells to organ-systems via online lectures and active learning activities including laboratory experiments. Topics include homeostasis, membrane transport, cellular physiology, regulation of metabolism, and functions of the nervous, endocrine, muscular, reproductive, cardiovascular, respiratory, renal, and gastrointestinal system.",
             "id": "ANAT&PHY 335",
             "parent": "ANAT&PHY",
             "title": "PHYSIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Explores the major organ systems including nervous, endocrine, muscular, cardiovascular, renal, and gastrointestinal. The main learning objective is an understanding of the cellular and molecular mechanisms through which homeostasis is integrated and maintained. Not open to students with credit for PHYSIOL 335 or 435 prior to fall 2018 orANAT&PHY\u00a0335",
+            "id": "ANAT&PHY 435",
+            "parent": "ANAT&PHY",
+            "title": "FUNDAMENTALS OF HUMAN PHYSIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
+            "id": "BIOLOGY/ZOOLOGY 101",
+            "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Individual work in the fields of anatomy and/or physiology offers the opportunity to participate in more in-depth study (beginning to intermediate level) under the direct guidance of anatomy and/or physiology faculty.",
+            "id": "ANAT&PHY 399",
+            "parent": "ANAT&PHY",
+            "title": "INDEPENDENT STUDY"
         }
     },
     {
@@ -17,6 +56,22 @@
     },
     {
         "data": {
+            "description": "Learn basic physiological concepts, apply them to understand human health and disease, and link them to broader core concepts in biology. Complete a project that applies conceptual understanding of general biology and physiology to investigate and create informational materials for the public about a disease or health promotion strategy. The foundational knowledge covered serves those interested in health sciences majors, as well as non-science students interested in life-long health.",
+            "id": "ANAT&PHY 235",
+            "parent": "ANAT&PHY",
+            "title": "HUMAN PHYSIOLOGY AND HEALTH"
+        }
+    },
+    {
+        "data": {
+            "description": "Takes a regional approach to cover the gross anatomy of the human body in four units: introduction to anatomical systems; back and limbs; thorax, abdomen, and pelvis; and head and neck. A variety of tools, including interactive software, models, and specimens, will be used.",
+            "id": "ANAT&PHY 338",
+            "parent": "ANAT&PHY",
+            "title": "HUMAN ANATOMY LABORATORY"
+        }
+    },
+    {
+        "data": {
             "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
             "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "title": "INTRODUCTORY BIOLOGY"
@@ -24,21 +79,36 @@
     },
     {
         "data": {
-            "source": "ZOOLOGY 153",
-            "target": "ANAT&PHY 435"
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics, and selected topics in Animal Physiology. Designed for engineering majors that do not need a lab component.",
+            "id": "ZOOLOGY 153",
+            "parent": "ZOOLOGY",
+            "title": "INTRODUCTORY BIOLOGY"
         }
     },
     {
         "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
+            "description": "Uses a regional approach to provide a foundation of knowledge in human anatomy. Units cover an introduction to anatomical systems; back and limbs; thorax, abdomen, and pelvis; and head and neck.",
+            "id": "ANAT&PHY 337",
+            "parent": "ANAT&PHY",
+            "title": "HUMAN ANATOMY"
         }
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "ANAT&PHY 335"
+            "id": "ANAT&PHY",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "PHYSICS",
+            "type": "compound"
         }
     },
     {
@@ -55,49 +125,13 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY 130",
-            "target": "ANAT&PHY 435"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics, and selected topics in Animal Physiology. Designed for engineering majors that do not need a lab component.",
-            "id": "ZOOLOGY 153",
-            "parent": "ZOOLOGY",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Explores the major organ systems including nervous, endocrine, muscular, cardiovascular, renal, and gastrointestinal. The main learning objective is an understanding of the cellular and molecular mechanisms through which homeostasis is integrated and maintained. Not open to students with credit for PHYSIOL 335 or 435 prior to fall 2018 orANAT&PHY\u00a0335",
-            "id": "ANAT&PHY 435",
-            "parent": "ANAT&PHY",
-            "title": "FUNDAMENTALS OF HUMAN PHYSIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Takes a regional approach to cover the gross anatomy of the human body in four units: introduction to anatomical systems; back and limbs; thorax, abdomen, and pelvis; and head and neck. A variety of tools, including interactive software, models, and specimens, will be used.",
-            "id": "ANAT&PHY 338",
-            "parent": "ANAT&PHY",
-            "title": "HUMAN ANATOMY LABORATORY"
-        }
-    },
-    {
-        "data": {
             "source": "ANAT&PHY 435",
             "target": "ANAT&PHY 335"
         }
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "ZOOLOGY 153"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "target": "ANAT&PHY 335"
         }
     },
@@ -105,47 +139,6 @@
         "data": {
             "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "target": "ANAT&PHY 435"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to the basic principles and concepts of the biology of plants. an integrative approach stressing evolutionary sequences and the relationship between structure and function at succeeding levels of organization: molecule, cell, organism, population, community. Correlated lectures, laboratories, and discussions.",
-            "id": "BIOLOGY/BOTANY 130",
-            "title": "GENERAL BOTANY"
-        }
-    },
-    {
-        "data": {
-            "description": "Learn basic physiological concepts, apply them to understand human health and disease, and link them to broader core concepts in biology. Complete a project that applies conceptual understanding of general biology and physiology to investigate and create informational materials for the public about a disease or health promotion strategy. The foundational knowledge covered serves those interested in health sciences majors, as well as non-science students interested in life-long health.",
-            "id": "ANAT&PHY 235",
-            "parent": "ANAT&PHY",
-            "title": "HUMAN PHYSIOLOGY AND HEALTH"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "ANAT&PHY 435"
-        }
-    },
-    {
-        "data": {
-            "description": "Uses a regional approach to provide a foundation of knowledge in human anatomy. Units cover an introduction to anatomical systems; back and limbs; thorax, abdomen, and pelvis; and head and neck.",
-            "id": "ANAT&PHY 337",
-            "parent": "ANAT&PHY",
-            "title": "HUMAN ANATOMY"
         }
     },
     {
@@ -156,22 +149,56 @@
     },
     {
         "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "ANAT&PHY 335"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "ANAT&PHY 435"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "ZOOLOGY 153"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 201",
+            "target": "PHYSICS 207"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 207",
+            "target": "ANAT&PHY 435"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 207",
+            "target": "PHYSICS 201"
+        }
+    },
+    {
+        "data": {
             "source": "ZOOLOGY 153",
             "target": "ANAT&PHY 335"
         }
     },
     {
         "data": {
-            "description": "Individual work in the fields of anatomy and/or physiology offers the opportunity to participate in more in-depth study (beginning to intermediate level) under the direct guidance of anatomy and/or physiology faculty.",
-            "id": "ANAT&PHY 399",
-            "parent": "ANAT&PHY",
-            "title": "INDEPENDENT STUDY"
-        }
-    },
-    {
-        "data": {
-            "id": "ANAT&PHY",
-            "type": "compound"
+            "source": "ZOOLOGY 153",
+            "target": "ANAT&PHY 435"
         }
     }
 ]

@@ -1,42 +1,18 @@
 [
     {
         "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
             "description": "Examines how captive insurance works, the different structures of captives, and advantages and disadvantages of their use in various settings. In addition, the captive feasibility process, as well as techniques for measuring financial performance, will be covered.",
             "id": "RMI 635",
             "parent": "RMI",
             "title": "CAPTIVE INSURANCE"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "RMI 300"
-        }
-    },
-    {
-        "data": {
-            "source": "RMI 300",
-            "target": "RMI 635"
-        }
-    },
-    {
-        "data": {
-            "description": "Nature of risk, principal techniques of risk management, including insurance markets, and the bases for decision-making in managing risk effectively.",
-            "id": "RMI 300",
-            "parent": "RMI",
-            "title": "PRINCIPLES OF RISK MANAGEMENT"
-        }
-    },
-    {
-        "data": {
-            "id": "RMI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
         }
     },
     {
@@ -49,22 +25,74 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 111"
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "description": "Nature of risk, principal techniques of risk management, including insurance markets, and the bases for decision-making in managing risk effectively.",
+            "id": "RMI 300",
+            "parent": "RMI",
+            "title": "PRINCIPLES OF RISK MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Nature of risk, principal techniques of risk management, including insurance markets, and the bases for decision-making in managing risk effectively.",
+            "id": "RMI 700",
+            "parent": "RMI",
+            "title": "PRINCIPLES OF RISK MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "RMI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "RMI 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "RMI 300",
+            "target": "RMI 700"
+        }
+    },
+    {
+        "data": {
+            "source": "RMI 700",
+            "target": "RMI 635"
         }
     }
 ]

@@ -28,6 +28,28 @@
     },
     "description": "Group instruction in elementary piano.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        "placement into",
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "declared in Music"
+                    ],
+                    "operator": "AND"
+                },
+                "Music: Performance BM",
+                "Music: Education BM"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 102,
@@ -35,10 +57,48 @@
                     "MUSPERF"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "MUSPERF"
+                ]
+            },
+            " or placement into ",
+            {
+                "course_number": 103,
+                "subjects": [
+                    "MUSPERF"
+                ]
+            },
+            " and declared in Music, Music: Performance BM, or Music: Education BM"
         ],
         "prerequisites_text": "MUS\u00a0PERF\u00a0102or placement intoMUS\u00a0PERF\u00a0103and declared in Music, Music: Performance BM, or Music: Education BM"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        "placement into",
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "declared in Music"
+                    ],
+                    "operator": "AND"
+                },
+                "Music: Performance BM",
+                "Music: Education BM"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 102,
@@ -47,15 +107,25 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "MUSPERF"
+                ]
+            },
+            " or placement into ",
+            {
+                "course_number": 103,
+                "subjects": [
+                    "MUSPERF"
+                ]
+            },
+            " and declared in Music, Music: Performance BM, or Music: Education BM"
+        ],
         "prerequisites_text": "MUS\u00a0PERF\u00a0102or placement intoMUS\u00a0PERF\u00a0103and declared in Music, Music: Performance BM, or Music: Education BM"
     },
     "similar_courses": [
-        {
-            "course_number": 200,
-            "subjects": [
-                "MUSPERF"
-            ]
-        },
         {
             "course_number": 104,
             "subjects": [
@@ -64,6 +134,12 @@
         },
         {
             "course_number": 101,
+            "subjects": [
+                "MUSPERF"
+            ]
+        },
+        {
+            "course_number": 200,
             "subjects": [
                 "MUSPERF"
             ]
@@ -145,8 +221,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ELISABETH MALCOLM",
-                    "JONATHAN KUUSKOSKI"
+                    "JONATHAN KUUSKOSKI",
+                    "ELISABETH MALCOLM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -796,8 +872,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "JESSICA JOHNSON",
-                    "Ying WANG"
+                    "Ying WANG",
+                    "JESSICA JOHNSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -822,8 +898,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JESSICA JOHNSON",
-                    "YOO MIN LEE"
+                    "YOO MIN LEE",
+                    "JESSICA JOHNSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -899,8 +975,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JAMES CARL OSORIO",
-                    "YOO MIN LEE"
+                    "YOO MIN LEE",
+                    "JAMES CARL OSORIO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -925,9 +1001,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Elizabeth Vaughan",
-                    "Hyeyeon Seok",
-                    "Sarah Prescott"
+                    "Sarah Prescott",
+                    "ELIZABETH VAUGHAN",
+                    "HYEYEON SEOK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -952,7 +1028,7 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Matthew Driver",
+                    "MATTHEW DRIVER",
                     "Sarah Prescott"
                 ],
                 "no_credit": 0,
@@ -973,7 +1049,9 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
+                "instructors": {
+                    "Alexandra Flint": "AOFLINT@WISC.EDU"
+                },
                 "last_taught_term": "Fall 2024",
                 "school": {
                     "abbreviation": "L",

@@ -2,14 +2,42 @@
     "course_reference": {
         "course_number": 425,
         "subjects": [
-            "SOILSCI",
-            "MICROBIO"
+            "MICROBIO",
+            "SOILSCI"
         ]
     },
     "course_title": "ENVIRONMENTAL MICROBIOLOGY",
     "cumulative_grade_data": null,
     "description": "Microbial interactions in soils, water, extreme environments and biofilms. Modern methods for studying microbial ecology. role of microbes in nutrient cycles and biogeochemistry. Use of microbes for mitigating manmade environmental problems of industrial, agricultural, and domestic origin.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 303,
@@ -30,18 +58,63 @@
                 ]
             }
         ],
-        "prerequisites_text": "MICROBIO\u00a0303and (CHEM\u00a0341or343), or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 303,
+                "subjects": [
+                    "MICROBIO"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 341,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            " or ",
             {
                 "course_number": 343,
                 "subjects": [
                     "CHEM"
                 ]
             },
+            "), or graduate/professional standing"
+        ],
+        "prerequisites_text": "MICROBIO\u00a0303and (CHEM\u00a0341or343), or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
-                "course_number": 341,
+                "course_number": 343,
                 "subjects": [
                     "CHEM"
                 ]
@@ -51,24 +124,51 @@
                 "subjects": [
                     "MICROBIO"
                 ]
+            },
+            {
+                "course_number": 341,
+                "subjects": [
+                    "CHEM"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 303,
+                "subjects": [
+                    "MICROBIO"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 341,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 343,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            "), or graduate/professional standing"
         ],
         "prerequisites_text": "MICROBIO\u00a0303and (CHEM\u00a0341or343), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 523,
+            "course_number": 425,
             "subjects": [
-                "SOILSCI",
-                "MICROBIO"
+                "CIVENGR"
             ]
         },
         {
-            "course_number": 230,
+            "course_number": 523,
             "subjects": [
-                "GEOG",
-                "SOILSCI",
-                "ENVIRST"
+                "MICROBIO",
+                "SOILSCI"
             ]
         },
         {
@@ -78,15 +178,16 @@
             ]
         },
         {
-            "course_number": 425,
+            "course_number": 324,
             "subjects": [
-                "CIVENGR"
+                "SOILSCI",
+                "ENVIRST"
             ]
         },
         {
-            "course_number": 450,
+            "course_number": 117,
             "subjects": [
-                "MICROBIO"
+                "GEOSCI"
             ]
         }
     ],

@@ -9,14 +9,10 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 321"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
@@ -29,22 +25,40 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 111"
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "ECON 321"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
         }
     }
 ]

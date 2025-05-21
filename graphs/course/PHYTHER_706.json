@@ -1,36 +1,10 @@
 [
     {
         "data": {
-            "id": "PHYTHER",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "Learning experiences in a clinical setting under the direct guidance of a physical therapist (Clinical Instructor). Ability to perform physical therapy examinations of body structures and functions, and other evaluations, interventions, and outcomes assessed by evaluative tools, such as the Clinical Performance Instrument (CPI).",
             "id": "PHYTHER 706",
             "parent": "PHYTHER",
             "title": "CLINICAL INTERNSHIP VII"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYTHER 676",
-            "target": "PHYTHER 679"
-        }
-    },
-    {
-        "data": {
-            "description": "Provides the physical therapy student with the cognitive, affective, and psychomotor knowledge for effective examination, evaluation, diagnosis and management of patients/clients of all ages with various musculoskeletal dysfunctions related specifically to the extremities.",
-            "id": "PHYTHER 677",
-            "parent": "PHYTHER",
-            "title": "MUSCULOSKELETAL DYSFUNCTION : EXAMINATION, DIAGNOSIS, & MANAGEMENT II"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYTHER 677",
-            "target": "PHYTHER 679"
         }
     },
     {
@@ -43,8 +17,10 @@
     },
     {
         "data": {
-            "source": "PHYTHER 679",
-            "target": "PHYTHER 706"
+            "description": "Provides the physical therapy student with the cognitive, affective, and psychomotor knowledge for effective examination, evaluation, diagnosis and management of patients/clients of all ages with various musculoskeletal dysfunctions related specifically to the extremities.",
+            "id": "PHYTHER 677",
+            "parent": "PHYTHER",
+            "title": "MUSCULOSKELETAL DYSFUNCTION : EXAMINATION, DIAGNOSIS, & MANAGEMENT II"
         }
     },
     {
@@ -53,6 +29,30 @@
             "id": "PHYTHER 676",
             "parent": "PHYTHER",
             "title": "MUSCULOSKELETAL DYSFUNCTION : EXAMINATION, DIAGNOSIS, & MANAGEMENT I"
+        }
+    },
+    {
+        "data": {
+            "id": "PHYTHER",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYTHER 676",
+            "target": "PHYTHER 679"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYTHER 677",
+            "target": "PHYTHER 679"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYTHER 679",
+            "target": "PHYTHER 706"
         }
     }
 ]

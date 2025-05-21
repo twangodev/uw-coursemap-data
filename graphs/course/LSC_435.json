@@ -1,66 +1,6 @@
 [
     {
         "data": {
-            "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
-            "id": "MARKETNG 300",
-            "parent": "MARKETNG",
-            "title": "MARKETING MANAGEMENT"
-        }
-    },
-    {
-        "data": {
-            "description": "Explores marketing, promotion, and strategic communication specific to the consumer marketplace. Analyze communication strategies for science products and industries synthesized from business goals and objectives to specific audiences. Coursework includes a variety of readings from a class textbook as well as peer-reviewed papers published in life science, marketing, communication, and general business journals.",
-            "id": "LSC 270",
-            "parent": "LSC",
-            "title": "MARKETING COMMUNICATION FOR THE SCIENCES"
-        }
-    },
-    {
-        "data": {
-            "id": "MARKETNG",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "LSC",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "MARKETNG 300"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
-            "id": "ECON 111",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
-        }
-    },
-    {
-        "data": {
-            "source": "LSC 270",
-            "target": "LSC 435"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "ECON 111"
-        }
-    },
-    {
-        "data": {
             "description": "Explores strategic marketing, branding, and communication planning specific to science, technology, and environmental industries. Examines the sociological and psychological processes shaping audiences' perceptions of various brands, and discusses how to apply various strategies and frameworks to reinforce these perceptions and guide marketing and communication efforts. Combines portfolio-building writing as well as in-class presentations and discussion on contemporary marketing, branding issues, including strategic marketing plans.",
             "id": "LSC 435",
             "parent": "LSC",
@@ -77,14 +17,88 @@
     },
     {
         "data": {
-            "source": "MARKETNG 300",
-            "target": "LSC 435"
+            "description": "Explores marketing, promotion, and strategic communication specific to the consumer marketplace. Analyze communication strategies for science products and industries synthesized from business goals and objectives to specific audiences. Coursework includes a variety of readings from a class textbook as well as peer-reviewed papers published in life science, marketing, communication, and general business journals.",
+            "id": "LSC 270",
+            "parent": "LSC",
+            "title": "MARKETING COMMUNICATION FOR THE SCIENCES"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
+            "id": "MARKETNG 300",
+            "parent": "MARKETNG",
+            "title": "MARKETING MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "LSC",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MARKETNG",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "MARKETNG 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "LSC 270",
+            "target": "LSC 435"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 300",
+            "target": "LSC 435"
         }
     }
 ]

@@ -29,6 +29,34 @@
     },
     "description": "Introduction of basic concepts of plant molecular biology and molecular techniques in current use. Topics include: organization and regulation of plant genes, gene cloning and analysis, transformation systems for plants, and molecular techniques for crop improvement.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 466,
@@ -49,18 +77,69 @@
                 ]
             }
         ],
-        "prerequisites_text": "BIOCHEM\u00a0501and (GENETICS\u00a0466or467); or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            " or ",
             {
                 "course_number": 467,
                 "subjects": [
                     "GENETICS"
                 ]
             },
+            "); or graduate/professional standing"
+        ],
+        "prerequisites_text": "BIOCHEM\u00a0501and (GENETICS\u00a0466or467); or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
+                "course_number": 467,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -71,6 +150,29 @@
                     "BIOCHEM"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 467,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            "); or graduate/professional standing"
         ],
         "prerequisites_text": "BIOCHEM\u00a0501and (GENETICS\u00a0466or467); or graduate/professional standing"
     },
@@ -78,15 +180,22 @@
         {
             "course_number": 340,
             "subjects": [
-                "BOTANY",
                 "AGRONOMY",
-                "HORT"
+                "HORT",
+                "BOTANY"
             ]
         },
         {
             "course_number": 545,
             "subjects": [
                 "GENETICS"
+            ]
+        },
+        {
+            "course_number": 501,
+            "subjects": [
+                "AGRONOMY",
+                "HORT"
             ]
         },
         {
@@ -99,15 +208,8 @@
         {
             "course_number": 338,
             "subjects": [
-                "HORT",
-                "AGRONOMY"
-            ]
-        },
-        {
-            "course_number": 812,
-            "subjects": [
-                "HORT",
-                "AGRONOMY"
+                "AGRONOMY",
+                "HORT"
             ]
         }
     ],
@@ -305,8 +407,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "RICHARD VIERSTRA",
-                    "PATRICK KRYSAN"
+                    "PATRICK KRYSAN",
+                    "RICHARD VIERSTRA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -467,27 +569,6 @@
                 "total": 18,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "PATRICK KRYSAN": "PJKRYSAN@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Fall"
-            },
-            "grade_data": null
         }
     }
 }

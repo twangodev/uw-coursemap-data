@@ -28,6 +28,28 @@
     },
     "description": "Cultural evolution of Spanish America from pre-Hispanic days through the present. Conducted in Spanish.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 223,
@@ -43,14 +65,59 @@
                 ]
             }
         ],
-        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222orSPANISH\u00a0223) andSPANISH\u00a0224"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 222,
                 "subjects": [
                     "CHICLA",
+                    "SPANISH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 223,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
+            ") and ",
+            {
+                "course_number": 224,
+                "subjects": [
+                    "SPANISH"
+                ]
+            }
+        ],
+        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222orSPANISH\u00a0223) andSPANISH\u00a0224"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 223,
+                "subjects": [
                     "SPANISH"
                 ]
             },
@@ -61,7 +128,32 @@
                 ]
             },
             {
+                "course_number": 222,
+                "subjects": [
+                    "CHICLA",
+                    "SPANISH"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 222,
+                "subjects": [
+                    "CHICLA",
+                    "SPANISH"
+                ]
+            },
+            " or ",
+            {
                 "course_number": 223,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
+            ") and ",
+            {
+                "course_number": 224,
                 "subjects": [
                     "SPANISH"
                 ]
@@ -71,19 +163,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 223,
+            "subjects": [
+                "SPANISH"
+            ]
+        },
+        {
+            "course_number": 322,
+            "subjects": [
+                "SPANISH"
+            ]
+        },
+        {
             "course_number": 468,
-            "subjects": [
-                "SPANISH"
-            ]
-        },
-        {
-            "course_number": 801,
-            "subjects": [
-                "SPANISH"
-            ]
-        },
-        {
-            "course_number": 326,
             "subjects": [
                 "SPANISH"
             ]
@@ -95,7 +187,7 @@
             ]
         },
         {
-            "course_number": 223,
+            "course_number": 203,
             "subjects": [
                 "SPANISH"
             ]
@@ -290,8 +382,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SARLI MERCADO",
-                    "Marcelo PELLEGRINI"
+                    "Marcelo PELLEGRINI",
+                    "SARLI MERCADO"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -466,8 +558,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SARLI MERCADO",
-                    "Marcelo PELLEGRINI"
+                    "Marcelo PELLEGRINI",
+                    "SARLI MERCADO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -642,8 +734,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "SARLI MERCADO",
-                    "Marcelo PELLEGRINI"
+                    "Marcelo PELLEGRINI",
+                    "SARLI MERCADO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -694,7 +786,7 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Pedro de Jesus Gonzales Duran",
+                    "PEDRO DE JESUS GONZALES DURAN",
                     "Paola HERNANDEZ"
                 ],
                 "no_credit": 0,
@@ -707,27 +799,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Jamie De Moya-Cotter": "DEMOYACOTTER@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -739,7 +810,7 @@
                 "instructors": {
                     "GLEN CLOSE": "GSCLOSE@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

@@ -1,21 +1,23 @@
 [
     {
         "data": {
-            "id": "ANSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ANSCI/DYSCI 101",
-            "target": "ANSCI 511"
-        }
-    },
-    {
-        "data": {
             "description": "An overview of animal sciences covering anatomy, physiology, nutrition, reproduction, genetics, management, animal welfare, and behavior of domesticated animals. Food animals are emphasized to discuss their contributions to humans.",
             "id": "ANSCI/DYSCI 101",
             "title": "INTRODUCTION TO ANIMAL SCIENCES"
+        }
+    },
+    {
+        "data": {
+            "description": "History of artificial incubation relevant to the U.S. hatching industry. Practices involved in successful incubation of hatching eggs. Embryonic development in birds. Management factors involved in breeder hen production and operating a hatchery.",
+            "id": "ANSCI 511",
+            "parent": "ANSCI",
+            "title": "BREEDER FLOCK AND HATCHERY MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "id": "ANSCI",
+            "type": "compound"
         }
     },
     {
@@ -26,10 +28,8 @@
     },
     {
         "data": {
-            "description": "History of artificial incubation relevant to the U.S. hatching industry. Practices involved in successful incubation of hatching eggs. Embryonic development in birds. Management factors involved in breeder hen production and operating a hatchery.",
-            "id": "ANSCI 511",
-            "parent": "ANSCI",
-            "title": "BREEDER FLOCK AND HATCHERY MANAGEMENT"
+            "source": "ANSCI/DYSCI 101",
+            "target": "ANSCI 511"
         }
     }
 ]

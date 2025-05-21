@@ -9,6 +9,65 @@
     "cumulative_grade_data": null,
     "description": "Introduction to simulation modeling and analysis techniques with application to production, logistics, service, and other systems. Emphasis on model building, application of basic statistical data analysis, and the use of simulation for design, evaluation, and improvement of such systems. Introduction to available software. Case studies.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "301",
+                                "302",
+                                {
+                                    "children": [
+                                        "placement into",
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        }
+                                    ],
+                                    "operator": "AND"
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                "STAT 224",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 324,
@@ -17,39 +76,139 @@
                 ]
             },
             {
-                "course_number": 312,
+                "course_number": 310,
                 "subjects": [
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 200,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "COMPSCI"
                 ]
             }
         ],
-        "prerequisites_text": "(COMP\u00a0SCI\u00a0200,220,300, 301, 302, or placement intoCOMP\u00a0SCI\u00a0300) and (STAT 224,312,324, orSTAT/\u200bMATH\u00a0\u00a0310), graduate/professional standing, or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
             {
-                "course_number": 312,
+                "course_number": 200,
                 "subjects": [
-                    "STAT"
+                    "COMPSCI"
                 ]
             },
+            ", ",
             {
                 "course_number": 220,
                 "subjects": [
                     "COMPSCI"
                 ]
             },
+            ", ",
             {
                 "course_number": 300,
                 "subjects": [
                     "COMPSCI"
+                ]
+            },
+            ", 301, 302, or placement into ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ") and (STAT 224, ",
+            {
+                "course_number": 312,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 324,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            "), graduate/professional standing, or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "(COMP\u00a0SCI\u00a0200,220,300, 301, 302, or placement intoCOMP\u00a0SCI\u00a0300) and (STAT 224,312,324, orSTAT/\u200bMATH\u00a0\u00a0310), graduate/professional standing, or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "301",
+                                "302",
+                                {
+                                    "children": [
+                                        "placement into",
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        }
+                                    ],
+                                    "operator": "AND"
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                "STAT 224",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 312,
+                "subjects": [
+                    "STAT"
                 ]
             },
             {
@@ -65,23 +224,81 @@
                 ]
             },
             {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 220,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
                 "course_number": 310,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 200,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 220,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", 301, 302, or placement into ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ") and (STAT 224, ",
+            {
+                "course_number": 312,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 324,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            "), graduate/professional standing, or member of Engineering Guest Students"
         ],
         "prerequisites_text": "(COMP\u00a0SCI\u00a0200,220,300, 301, 302, or placement intoCOMP\u00a0SCI\u00a0300) and (STAT 224,312,324, orSTAT/\u200bMATH\u00a0\u00a0310), graduate/professional standing, or member of Engineering Guest Students"
     },
     "similar_courses": [
-        {
-            "course_number": 641,
-            "subjects": [
-                "ME",
-                "ISYE"
-            ]
-        },
         {
             "course_number": 321,
             "subjects": [
@@ -89,7 +306,14 @@
             ]
         },
         {
-            "course_number": 320,
+            "course_number": 641,
+            "subjects": [
+                "ISYE",
+                "ME"
+            ]
+        },
+        {
+            "course_number": 624,
             "subjects": [
                 "ISYE"
             ]
@@ -101,7 +325,7 @@
             ]
         },
         {
-            "course_number": 415,
+            "course_number": 320,
             "subjects": [
                 "ISYE"
             ]

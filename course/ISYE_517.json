@@ -28,15 +28,49 @@
     },
     "description": "Introduction to the use of decision sciences in health-care. Conceptual understanding of medical decision making and its tools including decision trees, sensitivity analysis, Markow (decision) processes, and Monte Carlo simulations with examples from the current medical literature.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 524,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE",
-                    "ISYE"
-                ]
-            },
             {
                 "course_number": 323,
                 "subjects": [
@@ -44,27 +78,121 @@
                 ]
             },
             {
-                "course_number": 311,
+                "course_number": 524,
                 "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "prerequisites_text": "(STAT/\u200bMATH\u00a0\u00a0309,STAT\u00a0311, orSTAT/\u200bMATH\u00a0\u00a0431) and (I\u00a0SY\u00a0E\u00a0323orE\u00a0C\u00a0E/\u200bCOMP\u00a0SCI/\u200bI\u00a0SY\u00a0E\u00a0\u00a0524), or graduate/professional standing, or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "STAT"
+                    "ISYE",
+                    "COMPSCI",
+                    "ECE"
                 ]
             },
             {
                 "course_number": 309,
                 "subjects": [
-                    "MATH",
+                    "STAT",
+                    "MATH"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 309,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 311,
+                "subjects": [
                     "STAT"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 431,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 323,
+                "subjects": [
+                    "ISYE"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 524,
+                "subjects": [
+                    "ISYE",
+                    "COMPSCI",
+                    "ECE"
+                ]
+            },
+            "), or graduate/professional standing, or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "(STAT/\u200bMATH\u00a0\u00a0309,STAT\u00a0311, orSTAT/\u200bMATH\u00a0\u00a0431) and (I\u00a0SY\u00a0E\u00a0323orE\u00a0C\u00a0E/\u200bCOMP\u00a0SCI/\u200bI\u00a0SY\u00a0E\u00a0\u00a0524), or graduate/professional standing, or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 309,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 431,
+                "subjects": [
+                    "STAT",
+                    "MATH"
                 ]
             },
             {
@@ -74,40 +202,67 @@
                 ]
             },
             {
-                "course_number": 431,
+                "course_number": 311,
                 "subjects": [
-                    "MATH",
                     "STAT"
                 ]
             },
             {
                 "course_number": 524,
                 "subjects": [
+                    "ISYE",
                     "COMPSCI",
-                    "ECE",
-                    "ISYE"
+                    "ECE"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 309,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 311,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 431,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 323,
+                "subjects": [
+                    "ISYE"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 524,
+                "subjects": [
+                    "ISYE",
+                    "COMPSCI",
+                    "ECE"
+                ]
+            },
+            "), or graduate/professional standing, or member of Engineering Guest Students"
         ],
         "prerequisites_text": "(STAT/\u200bMATH\u00a0\u00a0309,STAT\u00a0311, orSTAT/\u200bMATH\u00a0\u00a0431) and (I\u00a0SY\u00a0E\u00a0323orE\u00a0C\u00a0E/\u200bCOMP\u00a0SCI/\u200bI\u00a0SY\u00a0E\u00a0\u00a0524), or graduate/professional standing, or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 729,
-            "subjects": [
-                "MHR",
-                "ISYE"
-            ]
-        },
-        {
-            "course_number": 617,
-            "subjects": [
-                "ISYE",
-                "BMI"
-            ]
-        },
-        {
-            "course_number": 516,
+            "course_number": 417,
             "subjects": [
                 "ISYE"
             ]
@@ -120,7 +275,19 @@
             ]
         },
         {
-            "course_number": 417,
+            "course_number": 516,
+            "subjects": [
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 453,
+            "subjects": [
+                "CNP"
+            ]
+        },
+        {
+            "course_number": 606,
             "subjects": [
                 "ISYE"
             ]
@@ -415,8 +582,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Oguzhan ALAGOZ",
-                    "YIFAN LU"
+                    "YIFAN LU",
+                    "Oguzhan ALAGOZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -1,8 +1,24 @@
 [
     {
         "data": {
-            "id": "GEOSCI",
-            "type": "compound"
+            "description": "An integrative approach to studying the interaction between the atmosphere, hydrosphere, biosphere, and geosphere as they have evolved during earth history. Overarching theme includes ocean-climate system changes, biogeochemical cycles, evolution from microbes to mammals, and critical events in life history.",
+            "id": "GEOSCI 304",
+            "parent": "GEOSCI",
+            "title": "GEOBIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
+            "id": "ENVIRST/GEOSCI 106",
+            "title": "ENVIRONMENTAL GEOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
+            "id": "BIOLOGY/ZOOLOGY 101",
+            "title": "ANIMAL BIOLOGY"
         }
     },
     {
@@ -23,33 +39,6 @@
     },
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
-            "id": "ENVIRST/GEOSCI 106",
-            "title": "ENVIRONMENTAL GEOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI 100",
-            "target": "ENVIRST/GEOSCI 106"
-        }
-    },
-    {
-        "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
-        }
-    },
-    {
-        "data": {
             "description": "The evolutionary process as interpreted from the fossil record. Topics include: the study of form; tempo and mode of evolution; levels and mechanisms of evolutionary change; extinction in the fossil record; trends and patterns in the history of life; macroevolution.",
             "id": "GEOSCI/ZOOLOGY 541",
             "title": "PALEOBIOLOGY"
@@ -57,34 +46,16 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
         }
     },
     {
         "data": {
-            "source": "GEOSCI 204",
-            "target": "GEOSCI 304"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "GEOSCI/ZOOLOGY 541"
-        }
-    },
-    {
-        "data": {
-            "description": "An integrative approach to studying the interaction between the atmosphere, hydrosphere, biosphere, and geosphere as they have evolved during earth history. Overarching theme includes ocean-climate system changes, biogeochemical cycles, evolution from microbes to mammals, and critical events in life history.",
-            "id": "GEOSCI 304",
-            "parent": "GEOSCI",
-            "title": "GEOBIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI 304",
-            "target": "GEOSCI/ZOOLOGY 541"
+            "description": "Topics include: selected topics in plant physiology, a survey of the five major kingdoms of organisms, speciation and evolutionary theory, and ecology at multiple levels of the biological hierarchy.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 152",
+            "title": "INTRODUCTORY BIOLOGY"
         }
     },
     {
@@ -95,8 +66,26 @@
     },
     {
         "data": {
-            "source": "ENVIRST/GEOSCI 106",
-            "target": "GEOSCI 100"
+            "id": "GEOSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 152"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/ZOOLOGY 101"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 152",
+            "target": "GEOSCI/ZOOLOGY 541"
         }
     },
     {
@@ -107,8 +96,32 @@
     },
     {
         "data": {
+            "source": "ENVIRST/GEOSCI 106",
+            "target": "GEOSCI 100"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 100",
+            "target": "ENVIRST/GEOSCI 106"
+        }
+    },
+    {
+        "data": {
             "source": "GEOSCI 100",
             "target": "GEOSCI 204"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 204",
+            "target": "GEOSCI 304"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 304",
+            "target": "GEOSCI/ZOOLOGY 541"
         }
     }
 ]

@@ -2,15 +2,52 @@
     "course_reference": {
         "course_number": 640,
         "subjects": [
+            "MM&I",
             "ONCOLOGY",
-            "PLPATH",
-            "MM&I"
+            "PLPATH"
         ]
     },
     "course_title": "GENERAL VIROLOGY-MULTIPLICATION OF VIRUSES",
     "cumulative_grade_data": null,
     "description": "The structure, multiplication, genetics, pathology and control of animal and plant viruses.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 467,
@@ -31,18 +68,92 @@
                 ]
             }
         ],
-        "prerequisites_text": "(GENETICS\u00a0466or467) and (BIOCHEM\u00a0501or508) or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            " or ",
             {
                 "course_number": 467,
                 "subjects": [
                     "GENETICS"
                 ]
             },
+            ") and (",
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 508,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ") or graduate/professional standing"
+        ],
+        "prerequisites_text": "(GENETICS\u00a0466or467) and (BIOCHEM\u00a0501or508) or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 508,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
             {
                 "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
+                "course_number": 467,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -52,17 +163,49 @@
                 "subjects": [
                     "BIOCHEM"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
             },
+            " or ",
+            {
+                "course_number": 467,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            " or ",
             {
                 "course_number": 508,
                 "subjects": [
                     "BIOCHEM"
                 ]
-            }
+            },
+            ") or graduate/professional standing"
         ],
         "prerequisites_text": "(GENETICS\u00a0466or467) and (BIOCHEM\u00a0501or508) or graduate/professional standing"
     },
     "similar_courses": [
+        {
+            "course_number": 750,
+            "subjects": [
+                "PATH-BIO",
+                "MM&I"
+            ]
+        },
         {
             "course_number": 575,
             "subjects": [
@@ -77,20 +220,13 @@
             ]
         },
         {
-            "course_number": 910,
+            "course_number": 752,
             "subjects": [
-                "BIOCHEM"
+                "PATH"
             ]
         },
         {
             "course_number": 750,
-            "subjects": [
-                "PATH-BIO",
-                "MM&I"
-            ]
-        },
-        {
-            "course_number": 913,
             "subjects": [
                 "PATH"
             ]
@@ -105,7 +241,9 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
+                "instructors": {
+                    "KINJAL MAJUMDER": "KMAJUMDER@WISC.EDU"
+                },
                 "last_taught_term": "Fall 2024",
                 "school": {
                     "abbreviation": "A",

@@ -1,8 +1,114 @@
 [
     {
         "data": {
-            "source": "MS&E 350",
-            "target": "MS&E 351"
+            "description": "Accelerated coverage of topics in general chemistry, including introduction to laboratory techniques. Topics include atomic and molecular structure, chemical equilibrium, acid-base chemistry, thermodynamics, kinetics, and electrochemistry.",
+            "id": "CHEM 109",
+            "parent": "CHEM",
+            "title": "ADVANCED GENERAL CHEMISTRY"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to processes for manufacturing metal parts, designing parts to make them easier to manufacture with these methods, and approaches for increasing productivity. Manufacturing automation, control, and metrology for increased safety, productivity, and part quality. Engineering economics for determining the cost of manufacturing a part.",
+            "id": "ME 311",
+            "parent": "ME",
+            "title": "MANUFACTURING: METALS AND AUTOMATION"
+        }
+    },
+    {
+        "data": {
+            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
+            "id": "CHEM 115",
+            "parent": "CHEM",
+            "title": "CHEMICAL PRINCIPLES I"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to basic methods and fundamental concepts in geometric description and modeling of mechanical form, components, and assemblies. Topics include elements of descriptive geometry, engineering drawing standards, introduction to computer modeling, and geometric dimensioning and tolerancing (GDT). Lectures are reinforced by the laboratory experience where students operate modern commercial computer-aided design systems to model and to learn the basics of engineering communication, specification, and annotation.",
+            "id": "ME 231",
+            "parent": "ME",
+            "title": "GEOMETRIC MODELING FOR DESIGN AND MANUFACTURING"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to: atomic, electronic, and defect structures in materials; diffusional, mechanical and electrical properties of materials; and the role of structure and defects in diffusional, mechanical, and electrical properties.",
+            "id": "MS&E 351",
+            "parent": "MS&E",
+            "title": "MATERIALS SCIENCE-STRUCTURE AND PROPERTY RELATIONS IN SOLIDS"
+        }
+    },
+    {
+        "data": {
+            "description": "Principles and application of chemical equilibrium, coordination chemistry, oxidation-reduction and electrochemistry, kinetics, nuclear chemistry, introduction to organic chemistry, and chemistry laboratory skills.",
+            "id": "CHEM 104",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY II"
+        }
+    },
+    {
+        "data": {
+            "description": "Stoichiometry and the mole concept, the behavior of gases, liquids and solids, thermochemistry, electronic structure of atoms and chemical bonding, descriptive chemistry of selected elements and compounds, intermolecular forces, and chemistry laboratory skills.",
+            "id": "CHEM 103",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY I"
+        }
+    },
+    {
+        "data": {
+            "description": "The basic structures and resulting properties of solid materials, including phase equilibria, meta-stability, mechanical properties, failure, corrosion, and materials selection.",
+            "id": "MS&E 350",
+            "parent": "MS&E",
+            "title": "INTRODUCTION TO MATERIALS SCIENCE"
+        }
+    },
+    {
+        "data": {
+            "id": "CHEM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "ME",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MS&E",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 103",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 103",
+            "target": "MS&E 350"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 104",
+            "target": "CHEM 109"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 104"
         }
     },
     {
@@ -19,78 +125,20 @@
     },
     {
         "data": {
-            "description": "Introduction to: atomic, electronic, and defect structures in materials; diffusional, mechanical and electrical properties of materials; and the role of structure and defects in diffusional, mechanical, and electrical properties.",
-            "id": "MS&E 351",
-            "parent": "MS&E",
-            "title": "MATERIALS SCIENCE-STRUCTURE AND PROPERTY RELATIONS IN SOLIDS"
-        }
-    },
-    {
-        "data": {
-            "id": "ME",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MS&E 351",
-            "target": "MS&E 350"
-        }
-    },
-    {
-        "data": {
-            "description": "An introduction to processes for manufacturing metal parts, designing parts to make them easier to manufacture with these methods, and approaches for increasing productivity. Manufacturing automation, control, and metrology for increased safety, productivity, and part quality. Engineering economics for determining the cost of manufacturing a part.",
-            "id": "ME 311",
-            "parent": "ME",
-            "title": "MANUFACTURING: METALS AND AUTOMATION"
-        }
-    },
-    {
-        "data": {
             "source": "MS&E 350",
             "target": "ME 311"
         }
     },
     {
         "data": {
-            "description": "The basic structures and resulting properties of solid materials, including phase equilibria, meta-stability, mechanical properties, failure, corrosion, and materials selection.",
-            "id": "MS&E 350",
-            "parent": "MS&E",
-            "title": "INTRODUCTION TO MATERIALS SCIENCE"
+            "source": "MS&E 350",
+            "target": "MS&E 351"
         }
     },
     {
         "data": {
-            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
-            "id": "CHEM 115",
-            "parent": "CHEM",
-            "title": "CHEMICAL PRINCIPLES I"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 115",
+            "source": "MS&E 351",
             "target": "MS&E 350"
-        }
-    },
-    {
-        "data": {
-            "id": "MS&E",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "CHEM",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to basic methods and fundamental concepts in geometric description and modeling of mechanical form, components, and assemblies. Topics include elements of descriptive geometry, engineering drawing standards, introduction to computer modeling, and geometric dimensioning and tolerancing (GDT). Lectures are reinforced by the laboratory experience where students operate modern commercial computer-aided design systems to model and to learn the basics of engineering communication, specification, and annotation.",
-            "id": "ME 231",
-            "parent": "ME",
-            "title": "GEOMETRIC MODELING FOR DESIGN AND MANUFACTURING"
         }
     }
 ]

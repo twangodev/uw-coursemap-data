@@ -1,8 +1,18 @@
 [
     {
         "data": {
-            "id": "NURSING",
-            "type": "compound"
+            "description": "Focuses on foundational concepts necessary to provide person-centered, evidence-based nursing care, including the nursing process and health and illness concepts. Active learning is emphasized by gaining confidence with applying the nursing processes and begin to develop clinical judgment and assessment skills. Complements a companion experiential course [NURSING\u00a0316].",
+            "id": "NURSING 313",
+            "parent": "NURSING",
+            "title": "FOUNDATIONS OF NURSING PRACTICE"
+        }
+    },
+    {
+        "data": {
+            "description": "Focuses on health and illness concepts emphasizing care to individuals and families across the lifespan. Gain a fundamental understanding of allostasis, oxygenation and hemostasis, and protection and movement. Gain knowledge of these concepts through exemplars that illustrate common health processes and/or alterations. Frames learning activities that foster understanding of the nursing role in providing care to individuals and families experiencing related health and illness concerns.",
+            "id": "NURSING 323",
+            "parent": "NURSING",
+            "title": "HEALTH AND ILLNESS CONCEPTS WITH INDIVIDUALS AND FAMILIES"
         }
     },
     {
@@ -23,16 +33,10 @@
     },
     {
         "data": {
-            "description": "Focuses on health and illness concepts emphasizing care to individuals and families across the lifespan. Gain a fundamental understanding of allostasis, oxygenation and hemostasis, and protection and movement. Gain knowledge of these concepts through exemplars that illustrate common health processes and/or alterations. Frames learning activities that foster understanding of the nursing role in providing care to individuals and families experiencing related health and illness concerns.",
-            "id": "NURSING 323",
+            "description": "Spend concentrated time in two settings focusing on care to individuals across the lifespan, families, and communities. The concept-based learning activities are aligned with those taught in the companion didactic courses and build on previous learning and experiences. Provide direct care from an evidenced-based perspective, at an increasingly independent level. The learning activities are guided by nursing preceptors in practice settings and by School of Nursing faculty in simulation and seminar settings.",
+            "id": "NURSING 436",
             "parent": "NURSING",
-            "title": "HEALTH AND ILLNESS CONCEPTS WITH INDIVIDUALS AND FAMILIES"
-        }
-    },
-    {
-        "data": {
-            "source": "NURSING 313",
-            "target": "NURSING 323"
+            "title": "HEALTH AND ILLNESS CONCEPTS WITH INDIVIDUALS, FAMILIES, AND COMMUNITIES: EXPERIENTIAL LEARNING"
         }
     },
     {
@@ -45,8 +49,14 @@
     },
     {
         "data": {
-            "source": "NURSING 323",
-            "target": "NURSING 436"
+            "id": "NURSING",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "NURSING 313",
+            "target": "NURSING 323"
         }
     },
     {
@@ -57,10 +67,8 @@
     },
     {
         "data": {
-            "description": "Spend concentrated time in two settings focusing on care to individuals across the lifespan, families, and communities. The concept-based learning activities are aligned with those taught in the companion didactic courses and build on previous learning and experiences. Provide direct care from an evidenced-based perspective, at an increasingly independent level. The learning activities are guided by nursing preceptors in practice settings and by School of Nursing faculty in simulation and seminar settings.",
-            "id": "NURSING 436",
-            "parent": "NURSING",
-            "title": "HEALTH AND ILLNESS CONCEPTS WITH INDIVIDUALS, FAMILIES, AND COMMUNITIES: EXPERIENTIAL LEARNING"
+            "source": "NURSING 323",
+            "target": "NURSING 436"
         }
     },
     {
@@ -73,14 +81,6 @@
         "data": {
             "source": "NURSING 436",
             "target": "NURSING 446"
-        }
-    },
-    {
-        "data": {
-            "description": "Focuses on foundational concepts necessary to provide person-centered, evidence-based nursing care, including the nursing process and health and illness concepts. Active learning is emphasized by gaining confidence with applying the nursing processes and begin to develop clinical judgment and assessment skills. Complements a companion experiential course [NURSING\u00a0316].",
-            "id": "NURSING 313",
-            "parent": "NURSING",
-            "title": "FOUNDATIONS OF NURSING PRACTICE"
         }
     }
 ]

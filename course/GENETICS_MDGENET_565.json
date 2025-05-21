@@ -29,6 +29,24 @@
     },
     "description": "Principles, problems, and methods of modern human genetics. Focuses on how researchers discover the genetics of diseases and how those discoveries are used to improve clinical practice. Surveys aspects of (i) the molecular function of the human genome, (ii) the basic principles of human genetics including statistical genetics, quantitative genetics, and genomic variation in human populations, (iii) the genetics of rare disorders and common diseases, and genomic analysis approaches, including genome-wide association studies and sequencing, and (iv) how genetics are used in medicine and discussions covering ethical considerations of human genomic data.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 468,
@@ -43,18 +61,59 @@
                 ]
             }
         ],
-        "prerequisites_text": "GENETICS\u00a0466,468,BIOCORE\u00a0587, or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            ", ",
             {
                 "course_number": 468,
                 "subjects": [
                     "GENETICS"
                 ]
             },
+            ", ",
+            {
+                "course_number": 587,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", or graduate/professional standing"
+        ],
+        "prerequisites_text": "GENETICS\u00a0466,468,BIOCORE\u00a0587, or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
+                "course_number": 468,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -66,9 +125,46 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 468,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 587,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", or graduate/professional standing"
+        ],
         "prerequisites_text": "GENETICS\u00a0466,468,BIOCORE\u00a0587, or graduate/professional standing"
     },
     "similar_courses": [
+        {
+            "course_number": 949,
+            "subjects": [
+                "PATH"
+            ]
+        },
+        {
+            "course_number": 636,
+            "subjects": [
+                "MDGENET",
+                "GENETICS",
+                "POPHLTH"
+            ]
+        },
         {
             "course_number": 911,
             "subjects": [
@@ -76,31 +172,15 @@
             ]
         },
         {
-            "course_number": 707,
-            "subjects": [
-                "MDGENET",
-                "GENETICS"
-            ]
-        },
-        {
-            "course_number": 677,
-            "subjects": [
-                "MDGENET",
-                "GENETICS"
-            ]
-        },
-        {
-            "course_number": 636,
-            "subjects": [
-                "MDGENET",
-                "POPHLTH",
-                "GENETICS"
-            ]
-        },
-        {
             "course_number": 708,
             "subjects": [
                 "MDGENET",
+                "GENETICS"
+            ]
+        },
+        {
+            "course_number": 605,
+            "subjects": [
                 "GENETICS"
             ]
         }
@@ -456,9 +536,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Jerry Yin",
                     "REID ALISCH",
-                    "AKIHIRO IKEDA"
+                    "AKIHIRO IKEDA",
+                    "Jerry Yin"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -483,9 +563,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "AKIHIRO IKEDA",
                     "Donna WERLING",
-                    "STEVEN SCHRODI",
-                    "AKIHIRO IKEDA"
+                    "STEVEN SCHRODI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -601,25 +681,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2024",
-                "school": {
-                    "abbreviation": "M",
-                    "name": "Medicine and Public Health",
-                    "url": "http://www.med.wisc.edu/"
-                },
-                "typically_offered": "Fall"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -634,9 +695,9 @@
                 },
                 "last_taught_term": "Fall 2024",
                 "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
+                    "abbreviation": "M",
+                    "name": "Medicine and Public Health",
+                    "url": "http://www.med.wisc.edu/"
                 },
                 "typically_offered": "Fall"
             },

@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 414,
         "subjects": [
-            "ANSCI",
-            "DYSCI"
+            "DYSCI",
+            "ANSCI"
         ]
     },
     "course_title": "RUMINANT NUTRITION & METABOLISM",
@@ -29,13 +29,36 @@
     },
     "description": "Integrates nutritional and biochemical concepts to understand digestive and metabolic processes in dairy and beef cattle, which are then quantitatively represented to predict and manipulate production and health outcomes.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 311,
                 "subjects": [
-                    "NUTRSCI",
+                    "DYSCI",
                     "ANSCI",
-                    "DYSCI"
+                    "NUTRSCI"
                 ]
             },
             {
@@ -45,10 +68,66 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 311,
+                "subjects": [
+                    "DYSCI",
+                    "ANSCI",
+                    "NUTRSCI"
+                ]
+            },
+            ", (",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ") or graduate/professional standing"
+        ],
         "prerequisites_text": "DY\u00a0SCI/\u200bAN\u00a0SCI/\u200bNUTR\u00a0SCI\u00a0\u00a0311, (BIOCHEM\u00a0301or501) or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
+            {
+                "course_number": 311,
+                "subjects": [
+                    "DYSCI",
+                    "ANSCI",
+                    "NUTRSCI"
+                ]
+            },
             {
                 "course_number": 301,
                 "subjects": [
@@ -56,44 +135,40 @@
                 ]
             },
             {
-                "course_number": 311,
-                "subjects": [
-                    "NUTRSCI",
-                    "ANSCI",
-                    "DYSCI"
-                ]
-            },
-            {
                 "course_number": 501,
                 "subjects": [
                     "BIOCHEM"
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 311,
+                "subjects": [
+                    "DYSCI",
+                    "ANSCI",
+                    "NUTRSCI"
+                ]
+            },
+            ", (",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ") or graduate/professional standing"
+        ],
         "prerequisites_text": "DY\u00a0SCI/\u200bAN\u00a0SCI/\u200bNUTR\u00a0SCI\u00a0\u00a0311, (BIOCHEM\u00a0301or501) or graduate/professional standing"
     },
     "similar_courses": [
-        {
-            "course_number": 311,
-            "subjects": [
-                "NUTRSCI",
-                "ANSCI",
-                "DYSCI"
-            ]
-        },
-        {
-            "course_number": 824,
-            "subjects": [
-                "ANSCI",
-                "DYSCI"
-            ]
-        },
-        {
-            "course_number": 431,
-            "subjects": [
-                "ANSCI"
-            ]
-        },
         {
             "course_number": 114,
             "subjects": [
@@ -101,7 +176,29 @@
             ]
         },
         {
+            "course_number": 901,
+            "subjects": [
+                "BIOCHEM",
+                "NUTRSCI"
+            ]
+        },
+        {
+            "course_number": 311,
+            "subjects": [
+                "ANSCI",
+                "NUTRSCI",
+                "DYSCI"
+            ]
+        },
+        {
             "course_number": 825,
+            "subjects": [
+                "ANSCI",
+                "DYSCI"
+            ]
+        },
+        {
+            "course_number": 824,
             "subjects": [
                 "ANSCI",
                 "DYSCI"
@@ -558,25 +655,6 @@
                 "total": 9,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2024",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Not Applicable"
-            },
-            "grade_data": null
         },
         "1262": {
             "enrollment_data": {

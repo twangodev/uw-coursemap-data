@@ -28,15 +28,61 @@
     },
     "description": "A mathematical approach to the theory of consumption, production, pricing and resource allocation.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        },
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        }
+                                    ],
+                                    "operator": "AND"
+                                }
+                            ],
+                            "operator": "AND"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "."
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        "Not open to students who have credit for",
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 301,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 111,
                 "subjects": [
                     "ECON"
                 ]
@@ -46,20 +92,108 @@
                 "subjects": [
                     "ECON"
                 ]
+            },
+            {
+                "course_number": 111,
+                "subjects": [
+                    "ECON"
+                ]
             }
         ],
-        "prerequisites_text": "MATH\u00a0222and (ECON\u00a0101and102) orECON\u00a0111. Not open to students who have credit forECON\u00a0301"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 222,
                 "subjects": [
                     "MATH"
                 ]
             },
+            " and (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            ") or ",
             {
                 "course_number": 111,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            ". Not open to students who have credit for ",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "ECON"
+                ]
+            }
+        ],
+        "prerequisites_text": "MATH\u00a0222and (ECON\u00a0101and102) orECON\u00a0111. Not open to students who have credit forECON\u00a0301"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        },
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        }
+                                    ],
+                                    "operator": "AND"
+                                }
+                            ],
+                            "operator": "AND"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "."
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        "Not open to students who have credit for",
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 301,
                 "subjects": [
                     "ECON"
                 ]
@@ -71,13 +205,55 @@
                 ]
             },
             {
-                "course_number": 301,
+                "course_number": 111,
                 "subjects": [
                     "ECON"
                 ]
             },
             {
                 "course_number": 101,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            ") or ",
+            {
+                "course_number": 111,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            ". Not open to students who have credit for ",
+            {
+                "course_number": 301,
                 "subjects": [
                     "ECON"
                 ]
@@ -93,7 +269,13 @@
             ]
         },
         {
-            "course_number": 302,
+            "course_number": 312,
+            "subjects": [
+                "ECON"
+            ]
+        },
+        {
+            "course_number": 711,
             "subjects": [
                 "ECON"
             ]
@@ -105,13 +287,7 @@
             ]
         },
         {
-            "course_number": 312,
-            "subjects": [
-                "ECON"
-            ]
-        },
-        {
-            "course_number": 711,
+            "course_number": 809,
             "subjects": [
                 "ECON"
             ]
@@ -456,8 +632,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "John KENNAN",
-                    "RAYMOND DENECKERE"
+                    "RAYMOND DENECKERE",
+                    "John KENNAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -568,25 +744,6 @@
                 "total": 33,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2024",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall"
-            },
-            "grade_data": null
         },
         "1262": {
             "enrollment_data": {

@@ -1,56 +1,34 @@
 [
     {
         "data": {
-            "description": "Examines current and emerging financial accounting theory and techniques used to measure and report financial information to investors, creditors, and other external users, including dilutive securities, investments, revenue recognition, income tax allocation, pensions, leases and accounting changes.",
-            "id": "ACCTIS 302",
+            "description": "Analysis and interpretation of financial statements, including profitability and ratio analysis, cash flow analysis, accounting-based equity valuation, market impact of accounting choices, earnings quality, earnings management, mergers and acquisitions, intangibles, accounting-based trading strategies, accounting and credit ratings, and international accounting.",
+            "id": "ACCTIS 603",
+            "parent": "ACCTIS",
+            "title": "FINANCIAL STATEMENT ANALYSIS"
+        }
+    },
+    {
+        "data": {
+            "description": "Examines current and emerging financial accounting theory and techniques used to measure and report financial information to investors, creditors, and orther external users, including dilutive securities, investments, revenue recognition, income tax allocation, pensions, leases and accounting changes.",
+            "id": "ACCTIS 702",
             "parent": "ACCTIS",
             "title": "FINANCIAL REPORTING II"
         }
     },
     {
         "data": {
-            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
-            "id": "ACCTIS 100",
-            "parent": "ACCTIS",
-            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 301",
-            "target": "ACCTIS 302"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 300",
-            "target": "ACCTIS 100"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 301"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 300"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 302",
-            "target": "ACCTIS 603"
-        }
-    },
-    {
-        "data": {
-            "description": "Examines current and emerging financial accounting theory and techniques used to measure and report financial information to investors, creditors, and other external users. Emphasizes asset and income determination, preparation and interpretation of financial statements, and related disclosure requirements.",
-            "id": "ACCTIS 301",
+            "description": "Examines current and emerging financial accounting theory and techniques used to measure and report financial information to investors, creditors, and other external users. Emphasizes asset and liability valuations and their relationships to income determination, preparation and interpretation of financial statements, and related disclosure requirements.",
+            "id": "ACCTIS 701",
             "parent": "ACCTIS",
             "title": "FINANCIAL REPORTING I"
+        }
+    },
+    {
+        "data": {
+            "description": "Measurement and reporting guidelines underlying preparation of general purpose financial statements. Explore current measurement and reporting issues. Analyze and interpret financial statement data for investment, lending, and related decisions.",
+            "id": "ACCTIS 700",
+            "parent": "ACCTIS",
+            "title": "FINANCIAL ACCOUNTING"
         }
     },
     {
@@ -61,18 +39,20 @@
     },
     {
         "data": {
-            "description": "Examines both financial and managerial accounting for business decisions. Emphasizes preparation and interpretation of financial statements, analysis of financial information, determination of costs for products and services, and use of accounting information for planning and control of business operations.",
-            "id": "ACCTIS 300",
-            "parent": "ACCTIS",
-            "title": "ACCOUNTING PRINCIPLES"
+            "source": "ACCTIS 700",
+            "target": "ACCTIS 701"
         }
     },
     {
         "data": {
-            "description": "Analysis and interpretation of financial statements, including profitability and ratio analysis, cash flow analysis, accounting-based equity valuation, market impact of accounting choices, earnings quality, earnings management, mergers and acquisitions, intangibles, accounting-based trading strategies, accounting and credit ratings, and international accounting.",
-            "id": "ACCTIS 603",
-            "parent": "ACCTIS",
-            "title": "FINANCIAL STATEMENT ANALYSIS"
+            "source": "ACCTIS 701",
+            "target": "ACCTIS 702"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 702",
+            "target": "ACCTIS 603"
         }
     }
 ]

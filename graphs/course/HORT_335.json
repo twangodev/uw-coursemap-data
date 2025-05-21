@@ -1,16 +1,18 @@
 [
     {
         "data": {
-            "description": "Principles of selection, production, handling, use of fruits, vegetables, flowers, and foliage plants grown indoors. One-day field trip required.",
-            "id": "HORT 334",
+            "description": "For the beginning student. Scientific basis for horticultural practices; scope of the field of horticulture; introduction to propagation, culture, management, improvement, storage, and marketing of flowers, fruits, ornamentals and vegetables.",
+            "id": "HORT 120",
             "parent": "HORT",
-            "title": "GREENHOUSE CULTIVATION"
+            "title": "SURVEY OF HORTICULTURE"
         }
     },
     {
         "data": {
-            "id": "HORT",
-            "type": "compound"
+            "description": "Principles of selection, production, handling, use of fruits, vegetables, flowers, and foliage plants grown indoors. One-day field trip required.",
+            "id": "HORT 334",
+            "parent": "HORT",
+            "title": "GREENHOUSE CULTIVATION"
         }
     },
     {
@@ -23,6 +25,12 @@
     },
     {
         "data": {
+            "id": "HORT",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "HORT 120",
             "target": "HORT 334"
         }
@@ -31,14 +39,6 @@
         "data": {
             "source": "HORT 334",
             "target": "HORT 335"
-        }
-    },
-    {
-        "data": {
-            "description": "For the beginning student. Scientific basis for horticultural practices; scope of the field of horticulture; introduction to propagation, culture, management, improvement, storage, and marketing of flowers, fruits, ornamentals and vegetables.",
-            "id": "HORT 120",
-            "parent": "HORT",
-            "title": "SURVEY OF HORTICULTURE"
         }
     }
 ]

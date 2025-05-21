@@ -1,8 +1,16 @@
 [
     {
         "data": {
-            "id": "GEOSCI",
-            "type": "compound"
+            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
+            "id": "ENVIRST/GEOSCI 106",
+            "title": "ENVIRONMENTAL GEOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Emphasis on natural and human processes that control the morphology of the land and its waterways.",
+            "id": "GEOG/GEOSCI 326",
+            "title": "LANDFORMS-TOPICS AND REGIONS"
         }
     },
     {
@@ -15,33 +23,9 @@
     },
     {
         "data": {
-            "source": "GEOSCI 100",
-            "target": "GEOG/GEOSCI 320"
-        }
-    },
-    {
-        "data": {
-            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
-            "id": "ENVIRST/GEOSCI 106",
-            "title": "ENVIRONMENTAL GEOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI 100",
-            "target": "ENVIRST/GEOSCI 106"
-        }
-    },
-    {
-        "data": {
-            "source": "ENVIRST/GEOSCI 106",
-            "target": "GEOG/GEOSCI 320"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOG/GEOSCI 320",
-            "target": "GEOG/GEOSCI 326"
+            "description": "Principles and analysis of geomorphic processes and resulting land forms.",
+            "id": "GEOG/GEOSCI 320",
+            "title": "GEOMORPHOLOGY"
         }
     },
     {
@@ -52,28 +36,44 @@
     },
     {
         "data": {
+            "id": "GEOSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ENVIRST/GEOSCI 106",
+            "target": "GEOG/GEOSCI 320"
+        }
+    },
+    {
+        "data": {
+            "source": "ENVIRST/GEOSCI 106",
+            "target": "GEOG/GEOSCI 326"
+        }
+    },
+    {
+        "data": {
             "source": "ENVIRST/GEOSCI 106",
             "target": "GEOSCI 100"
         }
     },
     {
         "data": {
-            "description": "Principles and analysis of geomorphic processes and resulting land forms.",
-            "id": "GEOG/GEOSCI 320",
-            "title": "GEOMORPHOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI 100",
+            "source": "GEOG/GEOSCI 320",
             "target": "GEOG/GEOSCI 326"
         }
     },
     {
         "data": {
-            "description": "Emphasis on natural and human processes that control the morphology of the land and its waterways.",
-            "id": "GEOG/GEOSCI 326",
-            "title": "LANDFORMS-TOPICS AND REGIONS"
+            "source": "GEOSCI 100",
+            "target": "ENVIRST/GEOSCI 106"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 100",
+            "target": "GEOG/GEOSCI 320"
         }
     }
 ]

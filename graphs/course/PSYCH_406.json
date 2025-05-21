@@ -1,9 +1,10 @@
 [
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
+            "description": "Behavior, including its development, motivation, frustrations, emotion, intelligence, learning, forgetting, personality, language, thinking, and social behavior.",
+            "id": "PSYCH 202",
+            "parent": "PSYCH",
+            "title": "INTRODUCTION TO PSYCHOLOGY"
         }
     },
     {
@@ -11,6 +12,27 @@
             "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
             "id": "BIOLOGY/ZOOLOGY 101",
             "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Survey the current knowledge about how the brain creates our conscious experience of a surrounding world and of our own bodies. Consider contributions from various approaches, including neurophysiology, psychophysics, computer simulations, perceptual illusions, and patient studies.",
+            "id": "PSYCH 406",
+            "parent": "PSYCH",
+            "title": "PSYCHOLOGY OF PERCEPTION"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
         }
     },
     {
@@ -27,27 +49,7 @@
     },
     {
         "data": {
-            "description": "Behavior, including its development, motivation, frustrations, emotion, intelligence, learning, forgetting, personality, language, thinking, and social behavior.",
-            "id": "PSYCH 202",
-            "parent": "PSYCH",
-            "title": "INTRODUCTION TO PSYCHOLOGY"
-        }
-    },
-    {
-        "data": {
             "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "PSYCH 406"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
             "target": "PSYCH 406"
         }
     },
@@ -59,16 +61,14 @@
     },
     {
         "data": {
-            "source": "PSYCH 202",
+            "source": "BIOLOGY/ZOOLOGY 101",
             "target": "PSYCH 406"
         }
     },
     {
         "data": {
-            "description": "Survey the current knowledge about how the brain creates our conscious experience of a surrounding world and of our own bodies. Consider contributions from various approaches, including neurophysiology, psychophysics, computer simulations, perceptual illusions, and patient studies.",
-            "id": "PSYCH 406",
-            "parent": "PSYCH",
-            "title": "PSYCHOLOGY OF PERCEPTION"
+            "source": "PSYCH 202",
+            "target": "PSYCH 406"
         }
     }
 ]

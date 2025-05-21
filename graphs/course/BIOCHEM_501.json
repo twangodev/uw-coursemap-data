@@ -1,18 +1,6 @@
 [
     {
         "data": {
-            "id": "BIOCHEM",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 343",
-            "target": "CHEM 341"
-        }
-    },
-    {
-        "data": {
             "description": "Accelerated coverage of topics in general chemistry, including introduction to laboratory techniques. Topics include atomic and molecular structure, chemical equilibrium, acid-base chemistry, thermodynamics, kinetics, and electrochemistry.",
             "id": "CHEM 109",
             "parent": "CHEM",
@@ -25,12 +13,6 @@
             "id": "BIOCHEM 501",
             "parent": "BIOCHEM",
             "title": "INTRODUCTION TO BIOCHEMISTRY"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 343",
-            "target": "BIOCHEM 501"
         }
     },
     {
@@ -51,16 +33,18 @@
     },
     {
         "data": {
-            "source": "CHEM 115",
-            "target": "CHEM 103"
+            "description": "Principles of molecular structure and bonding applied to predict and explain the reactivity of alkanes, alkenes, alkynes, alkyl halides, alcohols, and thiols. Emphasis placed on rationalizing the stereochemical and regiochemical outcome of chemical processes.",
+            "id": "CHEM 343",
+            "parent": "CHEM",
+            "title": "ORGANIC CHEMISTRY I"
         }
     },
     {
         "data": {
-            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
-            "id": "CHEM 115",
+            "description": "Principles of molecular structure and bonding applied to predict and explain the reactivity of aromatic systems, benzylic and allylic systems, aryl and vinyl halides, and carbonyl-containing compounds (e.g., ketones, carboxylic acids, esters, acid chlorides, amides). Emphasis placed on rationalizing the stereochemical and regiochemical outcome of chemical processes as well as arguing reaction outcomes from spectroscopic evidence.",
+            "id": "CHEM 345",
             "parent": "CHEM",
-            "title": "CHEMICAL PRINCIPLES I"
+            "title": "ORGANIC CHEMISTRY II"
         }
     },
     {
@@ -73,28 +57,8 @@
     },
     {
         "data": {
-            "description": "Principles of molecular structure and bonding applied to predict and explain the reactivity of alkanes, alkenes, alkynes, alkyl halides, alcohols, and thiols. Emphasis placed on rationalizing the stereochemical and regiochemical outcome of chemical processes.",
-            "id": "CHEM 343",
-            "parent": "CHEM",
-            "title": "ORGANIC CHEMISTRY I"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 341",
-            "target": "BIOCHEM 501"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 104",
-            "target": "CHEM 109"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 109",
-            "target": "CHEM 104"
+            "id": "BIOCHEM",
+            "type": "compound"
         }
     },
     {
@@ -112,7 +76,49 @@
     {
         "data": {
             "source": "CHEM 104",
+            "target": "CHEM 109"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 104",
             "target": "CHEM 343"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 341",
+            "target": "BIOCHEM 501"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 343",
+            "target": "BIOCHEM 501"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 343",
+            "target": "CHEM 345"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 345",
+            "target": "CHEM 341"
         }
     }
 ]

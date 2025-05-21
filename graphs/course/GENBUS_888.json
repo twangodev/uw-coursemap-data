@@ -1,24 +1,18 @@
 [
     {
         "data": {
-            "description": "An introduction to machine learning models for business applications. Builds on the predictive modeling basics by developing general algorithmic prediction models for supervised machine learning. Covers additive models, CARTs, bagging/boosting, and basic deep learning approaches. Discussion of unsupervised learning techniques, including clustering and dimensionality reduction approaches.",
-            "id": "GENBUS 888",
-            "parent": "GENBUS",
-            "title": "APPLIED MACHINE LEARNING FOR BUSINESS ANALYTICS"
-        }
-    },
-    {
-        "data": {
-            "source": "GENBUS 881",
-            "target": "GENBUS 886"
-        }
-    },
-    {
-        "data": {
             "description": "A compact primer in statistics as a foundation for data-driven business analysis. A selection of concepts include probability, estimation, inference, correlation, and regression.",
             "id": "GENBUS 881",
             "parent": "GENBUS",
             "title": "BUSINESS STATISTICS USING PYTHON"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to machine learning models for business applications. Builds on the predictive modeling basics by developing general algorithmic prediction models for supervised machine learning. Covers additive models, CARTs, bagging/boosting, and basic deep learning approaches. Discussion of unsupervised learning techniques, including clustering and dimensionality reduction approaches.",
+            "id": "GENBUS 888",
+            "parent": "GENBUS",
+            "title": "APPLIED MACHINE LEARNING FOR BUSINESS ANALYTICS"
         }
     },
     {
@@ -31,14 +25,20 @@
     },
     {
         "data": {
-            "source": "GENBUS 886",
-            "target": "GENBUS 888"
+            "id": "GENBUS",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "id": "GENBUS",
-            "type": "compound"
+            "source": "GENBUS 881",
+            "target": "GENBUS 886"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 886",
+            "target": "GENBUS 888"
         }
     }
 ]

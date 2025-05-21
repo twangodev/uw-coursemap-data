@@ -29,14 +29,51 @@
     },
     "description": "Types, origins, settings, and structure of wetlands. Physical, biological, and cultural values, uses and assessments. Physical and biological characteristics and dynamics. Protection, management and restoration.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
             {
                 "course_number": 152,
                 "subjects": [
@@ -56,17 +93,131 @@
                 "subjects": [
                     "BIOCORE"
                 ]
+            },
+            {
+                "course_number": 153,
+                "subjects": [
+                    "ZOOLOGY"
+                ]
             }
         ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152,ZOOLOGY\u00a0153, (BIOCORE\u00a0381and382),BIOLOGY/\u200bBOTANY\u00a0\u00a0130, or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
             {
                 "course_number": 102,
                 "subjects": [
                     "ZOOLOGY",
                     "BIOLOGY"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 153,
+                "subjects": [
+                    "ZOOLOGY"
+                ]
+            },
+            ", (",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or graduate/professional standing"
+        ],
+        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152,ZOOLOGY\u00a0153, (BIOCORE\u00a0381and382),BIOLOGY/\u200bBOTANY\u00a0\u00a0130, or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
                 ]
             },
             {
@@ -77,10 +228,9 @@
                 ]
             },
             {
-                "course_number": 101,
+                "course_number": 381,
                 "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
+                    "BIOCORE"
                 ]
             },
             {
@@ -90,11 +240,38 @@
                 ]
             },
             {
-                "course_number": 381,
+                "course_number": 102,
                 "subjects": [
-                    "BIOCORE"
+                    "ZOOLOGY",
+                    "BIOLOGY"
                 ]
             },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), ",
             {
                 "course_number": 152,
                 "subjects": [
@@ -103,19 +280,51 @@
                     "BIOLOGY"
                 ]
             },
+            ", ",
+            {
+                "course_number": 153,
+                "subjects": [
+                    "ZOOLOGY"
+                ]
+            },
+            ", (",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            " and ",
             {
                 "course_number": 382,
                 "subjects": [
                     "BIOCORE"
                 ]
-            }
+            },
+            "), ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or graduate/professional standing"
         ],
         "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152,ZOOLOGY\u00a0153, (BIOCORE\u00a0381and382),BIOLOGY/\u200bBOTANY\u00a0\u00a0130, or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 951,
+            "course_number": 581,
             "subjects": [
+                "LANDARC",
+                "ENVIRST"
+            ]
+        },
+        {
+            "course_number": 315,
+            "subjects": [
+                "ZOOLOGY",
                 "ENVIRST"
             ]
         },
@@ -126,25 +335,15 @@
             ]
         },
         {
-            "course_number": 565,
+            "course_number": 413,
             "subjects": [
-                "ZOOLOGY",
-                "LANDARC",
-                "F&WECOL"
-            ]
-        },
-        {
-            "course_number": 434,
-            "subjects": [
-                "GEOG",
-                "C&ESOC",
                 "ENVIRST"
             ]
         },
         {
-            "course_number": 668,
+            "course_number": 400,
             "subjects": [
-                "LANDARC"
+                "ENVIRST"
             ]
         }
     ],
@@ -462,8 +661,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "DAVID BART",
-                    "ZOE HORNS"
+                    "ZOE HORNS",
+                    "DAVID BART"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -488,8 +687,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DAVID BART",
-                    "ZOE HORNS"
+                    "ZOE HORNS",
+                    "DAVID BART"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -565,7 +764,7 @@
                 "incomplete": 1,
                 "instructors": [
                     "DAVID BART",
-                    "Christopher Noll"
+                    "CHRISTOPHER NOLL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -576,29 +775,6 @@
                 "total": 42,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Christopher Noll": "CLNOLL@WISC.EDU",
-                    "DAVID BART": "DBART@WISC.EDU",
-                    "EVELYN HOWELL": "EAHOWELL@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "Z",
-                    "name": "Environmental Studies",
-                    "url": "http://www.nelson.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

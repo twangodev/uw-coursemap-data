@@ -29,6 +29,35 @@
     },
     "description": "Examines the diverse paths followed by forensic science (including medical jurisprudence or forensic medicine) in various times and places, focusing on the English-speaking world from the nineteenth century until the present. Explore the many ways that law and science have worked together--or at cross-purposes--to generate and assess evidence at the crime scene, in the lab, in the courtroom, and beyond.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 261,
@@ -40,27 +69,83 @@
             {
                 "course_number": 217,
                 "subjects": [
-                    "POLISCI",
-                    "LEGALST"
+                    "LEGALST",
+                    "POLISCI"
                 ]
             },
             {
                 "course_number": 131,
                 "subjects": [
-                    "SOC",
-                    "LEGALST"
+                    "LEGALST",
+                    "SOC"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 261,
+                "subjects": [
+                    "HISTORY",
+                    "LEGALST"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 131,
+                "subjects": [
+                    "LEGALST",
+                    "SOC"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 217,
+                "subjects": [
+                    "LEGALST",
+                    "POLISCI"
+                ]
+            },
+            "), or graduate/professional standing"
         ],
         "prerequisites_text": "Sophomore standing and (LEGAL\u00a0ST/\u200bHISTORY\u00a0\u00a0261,SOC/\u200bLEGAL\u00a0ST\u00a0\u00a0131, orPOLI\u00a0SCI/\u200bLEGAL\u00a0ST\u00a0\u00a0217), or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 131,
                 "subjects": [
-                    "SOC",
-                    "LEGALST"
+                    "LEGALST",
+                    "SOC"
                 ]
             },
             {
@@ -73,23 +158,49 @@
             {
                 "course_number": 217,
                 "subjects": [
-                    "POLISCI",
-                    "LEGALST"
+                    "LEGALST",
+                    "POLISCI"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 261,
+                "subjects": [
+                    "HISTORY",
+                    "LEGALST"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 131,
+                "subjects": [
+                    "LEGALST",
+                    "SOC"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 217,
+                "subjects": [
+                    "LEGALST",
+                    "POLISCI"
+                ]
+            },
+            "), or graduate/professional standing"
         ],
         "prerequisites_text": "Sophomore standing and (LEGAL\u00a0ST/\u200bHISTORY\u00a0\u00a0261,SOC/\u200bLEGAL\u00a0ST\u00a0\u00a0131, orPOLI\u00a0SCI/\u200bLEGAL\u00a0ST\u00a0\u00a0217), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 261,
+            "course_number": 211,
             "subjects": [
-                "HISTORY",
-                "LEGALST"
+                "HISTSCI"
             ]
         },
         {
-            "course_number": 426,
+            "course_number": 261,
             "subjects": [
                 "HISTORY",
                 "LEGALST"
@@ -103,10 +214,9 @@
             ]
         },
         {
-            "course_number": 160,
+            "course_number": 400,
             "subjects": [
-                "LEGALST",
-                "ENGL"
+                "LEGALST"
             ]
         },
         {
@@ -217,27 +327,6 @@
                 "total": 22,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Mitra Sharafi": "MITRA.SHARAFI@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

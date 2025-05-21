@@ -28,23 +28,90 @@
     },
     "description": "Surveys the history of architecture, interiors, furnishings and decorative arts from antiquity to the mid-19th century. Introduction to major design cultures and movements, emphasizing the role of social, economic, political, technological, and aesthetic factors in the shaping design.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
+            {
+                "course_number": 201,
+                "subjects": [
+                    "ARTHIST"
+                ]
+            },
+            {
+                "course_number": 202,
+                "subjects": [
+                    "ARTHIST"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
             {
                 "course_number": 120,
                 "subjects": [
                     "DS"
                 ]
             },
+            " or (",
             {
                 "course_number": 201,
                 "subjects": [
                     "ARTHIST"
                 ]
-            }
+            },
+            " and ",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "ARTHIST"
+                ]
+            },
+            ")"
         ],
         "prerequisites_text": "DS\u00a0120or (ART\u00a0HIST\u00a0201and202)"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 202,
@@ -65,9 +132,39 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 120,
+                "subjects": [
+                    "DS"
+                ]
+            },
+            " or (",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "ARTHIST"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "ARTHIST"
+                ]
+            },
+            ")"
+        ],
         "prerequisites_text": "DS\u00a0120or (ART\u00a0HIST\u00a0201and202)"
     },
     "similar_courses": [
+        {
+            "course_number": 363,
+            "subjects": [
+                "DS",
+                "ARTHIST"
+            ]
+        },
         {
             "course_number": 749,
             "subjects": [
@@ -81,20 +178,13 @@
             ]
         },
         {
-            "course_number": 363,
-            "subjects": [
-                "ARTHIST",
-                "DS"
-            ]
-        },
-        {
-            "course_number": 223,
-            "subjects": [
-                "DS"
-            ]
-        },
-        {
             "course_number": 422,
+            "subjects": [
+                "DS"
+            ]
+        },
+        {
+            "course_number": 430,
             "subjects": [
                 "DS"
             ]

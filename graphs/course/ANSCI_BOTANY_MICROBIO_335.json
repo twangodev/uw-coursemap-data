@@ -1,28 +1,33 @@
 [
     {
         "data": {
-            "description": "Introduction to the basic principles and concepts of the biology of plants. an integrative approach stressing evolutionary sequences and the relationship between structure and function at succeeding levels of organization: molecule, cell, organism, population, community. Correlated lectures, laboratories, and discussions.",
-            "id": "BIOLOGY/BOTANY 130",
-            "title": "GENERAL BOTANY"
+            "description": "Basic biology of microorganisms, including structure, function, physiology, genetics, ecology, diversity, and evolution.",
+            "id": "MICROBIO 303",
+            "parent": "MICROBIO",
+            "title": "BIOLOGY OF MICROORGANISMS"
         }
     },
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
+            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
+            "id": "BIOCORE 381",
+            "parent": "BIOCORE",
+            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
         }
     },
     {
         "data": {
-            "id": "MICROBIO",
-            "type": "compound"
+            "description": "Cellular and molecular basis of life. The main themes are the structure and function of cells and organelles, the flow of energy in cells, and the storage, expression, and regulation of genetic information.",
+            "id": "BIOCORE 383",
+            "parent": "BIOCORE",
+            "title": "CELLULAR BIOLOGY"
         }
     },
     {
         "data": {
-            "source": "MICROBIO 303",
-            "target": "MICROBIO 101"
+            "description": "Examination of the structure and function of microbial communities that live inside and on host organisms (plants, animals, and humans). Introduction to general concepts of the microbiome and microbiota, and their relationship to host nutrition, health, and disease.",
+            "id": "ANSCI/BOTANY/MICROBIO 335",
+            "title": "THE MICROBIOME OF PLANTS, ANIMALS, AND HUMANS"
         }
     },
     {
@@ -34,26 +39,9 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "MICROBIO 303"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY 130",
-            "target": "MICROBIO 303"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "MICROBIO 303"
+            "description": "Introduction to the basic principles and concepts of the biology of plants. an integrative approach stressing evolutionary sequences and the relationship between structure and function at succeeding levels of organization: molecule, cell, organism, population, community. Correlated lectures, laboratories, and discussions.",
+            "id": "BIOLOGY/BOTANY 130",
+            "title": "GENERAL BOTANY"
         }
     },
     {
@@ -66,8 +54,15 @@
     },
     {
         "data": {
-            "source": "MICROBIO 303",
-            "target": "ANSCI/BOTANY/MICROBIO 335"
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "id": "BIOCORE",
+            "type": "compound"
         }
     },
     {
@@ -78,9 +73,38 @@
     },
     {
         "data": {
-            "description": "Examination of the structure and function of microbial communities that live inside and on host organisms (plants, animals, and humans). Introduction to general concepts of the microbiome and microbiota, and their relationship to host nutrition, health, and disease.",
-            "id": "ANSCI/BOTANY/MICROBIO 335",
-            "title": "THE MICROBIOME OF PLANTS, ANIMALS, AND HUMANS"
+            "id": "MICROBIO",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOCORE 381",
+            "target": "BIOCORE 383"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOCORE 383",
+            "target": "MICROBIO 303"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY 130",
+            "target": "MICROBIO 303"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/ZOOLOGY 101"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "MICROBIO 303"
         }
     },
     {
@@ -91,16 +115,20 @@
     },
     {
         "data": {
-            "description": "Basic biology of microorganisms, including structure, function, physiology, genetics, ecology, diversity, and evolution.",
-            "id": "MICROBIO 303",
-            "parent": "MICROBIO",
-            "title": "BIOLOGY OF MICROORGANISMS"
+            "source": "MICROBIO 101",
+            "target": "ANSCI/BOTANY/MICROBIO 335"
         }
     },
     {
         "data": {
-            "source": "MICROBIO 101",
+            "source": "MICROBIO 303",
             "target": "ANSCI/BOTANY/MICROBIO 335"
+        }
+    },
+    {
+        "data": {
+            "source": "MICROBIO 303",
+            "target": "MICROBIO 101"
         }
     }
 ]

@@ -1,42 +1,18 @@
 [
     {
         "data": {
-            "id": "POLISCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "This course undertakes a historical and analytical approach to U.S. foreign policy since World War II. The course is divided into three main topics: U.S. Foreign Policy since World War II and the evolution of U.S. policy and the impetus behind important foreign policy choices; The people and institutions and processes that guide foreign policy formation and implementation; And the more salient foreign policy challenges facing the U.S. in the 21st century including how the US has responded to the attacks of September 11, 2001, the effectiveness of foreign aid policy.",
-            "id": "POLISCI 359",
-            "parent": "POLISCI",
-            "title": "AMERICAN FOREIGN POLICY"
-        }
-    },
-    {
-        "data": {
-            "id": "INTLST",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "INTLST 101",
-            "target": "POLISCI 359"
-        }
-    },
-    {
-        "data": {
-            "source": "POLISCI 184",
-            "target": "POLISCI 359"
-        }
-    },
-    {
-        "data": {
             "description": "Covers the major issues in international relations since the end of World War II including: the causes of war; civil wars and ethnic conflict; economic development; international trade; exchange rates and international monetary relations; international capital flows and financial crises; foreign direct investment; globalization and the environment; the UN, the IMF, World Bank, WTO, and other international organizations; and international law and human rights. The focus is on states' relations with each other and the factors determining the nature and outcomes of these international interactions. The course seeks to develop analytical tools for thinking about important questions in world politics regardless of the countries or issues involved, to examine international affairs in a systematic way. Students who have taken POLI SCI 103 prior to Fall 2017 may not enroll in this course.",
             "id": "POLISCI 140",
             "parent": "POLISCI",
             "title": "INTRODUCTION TO INTERNATIONAL RELATIONS"
+        }
+    },
+    {
+        "data": {
+            "description": "Basic institutions and processes of American government. The role of constitutional structures, parties, interest groups and elections in the system; policy formation and policy comment.",
+            "id": "POLISCI 184",
+            "parent": "POLISCI",
+            "title": "INTRODUCTION TO AMERICAN POLITICS"
         }
     },
     {
@@ -57,7 +33,27 @@
     },
     {
         "data": {
-            "source": "POLISCI 104",
+            "description": "This course undertakes a historical and analytical approach to U.S. foreign policy since World War II. The course is divided into three main topics: U.S. Foreign Policy since World War II and the evolution of U.S. policy and the impetus behind important foreign policy choices; The people and institutions and processes that guide foreign policy formation and implementation; And the more salient foreign policy challenges facing the U.S. in the 21st century including how the US has responded to the attacks of September 11, 2001, the effectiveness of foreign aid policy.",
+            "id": "POLISCI 359",
+            "parent": "POLISCI",
+            "title": "AMERICAN FOREIGN POLICY"
+        }
+    },
+    {
+        "data": {
+            "id": "INTLST",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "POLISCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "INTLST 101",
             "target": "POLISCI 359"
         }
     },
@@ -65,6 +61,12 @@
         "data": {
             "source": "POLISCI 104",
             "target": "POLISCI 184"
+        }
+    },
+    {
+        "data": {
+            "source": "POLISCI 104",
+            "target": "POLISCI 359"
         }
     },
     {
@@ -81,10 +83,8 @@
     },
     {
         "data": {
-            "description": "Basic institutions and processes of American government. The role of constitutional structures, parties, interest groups and elections in the system; policy formation and policy comment.",
-            "id": "POLISCI 184",
-            "parent": "POLISCI",
-            "title": "INTRODUCTION TO AMERICAN POLITICS"
+            "source": "POLISCI 184",
+            "target": "POLISCI 359"
         }
     }
 ]

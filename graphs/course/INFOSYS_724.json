@@ -1,43 +1,6 @@
 [
     {
         "data": {
-            "description": "Use, control and administration of centralized and distributed data bases. Topics include the definition, design, creation, revision, interrogation, update, security and integrity of data bases.",
-            "id": "INFOSYS/ISYE 722",
-            "title": "COMPUTER-BASED DATA MANAGEMENT"
-        }
-    },
-    {
-        "data": {
-            "source": "INFOSYS 371",
-            "target": "INFOSYS/ISYE 722"
-        }
-    },
-    {
-        "data": {
-            "id": "INFOSYS",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "INFOSYS/ISYE 722",
-            "target": "INFOSYS 724"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI 220",
-            "target": "INFOSYS 371"
-        }
-    },
-    {
-        "data": {
-            "id": "COMPSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "Analysis of business systems to identify possible need for new or improved computer-based systems and the design of systems to meet those needs.",
             "id": "INFOSYS 724",
             "parent": "INFOSYS",
@@ -46,8 +9,10 @@
     },
     {
         "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
+            "description": "Focus is on developing applications and business information systems on the web using a variety of programming languages and tools. Emphasis on deployment as well as design concepts.",
+            "id": "INFOSYS 371",
+            "parent": "INFOSYS",
+            "title": "TECHNOLOGY OF COMPUTER-BASED BUSINESS SYSTEMS"
         }
     },
     {
@@ -60,10 +25,45 @@
     },
     {
         "data": {
-            "description": "Focus is on developing applications and business information systems on the web using a variety of programming languages and tools. Emphasis on deployment as well as design concepts.",
-            "id": "INFOSYS 371",
-            "parent": "INFOSYS",
-            "title": "TECHNOLOGY OF COMPUTER-BASED BUSINESS SYSTEMS"
+            "description": "Use, control and administration of centralized and distributed data bases. Topics include the definition, design, creation, revision, interrogation, update, security and integrity of data bases.",
+            "id": "INFOSYS/ISYE 722",
+            "title": "COMPUTER-BASED DATA MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "id": "COMPSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "INFOSYS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 220",
+            "target": "INFOSYS 371"
+        }
+    },
+    {
+        "data": {
+            "source": "INFOSYS 371",
+            "target": "INFOSYS/ISYE 722"
+        }
+    },
+    {
+        "data": {
+            "source": "INFOSYS/ISYE 722",
+            "target": "INFOSYS 724"
         }
     }
 ]

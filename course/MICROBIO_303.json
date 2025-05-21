@@ -28,20 +28,64 @@
     },
     "description": "Basic biology of microorganisms, including structure, function, physiology, genetics, ecology, diversity, and evolution.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
             {
                 "course_number": 151,
                 "subjects": [
                     "BOTANY",
                     "ZOOLOGY",
                     "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
                 ]
             },
             {
@@ -52,16 +96,104 @@
                 ]
             }
         ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,BIOCORE\u00a0383, orBIOLOGY/\u200bBOTANY\u00a0\u00a0130) and (CHEM\u00a0104or109) or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            ") and (",
             {
                 "course_number": 104,
                 "subjects": [
                     "CHEM"
                 ]
             },
+            " or ",
+            {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            ") or graduate/professional standing"
+        ],
+        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,BIOCORE\u00a0383, orBIOLOGY/\u200bBOTANY\u00a0\u00a0130) and (CHEM\u00a0104or109) or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 151,
                 "subjects": [
@@ -75,6 +207,18 @@
                 "subjects": [
                     "BOTANY",
                     "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 104,
+                "subjects": [
+                    "CHEM"
                 ]
             },
             {
@@ -89,25 +233,74 @@
                 "subjects": [
                     "CHEM"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
             },
+            ", ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
             {
                 "course_number": 383,
                 "subjects": [
                     "BIOCORE"
                 ]
-            }
+            },
+            ", or ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 104,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            ") or graduate/professional standing"
         ],
         "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,BIOCORE\u00a0383, orBIOLOGY/\u200bBOTANY\u00a0\u00a0130) and (CHEM\u00a0104or109) or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 811,
+            "course_number": 101,
             "subjects": [
                 "MICROBIO"
             ]
         },
         {
-            "course_number": 100,
+            "course_number": 450,
+            "subjects": [
+                "MICROBIO"
+            ]
+        },
+        {
+            "course_number": 102,
             "subjects": [
                 "MICROBIO"
             ]
@@ -119,13 +312,7 @@
             ]
         },
         {
-            "course_number": 101,
-            "subjects": [
-                "MICROBIO"
-            ]
-        },
-        {
-            "course_number": 450,
+            "course_number": 526,
             "subjects": [
                 "MICROBIO"
             ]
@@ -195,8 +382,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "JORGE ESCALANTE",
                     "KATRINA FOREST",
+                    "JORGE ESCALANTE",
                     "DIANA DOWNS"
                 ],
                 "no_credit": 0,
@@ -222,8 +409,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JORGE ESCALANTE",
                     "KATRINA FOREST",
+                    "JORGE ESCALANTE",
                     "DIANA DOWNS"
                 ],
                 "no_credit": 0,
@@ -302,8 +489,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Michelle Rondon",
                     "KATRINA FOREST",
+                    "Michelle Rondon",
                     "DIANA DOWNS"
                 ],
                 "no_credit": 0,
@@ -329,8 +516,8 @@
                 "f": 4,
                 "incomplete": 1,
                 "instructors": [
-                    "Michelle Rondon",
                     "KATRINA FOREST",
+                    "Michelle Rondon",
                     "DIANA DOWNS"
                 ],
                 "no_credit": 0,
@@ -1058,27 +1245,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Melissa Christopherson": "MELISSACHRISTOPHERSON@GMAIL.COM"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
-        },
         "1256": {
             "enrollment_data": {
                 "credit_count": [
@@ -1090,7 +1256,7 @@
                 "instructors": {
                     "Timothy Paustian": "PAUSTIAN@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "A",
                     "name": "Agricultural and Life Sciences",
@@ -1111,7 +1277,7 @@
                 "instructors": {
                     "Melissa Christopherson": "MELISSACHRISTOPHERSON@GMAIL.COM"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "A",
                     "name": "Agricultural and Life Sciences",

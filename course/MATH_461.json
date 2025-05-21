@@ -28,6 +28,41 @@
     },
     "description": "An introduction to Euclidean or non-Euclidean geometry.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing",
+                {
+                    "children": [
+                        "member of the Pre-Masters Mathematics",
+                        "Visiting International",
+                        "Program"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 222,
@@ -48,9 +83,75 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or (",
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 240,
+                "subjects": [
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            ") or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International)  Program"
+        ],
         "prerequisites_text": "MATH\u00a0234or (MATH\u00a0222andCOMP\u00a0SCI/\u200bMATH\u00a0\u00a0240) orMATH\u00a0375or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International)  Program"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing",
+                {
+                    "children": [
+                        "member of the Pre-Masters Mathematics",
+                        "Visiting International",
+                        "Program"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 222,
@@ -67,8 +168,8 @@
             {
                 "course_number": 240,
                 "subjects": [
-                    "MATH",
-                    "COMPSCI"
+                    "COMPSCI",
+                    "MATH"
                 ]
             },
             {
@@ -78,11 +179,48 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or (",
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 240,
+                "subjects": [
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            ") or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International)  Program"
+        ],
         "prerequisites_text": "MATH\u00a0234or (MATH\u00a0222andCOMP\u00a0SCI/\u200bMATH\u00a0\u00a0240) orMATH\u00a0375or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International)  Program"
     },
     "similar_courses": [
         {
-            "course_number": 844,
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 491,
             "subjects": [
                 "MATH"
             ]
@@ -94,19 +232,13 @@
             ]
         },
         {
-            "course_number": 764,
+            "course_number": 844,
             "subjects": [
                 "MATH"
             ]
         },
         {
-            "course_number": 763,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 221,
+            "course_number": 561,
             "subjects": [
                 "MATH"
             ]
@@ -837,27 +969,6 @@
                 "total": 33,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Cassie WILLIAMS": "CASSIE.WILLIAMS@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
         }
     }
 }

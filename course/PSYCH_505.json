@@ -28,14 +28,46 @@
     },
     "description": "Provides an in-depth treatment of a specific topic in psychology and biology.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
             {
                 "course_number": 151,
                 "subjects": [
@@ -49,12 +81,31 @@
                 "subjects": [
                     "PSYCH"
                 ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
             }
         ],
-        "prerequisites_text": "PSYCH\u00a0202, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0381and382)"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PSYCH"
+                ]
+            },
+            ", (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
             {
                 "course_number": 102,
                 "subjects": [
@@ -62,6 +113,7 @@
                     "BIOLOGY"
                 ]
             },
+            "), ",
             {
                 "course_number": 151,
                 "subjects": [
@@ -70,17 +122,77 @@
                     "BIOLOGY"
                 ]
             },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
+            ", or (",
             {
                 "course_number": 381,
                 "subjects": [
                     "BIOCORE"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ")"
+        ],
+        "prerequisites_text": "PSYCH\u00a0202, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0381and382)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PSYCH"
+                ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
                 ]
             },
             {
@@ -90,29 +202,85 @@
                 ]
             },
             {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
                 "course_number": 202,
                 "subjects": [
                     "PSYCH"
                 ]
-            }
+            },
+            ", (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or (",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ")"
         ],
         "prerequisites_text": "PSYCH\u00a0202, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0381and382)"
     },
     "similar_courses": [
         {
-            "course_number": 707,
+            "course_number": 601,
             "subjects": [
                 "PSYCH"
             ]
         },
         {
-            "course_number": 375,
-            "subjects": [
-                "BIOLOGY"
-            ]
-        },
-        {
-            "course_number": 711,
+            "course_number": 707,
             "subjects": [
                 "PSYCH"
             ]
@@ -124,7 +292,13 @@
             ]
         },
         {
-            "course_number": 601,
+            "course_number": 711,
+            "subjects": [
+                "PSYCH"
+            ]
+        },
+        {
+            "course_number": 508,
             "subjects": [
                 "PSYCH"
             ]
@@ -194,9 +368,9 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "TIMOTHY ROGERS",
                     "MOHAN JI",
-                    "Clint Jensen"
+                    "TIMOTHY ROGERS",
+                    "CLINT JENSEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -221,8 +395,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "EMILY GREINWALD",
                     "Stephen FERRIGNO",
+                    "EMILY GREINWALD",
                     "JAEYOON CHOI"
                 ],
                 "no_credit": 0,
@@ -248,9 +422,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Kira Breeden",
                     "Stephen FERRIGNO",
-                    "Clementine Zimnicki"
+                    "CLEMENTINE ZIMNICKI",
+                    "KIRA BREEDEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -261,29 +435,6 @@
                 "total": 77,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Brad POSTLE": "POSTLE@WISC.EDU",
-                    "Jung Woo Hur": "JHUR9@WISC.EDU",
-                    "Nicole Stigler": "NSTIGLER@WISC.EDU"
-                },
-                "last_taught_term": null,
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
         },
         "1262": {
             "enrollment_data": {

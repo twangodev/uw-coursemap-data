@@ -28,6 +28,25 @@
     },
     "description": "Electromagnetic design concepts and application to AC machines, magnetic circuit concepts, calculation of equivalent circuit parameters of induction, synchronous and permanent magnet machines from geometric data, copper and iron loss calculations, theory and application of finite elements to electromagnetic devices.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 411,
@@ -42,9 +61,45 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 411,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 511,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            ") and graduate/professional standing"
+        ],
         "prerequisites_text": "(E\u00a0C\u00a0E\u00a0411or511) and graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 511,
@@ -58,20 +113,43 @@
                     "ECE"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 411,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 511,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            ") and graduate/professional standing"
         ],
         "prerequisites_text": "(E\u00a0C\u00a0E\u00a0411or511) and graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 742,
+            "course_number": 304,
             "subjects": [
                 "ECE"
             ]
         },
         {
-            "course_number": 377,
+            "course_number": 711,
             "subjects": [
                 "ECE"
+            ]
+        },
+        {
+            "course_number": 645,
+            "subjects": [
+                "EPD"
             ]
         },
         {
@@ -81,13 +159,7 @@
             ]
         },
         {
-            "course_number": 219,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 355,
+            "course_number": 377,
             "subjects": [
                 "ECE"
             ]
@@ -495,27 +567,6 @@
                 "total": 10,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Daniel Ludois": "LUDOIS@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Occasionally"
-            },
-            "grade_data": null
         }
     }
 }

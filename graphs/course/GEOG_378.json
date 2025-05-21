@@ -1,12 +1,6 @@
 [
     {
         "data": {
-            "id": "GEOG",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "Design, implementation and use of automated procedures for storage, analysis and display of spatial information. Covers data bases, information manipulation and display techniques, software systems and management issues. Case studies.",
             "id": "CIVENGR/ENVIRST/GEOG 377",
             "title": "AN INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS"
@@ -14,8 +8,10 @@
     },
     {
         "data": {
-            "source": "CIVENGR/ENVIRST/GEOG 377",
-            "target": "GEOG 378"
+            "description": "Introduction to scripting for Geographic Information Science. Geoprocessing with open-source GIS utilities. Python scripting with ArcGIS and open-source libraries.",
+            "id": "GEOG 378",
+            "parent": "GEOG",
+            "title": "INTRODUCTION TO GEOCOMPUTING"
         }
     },
     {
@@ -26,10 +22,14 @@
     },
     {
         "data": {
-            "description": "Introduction to scripting for Geographic Information Science. Geoprocessing with open-source GIS utilities. Python scripting with ArcGIS and open-source libraries.",
-            "id": "GEOG 378",
-            "parent": "GEOG",
-            "title": "INTRODUCTION TO GEOCOMPUTING"
+            "id": "GEOG",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CIVENGR/ENVIRST/GEOG 377",
+            "target": "GEOG 378"
         }
     }
 ]

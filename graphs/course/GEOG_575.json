@@ -1,14 +1,17 @@
 [
     {
         "data": {
-            "id": "GEOG",
-            "type": "compound"
+            "description": "A broad introduction to cartography emphasizing the theory and practice of map-making. Topics include the basics in mapping (e.g., scale, spatial reference systems, projections), data acquisition, key techniques for thematic mapping, and principles of cartographic abstraction and design.",
+            "id": "GEOG 370",
+            "parent": "GEOG",
+            "title": "INTRODUCTION TO CARTOGRAPHY"
         }
     },
     {
         "data": {
-            "source": "GEOG 378",
-            "target": "GEOG 575"
+            "description": "Design, implementation and use of automated procedures for storage, analysis and display of spatial information. Covers data bases, information manipulation and display techniques, software systems and management issues. Case studies.",
+            "id": "CIVENGR/ENVIRST/GEOG 377",
+            "title": "AN INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS"
         }
     },
     {
@@ -21,29 +24,10 @@
     },
     {
         "data": {
-            "source": "GEOG 370",
-            "target": "GEOG 575"
-        }
-    },
-    {
-        "data": {
-            "description": "Design, implementation and use of automated procedures for storage, analysis and display of spatial information. Covers data bases, information manipulation and display techniques, software systems and management issues. Case studies.",
-            "id": "CIVENGR/ENVIRST/GEOG 377",
-            "title": "AN INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS"
-        }
-    },
-    {
-        "data": {
-            "description": "A broad introduction to cartography emphasizing the theory and practice of map-making. Topics include the basics in mapping (e.g., scale, spatial reference systems, projections), data acquisition, key techniques for thematic mapping, and principles of cartographic abstraction and design.",
-            "id": "GEOG 370",
+            "description": "Introduction to scripting for Geographic Information Science. Geoprocessing with open-source GIS utilities. Python scripting with ArcGIS and open-source libraries.",
+            "id": "GEOG 378",
             "parent": "GEOG",
-            "title": "INTRODUCTION TO CARTOGRAPHY"
-        }
-    },
-    {
-        "data": {
-            "source": "CIVENGR/ENVIRST/GEOG 377",
-            "target": "GEOG 378"
+            "title": "INTRODUCTION TO GEOCOMPUTING"
         }
     },
     {
@@ -54,10 +38,26 @@
     },
     {
         "data": {
-            "description": "Introduction to scripting for Geographic Information Science. Geoprocessing with open-source GIS utilities. Python scripting with ArcGIS and open-source libraries.",
-            "id": "GEOG 378",
-            "parent": "GEOG",
-            "title": "INTRODUCTION TO GEOCOMPUTING"
+            "id": "GEOG",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CIVENGR/ENVIRST/GEOG 377",
+            "target": "GEOG 378"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOG 370",
+            "target": "GEOG 575"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOG 378",
+            "target": "GEOG 575"
         }
     }
 ]

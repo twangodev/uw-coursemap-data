@@ -1,48 +1,10 @@
 [
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "id": "MATH",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
             "description": "Application of engineering principles to small, ungauged watershed analysis. Application of hydrologic and sedimentologic principles to upland watersheds for run-off and sediment control.",
             "id": "BSE 571",
             "parent": "BSE",
             "title": "SMALL WATERSHED ENGINEERING"
-        }
-    },
-    {
-        "data": {
-            "id": "BSE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
-            "id": "MATH 222",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
         }
     },
     {
@@ -55,8 +17,10 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "BSE 571"
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
@@ -69,10 +33,22 @@
     },
     {
         "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
             "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "id": "BSE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MATH",
+            "type": "compound"
         }
     },
     {
@@ -83,8 +59,32 @@
     },
     {
         "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 213",
             "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "BSE 571"
         }
     }
 ]

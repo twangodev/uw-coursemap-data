@@ -29,6 +29,44 @@
     },
     "description": "Managerial oriented, applied presentation of microeconomic theory. Quantitative emphasis with extensive homework use of spreadsheets and written executive summaries of applied economic analyses. Applications on natural resources and agricultural markets.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 310,
@@ -43,33 +81,104 @@
                 ]
             }
         ],
-        "prerequisites_text": "STAT\u00a0301,371,ECON\u00a0310,SOC/\u200bC&E\u00a0SOC\u00a0\u00a0360,PSYCH\u00a0210, or (GEN\u00a0BUS\u00a0306and307)"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 301,
                 "subjects": [
                     "STAT"
                 ]
             },
+            ", ",
             {
-                "course_number": 306,
+                "course_number": 371,
                 "subjects": [
-                    "GENBUS"
+                    "STAT"
                 ]
             },
+            ", ",
             {
                 "course_number": 310,
                 "subjects": [
                     "ECON"
                 ]
             },
+            ", ",
             {
                 "course_number": 360,
                 "subjects": [
-                    "SOC",
-                    "C&ESOC"
+                    "C&ESOC",
+                    "SOC"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 210,
+                "subjects": [
+                    "PSYCH"
+                ]
+            },
+            ", or (",
+            {
+                "course_number": 306,
+                "subjects": [
+                    "GENBUS"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 307,
+                "subjects": [
+                    "GENBUS"
+                ]
+            },
+            ")"
+        ],
+        "prerequisites_text": "STAT\u00a0301,371,ECON\u00a0310,SOC/\u200bC&E\u00a0SOC\u00a0\u00a0360,PSYCH\u00a0210, or (GEN\u00a0BUS\u00a0306and307)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 301,
+                "subjects": [
+                    "STAT"
                 ]
             },
             {
@@ -79,7 +188,14 @@
                 ]
             },
             {
-                "course_number": 307,
+                "course_number": 360,
+                "subjects": [
+                    "C&ESOC",
+                    "SOC"
+                ]
+            },
+            {
+                "course_number": 306,
                 "subjects": [
                     "GENBUS"
                 ]
@@ -89,19 +205,83 @@
                 "subjects": [
                     "STAT"
                 ]
+            },
+            {
+                "course_number": 307,
+                "subjects": [
+                    "GENBUS"
+                ]
+            },
+            {
+                "course_number": 310,
+                "subjects": [
+                    "ECON"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 301,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 371,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 360,
+                "subjects": [
+                    "C&ESOC",
+                    "SOC"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 210,
+                "subjects": [
+                    "PSYCH"
+                ]
+            },
+            ", or (",
+            {
+                "course_number": 306,
+                "subjects": [
+                    "GENBUS"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 307,
+                "subjects": [
+                    "GENBUS"
+                ]
+            },
+            ")"
         ],
         "prerequisites_text": "STAT\u00a0301,371,ECON\u00a0310,SOC/\u200bC&E\u00a0SOC\u00a0\u00a0360,PSYCH\u00a0210, or (GEN\u00a0BUS\u00a0306and307)"
     },
     "similar_courses": [
         {
-            "course_number": 771,
+            "course_number": 719,
             "subjects": [
                 "AAE"
             ]
         },
         {
-            "course_number": 701,
+            "course_number": 705,
             "subjects": [
                 "AAE"
             ]
@@ -120,7 +300,7 @@
             ]
         },
         {
-            "course_number": 719,
+            "course_number": 635,
             "subjects": [
                 "AAE"
             ]
@@ -577,25 +757,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2024",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -604,7 +765,9 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
+                "instructors": {
+                    "KENSUKE KUBO": null
+                },
                 "last_taught_term": "Fall 2024",
                 "school": {
                     "abbreviation": "L",

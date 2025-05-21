@@ -1,6 +1,38 @@
 [
     {
         "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "High-level introduction to concepts and practices in business. Overview of management, marketing, strategy, entrepreneurship, ethics, supply chain, and international business.",
+            "id": "GENBUS 311",
+            "parent": "GENBUS",
+            "title": "FUNDAMENTALS OF MANAGEMENT AND MARKETING FOR NON-BUSINESS MAJORS"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
+        }
+    },
+    {
+        "data": {
             "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
             "id": "MARKETNG 300",
             "parent": "MARKETNG",
@@ -17,48 +49,10 @@
     },
     {
         "data": {
-            "description": "High-level introduction to concepts and practices in business. Overview of management, marketing, strategy, entrepreneurship, ethics, supply chain, and international business.",
-            "id": "GENBUS 311",
-            "parent": "GENBUS",
-            "title": "FUNDAMENTALS OF MANAGEMENT AND MARKETING FOR NON-BUSINESS MAJORS"
-        }
-    },
-    {
-        "data": {
-            "id": "GENBUS",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "GENBUS 311",
-            "target": "MARKETNG 805"
-        }
-    },
-    {
-        "data": {
-            "id": "MARKETNG",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "Understanding and application of in-depth qualitative market research methods, with an emphasis on the interpretation of qualitative data. Provides hands-on experience with different methodological techniques and immersion in a cultural perspective for systematically analyzing data from a marketing perspective.",
             "id": "MARKETNG 805",
             "parent": "MARKETNG",
             "title": "QUALITATIVELY-BASED MARKETING INSIGHTS"
-        }
-    },
-    {
-        "data": {
-            "source": "MARKETNG 300",
-            "target": "MARKETNG 805"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "MARKETNG 300"
         }
     },
     {
@@ -69,36 +63,56 @@
     },
     {
         "data": {
-            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
-            "id": "ECON 111",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+            "id": "GENBUS",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "source": "MARKETNG 700",
-            "target": "MARKETNG 805"
+            "id": "MARKETNG",
+            "type": "compound"
         }
     },
     {
         "data": {
             "source": "ECON 101",
-            "target": "ECON 111"
+            "target": "MARKETNG 300"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 311",
+            "target": "MARKETNG 805"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 300",
+            "target": "MARKETNG 805"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 700",
+            "target": "MARKETNG 805"
         }
     }
 ]

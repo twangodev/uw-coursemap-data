@@ -28,6 +28,47 @@
     },
     "description": "Analysis of human action through the application of mechanical principles.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "KINES 328",
+                        "329",
+                        "KINES 337",
+                        "338",
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                "placement in",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 337,
@@ -42,16 +83,82 @@
                 ]
             }
         ],
-        "prerequisites_text": "(KINES 328, 329, KINES 337, 338,ANAT&PHY\u00a0337, or338) and (MATH\u00a0112or placement inMATH\u00a0113)"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(KINES 328, 329, KINES 337, 338, ",
             {
                 "course_number": 337,
                 "subjects": [
                     "ANAT&PHY"
                 ]
             },
+            ", or ",
+            {
+                "course_number": 338,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 112,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or placement in ",
+            {
+                "course_number": 113,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ")"
+        ],
+        "prerequisites_text": "(KINES 328, 329, KINES 337, 338,ANAT&PHY\u00a0337, or338) and (MATH\u00a0112or placement inMATH\u00a0113)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "KINES 328",
+                        "329",
+                        "KINES 337",
+                        "338",
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                "placement in",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
             {
                 "course_number": 338,
                 "subjects": [
@@ -59,9 +166,9 @@
                 ]
             },
             {
-                "course_number": 113,
+                "course_number": 337,
                 "subjects": [
-                    "MATH"
+                    "ANAT&PHY"
                 ]
             },
             {
@@ -69,24 +176,48 @@
                 "subjects": [
                     "MATH"
                 ]
+            },
+            {
+                "course_number": 113,
+                "subjects": [
+                    "MATH"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(KINES 328, 329, KINES 337, 338, ",
+            {
+                "course_number": 337,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 338,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 112,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or placement in ",
+            {
+                "course_number": 113,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ")"
         ],
         "prerequisites_text": "(KINES 328, 329, KINES 337, 338,ANAT&PHY\u00a0337, or338) and (MATH\u00a0112or placement inMATH\u00a0113)"
     },
     "similar_courses": [
-        {
-            "course_number": 415,
-            "subjects": [
-                "ME",
-                "BME"
-            ]
-        },
-        {
-            "course_number": 227,
-            "subjects": [
-                "KINES"
-            ]
-        },
         {
             "course_number": 618,
             "subjects": [
@@ -94,13 +225,26 @@
             ]
         },
         {
-            "course_number": 315,
+            "course_number": 953,
             "subjects": [
-                "BME"
+                "KINES"
+            ]
+        },
+        {
+            "course_number": 415,
+            "subjects": [
+                "BME",
+                "ME"
             ]
         },
         {
             "course_number": 308,
+            "subjects": [
+                "KINES"
+            ]
+        },
+        {
+            "course_number": 951,
             "subjects": [
                 "KINES"
             ]
@@ -595,9 +739,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Kreg GRUBEN",
                     "PATRICK CUMMINGS",
-                    "KIERAN NICHOLS",
-                    "Kreg GRUBEN"
+                    "KIERAN NICHOLS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -985,29 +1129,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Jessica Vlisides": "VLISIDESJ@WISC.EDU",
-                    "Katy Bray": "KABRAY2@WISC.EDU",
-                    "Kreg GRUBEN": "KREG.GRUBEN@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "D",
-                    "name": "Education",
-                    "url": "http://www.education.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -1019,7 +1140,7 @@
                 "instructors": {
                     "Kreg GRUBEN": "KREG.GRUBEN@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "D",
                     "name": "Education",

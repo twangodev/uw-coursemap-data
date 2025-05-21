@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 431,
         "subjects": [
-            "FOLKLORE",
             "ANTHRO",
-            "AMERIND"
+            "AMERIND",
+            "FOLKLORE"
         ]
     },
     "course_title": "AMERICAN INDIAN FOLKLORE",
@@ -30,9 +30,48 @@
     },
     "description": "An introduction to the genres of American Indian Folklore. Special attention is given to creation stories, trickster tales, and the relationship between folklore and historical memory.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Junior standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 230,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            {
+                "course_number": 100,
                 "subjects": [
                     "FOLKLORE"
                 ]
@@ -42,12 +81,6 @@
                 "subjects": [
                     "ANTHRO",
                     "AMERIND"
-                ]
-            },
-            {
-                "course_number": 100,
-                "subjects": [
-                    "FOLKLORE"
                 ]
             },
             {
@@ -57,12 +90,77 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "Junior standing and (",
+            {
+                "course_number": 314,
+                "subjects": [
+                    "ANTHRO",
+                    "AMERIND"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 100,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 230,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            "), or graduate/professional standing"
+        ],
         "prerequisites_text": "Junior standing and (AMER\u00a0IND/\u200bANTHRO\u00a0\u00a0314,FOLKLORE\u00a0100,230, or320), or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Junior standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
-                "course_number": 100,
+                "course_number": 320,
                 "subjects": [
                     "FOLKLORE"
                 ]
@@ -75,17 +173,49 @@
                 ]
             },
             {
-                "course_number": 230,
+                "course_number": 100,
                 "subjects": [
                     "FOLKLORE"
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 230,
                 "subjects": [
                     "FOLKLORE"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "Junior standing and (",
+            {
+                "course_number": 314,
+                "subjects": [
+                    "ANTHRO",
+                    "AMERIND"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 100,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 230,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            "), or graduate/professional standing"
         ],
         "prerequisites_text": "Junior standing and (AMER\u00a0IND/\u200bANTHRO\u00a0\u00a0314,FOLKLORE\u00a0100,230, or320), or graduate/professional standing"
     },
@@ -97,31 +227,34 @@
             ]
         },
         {
-            "course_number": 437,
-            "subjects": [
-                "FOLKLORE",
-                "ANTHRO",
-                "GEN&WS",
-                "AMERIND"
-            ]
-        },
-        {
-            "course_number": 425,
-            "subjects": [
-                "AMERIND"
-            ]
-        },
-        {
-            "course_number": 314,
-            "subjects": [
-                "ANTHRO",
-                "AMERIND"
-            ]
-        },
-        {
             "course_number": 100,
             "subjects": [
-                "AMERIND"
+                "FOLKLORE"
+            ]
+        },
+        {
+            "course_number": 102,
+            "subjects": [
+                "CHICLA",
+                "AFROAMER",
+                "AMERIND",
+                "ASIANAM",
+                "FOLKLORE"
+            ]
+        },
+        {
+            "course_number": 430,
+            "subjects": [
+                "FOLKLORE"
+            ]
+        },
+        {
+            "course_number": 437,
+            "subjects": [
+                "ANTHRO",
+                "AMERIND",
+                "GEN&WS",
+                "FOLKLORE"
             ]
         }
     ],

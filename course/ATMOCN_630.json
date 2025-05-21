@@ -28,15 +28,41 @@
     },
     "description": "Covers thermodynamics theory of multiphase systems, thermodynamic analysis of atmosphere, microphysical processes in the atmosphere, atmospheric and oceanic chemical processes, conduction of heat and moisture into the atmosphere from ocean and land surface.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -46,20 +72,89 @@
                 "subjects": [
                     "PHYSICS"
                 ]
+            },
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
             }
         ],
-        "prerequisites_text": "(PHYSICS\u00a0202,208, or248) andMATH\u00a0234, or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
             {
                 "course_number": 248,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
+            ") and ",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or graduate/professional standing"
+        ],
+        "prerequisites_text": "(PHYSICS\u00a0202,208, or248) andMATH\u00a0234, or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -71,17 +166,54 @@
                 ]
             },
             {
-                "course_number": 202,
+                "course_number": 248,
                 "subjects": [
                     "PHYSICS"
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ") and ",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or graduate/professional standing"
+        ],
         "prerequisites_text": "(PHYSICS\u00a0202,208, or248) andMATH\u00a0234, or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 660,
+            "course_number": 310,
+            "subjects": [
+                "ATMOCN"
+            ]
+        },
+        {
+            "course_number": 801,
             "subjects": [
                 "ATMOCN"
             ]
@@ -93,19 +225,13 @@
             ]
         },
         {
+            "course_number": 753,
+            "subjects": [
+                "ATMOCN"
+            ]
+        },
+        {
             "course_number": 340,
-            "subjects": [
-                "ATMOCN"
-            ]
-        },
-        {
-            "course_number": 460,
-            "subjects": [
-                "ATMOCN"
-            ]
-        },
-        {
-            "course_number": 425,
             "subjects": [
                 "ATMOCN"
             ]
@@ -550,8 +676,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Angel ADAMES-CORRALIZA",
-                    "BEN RODENKIRCH"
+                    "BEN RODENKIRCH",
+                    "Angel ADAMES-CORRALIZA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -576,8 +702,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Angel ADAMES-CORRALIZA",
-                    "ROSA VARGAS MARTES"
+                    "ROSA VARGAS MARTES",
+                    "Angel ADAMES-CORRALIZA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

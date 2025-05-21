@@ -1,35 +1,10 @@
 [
     {
         "data": {
-            "description": "General concepts of animal biology at an introductory level emphasizing the evolutionary relationships between animals. Learn about general body plans and strategies used to accomplish the basic tasks of staying alive in major animal groups using preserved and live animals. Study the diversity within each group of animals by integrating the body plans with the lifestyle and ecology of animals. Dissections of earthworm, freshwater mussel, squid, sea star, and rat aid the study of these general principles.",
-            "id": "BIOLOGY/ZOOLOGY 102",
-            "title": "ANIMAL BIOLOGY LABORATORY"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "id": "BIOCORE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 102"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics include: selected topics in plant physiology, a survey of the five major kingdoms of organisms, speciation and evolutionary theory, and ecology at multiple levels of the biological hierarchy.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 152",
-            "title": "INTRODUCTORY BIOLOGY"
+            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
+            "id": "BIOCORE 381",
+            "parent": "BIOCORE",
+            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
         }
     },
     {
@@ -41,14 +16,54 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 102",
+            "description": "General concepts of animal biology at an introductory level emphasizing the evolutionary relationships between animals. Learn about general body plans and strategies used to accomplish the basic tasks of staying alive in major animal groups using preserved and live animals. Study the diversity within each group of animals by integrating the body plans with the lifestyle and ecology of animals. Dissections of earthworm, freshwater mussel, squid, sea star, and rat aid the study of these general principles.",
+            "id": "BIOLOGY/ZOOLOGY 102",
+            "title": "ANIMAL BIOLOGY LABORATORY"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to bird biology, ecology, and behavior. Topics include the evolutionary origin of birds and flight, anatomy and physiology, functional morphology, migration, communication, reproductive strategies, ecological adaptations and roles, and biogeographical patterns.",
+            "id": "ANSCI/F&WECOL/ZOOLOGY 520",
+            "title": "ORNITHOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: selected topics in plant physiology, a survey of the five major kingdoms of organisms, speciation and evolutionary theory, and ecology at multiple levels of the biological hierarchy.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 152",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "id": "BIOCORE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOCORE 381",
             "target": "ANSCI/F&WECOL/ZOOLOGY 520"
         }
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "ANSCI/F&WECOL/ZOOLOGY 520"
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 152"
         }
     },
     {
@@ -65,29 +80,14 @@
     },
     {
         "data": {
-            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
-            "id": "BIOCORE 381",
-            "parent": "BIOCORE",
-            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 152",
+            "target": "BIOLOGY/ZOOLOGY 102"
         }
     },
     {
         "data": {
-            "source": "BIOCORE 381",
+            "source": "BIOLOGY/ZOOLOGY 101",
             "target": "ANSCI/F&WECOL/ZOOLOGY 520"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to bird biology, ecology, and behavior. Topics include the evolutionary origin of birds and flight, anatomy and physiology, functional morphology, migration, communication, reproductive strategies, ecological adaptations and roles, and biogeographical patterns.",
-            "id": "ANSCI/F&WECOL/ZOOLOGY 520",
-            "title": "ORNITHOLOGY"
         }
     },
     {
@@ -98,8 +98,8 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/BOTANY/ZOOLOGY 152"
+            "source": "BIOLOGY/ZOOLOGY 102",
+            "target": "ANSCI/F&WECOL/ZOOLOGY 520"
         }
     }
 ]

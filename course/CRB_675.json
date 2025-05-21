@@ -28,6 +28,46 @@
     },
     "description": "Examines various special topics in Cell and Regenerative Biology.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 151,
@@ -46,26 +86,120 @@
                 ]
             },
             {
-                "course_number": 383,
+                "course_number": 101,
                 "subjects": [
-                    "BIOCORE"
+                    "ZOOLOGY",
+                    "BIOLOGY"
                 ]
             },
             {
-                "course_number": 101,
+                "course_number": 102,
                 "subjects": [
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
             }
         ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102) orBOTANY/\u200bBIOLOGY\u00a0\u00a0130or (ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151and152) orBIOCORE\u00a0383; or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
             {
                 "course_number": 102,
                 "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ") or ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            " or (",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ") or ",
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            "; or graduate/professional standing"
+        ],
+        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102) orBOTANY/\u200bBIOLOGY\u00a0\u00a0130or (ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151and152) orBIOCORE\u00a0383; or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
@@ -86,18 +220,61 @@
                 ]
             },
             {
-                "course_number": 101,
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 102,
                 "subjects": [
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
             },
             {
-                "course_number": 383,
+                "course_number": 101,
                 "subjects": [
-                    "BIOCORE"
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
                 ]
             },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ") or ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            " or (",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
             {
                 "course_number": 152,
                 "subjects": [
@@ -105,21 +282,29 @@
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
-            }
+            },
+            ") or ",
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            "; or graduate/professional standing"
         ],
         "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102) orBOTANY/\u200bBIOLOGY\u00a0\u00a0130or (ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151and152) orBIOCORE\u00a0383; or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 640,
+            "course_number": 606,
             "subjects": [
-                "CRB"
+                "BME"
             ]
         },
         {
-            "course_number": 375,
+            "course_number": 650,
             "subjects": [
-                "BIOLOGY"
+                "CRB"
             ]
         },
         {
@@ -135,7 +320,7 @@
             ]
         },
         {
-            "course_number": 650,
+            "course_number": 640,
             "subjects": [
                 "CRB"
             ]
@@ -230,19 +415,19 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Deneen Wellik",
-                    "YOUNGSOOK LEE",
-                    "EMERY BRESNICK",
-                    "BARAK BLUM",
-                    "ANITA BHATTACHARYYA",
-                    "ANNE GRIEP",
-                    "AHMED MAHMOUD",
-                    "Junsu KANG",
-                    "Grace Boekhoff-Falk",
                     "ALEXEY GLUKHOV",
+                    "Junsu KANG",
+                    "BARAK BLUM",
                     "TIMOTHY KAMP",
+                    "YOUNGSOOK LEE",
+                    "RICKI COLMAN",
+                    "Deneen Wellik",
+                    "ANITA BHATTACHARYYA",
+                    "AHMED MAHMOUD",
+                    "Grace Boekhoff-Falk",
                     "Rupa Sridharan",
-                    "RICKI COLMAN"
+                    "EMERY BRESNICK",
+                    "ANNE GRIEP"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -292,10 +477,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TIMOTHY KAMP",
                     "AHMED MAHMOUD",
+                    "ALEXEY GLUKHOV",
                     "Junsu KANG",
-                    "ALEXEY GLUKHOV"
+                    "TIMOTHY KAMP"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

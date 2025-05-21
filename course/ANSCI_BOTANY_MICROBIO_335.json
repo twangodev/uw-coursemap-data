@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 335,
         "subjects": [
-            "BOTANY",
+            "MICROBIO",
             "ANSCI",
-            "MICROBIO"
+            "BOTANY"
         ]
     },
     "course_title": "THE MICROBIOME OF PLANTS, ANIMALS, AND HUMANS",
@@ -30,6 +30,20 @@
     },
     "description": "Examination of the structure and function of microbial communities that live inside and on host organisms (plants, animals, and humans). Introduction to general concepts of the microbiome and microbiota, and their relationship to host nutrition, health, and disease.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 303,
@@ -43,39 +57,73 @@
                     "MICROBIO"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "MICROBIO"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 303,
+                "subjects": [
+                    "MICROBIO"
+                ]
+            },
+            " or graduate/professional standing"
         ],
         "prerequisites_text": "MICROBIO\u00a0101or303or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
+            {
+                "course_number": 303,
+                "subjects": [
+                    "MICROBIO"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "MICROBIO"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
             {
                 "course_number": 101,
                 "subjects": [
                     "MICROBIO"
                 ]
             },
+            " or ",
             {
                 "course_number": 303,
                 "subjects": [
                     "MICROBIO"
                 ]
-            }
+            },
+            " or graduate/professional standing"
         ],
         "prerequisites_text": "MICROBIO\u00a0101or303or graduate/professional standing"
     },
     "similar_courses": [
-        {
-            "course_number": 420,
-            "subjects": [
-                "ANSCI"
-            ]
-        },
-        {
-            "course_number": 303,
-            "subjects": [
-                "MICROBIO"
-            ]
-        },
         {
             "course_number": 710,
             "subjects": [
@@ -83,17 +131,27 @@
             ]
         },
         {
-            "course_number": 505,
+            "course_number": 100,
             "subjects": [
-                "BOTANY",
-                "PLPATH",
-                "ENTOM"
+                "BOTANY"
             ]
         },
         {
             "course_number": 315,
             "subjects": [
                 "PLPATH"
+            ]
+        },
+        {
+            "course_number": 100,
+            "subjects": [
+                "MICROBIO"
+            ]
+        },
+        {
+            "course_number": 420,
+            "subjects": [
+                "ANSCI"
             ]
         }
     ],
@@ -222,27 +280,6 @@
                 "total": 27,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Jean-Michel ANE": "JANE@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Every Other Spring"
-            },
-            "grade_data": null
         }
     }
 }

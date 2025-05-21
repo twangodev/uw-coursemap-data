@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 516,
         "subjects": [
-            "ME",
-            "BME"
+            "BME",
+            "ME"
         ]
     },
     "course_title": "FINITE ELEMENTS FOR BIOLOGICAL AND OTHER SOFT MATERIALS",
@@ -29,6 +29,26 @@
     },
     "description": "Finite element modeling of soft materials, with an emphasis on biological tissues.  Basics of the finite element method, verification and validation methods, and selection of constitutive models.  Emphasis on finite element modeling for materials that are generally nonlinear, and that generally undergo large deformation.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 306,
@@ -43,36 +63,98 @@
                 ]
             }
         ],
-        "prerequisites_text": "(M\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303), graduate/professional standing, or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 306,
                 "subjects": [
                     "ME"
                 ]
             },
+            " or ",
             {
                 "course_number": 303,
                 "subjects": [
                     "EMA"
                 ]
+            },
+            "), graduate/professional standing, or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "(M\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303), graduate/professional standing, or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            "), graduate/professional standing, or member of Engineering Guest Students"
         ],
         "prerequisites_text": "(M\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303), graduate/professional standing, or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 606,
+            "course_number": 405,
             "subjects": [
-                "BME"
+                "EMA"
             ]
         },
         {
-            "course_number": 315,
+            "course_number": 615,
             "subjects": [
-                "BME"
+                "BME",
+                "ME"
+            ]
+        },
+        {
+            "course_number": 715,
+            "subjects": [
+                "BME",
+                "ME"
             ]
         },
         {
@@ -82,16 +164,8 @@
             ]
         },
         {
-            "course_number": 715,
+            "course_number": 315,
             "subjects": [
-                "ME",
-                "BME"
-            ]
-        },
-        {
-            "course_number": 615,
-            "subjects": [
-                "ME",
                 "BME"
             ]
         }

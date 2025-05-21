@@ -1,12 +1,6 @@
 [
     {
         "data": {
-            "source": "LIS 602",
-            "target": "CURRIC/LIS 620"
-        }
-    },
-    {
-        "data": {
             "description": "Analysis of field experience through seminars, individual conferences, required reading and consultations with cooperating librarians and information specialists. Enrollment limited.",
             "id": "CURRIC/LIS 620",
             "title": "FIELD PROJECT IN LIBRARY AND INFORMATION AGENCIES"
@@ -22,8 +16,10 @@
     },
     {
         "data": {
-            "source": "LIS 601",
-            "target": "CURRIC/LIS 620"
+            "description": "Provides an introduction to major themes and topics in information studies as well as the language and literature of the field and related disciplines. This course is about information, information agencies, and being an information professional. We look at social, historical, ethical, legal and political issues surrounding information dissemination, use, control, and management.",
+            "id": "LIS 601",
+            "parent": "LIS",
+            "title": "INFORMATION: PERSPECTIVES AND CONTEXTS"
         }
     },
     {
@@ -40,10 +36,14 @@
     },
     {
         "data": {
-            "description": "Provides an introduction to major themes and topics in information studies as well as the language and literature of the field and related disciplines. This course is about information, information agencies, and being an information professional. We look at social, historical, ethical, legal and political issues surrounding information dissemination, use, control, and management.",
-            "id": "LIS 601",
-            "parent": "LIS",
-            "title": "INFORMATION: PERSPECTIVES AND CONTEXTS"
+            "source": "LIS 601",
+            "target": "CURRIC/LIS 620"
+        }
+    },
+    {
+        "data": {
+            "source": "LIS 602",
+            "target": "CURRIC/LIS 620"
         }
     }
 ]

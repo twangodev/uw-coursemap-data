@@ -2,10 +2,10 @@
     "course_reference": {
         "course_number": 609,
         "subjects": [
-            "MATH",
+            "BMI",
             "BMOLCHEM",
             "BIOCHEM",
-            "BMI"
+            "MATH"
         ]
     },
     "course_title": "MATHEMATICAL METHODS FOR SYSTEMS BIOLOGY",
@@ -31,9 +31,157 @@
     },
     "description": "Provides a rigorous foundation for mathematical modeling of biological systems. Mathematical techniques include dynamical systems and differential equations. Applications to biological pathways, including understanding of bistability within chemical reaction systems, are emphasized.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                {
+                    "children": [
+                        "member of the Pre-Masters Mathematics",
+                        "Visiting International",
+                        "Program"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 415,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 415,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 341,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
+        ],
+        "prerequisites_text": "MATH\u00a0415and (MATH\u00a0320,340,341, or375) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                {
+                    "children": [
+                        "member of the Pre-Masters Mathematics",
+                        "Visiting International",
+                        "Program"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 341,
                 "subjects": [
                     "MATH"
                 ]
@@ -46,23 +194,6 @@
             },
             {
                 "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "prerequisites_text": "MATH\u00a0415and (MATH\u00a0320,340,341, or375) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 415,
                 "subjects": [
                     "MATH"
                 ]
@@ -74,17 +205,48 @@
                 ]
             },
             {
+                "course_number": 415,
+                "subjects": [
+                    "MATH"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 415,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " and (",
+            {
                 "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
             },
+            ", ",
+            {
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 341,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
             {
                 "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
-            }
+            },
+            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
         ],
         "prerequisites_text": "MATH\u00a0415and (MATH\u00a0320,340,341, or375) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
     },
@@ -96,10 +258,16 @@
             ]
         },
         {
-            "course_number": 573,
+            "course_number": 556,
             "subjects": [
-                "MEDPHYS",
                 "BME"
+            ]
+        },
+        {
+            "course_number": 782,
+            "subjects": [
+                "BME",
+                "CBE"
             ]
         },
         {
@@ -109,16 +277,10 @@
             ]
         },
         {
-            "course_number": 782,
+            "course_number": 775,
             "subjects": [
-                "CBE",
-                "BME"
-            ]
-        },
-        {
-            "course_number": 349,
-            "subjects": [
-                "BSE"
+                "BMI",
+                "COMPSCI"
             ]
         }
     ],
@@ -311,9 +473,9 @@
                 },
                 "last_taught_term": "Fall 2023",
                 "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
+                    "abbreviation": "A",
+                    "name": "Agricultural and Life Sciences",
+                    "url": "http://www.cals.wisc.edu/"
                 },
                 "typically_offered": "Every Other Spring"
             },

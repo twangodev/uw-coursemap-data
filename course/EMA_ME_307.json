@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 307,
         "subjects": [
-            "ME",
-            "EMA"
+            "EMA",
+            "ME"
         ]
     },
     "course_title": "MECHANICS OF MATERIALS LAB",
@@ -29,61 +29,138 @@
     },
     "description": "Data processing, tension/compression tests, creep stress concentrations, fatigue, fracture, composite materials, combined stress, beam flexure, dynamic loads, buckling.",
     "optimized_prerequisites": {
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0306,E\u00a0M\u00a0A\u00a0303or concurrent enrollment) or member of Engineering Guest Students"
-    },
-    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 306,
                 "subjects": [
                     "ME"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
             },
+            ", ",
             {
                 "course_number": 303,
                 "subjects": [
                     "EMA"
                 ]
+            },
+            " or concurrent enrollment) or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "(M\u00a0E\u00a0306,E\u00a0M\u00a0A\u00a0303or concurrent enrollment) or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            " or concurrent enrollment) or member of Engineering Guest Students"
         ],
         "prerequisites_text": "(M\u00a0E\u00a0306,E\u00a0M\u00a0A\u00a0303or concurrent enrollment) or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 570,
+            "course_number": 708,
             "subjects": [
-                "ME",
-                "EMA"
-            ]
-        },
-        {
-            "course_number": 506,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
-            "course_number": 611,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
-            "course_number": 306,
-            "subjects": [
+                "EMA",
                 "ME"
             ]
         },
         {
             "course_number": 303,
+            "subjects": [
+                "EMA"
+            ]
+        },
+        {
+            "course_number": 508,
+            "subjects": [
+                "EMA",
+                "ME",
+                "CIVENGR"
+            ]
+        },
+        {
+            "course_number": 570,
+            "subjects": [
+                "EMA",
+                "ME"
+            ]
+        },
+        {
+            "course_number": 506,
             "subjects": [
                 "EMA"
             ]
@@ -103,10 +180,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SHIANG-JIUN LIN",
-                    "IAN M KINCAID",
+                    "YURI SHKEL",
                     "YIYAN PENG",
-                    "YURI SHKEL"
+                    "SHIANG-JIUN LIN",
+                    "IAN M KINCAID"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -131,9 +208,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SHIANG-JIUN LIN",
                     "YIYAN PENG",
-                    "Jacob Zeuske",
+                    "SHIANG-JIUN LIN",
+                    "JACOB ZEUSKE",
                     "KRISTIN LOUISE MARTINEZ"
                 ],
                 "no_credit": 0,
@@ -159,10 +236,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Jacob Zeuske",
-                    "KRISTIN LOUISE MARTINEZ",
-                    "YURI SHKEL",
                     "ROBERT ROWLANDS",
+                    "JACOB ZEUSKE",
+                    "YURI SHKEL",
+                    "KRISTIN LOUISE MARTINEZ",
                     "YIYAN PENG"
                 ],
                 "no_credit": 0,
@@ -188,10 +265,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Jacob Zeuske",
+                    "JACOB ZEUSKE",
                     "NAKUL JOGLEKAR",
-                    "JINGJING LIU",
                     "KRISTIN LOUISE MARTINEZ",
+                    "JINGJING LIU",
                     "AMEET AIYANGAR"
                 ],
                 "no_credit": 0,
@@ -217,11 +294,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "WAEL ABDEL SAMAD",
-                    "Jacob Zeuske",
+                    "JACOB ZEUSKE",
                     "NAKUL JOGLEKAR",
-                    "DEEPAK PATIL",
-                    "VAIBHAV DESHPANDE"
+                    "WAEL ABDEL SAMAD",
+                    "VAIBHAV DESHPANDE",
+                    "DEEPAK PATIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -246,12 +323,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "WAEL ABDEL SAMAD",
                     "NAKUL JOGLEKAR",
-                    "DEEPAK PATIL",
-                    "ABDUL AZIZ KHAJA",
+                    "WAEL ABDEL SAMAD",
                     "VAIBHAV DESHPANDE",
-                    "HYUN-JOON KIM"
+                    "HYUN-JOON KIM",
+                    "ABDUL AZIZ KHAJA",
+                    "DEEPAK PATIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -276,13 +353,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "JACOB ZEUSKE",
                     "WAEL ABDEL SAMAD",
-                    "Jacob Zeuske",
                     "PREETISH SINHA",
-                    "DEEPAK PATIL",
-                    "ABDUL AZIZ KHAJA",
                     "VAIBHAV DESHPANDE",
-                    "HYUN-JOON KIM"
+                    "HYUN-JOON KIM",
+                    "ABDUL AZIZ KHAJA",
+                    "DEEPAK PATIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -307,12 +384,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "JACOB ZEUSKE",
+                    "ABDUL AZIZ KHAJA",
                     "WAEL ABDEL SAMAD",
-                    "Jacob Zeuske",
-                    "PREETISH SINHA",
                     "ANIRUDH VIJAYKUMAR",
-                    "DEEPAK PATIL",
-                    "ABDUL AZIZ KHAJA"
+                    "PREETISH SINHA",
+                    "DEEPAK PATIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -337,13 +414,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "ROBERT ROWLANDS",
+                    "JACOB ZEUSKE",
                     "WAEL ABDEL SAMAD",
-                    "Jacob Zeuske",
                     "PREETISH SINHA",
                     "ANIRUDH VIJAYKUMAR",
-                    "ROBERT ROWLANDS",
-                    "DEEPAK PATIL",
-                    "ABDUL AZIZ KHAJA"
+                    "ABDUL AZIZ KHAJA",
+                    "DEEPAK PATIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -368,13 +445,13 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "ROBERT ROWLANDS",
+                    "JACOB ZEUSKE",
                     "WAEL ABDEL SAMAD",
-                    "Jacob Zeuske",
                     "PREETISH SINHA",
                     "ANIRUDH VIJAYKUMAR",
-                    "ROBERT ROWLANDS",
-                    "DEEPAK PATIL",
-                    "ABDUL AZIZ KHAJA"
+                    "ABDUL AZIZ KHAJA",
+                    "DEEPAK PATIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -399,12 +476,12 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "WAEL ABDEL SAMAD",
-                    "Jacob Zeuske",
-                    "CAITLYN COLLINS",
                     "ROBERT ROWLANDS",
-                    "ABDUL AZIZ KHAJA",
-                    "LUKE RUCKS"
+                    "JACOB ZEUSKE",
+                    "LUKE RUCKS",
+                    "CAITLYN COLLINS",
+                    "WAEL ABDEL SAMAD",
+                    "ABDUL AZIZ KHAJA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -429,13 +506,13 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "LUISA MEYER",
-                    "WAEL ABDEL SAMAD",
-                    "Jacob Zeuske",
-                    "CAITLYN COLLINS",
                     "ROBERT ROWLANDS",
-                    "DEEPAK PATIL",
-                    "SURYA NARAYANAN PANEER SELVAM"
+                    "JACOB ZEUSKE",
+                    "CAITLYN COLLINS",
+                    "WAEL ABDEL SAMAD",
+                    "SURYA NARAYANAN PANEER SELVAM",
+                    "LUISA MEYER",
+                    "DEEPAK PATIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -460,15 +537,15 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "LUISA MEYER",
-                    "WAEL ABDEL SAMAD",
-                    "Jacob Zeuske",
-                    "CAITLYN COLLINS",
                     "ROBERT ROWLANDS",
-                    "DEEPAK PATIL",
-                    "ERIC WEBER",
+                    "JACOB ZEUSKE",
+                    "HARSHADA DESHPANDE",
+                    "CAITLYN COLLINS",
+                    "WAEL ABDEL SAMAD",
                     "SURYA NARAYANAN PANEER SELVAM",
-                    "HARSHADA DESHPANDE"
+                    "ERIC WEBER",
+                    "LUISA MEYER",
+                    "DEEPAK PATIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -493,9 +570,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Jacob Zeuske",
-                    "DANIEL STULIGROSS",
                     "ROBERT ROWLANDS",
+                    "JACOB ZEUSKE",
+                    "DANIEL STULIGROSS",
                     "MATTHEW THIBAULT",
                     "DEEPAK PATIL"
                 ],
@@ -523,12 +600,12 @@
                 "incomplete": 0,
                 "instructors": [
                     "DANIEL STULIGROSS",
-                    "DEEPAK PATIL",
+                    "HARSHADA DESHPANDE",
+                    "TARIQ AHAMED",
+                    "NARIN SARA FATIMA",
                     "MATTHEW THIBAULT",
                     "ERIC WEBER",
-                    "TARIQ AHAMED",
-                    "HARSHADA DESHPANDE",
-                    "NARIN SARA FATIMA"
+                    "DEEPAK PATIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -553,14 +630,14 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DANIEL STULIGROSS",
                     "HOLLY SCHOENBERG",
                     "ROBERT ROWLANDS",
-                    "MATTHEW THIBAULT",
                     "BRETT LINDEMAN",
                     "SIBIN KURUNTHOTTIKKAL PHILIP",
+                    "DANIEL STULIGROSS",
                     "HARSHADA DESHPANDE",
-                    "NARIN SARA FATIMA"
+                    "NARIN SARA FATIMA",
+                    "MATTHEW THIBAULT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -586,11 +663,11 @@
                 "incomplete": 0,
                 "instructors": [
                     "LUNING FANG",
-                    "DANIEL STULIGROSS",
-                    "MATTHEW THIBAULT",
                     "BRETT LINDEMAN",
+                    "DANIEL STULIGROSS",
                     "SIBIN KURUNTHOTTIKKAL PHILIP",
-                    "NARIN SARA FATIMA"
+                    "NARIN SARA FATIMA",
+                    "MATTHEW THIBAULT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -615,11 +692,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "ZACHARY LENTZ",
                     "SHABNAM MOKASHI",
                     "BRETT LINDEMAN",
-                    "STEVEN BARTEL",
-                    "NARIN SARA FATIMA"
+                    "ZACHARY LENTZ",
+                    "NARIN SARA FATIMA",
+                    "STEVEN BARTEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -645,10 +722,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "BRETT LINDEMAN",
-                    "Rogelio Herrera",
                     "ANAND NAGESWARAN BHARATH",
+                    "JIANXING CHEN",
                     "NARIN SARA FATIMA",
-                    "JIANXING CHEN"
+                    "ROGELIO HERRERA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -674,11 +751,11 @@
                 "incomplete": 1,
                 "instructors": [
                     "LUNING FANG",
-                    "KYUSIC PARK",
                     "BRETT LINDEMAN",
-                    "Matthew Grondin",
-                    "KRISTOFER DRESSLER",
-                    "JIANXING CHEN"
+                    "MATTHEW GRONDIN",
+                    "KYUSIC PARK",
+                    "JIANXING CHEN",
+                    "KRISTOFER DRESSLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -703,13 +780,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KRISTOFER DRESSLER",
-                    "JIANXING CHEN",
-                    "KYUSIC PARK",
-                    "BRETT LINDEMAN",
-                    "Matthew Grondin",
                     "WEIXIN WANG",
-                    "NARIN SARA FATIMA"
+                    "BRETT LINDEMAN",
+                    "MATTHEW GRONDIN",
+                    "KYUSIC PARK",
+                    "JIANXING CHEN",
+                    "NARIN SARA FATIMA",
+                    "KRISTOFER DRESSLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -734,11 +811,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "WILLIAM SIXEL",
-                    "SAVITA SUBRAMANIAM",
                     "BRETT LINDEMAN",
+                    "WILLIAM SIXEL",
+                    "NARIN SARA FATIMA",
                     "KRISTOFER DRESSLER",
-                    "NARIN SARA FATIMA"
+                    "SAVITA SUBRAMANIAM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -763,11 +840,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "ADITYA NAGARAJ",
                     "BRETT LINDEMAN",
+                    "ADITYA NAGARAJ",
+                    "NARIN SARA FATIMA",
                     "KRISTOFER DRESSLER",
-                    "LING YANG",
-                    "NARIN SARA FATIMA"
+                    "LIJING YANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -792,11 +869,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JIALIANG TAO",
                     "BRETT LINDEMAN",
+                    "NARIN SARA FATIMA",
+                    "LIJING YANG",
                     "KRISTOFER DRESSLER",
-                    "LING YANG",
-                    "NARIN SARA FATIMA"
+                    "JIALIANG TAO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -825,7 +902,7 @@
                     "RAHUL GULATI",
                     "BRETT LINDEMAN",
                     "KRISTOFER DRESSLER",
-                    "LING YANG"
+                    "LIJING YANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -851,9 +928,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "RAHUL GULATI",
+                    "DEVIN WEST",
                     "KRISTOFER DRESSLER",
-                    "ZACHARY YOUNGBERG",
-                    "DEVIN WEST"
+                    "ZACHARY YOUNGBERG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -878,10 +955,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ZACHARY YOUNGBERG",
-                    "MICHAEL MASON",
                     "RAHUL GULATI",
+                    "MICHAEL MASON",
                     "KRISTOFER DRESSLER",
+                    "ZACHARY YOUNGBERG",
                     "DEVIN WEST"
                 ],
                 "no_credit": 0,
@@ -907,10 +984,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DEBABRATA AUDDYA",
                     "RAHUL GULATI",
-                    "EDWARD CHEN",
-                    "KRISTOFER DRESSLER"
+                    "KRISTOFER DRESSLER",
+                    "DEBABRATA AUDDYA",
+                    "EDWARD CHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -936,11 +1013,11 @@
                 "incomplete": 0,
                 "instructors": [
                     "DEAN CHEN",
-                    "Randy JACKSON",
-                    "EDWARD CHEN",
-                    "QI YAO",
+                    "CHRISTIAN THORPE",
                     "KRISTOFER DRESSLER",
-                    "CHRISTIAN THORPE"
+                    "Randy JACKSON",
+                    "QI YAO",
+                    "EDWARD CHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -965,10 +1042,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Randy JACKSON",
                     "QI YAO",
                     "EDWARD CHEN",
-                    "DEAN CHEN"
+                    "DEAN CHEN",
+                    "Randy JACKSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1018,10 +1095,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Oliyad Dibisa",
-                    "Randy JACKSON",
+                    "QI YAO",
+                    "OLIYAD DIBISA",
                     "EDWARD CHEN",
-                    "QI YAO"
+                    "Randy JACKSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1071,11 +1148,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Deept Sharma",
-                    "Jacob Zeuske",
+                    "JACOB ZEUSKE",
+                    "ZHUTONG LI",
+                    "DEEPT SHARMA",
                     "Randy JACKSON",
-                    "EDWARD CHEN",
-                    "ZHUTONG LI"
+                    "EDWARD CHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1101,11 +1178,11 @@
                 "incomplete": 0,
                 "instructors": [
                     null,
-                    "Deept Sharma",
-                    "Uraching Chowdhury",
-                    "Jacob Zeuske",
+                    "JACOB ZEUSKE",
+                    "ZHUTONG LI",
+                    "DEEPT SHARMA",
                     "Randy JACKSON",
-                    "ZHUTONG LI"
+                    "URACHING CHOWDHURY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1116,31 +1193,6 @@
                 "total": 242,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    1,
-                    1
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Deept Sharma": "DSHARMA54@WISC.EDU",
-                    "Ian Hoffman": "IPHOFFMAN@WISC.EDU",
-                    "Jacob Zeuske": "JRZEUSKE@WISC.EDU",
-                    "Randy JACKSON": "RSJACKSON3@WISC.EDU",
-                    "Uraching Chowdhury": "UCHOWDHURY@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
         },
         "1256": {
             "enrollment_data": {
@@ -1153,7 +1205,7 @@
                 "instructors": {
                     "Alastair Luna": "ABLUNA@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",
@@ -1174,7 +1226,7 @@
                 "instructors": {
                     "Randy JACKSON": "RSJACKSON3@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",

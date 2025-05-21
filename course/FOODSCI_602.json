@@ -28,6 +28,19 @@
     },
     "description": "Part one of senior capstone requirement. Working as teams, students conduct research around a problem pertinent to the food industry. Weekly discussions plus laboratory. Data collection and analysis and report writing are critical components of this course.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 412,
@@ -42,16 +55,59 @@
                 ]
             }
         ],
-        "prerequisites_text": "FOOD\u00a0SCI\u00a0412and432"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 412,
                 "subjects": [
                     "FOODSCI"
                 ]
             },
+            " and ",
+            {
+                "course_number": 432,
+                "subjects": [
+                    "FOODSCI"
+                ]
+            }
+        ],
+        "prerequisites_text": "FOOD\u00a0SCI\u00a0412and432"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 432,
+                "subjects": [
+                    "FOODSCI"
+                ]
+            },
+            {
+                "course_number": 412,
+                "subjects": [
+                    "FOODSCI"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 412,
+                "subjects": [
+                    "FOODSCI"
+                ]
+            },
+            " and ",
             {
                 "course_number": 432,
                 "subjects": [
@@ -63,9 +119,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 699,
+            "course_number": 692,
             "subjects": [
-                "FOODSCI"
+                "NUTRSCI"
+            ]
+        },
+        {
+            "course_number": 682,
+            "subjects": [
+                "NUTRSCI"
             ]
         },
         {
@@ -82,12 +144,6 @@
         },
         {
             "course_number": 682,
-            "subjects": [
-                "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 990,
             "subjects": [
                 "FOODSCI"
             ]
@@ -257,8 +313,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KIRK PARKIN",
-                    "BETH BUTTON"
+                    "BETH BUTTON",
+                    "KIRK PARKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -283,8 +339,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KIRK PARKIN",
-                    "BETH BUTTON"
+                    "BETH BUTTON",
+                    "KIRK PARKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -309,8 +365,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "KIRK PARKIN",
-                    "BETH BUTTON"
+                    "BETH BUTTON",
+                    "KIRK PARKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -387,8 +443,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SCOTT RANKIN",
-                    "BETH BUTTON"
+                    "BETH BUTTON",
+                    "SCOTT RANKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -439,8 +495,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SCOTT RANKIN",
-                    "BETH BUTTON"
+                    "BETH BUTTON",
+                    "SCOTT RANKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -485,7 +541,9 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
+                "instructors": {
+                    "RICHARD HARTEL": "RWHARTEL@WISC.EDU"
+                },
                 "last_taught_term": "Fall 2024",
                 "school": {
                     "abbreviation": "A",

@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 525,
         "subjects": [
-            "NE",
+            "PHYSICS",
             "ECE",
-            "PHYSICS"
+            "NE"
         ]
     },
     "course_title": "INTRODUCTION TO PLASMAS",
@@ -30,6 +30,26 @@
     },
     "description": "Basic description of plasmas: collective phenomena and sheaths, collisional processes, single particle motions, fluid models, equilibria, waves, electromagnetic properties, instabilities, and introduction to kinetic theory and nonlinear processes. Examples from fusion, astrophysical and materials processing processing plasmas.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 322,
@@ -44,63 +64,116 @@
                 ]
             }
         ],
-        "prerequisites_text": "(E\u00a0C\u00a0E\u00a0320orPHYSICS\u00a0322), graduate/professional standing, or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 320,
                 "subjects": [
                     "ECE"
                 ]
             },
+            " or ",
             {
                 "course_number": 322,
                 "subjects": [
                     "PHYSICS"
                 ]
+            },
+            "), graduate/professional standing, or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "(E\u00a0C\u00a0E\u00a0320orPHYSICS\u00a0322), graduate/professional standing, or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 322,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 320,
+                "subjects": [
+                    "ECE"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 322,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            "), graduate/professional standing, or member of Engineering Guest Students"
         ],
         "prerequisites_text": "(E\u00a0C\u00a0E\u00a0320orPHYSICS\u00a0322), graduate/professional standing, or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 527,
-            "subjects": [
-                "NE",
-                "ECE",
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 724,
-            "subjects": [
-                "NE",
-                "ECE",
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 528,
-            "subjects": [
-                "NE",
-                "ECE"
-            ]
-        },
-        {
             "course_number": 922,
             "subjects": [
-                "NE",
+                "PHYSICS",
                 "ECE",
-                "PHYSICS"
+                "NE"
+            ]
+        },
+        {
+            "course_number": 526,
+            "subjects": [
+                "NE"
+            ]
+        },
+        {
+            "course_number": 726,
+            "subjects": [
+                "PHYSICS",
+                "ECE",
+                "NE"
             ]
         },
         {
             "course_number": 725,
             "subjects": [
-                "NE",
+                "PHYSICS",
                 "ECE",
-                "PHYSICS"
+                "NE"
+            ]
+        },
+        {
+            "course_number": 724,
+            "subjects": [
+                "PHYSICS",
+                "ECE",
+                "NE"
             ]
         }
     ],
@@ -1005,27 +1078,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "JAN EGEDAL": "EGEDAL@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -1035,7 +1087,7 @@
                 "ethnics_studies": false,
                 "general_education": false,
                 "instructors": {},
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

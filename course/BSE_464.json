@@ -28,6 +28,41 @@
     },
     "description": "Introduction to heat and mass transfer fundamentals, including transport mechanisms of conduction, convection, radiation, diffusion and evaporation. Development of governing equations and boundary conditions with application to living systems, controlled environments, water systems, and food processing. Introduction to, and application of, finite-difference and finitevolume methods, including computational fluid dynamics (CFD).",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 320,
@@ -36,20 +71,99 @@
                 ]
             },
             {
+                "course_number": 363,
+                "subjects": [
+                    "ME"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or ",
+            {
                 "course_number": 310,
                 "subjects": [
                     "CBE"
                 ]
-            }
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0361orCBE\u00a0310) and (M\u00a0E\u00a0363,CBE\u00a0320, orCIV\u00a0ENGR\u00a0310)"
-    },
-    "prerequisites": {
-        "course_references": [
+            },
+            ") and (",
+            {
+                "course_number": 363,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            ", or ",
             {
                 "course_number": 310,
                 "subjects": [
                     "CIVENGR"
+                ]
+            },
+            ")"
+        ],
+        "prerequisites_text": "(M\u00a0E\u00a0361orCBE\u00a0310) and (M\u00a0E\u00a0363,CBE\u00a0320, orCIV\u00a0ENGR\u00a0310)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            {
+                "course_number": 320,
+                "subjects": [
+                    "CBE"
                 ]
             },
             {
@@ -59,43 +173,69 @@
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 310,
                 "subjects": [
                     "CBE"
                 ]
             },
+            {
+                "course_number": 310,
+                "subjects": [
+                    "CIVENGR"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 361,
                 "subjects": [
                     "ME"
                 ]
             },
+            " or ",
             {
                 "course_number": 310,
                 "subjects": [
                     "CBE"
                 ]
-            }
+            },
+            ") and (",
+            {
+                "course_number": 363,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "CIVENGR"
+                ]
+            },
+            ")"
         ],
         "prerequisites_text": "(M\u00a0E\u00a0361orCBE\u00a0310) and (M\u00a0E\u00a0363,CBE\u00a0320, orCIV\u00a0ENGR\u00a0310)"
     },
     "similar_courses": [
         {
-            "course_number": 326,
+            "course_number": 461,
             "subjects": [
-                "CBE"
+                "BSE"
             ]
         },
         {
-            "course_number": 364,
+            "course_number": 349,
             "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 564,
-            "subjects": [
-                "ME"
+                "BSE"
             ]
         },
         {
@@ -105,9 +245,15 @@
             ]
         },
         {
-            "course_number": 320,
+            "course_number": 564,
             "subjects": [
-                "CBE"
+                "ME"
+            ]
+        },
+        {
+            "course_number": 364,
+            "subjects": [
+                "ME"
             ]
         }
     ],
@@ -311,27 +457,6 @@
                 "total": 9,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "CHRISTOPHER CHOI": "CCHOI22@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

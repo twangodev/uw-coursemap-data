@@ -9,6 +9,31 @@
     "cumulative_grade_data": null,
     "description": "Accelerated development of Italian oral, reading and writing skills, equivalent to the completion of bothITALIAN\u00a0203andITALIAN\u00a0204.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "105."
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        "Not open to students with credit for",
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 102,
@@ -17,16 +42,71 @@
                 ]
             }
         ],
-        "prerequisites_text": "ITALIAN\u00a0102or 105. Not open to students with credit forITALIAN\u00a0204"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 102,
                 "subjects": [
                     "ITALIAN"
                 ]
             },
+            " or 105. Not open to students with credit for ",
+            {
+                "course_number": 204,
+                "subjects": [
+                    "ITALIAN"
+                ]
+            }
+        ],
+        "prerequisites_text": "ITALIAN\u00a0102or 105. Not open to students with credit forITALIAN\u00a0204"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "105."
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        "Not open to students with credit for",
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 204,
+                "subjects": [
+                    "ITALIAN"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ITALIAN"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ITALIAN"
+                ]
+            },
+            " or 105. Not open to students with credit for ",
             {
                 "course_number": 204,
                 "subjects": [
@@ -38,25 +118,25 @@
     },
     "similar_courses": [
         {
+            "course_number": 102,
+            "subjects": [
+                "ITALIAN"
+            ]
+        },
+        {
             "course_number": 201,
             "subjects": [
                 "ITALIAN"
             ]
         },
         {
-            "course_number": 105,
-            "subjects": [
-                "FRENCH"
-            ]
-        },
-        {
-            "course_number": 311,
+            "course_number": 101,
             "subjects": [
                 "ITALIAN"
             ]
         },
         {
-            "course_number": 102,
+            "course_number": 204,
             "subjects": [
                 "ITALIAN"
             ]
@@ -78,7 +158,7 @@
                 "ethnics_studies": false,
                 "general_education": false,
                 "instructors": {},
-                "last_taught_term": "Fall 2019",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

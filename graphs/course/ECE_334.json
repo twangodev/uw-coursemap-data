@@ -1,40 +1,10 @@
 [
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "description": "Time-domain response and convolution; frequency-domain response using Fourier series, Fourier transform, Laplace transform; discrete Fourier series and transform; sampling; z-transform; relationships between time and frequency descriptions of discrete and continuous signals and systems.",
-            "id": "ECE 330",
-            "parent": "ECE",
-            "title": "SIGNALS AND SYSTEMS"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 330",
-            "target": "ECE 334"
-        }
-    },
-    {
-        "data": {
-            "id": "MATH",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "ECE 203"
+            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
+            "id": "MATH 320",
+            "parent": "MATH",
+            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
         }
     },
     {
@@ -47,38 +17,10 @@
     },
     {
         "data": {
-            "id": "ECE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 203",
-            "target": "ECE 330"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to the signals, information, and computational techniques in electrical engineering.",
-            "id": "ECE 203",
-            "parent": "ECE",
-            "title": "SIGNALS, INFORMATION, AND COMPUTATION"
-        }
-    },
-    {
-        "data": {
             "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
             "id": "MATH 211",
             "parent": "MATH",
             "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
         }
     },
     {
@@ -91,14 +33,72 @@
     },
     {
         "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "id": "ECE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 211",
             "target": "MATH 213"
         }
     },
     {
         "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 213",
             "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 320",
+            "target": "ECE 334"
         }
     }
 ]

@@ -28,6 +28,45 @@
     },
     "description": "Biochemical and physiological basis of the nutritional requirements of humans.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 151,
@@ -45,10 +84,103 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 103,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 115,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ")"
+        ],
         "prerequisites_text": "(CHEM\u00a0103,109, or115) and (ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101, orBIOCORE\u00a0381)"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
+            {
+                "course_number": 103,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
             {
                 "course_number": 151,
                 "subjects": [
@@ -64,9 +196,9 @@
                 ]
             },
             {
-                "course_number": 109,
+                "course_number": 381,
                 "subjects": [
-                    "CHEM"
+                    "BIOCORE"
                 ]
             },
             {
@@ -77,33 +209,63 @@
                 ]
             },
             {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
                 "course_number": 103,
                 "subjects": [
                     "CHEM"
                 ]
             },
+            ", ",
+            {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 115,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or ",
             {
                 "course_number": 381,
                 "subjects": [
                     "BIOCORE"
                 ]
-            }
+            },
+            ")"
         ],
         "prerequisites_text": "(CHEM\u00a0103,109, or115) and (ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101, orBIOCORE\u00a0381)"
     },
     "similar_courses": [
-        {
-            "course_number": 132,
-            "subjects": [
-                "NUTRSCI"
-            ]
-        },
-        {
-            "course_number": 720,
-            "subjects": [
-                "NUTRSCI"
-            ]
-        },
         {
             "course_number": 715,
             "subjects": [
@@ -111,16 +273,28 @@
             ]
         },
         {
-            "course_number": 431,
+            "course_number": 510,
+            "subjects": [
+                "BIOCHEM",
+                "NUTRSCI"
+            ]
+        },
+        {
+            "course_number": 710,
             "subjects": [
                 "NUTRSCI"
             ]
         },
         {
-            "course_number": 510,
+            "course_number": 881,
             "subjects": [
-                "NUTRSCI",
-                "BIOCHEM"
+                "NUTRSCI"
+            ]
+        },
+        {
+            "course_number": 132,
+            "subjects": [
+                "NUTRSCI"
             ]
         }
     ],
@@ -138,8 +312,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -164,8 +338,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -190,8 +364,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -216,8 +390,8 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -242,8 +416,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -268,9 +442,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
                     "Eric YEN",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -295,9 +469,9 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
                     "Eric YEN",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -322,9 +496,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
                     "Eric YEN",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -399,9 +573,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
                     "Eric YEN",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -426,9 +600,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
                     "Eric YEN",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -453,9 +627,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
                     "Eric YEN",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -480,9 +654,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DALE SCHOELLER",
                     "Eric YEN",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "DALE SCHOELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1000,9 +1174,9 @@
                 "f": 1,
                 "incomplete": 3,
                 "instructors": [
-                    "Tim Rhoads",
                     "Eric YEN",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "Tim Rhoads"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1027,9 +1201,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Tim Rhoads",
                     "Eric YEN",
-                    "ROBERT HATCH"
+                    "ROBERT HATCH",
+                    "Tim Rhoads"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1054,8 +1228,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "ANSHIT SINGH",
                     "Eric YEN",
+                    "ANSHIT SINGH",
                     "Tim Rhoads"
                 ],
                 "no_credit": 0,
@@ -1068,28 +1242,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Eric YEN": "ERIC.YEN@WISC.EDU",
-                    "Tim Rhoads": "TIMOTHY.RHOADS@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1256": {
             "enrollment_data": {
                 "credit_count": [
@@ -1101,7 +1253,7 @@
                 "instructors": {
                     "Stavroula ANTONOPOULOS": "SANTONOPOULO@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "A",
                     "name": "Agricultural and Life Sciences",
@@ -1123,7 +1275,7 @@
                     "Eric YEN": "ERIC.YEN@WISC.EDU",
                     "Tim Rhoads": "TIMOTHY.RHOADS@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "A",
                     "name": "Agricultural and Life Sciences",

@@ -28,23 +28,78 @@
     },
     "description": "The President as chief administrative leader, political leader, foreign policy initiator, commander-in-chief, and head of state.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                "Sophomore standing",
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
-                "course_number": 184,
+                "course_number": 104,
                 "subjects": [
                     "POLISCI"
                 ]
             },
             {
-                "course_number": 104,
+                "course_number": 184,
                 "subjects": [
                     "POLISCI"
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 104,
+                "subjects": [
+                    "POLISCI"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 184,
+                "subjects": [
+                    "POLISCI"
+                ]
+            },
+            ")"
+        ],
         "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0104or184)"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                "Sophomore standing",
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 104,
@@ -58,38 +113,55 @@
                     "POLISCI"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 104,
+                "subjects": [
+                    "POLISCI"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 184,
+                "subjects": [
+                    "POLISCI"
+                ]
+            },
+            ")"
         ],
         "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0104or184)"
     },
     "similar_courses": [
         {
-            "course_number": 184,
-            "subjects": [
-                "POLISCI"
-            ]
-        },
-        {
-            "course_number": 904,
-            "subjects": [
-                "POLISCI"
-            ]
-        },
-        {
             "course_number": 878,
             "subjects": [
-                "POLISCI",
+                "PUBAFFR",
                 "URBRPL",
-                "PUBAFFR"
+                "POLISCI"
             ]
         },
         {
-            "course_number": 359,
+            "course_number": 104,
             "subjects": [
                 "POLISCI"
             ]
         },
         {
             "course_number": 828,
+            "subjects": [
+                "POLISCI"
+            ]
+        },
+        {
+            "course_number": 411,
+            "subjects": [
+                "POLISCI"
+            ]
+        },
+        {
+            "course_number": 184,
             "subjects": [
                 "POLISCI"
             ]
@@ -622,29 +694,6 @@
                 "total": 83,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Clinton Rooker": "JCROOKER@WISC.EDU",
-                    "DAVID Parker": "DPARKER23@WISC.EDU",
-                    "Victoria Stewart": "VBSTEWART@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
         }
     }
 }

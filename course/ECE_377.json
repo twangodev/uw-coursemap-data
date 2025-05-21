@@ -28,6 +28,51 @@
     },
     "description": "Fundamentals of electromagnetic induction and application to transformers and induction heating; Lorentz forces with a focus on the operation and control of DC and AC motors and linear actuators; electrical power conversion using power electronics for motor drives and direct power converters.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 376,
@@ -36,24 +81,108 @@
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
             }
         ],
-        "prerequisites_text": "(MATH\u00a0234or376), (PHYSICS\u00a0202,208, or248), andE\u00a0C\u00a0E\u00a0376, or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            "), (",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            "), and ",
             {
                 "course_number": 376,
                 "subjects": [
                     "ECE"
                 ]
             },
+            ", or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "(MATH\u00a0234or376), (PHYSICS\u00a0202,208, or248), andE\u00a0C\u00a0E\u00a0376, or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
-                "course_number": 248,
+                "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -62,6 +191,12 @@
                 "course_number": 376,
                 "subjects": [
                     "MATH"
+                ]
+            },
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
                 ]
             },
             {
@@ -77,23 +212,62 @@
                 ]
             },
             {
+                "course_number": 376,
+                "subjects": [
+                    "ECE"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            "), (",
+            {
                 "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
-            }
+            },
+            ", ",
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            "), and ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            ", or member of Engineering Guest Students"
         ],
         "prerequisites_text": "(MATH\u00a0234or376), (PHYSICS\u00a0202,208, or248), andE\u00a0C\u00a0E\u00a0376, or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 412,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 411,
+            "course_number": 712,
             "subjects": [
                 "ECE"
             ]
@@ -105,13 +279,19 @@
             ]
         },
         {
-            "course_number": 355,
+            "course_number": 711,
             "subjects": [
                 "ECE"
             ]
         },
         {
-            "course_number": 714,
+            "course_number": 411,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 355,
             "subjects": [
                 "ECE"
             ]
@@ -825,27 +1005,6 @@
                 "total": 8,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "PATRICK Flannery": "PSFLANNERY@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
         }
     }
 }

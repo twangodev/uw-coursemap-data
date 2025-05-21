@@ -1,38 +1,10 @@
 [
     {
         "data": {
-            "description": "Sources, reactions, transport, effects, and fates of chemical species in soils and associated water and air environments. Emphasis on the chemical behavior of elements and compounds and the phenomena affecting natural and anthropogenic materials in soils.",
-            "id": "SOILSCI 621",
-            "parent": "SOILSCI",
-            "title": "SOIL AND ENVIRONMENTAL CHEMISTRY"
-        }
-    },
-    {
-        "data": {
             "description": "Accelerated coverage of topics in general chemistry, including introduction to laboratory techniques. Topics include atomic and molecular structure, chemical equilibrium, acid-base chemistry, thermodynamics, kinetics, and electrochemistry.",
             "id": "CHEM 109",
             "parent": "CHEM",
             "title": "ADVANCED GENERAL CHEMISTRY"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 104",
-            "target": "SOILSCI 621"
-        }
-    },
-    {
-        "data": {
-            "description": "A quantitative treatment of macroscopic phenomena including thermodynamics, chemical equilibria, solution behavior, electrochemistry, and chemical kinetics.",
-            "id": "CHEM 116",
-            "parent": "CHEM",
-            "title": "CHEMICAL PRINCIPLES II"
-        }
-    },
-    {
-        "data": {
-            "id": "SOILSCI",
-            "type": "compound"
         }
     },
     {
@@ -45,22 +17,10 @@
     },
     {
         "data": {
-            "source": "CHEM 115",
-            "target": "CHEM 103"
-        }
-    },
-    {
-        "data": {
-            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
-            "id": "CHEM 115",
-            "parent": "CHEM",
-            "title": "CHEMICAL PRINCIPLES I"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 116",
-            "target": "SOILSCI 621"
+            "description": "Sources, reactions, transport, effects, and fates of chemical species in soils and associated water and air environments. Emphasis on the chemical behavior of elements and compounds and the phenomena affecting natural and anthropogenic materials in soils.",
+            "id": "SOILSCI 621",
+            "parent": "SOILSCI",
+            "title": "SOIL AND ENVIRONMENTAL CHEMISTRY"
         }
     },
     {
@@ -73,8 +33,20 @@
     },
     {
         "data": {
-            "source": "CHEM 115",
-            "target": "CHEM 116"
+            "id": "CHEM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "SOILSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 103",
+            "target": "CHEM 104"
         }
     },
     {
@@ -85,20 +57,26 @@
     },
     {
         "data": {
+            "source": "CHEM 104",
+            "target": "SOILSCI 621"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
             "source": "CHEM 109",
             "target": "CHEM 104"
         }
     },
     {
         "data": {
-            "id": "CHEM",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 103",
-            "target": "CHEM 104"
+            "source": "CHEM 109",
+            "target": "SOILSCI 621"
         }
     }
 ]

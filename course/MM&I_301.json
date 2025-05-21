@@ -28,46 +28,42 @@
     },
     "description": "Medically important bacteria, emphasizing the process of pathogenesis and host/parasite interactions, as well as intervention strategies, immunity and genetics as they apply to the pathogens.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            }
-        ],
-        "prerequisites_text": "(BIOCORE\u00a0381and382), (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
             {
                 "course_number": 152,
                 "subjects": [
@@ -89,6 +85,162 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            "), (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), or ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "prerequisites_text": "(BIOCORE\u00a0381and382), (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            "), (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), or ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
         "prerequisites_text": "(BIOCORE\u00a0381and382), (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152"
     },
     "similar_courses": [
@@ -99,19 +251,19 @@
             ]
         },
         {
-            "course_number": 916,
-            "subjects": [
-                "PATH"
-            ]
-        },
-        {
-            "course_number": 517,
-            "subjects": [
-                "PATH-BIO"
-            ]
-        },
-        {
             "course_number": 341,
+            "subjects": [
+                "MM&I"
+            ]
+        },
+        {
+            "course_number": 677,
+            "subjects": [
+                "MM&I"
+            ]
+        },
+        {
+            "course_number": 554,
             "subjects": [
                 "MM&I"
             ]
@@ -548,25 +700,6 @@
                 "total": 45,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    2,
-                    2
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2022",
-                "school": {
-                    "abbreviation": "M",
-                    "name": "Medicine and Public Health",
-                    "url": "http://www.med.wisc.edu/"
-                },
-                "typically_offered": "Fall"
-            },
-            "grade_data": null
         }
     }
 }

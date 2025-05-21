@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 361,
         "subjects": [
-            "ANSCI",
-            "DYSCI"
+            "DYSCI",
+            "ANSCI"
         ]
     },
     "course_title": "INTRODUCTION TO ANIMAL AND VETERINARY GENETICS",
@@ -29,15 +29,47 @@
     },
     "description": "The molecular basis for inheritance of monogenic and polygenic traits related to animal disease and production. An introduction to the principles of improving animal health and performance by selection and mating systems in companion animals, horses, livestock, and poultry.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BOTANY",
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
             {
                 "course_number": 101,
                 "subjects": [
@@ -48,6 +80,14 @@
             {
                 "course_number": 102,
                 "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
@@ -59,10 +99,24 @@
                 ]
             }
         ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), or (BIOCORE\u00a0382,383, and384) or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
             {
                 "course_number": 102,
                 "subjects": [
@@ -70,6 +124,73 @@
                     "BIOLOGY"
                 ]
             },
+            "), or (",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", and ",
+            {
+                "course_number": 384,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ") or graduate/professional standing"
+        ],
+        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), or (BIOCORE\u00a0382,383, and384) or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 151,
                 "subjects": [
@@ -79,14 +200,7 @@
                 ]
             },
             {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
-            {
-                "course_number": 383,
+                "course_number": 382,
                 "subjects": [
                     "BIOCORE"
                 ]
@@ -98,11 +212,73 @@
                 ]
             },
             {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), or (",
+            {
                 "course_number": 382,
                 "subjects": [
                     "BIOCORE"
                 ]
-            }
+            },
+            ", ",
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", and ",
+            {
+                "course_number": 384,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ") or graduate/professional standing"
         ],
         "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), or (BIOCORE\u00a0382,383, and384) or graduate/professional standing"
     },
@@ -111,8 +287,15 @@
             "course_number": 951,
             "subjects": [
                 "ANSCI",
-                "DYSCI",
-                "GENETICS"
+                "GENETICS",
+                "DYSCI"
+            ]
+        },
+        {
+            "course_number": 362,
+            "subjects": [
+                "ANSCI",
+                "DYSCI"
             ]
         },
         {
@@ -130,17 +313,9 @@
             ]
         },
         {
-            "course_number": 362,
+            "course_number": 627,
             "subjects": [
-                "ANSCI",
-                "DYSCI"
-            ]
-        },
-        {
-            "course_number": 320,
-            "subjects": [
-                "ANSCI",
-                "DYSCI"
+                "GENETICS"
             ]
         }
     ],
@@ -158,10 +333,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -186,10 +361,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -214,10 +389,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -242,10 +417,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -270,10 +445,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -298,10 +473,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -326,10 +501,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -354,10 +529,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -382,10 +557,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -410,10 +585,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "DAVID THOMAS",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK",
+                    "DAVID THOMAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -438,9 +613,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -465,9 +640,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -492,9 +667,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -519,9 +694,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
                     "GUILHERME ROSA",
-                    "HASAN KHATIB"
+                    "HASAN KHATIB",
+                    "BRIAN KIRKPATRICK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -546,8 +721,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
-                    "GUILHERME ROSA"
+                    "GUILHERME ROSA",
+                    "BRIAN KIRKPATRICK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -572,8 +747,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
-                    "GUILHERME ROSA"
+                    "GUILHERME ROSA",
+                    "BRIAN KIRKPATRICK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -598,8 +773,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN KIRKPATRICK",
-                    "GUILHERME ROSA"
+                    "GUILHERME ROSA",
+                    "BRIAN KIRKPATRICK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -610,28 +785,6 @@
                 "total": 61,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    2,
-                    2
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "BRIAN KIRKPATRICK": "BWKIRKPA@WISC.EDU",
-                    "GUILHERME ROSA": "GROSA@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

@@ -28,6 +28,30 @@
     },
     "description": "Continuation ofPHYSICS\u00a0247. Electromagnetism, circuits, optics, additional topics in modern physics; with computation.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment",
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 247,
@@ -42,16 +66,57 @@
                 ]
             }
         ],
-        "prerequisites_text": "PHYSICS\u00a0247and (MATH\u00a0234or concurrent enrollment orMATH\u00a0376or concurrent enrollment)"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or concurrent enrollment or ",
             {
                 "course_number": 376,
                 "subjects": [
                     "MATH"
                 ]
             },
+            " or concurrent enrollment)"
+        ],
+        "prerequisites_text": "PHYSICS\u00a0247and (MATH\u00a0234or concurrent enrollment orMATH\u00a0376or concurrent enrollment)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment",
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
             {
                 "course_number": 234,
                 "subjects": [
@@ -63,19 +128,42 @@
                 "subjects": [
                     "PHYSICS"
                 ]
+            },
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or concurrent enrollment or ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or concurrent enrollment)"
         ],
         "prerequisites_text": "PHYSICS\u00a0247and (MATH\u00a0234or concurrent enrollment orMATH\u00a0376or concurrent enrollment)"
     },
     "similar_courses": [
         {
-            "course_number": 208,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 247,
+            "course_number": 322,
             "subjects": [
                 "PHYSICS"
             ]
@@ -87,13 +175,19 @@
             ]
         },
         {
-            "course_number": 104,
+            "course_number": 247,
             "subjects": [
                 "PHYSICS"
             ]
         },
         {
             "course_number": 241,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 104,
             "subjects": [
                 "PHYSICS"
             ]
@@ -140,8 +234,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "LYNN DOUGLAS KNUTSON",
-                    "Cary FOREST",
-                    "LAWRENCE WATSON"
+                    "LAWRENCE WATSON",
+                    "Cary FOREST"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -166,8 +260,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Lisa EVERETT",
-                    "TERESA MONTARULI"
+                    "TERESA MONTARULI",
+                    "Lisa EVERETT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -218,8 +312,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRUCE MELLADO",
-                    "Duncan CARLSMITH"
+                    "Duncan CARLSMITH",
+                    "BRUCE MELLADO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -244,8 +338,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHAEL WINOKUR",
-                    "Duncan CARLSMITH"
+                    "Duncan CARLSMITH",
+                    "MICHAEL WINOKUR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -321,8 +415,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Cary FOREST",
-                    "Matthew HERNDON"
+                    "Matthew HERNDON",
+                    "Cary FOREST"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -398,8 +492,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Duncan CARLSMITH",
-                    "Brian REBEL"
+                    "Brian REBEL",
+                    "Duncan CARLSMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -563,30 +657,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    5,
-                    5
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "A. BALANTEKIN": "BAHA@PHYSICS.WISC.EDU",
-                    "Robin Chisholm": "RSCHISHOLM@WISC.EDU",
-                    "Yibin Pan": "YIBINPAN@WISC.EDU",
-                    "Zibo Shen": "ZSHEN284@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -598,7 +668,7 @@
                 "instructors": {
                     "Yibin Pan": "YIBINPAN@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

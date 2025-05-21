@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 558,
         "subjects": [
-            "ME",
+            "ISYE",
             "COMPSCI",
-            "ISYE"
+            "ME"
         ]
     },
     "course_title": "INTRODUCTION TO COMPUTATIONAL GEOMETRY",
@@ -30,6 +30,31 @@
     },
     "description": "Introduction to fundamental geometric computations and algorithms, and their use for solving engineering and scientific problems. Computer representations of simple geometric objects and paradigms for algorithm design. Applications from areas of engineering analysis, design and manufacturing, biology, statistics, and other sciences.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                "COMP SCI 367",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 400,
@@ -44,9 +69,51 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(COMP SCI 367 or ",
+            {
+                "course_number": 400,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ") and ",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or graduate/professional standing"
+        ],
         "prerequisites_text": "(COMP SCI 367 or400) andMATH\u00a0234or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                "COMP SCI 367",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 234,
@@ -60,27 +127,39 @@
                     "COMPSCI"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "(COMP SCI 367 or ",
+            {
+                "course_number": 400,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ") and ",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or graduate/professional standing"
         ],
         "prerequisites_text": "(COMP SCI 367 or400) andMATH\u00a0234or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 291,
-            "subjects": [
-                "GLE",
-                "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 310,
+            "course_number": 559,
             "subjects": [
                 "COMPSCI"
             ]
         },
         {
-            "course_number": 535,
+            "course_number": 524,
             "subjects": [
-                "ME"
+                "ISYE",
+                "COMPSCI",
+                "ECE"
             ]
         },
         {
@@ -90,7 +169,13 @@
             ]
         },
         {
-            "course_number": 331,
+            "course_number": 535,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 758,
             "subjects": [
                 "ME"
             ]
@@ -297,25 +382,6 @@
                 "total": 17,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Spring 2018",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

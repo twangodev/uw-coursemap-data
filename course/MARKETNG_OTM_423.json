@@ -29,6 +29,31 @@
     },
     "description": "Procurement and supply management is the business function concerned with an organization's acquisition of required materials, services, and equipment. Explores the key aspects of modern supply management including the purchasing process, cost management, negotiation, sourcing strategies, supplier management, category management, acquisition methods for materials and services, and outsourcing.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "declared in undergraduate Business Exchange program"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 300,
@@ -43,35 +68,87 @@
                 ]
             }
         ],
-        "prerequisites_text": "Sophomore standing and (MARKETNG\u00a0300orOTM\u00a0300) or declared in undergraduate Business Exchange program"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "MARKETNG"
+                ]
+            },
+            " or ",
             {
                 "course_number": 300,
                 "subjects": [
                     "OTM"
                 ]
             },
+            ") or declared in undergraduate Business Exchange program"
+        ],
+        "prerequisites_text": "Sophomore standing and (MARKETNG\u00a0300orOTM\u00a0300) or declared in undergraduate Business Exchange program"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Sophomore standing",
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "declared in undergraduate Business Exchange program"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 300,
                 "subjects": [
                     "MARKETNG"
                 ]
+            },
+            {
+                "course_number": 300,
+                "subjects": [
+                    "OTM"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "Sophomore standing and (",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "MARKETNG"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "OTM"
+                ]
+            },
+            ") or declared in undergraduate Business Exchange program"
         ],
         "prerequisites_text": "Sophomore standing and (MARKETNG\u00a0300orOTM\u00a0300) or declared in undergraduate Business Exchange program"
     },
     "similar_courses": [
         {
             "course_number": 421,
-            "subjects": [
-                "MARKETNG",
-                "OTM"
-            ]
-        },
-        {
-            "course_number": 724,
             "subjects": [
                 "MARKETNG",
                 "OTM"
@@ -85,7 +162,7 @@
             ]
         },
         {
-            "course_number": 429,
+            "course_number": 724,
             "subjects": [
                 "MARKETNG",
                 "OTM"
@@ -93,6 +170,13 @@
         },
         {
             "course_number": 726,
+            "subjects": [
+                "MARKETNG",
+                "OTM"
+            ]
+        },
+        {
+            "course_number": 722,
             "subjects": [
                 "MARKETNG",
                 "OTM"
@@ -690,8 +774,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TIMOTHY BUHL",
-                    "JANE SCOTT"
+                    "JANE SCOTT",
+                    "TIMOTHY BUHL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -741,8 +825,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PAIGE VAN WART",
-                    "TIMOTHY BUHL"
+                    "TIMOTHY BUHL",
+                    "PAIGE VAN WART"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -792,8 +876,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "HANNAH MEYER",
-                    "TIMOTHY BUHL"
+                    "TIMOTHY BUHL",
+                    "HANNAH MEYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -804,27 +888,6 @@
                 "total": 24,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Tim BUHL": "TIMOTHY.BUHL@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "B",
-                    "name": "Business",
-                    "url": "http://www.bus.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         },
         "1262": {
             "enrollment_data": {
@@ -837,13 +900,13 @@
                 "instructors": {
                     "XIAOYANG LONG": "XIAOYANG.LONG@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "B",
                     "name": "Business",
                     "url": "http://www.bus.wisc.edu/"
                 },
-                "typically_offered": "Spring"
+                "typically_offered": "Not Applicable"
             },
             "grade_data": null
         }

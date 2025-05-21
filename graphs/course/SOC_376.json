@@ -1,101 +1,10 @@
 [
     {
         "data": {
-            "id": "SOC",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "SOC 376"
-        }
-    },
-    {
-        "data": {
-            "source": "C&ESOC/SOC 360",
-            "target": "SOC 375"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
-        }
-    },
-    {
-        "data": {
-            "description": "Explores mathematical models of social structure, focusing especially on social network analysis and related methods. Makes extensive use of matrix algebra and mathematical software.",
-            "id": "SOC 375",
-            "parent": "SOC",
-            "title": "INTRODUCTION TO MATHEMATICAL SOCIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Presentation of sociological data; descriptive statistics; probability theory and statistical inference; estimation and tests of hypotheses; regression and correlation and the analysis of contingency tables.",
-            "id": "C&ESOC/SOC 360",
-            "title": "STATISTICS FOR SOCIOLOGISTS I"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 320",
-            "target": "SOC 376"
-        }
-    },
-    {
-        "data": {
-            "source": "SOC 375",
-            "target": "SOC 376"
-        }
-    },
-    {
-        "data": {
-            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
-            "id": "MATH 222",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
             "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
             "id": "MATH 320",
             "parent": "MATH",
             "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "MATH 320"
         }
     },
     {
@@ -116,8 +25,41 @@
     },
     {
         "data": {
-            "source": "MATH 213",
-            "target": "MATH 221"
+            "description": "Explores mathematical models of social structure, focusing especially on social network analysis and related methods. Makes extensive use of matrix algebra and mathematical software.",
+            "id": "SOC 375",
+            "parent": "SOC",
+            "title": "INTRODUCTION TO MATHEMATICAL SOCIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Presentation of sociological data; descriptive statistics; probability theory and statistical inference; estimation and tests of hypotheses; regression and correlation and the analysis of contingency tables.",
+            "id": "C&ESOC/SOC 360",
+            "title": "STATISTICS FOR SOCIOLOGISTS I"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
         }
     },
     {
@@ -130,8 +72,44 @@
     },
     {
         "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "MATH",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "SOC",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "C&ESOC/SOC 360",
+            "target": "SOC 375"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "MATH 221"
         }
     },
     {
@@ -142,10 +120,32 @@
     },
     {
         "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 320",
+            "target": "SOC 376"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 375",
+            "target": "SOC 376"
+        }
+    },
+    {
+        "data": {
+            "source": "SOC 375",
+            "target": "SOC 376"
         }
     }
 ]

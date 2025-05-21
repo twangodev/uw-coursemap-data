@@ -1,9 +1,10 @@
 [
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
+            "description": "Covers anatomy/morphology, taxonomy, and bionomics of immature insects (ordinal and familial levels). Identification of insects (order and family) using taxonomic keys.",
+            "id": "ENTOM 432",
+            "parent": "ENTOM",
+            "title": "TAXONOMY AND BIONOMICS OF IMMATURE INSECTS"
         }
     },
     {
@@ -15,41 +16,16 @@
     },
     {
         "data": {
-            "source": "ENTOM/ZOOLOGY 302",
-            "target": "ENTOM 432"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "ENTOM/ZOOLOGY 302"
-        }
-    },
-    {
-        "data": {
-            "id": "ENTOM",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Covers anatomy/morphology, taxonomy, and bionomics of immature insects (ordinal and familial levels). Identification of insects (order and family) using taxonomic keys.",
-            "id": "ENTOM 432",
-            "parent": "ENTOM",
-            "title": "TAXONOMY AND BIONOMICS OF IMMATURE INSECTS"
-        }
-    },
-    {
-        "data": {
             "description": "Principles including morphology and classification.",
             "id": "ENTOM/ZOOLOGY 302",
             "title": "INTRODUCTION TO ENTOMOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
         }
     },
     {
@@ -60,8 +36,32 @@
     },
     {
         "data": {
+            "id": "ENTOM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/ZOOLOGY 101"
+        }
+    },
+    {
+        "data": {
             "source": "BIOLOGY/ZOOLOGY 101",
             "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "ENTOM/ZOOLOGY 302"
+        }
+    },
+    {
+        "data": {
+            "source": "ENTOM/ZOOLOGY 302",
+            "target": "ENTOM 432"
         }
     }
 ]

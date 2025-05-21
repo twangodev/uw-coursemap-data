@@ -28,6 +28,28 @@
     },
     "description": "Application of quantitative techniques to the determination of composition and quality of food products.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 410,
@@ -42,9 +64,54 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 371,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            ") and ",
+            {
+                "course_number": 410,
+                "subjects": [
+                    "FOODSCI"
+                ]
+            }
+        ],
         "prerequisites_text": "(STAT\u00a0301or371) andFOOD\u00a0SCI\u00a0410"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 301,
@@ -53,11 +120,34 @@
                 ]
             },
             {
+                "course_number": 410,
+                "subjects": [
+                    "FOODSCI"
+                ]
+            },
+            {
+                "course_number": 371,
+                "subjects": [
+                    "STAT"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            " or ",
+            {
                 "course_number": 371,
                 "subjects": [
                     "STAT"
                 ]
             },
+            ") and ",
             {
                 "course_number": 410,
                 "subjects": [
@@ -69,21 +159,8 @@
     },
     "similar_courses": [
         {
-            "course_number": 514,
+            "course_number": 330,
             "subjects": [
-                "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 301,
-            "subjects": [
-                "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 711,
-            "subjects": [
-                "ANSCI",
                 "FOODSCI"
             ]
         },
@@ -94,7 +171,19 @@
             ]
         },
         {
-            "course_number": 440,
+            "course_number": 375,
+            "subjects": [
+                "FOODSCI"
+            ]
+        },
+        {
+            "course_number": 514,
+            "subjects": [
+                "FOODSCI"
+            ]
+        },
+        {
+            "course_number": 301,
             "subjects": [
                 "FOODSCI"
             ]
@@ -425,27 +514,6 @@
                 "total": 12,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    4,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "ARNOLDO LOPEZ-HERNANDEZ": "ALOPEZHERNAN@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Fall"
-            },
-            "grade_data": null
         }
     }
 }

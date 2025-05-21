@@ -1,50 +1,10 @@
 [
     {
         "data": {
-            "description": "Measurement and reporting guidelines underlying preparation of general purpose financial statements. Explore current measurement and reporting issues. Analyze and interpret financial statement data for investment, lending, and related decisions.",
-            "id": "ACCTIS 700",
-            "parent": "ACCTIS",
-            "title": "FINANCIAL ACCOUNTING"
-        }
-    },
-    {
-        "data": {
-            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
-            "id": "ACCTIS 100",
-            "parent": "ACCTIS",
-            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 700",
-            "target": "ACCTIS 640"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 300",
-            "target": "ACCTIS 100"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 300"
-        }
-    },
-    {
-        "data": {
             "description": "Analytics has become an integral part of accounting to support decision making, coordination and control, and compliance with regulations. Being able to identify and pursue relevant questions using data is a critical skill for new hires, as is the ability to successfully communicate one's findings. This pursuit and communication requires a strong facility with a variety of analytics technologies.",
             "id": "ACCTIS 640",
             "parent": "ACCTIS",
             "title": "FOUNDATION IN ACCOUNTING ANALYTICS"
-        }
-    },
-    {
-        "data": {
-            "id": "ACCTIS",
-            "type": "compound"
         }
     },
     {
@@ -57,7 +17,95 @@
     },
     {
         "data": {
+            "description": "Examines current and emerging financial accounting theory and techniques used to measure and report financial information to investors, creditors, and other external users. Emphasizes asset and income determination, preparation and interpretation of financial statements, and related disclosure requirements.",
+            "id": "ACCTIS 301",
+            "parent": "ACCTIS",
+            "title": "FINANCIAL REPORTING I"
+        }
+    },
+    {
+        "data": {
+            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
+            "id": "ACCTIS 100",
+            "parent": "ACCTIS",
+            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+        }
+    },
+    {
+        "data": {
+            "description": "Managerial accounting concepts relevant for decision-making; use of accounting information for planning, decision-making, and control of business operations in various management and business environments.",
+            "id": "ACCTIS 211",
+            "parent": "ACCTIS",
+            "title": "INTRODUCTORY MANAGERIAL ACCOUNTING"
+        }
+    },
+    {
+        "data": {
+            "description": "Measurement and reporting guidelines underlying preparation of general purpose financial statements. Explore current measurement and reporting issues. Analyze and interpret financial statement data for investment, lending, and related decisions.",
+            "id": "ACCTIS 700",
+            "parent": "ACCTIS",
+            "title": "FINANCIAL ACCOUNTING"
+        }
+    },
+    {
+        "data": {
+            "description": "Understand, document, and evaluate integrated enterprise systems and critical information tracked in core business processes, applying technology to model, capture, and query data needed, and assess system design and controls.",
+            "id": "ACCTIS 340",
+            "parent": "ACCTIS",
+            "title": "ACCOUNTING INFORMATION SYSTEMS"
+        }
+    },
+    {
+        "data": {
+            "id": "ACCTIS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "ACCTIS 100",
+            "target": "ACCTIS 211"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 301"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 211",
+            "target": "ACCTIS 340"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 300",
+            "target": "ACCTIS 100"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 301",
+            "target": "ACCTIS 340"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 340",
+            "target": "ACCTIS 640"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 700",
             "target": "ACCTIS 640"
         }
     }

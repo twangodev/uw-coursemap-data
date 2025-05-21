@@ -28,44 +28,132 @@
     },
     "description": "Fundamental concepts of conduction, convection, radiation. Heat-exchanger principles.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
-                "course_number": 361,
+                "course_number": 363,
                 "subjects": [
                     "ME"
                 ]
             },
             {
-                "course_number": 363,
+                "course_number": 361,
                 "subjects": [
                     "ME"
                 ]
             }
         ],
-        "prerequisites_text": "M\u00a0E\u00a0361and (M\u00a0E\u00a0363or concurrent enrollment), or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 361,
                 "subjects": [
                     "ME"
                 ]
             },
+            " and (",
             {
                 "course_number": 363,
                 "subjects": [
                     "ME"
                 ]
+            },
+            " or concurrent enrollment), or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "M\u00a0E\u00a0361and (M\u00a0E\u00a0363or concurrent enrollment), or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 363,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 363,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or concurrent enrollment), or member of Engineering Guest Students"
         ],
         "prerequisites_text": "M\u00a0E\u00a0361and (M\u00a0E\u00a0363or concurrent enrollment), or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 465,
+            "course_number": 464,
             "subjects": [
-                "MS&E"
+                "BSE"
+            ]
+        },
+        {
+            "course_number": 320,
+            "subjects": [
+                "CBE"
             ]
         },
         {
@@ -75,21 +163,15 @@
             ]
         },
         {
-            "course_number": 461,
+            "course_number": 331,
             "subjects": [
-                "ME"
+                "MS&E"
             ]
         },
         {
             "course_number": 564,
             "subjects": [
                 "ME"
-            ]
-        },
-        {
-            "course_number": 464,
-            "subjects": [
-                "BSE"
             ]
         }
     ],
@@ -159,8 +241,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TIMOTHY SHEDD",
-                    "Frank PFEFFERKORN"
+                    "Frank PFEFFERKORN",
+                    "TIMOTHY SHEDD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -185,8 +267,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "David ROTHAMER",
-                    "CHRISTOPHER RUTLAND"
+                    "CHRISTOPHER RUTLAND",
+                    "David ROTHAMER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -237,8 +319,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Frank PFEFFERKORN",
-                    "CHRISTOPHER RUTLAND"
+                    "CHRISTOPHER RUTLAND",
+                    "Frank PFEFFERKORN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -340,8 +422,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TIMOTHY SHEDD",
-                    "CHRISTOPHER RUTLAND"
+                    "CHRISTOPHER RUTLAND",
+                    "TIMOTHY SHEDD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -366,8 +448,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Frank PFEFFERKORN",
                     "AJIT NAIK",
+                    "Frank PFEFFERKORN",
                     "Franklin MILLER"
                 ],
                 "no_credit": 0,
@@ -420,9 +502,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "GREGORY NELLIS",
                     "WENJIE ZHOU",
-                    "YOUNGCHUL RA"
+                    "YOUNGCHUL RA",
+                    "GREGORY NELLIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -447,8 +529,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GREGORY NELLIS",
-                    "WENJIE ZHOU"
+                    "WENJIE ZHOU",
+                    "GREGORY NELLIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -986,33 +1068,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Allison Mahvi": "ALLISON.MAHVI@WISC.EDU",
-                    "Dakotah THOMPSON": "DRTHOMPSON@WISC.EDU",
-                    "Erik Tillman": "ETILLMAN@WISC.EDU",
-                    "Jack Prout": "JPROUT@WISC.EDU",
-                    "Justin Paddock": "JPADDOCK@WISC.EDU",
-                    "Qifan Zheng": "QZHENG63@WISC.EDU",
-                    "Weiyu LI": "WEIYU.LI@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
-        },
         "1256": {
             "enrollment_data": {
                 "credit_count": [
@@ -1024,7 +1079,7 @@
                 "instructors": {
                     "Jennifer Detlor": "DETLOR@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",
@@ -1046,7 +1101,7 @@
                     "GREGORY NELLIS": "GFNELLIS@ENGR.WISC.EDU",
                     "Weiyu LI": "WEIYU.LI@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",

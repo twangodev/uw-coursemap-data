@@ -1,22 +1,6 @@
 [
     {
         "data": {
-            "description": "Application of federal tax provisions and administrative rules common to most taxpayers with introductions to rules specific to corporations, pass-through entities, and individuals.",
-            "id": "ACCTIS 620",
-            "parent": "ACCTIS",
-            "title": "FUNDAMENTALS OF TAXATION"
-        }
-    },
-    {
-        "data": {
-            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
-            "id": "ACCTIS 100",
-            "parent": "ACCTIS",
-            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
-        }
-    },
-    {
-        "data": {
             "description": "Analysis of federal tax provisions and administrative rules regarding pass-through entities, such as partnerships, S-corporations, and limited liability companies; including their application to entity formation and operation, property and ownership basis, distributions, and interest transfers.",
             "id": "ACCTIS 722",
             "parent": "ACCTIS",
@@ -25,20 +9,18 @@
     },
     {
         "data": {
-            "source": "ACCTIS 300",
-            "target": "ACCTIS 100"
+            "description": "Application of federal tax provisions and administrative rules common to most taxpayers with introductions to rules specific to corporations, pass-through entities, and individuals.",
+            "id": "ACCTIS 620",
+            "parent": "ACCTIS",
+            "title": "FUNDAMENTALS OF TAXATION"
         }
     },
     {
         "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 301"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 300"
+            "description": "Examines both financial and managerial accounting for business decisions. Emphasizes preparation and interpretation of financial statements, analysis of financial information, determination of costs for products and services, and use of accounting information for planning and control of business operations.",
+            "id": "ACCTIS 300",
+            "parent": "ACCTIS",
+            "title": "ACCOUNTING PRINCIPLES"
         }
     },
     {
@@ -51,16 +33,34 @@
     },
     {
         "data": {
+            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
+            "id": "ACCTIS 100",
+            "parent": "ACCTIS",
+            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+        }
+    },
+    {
+        "data": {
             "id": "ACCTIS",
             "type": "compound"
         }
     },
     {
         "data": {
-            "description": "Examines both financial and managerial accounting for business decisions. Emphasizes preparation and interpretation of financial statements, analysis of financial information, determination of costs for products and services, and use of accounting information for planning and control of business operations.",
-            "id": "ACCTIS 300",
-            "parent": "ACCTIS",
-            "title": "ACCOUNTING PRINCIPLES"
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 301"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 300",
+            "target": "ACCTIS 100"
         }
     },
     {

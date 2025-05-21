@@ -9,68 +9,10 @@
     },
     {
         "data": {
-            "source": "EMA 201",
-            "target": "ME 306"
-        }
-    },
-    {
-        "data": {
-            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns.",
-            "id": "ME 306",
-            "parent": "ME",
-            "title": "MECHANICS OF MATERIALS"
-        }
-    },
-    {
-        "data": {
-            "source": "MS&E 350",
-            "target": "ME 313"
-        }
-    },
-    {
-        "data": {
-            "description": "The basic structures and resulting properties of solid materials, including phase equilibria, meta-stability, mechanical properties, failure, corrosion, and materials selection.",
-            "id": "MS&E 350",
-            "parent": "MS&E",
-            "title": "INTRODUCTION TO MATERIALS SCIENCE"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "EMA 201"
-        }
-    },
-    {
-        "data": {
-            "description": "Principles of mechanics, force systems, equilibrium, structures, distributed forces, moments of inertia of areas, and friction.",
-            "id": "EMA 201",
-            "parent": "EMA",
-            "title": "STATICS"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 115",
-            "target": "MS&E 351"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 306",
-            "target": "ME 313"
-        }
-    },
-    {
-        "data": {
-            "source": "MS&E 351",
-            "target": "MS&E 350"
+            "description": "Accelerated coverage of topics in general chemistry, including introduction to laboratory techniques. Topics include atomic and molecular structure, chemical equilibrium, acid-base chemistry, thermodynamics, kinetics, and electrochemistry.",
+            "id": "CHEM 109",
+            "parent": "CHEM",
+            "title": "ADVANCED GENERAL CHEMISTRY"
         }
     },
     {
@@ -83,21 +25,53 @@
     },
     {
         "data": {
-            "source": "CHEM 115",
-            "target": "MS&E 350"
+            "description": "Introduction to: atomic, electronic, and defect structures in materials; diffusional, mechanical and electrical properties of materials; and the role of structure and defects in diffusional, mechanical, and electrical properties.",
+            "id": "MS&E 351",
+            "parent": "MS&E",
+            "title": "MATERIALS SCIENCE-STRUCTURE AND PROPERTY RELATIONS IN SOLIDS"
         }
     },
     {
         "data": {
-            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
-            "id": "MATH 222",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+            "description": "Principles and application of chemical equilibrium, coordination chemistry, oxidation-reduction and electrochemistry, kinetics, nuclear chemistry, introduction to organic chemistry, and chemistry laboratory skills.",
+            "id": "CHEM 104",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY II"
         }
     },
     {
         "data": {
-            "id": "EMA",
+            "description": "Stoichiometry and the mole concept, the behavior of gases, liquids and solids, thermochemistry, electronic structure of atoms and chemical bonding, descriptive chemistry of selected elements and compounds, intermolecular forces, and chemistry laboratory skills.",
+            "id": "CHEM 103",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY I"
+        }
+    },
+    {
+        "data": {
+            "description": "The basic factors that determine phase equilibria, structural and transformation characteristics of solids. Principles governing the thermodynamics and kinetics of phase transformations and microstructure evolution. Nucleation and growth processes in precipitation, recrystallization, solidification, oxidation, martensitic, ordering and spinodal reactions. Transformation behavior in polymers, biomaterials and nanomaterials.",
+            "id": "MS&E 352",
+            "parent": "MS&E",
+            "title": "MATERIALS SCIENCE-TRANSFORMATION OF SOLIDS"
+        }
+    },
+    {
+        "data": {
+            "description": "The basic structures and resulting properties of solid materials, including phase equilibria, meta-stability, mechanical properties, failure, corrosion, and materials selection.",
+            "id": "MS&E 350",
+            "parent": "MS&E",
+            "title": "INTRODUCTION TO MATERIALS SCIENCE"
+        }
+    },
+    {
+        "data": {
+            "id": "CHEM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "ME",
             "type": "compound"
         }
     },
@@ -109,16 +83,44 @@
     },
     {
         "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
+            "source": "CHEM 103",
+            "target": "CHEM 104"
         }
     },
     {
         "data": {
-            "id": "CHEM",
-            "type": "compound"
+            "source": "CHEM 103",
+            "target": "MS&E 350"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 104",
+            "target": "CHEM 109"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 115",
+            "target": "MS&E 351"
+        }
+    },
+    {
+        "data": {
+            "source": "MS&E 350",
+            "target": "ME 313"
         }
     },
     {
@@ -129,68 +131,20 @@
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
+            "source": "MS&E 350",
+            "target": "MS&E 352"
         }
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "ME 306"
+            "source": "MS&E 351",
+            "target": "MS&E 350"
         }
     },
     {
         "data": {
-            "source": "MATH 221",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to: atomic, electronic, and defect structures in materials; diffusional, mechanical and electrical properties of materials; and the role of structure and defects in diffusional, mechanical, and electrical properties.",
-            "id": "MS&E 351",
-            "parent": "MS&E",
-            "title": "MATERIALS SCIENCE-STRUCTURE AND PROPERTY RELATIONS IN SOLIDS"
-        }
-    },
-    {
-        "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "id": "MATH",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
-            "id": "ME",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "source": "MS&E 352",
+            "target": "ME 313"
         }
     }
 ]

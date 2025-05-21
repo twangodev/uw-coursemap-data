@@ -1,8 +1,10 @@
 [
     {
         "data": {
-            "source": "GENBUS 306",
-            "target": "GENBUS 307"
+            "description": "Build fundamental skills and processes to develop a strong foundation in business analysis utilizing Excel. Learn the fundamentals of data construction, manipulation, summarization, analysis and presentation.",
+            "id": "GENBUS 106",
+            "parent": "GENBUS",
+            "title": "FOUNDATIONAL SKILLS FOR BUSINESS ANALYSIS"
         }
     },
     {
@@ -15,8 +17,34 @@
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
+            "description": "Emphasis on hands-on experience with many commonly used analytic methodologies using the modeling and optimization tools available on almost every professional desktop. The focus is predictive and prescriptive analytics. Predictive approaches use historical data to infer causal relationships and forecast future outcomes from a given action. Prescriptive methods take this a step further, helping managers formulate decision models that identify optimal actions given a set of circumstances.",
+            "id": "GENBUS 307",
+            "parent": "GENBUS",
+            "title": "BUSINESS ANALYTICS II"
+        }
+    },
+    {
+        "data": {
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
+        }
+    },
+    {
+        "data": {
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
         }
     },
     {
@@ -27,28 +55,8 @@
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "GENBUS 306"
-        }
-    },
-    {
-        "data": {
             "id": "MATH",
             "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Emphasis on hands-on experience with many commonly used analytic methodologies using the modeling and optimization tools available on almost every professional desktop. The focus is predictive and prescriptive analytics. Predictive approaches use historical data to infer causal relationships and forecast future outcomes from a given action. Prescriptive methods take this a step further, helping managers formulate decision models that identify optimal actions given a set of circumstances.",
-            "id": "GENBUS 307",
-            "parent": "GENBUS",
-            "title": "BUSINESS ANALYTICS II"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
         }
     },
     {
@@ -65,34 +73,14 @@
     },
     {
         "data": {
-            "description": "Build fundamental skills and processes to develop a strong foundation in business analysis utilizing Excel. Learn the fundamentals of data construction, manipulation, summarization, analysis and presentation.",
-            "id": "GENBUS 106",
-            "parent": "GENBUS",
-            "title": "FOUNDATIONAL SKILLS FOR BUSINESS ANALYSIS"
+            "source": "GENBUS 306",
+            "target": "GENBUS 307"
         }
     },
     {
         "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
+            "source": "MATH 211",
+            "target": "GENBUS 306"
         }
     },
     {
@@ -103,8 +91,20 @@
     },
     {
         "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 213",
             "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
         }
     }
 ]

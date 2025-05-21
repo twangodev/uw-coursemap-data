@@ -28,6 +28,31 @@
     },
     "description": "Experiments related to the required core material.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 271,
@@ -42,9 +67,50 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 271,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 340,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            " or concurrent enrollment), or member of Engineering Guest Students"
+        ],
         "prerequisites_text": "E\u00a0C\u00a0E\u00a0271and (E\u00a0C\u00a0E\u00a0340or concurrent enrollment), or member of Engineering Guest Students"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 340,
@@ -58,18 +124,40 @@
                     "ECE"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 271,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 340,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            " or concurrent enrollment), or member of Engineering Guest Students"
         ],
         "prerequisites_text": "E\u00a0C\u00a0E\u00a0271and (E\u00a0C\u00a0E\u00a0340or concurrent enrollment), or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 424,
+            "course_number": 368,
             "subjects": [
-                "CBE"
+                "ME"
             ]
         },
         {
-            "course_number": 271,
+            "course_number": 611,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 610,
             "subjects": [
                 "ECE"
             ]
@@ -81,15 +169,9 @@
             ]
         },
         {
-            "course_number": 407,
+            "course_number": 362,
             "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 270,
-            "subjects": [
-                "ECE"
+                "MS&E"
             ]
         }
     ],
@@ -107,9 +189,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GAUTHAM HARIHARAN",
                     "Mark ALLIE",
-                    "MOHAMMAD ZULFIQAR"
+                    "MOHAMMAD ZULFIQAR",
+                    "GAUTHAM HARIHARAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -134,9 +216,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GAUTHAM HARIHARAN",
+                    "JOSEPH STANLEY PARKS",
                     "Mark ALLIE",
-                    "JOSEPH STANLEY PARKS"
+                    "GAUTHAM HARIHARAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -161,8 +243,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Mark ALLIE",
-                    "THIAGARAJAN SIVANADYAN"
+                    "THIAGARAJAN SIVANADYAN",
+                    "Mark ALLIE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -187,8 +269,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Mark ALLIE",
                     "EENAS OMARI",
+                    "Mark ALLIE",
                     "MOHAMMAD ZULFIQAR"
                 ],
                 "no_credit": 0,
@@ -241,8 +323,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Mark ALLIE",
                     "MUSTAFA FRAH",
+                    "Mark ALLIE",
                     "MOHAMMAD ZULFIQAR"
                 ],
                 "no_credit": 0,
@@ -268,9 +350,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "REHAN AHMED",
                     "Mark ALLIE",
-                    "MOHAMMAD ZULFIQAR",
-                    "REHAN AHMED"
+                    "MOHAMMAD ZULFIQAR"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -928,8 +1010,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DIONYSI DAMASKOPOULOS",
-                    "Mark ALLIE"
+                    "Mark ALLIE",
+                    "DIONYSI DAMASKOPOULOS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -954,9 +1036,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DIONYSI DAMASKOPOULOS",
+                    "VARUNRAJ SHINDE",
                     "Mark ALLIE",
-                    "VARUNRAJ SHINDE"
+                    "DIONYSI DAMASKOPOULOS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -981,10 +1063,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DIONYSI DAMASKOPOULOS",
-                    "Mark ALLIE",
                     "KEVIN CHEUNG",
-                    "ADITYA KUNCHUR"
+                    "Mark ALLIE",
+                    "ADITYA KUNCHUR",
+                    "DIONYSI DAMASKOPOULOS"
                 ],
                 "no_credit": 0,
                 "no_work": 2,
@@ -995,27 +1077,6 @@
                 "total": 63,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    2,
-                    2
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Mark ALLIE": "ALLIE@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
         },
         "1262": {
             "enrollment_data": {
@@ -1028,7 +1089,7 @@
                 "instructors": {
                     "Mark ALLIE": "ALLIE@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",

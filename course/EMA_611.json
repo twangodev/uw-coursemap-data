@@ -28,24 +28,118 @@
     },
     "description": "Theory and use of servo-controlled, electro-hydraulic equipment for research of mechanical properties of engineering materials. Measurement of stress, strain, hysteresis energy, and material properties during deformation and at fracture. Analysis of four significant components of total strain.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 506,
-                "subjects": [
-                    "EMA"
-                ]
-            },
             {
                 "course_number": 307,
                 "subjects": [
-                    "ME",
+                    "EMA",
+                    "ME"
+                ]
+            },
+            {
+                "course_number": 506,
+                "subjects": [
                     "EMA"
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 307,
+                "subjects": [
+                    "EMA",
+                    "ME"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 307,
+                "subjects": [
+                    "EMA",
+                    "ME"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 506,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            " or concurrent enrollment), or graduate/professional standing"
+        ],
         "prerequisites_text": "(E\u00a0M\u00a0A/\u200bM\u00a0E\u00a0\u00a0307orM\u00a0E/\u200bE\u00a0M\u00a0A\u00a0\u00a0307) and (E\u00a0M\u00a0A\u00a0506or concurrent enrollment), or graduate/professional standing"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 506,
@@ -56,44 +150,71 @@
             {
                 "course_number": 307,
                 "subjects": [
-                    "ME",
-                    "EMA"
+                    "EMA",
+                    "ME"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 307,
+                "subjects": [
+                    "EMA",
+                    "ME"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 307,
+                "subjects": [
+                    "EMA",
+                    "ME"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 506,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            " or concurrent enrollment), or graduate/professional standing"
         ],
         "prerequisites_text": "(E\u00a0M\u00a0A/\u200bM\u00a0E\u00a0\u00a0307orM\u00a0E/\u200bE\u00a0M\u00a0A\u00a0\u00a0307) and (E\u00a0M\u00a0A\u00a0506or concurrent enrollment), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 570,
-            "subjects": [
-                "ME",
-                "EMA"
-            ]
-        },
-        {
-            "course_number": 506,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
-            "course_number": 303,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
             "course_number": 307,
             "subjects": [
-                "ME",
-                "EMA"
+                "EMA",
+                "ME"
             ]
         },
         {
             "course_number": 601,
             "subjects": [
                 "EMA"
+            ]
+        },
+        {
+            "course_number": 540,
+            "subjects": [
+                "EMA",
+                "ME"
+            ]
+        },
+        {
+            "course_number": 570,
+            "subjects": [
+                "EMA",
+                "ME"
+            ]
+        },
+        {
+            "course_number": 441,
+            "subjects": [
+                "MS&E"
             ]
         }
     ],
@@ -411,8 +532,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Jacob Notbohm",
-                    "RODERIC S LAKES"
+                    "RODERIC S LAKES",
+                    "Jacob Notbohm"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -523,27 +644,6 @@
                 "total": 19,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Corinne HENAK": "CHENAK@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

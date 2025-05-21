@@ -1,8 +1,17 @@
 [
     {
         "data": {
-            "id": "GEOSCI",
-            "type": "compound"
+            "description": "An integrative approach to studying the interaction between the atmosphere, hydrosphere, biosphere, and geosphere as they have evolved during earth history. Overarching theme includes ocean-climate system changes, biogeochemical cycles, evolution from microbes to mammals, and critical events in life history.",
+            "id": "GEOSCI 304",
+            "parent": "GEOSCI",
+            "title": "GEOBIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
+            "id": "ENVIRST/GEOSCI 106",
+            "title": "ENVIRONMENTAL GEOLOGY"
         }
     },
     {
@@ -23,34 +32,13 @@
     },
     {
         "data": {
-            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
-            "id": "ENVIRST/GEOSCI 106",
-            "title": "ENVIRONMENTAL GEOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI 100",
-            "target": "ENVIRST/GEOSCI 106"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI 204",
-            "target": "GEOSCI 304"
-        }
-    },
-    {
-        "data": {
-            "description": "An integrative approach to studying the interaction between the atmosphere, hydrosphere, biosphere, and geosphere as they have evolved during earth history. Overarching theme includes ocean-climate system changes, biogeochemical cycles, evolution from microbes to mammals, and critical events in life history.",
-            "id": "GEOSCI 304",
-            "parent": "GEOSCI",
-            "title": "GEOBIOLOGY"
-        }
-    },
-    {
-        "data": {
             "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "GEOSCI",
             "type": "compound"
         }
     },
@@ -63,7 +51,19 @@
     {
         "data": {
             "source": "GEOSCI 100",
+            "target": "ENVIRST/GEOSCI 106"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 100",
             "target": "GEOSCI 204"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 204",
+            "target": "GEOSCI 304"
         }
     }
 ]

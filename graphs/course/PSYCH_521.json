@@ -1,9 +1,10 @@
 [
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
+            "description": "Behavior, including its development, motivation, frustrations, emotion, intelligence, learning, forgetting, personality, language, thinking, and social behavior.",
+            "id": "PSYCH 202",
+            "parent": "PSYCH",
+            "title": "INTRODUCTION TO PSYCHOLOGY"
         }
     },
     {
@@ -15,14 +16,31 @@
     },
     {
         "data": {
-            "source": "PSYCH 202",
-            "target": "PSYCH 414"
+            "description": "How people perceive, learn, remember, plan, solve problems, make decisions, and communicate. The main approach is psychological but will also consider contributions from computer science, linguistics, and neurobiology.",
+            "id": "PSYCH 414",
+            "parent": "PSYCH",
+            "title": "COGNITIVE PSYCHOLOGY"
         }
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "PSYCH 414"
+            "description": "Topics include the relationship of language to other cognitive and perceptual functions; language evolution; the connection of language and culture, sources of linguistic diversity; linguistic engineering; the role of information technologies in the spread of ideas and its impact on language change. Will draw heavily on empirical research in cognitive and developmental psychology, and to a lesser extent on cognitive neuroscience, animal cognition, anthropology, and linguistics.",
+            "id": "PSYCH 521",
+            "parent": "PSYCH",
+            "title": "THE STRUCTURE OF HUMAN THOUGHT: CONCEPTS, LANGUAGE AND CULTURE"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
         }
     },
     {
@@ -39,36 +57,8 @@
     },
     {
         "data": {
-            "description": "Behavior, including its development, motivation, frustrations, emotion, intelligence, learning, forgetting, personality, language, thinking, and social behavior.",
-            "id": "PSYCH 202",
-            "parent": "PSYCH",
-            "title": "INTRODUCTION TO PSYCHOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "target": "PSYCH 414"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "PSYCH 414",
-            "target": "PSYCH 521"
-        }
-    },
-    {
-        "data": {
-            "description": "How people perceive, learn, remember, plan, solve problems, make decisions, and communicate. The main approach is psychological but will also consider contributions from computer science, linguistics, and neurobiology.",
-            "id": "PSYCH 414",
-            "parent": "PSYCH",
-            "title": "COGNITIVE PSYCHOLOGY"
         }
     },
     {
@@ -79,10 +69,20 @@
     },
     {
         "data": {
-            "description": "Topics include the relationship of language to other cognitive and perceptual functions; language evolution; the connection of language and culture, sources of linguistic diversity; linguistic engineering; the role of information technologies in the spread of ideas and its impact on language change. Will draw heavily on empirical research in cognitive and developmental psychology, and to a lesser extent on cognitive neuroscience, animal cognition, anthropology, and linguistics.",
-            "id": "PSYCH 521",
-            "parent": "PSYCH",
-            "title": "THE STRUCTURE OF HUMAN THOUGHT: CONCEPTS, LANGUAGE AND CULTURE"
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "PSYCH 414"
+        }
+    },
+    {
+        "data": {
+            "source": "PSYCH 202",
+            "target": "PSYCH 414"
+        }
+    },
+    {
+        "data": {
+            "source": "PSYCH 414",
+            "target": "PSYCH 521"
         }
     }
 ]

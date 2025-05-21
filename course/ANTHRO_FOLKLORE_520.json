@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 520,
         "subjects": [
-            "FOLKLORE",
-            "ANTHRO"
+            "ANTHRO",
+            "FOLKLORE"
         ]
     },
     "course_title": "ETHNIC REPRESENTATIONS IN WISCONSIN",
@@ -29,12 +29,30 @@
     },
     "description": "Representation and self-representation of ethnic cultures in Wisconsin. For example: museums, mass media, ethnic theater.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 200,
                 "subjects": [
-                    "FOLKLORE",
-                    "GNS"
+                    "GNS",
+                    "FOLKLORE"
                 ]
             },
             {
@@ -44,21 +62,57 @@
                 ]
             }
         ],
-        "prerequisites_text": "ANTHRO\u00a0300,FOLKLORE\u00a0100,GNS/\u200bFOLKLORE\u00a0\u00a0200, or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 300,
                 "subjects": [
                     "ANTHRO"
                 ]
             },
+            ", ",
+            {
+                "course_number": 100,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            ", ",
             {
                 "course_number": 200,
                 "subjects": [
-                    "FOLKLORE",
-                    "GNS"
+                    "GNS",
+                    "FOLKLORE"
+                ]
+            },
+            ", or graduate/professional standing"
+        ],
+        "prerequisites_text": "ANTHRO\u00a0300,FOLKLORE\u00a0100,GNS/\u200bFOLKLORE\u00a0\u00a0200, or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 200,
+                "subjects": [
+                    "GNS",
+                    "FOLKLORE"
                 ]
             },
             {
@@ -66,7 +120,37 @@
                 "subjects": [
                     "FOLKLORE"
                 ]
+            },
+            {
+                "course_number": 300,
+                "subjects": [
+                    "ANTHRO"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 300,
+                "subjects": [
+                    "ANTHRO"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 100,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 200,
+                "subjects": [
+                    "GNS",
+                    "FOLKLORE"
+                ]
+            },
+            ", or graduate/professional standing"
         ],
         "prerequisites_text": "ANTHRO\u00a0300,FOLKLORE\u00a0100,GNS/\u200bFOLKLORE\u00a0\u00a0200, or graduate/professional standing"
     },
@@ -79,15 +163,9 @@
             ]
         },
         {
-            "course_number": 230,
+            "course_number": 250,
             "subjects": [
-                "FOLKLORE"
-            ]
-        },
-        {
-            "course_number": 320,
-            "subjects": [
-                "FOLKLORE"
+                "AMERIND"
             ]
         },
         {
@@ -97,9 +175,19 @@
             ]
         },
         {
-            "course_number": 250,
+            "course_number": 764,
             "subjects": [
-                "AMERIND"
+                "ARTHIST",
+                "HISTORY",
+                "ANTHRO",
+                "DS",
+                "LANDARC"
+            ]
+        },
+        {
+            "course_number": 320,
+            "subjects": [
+                "FOLKLORE"
             ]
         }
     ],

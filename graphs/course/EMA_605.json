@@ -1,28 +1,34 @@
 [
     {
         "data": {
-            "source": "EMA 201",
-            "target": "ME 306"
+            "description": "A first course in finite elements, with theory and applications in stress analysis and in areas related to structural mechanics. Practice in the use and/or development of computer programs.",
+            "id": "EMA 605",
+            "parent": "EMA",
+            "title": "INTRODUCTION TO FINITE ELEMENTS"
         }
     },
     {
         "data": {
-            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns.",
-            "id": "ME 306",
-            "parent": "ME",
-            "title": "MECHANICS OF MATERIALS"
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "EMA 201"
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "EMA 303"
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
         }
     },
     {
@@ -35,29 +41,17 @@
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 201",
-            "target": "EMA 303"
-        }
-    },
-    {
-        "data": {
-            "description": "A first course in finite elements, with theory and applications in stress analysis and in areas related to structural mechanics. Practice in the use and/or development of computer programs.",
-            "id": "EMA 605",
-            "parent": "EMA",
-            "title": "INTRODUCTION TO FINITE ELEMENTS"
-        }
-    },
-    {
-        "data": {
             "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns. For civil engineers.",
             "id": "EMA 303",
             "parent": "EMA",
+            "title": "MECHANICS OF MATERIALS"
+        }
+    },
+    {
+        "data": {
+            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns.",
+            "id": "ME 306",
+            "parent": "ME",
             "title": "MECHANICS OF MATERIALS"
         }
     },
@@ -77,60 +71,8 @@
     },
     {
         "data": {
-            "source": "EMA 303",
-            "target": "EMA 605"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "ME 306"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
             "id": "MATH",
             "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
         }
     },
     {
@@ -141,10 +83,68 @@
     },
     {
         "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "source": "EMA 201",
+            "target": "EMA 303"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 201",
+            "target": "ME 306"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 303",
+            "target": "EMA 605"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "EMA 201"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "EMA 303"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "ME 306"
         }
     },
     {

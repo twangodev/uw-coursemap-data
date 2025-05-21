@@ -29,48 +29,34 @@
     },
     "description": "General limnology. Physical, chemical and biological characteristics and processes of lakes. Environmental problems and rehabilitation of lakes.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BOTANY",
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            }
-        ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, orBIOCORE\u00a0381or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
             {
                 "course_number": 152,
                 "subjects": [
@@ -84,26 +70,153 @@
                 "subjects": [
                     "BIOCORE"
                 ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            " or graduate/professional standing"
+        ],
+        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, orBIOCORE\u00a0381or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            " or graduate/professional standing"
         ],
         "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, orBIOCORE\u00a0381or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 955,
+            "course_number": 361,
             "subjects": [
-                "ZOOLOGY"
-            ]
-        },
-        {
-            "course_number": 911,
-            "subjects": [
-                "ZOOLOGY",
-                "ENVIRST",
-                "BOTANY",
-                "ATMOCN",
-                "CIVENGR",
-                "GEOSCI"
+                "LANDARC",
+                "ENVIRST"
             ]
         },
         {
@@ -114,16 +227,21 @@
             ]
         },
         {
-            "course_number": 316,
+            "course_number": 330,
+            "subjects": [
+                "BOTANY"
+            ]
+        },
+        {
+            "course_number": 955,
             "subjects": [
                 "ZOOLOGY"
             ]
         },
         {
-            "course_number": 511,
+            "course_number": 316,
             "subjects": [
-                "ZOOLOGY",
-                "ENVIRST"
+                "ZOOLOGY"
             ]
         }
     ],
@@ -424,8 +542,8 @@
                 "f": 9,
                 "incomplete": 1,
                 "instructors": [
-                    "JACOB WALSH",
-                    "Emily STANLEY"
+                    "Emily STANLEY",
+                    "JACOB WALSH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -528,8 +646,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Grace WILKINSON",
-                    "Hilary DUGAN"
+                    "Hilary DUGAN",
+                    "Grace WILKINSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -554,8 +672,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Grace WILKINSON",
-                    "Hilary DUGAN"
+                    "Hilary DUGAN",
+                    "Grace WILKINSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -580,8 +698,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Grace WILKINSON",
-                    "Hilary DUGAN"
+                    "Hilary DUGAN",
+                    "Grace WILKINSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -606,8 +724,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Grace WILKINSON",
-                    "Hilary DUGAN"
+                    "Hilary DUGAN",
+                    "Grace WILKINSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -618,25 +736,6 @@
                 "total": 92,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    2,
-                    2
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2024",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Summer"
-            },
-            "grade_data": null
         },
         "1262": {
             "enrollment_data": {
@@ -652,9 +751,9 @@
                 },
                 "last_taught_term": "Fall 2024",
                 "school": {
-                    "abbreviation": "Z",
-                    "name": "Environmental Studies",
-                    "url": "http://www.nelson.wisc.edu/"
+                    "abbreviation": "L",
+                    "name": "Letters and Science",
+                    "url": "http://www.ls.wisc.edu/"
                 },
                 "typically_offered": "Fall, Summer"
             },

@@ -1,16 +1,10 @@
 [
     {
         "data": {
-            "source": "CHEM 329",
-            "target": "CHEM 327"
-        }
-    },
-    {
-        "data": {
-            "description": "Fundamentals of chemical measurement in chemistry, biology, engineering, geology, and the medical sciences. Topics include equilibria of complex systems, spectroscopy, electrochemistry, separations, and quantitative laboratory technique.",
-            "id": "CHEM 327",
+            "description": "A quantitative treatment of macroscopic phenomena including thermodynamics, chemical equilibria, solution behavior, electrochemistry, and chemical kinetics.",
+            "id": "CHEM 116",
             "parent": "CHEM",
-            "title": "FUNDAMENTALS OF ANALYTICAL SCIENCE"
+            "title": "CHEMICAL PRINCIPLES II"
         }
     },
     {
@@ -23,8 +17,10 @@
     },
     {
         "data": {
-            "source": "CHEM 327",
-            "target": "CHEM 329"
+            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
+            "id": "CHEM 115",
+            "parent": "CHEM",
+            "title": "CHEMICAL PRINCIPLES I"
         }
     },
     {
@@ -35,22 +31,20 @@
     },
     {
         "data": {
-            "description": "Fundamentals of chemical measurement in chemistry, biology, engineering, geology, and the medical sciences. Topics include equilibria of complex systems, spectroscopy, electrochemistry, separations, and quantitative laboratory technique. Covers chemical equilibria in greater depth and with greater mathematical rigor thanCHEM\u00a0327.",
-            "id": "CHEM 329",
-            "parent": "CHEM",
-            "title": "FUNDAMENTALS OF ANALYTICAL SCIENCE"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 329",
-            "target": "CBE 250"
-        }
-    },
-    {
-        "data": {
             "id": "CHEM",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 115",
+            "target": "CHEM 116"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 116",
+            "target": "CBE 250"
         }
     }
 ]

@@ -1,14 +1,49 @@
 [
     {
         "data": {
-            "id": "PUBAFFR",
-            "type": "compound"
+            "description": "Analysis of the health care industry. Markets for hospitals and physicians' care, markets for health manpower, and the role of health insurance.",
+            "id": "ECON/POPHLTH/PUBAFFR 548",
+            "title": "THE ECONOMICS OF HEALTH CARE"
         }
     },
     {
         "data": {
-            "source": "PUBAFFR 880",
-            "target": "ECON/POPHLTH/PUBAFFR 548"
+            "description": "A mathematical approach to the theory of consumption, production, pricing and resource allocation.",
+            "id": "ECON 311",
+            "parent": "ECON",
+            "title": "INTERMEDIATE MICROECONOMIC THEORY - ADVANCED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Contemporary theory of consumption, production, pricing and resource allocation.",
+            "id": "ECON 301",
+            "parent": "ECON",
+            "title": "INTERMEDIATE MICROECONOMIC THEORY"
+        }
+    },
+    {
+        "data": {
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
         }
     },
     {
@@ -19,17 +54,62 @@
     },
     {
         "data": {
-            "description": "The tools and techniques used in the economic approach to policy analysis. Emphasis is on applying these methodological tools to evaluating existing public policies and policy alternatives, as well as providing a deeper understanding of how the economy operates.",
-            "id": "PUBAFFR 880",
-            "parent": "PUBAFFR",
-            "title": "MICROECONOMIC POLICY ANALYSIS"
+            "id": "ECON",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "description": "Analysis of the health care industry. Markets for hospitals and physicians' care, markets for health manpower, and the role of health insurance.",
-            "id": "ECON/POPHLTH/PUBAFFR 548",
-            "title": "THE ECONOMICS OF HEALTH CARE"
+            "source": "ECON 101",
+            "target": "ECON 301"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "ECON 311"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 311"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 301",
+            "target": "ECON 311"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 301",
+            "target": "ECON/POPHLTH/PUBAFFR 548"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 311",
+            "target": "ECON 301"
         }
     }
 ]

@@ -1,24 +1,40 @@
 [
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
-        }
-    },
-    {
-        "data": {
             "description": "Provides an advanced understanding of cell biology as it relates to the nervous system. Covers the neuronal cytoskeleton, molecular motors and their cargos, the secretory system and how it functions in neurons, formation and maintenance of pre- and post-synaptic structures, neuronal organelles and their functions. Discussion of what is known about the disruptions to cell biology of neurons that contributes to neurodevelopmental and neurodegenerative diseases such as Alzheimer's disease, Parkinson's disease, Amyotrophic Lateral Sclerosis, Charcot Marie Tooth Disease, Spinal Muscular Atrophy, and others.",
             "id": "ZOOLOGY 444",
             "parent": "ZOOLOGY",
             "title": "NEURONAL CELL BIOLOGY IN HEALTH AND DISEASE"
+        }
+    },
+    {
+        "data": {
+            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
+            "id": "BIOCORE 381",
+            "parent": "BIOCORE",
+            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Cellular and molecular basis of life. The main themes are the structure and function of cells and organelles, the flow of energy in cells, and the storage, expression, and regulation of genetic information.",
+            "id": "BIOCORE 383",
+            "parent": "BIOCORE",
+            "title": "CELLULAR BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Writing-intensive with opportunities to generate and test questions utilizing concepts and procedures of cell biology. Includes research projects in subcellular fractionation, protein structure and enzyme catalysis, molecular genetics of C.elegans worms, and signal transduction in yeast.",
+            "id": "BIOCORE 384",
+            "parent": "BIOCORE",
+            "title": "CELLULAR BIOLOGY LABORATORY"
+        }
+    },
+    {
+        "data": {
+            "id": "BIOCORE",
+            "type": "compound"
         }
     },
     {
@@ -29,26 +45,20 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
+            "source": "BIOCORE 381",
+            "target": "BIOCORE 383"
         }
     },
     {
         "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
+            "source": "BIOCORE 383",
+            "target": "BIOCORE 384"
         }
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
+            "source": "BIOCORE 384",
             "target": "ZOOLOGY 444"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
         }
     }
 ]

@@ -1,30 +1,10 @@
 [
     {
         "data": {
-            "description": "Investigate the mathematics in the elementary school curriculum, how critical mathematics concepts and skills are learned, and how those concepts can be taught.",
-            "id": "CURRIC 370",
-            "parent": "CURRIC",
-            "title": "TEACHING MATHEMATICS"
-        }
-    },
-    {
-        "data": {
             "description": "Develops preservice teachers' mathematical knowledge for teaching i.e., Pedagogical Content Knowledge - the kind of knowledge that blends mathematical and pedagogical understandings. Explores topics defined by the Common Core State Standards for Mathematics such as foundations of arithmetic, addition, subtraction, multiplication and division of whole numbers and integers, the base-ten system, number theory, foundations of fraction operations and geometry.",
             "id": "CURRIC 319",
             "parent": "CURRIC",
             "title": "PEDAGOGICAL CONTENT KNOWLEDGE FOR TEACHING ELEMENTARY MATHEMATICS 1"
-        }
-    },
-    {
-        "data": {
-            "source": "CURRIC 320",
-            "target": "CURRIC 370"
-        }
-    },
-    {
-        "data": {
-            "id": "CURRIC",
-            "type": "compound"
         }
     },
     {
@@ -37,8 +17,28 @@
     },
     {
         "data": {
+            "description": "Investigate the mathematics in the elementary school curriculum, how critical mathematics concepts and skills are learned, and how those concepts can be taught.",
+            "id": "CURRIC 370",
+            "parent": "CURRIC",
+            "title": "TEACHING MATHEMATICS"
+        }
+    },
+    {
+        "data": {
+            "id": "CURRIC",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "CURRIC 319",
             "target": "CURRIC 320"
+        }
+    },
+    {
+        "data": {
+            "source": "CURRIC 320",
+            "target": "CURRIC 370"
         }
     }
 ]

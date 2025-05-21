@@ -9,14 +9,10 @@
     },
     {
         "data": {
-            "source": "STAT 612",
-            "target": "STAT 780"
-        }
-    },
-    {
-        "data": {
-            "id": "STAT",
-            "type": "compound"
+            "description": "Provides a thorough grounding in modern statistical methods. The specific learning outcomes for the course are to understand data collection in context (how/why data were collected, key questions under study); explore data by effective graphical and numerical summaries; understand probability concepts and models as tools for studying random phenomena and for statistical inference; analyze data using appropriate, modern statistical models, methods, and software; understand the statistical concepts underlying methods; develop the ability to interpret results and critically evaluate the methods used; communicate data analysis and key findings in context.",
+            "id": "STAT 601",
+            "parent": "STAT",
+            "title": "STATISTICAL METHODS I"
         }
     },
     {
@@ -29,22 +25,16 @@
     },
     {
         "data": {
-            "source": "STAT 611",
-            "target": "STAT 780"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 611",
-            "target": "STAT 612"
-        }
-    },
-    {
-        "data": {
-            "description": "Statistical models, methods and theory for parameter estimation, Bayesian approach to parameter estimation, methods and theory for hypothesis tests, confidence sets, two-sample testing and ANOVA, categorical data analysis, linear regression.",
-            "id": "STAT 612",
+            "description": "Review of probability, random variables and vectors and their distributions, moments and inequalities, generating functions, transformations of random variables, sampling and distribution theory, convergence concepts for sequences of random variables, laws of large numbers, central limit and other limit theorems.",
+            "id": "STAT 609",
             "parent": "STAT",
-            "title": "STATISTICAL INFERENCE FOR DATA SCIENCE"
+            "title": "MATHEMATICAL STATISTICS I"
+        }
+    },
+    {
+        "data": {
+            "id": "STAT",
+            "type": "compound"
         }
     },
     {
@@ -55,10 +45,14 @@
     },
     {
         "data": {
-            "description": "Provides a thorough grounding in modern statistical methods. The specific learning outcomes for the course are to understand data collection in context (how/why data were collected, key questions under study); explore data by effective graphical and numerical summaries; understand probability concepts and models as tools for studying random phenomena and for statistical inference; analyze data using appropriate, modern statistical models, methods, and software; understand the statistical concepts underlying methods; develop the ability to interpret results and critically evaluate the methods used; communicate data analysis and key findings in context.",
-            "id": "STAT 601",
-            "parent": "STAT",
-            "title": "STATISTICAL METHODS I"
+            "source": "STAT 609",
+            "target": "STAT 780"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 611",
+            "target": "STAT 780"
         }
     }
 ]

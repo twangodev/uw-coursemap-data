@@ -1,36 +1,10 @@
 [
     {
         "data": {
-            "source": "ACCTIS 300",
-            "target": "ACCTIS 329"
-        }
-    },
-    {
-        "data": {
-            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
-            "id": "ACCTIS 100",
-            "parent": "ACCTIS",
-            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
-        }
-    },
-    {
-        "data": {
             "description": "An introduction to the U.S. income taxation concepts with emphasis on business and personal planning strategies. Taxes are placed in a framework which considers all costs of doing business. Includes approaches and skills needed to prepare individual, corporate, and partnership income tax returns.",
             "id": "ACCTIS 329",
             "parent": "ACCTIS",
             "title": "TAXATION: CONCEPTS FOR BUSINESS AND PERSONAL PLANNING"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 300",
-            "target": "ACCTIS 100"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 300"
         }
     },
     {
@@ -43,8 +17,34 @@
     },
     {
         "data": {
+            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
+            "id": "ACCTIS 100",
+            "parent": "ACCTIS",
+            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+        }
+    },
+    {
+        "data": {
             "id": "ACCTIS",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 300",
+            "target": "ACCTIS 100"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 300",
+            "target": "ACCTIS 329"
         }
     }
 ]

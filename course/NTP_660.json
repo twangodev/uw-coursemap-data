@@ -28,20 +28,42 @@
     },
     "description": "Covers various topics in neuroscience and in the related sciences that demonstrate the interaction between science and public policy.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "declared in Neuroscience graduate program"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 611,
                 "subjects": [
-                    "NTP",
                     "PSYCH",
+                    "NTP",
                     "NEURODPT"
                 ]
             }
         ],
-        "prerequisites_text": "BIOCORE\u00a0485,ZOOLOGY/\u200bPSYCH\u00a0\u00a0523,PSYCH/\u200bNEURODPT/\u200bNTP\u00a0\u00a0611, or declared in Neuroscience graduate program"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 485,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", ",
             {
                 "course_number": 523,
                 "subjects": [
@@ -49,53 +71,123 @@
                     "PSYCH"
                 ]
             },
+            ", ",
             {
                 "course_number": 611,
                 "subjects": [
-                    "NTP",
                     "PSYCH",
+                    "NTP",
                     "NEURODPT"
                 ]
             },
+            ", or declared in Neuroscience graduate program"
+        ],
+        "prerequisites_text": "BIOCORE\u00a0485,ZOOLOGY/\u200bPSYCH\u00a0\u00a0523,PSYCH/\u200bNEURODPT/\u200bNTP\u00a0\u00a0611, or declared in Neuroscience graduate program"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "declared in Neuroscience graduate program"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 485,
                 "subjects": [
                     "BIOCORE"
                 ]
+            },
+            {
+                "course_number": 611,
+                "subjects": [
+                    "PSYCH",
+                    "NTP",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 523,
+                "subjects": [
+                    "ZOOLOGY",
+                    "PSYCH"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 485,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 523,
+                "subjects": [
+                    "ZOOLOGY",
+                    "PSYCH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 611,
+                "subjects": [
+                    "PSYCH",
+                    "NTP",
+                    "NEURODPT"
+                ]
+            },
+            ", or declared in Neuroscience graduate program"
         ],
         "prerequisites_text": "BIOCORE\u00a0485,ZOOLOGY/\u200bPSYCH\u00a0\u00a0523,PSYCH/\u200bNEURODPT/\u200bNTP\u00a0\u00a0611, or declared in Neuroscience graduate program"
     },
     "similar_courses": [
         {
-            "course_number": 620,
+            "course_number": 611,
             "subjects": [
+                "PSYCH",
                 "NTP",
-                "ZOOLOGY"
+                "NEURODPT"
             ]
         },
         {
-            "course_number": 666,
+            "course_number": 640,
             "subjects": [
+                "NTP",
+                "NEURODPT"
+            ]
+        },
+        {
+            "course_number": 620,
+            "subjects": [
+                "ZOOLOGY",
                 "NTP"
             ]
         },
         {
-            "course_number": 454,
+            "course_number": 610,
             "subjects": [
-                "PSYCH"
+                "NTP",
+                "NEURODPT"
             ]
         },
         {
             "course_number": 900,
             "subjects": [
                 "NTP"
-            ]
-        },
-        {
-            "course_number": 902,
-            "subjects": [
-                "LSC"
             ]
         }
     ],
@@ -513,8 +605,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BARBARA BENDLIN",
-                    "MICHAEL KOENIGS"
+                    "MICHAEL KOENIGS",
+                    "BARBARA BENDLIN"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -751,27 +843,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    1,
-                    2
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "BARBARA BENDLIN": "BBB@MEDICINE.WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "M",
-                    "name": "Medicine and Public Health",
-                    "url": "http://www.med.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1262": {
             "enrollment_data": {
                 "credit_count": [
@@ -781,7 +852,7 @@
                 "ethnics_studies": false,
                 "general_education": false,
                 "instructors": {},
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "M",
                     "name": "Medicine and Public Health",

@@ -9,6 +9,32 @@
     "cumulative_grade_data": null,
     "description": "Explore the biological and ecological systems of the oceans and marginal seas. Focus on understanding how marine organisms interact with their physical environment and how the biological components of the oceans are interconnected through trophic interactions and habitat selection.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 102,
@@ -26,10 +52,8 @@
                 ]
             }
         ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, orBIOCORE\u00a0381"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
             {
                 "course_number": 101,
                 "subjects": [
@@ -37,8 +61,76 @@
                     "BIOLOGY"
                 ]
             },
+            " and ",
             {
                 "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            }
+        ],
+        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, orBIOCORE\u00a0381"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 101,
                 "subjects": [
                     "ZOOLOGY",
                     "BIOLOGY"
@@ -51,7 +143,35 @@
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
             },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or ",
             {
                 "course_number": 381,
                 "subjects": [
@@ -63,12 +183,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 200,
-            "subjects": [
-                "ZOOLOGY"
-            ]
-        },
-        {
             "course_number": 750,
             "subjects": [
                 "ZOOLOGY",
@@ -78,15 +192,22 @@
             ]
         },
         {
-            "course_number": 303,
+            "course_number": 911,
             "subjects": [
-                "ZOOLOGY"
+                "ATMOCN",
+                "BOTANY",
+                "ZOOLOGY",
+                "CIVENGR",
+                "GEOSCI",
+                "ENVIRST"
             ]
         },
         {
-            "course_number": 304,
+            "course_number": 260,
             "subjects": [
-                "GEOSCI"
+                "BOTANY",
+                "ZOOLOGY",
+                "ENVIRST"
             ]
         },
         {
@@ -94,28 +215,15 @@
             "subjects": [
                 "ZOOLOGY"
             ]
+        },
+        {
+            "course_number": 303,
+            "subjects": [
+                "ZOOLOGY"
+            ]
         }
     ],
     "term_data": {
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    2,
-                    2
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": null,
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Not Applicable"
-            },
-            "grade_data": null
-        },
         "1256": {
             "enrollment_data": {
                 "credit_count": [
@@ -128,7 +236,7 @@
                     "Ayken Askapuli": "AYKEN.ASKAPULI@WISC.EDU",
                     "Michael Menon": "MVMENON@WISC.EDU"
                 },
-                "last_taught_term": null,
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

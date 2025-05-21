@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 425,
         "subjects": [
-            "MATH",
+            "ISYE",
             "COMPSCI",
-            "ISYE"
+            "MATH"
         ]
     },
     "course_title": "INTRODUCTION TO COMBINATORIAL OPTIMIZATION",
@@ -30,6 +30,41 @@
     },
     "description": "Focuses on optimization problems over discrete structures, such as shortest paths, spanning trees, flows, matchings, and the traveling salesman problem. We will investigate structural properties of these problems, and we will study both exact methods for their solution, and approximation algorithms.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing",
+                {
+                    "children": [
+                        "member of the Pre-Masters Mathematics",
+                        "Visiting International",
+                        "Program"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 341,
@@ -44,22 +79,76 @@
                 ]
             }
         ],
-        "prerequisites_text": "(MATH\u00a0320,340,341, or375) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
             {
-                "course_number": 341,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
             },
+            ", ",
             {
                 "course_number": 340,
                 "subjects": [
                     "MATH"
                 ]
             },
+            ", ",
+            {
+                "course_number": 341,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
+        ],
+        "prerequisites_text": "(MATH\u00a0320,340,341, or375) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                "graduate/professional standing",
+                {
+                    "children": [
+                        "member of the Pre-Masters Mathematics",
+                        "Visiting International",
+                        "Program"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 375,
                 "subjects": [
@@ -71,48 +160,91 @@
                 "subjects": [
                     "MATH"
                 ]
+            },
+            {
+                "course_number": 341,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 341,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
         ],
         "prerequisites_text": "(MATH\u00a0320,340,341, or375) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
     },
     "similar_courses": [
         {
-            "course_number": 524,
-            "subjects": [
-                "COMPSCI",
-                "ECE",
-                "ISYE"
-            ]
-        },
-        {
             "course_number": 525,
             "subjects": [
-                "MATH",
-                "COMPSCI",
                 "ISYE",
-                "STAT"
+                "COMPSCI",
+                "STAT",
+                "MATH"
             ]
         },
         {
-            "course_number": 728,
+            "course_number": 524,
             "subjects": [
-                "MATH",
+                "ISYE",
                 "COMPSCI",
-                "ISYE"
+                "ECE"
             ]
         },
         {
             "course_number": 475,
             "subjects": [
-                "MATH",
+                "STAT",
                 "COMPSCI",
-                "STAT"
+                "MATH"
             ]
         },
         {
-            "course_number": 846,
+            "course_number": 728,
             "subjects": [
+                "ISYE",
+                "COMPSCI",
                 "MATH"
+            ]
+        },
+        {
+            "course_number": 787,
+            "subjects": [
+                "COMPSCI"
             ]
         }
     ],
@@ -341,25 +473,6 @@
                 "total": 64,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2024",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         },
         "1262": {
             "enrollment_data": {

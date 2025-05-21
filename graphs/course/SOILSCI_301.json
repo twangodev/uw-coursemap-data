@@ -1,56 +1,10 @@
 [
     {
         "data": {
-            "description": "Physical chemical and biological properties of soils as they affect soil-plant-water relations, soil classification and suitability for agricultural and other uses.",
-            "id": "SOILSCI 301",
-            "parent": "SOILSCI",
-            "title": "GENERAL SOIL SCIENCE"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 115",
-            "target": "SOILSCI 301"
-        }
-    },
-    {
-        "data": {
             "description": "Accelerated coverage of topics in general chemistry, including introduction to laboratory techniques. Topics include atomic and molecular structure, chemical equilibrium, acid-base chemistry, thermodynamics, kinetics, and electrochemistry.",
             "id": "CHEM 109",
             "parent": "CHEM",
             "title": "ADVANCED GENERAL CHEMISTRY"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 109",
-            "target": "SOILSCI 301"
-        }
-    },
-    {
-        "data": {
-            "id": "SOILSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "CHEM",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Principles and application of chemical equilibrium, coordination chemistry, oxidation-reduction and electrochemistry, kinetics, nuclear chemistry, introduction to organic chemistry, and chemistry laboratory skills.",
-            "id": "CHEM 104",
-            "parent": "CHEM",
-            "title": "GENERAL CHEMISTRY II"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 115",
-            "target": "CHEM 103"
         }
     },
     {
@@ -63,14 +17,18 @@
     },
     {
         "data": {
-            "source": "CHEM 104",
-            "target": "CHEM 109"
+            "description": "Physical chemical and biological properties of soils as they affect soil-plant-water relations, soil classification and suitability for agricultural and other uses.",
+            "id": "SOILSCI 301",
+            "parent": "SOILSCI",
+            "title": "GENERAL SOIL SCIENCE"
         }
     },
     {
         "data": {
-            "source": "CHEM 109",
-            "target": "CHEM 104"
+            "description": "Principles and application of chemical equilibrium, coordination chemistry, oxidation-reduction and electrochemistry, kinetics, nuclear chemistry, introduction to organic chemistry, and chemistry laboratory skills.",
+            "id": "CHEM 104",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY II"
         }
     },
     {
@@ -83,6 +41,18 @@
     },
     {
         "data": {
+            "id": "CHEM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "SOILSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "CHEM 103",
             "target": "CHEM 104"
         }
@@ -90,6 +60,36 @@
     {
         "data": {
             "source": "CHEM 103",
+            "target": "SOILSCI 301"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 104",
+            "target": "CHEM 109"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "SOILSCI 301"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 115",
             "target": "SOILSCI 301"
         }
     }

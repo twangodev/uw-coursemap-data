@@ -1,12 +1,6 @@
 [
     {
         "data": {
-            "id": "PHYSICS",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
             "id": "PHYSICS 201",
             "parent": "PHYSICS",
@@ -15,8 +9,16 @@
     },
     {
         "data": {
-            "source": "PHYSICS 207",
-            "target": "PHYSICS 201"
+            "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
+            "id": "PHYSICS 207",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
+        }
+    },
+    {
+        "data": {
+            "id": "PHYSICS",
+            "type": "compound"
         }
     },
     {
@@ -27,10 +29,8 @@
     },
     {
         "data": {
-            "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
-            "id": "PHYSICS 207",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
+            "source": "PHYSICS 207",
+            "target": "PHYSICS 201"
         }
     }
 ]

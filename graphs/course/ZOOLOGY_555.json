@@ -1,21 +1,10 @@
 [
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "ZOOLOGY 470",
-            "target": "ZOOLOGY 555"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "ZOOLOGY 470"
+            "description": "Developmental anatomy and laboratory manipulations of representative animal embryos used extensively for analysis of developmental phenomena (sea urchins, amphibia, annelids, molluscs, ascidians, insects, chicks, fish, mice).",
+            "id": "ZOOLOGY 555",
+            "parent": "ZOOLOGY",
+            "title": "LABORATORY IN DEVELOPMENTAL BIOLOGY"
         }
     },
     {
@@ -23,6 +12,27 @@
             "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
             "id": "BIOLOGY/ZOOLOGY 101",
             "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to the major features and mechanisms of early embryonic development in animals, including (1) the major stages of early development, (2) how form arises in the embryo (morphogenesis), (3) how differences arise between cells in the embryo, and (4) how specific genes control these processes.",
+            "id": "ZOOLOGY 470",
+            "parent": "ZOOLOGY",
+            "title": "INTRODUCTION TO ANIMAL DEVELOPMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
         }
     },
     {
@@ -39,36 +49,26 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "target": "ZOOLOGY 470"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to the major features and mechanisms of early embryonic development in animals, including (1) the major stages of early development, (2) how form arises in the embryo (morphogenesis), (3) how differences arise between cells in the embryo, and (4) how specific genes control these processes.",
-            "id": "ZOOLOGY 470",
-            "parent": "ZOOLOGY",
-            "title": "INTRODUCTION TO ANIMAL DEVELOPMENT"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Developmental anatomy and laboratory manipulations of representative animal embryos used extensively for analysis of developmental phenomena (sea urchins, amphibia, annelids, molluscs, ascidians, insects, chicks, fish, mice).",
-            "id": "ZOOLOGY 555",
-            "parent": "ZOOLOGY",
-            "title": "LABORATORY IN DEVELOPMENTAL BIOLOGY"
         }
     },
     {
         "data": {
             "source": "BIOLOGY/ZOOLOGY 101",
             "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "ZOOLOGY 470"
+        }
+    },
+    {
+        "data": {
+            "source": "ZOOLOGY 470",
+            "target": "ZOOLOGY 555"
         }
     }
 ]

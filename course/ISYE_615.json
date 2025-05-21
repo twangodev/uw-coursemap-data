@@ -28,6 +28,47 @@
     },
     "description": "An intermediate to advanced course stressing the application of recent operations research techniques to production planning, scheduling and inventory control.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 315,
@@ -50,21 +91,102 @@
             {
                 "course_number": 310,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             }
         ],
-        "prerequisites_text": "I\u00a0SY\u00a0E\u00a0315,320, and323and (STAT/\u200bMATH\u00a0\u00a0310,STAT\u00a0312orSTAT/\u200bMATH\u00a0\u00a0431), graduate/professional standing, or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 315,
+                "subjects": [
+                    "ISYE"
+                ]
+            },
+            ", ",
             {
                 "course_number": 320,
                 "subjects": [
                     "ISYE"
                 ]
             },
+            ", and ",
+            {
+                "course_number": 323,
+                "subjects": [
+                    "ISYE"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 312,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 431,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            "), graduate/professional standing, or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "I\u00a0SY\u00a0E\u00a0315,320, and323and (STAT/\u200bMATH\u00a0\u00a0310,STAT\u00a0312orSTAT/\u200bMATH\u00a0\u00a0431), graduate/professional standing, or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 312,
                 "subjects": [
@@ -72,16 +194,23 @@
                 ]
             },
             {
+                "course_number": 431,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            {
                 "course_number": 323,
                 "subjects": [
                     "ISYE"
                 ]
             },
             {
-                "course_number": 431,
+                "course_number": 310,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             {
@@ -91,18 +220,76 @@
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 320,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "ISYE"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 315,
+                "subjects": [
+                    "ISYE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "ISYE"
+                ]
+            },
+            ", and ",
+            {
+                "course_number": 323,
+                "subjects": [
+                    "ISYE"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 312,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 431,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            "), graduate/professional standing, or member of Engineering Guest Students"
         ],
         "prerequisites_text": "I\u00a0SY\u00a0E\u00a0315,320, and323and (STAT/\u200bMATH\u00a0\u00a0310,STAT\u00a0312orSTAT/\u200bMATH\u00a0\u00a0431), graduate/professional standing, or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 605,
+            "course_number": 641,
+            "subjects": [
+                "ISYE",
+                "ME"
+            ]
+        },
+        {
+            "course_number": 323,
+            "subjects": [
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 415,
             "subjects": [
                 "ISYE"
             ]
@@ -114,20 +301,7 @@
             ]
         },
         {
-            "course_number": 641,
-            "subjects": [
-                "ME",
-                "ISYE"
-            ]
-        },
-        {
             "course_number": 315,
-            "subjects": [
-                "ISYE"
-            ]
-        },
-        {
-            "course_number": 415,
             "subjects": [
                 "ISYE"
             ]
@@ -434,27 +608,6 @@
                 "total": 11,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "XUEDONG DING": "XDING86@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

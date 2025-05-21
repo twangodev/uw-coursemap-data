@@ -2,14 +2,52 @@
     "course_reference": {
         "course_number": 566,
         "subjects": [
-            "ME",
-            "EP"
+            "EP",
+            "ME"
         ]
     },
     "course_title": "CRYOGENICS",
     "cumulative_grade_data": null,
     "description": "Applications of cryogenics, material properties at low temperatures, refrigeration and liquefaction systems, measurement techniques, insulation, storage and transfer of cryogenics, safety and handling.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 361,
@@ -24,20 +62,89 @@
                 ]
             },
             {
+                "course_number": 320,
+                "subjects": [
+                    "CBE"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or ",
+            {
                 "course_number": 415,
                 "subjects": [
                     "PHYSICS"
                 ]
-            }
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0361orPHYSICS\u00a0415) and (CBE\u00a0320orM\u00a0E\u00a0364), or graduate/professional standing, or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
+            },
+            ") and (",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            " or ",
             {
                 "course_number": 364,
                 "subjects": [
                     "ME"
+                ]
+            },
+            "), or graduate/professional standing, or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "(M\u00a0E\u00a0361orPHYSICS\u00a0415) and (CBE\u00a0320orM\u00a0E\u00a0364), or graduate/professional standing, or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 415,
+                "subjects": [
+                    "PHYSICS"
                 ]
             },
             {
@@ -53,26 +160,50 @@
                 ]
             },
             {
+                "course_number": 364,
+                "subjects": [
+                    "ME"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or ",
+            {
                 "course_number": 415,
                 "subjects": [
                     "PHYSICS"
                 ]
-            }
+            },
+            ") and (",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 364,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            "), or graduate/professional standing, or member of Engineering Guest Students"
         ],
         "prerequisites_text": "(M\u00a0E\u00a0361orPHYSICS\u00a0415) and (CBE\u00a0320orM\u00a0E\u00a0364), or graduate/professional standing, or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 777,
+            "course_number": 561,
             "subjects": [
-                "ME",
-                "EP"
-            ]
-        },
-        {
-            "course_number": 710,
-            "subjects": [
-                "CBE"
+                "ME"
             ]
         },
         {
@@ -82,13 +213,19 @@
             ]
         },
         {
-            "course_number": 561,
+            "course_number": 761,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 761,
+            "course_number": 602,
+            "subjects": [
+                "NE"
+            ]
+        },
+        {
+            "course_number": 564,
             "subjects": [
                 "ME"
             ]

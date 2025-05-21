@@ -1,54 +1,34 @@
 [
     {
         "data": {
-            "source": "CHEM 103",
-            "target": "ME 361"
+            "description": "Accelerated coverage of topics in general chemistry, including introduction to laboratory techniques. Topics include atomic and molecular structure, chemical equilibrium, acid-base chemistry, thermodynamics, kinetics, and electrochemistry.",
+            "id": "CHEM 109",
+            "parent": "CHEM",
+            "title": "ADVANCED GENERAL CHEMISTRY"
         }
     },
     {
         "data": {
-            "source": "PHYSICS 207",
-            "target": "CBE 320"
+            "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
+            "id": "PHYSICS 201",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
         }
     },
     {
         "data": {
-            "source": "ME 361",
-            "target": "ME/NE 520"
+            "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
+            "id": "PHYSICS 207",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
         }
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "EMA 201"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 361",
-            "target": "ME 364"
-        }
-    },
-    {
-        "data": {
-            "description": "Mass, momentum, and energy transport; calculation of transport coefficients; solution to problems in viscous flow, heat conduction, and diffusion; dimensional analysis; mass, momentum, and heat transfer coefficients; over-all balances; elementary applications.",
-            "id": "CBE 320",
-            "parent": "CBE",
-            "title": "INTRODUCTORY TRANSPORT PHENOMENA"
-        }
-    },
-    {
-        "data": {
-            "description": "Principles of mechanics, force systems, equilibrium, structures, distributed forces, moments of inertia of areas, and friction.",
-            "id": "EMA 201",
-            "parent": "EMA",
-            "title": "STATICS"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
@@ -61,46 +41,6 @@
     },
     {
         "data": {
-            "source": "CHEM 115",
-            "target": "CHEM 103"
-        }
-    },
-    {
-        "data": {
-            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
-            "id": "CHEM 115",
-            "parent": "CHEM",
-            "title": "CHEMICAL PRINCIPLES I"
-        }
-    },
-    {
-        "data": {
-            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
-            "id": "MATH 222",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 207",
-            "target": "PHYSICS 201"
-        }
-    },
-    {
-        "data": {
-            "id": "EMA",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
-            "target": "PHYSICS 207"
-        }
-    },
-    {
-        "data": {
             "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
             "id": "MATH 213",
             "parent": "MATH",
@@ -109,8 +49,50 @@
     },
     {
         "data": {
-            "id": "CHEM",
-            "type": "compound"
+            "description": "Fundamental concepts of conduction, convection, radiation. Heat-exchanger principles.",
+            "id": "ME 364",
+            "parent": "ME",
+            "title": "ELEMENTARY HEAT TRANSFER"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Laws of mechanics and thermodynamics applied to fluids at rest and in motion; potential flow; dimensional analysis; viscous flow; pipe flow; boundary-layer theory; compressible flow.",
+            "id": "ME 363",
+            "parent": "ME",
+            "title": "FLUID DYNAMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Mass, momentum, and energy transport; calculation of transport coefficients; solution to problems in viscous flow, heat conduction, and diffusion; dimensional analysis; mass, momentum, and heat transfer coefficients; over-all balances; elementary applications.",
+            "id": "CBE 320",
+            "parent": "CBE",
+            "title": "INTRODUCTORY TRANSPORT PHENOMENA"
+        }
+    },
+    {
+        "data": {
+            "description": "Principles and application of chemical equilibrium, coordination chemistry, oxidation-reduction and electrochemistry, kinetics, nuclear chemistry, introduction to organic chemistry, and chemistry laboratory skills.",
+            "id": "CHEM 104",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY II"
+        }
+    },
+    {
+        "data": {
+            "description": "Review of linear differential equations; series solution of linear differential equations; boundary value problems; Laplace transforms; possibly numerical methods and two dimensional autonomous systems.",
+            "id": "MATH 319",
+            "parent": "MATH",
+            "title": "TECHNIQUES IN ORDINARY DIFFERENTIAL EQUATIONS"
         }
     },
     {
@@ -123,8 +105,119 @@
     },
     {
         "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "description": "Two-phase flow and heat transfer in engineering systems. Pool boiling and flow boiling. Phenomenological modeling.",
+            "id": "ME/NE 520",
+            "title": "TWO-PHASE FLOW AND HEAT TRANSFER"
+        }
+    },
+    {
+        "data": {
+            "id": "CBE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CHEM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "ME",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "PHYSICS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CBE 320",
+            "target": "ME/NE 520"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 103",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 103",
+            "target": "ME 361"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 104",
+            "target": "CHEM 109"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "ME 361"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 211",
             "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
         }
     },
     {
@@ -141,56 +234,8 @@
     },
     {
         "data": {
-            "source": "EMA 201",
-            "target": "ME 361"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 363",
-            "target": "ME 364"
-        }
-    },
-    {
-        "data": {
-            "description": "Review of linear differential equations; series solution of linear differential equations; boundary value problems; Laplace transforms; possibly numerical methods and two dimensional autonomous systems.",
-            "id": "MATH 319",
-            "parent": "MATH",
-            "title": "TECHNIQUES IN ORDINARY DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "id": "CBE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Fundamental concepts of conduction, convection, radiation. Heat-exchanger principles.",
-            "id": "ME 364",
-            "parent": "ME",
-            "title": "ELEMENTARY HEAT TRANSFER"
-        }
-    },
-    {
-        "data": {
-            "source": "CBE 320",
-            "target": "ME/NE 520"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
+            "source": "MATH 319",
+            "target": "ME 363"
         }
     },
     {
@@ -201,10 +246,20 @@
     },
     {
         "data": {
-            "description": "Laws of mechanics and thermodynamics applied to fluids at rest and in motion; potential flow; dimensional analysis; viscous flow; pipe flow; boundary-layer theory; compressible flow.",
-            "id": "ME 363",
-            "parent": "ME",
-            "title": "FLUID DYNAMICS"
+            "source": "ME 361",
+            "target": "ME 364"
+        }
+    },
+    {
+        "data": {
+            "source": "ME 361",
+            "target": "ME/NE 520"
+        }
+    },
+    {
+        "data": {
+            "source": "ME 363",
+            "target": "ME 364"
         }
     },
     {
@@ -215,75 +270,26 @@
     },
     {
         "data": {
-            "source": "MATH 213",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
-            "id": "PHYSICS 207",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
-            "id": "PHYSICS",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
-            "id": "PHYSICS 201",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Two-phase flow and heat transfer in engineering systems. Pool boiling and flow boiling. Phenomenological modeling.",
-            "id": "ME/NE 520",
-            "title": "TWO-PHASE FLOW AND HEAT TRANSFER"
-        }
-    },
-    {
-        "data": {
             "source": "PHYSICS 201",
             "target": "CBE 320"
         }
     },
     {
         "data": {
-            "id": "MATH",
-            "type": "compound"
+            "source": "PHYSICS 201",
+            "target": "PHYSICS 207"
         }
     },
     {
         "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
+            "source": "PHYSICS 207",
+            "target": "CBE 320"
         }
     },
     {
         "data": {
-            "id": "ME",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 319",
-            "target": "ME 363"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "source": "PHYSICS 207",
+            "target": "PHYSICS 201"
         }
     }
 ]

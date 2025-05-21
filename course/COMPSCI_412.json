@@ -28,58 +28,67 @@
     },
     "description": "Interpolation, solution of linear and nonlinear systems of equations, approximate integration and differentiation, numerical solution of ordinary differential equations, Data fitting (such as least squares) by polynomials and splines. Knowledge of matrix algebra recommended, such asMATH\u00a0340.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "301",
+                                "302",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [
+                                        "placement into",
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        }
+                                    ],
+                                    "operator": "AND"
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "declared in the Capstone Certificate in Computer Sciences for Professionals"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 240,
-                "subjects": [
-                    "MATH",
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "prerequisites_text": "MATH\u00a0222and (MATH/\u200bCOMP\u00a0SCI\u00a0\u00a0240orMATH\u00a0234) and (COMP\u00a0SCI\u00a0200,300, 301, 302,310, or placement intoCOMP\u00a0SCI\u00a0300) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 240,
-                "subjects": [
-                    "MATH",
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 300,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -95,11 +104,235 @@
                 "subjects": [
                     "MATH"
                 ]
+            },
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 240,
+                "subjects": [
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 200,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", 301, 302, ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", or placement into ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ") or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
+        ],
+        "prerequisites_text": "MATH\u00a0222and (MATH/\u200bCOMP\u00a0SCI\u00a0\u00a0240orMATH\u00a0234) and (COMP\u00a0SCI\u00a0200,300, 301, 302,310, or placement intoCOMP\u00a0SCI\u00a0300) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "301",
+                                "302",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [
+                                        "placement into",
+                                        {
+                                            "children": [],
+                                            "operator": null
+                                        }
+                                    ],
+                                    "operator": "AND"
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing",
+                "declared in the Capstone Certificate in Computer Sciences for Professionals"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 200,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 240,
+                "subjects": [
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 310,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 240,
+                "subjects": [
+                    "COMPSCI",
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 200,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", 301, 302, ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", or placement into ",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ") or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
         ],
         "prerequisites_text": "MATH\u00a0222and (MATH/\u200bCOMP\u00a0SCI\u00a0\u00a0240orMATH\u00a0234) and (COMP\u00a0SCI\u00a0200,300, 301, 302,310, or placement intoCOMP\u00a0SCI\u00a0300) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
     },
     "similar_courses": [
+        {
+            "course_number": 714,
+            "subjects": [
+                "COMPSCI",
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 513,
+            "subjects": [
+                "COMPSCI",
+                "MATH"
+            ]
+        },
         {
             "course_number": 320,
             "subjects": [
@@ -109,29 +342,15 @@
         {
             "course_number": 514,
             "subjects": [
-                "MATH",
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 513,
-            "subjects": [
-                "MATH",
-                "COMPSCI"
+                "COMPSCI",
+                "MATH"
             ]
         },
         {
             "course_number": 715,
             "subjects": [
-                "MATH",
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 714,
-            "subjects": [
-                "MATH",
-                "COMPSCI"
+                "COMPSCI",
+                "MATH"
             ]
         }
     ],
@@ -800,8 +1019,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "YUNFU DENG",
-                    "Amos RON"
+                    "Amos RON",
+                    "YUNFU DENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -852,8 +1071,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GUYANG CAO",
-                    "Amos RON"
+                    "Amos RON",
+                    "GUYANG CAO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -864,25 +1083,6 @@
                 "total": 39,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2024",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
         }
     }
 }

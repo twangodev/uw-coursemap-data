@@ -28,30 +28,48 @@
     },
     "description": "Mathematical modeling and analysis of dynamic systems with mechanical, thermal, and fluid elements. Topics: time domain solutions, analog computer simulation, linearization techniques, block diagram representation, numerical methods and frequency domain solutions. Students are assumed to have basic competence in particle and planar rigid body dynamics, matrix and vector algebra, and linear differential equations.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0240orE\u00a0M\u00a0A\u00a0202) and (MATH\u00a0319,320, or375), or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
             {
                 "course_number": 240,
                 "subjects": [
@@ -63,11 +81,113 @@
                 "subjects": [
                     "MATH"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 240,
+                "subjects": [
+                    "ME"
+                ]
             },
+            " or ",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            ") and (",
             {
                 "course_number": 319,
                 "subjects": [
                     "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            "), or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "(M\u00a0E\u00a0240orE\u00a0M\u00a0A\u00a0202) and (MATH\u00a0319,320, or375), or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 240,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            {
+                "course_number": 202,
+                "subjects": [
+                    "EMA"
                 ]
             },
             {
@@ -77,6 +197,44 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 240,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 202,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            "), or member of Engineering Guest Students"
+        ],
         "prerequisites_text": "(M\u00a0E\u00a0240orE\u00a0M\u00a0A\u00a0202) and (MATH\u00a0319,320, or375), or member of Engineering Guest Students"
     },
     "similar_courses": [
@@ -84,13 +242,6 @@
             "course_number": 448,
             "subjects": [
                 "ME"
-            ]
-        },
-        {
-            "course_number": 732,
-            "subjects": [
-                "ME",
-                "ECE"
             ]
         },
         {
@@ -109,6 +260,13 @@
             "course_number": 746,
             "subjects": [
                 "ME"
+            ]
+        },
+        {
+            "course_number": 732,
+            "subjects": [
+                "ME",
+                "ECE"
             ]
         }
     ],
@@ -179,9 +337,9 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Dan NEGRUT",
+                    "JOHN MOSKWA",
                     "NEIL DUFFIE",
-                    "JOHN MOSKWA"
+                    "Dan NEGRUT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -310,8 +468,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "NEIL DUFFIE",
-                    "JOHN MOSKWA"
+                    "JOHN MOSKWA",
+                    "NEIL DUFFIE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -817,8 +975,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Randy JACKSON",
-                    "Xiangru XU"
+                    "Xiangru XU",
+                    "Randy JACKSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -843,8 +1001,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Randy JACKSON",
-                    "Xiangru XU"
+                    "Xiangru XU",
+                    "Randy JACKSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -894,8 +1052,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "Randy JACKSON",
-                    "Xiangru XU"
+                    "Xiangru XU",
+                    "Randy JACKSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1008,30 +1166,6 @@
                 "unsatisfactory": 0
             }
         },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Arslan Majal": "MAJAL@WISC.EDU",
-                    "MELIH ERITEN": "ERITEN@WISC.EDU",
-                    "Mikhail Moshchin": "MOSHCHIN@WISC.EDU",
-                    "Xiaobin XIONG": "XIAOBIN.XIONG@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring"
-            },
-            "grade_data": null
-        },
         "1256": {
             "enrollment_data": {
                 "credit_count": [
@@ -1043,7 +1177,7 @@
                 "instructors": {
                     "Randy JACKSON": "RSJACKSON3@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",
@@ -1064,7 +1198,7 @@
                 "instructors": {
                     "Xiangru XU": "XIANGRU.XU@WISC.EDU"
                 },
-                "last_taught_term": "2025 Sprng",
+                "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "E",
                     "name": "Engineering",

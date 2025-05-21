@@ -1,8 +1,10 @@
 [
     {
         "data": {
-            "source": "DS 623",
-            "target": "DS 626"
+            "description": "Design of commercial interiors with emphasis on acoustics, codes, costs, specifications, details, and visual presentation. Field trip required.",
+            "id": "DS 623",
+            "parent": "DS",
+            "title": "INTERIOR DESIGN IV"
         }
     },
     {
@@ -15,10 +17,34 @@
     },
     {
         "data": {
-            "description": "Design of commercial interiors with emphasis on acoustics, codes, costs, specifications, details, and visual presentation. Field trip required.",
-            "id": "DS 623",
+            "description": "Design of residential interiors including space planning, lighting design, selections of materials and furniture, professional communication of design solutions. Emphasis on the aesthetic and functional needs of the family and residents with special needs.",
+            "id": "DS 322",
             "parent": "DS",
-            "title": "INTERIOR DESIGN IV"
+            "title": "INTERIOR DESIGN II"
+        }
+    },
+    {
+        "data": {
+            "description": "Elements and principles of design relevant to design of the visual environment.",
+            "id": "DS 120",
+            "parent": "DS",
+            "title": "DESIGN: FUNDAMENTALS I"
+        }
+    },
+    {
+        "data": {
+            "description": "Elements and principles of three-dimensional design relevant to design and analysis of the spatial environment.",
+            "id": "DS 220",
+            "parent": "DS",
+            "title": "DESIGN: FUNDAMENTALS II"
+        }
+    },
+    {
+        "data": {
+            "description": "Provides the opportunity to explore and refine interior design skills while responding to current events and the ever changing world around us. Follow the design process from research, programming, conceptual and schematic design, full design development and presentation. All aspects of designing an interiors project in detail will be addressed, including space planning, interior architectural articulation, furniture selection, finish selection, detailing of custom elements, rendering, website development for client presentation, and more.",
+            "id": "DS 626",
+            "parent": "DS",
+            "title": "INTERIOR DESIGN V"
         }
     },
     {
@@ -31,24 +57,8 @@
     },
     {
         "data": {
-            "description": "Design of residential interiors including space planning, lighting design, selections of materials and furniture, professional communication of design solutions. Emphasis on the aesthetic and functional needs of the family and residents with special needs.",
-            "id": "DS 322",
-            "parent": "DS",
-            "title": "INTERIOR DESIGN II"
-        }
-    },
-    {
-        "data": {
-            "source": "DS 322",
-            "target": "DS 622"
-        }
-    },
-    {
-        "data": {
-            "description": "Elements and principles of design relevant to design of the visual environment.",
-            "id": "DS 120",
-            "parent": "DS",
-            "title": "DESIGN: FUNDAMENTALS I"
+            "id": "DS",
+            "type": "compound"
         }
     },
     {
@@ -65,24 +75,14 @@
     },
     {
         "data": {
-            "description": "Provides the opportunity to explore and refine interior design skills while responding to current events and the ever changing world around us. Follow the design process from research, programming, conceptual and schematic design, full design development and presentation. All aspects of designing an interiors project in detail will be addressed, including space planning, interior architectural articulation, furniture selection, finish selection, detailing of custom elements, rendering, website development for client presentation, and more.",
-            "id": "DS 626",
-            "parent": "DS",
-            "title": "INTERIOR DESIGN V"
+            "source": "DS 222",
+            "target": "DS 322"
         }
     },
     {
         "data": {
-            "id": "DS",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Elements and principles of three-dimensional design relevant to design and analysis of the spatial environment.",
-            "id": "DS 220",
-            "parent": "DS",
-            "title": "DESIGN: FUNDAMENTALS II"
+            "source": "DS 322",
+            "target": "DS 622"
         }
     },
     {
@@ -93,8 +93,8 @@
     },
     {
         "data": {
-            "source": "DS 222",
-            "target": "DS 322"
+            "source": "DS 623",
+            "target": "DS 626"
         }
     }
 ]

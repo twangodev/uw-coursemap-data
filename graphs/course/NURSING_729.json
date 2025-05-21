@@ -1,8 +1,34 @@
 [
     {
         "data": {
-            "id": "NURSING",
-            "type": "compound"
+            "description": "Designed to advance  knowledge for clinical decision-making. Complex and chronic health conditions are emphasized while continuing to promote health maintenance within the context of existing health problems.",
+            "id": "NURSING 727",
+            "parent": "NURSING",
+            "title": "FOUNDATIONS FOR APN CLINICAL PRACTICE II"
+        }
+    },
+    {
+        "data": {
+            "description": "Designed to advance knowledge for clinical decision making. Health promotion, illness prevention and common health conditions are emphasized.",
+            "id": "NURSING 726",
+            "parent": "NURSING",
+            "title": "FOUNDATIONS FOR APN CLINICAL PRACTICE I"
+        }
+    },
+    {
+        "data": {
+            "description": "Focuses on developing advanced practice competencies in health assessment as relevant to a selected specialty and practice setting. Become grounded in the theoretical perspectives, empirical documentation, and practice skills necessary for advanced biopsychosocial and physical assessment, critical diagnostic reasoning, clinical decision-making, and communication. Interactions of developmental, biopsychosocial, and cultural contexts resulting in health effects. Demonstrate capacity to provide a full spectrum of healthcare services including health promotion, disease prevention, health protection, anticipatory guidance, counseling, and disease management. Provides a foundation for the advanced practice nurse to evaluate and address the health of individuals.",
+            "id": "NURSING 601",
+            "parent": "NURSING",
+            "title": "ADVANCED HEALTH ASSESSMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Supervised clinical practicum focuses on the continued development and application of advanced health promotion, assessment and clinical management skills within the context of chronic illness and complex health issues.",
+            "id": "NURSING 728",
+            "parent": "NURSING",
+            "title": "ADVANCED PRACTICE CLINICAL APPLICATION AND ROLE DEVELOPMENT I"
         }
     },
     {
@@ -11,6 +37,44 @@
             "id": "NURSING 729",
             "parent": "NURSING",
             "title": "ADVANCED PRACTICE CLINICAL APPLICATION AND ROLE DEVELOPMENT II"
+        }
+    },
+    {
+        "data": {
+            "description": "Transition and expansion of leadership role for advanced practice.  Emphasis on the development of effective, ethical leadership styles; interpretation of legal and professional requirements and regulations; examination of the ethics, values, beliefs, and norms of decision-making in interdisciplinary, collaborative practice.",
+            "id": "NURSING 704",
+            "parent": "NURSING",
+            "title": "LEADERSHIP IN ADVANCED PRACTICE NURSING I"
+        }
+    },
+    {
+        "data": {
+            "id": "NURSING",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "NURSING 601",
+            "target": "NURSING 726"
+        }
+    },
+    {
+        "data": {
+            "source": "NURSING 704",
+            "target": "NURSING 601"
+        }
+    },
+    {
+        "data": {
+            "source": "NURSING 726",
+            "target": "NURSING 727"
+        }
+    },
+    {
+        "data": {
+            "source": "NURSING 726",
+            "target": "NURSING 728"
         }
     },
     {
@@ -27,58 +91,8 @@
     },
     {
         "data": {
-            "source": "NURSING 726",
-            "target": "NURSING 728"
-        }
-    },
-    {
-        "data": {
-            "description": "In-depth study of selected physiological and pathophysiological concepts with application to advanced clinical practice across the lifespan.",
-            "id": "NURSING 811",
-            "parent": "NURSING",
-            "title": "ADVANCED PATHOPHYSIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "NURSING 811",
-            "target": "NURSING 726"
-        }
-    },
-    {
-        "data": {
-            "description": "Supervised clinical practicum focuses on the continued development and application of advanced health promotion, assessment and clinical management skills within the context of chronic illness and complex health issues.",
-            "id": "NURSING 728",
-            "parent": "NURSING",
-            "title": "ADVANCED PRACTICE CLINICAL APPLICATION AND ROLE DEVELOPMENT I"
-        }
-    },
-    {
-        "data": {
-            "description": "Designed to advance  knowledge for clinical decision-making. Complex and chronic health conditions are emphasized while continuing to promote health maintenance within the context of existing health problems.",
-            "id": "NURSING 727",
-            "parent": "NURSING",
-            "title": "FOUNDATIONS FOR APN CLINICAL PRACTICE II"
-        }
-    },
-    {
-        "data": {
             "source": "NURSING 729",
             "target": "NURSING 727"
-        }
-    },
-    {
-        "data": {
-            "source": "NURSING 726",
-            "target": "NURSING 727"
-        }
-    },
-    {
-        "data": {
-            "description": "Designed to advance knowledge for clinical decision making. Health promotion, illness prevention and common health conditions are emphasized.",
-            "id": "NURSING 726",
-            "parent": "NURSING",
-            "title": "FOUNDATIONS FOR APN CLINICAL PRACTICE I"
         }
     }
 ]

@@ -3,15 +3,33 @@
         "course_number": 606,
         "subjects": [
             "SOILSCI",
-            "PLPATH",
+            "ENTOM",
             "F&WECOL",
-            "ENTOM"
+            "PLPATH"
         ]
     },
     "course_title": "COLLOQUIUM IN ENVIRONMENTAL TOXICOLOGY",
     "cumulative_grade_data": null,
     "description": "Current topics in molecular and environmental toxicology and problems related to biologically active substances in the environment. Topics vary each semester. Lectures are by resident and visiting professors and other researchers.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 151,
@@ -29,10 +47,15 @@
                 ]
             }
         ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101orBOTANY/\u200bBIOLOGY\u00a0\u00a0130orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " or ",
             {
                 "course_number": 130,
                 "subjects": [
@@ -40,6 +63,39 @@
                     "BIOLOGY"
                 ]
             },
+            " or ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or graduate/professional standing"
+        ],
+        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101orBOTANY/\u200bBIOLOGY\u00a0\u00a0130orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 101,
                 "subjects": [
@@ -54,29 +110,45 @@
                     "ZOOLOGY",
                     "BIOLOGY"
                 ]
+            },
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or graduate/professional standing"
         ],
         "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101orBOTANY/\u200bBIOLOGY\u00a0\u00a0130orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or graduate/professional standing"
     },
     "similar_courses": [
-        {
-            "course_number": 730,
-            "subjects": [
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 801,
-            "subjects": [
-                "ENTOM"
-            ]
-        },
-        {
-            "course_number": 800,
-            "subjects": [
-                "M&ENVTOX"
-            ]
-        },
         {
             "course_number": 631,
             "subjects": [
@@ -86,13 +158,31 @@
             ]
         },
         {
+            "course_number": 730,
+            "subjects": [
+                "SOILSCI"
+            ]
+        },
+        {
             "course_number": 626,
             "subjects": [
-                "PATH",
                 "PHMSCI",
                 "M&ENVTOX",
+                "PATH",
                 "PHMCOL-M",
                 "POPHLTH"
+            ]
+        },
+        {
+            "course_number": 800,
+            "subjects": [
+                "M&ENVTOX"
+            ]
+        },
+        {
+            "course_number": 801,
+            "subjects": [
+                "ENTOM"
             ]
         }
     ],

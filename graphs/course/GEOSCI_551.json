@@ -1,8 +1,17 @@
 [
     {
         "data": {
-            "id": "GEOSCI",
-            "type": "compound"
+            "description": "Investigates the history of the Earth's oceans, focusing on the last 65 million years, with discussion of the chemical and physical methods through which oceans are studied and the role of oceans in the climate system.",
+            "id": "GEOSCI 551",
+            "parent": "GEOSCI",
+            "title": "PALEOCEANOGRAPHY"
+        }
+    },
+    {
+        "data": {
+            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
+            "id": "ENVIRST/GEOSCI 106",
+            "title": "ENVIRONMENTAL GEOLOGY"
         }
     },
     {
@@ -15,29 +24,9 @@
     },
     {
         "data": {
-            "source": "GEOSCI 100",
-            "target": "GEOSCI 551"
-        }
-    },
-    {
-        "data": {
-            "source": "GEOSCI 100",
-            "target": "ENVIRST/GEOSCI 106"
-        }
-    },
-    {
-        "data": {
-            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
-            "id": "ENVIRST/GEOSCI 106",
-            "title": "ENVIRONMENTAL GEOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Investigates the history of the Earth's oceans, focusing on the last 65 million years, with discussion of the chemical and physical methods through which oceans are studied and the role of oceans in the climate system.",
-            "id": "GEOSCI 551",
-            "parent": "GEOSCI",
-            "title": "PALEOCEANOGRAPHY"
+            "description": "Nature and behavior of ocean water, interaction of oceans and atmosphere, structure of the ocean floor, life in the oceans, our relationship to the marine environment.",
+            "id": "ATMOCN/GEOSCI 105",
+            "title": "SURVEY OF OCEANOGRAPHY"
         }
     },
     {
@@ -48,8 +37,8 @@
     },
     {
         "data": {
-            "source": "ENVIRST/GEOSCI 106",
-            "target": "GEOSCI 100"
+            "id": "GEOSCI",
+            "type": "compound"
         }
     },
     {
@@ -60,9 +49,20 @@
     },
     {
         "data": {
-            "description": "Nature and behavior of ocean water, interaction of oceans and atmosphere, structure of the ocean floor, life in the oceans, our relationship to the marine environment.",
-            "id": "ATMOCN/GEOSCI 105",
-            "title": "SURVEY OF OCEANOGRAPHY"
+            "source": "ENVIRST/GEOSCI 106",
+            "target": "GEOSCI 100"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 100",
+            "target": "ENVIRST/GEOSCI 106"
+        }
+    },
+    {
+        "data": {
+            "source": "GEOSCI 100",
+            "target": "GEOSCI 551"
         }
     }
 ]

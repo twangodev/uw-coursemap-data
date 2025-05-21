@@ -1,8 +1,18 @@
 [
     {
         "data": {
-            "id": "PHYSICS",
-            "type": "compound"
+            "description": "A systematic introduction to the application of the first and second laws of thermodynamics to systems relevant to environmental engineering. Energy balances used to solve environmental engineering problems in flowing and non-flowing systems. Examines the relationship between energy, heat and work using theoretical and practical models. Chemical reactions as well as gas and fluid mixing from a thermodynamics perspective. Performance limits imposed by the second law of thermodynamics on devices used in power generation, fluid flow, refrigeration, and air conditioning.",
+            "id": "CIVENGR 324",
+            "parent": "CIVENGR",
+            "title": "ENVIRONMENTAL ENGINEERING THERMODYNAMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Accelerated coverage of topics in general chemistry, including introduction to laboratory techniques. Topics include atomic and molecular structure, chemical equilibrium, acid-base chemistry, thermodynamics, kinetics, and electrochemistry.",
+            "id": "CHEM 109",
+            "parent": "CHEM",
+            "title": "ADVANCED GENERAL CHEMISTRY"
         }
     },
     {
@@ -15,34 +25,80 @@
     },
     {
         "data": {
+            "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
+            "id": "PHYSICS 207",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Principles and application of chemical equilibrium, coordination chemistry, oxidation-reduction and electrochemistry, kinetics, nuclear chemistry, introduction to organic chemistry, and chemistry laboratory skills.",
+            "id": "CHEM 104",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY II"
+        }
+    },
+    {
+        "data": {
+            "description": "Stoichiometry and the mole concept, the behavior of gases, liquids and solids, thermochemistry, electronic structure of atoms and chemical bonding, descriptive chemistry of selected elements and compounds, intermolecular forces, and chemistry laboratory skills.",
+            "id": "CHEM 103",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY I"
+        }
+    },
+    {
+        "data": {
+            "id": "CHEM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "CIVENGR",
             "type": "compound"
         }
     },
     {
         "data": {
+            "id": "PHYSICS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 103",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 104",
+            "target": "CHEM 109"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 104",
+            "target": "CIVENGR 324"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 109",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
             "source": "PHYSICS 201",
             "target": "CIVENGR 324"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 207",
-            "target": "CIVENGR 324"
-        }
-    },
-    {
-        "data": {
-            "description": "A systematic introduction to the application of the first and second laws of thermodynamics to systems relevant to environmental engineering. Energy balances used to solve environmental engineering problems in flowing and non-flowing systems. Examines the relationship between energy, heat and work using theoretical and practical models. Chemical reactions as well as gas and fluid mixing from a thermodynamics perspective. Performance limits imposed by the second law of thermodynamics on devices used in power generation, fluid flow, refrigeration, and air conditioning.",
-            "id": "CIVENGR 324",
-            "parent": "CIVENGR",
-            "title": "ENVIRONMENTAL ENGINEERING THERMODYNAMICS"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 207",
-            "target": "PHYSICS 201"
         }
     },
     {
@@ -53,10 +109,8 @@
     },
     {
         "data": {
-            "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
-            "id": "PHYSICS 207",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
+            "source": "PHYSICS 207",
+            "target": "PHYSICS 201"
         }
     }
 ]

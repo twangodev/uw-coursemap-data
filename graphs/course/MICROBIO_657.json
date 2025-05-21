@@ -1,70 +1,10 @@
 [
     {
         "data": {
-            "id": "MICROBIO",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Provides a practical and fundamental introduction to sequence-based analysis focused on microbial systems. Emphasis on gaining a basic understanding of the principles of both classical and newer algorithms useful for bioinformatic analysis. Topics include: BLAST; RNA-seq analysis; transcriptional binding prediction; genome sequence assembly, analysis and annotation; and comparative genomics. Note that this course requires that each student have access to a laptop that runs a linux/unix Operating System such as a Mac or a ChromeBook. PC Laptops running a VM are also acceptable. No prior knowledge of computational biology is required.",
-            "id": "MICROBIO 657",
-            "parent": "MICROBIO",
-            "title": "BIOINFORMATICS FOR MICROBIOLOGISTS"
-        }
-    },
-    {
-        "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "MICROBIO 303",
-            "target": "MICROBIO 657"
-        }
-    },
-    {
-        "data": {
-            "source": "GENETICS 467",
-            "target": "MICROBIO 657"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "GENETICS 467"
-        }
-    },
-    {
-        "data": {
             "description": "Basic biology of microorganisms, including structure, function, physiology, genetics, ecology, diversity, and evolution.",
             "id": "MICROBIO 303",
             "parent": "MICROBIO",
             "title": "BIOLOGY OF MICROORGANISMS"
-        }
-    },
-    {
-        "data": {
-            "source": "GENETICS 466",
-            "target": "GENETICS 467"
-        }
-    },
-    {
-        "data": {
-            "description": "Genetics of eukaryotes and prokaryotes. Includes transmission genetics, probability and hypothesis testing, genetic mapping, molecular genetics, gene expression, and genetic engineering. Illustrative material includes viruses, bacteria, plants, fungi, insects, and humans.",
-            "id": "GENETICS 467",
-            "parent": "GENETICS",
-            "title": "GENERAL GENETICS 1"
         }
     },
     {
@@ -77,20 +17,17 @@
     },
     {
         "data": {
-            "id": "GENETICS",
-            "type": "compound"
+            "description": "Cellular and molecular basis of life. The main themes are the structure and function of cells and organelles, the flow of energy in cells, and the storage, expression, and regulation of genetic information.",
+            "id": "BIOCORE 383",
+            "parent": "BIOCORE",
+            "title": "CELLULAR BIOLOGY"
         }
     },
     {
         "data": {
-            "source": "GENETICS 467",
-            "target": "GENETICS 466"
-        }
-    },
-    {
-        "data": {
-            "source": "GENETICS 468",
-            "target": "GENETICS 466"
+            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
+            "id": "BIOLOGY/ZOOLOGY 101",
+            "title": "ANIMAL BIOLOGY"
         }
     },
     {
@@ -103,24 +40,6 @@
     },
     {
         "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOCORE 381",
-            "target": "GENETICS 467"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
-        }
-    },
-    {
-        "data": {
             "description": "Genetics in eukaryotes and prokaryotes.  Includes transmission genetics, molecular genetics, evolutionary genetics, genetic engineering, and societal issues associated with genetics.  Illustrative material includes bacteria, plants, insects, and vertebrates.",
             "id": "GENETICS 466",
             "parent": "GENETICS",
@@ -129,14 +48,10 @@
     },
     {
         "data": {
-            "source": "GENETICS 467",
-            "target": "GENETICS 468"
-        }
-    },
-    {
-        "data": {
-            "id": "BIOCORE",
-            "type": "compound"
+            "description": "Genetics of eukaryotes and prokaryotes. Includes transmission genetics, probability and hypothesis testing, genetic mapping, molecular genetics, gene expression, and genetic engineering. Illustrative material includes viruses, bacteria, plants, fungi, insects, and humans.",
+            "id": "GENETICS 467",
+            "parent": "GENETICS",
+            "title": "GENERAL GENETICS 1"
         }
     },
     {
@@ -148,19 +63,64 @@
     },
     {
         "data": {
+            "description": "Provides a practical and fundamental introduction to sequence-based analysis focused on microbial systems. Emphasis on gaining a basic understanding of the principles of both classical and newer algorithms useful for bioinformatic analysis. Topics include: BLAST; RNA-seq analysis; transcriptional binding prediction; genome sequence assembly, analysis and annotation; and comparative genomics. Note that this course requires that each student have access to a laptop that runs a linux/unix Operating System such as a Mac or a ChromeBook. PC Laptops running a VM are also acceptable. No prior knowledge of computational biology is required.",
+            "id": "MICROBIO 657",
+            "parent": "MICROBIO",
+            "title": "BIOINFORMATICS FOR MICROBIOLOGISTS"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "id": "BIOCORE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "GENETICS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MICROBIO",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOCORE 381",
+            "target": "BIOCORE 383"
+        }
+    },
+    {
+        "data": {
             "source": "BIOCORE 381",
             "target": "GENETICS 466"
         }
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
+            "source": "BIOCORE 381",
+            "target": "GENETICS 467"
         }
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
+            "source": "BIOCORE 383",
             "target": "MICROBIO 303"
         }
     },
@@ -173,7 +133,61 @@
     {
         "data": {
             "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/ZOOLOGY 101"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "GENETICS 467"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "target": "MICROBIO 303"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
+        }
+    },
+    {
+        "data": {
+            "source": "GENETICS 466",
+            "target": "GENETICS 467"
+        }
+    },
+    {
+        "data": {
+            "source": "GENETICS 467",
+            "target": "GENETICS 466"
+        }
+    },
+    {
+        "data": {
+            "source": "GENETICS 467",
+            "target": "GENETICS 468"
+        }
+    },
+    {
+        "data": {
+            "source": "GENETICS 467",
+            "target": "MICROBIO 657"
+        }
+    },
+    {
+        "data": {
+            "source": "GENETICS 468",
+            "target": "GENETICS 466"
+        }
+    },
+    {
+        "data": {
+            "source": "MICROBIO 303",
+            "target": "MICROBIO 657"
         }
     }
 ]

@@ -1,22 +1,10 @@
 [
     {
         "data": {
-            "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
-            "id": "MARKETNG 300",
-            "parent": "MARKETNG",
-            "title": "MARKETING MANAGEMENT"
-        }
-    },
-    {
-        "data": {
-            "source": "MARKETNG 300",
-            "target": "MARKETNG 442"
-        }
-    },
-    {
-        "data": {
-            "id": "MARKETNG",
-            "type": "compound"
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
@@ -29,8 +17,26 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "MARKETNG 300"
+            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
+            "id": "ECON 111",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
+            "id": "MARKETNG 300",
+            "parent": "MARKETNG",
+            "title": "MARKETING MANAGEMENT"
         }
     },
     {
@@ -41,30 +47,38 @@
     },
     {
         "data": {
-            "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
-            "id": "ECON 111",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+            "id": "MARKETNG",
+            "type": "compound"
         }
     },
     {
         "data": {
             "source": "ECON 101",
-            "target": "ECON 111"
+            "target": "MARKETNG 300"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 300",
+            "target": "MARKETNG 442"
         }
     }
 ]

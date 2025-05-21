@@ -1,21 +1,17 @@
 [
     {
         "data": {
-            "source": "ANSCI/DYSCI 101",
-            "target": "DYSCI 233"
-        }
-    },
-    {
-        "data": {
-            "id": "DYSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "An overview of animal sciences covering anatomy, physiology, nutrition, reproduction, genetics, management, animal welfare, and behavior of domesticated animals. Food animals are emphasized to discuss their contributions to humans.",
             "id": "ANSCI/DYSCI 101",
             "title": "INTRODUCTION TO ANIMAL SCIENCES"
+        }
+    },
+    {
+        "data": {
+            "description": "Overview of practical dairy herd management with components of reproduction, nutrition, milk quality, raising dairy replacements, facilities and records. Laboratories emphasize practical applications, analyses of alternatives and decision making.",
+            "id": "DYSCI 233",
+            "parent": "DYSCI",
+            "title": "DAIRY HERD MANAGEMENT I"
         }
     },
     {
@@ -26,10 +22,14 @@
     },
     {
         "data": {
-            "description": "Overview of practical dairy herd management with components of reproduction, nutrition, milk quality, raising dairy replacements, facilities and records. Laboratories emphasize practical applications, analyses of alternatives and decision making.",
-            "id": "DYSCI 233",
-            "parent": "DYSCI",
-            "title": "DAIRY HERD MANAGEMENT I"
+            "id": "DYSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ANSCI/DYSCI 101",
+            "target": "DYSCI 233"
         }
     }
 ]

@@ -1,8 +1,10 @@
 [
     {
         "data": {
-            "id": "THEATRE",
-            "type": "compound"
+            "description": "An intensive study of stage rigging, scenic locomotion, set construction and structural analysis techniques.",
+            "id": "THEATRE 570",
+            "parent": "THEATRE",
+            "title": "ADVANCED STAGECRAFT"
         }
     },
     {
@@ -15,16 +17,10 @@
     },
     {
         "data": {
-            "source": "THEATRE 270",
-            "target": "THEATRE 570"
-        }
-    },
-    {
-        "data": {
-            "description": "An intensive study of stage rigging, scenic locomotion, set construction and structural analysis techniques.",
-            "id": "THEATRE 570",
+            "description": "Methods and development of techniques used in theatrical drafting.",
+            "id": "THEATRE 370",
             "parent": "THEATRE",
-            "title": "ADVANCED STAGECRAFT"
+            "title": "DRAFTING FOR THE THEATRE"
         }
     },
     {
@@ -37,10 +33,14 @@
     },
     {
         "data": {
-            "description": "Methods and development of techniques used in theatrical drafting.",
-            "id": "THEATRE 370",
-            "parent": "THEATRE",
-            "title": "DRAFTING FOR THE THEATRE"
+            "id": "THEATRE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "THEATRE 160",
+            "target": "THEATRE 270"
         }
     },
     {
@@ -51,14 +51,14 @@
     },
     {
         "data": {
-            "source": "THEATRE 370",
+            "source": "THEATRE 270",
             "target": "THEATRE 570"
         }
     },
     {
         "data": {
-            "source": "THEATRE 160",
-            "target": "THEATRE 270"
+            "source": "THEATRE 370",
+            "target": "THEATRE 570"
         }
     }
 ]

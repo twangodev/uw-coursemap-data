@@ -28,6 +28,19 @@
     },
     "description": "Clinical application of medications in the management of various disease states. Assessment and therapeutic monitoring of disease states and drug therapy using the concepts of pharmacokinetics/dynamics, drug interactions, pharmacy practice and patient counseling. Topics include cardiovascular and pulmonary therapeutics.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 555,
@@ -42,16 +55,59 @@
                 ]
             }
         ],
-        "prerequisites_text": "PHM\u00a0PRAC\u00a0553and555"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 553,
                 "subjects": [
                     "PHMPRAC"
                 ]
             },
+            " and ",
+            {
+                "course_number": 555,
+                "subjects": [
+                    "PHMPRAC"
+                ]
+            }
+        ],
+        "prerequisites_text": "PHM\u00a0PRAC\u00a0553and555"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 555,
+                "subjects": [
+                    "PHMPRAC"
+                ]
+            },
+            {
+                "course_number": 553,
+                "subjects": [
+                    "PHMPRAC"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 553,
+                "subjects": [
+                    "PHMPRAC"
+                ]
+            },
+            " and ",
             {
                 "course_number": 555,
                 "subjects": [
@@ -69,26 +125,25 @@
             ]
         },
         {
-            "course_number": 554,
-            "subjects": [
-                "PHMPRAC"
-            ]
-        },
-        {
             "course_number": 555,
             "subjects": [
                 "PHMPRAC"
             ]
         },
         {
-            "course_number": 605,
+            "course_number": 656,
             "subjects": [
-                "PHMPRAC",
-                "NURSING"
+                "PHMPRAC"
             ]
         },
         {
-            "course_number": 656,
+            "course_number": 554,
+            "subjects": [
+                "PHMPRAC"
+            ]
+        },
+        {
+            "course_number": 553,
             "subjects": [
                 "PHMPRAC"
             ]
@@ -359,13 +414,13 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "John Dopp",
-                    "Andrea Porter",
-                    "RONALD LEE SORKNESS",
-                    "VALERIE SCHEND",
+                    "Eva Vivian",
                     "Karen Kopacek",
+                    "Andrea Porter",
                     "CHRISTINE SORKNESS",
-                    "Eva Vivian"
+                    "VALERIE SCHEND",
+                    "John Dopp",
+                    "RONALD LEE SORKNESS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -390,12 +445,12 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "John Dopp",
-                    "RONALD LEE SORKNESS",
-                    "Andrea Porter",
+                    "Eva Vivian",
                     "Karen Kopacek",
+                    "Andrea Porter",
                     "CHRISTINE SORKNESS",
-                    "Eva Vivian"
+                    "John Dopp",
+                    "RONALD LEE SORKNESS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -420,12 +475,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "John Dopp",
-                    "RONALD LEE SORKNESS",
-                    "Andrea Porter",
+                    "Eva Vivian",
                     "Karen Kopacek",
+                    "Andrea Porter",
                     "CHRISTINE SORKNESS",
-                    "Eva Vivian"
+                    "John Dopp",
+                    "RONALD LEE SORKNESS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -450,12 +505,12 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "John Dopp",
+                    "Eva Vivian",
+                    "Karen Kopacek",
+                    "Edward Portillo",
                     "Andrea Porter",
                     "Amanda Margolis",
-                    "Karen Kopacek",
-                    "Eva Vivian",
-                    "Edward Portillo"
+                    "John Dopp"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -480,11 +535,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "John Dopp",
-                    "Andrea Porter",
-                    "Karen Kopacek",
                     "Eva Vivian",
-                    "Edward Portillo"
+                    "Karen Kopacek",
+                    "Edward Portillo",
+                    "Andrea Porter",
+                    "John Dopp"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -509,11 +564,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "John Dopp",
-                    "Andrea Porter",
-                    "Karen Kopacek",
                     "Eva Vivian",
-                    "Edward Portillo"
+                    "Karen Kopacek",
+                    "Edward Portillo",
+                    "Andrea Porter",
+                    "John Dopp"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -524,32 +579,6 @@
                 "total": 96,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Amanda Margolis": "AMANDA.MARGOLIS@WISC.EDU",
-                    "Andrea Porter": "ANDREA.PORTER@WISC.EDU",
-                    "Edward Portillo": "EDWARD.PORTILLO@WISC.EDU",
-                    "Eva Vivian": "EVA.VIVIAN@WISC.EDU",
-                    "John Dopp": "JOHN.DOPP@WISC.EDU",
-                    "Karen Kopacek": "KAREN.KOPACEK@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "P",
-                    "name": "Pharmacy",
-                    "url": "http://www.pharmacy.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

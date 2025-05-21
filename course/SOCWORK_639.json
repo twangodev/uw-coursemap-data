@@ -28,6 +28,25 @@
     },
     "description": "Affirming social work practice with lesbian, gay, bisexual, transgender, nonbinary, queer, intersex, asexual, Two-Spirit, and other LGBTQIA2S+ individuals and communities.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Junior standing",
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 205,
@@ -42,16 +61,67 @@
                 ]
             }
         ],
-        "prerequisites_text": "Junior standing andSOC\u00a0WORK\u00a0205or708"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "Junior standing and ",
             {
                 "course_number": 205,
                 "subjects": [
                     "SOCWORK"
                 ]
             },
+            " or ",
+            {
+                "course_number": 708,
+                "subjects": [
+                    "SOCWORK"
+                ]
+            }
+        ],
+        "prerequisites_text": "Junior standing andSOC\u00a0WORK\u00a0205or708"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        "Junior standing",
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 708,
+                "subjects": [
+                    "SOCWORK"
+                ]
+            },
+            {
+                "course_number": 205,
+                "subjects": [
+                    "SOCWORK"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "Junior standing and ",
+            {
+                "course_number": 205,
+                "subjects": [
+                    "SOCWORK"
+                ]
+            },
+            " or ",
             {
                 "course_number": 708,
                 "subjects": [
@@ -69,9 +139,9 @@
             ]
         },
         {
-            "course_number": 340,
+            "course_number": 835,
             "subjects": [
-                "GEN&WS"
+                "SOCWORK"
             ]
         },
         {
@@ -81,16 +151,15 @@
             ]
         },
         {
-            "course_number": 200,
+            "course_number": 840,
             "subjects": [
-                "SOC",
-                "GEN&WS"
+                "SOCWORK"
             ]
         },
         {
-            "course_number": 538,
+            "course_number": 640,
             "subjects": [
-                "GEN&WS"
+                "SOCWORK"
             ]
         }
     ],
@@ -108,8 +177,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LACY HANSON-GEORGE",
-                    "MAURICE GATTIS"
+                    "MAURICE GATTIS",
+                    "LACY HANSON-GEORGE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -134,8 +203,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOU HANG HER",
-                    "MAURICE GATTIS"
+                    "MAURICE GATTIS",
+                    "YOU HANG HER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -246,27 +315,6 @@
                 "total": 22,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "LB Klein": "LB.KLEIN@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

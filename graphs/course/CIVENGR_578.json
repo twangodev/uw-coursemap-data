@@ -1,6 +1,69 @@
 [
     {
         "data": {
+            "description": "An introduction to the design of engineering structures which control and/or utilize runoff, emphasizing the sizing of structures to meet hydrologic uncertainty. Applies principles and techniques from several disciplines, including hydrology, hydraulics, probability and statistics. Specific techniques include flood frequency analysis; risk analysis; design storm and historic storm techniques; rainfall-runoff modeling.",
+            "id": "CIVENGR 414",
+            "parent": "CIVENGR",
+            "title": "HYDROLOGIC DESIGN"
+        }
+    },
+    {
+        "data": {
+            "description": "Basic concepts in designing, evaluating, and operating solid wastes storage, collection, and disposal systems; waste reduction, resource recovery, incineration and land disposal methods; hazardous wastes engineering; legal, political, and administrative considerations.",
+            "id": "CIVENGR 427",
+            "parent": "CIVENGR",
+            "title": "SOLID AND HAZARDOUS WASTES ENGINEERING"
+        }
+    },
+    {
+        "data": {
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
+        }
+    },
+    {
+        "data": {
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to engineering computations with emphasis on computer tools and computer based measurement, data collection, and processing. Tools will include computer aided design, spreadsheets, other engineering computation tools, and hardware and software for laboratory and spatial measurements.",
+            "id": "CIVENGR/GLE 291",
+            "title": "PROBLEM SOLVING USING COMPUTER TOOLS"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to the water cycle, its relationship to the environment and human attempts to conserve, control, and utilize water judiciously. Fundamentals of hydrology, hydraulics, coastal engineering and water resources engineering.",
+            "id": "CIVENGR 311",
+            "parent": "CIVENGR",
+            "title": "HYDROSCIENCE"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
             "description": "The application of theoretically and academically acquired knowledge to a civil and environmental engineering problem in as near \"real-world\" as possible.",
             "id": "CIVENGR 578",
             "parent": "CIVENGR",
@@ -15,15 +78,25 @@
     },
     {
         "data": {
-            "description": "Basic concepts in designing, evaluating, and operating solid wastes storage, collection, and disposal systems; waste reduction, resource recovery, incineration and land disposal methods; hazardous wastes engineering; legal, political, and administrative considerations.",
-            "id": "CIVENGR 427",
-            "parent": "CIVENGR",
-            "title": "SOLID AND HAZARDOUS WASTES ENGINEERING"
+            "id": "CROSSLISTED",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "source": "CIVENGR 428",
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CIVENGR 311",
+            "target": "CIVENGR 414"
+        }
+    },
+    {
+        "data": {
+            "source": "CIVENGR 414",
             "target": "CIVENGR 578"
         }
     },
@@ -35,10 +108,50 @@
     },
     {
         "data": {
-            "description": "Preliminary studies and design of water treatment processes and subordinate plant facilities; project control of design project; unit operations in water treatment; groundwater treatment; preliminary cost estimates; introduction of computer-aided design concept; site visits to water treatment plants.",
-            "id": "CIVENGR 428",
-            "parent": "CIVENGR",
-            "title": "WATER TREATMENT PLANT DESIGN"
+            "source": "CIVENGR/GLE 291",
+            "target": "CIVENGR 414"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "CIVENGR 311"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "CIVENGR/GLE 291"
         }
     }
 ]

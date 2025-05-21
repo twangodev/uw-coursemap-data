@@ -1,22 +1,10 @@
 [
     {
         "data": {
-            "description": "Theory and applications of the general linear model; graphical methods; simultaneous inference; regression diagnostics; analysis of variance of fixed, random and mixed effects models; ANCOVA: violations of assumptions.",
-            "id": "STAT 849",
-            "parent": "STAT",
-            "title": "THEORY AND APPLICATION OF REGRESSION AND ANALYSIS OF VARIANCE I"
-        }
-    },
-    {
-        "data": {
-            "id": "STAT",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
+            "description": "Linear fixed and random effects models; estimation and prediction; data exploration, diagnostics and model selection techniques; generalized linear panel data models.",
+            "id": "GENBUS 806",
+            "parent": "GENBUS",
+            "title": "PANEL DATA ANALYSIS"
         }
     },
     {
@@ -29,8 +17,16 @@
     },
     {
         "data": {
-            "source": "ECON 709",
-            "target": "GENBUS 806"
+            "description": "Theory and applications of the general linear model; graphical methods; simultaneous inference; regression diagnostics; analysis of variance of fixed, random and mixed effects models; ANCOVA: violations of assumptions.",
+            "id": "STAT 849",
+            "parent": "STAT",
+            "title": "THEORY AND APPLICATION OF REGRESSION AND ANALYSIS OF VARIANCE I"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
         }
     },
     {
@@ -41,16 +37,20 @@
     },
     {
         "data": {
-            "source": "STAT 849",
+            "id": "STAT",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 709",
             "target": "GENBUS 806"
         }
     },
     {
         "data": {
-            "description": "Linear fixed and random effects models; estimation and prediction; data exploration, diagnostics and model selection techniques; generalized linear panel data models.",
-            "id": "GENBUS 806",
-            "parent": "GENBUS",
-            "title": "PANEL DATA ANALYSIS"
+            "source": "STAT 849",
+            "target": "GENBUS 806"
         }
     }
 ]

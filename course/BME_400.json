@@ -28,6 +28,41 @@
     },
     "description": "Applies classroom study and prior design course experiences for senior teams to solve a directed client-based biomedical engineering design project.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 300,
@@ -42,10 +77,36 @@
                 ]
             }
         ],
-        "prerequisites_text": "(B\u00a0M\u00a0E\u00a0300orB\u00a0M\u00a0E\u00a0301) and (B\u00a0M\u00a0E\u00a0310,315, orPHM\u00a0SCI/\u200bB\u00a0M\u00a0E\u00a0\u00a0430)"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 315,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            ", or ",
             {
                 "course_number": 430,
                 "subjects": [
@@ -53,14 +114,49 @@
                     "PHMSCI"
                 ]
             },
+            ")"
+        ],
+        "prerequisites_text": "(B\u00a0M\u00a0E\u00a0300orB\u00a0M\u00a0E\u00a0301) and (B\u00a0M\u00a0E\u00a0310,315, orPHM\u00a0SCI/\u200bB\u00a0M\u00a0E\u00a0\u00a0430)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
             {
                 "course_number": 300,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            {
-                "course_number": 301,
                 "subjects": [
                     "BME"
                 ]
@@ -72,25 +168,71 @@
                 ]
             },
             {
+                "course_number": 430,
+                "subjects": [
+                    "BME",
+                    "PHMSCI"
+                ]
+            },
+            {
+                "course_number": 301,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            {
                 "course_number": 315,
                 "subjects": [
                     "BME"
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 301,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 315,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 430,
+                "subjects": [
+                    "BME",
+                    "PHMSCI"
+                ]
+            },
+            ")"
+        ],
         "prerequisites_text": "(B\u00a0M\u00a0E\u00a0300orB\u00a0M\u00a0E\u00a0301) and (B\u00a0M\u00a0E\u00a0310,315, orPHM\u00a0SCI/\u200bB\u00a0M\u00a0E\u00a0\u00a0430)"
     },
     "similar_courses": [
         {
-            "course_number": 201,
+            "course_number": 300,
             "subjects": [
                 "BME"
-            ]
-        },
-        {
-            "course_number": 455,
-            "subjects": [
-                "ECE"
             ]
         },
         {
@@ -100,13 +242,19 @@
             ]
         },
         {
-            "course_number": 402,
+            "course_number": 201,
             "subjects": [
                 "BME"
             ]
         },
         {
-            "course_number": 300,
+            "course_number": 601,
+            "subjects": [
+                "BME"
+            ]
+        },
+        {
+            "course_number": 402,
             "subjects": [
                 "BME"
             ]
@@ -376,13 +524,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "John Puccinelli",
-                    "Amit Nimunkar",
-                    "MITCHELL TYLER",
                     "JOHN WEBSTER",
-                    "Tracy Puccinelli",
                     "PAUL THOMPSON",
-                    "JOSEPH TOWLES"
+                    "MITCHELL TYLER",
+                    "JOSEPH TOWLES",
+                    "Tracy Puccinelli",
+                    "John Puccinelli",
+                    "Amit Nimunkar"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -407,13 +555,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Amit Nimunkar",
-                    "Jeremy ROGERS",
-                    "MITCHELL TYLER",
-                    "John Puccinelli",
-                    "Tracy Puccinelli",
                     "PAUL THOMPSON",
-                    "JOSEPH TOWLES"
+                    "MITCHELL TYLER",
+                    "JOSEPH TOWLES",
+                    "Tracy Puccinelli",
+                    "Jeremy ROGERS",
+                    "John Puccinelli",
+                    "Amit Nimunkar"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

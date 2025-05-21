@@ -28,38 +28,161 @@
     },
     "description": "Special topics in physics at the intermediate undergraduate level.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
+            {
+                "course_number": 103,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 103,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 207,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            " or ",
             {
                 "course_number": 247,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "prerequisites_text": "(PHYSICS\u00a0103,201,207or247) and (MATH\u00a0217or221)"
-    },
-    "prerequisites": {
-        "course_references": [
+            ") and (",
             {
                 "course_number": 217,
                 "subjects": [
                     "MATH"
                 ]
             },
+            " or ",
             {
-                "course_number": 247,
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ")"
+        ],
+        "prerequisites_text": "(PHYSICS\u00a0103,201,207or247) and (MATH\u00a0217or221)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
+        "course_references": [
+            {
+                "course_number": 207,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 207,
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 103,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -71,31 +194,76 @@
                 ]
             },
             {
-                "course_number": 103,
+                "course_number": 247,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 221,
+                "course_number": 217,
                 "subjects": [
                     "MATH"
                 ]
             }
         ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 103,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 207,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 217,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ")"
+        ],
         "prerequisites_text": "(PHYSICS\u00a0103,201,207or247) and (MATH\u00a0217or221)"
     },
     "similar_courses": [
         {
-            "course_number": 801,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
             "course_number": 602,
             "subjects": [
                 "EP"
+            ]
+        },
+        {
+            "course_number": 120,
+            "subjects": [
+                "PHYSICS"
             ]
         },
         {
@@ -105,7 +273,7 @@
             ]
         },
         {
-            "course_number": 120,
+            "course_number": 801,
             "subjects": [
                 "PHYSICS"
             ]
@@ -231,8 +399,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LESLEY SMITH",
-                    "Mark RZCHOWSKI"
+                    "Mark RZCHOWSKI",
+                    "LESLEY SMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -257,8 +425,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LESLEY SMITH",
-                    "Mark RZCHOWSKI"
+                    "Mark RZCHOWSKI",
+                    "LESLEY SMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -444,25 +612,6 @@
                 "total": 0,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    1,
-                    5
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {},
-                "last_taught_term": null,
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Occasionally"
-            },
-            "grade_data": null
         }
     }
 }

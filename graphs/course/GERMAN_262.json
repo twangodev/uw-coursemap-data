@@ -1,16 +1,34 @@
 [
     {
         "data": {
-            "id": "GERMAN",
-            "type": "compound"
+            "description": "Emphasis on proficiency in German through speaking, listening, reading, and writing, and on communication in cultural context.",
+            "id": "GERMAN 101",
+            "parent": "GERMAN",
+            "title": "FIRST SEMESTER GERMAN"
         }
     },
     {
         "data": {
-            "description": "Develop reading skills by working with literary and cultural texts from 1800 to the present. Emphasizes close reading, textual analysis, historical context, and the use of appropriate reading strategies.",
-            "id": "GERMAN 258",
+            "description": "Emphasis on proficiency in German through speaking, listening, reading, and writing, and on communication in cultural context.",
+            "id": "GERMAN 102",
             "parent": "GERMAN",
-            "title": "INTERMEDIATE GERMAN-READING"
+            "title": "SECOND SEMESTER GERMAN"
+        }
+    },
+    {
+        "data": {
+            "description": "Four-skills approach (speaking, listening, writing, reading) centered around authentic texts, recordings, and images. Grammar review, concerted vocabulary expansion, and intensive practice.",
+            "id": "GERMAN 203",
+            "parent": "GERMAN",
+            "title": "THIRD SEMESTER GERMAN"
+        }
+    },
+    {
+        "data": {
+            "description": "Four-skills approach (speaking, listening, writing, reading) centered around authentic texts, recordings, and images. Grammar review, concerted vocabulary expansion, and intensive practice.",
+            "id": "GERMAN 204",
+            "parent": "GERMAN",
+            "title": "FOURTH SEMESTER GERMAN"
         }
     },
     {
@@ -23,13 +41,31 @@
     },
     {
         "data": {
-            "source": "GERMAN 262",
-            "target": "GERMAN 258"
+            "id": "GERMAN",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "source": "GERMAN 258",
+            "source": "GERMAN 101",
+            "target": "GERMAN 102"
+        }
+    },
+    {
+        "data": {
+            "source": "GERMAN 102",
+            "target": "GERMAN 203"
+        }
+    },
+    {
+        "data": {
+            "source": "GERMAN 203",
+            "target": "GERMAN 204"
+        }
+    },
+    {
+        "data": {
+            "source": "GERMAN 204",
             "target": "GERMAN 262"
         }
     }

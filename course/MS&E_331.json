@@ -28,23 +28,39 @@
     },
     "description": "Basic principles of fluid flow, heat transfer and diffusion are introduced. Examples relevant to design and processing of materials including metals, semiconductors, glasses, polymers, and ceramics are given.",
     "optimized_prerequisites": {
-        "course_references": [
-            {
-                "course_number": 330,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "prerequisites_text": "M\u00a0S\u00a0&\u00a0E\u00a0330and (MATH\u00a0319,320,376, or concurrent enrollment), or member of Engineering Guest Students"
-    },
-    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 330,
@@ -56,6 +72,86 @@
                 "course_number": 319,
                 "subjects": [
                     "MATH"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 330,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or concurrent enrollment), or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "M\u00a0S\u00a0&\u00a0E\u00a0330and (MATH\u00a0319,320,376, or concurrent enrollment), or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 330,
+                "subjects": [
+                    "MS&E"
                 ]
             },
             {
@@ -71,19 +167,43 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 330,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or concurrent enrollment), or member of Engineering Guest Students"
+        ],
         "prerequisites_text": "M\u00a0S\u00a0&\u00a0E\u00a0330and (MATH\u00a0319,320,376, or concurrent enrollment), or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 530,
+            "course_number": 660,
             "subjects": [
                 "MS&E"
-            ]
-        },
-        {
-            "course_number": 417,
-            "subjects": [
-                "ME"
             ]
         },
         {
@@ -93,15 +213,21 @@
             ]
         },
         {
-            "course_number": 330,
+            "course_number": 417,
             "subjects": [
-                "MS&E"
+                "ME"
             ]
         },
         {
             "course_number": 320,
             "subjects": [
                 "CBE"
+            ]
+        },
+        {
+            "course_number": 564,
+            "subjects": [
+                "ME"
             ]
         }
     ],
@@ -531,27 +657,6 @@
                 "total": 25,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Michael ARNOLD": "MSARNOLD@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

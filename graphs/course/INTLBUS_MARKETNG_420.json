@@ -1,47 +1,10 @@
 [
     {
         "data": {
-            "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
-            "id": "MARKETNG 300",
-            "parent": "MARKETNG",
-            "title": "MARKETING MANAGEMENT"
-        }
-    },
-    {
-        "data": {
-            "source": "MARKETNG 300",
-            "target": "INTLBUS/MARKETNG 420"
-        }
-    },
-    {
-        "data": {
-            "description": "Structure of foreign trading; commercial facilities available to exporters and importers; application of economic analysis in marketing decisions; contemporary trends in international economy affecting foreign trade policies and practices.",
-            "id": "INTLBUS/MARKETNG 420",
-            "title": "GLOBAL MARKETING STRATEGY"
-        }
-    },
-    {
-        "data": {
-            "id": "MARKETNG",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "MARKETNG 300"
-        }
-    },
-    {
-        "data": {
-            "id": "ECON",
-            "type": "compound"
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
@@ -54,22 +17,73 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 111"
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "description": "Planning and controlling the elements of the marketing program; marketing organization, product and service, packaging, pricing, promotion and physical distribution.",
+            "id": "MARKETNG 300",
+            "parent": "MARKETNG",
+            "title": "MARKETING MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Structure of foreign trading; commercial facilities available to exporters and importers; application of economic analysis in marketing decisions; contemporary trends in international economy affecting foreign trade policies and practices.",
+            "id": "INTLBUS/MARKETNG 420",
+            "title": "GLOBAL MARKETING STRATEGY"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "ECON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MARKETNG",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "MARKETNG 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
         "data": {
             "source": "ECON 111",
             "target": "ECON 101"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 300",
+            "target": "INTLBUS/MARKETNG 420"
         }
     }
 ]

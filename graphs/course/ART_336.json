@@ -1,14 +1,18 @@
 [
     {
         "data": {
-            "id": "ART",
-            "type": "compound"
+            "description": "Introduction to intaglio printmaking techniques. Studio problems in platemaking and printing.",
+            "id": "ART 326",
+            "parent": "ART",
+            "title": "ETCHING"
         }
     },
     {
         "data": {
-            "source": "ART 306",
-            "target": "ART 336"
+            "description": "Materials and techniques of silk screen process; silk screen as a fine art form.",
+            "id": "ART 336",
+            "parent": "ART",
+            "title": "SERIGRAPHY"
         }
     },
     {
@@ -21,10 +25,20 @@
     },
     {
         "data": {
-            "description": "Materials and techniques of silk screen process; silk screen as a fine art form.",
-            "id": "ART 336",
-            "parent": "ART",
-            "title": "SERIGRAPHY"
+            "id": "ART",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ART 306",
+            "target": "ART 326"
+        }
+    },
+    {
+        "data": {
+            "source": "ART 326",
+            "target": "ART 336"
         }
     }
 ]

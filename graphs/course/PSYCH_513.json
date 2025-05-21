@@ -1,15 +1,26 @@
 [
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
+            "description": "Behavior, including its development, motivation, frustrations, emotion, intelligence, learning, forgetting, personality, language, thinking, and social behavior.",
+            "id": "PSYCH 202",
+            "parent": "PSYCH",
+            "title": "INTRODUCTION TO PSYCHOLOGY"
         }
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "PSYCH 454"
+            "description": "Biological basis of human and animal behaviors, including perception, action, cognition, social interaction and disease. Weekly themes from \"Cracking the Neural Code\" to \"Love and War\". Learn, develop and use neural mechanisms to explain and (attempt to) predict what they and others think and do in all facets of life.",
+            "id": "PSYCH 454",
+            "parent": "PSYCH",
+            "title": "BEHAVIORAL NEUROSCIENCE"
+        }
+    },
+    {
+        "data": {
+            "description": "Complex social behavior emerges from the interplay of hormones, the brain and environmental signals. Introduces how hormones and neurotransmitters shape brain and behavior in animals and humans. Review the mechanisms by which hormones shape brain sex differences and its consequences on juvenile (i.e. play) and adult behavior. Examine how hormones influence sexual behavior using basic animal models, and extend this to human sex differences, including sexual orientation. Additional topics include how hormones shape competitive and affiliative behaviors, eating disorders, and stress and mental health, as well as how individual variation occurs in response to the changing environment and genetic landscape, including epigenetics at an introductory level.",
+            "id": "PSYCH 513",
+            "parent": "PSYCH",
+            "title": "HORMONES, BRAIN, AND BEHAVIOR"
         }
     },
     {
@@ -21,14 +32,15 @@
     },
     {
         "data": {
-            "source": "PSYCH 202",
-            "target": "PSYCH 454"
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
         }
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "PSYCH 454"
+            "id": "CROSSLISTED",
+            "type": "compound"
         }
     },
     {
@@ -45,44 +57,32 @@
     },
     {
         "data": {
-            "description": "Complex social behavior emerges from the interplay of hormones, the brain and environmental signals. Introduces how hormones and neurotransmitters shape brain and behavior in animals and humans. Review the mechanisms by which hormones shape brain sex differences and its consequences on juvenile (i.e. play) and adult behavior. Examine how hormones influence sexual behavior using basic animal models, and extend this to human sex differences, including sexual orientation. Additional topics include how hormones shape competitive and affiliative behaviors, eating disorders, and stress and mental health, as well as how individual variation occurs in response to the changing environment and genetic landscape, including epigenetics at an introductory level.",
-            "id": "PSYCH 513",
-            "parent": "PSYCH",
-            "title": "HORMONES, BRAIN, AND BEHAVIOR"
-        }
-    },
-    {
-        "data": {
-            "description": "Biological basis of human and animal behaviors, including perception, action, cognition, social interaction and disease. Weekly themes from \"Cracking the Neural Code\" to \"Love and War\". Learn, develop and use neural mechanisms to explain and (attempt to) predict what they and others think and do in all facets of life.",
-            "id": "PSYCH 454",
-            "parent": "PSYCH",
-            "title": "BEHAVIORAL NEUROSCIENCE"
-        }
-    },
-    {
-        "data": {
-            "description": "Behavior, including its development, motivation, frustrations, emotion, intelligence, learning, forgetting, personality, language, thinking, and social behavior.",
-            "id": "PSYCH 202",
-            "parent": "PSYCH",
-            "title": "INTRODUCTION TO PSYCHOLOGY"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "PSYCH 454",
-            "target": "PSYCH 513"
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "PSYCH 454"
         }
     },
     {
         "data": {
             "source": "BIOLOGY/ZOOLOGY 101",
             "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "PSYCH 454"
+        }
+    },
+    {
+        "data": {
+            "source": "PSYCH 202",
+            "target": "PSYCH 454"
+        }
+    },
+    {
+        "data": {
+            "source": "PSYCH 454",
+            "target": "PSYCH 513"
         }
     }
 ]

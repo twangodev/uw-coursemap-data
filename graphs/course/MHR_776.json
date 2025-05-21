@@ -1,44 +1,6 @@
 [
     {
         "data": {
-            "description": "Solve critical business challenges. Drawing on and integrating the MBA core curriculum, conduct an in-depth analysis and make recommendations on a strategic problem posed by the sponsor company.",
-            "id": "GENBUS 725",
-            "parent": "GENBUS",
-            "title": "CONSULTING PRACTICUM"
-        }
-    },
-    {
-        "data": {
-            "id": "FINANCE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MHR 705",
-            "target": "MHR 776"
-        }
-    },
-    {
-        "data": {
-            "source": "GENBUS 704",
-            "target": "GENBUS 725"
-        }
-    },
-    {
-        "data": {
-            "id": "MHR",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "FINANCE 700",
-            "target": "GENBUS 725"
-        }
-    },
-    {
-        "data": {
             "description": "Conduct research, apply strategic human resources knowledge, and complete a capstone project for a local client organization, addressing a human resources business challenge or need.",
             "id": "MHR 776",
             "parent": "MHR",
@@ -55,16 +17,26 @@
     },
     {
         "data": {
-            "description": "Two broad substantive areas are covered. (1) Evidence (theoretical and empirical) reviewed on the determinants of employee job attitudes and behavior. For example, the impact of compensation on employee satisfaction and performance. (2) Functional activities of personnel management and their impact on employee behavior evaluated. Sample topics: Selection, development, evaluation and compensation. Knowledge of Statistics strongly encouraged such asSTAT\u00a0301.",
-            "id": "MHR 705",
-            "parent": "MHR",
-            "title": "HUMAN RESOURCE MANAGEMENT"
+            "description": "Provides a framework for evaluating marketing problems and developing a marketing strategy. Customer, competitor, and collaborator factors are emphasized as foundations for marketing decision-making. Examines the key aspects of product, pricing, distribution, and promotion strategy.",
+            "id": "MARKETNG 700",
+            "parent": "MARKETNG",
+            "title": "MARKETING MANAGEMENT"
         }
     },
     {
         "data": {
-            "source": "GENBUS 725",
-            "target": "MHR 776"
+            "description": "Solve critical business challenges. Drawing on and integrating the MBA core curriculum, conduct an in-depth analysis and make recommendations on a strategic problem posed by the sponsor company.",
+            "id": "GENBUS 725",
+            "parent": "GENBUS",
+            "title": "CONSULTING PRACTICUM"
+        }
+    },
+    {
+        "data": {
+            "description": "Two broad substantive areas are covered. (1) Evidence (theoretical and empirical) reviewed on the determinants of employee job attitudes and behavior. For example, the impact of compensation on employee satisfaction and performance. (2) Functional activities of personnel management and their impact on employee behavior evaluated. Sample topics: Selection, development, evaluation and compensation. Knowledge of Statistics strongly encouraged such asSTAT\u00a0301.",
+            "id": "MHR 705",
+            "parent": "MHR",
+            "title": "HUMAN RESOURCE MANAGEMENT"
         }
     },
     {
@@ -75,10 +47,38 @@
     },
     {
         "data": {
-            "description": "Introduction to financial management of firms and investment decision making; both theory and practice are emphasized. Topics covered include the financial environment and securities markets, financial statements and analysis, working capital management and capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision making under uncertainty and selected topics such as mergers, options, futures.",
-            "id": "FINANCE 700",
-            "parent": "FINANCE",
-            "title": "INTRODUCTION TO FINANCIAL MANAGEMENT"
+            "id": "MARKETNG",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MHR",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 704",
+            "target": "GENBUS 725"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 725",
+            "target": "MHR 776"
+        }
+    },
+    {
+        "data": {
+            "source": "MARKETNG 700",
+            "target": "GENBUS 725"
+        }
+    },
+    {
+        "data": {
+            "source": "MHR 705",
+            "target": "MHR 776"
         }
     }
 ]

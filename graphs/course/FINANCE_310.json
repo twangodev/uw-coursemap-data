@@ -1,40 +1,17 @@
 [
     {
         "data": {
-            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
-            "id": "ACCTIS 100",
-            "parent": "ACCTIS",
-            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+            "description": "Concepts and techniques in corporate finance and investments. Topics include the financial environment, securities markets, financial markets, financial statements and analysis, working capital management, capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision-making under uncertainty, mergers, options, and futures.",
+            "id": "ECON/FINANCE 300",
+            "title": "INTRODUCTION TO FINANCE"
         }
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON/FINANCE 300"
-        }
-    },
-    {
-        "data": {
-            "id": "FINANCE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 300"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ECON/FINANCE 300"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 300",
-            "target": "ECON/FINANCE 300"
+            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
+            "id": "ECON 101",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MICROECONOMICS"
         }
     },
     {
@@ -47,8 +24,10 @@
     },
     {
         "data": {
-            "id": "ECON",
-            "type": "compound"
+            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
+            "id": "ACCTIS 100",
+            "parent": "ACCTIS",
+            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
         }
     },
     {
@@ -57,6 +36,22 @@
             "id": "ECON 111",
             "parent": "ECON",
             "title": "PRINCIPLES OF ECONOMICS-ACCELERATED TREATMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
+            "id": "ECON 102",
+            "parent": "ECON",
+            "title": "PRINCIPLES OF MACROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "With a hands-on approach, covers advanced analytics methods for forecasting, predicting, reporting, and analyzing. Relies on Python as its primary coding language. Begins with a review of coding fundamentals and progressively delves into increasingly realistic and complex finance applications.",
+            "id": "FINANCE 310",
+            "parent": "FINANCE",
+            "title": "DATA ANALYTICS FOR FINANCE"
         }
     },
     {
@@ -73,16 +68,20 @@
     },
     {
         "data": {
-            "source": "ECON 101",
-            "target": "ECON 111"
+            "id": "ECON",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
-            "id": "ECON 101",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MICROECONOMICS"
+            "id": "FINANCE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 300"
         }
     },
     {
@@ -93,15 +92,20 @@
     },
     {
         "data": {
-            "description": "Concepts and techniques in corporate finance and investments. Topics include the financial environment, securities markets, financial markets, financial statements and analysis, working capital management, capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision-making under uncertainty, mergers, options, and futures.",
-            "id": "ECON/FINANCE 300",
-            "title": "INTRODUCTION TO FINANCE"
+            "source": "ACCTIS 300",
+            "target": "ECON/FINANCE 300"
         }
     },
     {
         "data": {
-            "source": "ECON/FINANCE 300",
-            "target": "FINANCE 310"
+            "source": "ECON 101",
+            "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
+            "target": "ECON 111"
         }
     },
     {
@@ -112,10 +116,20 @@
     },
     {
         "data": {
-            "description": "With a hands-on approach, covers advanced analytics methods for forecasting, predicting, reporting, and analyzing. Relies on Python as its primary coding language. Begins with a review of coding fundamentals and progressively delves into increasingly realistic and complex finance applications.",
-            "id": "FINANCE 310",
-            "parent": "FINANCE",
-            "title": "DATA ANALYTICS FOR FINANCE"
+            "source": "ECON 111",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 111",
+            "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "FINANCE 310"
         }
     }
 ]

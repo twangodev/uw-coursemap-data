@@ -28,6 +28,35 @@
     },
     "description": "Emphasizes the importance of coenzyme and cofactors of enzymes (i.e., vitamins and minerals) in biochemistry. All aspects of the biochemistry of coenzymes will be covered, including their biosynthesis as far as is known, the biochemical reactions they catalyze, their chemical and spectroscopic properties, and the mechanisms by which they facilitate biochemical reactions.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 501,
@@ -48,16 +77,62 @@
                 ]
             }
         ],
-        "prerequisites_text": "CHEM\u00a0345and (BIOCHEM\u00a0501,507, or concurrent enrollment), or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 345,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ", ",
             {
                 "course_number": 507,
                 "subjects": [
                     "BIOCHEM"
                 ]
             },
+            ", or concurrent enrollment), or graduate/professional standing"
+        ],
+        "prerequisites_text": "CHEM\u00a0345and (BIOCHEM\u00a0501,507, or concurrent enrollment), or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "concurrent enrollment"
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
             {
                 "course_number": 345,
                 "subjects": [
@@ -69,7 +144,36 @@
                 "subjects": [
                     "BIOCHEM"
                 ]
+            },
+            {
+                "course_number": 507,
+                "subjects": [
+                    "BIOCHEM"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 345,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 507,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ", or concurrent enrollment), or graduate/professional standing"
         ],
         "prerequisites_text": "CHEM\u00a0345and (BIOCHEM\u00a0501,507, or concurrent enrollment), or graduate/professional standing"
     },
@@ -81,16 +185,16 @@
             ]
         },
         {
-            "course_number": 704,
+            "course_number": 715,
             "subjects": [
-                "CHEM",
-                "BIOCHEM"
+                "NUTRSCI"
             ]
         },
         {
-            "course_number": 507,
+            "course_number": 510,
             "subjects": [
-                "BIOCHEM"
+                "BIOCHEM",
+                "NUTRSCI"
             ]
         },
         {
@@ -100,10 +204,9 @@
             ]
         },
         {
-            "course_number": 510,
+            "course_number": 623,
             "subjects": [
-                "NUTRSCI",
-                "BIOCHEM"
+                "NUTRSCI"
             ]
         }
     ],
@@ -328,8 +431,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "HAZEL HOLDEN",
-                    "Ivan RAYMENT",
-                    "BRIAN FOX"
+                    "BRIAN FOX",
+                    "Ivan RAYMENT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -355,8 +458,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "HAZEL HOLDEN",
-                    "Ivan RAYMENT",
-                    "BRIAN FOX"
+                    "BRIAN FOX",
+                    "Ivan RAYMENT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -517,27 +620,6 @@
                 "total": 15,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    2,
-                    2
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "BRIAN FOX": "BGFOX@BIOCHEM.WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

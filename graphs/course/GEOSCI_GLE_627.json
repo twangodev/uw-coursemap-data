@@ -1,8 +1,17 @@
 [
     {
         "data": {
-            "id": "GEOSCI",
-            "type": "compound"
+            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
+            "id": "ENVIRST/GEOSCI 106",
+            "title": "ENVIRONMENTAL GEOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Contemporary views of the origin and diversification of life and evolutionary processes; crises in the history of life, with emphasis on controversies regarding evolution, mass extinctions, and the co-evolution of Earth and life.",
+            "id": "GEOSCI 110",
+            "parent": "GEOSCI",
+            "title": "EVOLUTION AND EXTINCTION"
         }
     },
     {
@@ -15,9 +24,33 @@
     },
     {
         "data": {
-            "description": "Application of geology to problems resulting from the ever more intense use of the earth and its resources.",
-            "id": "ENVIRST/GEOSCI 106",
-            "title": "ENVIRONMENTAL GEOLOGY"
+            "description": "Mathematical treatment of the physical principles governing the flow of groundwater; emphasis on well hydraulics and flow system analysis.",
+            "id": "GEOSCI/GLE 627",
+            "title": "HYDROGEOLOGY"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "GEOSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ENVIRST/GEOSCI 106",
+            "target": "GEOSCI 100"
+        }
+    },
+    {
+        "data": {
+            "source": "ENVIRST/GEOSCI 106",
+            "target": "GEOSCI/GLE 627"
         }
     },
     {
@@ -34,40 +67,8 @@
     },
     {
         "data": {
-            "description": "Mathematical treatment of the physical principles governing the flow of groundwater; emphasis on well hydraulics and flow system analysis.",
-            "id": "GEOSCI/GLE 627",
-            "title": "HYDROGEOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "ENVIRST/GEOSCI 106",
+            "source": "GEOSCI 110",
             "target": "GEOSCI/GLE 627"
-        }
-    },
-    {
-        "data": {
-            "source": "ATMOCN/GEOSCI 105",
-            "target": "GEOSCI/GLE 627"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ENVIRST/GEOSCI 106",
-            "target": "GEOSCI 100"
-        }
-    },
-    {
-        "data": {
-            "description": "Nature and behavior of ocean water, interaction of oceans and atmosphere, structure of the ocean floor, life in the oceans, our relationship to the marine environment.",
-            "id": "ATMOCN/GEOSCI 105",
-            "title": "SURVEY OF OCEANOGRAPHY"
         }
     }
 ]

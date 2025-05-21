@@ -1,18 +1,6 @@
 [
     {
         "data": {
-            "id": "MUSPERF",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MUSPERF 203",
-            "target": "MUSPERF 242"
-        }
-    },
-    {
-        "data": {
             "description": "Individual instruction in collaborative musical performance.",
             "id": "MUSPERF 242",
             "parent": "MUSPERF",
@@ -21,10 +9,22 @@
     },
     {
         "data": {
-            "description": "Individual organ instruction for majors.",
-            "id": "MUSPERF 203",
+            "description": "Individual piano instruction for piano majors.",
+            "id": "MUSPERF 201",
             "parent": "MUSPERF",
-            "title": "ELEMENTARY/INTERMEDIATE ORGAN"
+            "title": "ELEMENTARY/INTERMEDIATE PIANO"
+        }
+    },
+    {
+        "data": {
+            "id": "MUSPERF",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "MUSPERF 201",
+            "target": "MUSPERF 242"
         }
     }
 ]

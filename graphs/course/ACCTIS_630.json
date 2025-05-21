@@ -1,36 +1,26 @@
 [
     {
         "data": {
-            "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
-            "id": "ACCTIS 100",
+            "description": "Audit and assurance services are vital to ensuring that organizations, their stakeholders, and the public can rely on organizations' financial information. Focus is on financial statement audits and their role in corporate governance and oversight. Emphasizes the components of the audit process with application to key financial accounting cycles and related internal controls. Also covers the professional role of public accountants and professional standards, norms and ethics.",
+            "id": "ACCTIS 630",
             "parent": "ACCTIS",
-            "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+            "title": "FOUNDATIONS OF AUDITING"
         }
     },
     {
         "data": {
-            "source": "ACCTIS 300",
-            "target": "ACCTIS 100"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 301"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 100",
-            "target": "ACCTIS 300"
-        }
-    },
-    {
-        "data": {
-            "description": "Examines current and emerging financial accounting theory and techniques used to measure and report financial information to investors, creditors, and other external users. Emphasizes asset and income determination, preparation and interpretation of financial statements, and related disclosure requirements.",
-            "id": "ACCTIS 301",
+            "description": "Examines current and emerging financial accounting theory and techniques used to measure and report financial information to investors, creditors, and other external users. Emphasizes asset and liability valuations and their relationships to income determination, preparation and interpretation of financial statements, and related disclosure requirements.",
+            "id": "ACCTIS 701",
             "parent": "ACCTIS",
             "title": "FINANCIAL REPORTING I"
+        }
+    },
+    {
+        "data": {
+            "description": "Measurement and reporting guidelines underlying preparation of general purpose financial statements. Explore current measurement and reporting issues. Analyze and interpret financial statement data for investment, lending, and related decisions.",
+            "id": "ACCTIS 700",
+            "parent": "ACCTIS",
+            "title": "FINANCIAL ACCOUNTING"
         }
     },
     {
@@ -41,23 +31,13 @@
     },
     {
         "data": {
-            "description": "Examines both financial and managerial accounting for business decisions. Emphasizes preparation and interpretation of financial statements, analysis of financial information, determination of costs for products and services, and use of accounting information for planning and control of business operations.",
-            "id": "ACCTIS 300",
-            "parent": "ACCTIS",
-            "title": "ACCOUNTING PRINCIPLES"
+            "source": "ACCTIS 700",
+            "target": "ACCTIS 701"
         }
     },
     {
         "data": {
-            "description": "Audit and assurance services are vital to ensuring that organizations, their stakeholders, and the public can rely on organizations' financial information. Focus is on financial statement audits and their role in corporate governance and oversight. Emphasizes the components of the audit process with application to key financial accounting cycles and related internal controls. Also covers the professional role of public accountants and professional standards, norms and ethics.",
-            "id": "ACCTIS 630",
-            "parent": "ACCTIS",
-            "title": "FOUNDATIONS OF AUDITING"
-        }
-    },
-    {
-        "data": {
-            "source": "ACCTIS 301",
+            "source": "ACCTIS 701",
             "target": "ACCTIS 630"
         }
     }

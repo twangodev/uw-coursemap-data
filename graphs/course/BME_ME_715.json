@@ -1,8 +1,56 @@
 [
     {
         "data": {
-            "source": "EMA 201",
-            "target": "ME 306"
+            "description": "Central topics in solid mechanics applied to soft tissues, including analysis of strain in the setting of large deformations, computation of stress in multiple experimental loading configurations, constitutive modeling of biomaterials using hyperelastic strain-energy functions, modeling tissue growth and remodeling, and the main theories for soft tissue failure will be covered. Application of finite elasticity theory in practical laboratory situations, and key papers and concepts in soft tissue mechanics.",
+            "id": "BME/ME 715",
+            "title": "ADVANCED TISSUE MECHANICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
+        }
+    },
+    {
+        "data": {
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
+        }
+    },
+    {
+        "data": {
+            "description": "Focus on solid mechanics of prominent musculoskeletal and cardiovascular tissues. Their normal and pathological behaviors (stiffness, strength, relaxation, creep, adaptive remodeling, etc.) in response to physiologic loading will be examined and quantified.",
+            "id": "BME/ME 615",
+            "title": "TISSUE MECHANICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Principles of mechanics, force systems, equilibrium, structures, distributed forces, moments of inertia of areas, and friction.",
+            "id": "EMA 201",
+            "parent": "EMA",
+            "title": "STATICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns. For civil engineers.",
+            "id": "EMA 303",
+            "parent": "EMA",
+            "title": "MECHANICS OF MATERIALS"
         }
     },
     {
@@ -11,6 +59,106 @@
             "id": "ME 306",
             "parent": "ME",
             "title": "MECHANICS OF MATERIALS"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "description": "Tensor analysis; analysis of stress, strain and rate of strain; application of Newtonian mechanics to deformable media; mechanical constitutive equations; field equations of fluid mechanics and elasticity. Knowledge of linear algebra [such asMATH\u00a0340] required.",
+            "id": "EMA 710",
+            "parent": "EMA",
+            "title": "MECHANICS OF CONTINUA"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "EMA",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "ME",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BME/ME 615",
+            "target": "BME/ME 715"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 201",
+            "target": "EMA 303"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 201",
+            "target": "ME 306"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 303",
+            "target": "BME/ME 615"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 710",
+            "target": "BME/ME 715"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
         }
     },
     {
@@ -27,162 +175,14 @@
     },
     {
         "data": {
-            "description": "Principles of mechanics, force systems, equilibrium, structures, distributed forces, moments of inertia of areas, and friction.",
-            "id": "EMA 201",
-            "parent": "EMA",
-            "title": "STATICS"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 303",
-            "target": "BME/ME 615"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 201",
-            "target": "EMA 303"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 710",
-            "target": "BME/ME 715"
-        }
-    },
-    {
-        "data": {
-            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns. For civil engineers.",
-            "id": "EMA 303",
-            "parent": "EMA",
-            "title": "MECHANICS OF MATERIALS"
-        }
-    },
-    {
-        "data": {
-            "source": "BME/ME 615",
-            "target": "BME/ME 715"
-        }
-    },
-    {
-        "data": {
-            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
-            "id": "MATH 222",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
-        }
-    },
-    {
-        "data": {
-            "id": "EMA",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 306",
-            "target": "BME/ME 615"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 222",
             "target": "ME 306"
         }
     },
     {
         "data": {
-            "description": "Focus on solid mechanics of prominent musculoskeletal and cardiovascular tissues. Their normal and pathological behaviors (stiffness, strength, relaxation, creep, adaptive remodeling, etc.) in response to physiologic loading will be examined and quantified.",
-            "id": "BME/ME 615",
-            "title": "TISSUE MECHANICS"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "description": "Central topics in solid mechanics applied to soft tissues, including analysis of strain in the setting of large deformations, computation of stress in multiple experimental loading configurations, constitutive modeling of biomaterials using hyperelastic strain-energy functions, modeling tissue growth and remodeling, and the main theories for soft tissue failure will be covered. Application of finite elasticity theory in practical laboratory situations, and key papers and concepts in soft tissue mechanics.",
-            "id": "BME/ME 715",
-            "title": "ADVANCED TISSUE MECHANICS"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "id": "MATH",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
-            "description": "Tensor analysis; analysis of stress, strain and rate of strain; application of Newtonian mechanics to deformable media; mechanical constitutive equations; field equations of fluid mechanics and elasticity. Knowledge of linear algebra [such asMATH\u00a0340] required.",
-            "id": "EMA 710",
-            "parent": "EMA",
-            "title": "MECHANICS OF CONTINUA"
-        }
-    },
-    {
-        "data": {
-            "id": "ME",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "source": "ME 306",
+            "target": "BME/ME 615"
         }
     }
 ]

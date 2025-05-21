@@ -28,6 +28,22 @@
     },
     "description": "Enhanced education on diabetes topics; current approaches to the medical management of patients with diabetes including the pharmacist's role in diabetes education and coaching/case management.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        "NURSING 312",
+                        "NURSING 422"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 655,
@@ -35,10 +51,35 @@
                     "PHMPRAC"
                 ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 655,
+                "subjects": [
+                    "PHMPRAC"
+                ]
+            },
+            " or (NURSING 312 and NURSING 422)"
         ],
         "prerequisites_text": "PHM\u00a0PRAC\u00a0655or (NURSING 312 and NURSING 422)"
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        "NURSING 312",
+                        "NURSING 422"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 655,
@@ -47,9 +88,24 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 655,
+                "subjects": [
+                    "PHMPRAC"
+                ]
+            },
+            " or (NURSING 312 and NURSING 422)"
+        ],
         "prerequisites_text": "PHM\u00a0PRAC\u00a0655or (NURSING 312 and NURSING 422)"
     },
     "similar_courses": [
+        {
+            "course_number": 741,
+            "subjects": [
+                "PHMPRAC"
+            ]
+        },
         {
             "course_number": 655,
             "subjects": [
@@ -57,26 +113,19 @@
             ]
         },
         {
-            "course_number": 556,
+            "course_number": 610,
             "subjects": [
                 "PHMPRAC"
             ]
         },
         {
-            "course_number": 962,
+            "course_number": 653,
             "subjects": [
                 "PHMPRAC"
             ]
         },
         {
-            "course_number": 605,
-            "subjects": [
-                "PHMPRAC",
-                "NURSING"
-            ]
-        },
-        {
-            "course_number": 961,
+            "course_number": 654,
             "subjects": [
                 "PHMPRAC"
             ]
@@ -385,27 +434,6 @@
                 "total": 12,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    2,
-                    2
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Denise Walbrandt Pigarelli": "DENISE.PIGARELLI@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "P",
-                    "name": "Pharmacy",
-                    "url": "http://www.pharmacy.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

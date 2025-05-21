@@ -29,23 +29,25 @@
     },
     "description": "Principles of the mechanics of solid multiphase systems. Role of heterogeneity and anisotropy in determining physical properties including elastic, dielectric and piezoelectric properties. Applications in lightweight structures, ultrastrong materials, materials for protection of the body, and materials for the replacement of human tissues. Materials with fibrous, lamellar, particular, and cellular structures.  Heterogeneous materials of biological origin. Biomimetic and bio-inspired materials.",
     "optimized_prerequisites": {
-        "course_references": [
-            {
-                "course_number": 441,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "prerequisites_text": "E\u00a0M\u00a0A\u00a0303,M\u00a0E\u00a0306, orM\u00a0S\u00a0&\u00a0E\u00a0441, graduate/professional standing, or member of Engineering Guest Students"
-    },
-    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 441,
@@ -58,32 +60,99 @@
                 "subjects": [
                     "ME"
                 ]
-            },
+            }
+        ],
+        "linked_requisite_text": [
             {
                 "course_number": 303,
                 "subjects": [
                     "EMA"
                 ]
+            },
+            ", ",
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 441,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            ", graduate/professional standing, or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "E\u00a0M\u00a0A\u00a0303,M\u00a0E\u00a0306, orM\u00a0S\u00a0&\u00a0E\u00a0441, graduate/professional standing, or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing",
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            {
+                "course_number": 441,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 306,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 441,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            ", graduate/professional standing, or member of Engineering Guest Students"
         ],
         "prerequisites_text": "E\u00a0M\u00a0A\u00a0303,M\u00a0E\u00a0306, orM\u00a0S\u00a0&\u00a0E\u00a0441, graduate/professional standing, or member of Engineering Guest Students"
     },
     "similar_courses": [
-        {
-            "course_number": 708,
-            "subjects": [
-                "ME",
-                "EMA"
-            ]
-        },
-        {
-            "course_number": 508,
-            "subjects": [
-                "ME",
-                "EMA",
-                "CIVENGR"
-            ]
-        },
         {
             "course_number": 350,
             "subjects": [
@@ -91,15 +160,31 @@
             ]
         },
         {
-            "course_number": 351,
+            "course_number": 708,
+            "subjects": [
+                "EMA",
+                "ME"
+            ]
+        },
+        {
+            "course_number": 250,
             "subjects": [
                 "MS&E"
             ]
         },
         {
-            "course_number": 456,
+            "course_number": 508,
             "subjects": [
-                "MS&E"
+                "EMA",
+                "ME",
+                "CIVENGR"
+            ]
+        },
+        {
+            "course_number": 715,
+            "subjects": [
+                "BME",
+                "ME"
             ]
         }
     ],

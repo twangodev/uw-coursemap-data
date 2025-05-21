@@ -1,40 +1,9 @@
 [
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "ENTOM/ZOOLOGY 302",
-            "target": "ENTOM 331"
-        }
-    },
-    {
-        "data": {
             "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
             "id": "BIOLOGY/ZOOLOGY 101",
             "title": "ANIMAL BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "ENTOM/ZOOLOGY 302"
-        }
-    },
-    {
-        "data": {
-            "id": "ENTOM",
-            "type": "compound"
         }
     },
     {
@@ -46,8 +15,35 @@
     },
     {
         "data": {
+            "description": "Principles of taxonomy, identification and taxonomic morphology of adult insects.",
+            "id": "ENTOM 331",
+            "parent": "ENTOM",
+            "title": "TAXONOMY OF MATURE INSECTS"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
             "id": "CROSSLISTED",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "ENTOM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/ZOOLOGY 101"
         }
     },
     {
@@ -58,10 +54,14 @@
     },
     {
         "data": {
-            "description": "Principles of taxonomy, identification and taxonomic morphology of adult insects.",
-            "id": "ENTOM 331",
-            "parent": "ENTOM",
-            "title": "TAXONOMY OF MATURE INSECTS"
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "ENTOM/ZOOLOGY 302"
+        }
+    },
+    {
+        "data": {
+            "source": "ENTOM/ZOOLOGY 302",
+            "target": "ENTOM 331"
         }
     }
 ]

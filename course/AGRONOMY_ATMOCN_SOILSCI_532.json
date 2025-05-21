@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 532,
         "subjects": [
-            "SOILSCI",
             "AGRONOMY",
+            "SOILSCI",
             "ATMOCN"
         ]
     },
@@ -30,53 +30,65 @@
     },
     "description": "Plant-environment interactions with particular reference to energy exchanges and water relations. Models are used to provide a quantitative synthesis of information from plant physiology, soil physics, and micrometeorology with some consideration of plant-pest interactions.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 130,
                 "subjects": [
                     "BOTANY",
                     "BIOLOGY"
-                ]
-            },
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 103,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "prerequisites_text": "BIOLOGY/\u200bBOTANY\u00a0\u00a0130and (MATH\u00a0211,217, or221) and (PHYSICS\u00a0103,201,207, or247), or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
                 ]
             },
             {
@@ -96,6 +108,147 @@
                 "subjects": [
                     "PHYSICS"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 211,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 217,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 103,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 207,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            "), or graduate/professional standing"
+        ],
+        "prerequisites_text": "BIOLOGY/\u200bBOTANY\u00a0\u00a0130and (MATH\u00a0211,217, or221) and (PHYSICS\u00a0103,201,207, or247), or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "OR"
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 207,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 211,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 103,
+                "subjects": [
+                    "PHYSICS"
+                ]
             },
             {
                 "course_number": 130,
@@ -105,48 +258,115 @@
                 ]
             },
             {
-                "course_number": 221,
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 217,
                 "subjects": [
                     "MATH"
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            " and (",
+            {
+                "course_number": 211,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 217,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ") and (",
+            {
+                "course_number": 103,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 207,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            "), or graduate/professional standing"
+        ],
         "prerequisites_text": "BIOLOGY/\u200bBOTANY\u00a0\u00a0130and (MATH\u00a0211,217, or221) and (PHYSICS\u00a0103,201,207, or247), or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 230,
+            "course_number": 612,
             "subjects": [
-                "GEOG",
-                "SOILSCI",
-                "ENVIRST"
-            ]
-        },
-        {
-            "course_number": 425,
-            "subjects": [
-                "SOILSCI",
-                "MICROBIO"
-            ]
-        },
-        {
-            "course_number": 520,
-            "subjects": [
-                "ATMOCN",
-                "ENVIRST"
-            ]
-        },
-        {
-            "course_number": 451,
-            "subjects": [
-                "SOILSCI",
-                "F&WECOL"
+                "CIVENGR",
+                "GLE"
             ]
         },
         {
             "course_number": 802,
             "subjects": [
                 "BOTANY"
+            ]
+        },
+        {
+            "course_number": 320,
+            "subjects": [
+                "HORT"
+            ]
+        },
+        {
+            "course_number": 301,
+            "subjects": [
+                "SOILSCI"
+            ]
+        },
+        {
+            "course_number": 622,
+            "subjects": [
+                "SOILSCI"
             ]
         }
     ],

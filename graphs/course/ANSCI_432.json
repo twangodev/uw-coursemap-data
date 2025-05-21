@@ -1,8 +1,46 @@
 [
     {
         "data": {
-            "source": "ANSCI/DYSCI 434",
-            "target": "ANSCI 432"
+            "description": "Application of research findings in breeding, feeding, management and marketing to modernize production. Lab may include farm visits, practical exercises in testing changes, and \"tools\" used by producers.",
+            "id": "ANSCI 432",
+            "parent": "ANSCI",
+            "title": "SWINE PRODUCTION"
+        }
+    },
+    {
+        "data": {
+            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
+            "id": "BIOCORE 381",
+            "parent": "BIOCORE",
+            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
+        }
+    },
+    {
+        "data": {
+            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
+            "id": "BIOLOGY/ZOOLOGY 101",
+            "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "General concepts of animal biology at an introductory level emphasizing the evolutionary relationships between animals. Learn about general body plans and strategies used to accomplish the basic tasks of staying alive in major animal groups using preserved and live animals. Study the diversity within each group of animals by integrating the body plans with the lifestyle and ecology of animals. Dissections of earthworm, freshwater mussel, squid, sea star, and rat aid the study of these general principles.",
+            "id": "BIOLOGY/ZOOLOGY 102",
+            "title": "ANIMAL BIOLOGY LABORATORY"
+        }
+    },
+    {
+        "data": {
+            "description": "Principles of reproductive physiology, improvement of fertility, and artificial insemination.",
+            "id": "ANSCI/DYSCI 434",
+            "title": "REPRODUCTIVE PHYSIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "The molecular basis for inheritance of monogenic and polygenic traits related to animal disease and production. An introduction to the principles of improving animal health and performance by selection and mating systems in companion animals, horses, livestock, and poultry.",
+            "id": "ANSCI/DYSCI 361",
+            "title": "INTRODUCTION TO ANIMAL AND VETERINARY GENETICS"
         }
     },
     {
@@ -14,9 +52,9 @@
     },
     {
         "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
+            "description": "Topics include: selected topics in plant physiology, a survey of the five major kingdoms of organisms, speciation and evolutionary theory, and ecology at multiple levels of the biological hierarchy.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 152",
+            "title": "INTRODUCTORY BIOLOGY"
         }
     },
     {
@@ -29,16 +67,50 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 102",
+            "id": "ANSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "BIOCORE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ANSCI/DYSCI 361",
+            "target": "ANSCI 432"
+        }
+    },
+    {
+        "data": {
+            "source": "ANSCI/DYSCI 434",
+            "target": "ANSCI 432"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOCORE 381",
+            "target": "BIOCORE 382"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOCORE 382",
             "target": "ANSCI/DYSCI 361"
         }
     },
     {
         "data": {
-            "description": "Application of research findings in breeding, feeding, management and marketing to modernize production. Lab may include farm visits, practical exercises in testing changes, and \"tools\" used by producers.",
-            "id": "ANSCI 432",
-            "parent": "ANSCI",
-            "title": "SWINE PRODUCTION"
+            "source": "BIOCORE 382",
+            "target": "ANSCI/DYSCI 434"
         }
     },
     {
@@ -55,49 +127,8 @@
     },
     {
         "data": {
-            "description": "General concepts of animal biology at an introductory level emphasizing the evolutionary relationships between animals. Learn about general body plans and strategies used to accomplish the basic tasks of staying alive in major animal groups using preserved and live animals. Study the diversity within each group of animals by integrating the body plans with the lifestyle and ecology of animals. Dissections of earthworm, freshwater mussel, squid, sea star, and rat aid the study of these general principles.",
-            "id": "BIOLOGY/ZOOLOGY 102",
-            "title": "ANIMAL BIOLOGY LABORATORY"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 102",
-            "target": "ANSCI/DYSCI 434"
-        }
-    },
-    {
-        "data": {
-            "description": "Principles of reproductive physiology, improvement of fertility, and artificial insemination.",
-            "id": "ANSCI/DYSCI 434",
-            "title": "REPRODUCTIVE PHYSIOLOGY"
-        }
-    },
-    {
-        "data": {
             "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 102"
-        }
-    },
-    {
-        "data": {
-            "description": "The molecular basis for inheritance of monogenic and polygenic traits related to animal disease and production. An introduction to the principles of improving animal health and performance by selection and mating systems in companion animals, horses, livestock, and poultry.",
-            "id": "ANSCI/DYSCI 361",
-            "title": "INTRODUCTION TO ANIMAL AND VETERINARY GENETICS"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "ANSCI/DYSCI 361"
-        }
-    },
-    {
-        "data": {
-            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
-            "id": "BIOCORE 381",
-            "parent": "BIOCORE",
-            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
+            "target": "BIOLOGY/ZOOLOGY 101"
         }
     },
     {
@@ -108,45 +139,20 @@
     },
     {
         "data": {
-            "source": "BIOCORE 381",
-            "target": "BIOCORE 382"
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 152",
+            "target": "BIOLOGY/ZOOLOGY 102"
         }
     },
     {
         "data": {
-            "source": "BIOCORE 382",
-            "target": "ANSCI/DYSCI 434"
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "ANSCI/DYSCI 361"
         }
     },
     {
         "data": {
             "source": "BIOLOGY/ZOOLOGY 101",
             "target": "ANSCI/DYSCI 434"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics include: selected topics in plant physiology, a survey of the five major kingdoms of organisms, speciation and evolutionary theory, and ecology at multiple levels of the biological hierarchy.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 152",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "ANSCI/DYSCI 361",
-            "target": "ANSCI 432"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOCORE 382",
-            "target": "ANSCI/DYSCI 361"
-        }
-    },
-    {
-        "data": {
-            "id": "CROSSLISTED",
-            "type": "compound"
         }
     },
     {
@@ -157,20 +163,14 @@
     },
     {
         "data": {
-            "id": "BIOCORE",
-            "type": "compound"
+            "source": "BIOLOGY/ZOOLOGY 102",
+            "target": "ANSCI/DYSCI 361"
         }
     },
     {
         "data": {
-            "id": "ANSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
+            "source": "BIOLOGY/ZOOLOGY 102",
+            "target": "ANSCI/DYSCI 434"
         }
     }
 ]

@@ -11,6 +11,20 @@
     "cumulative_grade_data": null,
     "description": "Focuses on the basic molecular mechanisms that regulate DNA, RNA, and protein metabolism in eukaryotic organisms.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 508,
@@ -25,38 +39,94 @@
                 ]
             }
         ],
-        "prerequisites_text": "BIOCHEM\u00a0501,508or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 501,
                 "subjects": [
                     "BIOCHEM"
                 ]
             },
+            ", ",
             {
                 "course_number": 508,
                 "subjects": [
                     "BIOCHEM"
                 ]
+            },
+            " or graduate/professional standing"
+        ],
+        "prerequisites_text": "BIOCHEM\u00a0501,508or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 508,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 508,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            " or graduate/professional standing"
         ],
         "prerequisites_text": "BIOCHEM\u00a0501,508or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 707,
+            "course_number": 370,
             "subjects": [
-                "MDGENET",
-                "GENETICS"
+                "ZOOLOGY"
             ]
         },
         {
-            "course_number": 612,
+            "course_number": 917,
             "subjects": [
                 "MICROBIO",
-                "BIOCHEM",
+                "BIOCHEM"
+            ]
+        },
+        {
+            "course_number": 508,
+            "subjects": [
+                "BIOCHEM"
+            ]
+        },
+        {
+            "course_number": 466,
+            "subjects": [
                 "GENETICS"
             ]
         },
@@ -65,42 +135,7 @@
             "subjects": [
                 "GENETICS"
             ]
-        },
-        {
-            "course_number": 470,
-            "subjects": [
-                "MICROBIO"
-            ]
-        },
-        {
-            "course_number": 466,
-            "subjects": [
-                "GENETICS"
-            ]
         }
     ],
-    "term_data": {
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "David WASSARMAN": "DAWASSARMAN@WISC.EDU",
-                    "GAELEN HESS": "GHESS3@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
-        }
-    }
+    "term_data": {}
 }

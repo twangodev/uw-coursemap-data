@@ -1,6 +1,21 @@
 [
     {
         "data": {
+            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
+            "id": "BIOLOGY/ZOOLOGY 101",
+            "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to major abiotic and biotic factors that influence forest ecosystem composition, structure, and function. Reviews important processes that influence structure and function of forest ecosystems. Uses basic ecosystem concepts to elucidate influence of anthropogenic (including forest management) and natural disturbances on forest ecosystem structure and function.",
+            "id": "F&WECOL 550",
+            "parent": "F&WECOL",
+            "title": "FOREST ECOLOGY"
+        }
+    },
+    {
+        "data": {
             "description": "Introduction to the basic principles and concepts of the biology of plants. an integrative approach stressing evolutionary sequences and the relationship between structure and function at succeeding levels of organization: molecule, cell, organism, population, community. Correlated lectures, laboratories, and discussions.",
             "id": "BIOLOGY/BOTANY 130",
             "title": "GENERAL BOTANY"
@@ -15,48 +30,9 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 152",
-            "target": "F&WECOL 550"
-        }
-    },
-    {
-        "data": {
-            "id": "F&WECOL",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "description": "Topics include: selected topics in plant physiology, a survey of the five major kingdoms of organisms, speciation and evolutionary theory, and ecology at multiple levels of the biological hierarchy.",
             "id": "BIOLOGY/BOTANY/ZOOLOGY 152",
             "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY 130",
-            "target": "F&WECOL 550"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to major abiotic and biotic factors that influence forest ecosystem composition, structure, and function. Reviews important processes that influence structure and function of forest ecosystems. Uses basic ecosystem concepts to elucidate influence of anthropogenic (including forest management) and natural disturbances on forest ecosystem structure and function.",
-            "id": "F&WECOL 550",
-            "parent": "F&WECOL",
-            "title": "FOREST ECOLOGY"
         }
     },
     {
@@ -67,14 +43,38 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
+            "id": "F&WECOL",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY 130",
+            "target": "F&WECOL 550"
         }
     },
     {
         "data": {
             "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "target": "BIOLOGY/BOTANY/ZOOLOGY 152"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/ZOOLOGY 101"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 152",
+            "target": "F&WECOL 550"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/ZOOLOGY 101",
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
         }
     }
 ]

@@ -28,6 +28,24 @@
     },
     "description": "Integration of materials science theory and materials engineering practice as applied to the processing of materials at the microscopic level.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 350,
@@ -36,18 +54,53 @@
                 ]
             }
         ],
-        "prerequisites_text": "M\u00a0S\u00a0&\u00a0E\u00a0350,351, orCBE\u00a0440, or member of Engineering Guest Students"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 350,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            ", ",
             {
                 "course_number": 351,
                 "subjects": [
                     "MS&E"
                 ]
             },
+            ", or ",
             {
-                "course_number": 350,
+                "course_number": 440,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            ", or member of Engineering Guest Students"
+        ],
+        "prerequisites_text": "M\u00a0S\u00a0&\u00a0E\u00a0350,351, orCBE\u00a0440, or member of Engineering Guest Students"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "member of Engineering Guest Students"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 351,
                 "subjects": [
                     "MS&E"
                 ]
@@ -57,13 +110,42 @@
                 "subjects": [
                     "CBE"
                 ]
+            },
+            {
+                "course_number": 350,
+                "subjects": [
+                    "MS&E"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 350,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 351,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 440,
+                "subjects": [
+                    "CBE"
+                ]
+            },
+            ", or member of Engineering Guest Students"
         ],
         "prerequisites_text": "M\u00a0S\u00a0&\u00a0E\u00a0350,351, orCBE\u00a0440, or member of Engineering Guest Students"
     },
     "similar_courses": [
         {
-            "course_number": 550,
+            "course_number": 660,
             "subjects": [
                 "MS&E"
             ]
@@ -75,19 +157,19 @@
             ]
         },
         {
+            "course_number": 250,
+            "subjects": [
+                "MS&E"
+            ]
+        },
+        {
+            "course_number": 550,
+            "subjects": [
+                "MS&E"
+            ]
+        },
+        {
             "course_number": 260,
-            "subjects": [
-                "MS&E"
-            ]
-        },
-        {
-            "course_number": 460,
-            "subjects": [
-                "MS&E"
-            ]
-        },
-        {
-            "course_number": 553,
             "subjects": [
                 "MS&E"
             ]
@@ -518,27 +600,6 @@
                 "total": 24,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Daniel RHODES": "DARHODES@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "E",
-                    "name": "Engineering",
-                    "url": "http://www.engr.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

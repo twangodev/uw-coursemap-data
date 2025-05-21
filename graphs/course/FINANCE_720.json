@@ -1,24 +1,6 @@
 [
     {
         "data": {
-            "id": "FINANCE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "FINANCE 700",
-            "target": "FINANCE 720"
-        }
-    },
-    {
-        "data": {
-            "source": "GENBUS 704",
-            "target": "FINANCE 720"
-        }
-    },
-    {
-        "data": {
             "description": "Development of the theory, instruments, techniques and practice of modern investment management. Topics include asset pricing and valuation under certainty and uncertainty, portfolio management, determination of interest rates, immunization strategies and derivative securities.",
             "id": "FINANCE 720",
             "parent": "FINANCE",
@@ -35,16 +17,34 @@
     },
     {
         "data": {
+            "description": "Introduction to financial management of firms and investment decision making; both theory and practice are emphasized. Topics covered include the financial environment and securities markets, financial statements and analysis, working capital management and capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision making under uncertainty and selected topics such as mergers, options, futures.",
+            "id": "FINANCE 700",
+            "parent": "FINANCE",
+            "title": "INTRODUCTION TO FINANCIAL MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "id": "FINANCE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "GENBUS",
             "type": "compound"
         }
     },
     {
         "data": {
-            "description": "Introduction to financial management of firms and investment decision making; both theory and practice are emphasized. Topics covered include the financial environment and securities markets, financial statements and analysis, working capital management and capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision making under uncertainty and selected topics such as mergers, options, futures.",
-            "id": "FINANCE 700",
-            "parent": "FINANCE",
-            "title": "INTRODUCTION TO FINANCIAL MANAGEMENT"
+            "source": "FINANCE 700",
+            "target": "FINANCE 720"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 704",
+            "target": "FINANCE 720"
         }
     }
 ]

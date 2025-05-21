@@ -1,9 +1,17 @@
 [
     {
         "data": {
-            "description": "Explores the interaction between society and plant-associated microbes. Topics include: the Irish potato famine, pesticides in current agriculture, role of economics and consumer preference in crop disease management and the release of genetically engineered organisms.",
-            "id": "BOTANY/PLPATH 123",
-            "title": "PLANTS, PARASITES, AND PEOPLE"
+            "description": "Lectures and discussions about environmental issues. Historical and contemporary environmental impacts of humans on the biosphere. Global futures: population, technology, societal values, resources and prospects for sustainable management.",
+            "id": "ENVIRST/SOILSCI 101",
+            "title": "FORUM ON THE ENVIRONMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Plant science applied to the growth, production, management, distribution and utilization of field crops.",
+            "id": "AGRONOMY 100",
+            "parent": "AGRONOMY",
+            "title": "PRINCIPLES AND PRACTICES IN CROP PRODUCTION"
         }
     },
     {
@@ -15,8 +23,8 @@
     },
     {
         "data": {
-            "source": "AGRONOMY 100",
-            "target": "AGRONOMY/BOTANY/SOILSCI 370"
+            "id": "AGRONOMY",
+            "type": "compound"
         }
     },
     {
@@ -27,22 +35,14 @@
     },
     {
         "data": {
-            "source": "BOTANY/PLPATH 123",
+            "source": "AGRONOMY 100",
             "target": "AGRONOMY/BOTANY/SOILSCI 370"
         }
     },
     {
         "data": {
-            "id": "AGRONOMY",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "description": "Plant science applied to the growth, production, management, distribution and utilization of field crops.",
-            "id": "AGRONOMY 100",
-            "parent": "AGRONOMY",
-            "title": "PRINCIPLES AND PRACTICES IN CROP PRODUCTION"
+            "source": "ENVIRST/SOILSCI 101",
+            "target": "AGRONOMY/BOTANY/SOILSCI 370"
         }
     }
 ]

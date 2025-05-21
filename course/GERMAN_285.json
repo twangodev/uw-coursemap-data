@@ -28,6 +28,46 @@
     },
     "description": "Intensive introduction to German-language culture and texts of varying length and genre, emphasizing reading, writing, and discussion skills. Equivalent toGERMAN\u00a0258and262.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "."
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                "Not open to students with credit for",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "AND"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "."
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 258,
@@ -36,12 +76,81 @@
                 ]
             }
         ],
+        "linked_requisite_text": [
+            {
+                "course_number": 204,
+                "subjects": [
+                    "GERMAN"
+                ]
+            },
+            ". Not open to students with credit for ",
+            {
+                "course_number": 258,
+                "subjects": [
+                    "GERMAN"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 262,
+                "subjects": [
+                    "GERMAN"
+                ]
+            },
+            "."
+        ],
         "prerequisites_text": "GERMAN\u00a0204. Not open to students with credit forGERMAN\u00a0258or262."
     },
     "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        "."
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                "Not open to students with credit for",
+                                {
+                                    "children": [],
+                                    "operator": null
+                                }
+                            ],
+                            "operator": "AND"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "operator": null
+                                },
+                                "."
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
+        },
         "course_references": [
             {
                 "course_number": 262,
+                "subjects": [
+                    "GERMAN"
+                ]
+            },
+            {
+                "course_number": 258,
                 "subjects": [
                     "GERMAN"
                 ]
@@ -51,31 +160,36 @@
                 "subjects": [
                     "GERMAN"
                 ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 204,
+                "subjects": [
+                    "GERMAN"
+                ]
             },
+            ". Not open to students with credit for ",
             {
                 "course_number": 258,
                 "subjects": [
                     "GERMAN"
                 ]
-            }
+            },
+            " or ",
+            {
+                "course_number": 262,
+                "subjects": [
+                    "GERMAN"
+                ]
+            },
+            "."
         ],
         "prerequisites_text": "GERMAN\u00a0204. Not open to students with credit forGERMAN\u00a0258or262."
     },
     "similar_courses": [
         {
-            "course_number": 392,
-            "subjects": [
-                "GERMAN"
-            ]
-        },
-        {
-            "course_number": 262,
-            "subjects": [
-                "GERMAN"
-            ]
-        },
-        {
-            "course_number": 391,
+            "course_number": 758,
             "subjects": [
                 "GERMAN"
             ]
@@ -87,7 +201,19 @@
             ]
         },
         {
-            "course_number": 278,
+            "course_number": 305,
+            "subjects": [
+                "GERMAN"
+            ]
+        },
+        {
+            "course_number": 402,
+            "subjects": [
+                "GERMAN"
+            ]
+        },
+        {
+            "course_number": 385,
             "subjects": [
                 "GERMAN"
             ]
@@ -193,27 +319,6 @@
                 "total": 17,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    6,
-                    6
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Melissa Sheedy": "MELISSA.SHEEDY@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall"
-            },
-            "grade_data": null
         }
     }
 }

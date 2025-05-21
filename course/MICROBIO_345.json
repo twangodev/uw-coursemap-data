@@ -28,6 +28,27 @@
     },
     "description": "Introduces the rich biology of infectious disease and how it impacts the biology of humans and other organisms, through the lens of global health. Steps beyond a narrow focus on the biological dimensions of disease to also cover the social, political, and cultural factors that shape the spread and persistence of disease in natural populations. Includes a survey of the various types of pathogens and the science behind infection, transmission, evolution, and virulence.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 151,
@@ -38,15 +59,68 @@
                 ]
             }
         ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,BOTANY/\u200bBIOLOGY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, orBIOCORE\u00a0381"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
             {
                 "course_number": 130,
                 "subjects": [
                     "BOTANY",
                     "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            }
+        ],
+        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,BOTANY/\u200bBIOLOGY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, orBIOCORE\u00a0381"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
                 ]
             },
             {
@@ -65,6 +139,40 @@
                 ]
             },
             {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or ",
+            {
                 "course_number": 381,
                 "subjects": [
                     "BIOCORE"
@@ -75,13 +183,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 801,
+            "subjects": [
+                "POPHLTH"
+            ]
+        },
+        {
             "course_number": 811,
             "subjects": [
                 "MICROBIO"
             ]
         },
         {
-            "course_number": 303,
+            "course_number": 810,
             "subjects": [
                 "MICROBIO"
             ]
@@ -93,15 +207,9 @@
             ]
         },
         {
-            "course_number": 301,
+            "course_number": 303,
             "subjects": [
-                "MM&I"
-            ]
-        },
-        {
-            "course_number": 943,
-            "subjects": [
-                "FAMMED"
+                "MICROBIO"
             ]
         }
     ],
@@ -180,27 +288,6 @@
                 "total": 236,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Kerri GANN": "KERRI.COON@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Not Applicable"
-            },
-            "grade_data": null
         }
     }
 }

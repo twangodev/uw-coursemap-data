@@ -30,6 +30,20 @@
     },
     "description": "Modern GIS desktop and web-based workflows, analyses, and visualizations related to natural resource and environmental planning issues and communication. Guest lectures from agency and industry professionals.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 377,
@@ -46,16 +60,14 @@
                 ]
             }
         ],
-        "prerequisites_text": "LAND\u00a0ARC\u00a0311,ENVIR\u00a0ST/\u200bCIV\u00a0ENGR/\u200bGEOG\u00a0\u00a0377, or graduate/professional standing"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
             {
                 "course_number": 311,
                 "subjects": [
                     "LANDARC"
                 ]
             },
+            ", ",
             {
                 "course_number": 377,
                 "subjects": [
@@ -63,21 +75,68 @@
                     "CIVENGR",
                     "ENVIRST"
                 ]
+            },
+            ", or graduate/professional standing"
+        ],
+        "prerequisites_text": "LAND\u00a0ARC\u00a0311,ENVIR\u00a0ST/\u200bCIV\u00a0ENGR/\u200bGEOG\u00a0\u00a0377, or graduate/professional standing"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 377,
+                "subjects": [
+                    "GEOG",
+                    "CIVENGR",
+                    "ENVIRST"
+                ]
+            },
+            {
+                "course_number": 311,
+                "subjects": [
+                    "LANDARC"
+                ]
             }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 311,
+                "subjects": [
+                    "LANDARC"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 377,
+                "subjects": [
+                    "GEOG",
+                    "CIVENGR",
+                    "ENVIRST"
+                ]
+            },
+            ", or graduate/professional standing"
         ],
         "prerequisites_text": "LAND\u00a0ARC\u00a0311,ENVIR\u00a0ST/\u200bCIV\u00a0ENGR/\u200bGEOG\u00a0\u00a0377, or graduate/professional standing"
     },
     "similar_courses": [
         {
-            "course_number": 511,
+            "course_number": 377,
             "subjects": [
-                "LANDARC"
-            ]
-        },
-        {
-            "course_number": 106,
-            "subjects": [
-                "GEOSCI",
+                "GEOG",
+                "CIVENGR",
                 "ENVIRST"
             ]
         },
@@ -85,24 +144,27 @@
             "course_number": 532,
             "subjects": [
                 "GEOG",
+                "LANDARC",
                 "URBRPL",
-                "LANDARC",
                 "ENVIRST"
             ]
         },
         {
-            "course_number": 556,
+            "course_number": 950,
             "subjects": [
-                "CIVENGR",
-                "LANDARC",
                 "ENVIRST"
             ]
         },
         {
-            "course_number": 377,
+            "course_number": 578,
             "subjects": [
-                "GEOG",
-                "CIVENGR",
+                "GEOG"
+            ]
+        },
+        {
+            "course_number": 575,
+            "subjects": [
+                "SOILSCI",
                 "ENVIRST"
             ]
         }
@@ -171,8 +233,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "STEPHEN VENTURA",
-                    "JANICE BAUDEWIG POEHLMAN"
+                    "JANICE BAUDEWIG POEHLMAN",
+                    "STEPHEN VENTURA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -484,28 +546,6 @@
                 "total": 30,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    3
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Claudia Patterson": "CNPATTERSON2@WISC.EDU",
-                    "Edward Boswell": "EPBOSWELL@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "A",
-                    "name": "Agricultural and Life Sciences",
-                    "url": "http://www.cals.wisc.edu/"
-                },
-                "typically_offered": "Spring"
-            },
-            "grade_data": null
         }
     }
 }

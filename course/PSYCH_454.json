@@ -28,6 +28,45 @@
     },
     "description": "Biological basis of human and animal behaviors, including perception, action, cognition, social interaction and disease. Weekly themes from \"Cracking the Neural Code\" to \"Love and War\". Learn, develop and use neural mechanisms to explain and (attempt to) predict what they and others think and do in all facets of life.",
     "optimized_prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 202,
@@ -51,10 +90,22 @@
                 ]
             }
         ],
-        "prerequisites_text": "PSYCH\u00a0202, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0381and382)"
-    },
-    "prerequisites": {
-        "course_references": [
+        "linked_requisite_text": [
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PSYCH"
+                ]
+            },
+            ", (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
             {
                 "course_number": 102,
                 "subjects": [
@@ -62,6 +113,7 @@
                     "BIOLOGY"
                 ]
             },
+            "), ",
             {
                 "course_number": 151,
                 "subjects": [
@@ -70,17 +122,77 @@
                     "BIOLOGY"
                 ]
             },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            },
+            ", or (",
             {
                 "course_number": 381,
                 "subjects": [
                     "BIOCORE"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ")"
+        ],
+        "prerequisites_text": "PSYCH\u00a0202, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0381and382)"
+    },
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                },
+                {
+                    "children": [],
+                    "operator": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "operator": null
+                        },
+                        {
+                            "children": [],
+                            "operator": null
+                        }
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PSYCH"
+                ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
                 ]
             },
             {
@@ -90,23 +202,97 @@
                 ]
             },
             {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
                 "course_number": 202,
                 "subjects": [
                     "PSYCH"
                 ]
-            }
+            },
+            ", (",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            "), ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BOTANY",
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            ", or (",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ")"
         ],
         "prerequisites_text": "PSYCH\u00a0202, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0381and382)"
     },
     "similar_courses": [
         {
-            "course_number": 720,
+            "course_number": 449,
             "subjects": [
                 "PSYCH"
             ]
         },
         {
-            "course_number": 449,
+            "course_number": 202,
+            "subjects": [
+                "PSYCH"
+            ]
+        },
+        {
+            "course_number": 707,
+            "subjects": [
+                "PSYCH"
+            ]
+        },
+        {
+            "course_number": 720,
             "subjects": [
                 "PSYCH"
             ]
@@ -115,21 +301,6 @@
             "course_number": 542,
             "subjects": [
                 "EDPSYCH"
-            ]
-        },
-        {
-            "course_number": 523,
-            "subjects": [
-                "ZOOLOGY",
-                "PSYCH"
-            ]
-        },
-        {
-            "course_number": 674,
-            "subjects": [
-                "ZOOLOGY",
-                "PSYCH",
-                "NEURODPT"
             ]
         }
     ],
@@ -325,8 +496,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RACHEL STEINER",
-                    "YURI SAALMANN"
+                    "YURI SAALMANN",
+                    "RACHEL STEINER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -402,8 +573,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "YURI SAALMANN",
-                    "DUNCAN CLEVELAND"
+                    "DUNCAN CLEVELAND",
+                    "YURI SAALMANN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -428,9 +599,9 @@
                 "f": 6,
                 "incomplete": 4,
                 "instructors": [
-                    "ZARMEEN ZAHID",
                     "YURI SAALMANN",
-                    "KUSHIN MUKHERJEE"
+                    "KUSHIN MUKHERJEE",
+                    "ZARMEEN ZAHID"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -455,9 +626,9 @@
                 "f": 6,
                 "incomplete": 2,
                 "instructors": [
-                    "QUAN WAN",
                     "YURI SAALMANN",
-                    "JIANGANG SHAN"
+                    "JIANGANG SHAN",
+                    "QUAN WAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -483,8 +654,8 @@
                 "incomplete": 2,
                 "instructors": [
                     "YURI SAALMANN",
-                    "MING JIUN TSAI",
-                    "JUNLI DU"
+                    "JUNLI DU",
+                    "MING JIUN TSAI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -495,29 +666,6 @@
                 "total": 419,
                 "unsatisfactory": 0
             }
-        },
-        "1254": {
-            "enrollment_data": {
-                "credit_count": [
-                    3,
-                    4
-                ],
-                "ethnics_studies": false,
-                "general_education": false,
-                "instructors": {
-                    "Mohammad Ali Kheirkhah Ravandi": "KHEIRKHAHRAV@WISC.EDU",
-                    "Raghuram Holenarasipura Venkatasubbaiah": "HOLENARASIPU@WISC.EDU",
-                    "YURI SAALMANN": "SAALMANN@WISC.EDU"
-                },
-                "last_taught_term": "2025 Sprng",
-                "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
-                },
-                "typically_offered": "Fall, Spring, Summer"
-            },
-            "grade_data": null
         }
     }
 }

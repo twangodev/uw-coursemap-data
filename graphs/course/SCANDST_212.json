@@ -1,10 +1,10 @@
 [
     {
         "data": {
-            "description": "Reading of selections from Swedish writers, grammar review and conversation.",
-            "id": "SCANDST 211",
+            "description": "For beginning learners of Swedish; emphasis on proficiency through speaking, listening, reading, and writing, and on communication in cultural context.",
+            "id": "SCANDST 111",
             "parent": "SCANDST",
-            "title": "SECOND YEAR SWEDISH"
+            "title": "FIRST SEMESTER SWEDISH"
         }
     },
     {
@@ -18,6 +18,14 @@
     {
         "data": {
             "description": "Reading of selections from Swedish writers, grammar review and conversation.",
+            "id": "SCANDST 211",
+            "parent": "SCANDST",
+            "title": "SECOND YEAR SWEDISH"
+        }
+    },
+    {
+        "data": {
+            "description": "Reading of selections from Swedish writers, grammar review and conversation.",
             "id": "SCANDST 212",
             "parent": "SCANDST",
             "title": "SECOND YEAR SWEDISH"
@@ -25,16 +33,8 @@
     },
     {
         "data": {
-            "description": "For beginning learners of Swedish; emphasis on proficiency through speaking, listening, reading, and writing, and on communication in cultural context.",
-            "id": "SCANDST 111",
-            "parent": "SCANDST",
-            "title": "FIRST SEMESTER SWEDISH"
-        }
-    },
-    {
-        "data": {
-            "source": "SCANDST 112",
-            "target": "SCANDST 211"
+            "id": "SCANDST",
+            "type": "compound"
         }
     },
     {
@@ -45,14 +45,14 @@
     },
     {
         "data": {
-            "source": "SCANDST 211",
-            "target": "SCANDST 212"
+            "source": "SCANDST 112",
+            "target": "SCANDST 211"
         }
     },
     {
         "data": {
-            "id": "SCANDST",
-            "type": "compound"
+            "source": "SCANDST 211",
+            "target": "SCANDST 212"
         }
     }
 ]
