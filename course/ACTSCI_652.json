@@ -27,98 +27,43 @@
         "unsatisfactory": 0
     },
     "description": "Definition and selection of probability distributions appropriate for insurance data that are heavily tailed and skewed.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                "declared in undergraduate Business Exchange program",
-                "Capstone Certificate in Actuarial Science"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 317,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or concurrent enrollment), declared in undergraduate Business Exchange program, or Capstone Certificate in Actuarial Science"
-        ],
-        "prerequisites_text": "(GEN\u00a0BUS\u00a0317,STAT/\u200bMATH\u00a0\u00a0310,STAT\u00a0333,340, or concurrent enrollment), declared in undergraduate Business Exchange program, or Capstone Certificate in Actuarial Science"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 340,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 317,
+                            "subjects": [
+                                "GENBUS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 310,
+                            "subjects": [
+                                "STAT",
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 333,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 340,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -131,9 +76,10 @@
         },
         "course_references": [
             {
-                "course_number": 333,
+                "course_number": 310,
                 "subjects": [
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             {
@@ -149,9 +95,8 @@
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 333,
                 "subjects": [
-                    "MATH",
                     "STAT"
                 ]
             }
@@ -168,8 +113,8 @@
             {
                 "course_number": 310,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ", ",
@@ -192,7 +137,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 650,
+            "course_number": 651,
             "subjects": [
                 "ACTSCI"
             ]
@@ -204,19 +149,19 @@
             ]
         },
         {
-            "course_number": 653,
-            "subjects": [
-                "ACTSCI"
-            ]
-        },
-        {
             "course_number": 300,
             "subjects": [
                 "ACTSCI"
             ]
         },
         {
-            "course_number": 651,
+            "course_number": 653,
+            "subjects": [
+                "ACTSCI"
+            ]
+        },
+        {
+            "course_number": 650,
             "subjects": [
                 "ACTSCI"
             ]
@@ -562,8 +507,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Paul Johnson",
-                    "EDWARD FREES"
+                    "EDWARD FREES",
+                    "Paul Johnson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -613,8 +558,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Paul Johnson",
-                    "EDWARD FREES"
+                    "EDWARD FREES",
+                    "Paul Johnson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

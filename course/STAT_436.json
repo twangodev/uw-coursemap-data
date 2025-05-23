@@ -27,72 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "Techniques for visualization within data science workflows. Topics include data preparation; exploratory data analysis; spatial, tabular, and graph structured data; dimensionality reduction; model visualization and interpretability; interactive queries and navigation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate professional/standing",
-                "declared in Statistics VISP"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 303,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            "), graduate professional/standing, or declared in Statistics VISP"
-        ],
-        "prerequisites_text": "(STAT\u00a0240or303), graduate professional/standing, or declared in Statistics VISP"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 240,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 240,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 303,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -137,13 +95,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 765,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 613,
+            "course_number": 433,
             "subjects": [
                 "STAT"
             ]
@@ -156,13 +108,19 @@
             ]
         },
         {
-            "course_number": 433,
+            "course_number": 240,
             "subjects": [
                 "STAT"
             ]
         },
         {
-            "course_number": 240,
+            "course_number": 765,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 613,
             "subjects": [
                 "STAT"
             ]
@@ -234,10 +192,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MARGARET THAIRU",
                     "MATT Sathitvudh",
-                    "NATHAN AVILES",
-                    "Kris SANKARAN"
+                    "Kris SANKARAN",
+                    "MARGARET THAIRU",
+                    "NATHAN AVILES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

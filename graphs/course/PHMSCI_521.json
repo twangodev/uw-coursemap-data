@@ -1,6 +1,22 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "Accelerated coverage of topics in general chemistry, including introduction to laboratory techniques. Topics include atomic and molecular structure, chemical equilibrium, acid-base chemistry, thermodynamics, kinetics, and electrochemistry.",
             "id": "CHEM 109",
             "parent": "CHEM",
@@ -41,10 +57,18 @@
     },
     {
         "data": {
-            "description": "Core concepts in human physiology from cells to organ-systems via online lectures and active learning activities including laboratory experiments. Topics include homeostasis, membrane transport, cellular physiology, regulation of metabolism, and functions of the nervous, endocrine, muscular, reproductive, cardiovascular, respiratory, renal, and gastrointestinal system.",
-            "id": "ANAT&PHY 335",
-            "parent": "ANAT&PHY",
-            "title": "PHYSIOLOGY"
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
@@ -60,6 +84,14 @@
             "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
             "id": "BIOLOGY/ZOOLOGY 101",
             "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
         }
     },
     {
@@ -96,10 +128,26 @@
     },
     {
         "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Provides a basic understanding of the causes, pathophysiology, pathology and clinical manifestations of disease states from a medical perspective.",
             "id": "PATH 404",
             "parent": "PATH",
             "title": "PATHOPHYSIOLOGIC PRINCIPLES OF HUMAN DISEASES"
+        }
+    },
+    {
+        "data": {
+            "description": "Selected topics in inorganic and organic chemistry. Emphasis is on relevance to biological, environmental and social issues.",
+            "id": "CHEM 108",
+            "parent": "CHEM",
+            "title": "CHEMISTRY IN OUR WORLD"
         }
     },
     {
@@ -112,16 +160,24 @@
     },
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
+            "description": "The two semester sequenceMATH\u00a0112-MATH\u00a0113covers similar material asMATH\u00a0114, but in a slower pace. Not recommended for students with less than an AB inMATH\u00a096.",
+            "id": "MATH 114",
+            "parent": "MATH",
+            "title": "ALGEBRA AND TRIGONOMETRY"
         }
     },
     {
         "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics, and selected topics in Animal Physiology. Designed for engineering majors that do not need a lab component.",
-            "id": "ZOOLOGY 153",
-            "parent": "ZOOLOGY",
+            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
+            "id": "MATH 171",
+            "parent": "MATH",
+            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "title": "INTRODUCTORY BIOLOGY"
         }
     },
@@ -151,6 +207,12 @@
     },
     {
         "data": {
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "PATH",
             "type": "compound"
         }
@@ -165,24 +227,6 @@
         "data": {
             "id": "PHYSICS",
             "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "ZOOLOGY",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ANAT&PHY 335",
-            "target": "PHMSCI 521"
-        }
-    },
-    {
-        "data": {
-            "source": "ANAT&PHY 435",
-            "target": "ANAT&PHY 335"
         }
     },
     {
@@ -206,25 +250,7 @@
     {
         "data": {
             "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "ANAT&PHY 335"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "ANAT&PHY 435"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "target": "BIOLOGY/ZOOLOGY 101"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "ANAT&PHY 335"
         }
     },
     {
@@ -247,14 +273,14 @@
     },
     {
         "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "ZOOLOGY 153"
+            "source": "CHEM 103",
+            "target": "CHEM 104"
         }
     },
     {
         "data": {
-            "source": "CHEM 103",
-            "target": "CHEM 104"
+            "source": "CHEM 104",
+            "target": "CHEM 108"
         }
     },
     {
@@ -267,6 +293,12 @@
         "data": {
             "source": "CHEM 104",
             "target": "CHEM 343"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 108",
+            "target": "ANAT&PHY 435"
         }
     },
     {
@@ -295,6 +327,102 @@
     },
     {
         "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 114",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 114"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 171"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 171",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "CHEM 109"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 201"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 207"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 114"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 171"
+        }
+    },
+    {
+        "data": {
             "source": "PATH 404",
             "target": "PHMSCI 521"
         }
@@ -315,18 +443,6 @@
         "data": {
             "source": "PHYSICS 207",
             "target": "PHYSICS 201"
-        }
-    },
-    {
-        "data": {
-            "source": "ZOOLOGY 153",
-            "target": "ANAT&PHY 335"
-        }
-    },
-    {
-        "data": {
-            "source": "ZOOLOGY 153",
-            "target": "ANAT&PHY 435"
         }
     }
 ]

@@ -27,59 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Exploration of advanced subject areas possibly to be introduced into the business curriculum.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Graduate standing",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 700,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate standing and (",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 700,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Graduate standing and (MARKETNG\u00a0300or700)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "MARKETNG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -87,12 +42,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "MARKETNG"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 700,
+                            "subjects": [
+                                "MARKETNG"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -137,13 +96,13 @@
         {
             "course_number": 765,
             "subjects": [
-                "MHR"
+                "ACTSCI"
             ]
         },
         {
             "course_number": 765,
             "subjects": [
-                "FINANCE"
+                "MHR"
             ]
         },
         {
@@ -155,13 +114,13 @@
         {
             "course_number": 765,
             "subjects": [
-                "INTLBUS"
+                "FINANCE"
             ]
         },
         {
             "course_number": 765,
             "subjects": [
-                "ACTSCI"
+                "INTLBUS"
             ]
         }
     ],
@@ -179,8 +138,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN M. MC KELLER",
-                    "THOMAS OGUINN"
+                    "THOMAS OGUINN",
+                    "JOHN M. MC KELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -205,8 +164,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ARIC PHYLLIP RINDFLEISCH",
-                    "MONIKA ELKE WINGATE"
+                    "MONIKA ELKE WINGATE",
+                    "ARIC PHYLLIP RINDFLEISCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -258,9 +217,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "Kristin BRANCH",
-                    "ARIC PHYLLIP RINDFLEISCH",
+                    "Peter LUKSZYS",
                     "DEBORAH J MITCHELL",
-                    "Peter LUKSZYS"
+                    "ARIC PHYLLIP RINDFLEISCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -312,9 +271,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "Kristin BRANCH",
-                    "DAVID SCHWEIDEL",
                     "Peter LUKSZYS",
-                    "THOMAS OGUINN"
+                    "THOMAS OGUINN",
+                    "DAVID SCHWEIDEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -366,8 +325,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Kristin BRANCH",
-                    "THOMAS OGUINN",
-                    "Peter LUKSZYS"
+                    "Peter LUKSZYS",
+                    "THOMAS OGUINN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -392,9 +351,9 @@
                 "f": 0,
                 "incomplete": 2,
                 "instructors": [
-                    "Kristin BRANCH",
+                    "DEBORAH J MITCHELL",
                     "DAVID SCHWEIDEL",
-                    "DEBORAH J MITCHELL"
+                    "Kristin BRANCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -419,8 +378,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
-                    "DEBORAH J MITCHELL"
+                    "DEBORAH J MITCHELL",
+                    "Kristin BRANCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -445,8 +404,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
-                    "DEBORAH J MITCHELL"
+                    "DEBORAH J MITCHELL",
+                    "Kristin BRANCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -471,11 +430,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Peter LUKSZYS",
+                    "TARA KHOURY",
                     "Kristin BRANCH",
                     "Verda BLYTHE",
                     "STEFANIE NORVAISAS",
-                    "Peter LUKSZYS",
-                    "TARA KHOURY",
                     "ERIN MCMILLAN"
                 ],
                 "no_credit": 0,
@@ -501,11 +460,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
                     "DAVID GEE",
-                    "Verda BLYTHE",
                     "Peter LUKSZYS",
                     "TARA KHOURY",
+                    "Kristin BRANCH",
+                    "Verda BLYTHE",
                     "ERIN MCMILLAN"
                 ],
                 "no_credit": 0,
@@ -533,8 +492,8 @@
                 "instructors": [
                     "Kristin BRANCH",
                     "DAVID GEE",
-                    "Peter LUKSZYS",
-                    "Verda BLYTHE"
+                    "Verda BLYTHE",
+                    "Peter LUKSZYS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -559,10 +518,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
                     "TAI LIM",
-                    "Verda BLYTHE",
                     "Peter LUKSZYS",
+                    "Kristin BRANCH",
+                    "Verda BLYTHE",
                     "Evan POLMAN"
                 ],
                 "no_credit": 0,
@@ -588,11 +547,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
                     "DAVID GEE",
-                    "Verda BLYTHE",
+                    "Peter LUKSZYS",
                     "MICHAEL JUDGE",
-                    "Peter LUKSZYS"
+                    "Kristin BRANCH",
+                    "Verda BLYTHE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -617,12 +576,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
-                    "KATHRYN KRUEGER",
                     "TIMOTHY BUHL",
-                    "MICHAEL JUDGE",
                     "Peter LUKSZYS",
-                    "Evan POLMAN"
+                    "MICHAEL JUDGE",
+                    "Kristin BRANCH",
+                    "Evan POLMAN",
+                    "KATHRYN KRUEGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -647,11 +606,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
-                    "KATHRYN KRUEGER",
                     "TIMOTHY BUHL",
+                    "Peter LUKSZYS",
                     "MICHAEL JUDGE",
-                    "Peter LUKSZYS"
+                    "Kristin BRANCH",
+                    "KATHRYN KRUEGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -676,12 +635,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
+                    "Joann Peck",
                     "TIMOTHY BUHL",
                     "TAI LIM",
-                    "Verda BLYTHE",
                     "MICHAEL JUDGE",
-                    "Joann Peck"
+                    "Kristin BRANCH",
+                    "Verda BLYTHE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -733,12 +692,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
+                    "Joann Peck",
                     "TIMOTHY BUHL",
-                    "Jake Dean",
-                    "MOSES ALTSECH",
                     "MICHAEL JUDGE",
-                    "Joann Peck"
+                    "Jake Dean",
+                    "Kristin BRANCH",
+                    "MOSES ALTSECH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -763,11 +722,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
                     "TIMOTHY BUHL",
+                    "MICHAEL JUDGE",
                     "Jake Dean",
-                    "Jan HEIDE",
-                    "MICHAEL JUDGE"
+                    "Kristin BRANCH",
+                    "Jan HEIDE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -792,14 +751,14 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Joann Peck",
+                    "TAI LIM",
+                    "MICHAEL JUDGE",
                     "Kristin BRANCH",
+                    "Verda BLYTHE",
                     "Jake Dean",
                     "SACHIN TULI",
-                    "MOHAMMAD RAZA",
-                    "TAI LIM",
-                    "Verda BLYTHE",
-                    "MICHAEL JUDGE",
-                    "Joann Peck"
+                    "MOHAMMAD RAZA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -824,11 +783,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
                     "TIMOTHY BUHL",
+                    "MICHAEL JUDGE",
                     "Jake Dean",
-                    "Jan HEIDE",
-                    "MICHAEL JUDGE"
+                    "Kristin BRANCH",
+                    "Jan HEIDE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -853,11 +812,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
-                    "Jake Dean",
-                    "SACHIN TULI",
+                    "Joann Peck",
                     "MICHAEL JUDGE",
-                    "Joann Peck"
+                    "Jake Dean",
+                    "Kristin BRANCH",
+                    "SACHIN TULI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -884,8 +843,8 @@
                 "instructors": [
                     "Kristin BRANCH",
                     "MICHAEL JUDGE",
-                    "Jake Dean",
-                    "Jan HEIDE"
+                    "Jan HEIDE",
+                    "Jake Dean"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -910,11 +869,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
+                    "Joann Peck",
+                    "MICHAEL JUDGE",
                     "Jake Dean",
                     "Verda BLYTHE",
-                    "MICHAEL JUDGE",
-                    "Joann Peck"
+                    "Kristin BRANCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1044,9 +1003,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "NITISHA TOMAR",
                     "NEIL MORGAN",
                     "Jake Dean",
-                    "NITISHA TOMAR",
                     "TANISHKA JAIN",
                     "YI LIU"
                 ],
@@ -1073,8 +1032,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Alan Stoffer",
-                    "Jake Dean"
+                    "Jake Dean",
+                    "Alan Stoffer"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1099,10 +1058,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "NEIL MORGAN",
-                    "Kristin BRANCH",
-                    "Jake Dean",
                     "NITISHA TOMAR",
+                    "NEIL MORGAN",
+                    "Jake Dean",
+                    "Kristin BRANCH",
                     "YI LIU"
                 ],
                 "no_credit": 0,

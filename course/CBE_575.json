@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Instrumental methods as applied to chemical and physical processes in chemical engineering. Spectroscopic, optical, and electrochemical methods; chromatography, differential thermal analysis, and microscopy.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 324,
-                "subjects": [
-                    "CBE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 324,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            " or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "CBE\u00a0324or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 324,
+            "subjects": [
+                "CBE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 324,
+                    "subjects": [
+                        "CBE"
+                    ]
                 },
                 "member of Engineering Guest Students"
             ],
@@ -89,6 +69,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 524,
+            "subjects": [
+                "CHEM"
+            ]
+        },
+        {
             "course_number": 721,
             "subjects": [
                 "CHEM"
@@ -104,12 +90,6 @@
             "course_number": 660,
             "subjects": [
                 "CBE"
-            ]
-        },
-        {
-            "course_number": 524,
-            "subjects": [
-                "CHEM"
             ]
         },
         {

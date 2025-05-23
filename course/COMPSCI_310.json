@@ -27,43 +27,22 @@
         "unsatisfactory": 5
     },
     "description": "Gives students an introduction to computer and analytical skills to use in their subsequent course work and professional development. Discusses several methods of using computers to solve problems, including elementary programming techniques, symbolic manipulation languages, and software packages. Techniques will be illustrated using sample problems drawn from elementary engineering. Emphasis is on introduction of algorithms with the use of specific tools to illustrate the methods.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "MATH\u00a0222, graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing",
                 "declared in the Capstone Certificate in Computer Sciences for Professionals"
@@ -91,20 +70,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 291,
-            "subjects": [
-                "GLE",
-                "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 102,
-            "subjects": [
-                "COMPSCI",
-                "LIS"
-            ]
-        },
-        {
             "course_number": 200,
             "subjects": [
                 "COMPSCI"
@@ -117,8 +82,22 @@
             ]
         },
         {
+            "course_number": 291,
+            "subjects": [
+                "CIVENGR",
+                "GLE"
+            ]
+        },
+        {
             "course_number": 400,
             "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 102,
+            "subjects": [
+                "LIS",
                 "COMPSCI"
             ]
         }
@@ -687,11 +666,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "WEN XU",
+                    "Beck Hasti",
                     "VINAY NINGANAGOUDA PATIL",
+                    "WEN XU",
                     "DIWANSHU JAIN",
                     "SAMUEL JACKSON",
-                    "Beck Hasti",
                     "MEHMET DEMIREL"
                 ],
                 "no_credit": 0,
@@ -717,8 +696,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "Florian HEIMERL",
-                    "Beck Hasti"
+                    "Beck Hasti",
+                    "Florian HEIMERL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,60 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Advanced practice knowledge and skills essential for social workers practicing in health, aging, and disability care settings.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Graduate/professional standing",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "Declared in Social Work Advanced Standing MSW"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 441,
+            "subjects": [
+                "SOCWORK"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 441,
-                "subjects": [
-                    "SOCWORK"
-                ]
-            },
-            {
-                "course_number": 442,
-                "subjects": [
-                    "SOCWORK"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(Graduate/professional standing, ",
-            {
-                "course_number": 441,
-                "subjects": [
-                    "SOCWORK"
-                ]
-            },
-            ", and ",
-            {
-                "course_number": 442,
-                "subjects": [
-                    "SOCWORK"
-                ]
-            },
-            ") or Declared in Social Work Advanced Standing MSW"
-        ],
-        "prerequisites_text": "(Graduate/professional standing,SOC\u00a0WORK\u00a0441, and442) or Declared in Social Work Advanced Standing MSW"
-    },
+        {
+            "course_number": 442,
+            "subjects": [
+                "SOCWORK"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -88,12 +48,16 @@
                     "children": [
                         "Graduate/professional standing",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 441,
+                            "subjects": [
+                                "SOCWORK"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 442,
+                            "subjects": [
+                                "SOCWORK"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -104,13 +68,13 @@
         },
         "course_references": [
             {
-                "course_number": 442,
+                "course_number": 441,
                 "subjects": [
                     "SOCWORK"
                 ]
             },
             {
-                "course_number": 441,
+                "course_number": 442,
                 "subjects": [
                     "SOCWORK"
                 ]
@@ -143,13 +107,13 @@
             ]
         },
         {
-            "course_number": 875,
+            "course_number": 821,
             "subjects": [
                 "SOCWORK"
             ]
         },
         {
-            "course_number": 873,
+            "course_number": 875,
             "subjects": [
                 "SOCWORK"
             ]
@@ -161,7 +125,7 @@
             ]
         },
         {
-            "course_number": 821,
+            "course_number": 873,
             "subjects": [
                 "SOCWORK"
             ]

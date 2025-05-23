@@ -27,98 +27,20 @@
         "unsatisfactory": 3
     },
     "description": "Fluid statics and dynamics, dimensional analysis, flow of an ideal fluid, flow of a real fluid--including laminar and turbulent flow, applications to engineering problems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(MATH\u00a0234or375) and (E\u00a0M\u00a0A\u00a0202orM\u00a0E\u00a0240), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 240,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -127,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 234,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 375,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -140,12 +66,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 240,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -219,13 +149,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 363,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 618,
+            "course_number": 919,
             "subjects": [
                 "CIVENGR"
             ]
@@ -243,7 +167,13 @@
             ]
         },
         {
-            "course_number": 919,
+            "course_number": 363,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 618,
             "subjects": [
                 "CIVENGR"
             ]

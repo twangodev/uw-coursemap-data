@@ -27,71 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "An examination of a specific television genre, analyzing it as a narrative, economic, cultural, and political entity and exploring its role in perpetuating and/or challenging ideas of what society is or could be.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 250,
+            "subjects": [
+                "COMARTS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 250,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            {
-                "course_number": 351,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 250,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 351,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(COM\u00a0ARTS\u00a0250and351) or graduate/professional standing"
-    },
+        {
+            "course_number": 351,
+            "subjects": [
+                "COMARTS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 250,
+                            "subjects": [
+                                "COMARTS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 351,
+                            "subjects": [
+                                "COMARTS"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -102,13 +67,13 @@
         },
         "course_references": [
             {
-                "course_number": 351,
+                "course_number": 250,
                 "subjects": [
                     "COMARTS"
                 ]
             },
             {
-                "course_number": 250,
+                "course_number": 351,
                 "subjects": [
                     "COMARTS"
                 ]
@@ -135,19 +100,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 608,
-            "subjects": [
-                "COMARTS"
-            ]
-        },
-        {
             "course_number": 250,
-            "subjects": [
-                "COMARTS"
-            ]
-        },
-        {
-            "course_number": 351,
             "subjects": [
                 "COMARTS"
             ]
@@ -159,7 +112,19 @@
             ]
         },
         {
+            "course_number": 608,
+            "subjects": [
+                "COMARTS"
+            ]
+        },
+        {
             "course_number": 451,
+            "subjects": [
+                "COMARTS"
+            ]
+        },
+        {
+            "course_number": 351,
             "subjects": [
                 "COMARTS"
             ]

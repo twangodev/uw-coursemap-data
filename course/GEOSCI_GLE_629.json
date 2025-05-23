@@ -28,73 +28,38 @@
         "unsatisfactory": 0
     },
     "description": "Physical and chemical processes governing the transport of solutes in groundwater; application of hydrogeologic and geochemical theory and practice to the protection of aquifers from contamination.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 627,
+            "subjects": [
+                "GEOSCI",
+                "GLE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 627,
-                "subjects": [
-                    "GEOSCI",
-                    "GLE"
-                ]
-            },
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 627,
-                "subjects": [
-                    "GEOSCI",
-                    "GLE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "G\u00a0L\u00a0E/\u200bGEOSCI\u00a0\u00a0627andMATH\u00a0222, graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 627,
+                            "subjects": [
+                                "GEOSCI",
+                                "GLE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -140,7 +105,20 @@
     },
     "similar_courses": [
         {
-            "course_number": 724,
+            "course_number": 727,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
+            "course_number": 635,
+            "subjects": [
+                "CIVENGR",
+                "GLE"
+            ]
+        },
+        {
+            "course_number": 627,
             "subjects": [
                 "GEOSCI",
                 "GLE"
@@ -153,23 +131,10 @@
             ]
         },
         {
-            "course_number": 727,
-            "subjects": [
-                "GEOSCI"
-            ]
-        },
-        {
-            "course_number": 627,
+            "course_number": 724,
             "subjects": [
                 "GEOSCI",
                 "GLE"
-            ]
-        },
-        {
-            "course_number": 635,
-            "subjects": [
-                "GLE",
-                "CIVENGR"
             ]
         }
     ],

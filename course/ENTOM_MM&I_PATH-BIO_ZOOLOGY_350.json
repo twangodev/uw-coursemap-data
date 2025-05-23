@@ -2,138 +2,79 @@
     "course_reference": {
         "course_number": 350,
         "subjects": [
-            "ENTOM",
             "ZOOLOGY",
-            "MM&I",
-            "PATH-BIO"
+            "ENTOM",
+            "PATH-BIO",
+            "MM&I"
         ]
     },
     "course_title": "PARASITOLOGY",
     "cumulative_grade_data": null,
     "description": "The biology of water-borne, food-borne, soil-borne and vector-borne parasites of animals including humans. Parasites are explored in the context of transmission, associated disease, diagnosis and treatment options, and environmental, cultural and socioeconomic drivers of disease epidemiology.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 153,
-                "subjects": [
-                    "ZOOLOGY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102, orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152orZOOLOGY\u00a0153, orBIOCORE\u00a0381"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 153,
+                    "subjects": [
+                        "ZOOLOGY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
@@ -152,18 +93,18 @@
                 ]
             },
             {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
                 "course_number": 152,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY",
                     "BOTANY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
                 ]
             }
         ],
@@ -211,36 +152,36 @@
     },
     "similar_courses": [
         {
+            "course_number": 371,
+            "subjects": [
+                "ZOOLOGY",
+                "ENTOM"
+            ]
+        },
+        {
             "course_number": 345,
             "subjects": [
                 "MICROBIO"
             ]
         },
         {
-            "course_number": 371,
+            "course_number": 750,
             "subjects": [
-                "ENTOM",
-                "ZOOLOGY"
+                "PATH-BIO",
+                "MM&I"
             ]
         },
         {
-            "course_number": 750,
+            "course_number": 548,
             "subjects": [
-                "MM&I",
-                "PATH-BIO"
+                "SURGSCI",
+                "F&WECOL"
             ]
         },
         {
             "course_number": 514,
             "subjects": [
                 "PATH-BIO"
-            ]
-        },
-        {
-            "course_number": 548,
-            "subjects": [
-                "F&WECOL",
-                "SURGSCI"
             ]
         }
     ],

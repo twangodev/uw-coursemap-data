@@ -27,73 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "Exploration of population health nursing principles and practices, public health partnerships, population health advocacy, community health assessment, and identification of health patterns in populations in local, national, and global settings.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 323,
+            "subjects": [
+                "NURSING"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 323,
-                "subjects": [
-                    "NURSING"
-                ]
-            },
-            {
-                "course_number": 326,
-                "subjects": [
-                    "NURSING"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 323,
-                "subjects": [
-                    "NURSING"
-                ]
-            },
-            " or concurrent enrollment) and (",
-            {
-                "course_number": 326,
-                "subjects": [
-                    "NURSING"
-                ]
-            },
-            " or concurrent enrollment)"
-        ],
-        "prerequisites_text": "(NURSING\u00a0323or concurrent enrollment) and (NURSING\u00a0326or concurrent enrollment)"
-    },
+        {
+            "course_number": 326,
+            "subjects": [
+                "NURSING"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 323,
+                            "subjects": [
+                                "NURSING"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -102,8 +59,10 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 326,
+                            "subjects": [
+                                "NURSING"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -114,13 +73,13 @@
         },
         "course_references": [
             {
-                "course_number": 326,
+                "course_number": 323,
                 "subjects": [
                     "NURSING"
                 ]
             },
             {
-                "course_number": 323,
+                "course_number": 326,
                 "subjects": [
                     "NURSING"
                 ]
@@ -147,19 +106,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 721,
-            "subjects": [
-                "NURSING"
-            ]
-        },
-        {
-            "course_number": 723,
-            "subjects": [
-                "NURSING"
-            ]
-        },
-        {
             "course_number": 725,
+            "subjects": [
+                "NURSING"
+            ]
+        },
+        {
+            "course_number": 702,
+            "subjects": [
+                "NURSING"
+            ]
+        },
+        {
+            "course_number": 721,
             "subjects": [
                 "NURSING"
             ]
@@ -171,7 +130,7 @@
             ]
         },
         {
-            "course_number": 702,
+            "course_number": 723,
             "subjects": [
                 "NURSING"
             ]

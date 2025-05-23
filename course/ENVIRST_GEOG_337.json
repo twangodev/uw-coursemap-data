@@ -28,42 +28,14 @@
         "unsatisfactory": 0
     },
     "description": "Explores the links between nature, power and society in today's world. Considers the complex relationships between humans and the earth's resources, including food, energy, physical materials, water, biota, and landscapes. Examines issues linked to population and scarcity, resource tenure, green consumerism, political economy, environmental ethics, risks and hazards, political ecology, and environmental justice.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Sophomore standing.",
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 112,
-                "subjects": [
-                    "ENVIRST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing. Not open to students with credit for ",
-            {
-                "course_number": 112,
-                "subjects": [
-                    "ENVIRST"
-                ]
-            }
-        ],
-        "prerequisites_text": "Sophomore standing. Not open to students with credit forENVIR\u00a0ST\u00a0112"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 112,
+            "subjects": [
+                "ENVIRST"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -72,8 +44,10 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 112,
+                            "subjects": [
+                                "ENVIRST"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -102,20 +76,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 139,
-            "subjects": [
-                "ENVIRST",
-                "GEOG"
-            ]
-        },
-        {
-            "course_number": 339,
-            "subjects": [
-                "ENVIRST",
-                "GEOG"
-            ]
-        },
-        {
             "course_number": 534,
             "subjects": [
                 "ENVIRST",
@@ -124,6 +84,20 @@
         },
         {
             "course_number": 537,
+            "subjects": [
+                "ENVIRST",
+                "GEOG"
+            ]
+        },
+        {
+            "course_number": 139,
+            "subjects": [
+                "ENVIRST",
+                "GEOG"
+            ]
+        },
+        {
+            "course_number": 339,
             "subjects": [
                 "ENVIRST",
                 "GEOG"

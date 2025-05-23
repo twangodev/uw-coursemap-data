@@ -27,132 +27,48 @@
         "unsatisfactory": 0
     },
     "description": "Physiological adaptation and function in wild animals, primarily birds, mammals, reptiles, amphibians. Focus on interactions between animals and their environment, and relationships between animal physiology and the ecology and dynamics of populations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), (BIOCORE\u00a0381and382), or graduate/professional standing"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -160,12 +76,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 382,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -175,6 +95,27 @@
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
+                    "BOTANY"
+                ]
+            },
             {
                 "course_number": 101,
                 "subjects": [
@@ -186,27 +127,6 @@
                 "course_number": 382,
                 "subjects": [
                     "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
                 ]
             }
         ],
@@ -255,19 +175,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 318,
-            "subjects": [
-                "F&WECOL"
-            ]
-        },
-        {
-            "course_number": 101,
-            "subjects": [
-                "F&WECOL"
-            ]
-        },
-        {
-            "course_number": 612,
+            "course_number": 611,
             "subjects": [
                 "ZOOLOGY"
             ]
@@ -279,9 +187,21 @@
             ]
         },
         {
-            "course_number": 611,
+            "course_number": 612,
             "subjects": [
                 "ZOOLOGY"
+            ]
+        },
+        {
+            "course_number": 318,
+            "subjects": [
+                "F&WECOL"
+            ]
+        },
+        {
+            "course_number": 101,
+            "subjects": [
+                "F&WECOL"
             ]
         }
     ],
@@ -624,8 +544,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Gavin Dehnert",
-                    "William KARASOV"
+                    "William KARASOV",
+                    "Gavin Dehnert"
                 ],
                 "no_credit": 0,
                 "no_work": 1,

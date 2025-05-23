@@ -27,55 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "Modern syntactic theory applied to selected areas of English grammar, including the interface between syntax and the lexicon, and morphology.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 514,
-                "subjects": [
-                    "ENGL"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 514,
-                "subjects": [
-                    "ENGL"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 330,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            }
-        ],
-        "prerequisites_text": "ENGL\u00a0514orLINGUIS\u00a0330"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 514,
+            "subjects": [
+                "ENGL"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 514,
+                    "subjects": [
+                        "ENGL"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 330,
+                    "subjects": [
+                        "LINGUIS"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -113,15 +86,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 715,
+            "course_number": 514,
             "subjects": [
                 "ENGL"
-            ]
-        },
-        {
-            "course_number": 330,
-            "subjects": [
-                "LINGUIS"
             ]
         },
         {
@@ -131,13 +98,19 @@
             ]
         },
         {
-            "course_number": 514,
+            "course_number": 530,
+            "subjects": [
+                "LINGUIS"
+            ]
+        },
+        {
+            "course_number": 715,
             "subjects": [
                 "ENGL"
             ]
         },
         {
-            "course_number": 530,
+            "course_number": 330,
             "subjects": [
                 "LINGUIS"
             ]

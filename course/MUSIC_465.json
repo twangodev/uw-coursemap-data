@@ -27,44 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Exploration of methods and materials related to marching band teaching, philosophy, and performance.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "declared in Music",
-                "Music: Education",
-                "Music: Performance"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 42,
-                "subjects": [
-                    "MUSIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 42,
-                "subjects": [
-                    "MUSIC"
-                ]
-            },
-            " or declared in Music, Music: Education, or Music: Performance"
-        ],
-        "prerequisites_text": "MUSIC\u00a042or declared in Music, Music: Education, or Music: Performance"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 42,
+            "subjects": [
+                "MUSIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 42,
+                    "subjects": [
+                        "MUSIC"
+                    ]
                 },
                 "declared in Music",
                 "Music: Education",
@@ -99,19 +77,7 @@
             ]
         },
         {
-            "course_number": 42,
-            "subjects": [
-                "MUSIC"
-            ]
-        },
-        {
             "course_number": 43,
-            "subjects": [
-                "MUSIC"
-            ]
-        },
-        {
-            "course_number": 576,
             "subjects": [
                 "MUSIC"
             ]
@@ -121,6 +87,18 @@
             "subjects": [
                 "MUSIC",
                 "CURRIC"
+            ]
+        },
+        {
+            "course_number": 42,
+            "subjects": [
+                "MUSIC"
+            ]
+        },
+        {
+            "course_number": 576,
+            "subjects": [
+                "MUSIC"
             ]
         }
     ],

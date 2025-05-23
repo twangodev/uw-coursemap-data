@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Learn and practice assessment strategies in Adapted Physical Education. Experiences in the gymnasium and pool.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 315,
+            "subjects": [
+                "KINES"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 362,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            {
-                "course_number": 315,
-                "subjects": [
-                    "KINES"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 315,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 362,
-                "subjects": [
-                    "KINES"
-                ]
-            }
-        ],
-        "prerequisites_text": "KINES\u00a0315and362"
-    },
+        {
+            "course_number": 362,
+            "subjects": [
+                "KINES"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 315,
+                    "subjects": [
+                        "KINES"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 362,
+                    "subjects": [
+                        "KINES"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -119,13 +92,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 363,
-            "subjects": [
-                "KINES"
-            ]
-        },
-        {
-            "course_number": 316,
+            "course_number": 362,
             "subjects": [
                 "KINES"
             ]
@@ -137,13 +104,19 @@
             ]
         },
         {
-            "course_number": 362,
+            "course_number": 316,
             "subjects": [
                 "KINES"
             ]
         },
         {
             "course_number": 365,
+            "subjects": [
+                "KINES"
+            ]
+        },
+        {
+            "course_number": 363,
             "subjects": [
                 "KINES"
             ]
@@ -513,8 +486,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JONANNE HAYNES MANOGUE",
-                    "TIM GATTENBY"
+                    "TIM GATTENBY",
+                    "JONANNE HAYNES MANOGUE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

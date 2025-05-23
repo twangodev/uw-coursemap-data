@@ -27,59 +27,14 @@
         "unsatisfactory": 13
     },
     "description": "Nature of risk, principal techniques of risk management, including insurance markets, and the bases for decision-making in managing risk effectively.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        "declared in undergraduate Business Exchange program."
-                    ],
-                    "operator": "OR"
-                },
-                "Not open to graduate/professional students"
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ") or declared in undergraduate Business Exchange program. Not open to graduate/professional students"
-        ],
-        "prerequisites_text": "(ECON\u00a0101or111) or declared in undergraduate Business Exchange program. Not open to graduate/professional students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "ECON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -88,12 +43,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "ECON"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 111,
+                                    "subjects": [
+                                        "ECON"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -141,6 +100,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 710,
+            "subjects": [
+                "RMI"
+            ]
+        },
+        {
             "course_number": 875,
             "subjects": [
                 "RMI"
@@ -153,19 +118,13 @@
             ]
         },
         {
-            "course_number": 700,
-            "subjects": [
-                "RMI"
-            ]
-        },
-        {
-            "course_number": 710,
-            "subjects": [
-                "RMI"
-            ]
-        },
-        {
             "course_number": 705,
+            "subjects": [
+                "RMI"
+            ]
+        },
+        {
+            "course_number": 700,
             "subjects": [
                 "RMI"
             ]
@@ -485,9 +444,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "EDWARD WUNDER",
                     "VIKRAM DHAR",
-                    "MARK J. BROWNE",
-                    "EDWARD WUNDER"
+                    "MARK J. BROWNE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

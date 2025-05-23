@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Explores the theoretical foundations and practical use of quantitative ethnography, focusing on new insights in the field of cognitive modeling and automated coding and their use in applied fields such as anthropology, education, market research, product development, assessment, and training.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "EDPSYCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "EDPSYCH"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "ED\u00a0PSYCH\u00a0301or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "EDPSYCH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "EDPSYCH"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -89,10 +69,22 @@
     },
     "similar_courses": [
         {
+            "course_number": 560,
+            "subjects": [
+                "EDPSYCH"
+            ]
+        },
+        {
+            "course_number": 545,
+            "subjects": [
+                "ANTHRO"
+            ]
+        },
+        {
             "course_number": 822,
             "subjects": [
-                "ELPA",
-                "EDPSYCH"
+                "EDPSYCH",
+                "ELPA"
             ]
         },
         {
@@ -105,18 +97,6 @@
             "course_number": 309,
             "subjects": [
                 "EDPOL"
-            ]
-        },
-        {
-            "course_number": 560,
-            "subjects": [
-                "EDPSYCH"
-            ]
-        },
-        {
-            "course_number": 545,
-            "subjects": [
-                "ANTHRO"
             ]
         }
     ],

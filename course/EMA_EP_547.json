@@ -2,50 +2,29 @@
     "course_reference": {
         "course_number": 547,
         "subjects": [
-            "EMA",
-            "EP"
+            "EP",
+            "EMA"
         ]
     },
     "course_title": "ENGINEERING ANALYSIS I",
     "cumulative_grade_data": null,
     "description": "Methods of higher mathematics; stress on problem solving rather than rigorous proofs; linear algebra, calculus of variations, Green's function.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 321,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 321,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "MATH\u00a0321, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 321,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 321,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -73,14 +52,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 801,
+            "course_number": 471,
             "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 601,
-            "subjects": [
+                "EP",
                 "EMA"
             ]
         },
@@ -93,15 +67,20 @@
         {
             "course_number": 548,
             "subjects": [
-                "EMA",
-                "EP"
+                "EP",
+                "EMA"
             ]
         },
         {
-            "course_number": 471,
+            "course_number": 601,
             "subjects": [
-                "EMA",
-                "EP"
+                "EMA"
+            ]
+        },
+        {
+            "course_number": 801,
+            "subjects": [
+                "MATH"
             ]
         }
     ],

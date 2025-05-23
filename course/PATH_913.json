@@ -27,91 +27,58 @@
         "unsatisfactory": 0
     },
     "description": "Culture-based methods for detecting and quantifying viruses. Describe concepts such as viral load, transmissibility, tissue tropism, host immune responses, and the effectiveness of various antiviral therapies. Perform multiple techniques for working with and quantifying viruses.  Compare and contrast various methods of detecting and quantifying viruses.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 810,
+            "subjects": [
+                "MEDSC-M"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 810,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            {
-                "course_number": 811,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 810,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 811,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 812,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            ", and ",
-            {
-                "course_number": 813,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            }
-        ],
-        "prerequisites_text": "MED\u00a0SC-M\u00a0810,811,812, and813"
-    },
+        {
+            "course_number": 811,
+            "subjects": [
+                "MEDSC-M"
+            ]
+        },
+        {
+            "course_number": 812,
+            "subjects": [
+                "MEDSC-M"
+            ]
+        },
+        {
+            "course_number": 813,
+            "subjects": [
+                "MEDSC-M"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 810,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 811,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 812,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 813,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -124,6 +91,12 @@
                 ]
             },
             {
+                "course_number": 813,
+                "subjects": [
+                    "MEDSC-M"
+                ]
+            },
+            {
                 "course_number": 812,
                 "subjects": [
                     "MEDSC-M"
@@ -131,12 +104,6 @@
             },
             {
                 "course_number": 810,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            {
-                "course_number": 813,
                 "subjects": [
                     "MEDSC-M"
                 ]
@@ -181,21 +148,6 @@
             ]
         },
         {
-            "course_number": 640,
-            "subjects": [
-                "PLPATH",
-                "MM&I",
-                "ONCOLOGY"
-            ]
-        },
-        {
-            "course_number": 750,
-            "subjects": [
-                "MM&I",
-                "PATH-BIO"
-            ]
-        },
-        {
             "course_number": 513,
             "subjects": [
                 "PATH-BIO"
@@ -205,6 +157,21 @@
             "course_number": 915,
             "subjects": [
                 "PATH"
+            ]
+        },
+        {
+            "course_number": 750,
+            "subjects": [
+                "PATH-BIO",
+                "MM&I"
+            ]
+        },
+        {
+            "course_number": 640,
+            "subjects": [
+                "ONCOLOGY",
+                "PLPATH",
+                "MM&I"
             ]
         }
     ],

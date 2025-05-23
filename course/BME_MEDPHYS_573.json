@@ -28,160 +28,36 @@
         "unsatisfactory": 0
     },
     "description": "Mathematical fundamentals required for medical physics and biomedical applications, including signal analysis and mathematical optimization.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in Medical Physics VISP"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 376,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), or ",
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "), graduate/professional standing, or declared in Medical Physics VISP"
-        ],
-        "prerequisites_text": "(MATH\u00a0234and319), (MATH\u00a0234and320), orMATH\u00a0376and (PHYSICS\u00a0202or208), graduate/professional standing, or declared in Medical Physics VISP"
-    },
+        {
+            "course_number": 208,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 319,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -189,12 +65,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 320,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -202,18 +82,24 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 376,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -228,15 +114,9 @@
         },
         "course_references": [
             {
-                "course_number": 319,
+                "course_number": 202,
                 "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
+                    "PHYSICS"
                 ]
             },
             {
@@ -246,9 +126,15 @@
                 ]
             },
             {
-                "course_number": 202,
+                "course_number": 319,
                 "subjects": [
-                    "PHYSICS"
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
                 ]
             },
             {
@@ -258,7 +144,7 @@
                 ]
             },
             {
-                "course_number": 376,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
@@ -320,6 +206,13 @@
     },
     "similar_courses": [
         {
+            "course_number": 265,
+            "subjects": [
+                "MEDPHYS",
+                "PHYSICS"
+            ]
+        },
+        {
             "course_number": 710,
             "subjects": [
                 "MEDPHYS",
@@ -334,23 +227,16 @@
             ]
         },
         {
-            "course_number": 671,
-            "subjects": [
-                "MEDPHYS"
-            ]
-        },
-        {
-            "course_number": 265,
-            "subjects": [
-                "MEDPHYS",
-                "PHYSICS"
-            ]
-        },
-        {
             "course_number": 568,
             "subjects": [
                 "MEDPHYS",
                 "BME"
+            ]
+        },
+        {
+            "course_number": 671,
+            "subjects": [
+                "MEDPHYS"
             ]
         }
     ],
@@ -368,8 +254,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SEAN FAIN",
-                    "JAMES HOLDEN"
+                    "JAMES HOLDEN",
+                    "SEAN FAIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -669,10 +555,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ALEXANDRA DIFILIPPO",
-                    "AELI OLSON",
                     "SEAN FAIN",
-                    "DIEGO HERNANDO"
+                    "AELI OLSON",
+                    "DIEGO HERNANDO",
+                    "ALEXANDRA DIFILIPPO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -697,9 +583,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LAWRENCE LECHUGA",
                     "SEAN FAIN",
-                    "DIEGO HERNANDO"
+                    "DIEGO HERNANDO",
+                    "LAWRENCE LECHUGA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -724,9 +610,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LAWRENCE LECHUGA",
                     "SEAN FAIN",
-                    "DIEGO HERNANDO"
+                    "DIEGO HERNANDO",
+                    "LAWRENCE LECHUGA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -751,8 +637,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LAWRENCE LECHUGA",
-                    "DIEGO HERNANDO"
+                    "DIEGO HERNANDO",
+                    "LAWRENCE LECHUGA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -829,8 +715,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JONATHAN HALE",
-                    "DIEGO HERNANDO"
+                    "DIEGO HERNANDO",
+                    "JONATHAN HALE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

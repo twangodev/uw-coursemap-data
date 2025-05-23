@@ -1,10 +1,26 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
             "description": "Covers advanced asset-liability, hedging, tax minimization, merger/acquisitions and economic value added strategies for depository financial institutions. Students practice these strategies by managing their own bank in a computer simulation model, merging with or acquiring other student's banks using MA software, and by playing a foreign exchange trading simulation.",
             "id": "FINANCE 610",
             "parent": "FINANCE",
             "title": "BANK SIMULATION AND STRATEGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
         }
     },
     {
@@ -16,10 +32,26 @@
     },
     {
         "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Economic problems of individuals, firms and industries with emphasis on value, price, and distribution of income.",
             "id": "ECON 101",
             "parent": "ECON",
             "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
@@ -48,6 +80,22 @@
     },
     {
         "data": {
+            "description": "Introduction to analysis of economic data. The techniques of descriptive statistics and statistical inference (hypothesis testing and estimation) as directed toward application in economic research.",
+            "id": "ECON 310",
+            "parent": "ECON",
+            "title": "STATISTICS: MEASUREMENT IN ECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
             "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
             "id": "ECON 102",
             "parent": "ECON",
@@ -60,6 +108,14 @@
             "id": "FINANCE 410",
             "parent": "FINANCE",
             "title": "BANK MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -88,6 +144,12 @@
     },
     {
         "data": {
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "ACCTIS 100",
             "target": "ACCTIS 300"
         }
@@ -107,13 +169,19 @@
     {
         "data": {
             "source": "ECON 101",
-            "target": "ECON/FINANCE 300"
+            "target": "ECON 102"
         }
     },
     {
         "data": {
             "source": "ECON 102",
             "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 102",
+            "target": "ECON 310"
         }
     },
     {
@@ -136,6 +204,12 @@
     },
     {
         "data": {
+            "source": "ECON 310",
+            "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
             "source": "ECON/FINANCE 300",
             "target": "FINANCE 410"
         }
@@ -144,6 +218,60 @@
         "data": {
             "source": "FINANCE 410",
             "target": "FINANCE 610"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "ECON 310"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     }
 ]

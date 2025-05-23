@@ -27,151 +27,63 @@
         "unsatisfactory": 0
     },
     "description": "Evolutionary and physiological mechanisms of animal behavior including aggressive, reproductive, communicative, and social behaviors, behavioral development.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or (",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "PSYCH\u00a0202, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0381and382)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "PSYCH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "PSYCH"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 382,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -181,16 +93,10 @@
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
                 ]
             },
             {
@@ -206,18 +112,24 @@
                 ]
             },
             {
-                "course_number": 102,
+                "course_number": 151,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
+                "course_number": 101,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 151,
+                "course_number": 382,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
+                    "BIOCORE"
                 ]
             }
         ],
@@ -273,13 +185,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 425,
-            "subjects": [
-                "ZOOLOGY"
-            ]
-        },
-        {
-            "course_number": 450,
+            "course_number": 513,
             "subjects": [
                 "PSYCH"
             ]
@@ -288,8 +194,8 @@
             "course_number": 674,
             "subjects": [
                 "NEURODPT",
-                "ZOOLOGY",
-                "PSYCH"
+                "PSYCH",
+                "ZOOLOGY"
             ]
         },
         {
@@ -299,7 +205,13 @@
             ]
         },
         {
-            "course_number": 513,
+            "course_number": 425,
+            "subjects": [
+                "ZOOLOGY"
+            ]
+        },
+        {
+            "course_number": 450,
             "subjects": [
                 "PSYCH"
             ]
@@ -344,8 +256,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "ELIZABETH BECKER",
-                    "Rebecca Addington"
+                    "Rebecca Addington",
+                    "ELIZABETH BECKER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -396,8 +308,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Rebecca Addington",
-                    "LISA LINDEMAN"
+                    "LISA LINDEMAN",
+                    "Rebecca Addington"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -422,8 +334,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "WELLINGTON AMARAL",
-                    "Rebecca Addington"
+                    "Rebecca Addington",
+                    "WELLINGTON AMARAL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -629,8 +541,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "PATRICK MONARI",
-                    "Catherine MARLER"
+                    "Catherine MARLER",
+                    "PATRICK MONARI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -759,8 +671,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Catherine MARLER",
-                    "KELCI COX"
+                    "KELCI COX",
+                    "Catherine MARLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

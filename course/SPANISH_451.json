@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Historical survey of the literature of the eighteenth and nineteenth centuries. Major authors and representative works in all genres covering Neo-Classicism, Romanticism, Realism, and Naturalism. Important currents in intellectual history.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 223,
+            "subjects": [
+                "SPANISH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 224,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 224,
-                "subjects": [
-                    "SPANISH"
-                ]
-            }
-        ],
-        "prerequisites_text": "SPANISH\u00a0223and224"
-    },
+        {
+            "course_number": 224,
+            "subjects": [
+                "SPANISH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 223,
+                    "subjects": [
+                        "SPANISH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 224,
+                    "subjects": [
+                        "SPANISH"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -119,21 +92,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 324,
+            "course_number": 805,
             "subjects": [
-                "SPANISH"
+                "ENGL"
             ]
         },
         {
             "course_number": 326,
             "subjects": [
                 "SPANISH"
-            ]
-        },
-        {
-            "course_number": 805,
-            "subjects": [
-                "ENGL"
             ]
         },
         {
@@ -144,6 +111,12 @@
         },
         {
             "course_number": 453,
+            "subjects": [
+                "SPANISH"
+            ]
+        },
+        {
+            "course_number": 324,
             "subjects": [
                 "SPANISH"
             ]

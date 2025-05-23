@@ -27,119 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "A quantitative and qualitative study of manufacturing processes including machining, extrusion, sheet metal forming, welding, and casting for metals; and additive manufacturing, extrusion, injection molding, thermoforming and blow molding for plastics. Emphasis on process selection for optimum design. Laboratory experiments and demonstrations. Quality, strength, and economic evaluations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "declared in Biological Systems Engineering: Machinery Systems",
-                                "BS",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 350,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            {
-                "course_number": 352,
-                "subjects": [
-                    "MS&E"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 350,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 351,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 352,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            ") or (declared in Biological Systems Engineering: Machinery Systems, BS and ",
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(M\u00a0S\u00a0&\u00a0E\u00a0350,351, or352) or (declared in Biological Systems Engineering: Machinery Systems, BS andM\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 350,
+            "subjects": [
+                "MS&E"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 350,
+                            "subjects": [
+                                "MS&E"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 351,
+                            "subjects": [
+                                "MS&E"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 352,
+                            "subjects": [
+                                "MS&E"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -151,15 +68,19 @@
                                 "declared in Biological Systems Engineering: Machinery Systems",
                                 "BS",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 306,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 303,
+                            "subjects": [
+                                "EMA"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -181,6 +102,12 @@
                 ]
             },
             {
+                "course_number": 352,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            {
                 "course_number": 306,
                 "subjects": [
                     "ME"
@@ -188,12 +115,6 @@
             },
             {
                 "course_number": 351,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            {
-                "course_number": 352,
                 "subjects": [
                     "MS&E"
                 ]
@@ -241,7 +162,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 311,
+            "course_number": 310,
             "subjects": [
                 "ME"
             ]
@@ -253,7 +174,7 @@
             ]
         },
         {
-            "course_number": 310,
+            "course_number": 514,
             "subjects": [
                 "ME"
             ]
@@ -265,7 +186,7 @@
             ]
         },
         {
-            "course_number": 514,
+            "course_number": 311,
             "subjects": [
                 "ME"
             ]
@@ -285,8 +206,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "TIM OSSWALD",
-                    "Frank PFEFFERKORN"
+                    "Frank PFEFFERKORN",
+                    "TIM OSSWALD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -311,8 +232,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TIM OSSWALD",
-                    "Frank PFEFFERKORN"
+                    "Frank PFEFFERKORN",
+                    "TIM OSSWALD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -337,8 +258,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TIM OSSWALD",
-                    "Frank PFEFFERKORN"
+                    "Frank PFEFFERKORN",
+                    "TIM OSSWALD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -363,9 +284,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "NICHOLAS LOUIS NEWMAN",
+                    "Frank PFEFFERKORN",
                     "TIM OSSWALD",
-                    "Frank PFEFFERKORN"
+                    "NICHOLAS LOUIS NEWMAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -390,8 +311,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TIM OSSWALD",
-                    "Frank PFEFFERKORN"
+                    "Frank PFEFFERKORN",
+                    "TIM OSSWALD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -416,8 +337,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "TIM OSSWALD",
-                    "Frank PFEFFERKORN"
+                    "Frank PFEFFERKORN",
+                    "TIM OSSWALD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -442,8 +363,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "XIAOCHUN LI",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "XIAOCHUN LI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -468,8 +389,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TIM OSSWALD",
-                    "Frank PFEFFERKORN"
+                    "Frank PFEFFERKORN",
+                    "TIM OSSWALD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -494,8 +415,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "XIAOCHUN LI",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "XIAOCHUN LI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -520,8 +441,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "TIM OSSWALD",
-                    "Frank PFEFFERKORN"
+                    "Frank PFEFFERKORN",
+                    "TIM OSSWALD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -546,8 +467,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "XIAOCHUN LI",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "XIAOCHUN LI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -572,8 +493,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JAY SAMUEL",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "JAY SAMUEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -598,8 +519,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JAY SAMUEL",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "JAY SAMUEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -651,8 +572,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JAY SAMUEL",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "JAY SAMUEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -677,8 +598,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael DeCicco",
-                    "JAY SAMUEL"
+                    "JAY SAMUEL",
+                    "Michael DeCicco"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -703,8 +624,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "JAY SAMUEL",
-                    "WILLIAM AQUITE"
+                    "WILLIAM AQUITE",
+                    "JAY SAMUEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -729,8 +650,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael DeCicco",
-                    "JAY SAMUEL"
+                    "JAY SAMUEL",
+                    "Michael DeCicco"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -755,8 +676,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Sangkee MIN",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "Sangkee MIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -781,8 +702,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael DeCicco",
-                    "NATALIE RUDOLPH"
+                    "NATALIE RUDOLPH",
+                    "Michael DeCicco"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -807,8 +728,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Sangkee MIN",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "Sangkee MIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -833,8 +754,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TIM OSSWALD",
-                    "Frank PFEFFERKORN"
+                    "Frank PFEFFERKORN",
+                    "TIM OSSWALD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -859,8 +780,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Sangkee MIN",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "Sangkee MIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -885,8 +806,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael DeCicco",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "Michael DeCicco"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -911,8 +832,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Sangkee MIN",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "Sangkee MIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -937,8 +858,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael DeCicco",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "Michael DeCicco"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -963,8 +884,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Sangkee MIN",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "Sangkee MIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

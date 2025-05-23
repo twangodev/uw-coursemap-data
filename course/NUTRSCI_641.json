@@ -27,45 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Clinical problem solving, assessing medical record data, evaluating food intake, planning modified diets, and reviewing medical and research literature related to certain diseases/conditions. Develops critical thinking, teamwork and communication skills needed by the dietetic intern and dietitian.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in Nutritional Science BS",
-                {
-                    "children": [
-                        "BS-Dietetics",
-                        "Nutrition",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "concurrent enrollment"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 631,
-                "subjects": [
-                    "NUTRSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Nutritional Science BS or BS-Dietetics and Nutrition and ",
-            {
-                "course_number": 631,
-                "subjects": [
-                    "NUTRSCI"
-                ]
-            },
-            " or concurrent enrollment"
-        ],
-        "prerequisites_text": "Declared in Nutritional Science BS or BS-Dietetics and Nutrition andNUTR\u00a0SCI\u00a0631or concurrent enrollment"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 631,
+            "subjects": [
+                "NUTRSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -75,8 +44,10 @@
                         "BS-Dietetics",
                         "Nutrition",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 631,
+                            "subjects": [
+                                "NUTRSCI"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -107,19 +78,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 200,
-            "subjects": [
-                "NUTRSCI"
-            ]
-        },
-        {
-            "course_number": 671,
-            "subjects": [
-                "NUTRSCI"
-            ]
-        },
-        {
             "course_number": 642,
+            "subjects": [
+                "NUTRSCI"
+            ]
+        },
+        {
+            "course_number": 670,
             "subjects": [
                 "NUTRSCI"
             ]
@@ -131,7 +96,13 @@
             ]
         },
         {
-            "course_number": 670,
+            "course_number": 200,
+            "subjects": [
+                "NUTRSCI"
+            ]
+        },
+        {
+            "course_number": 671,
             "subjects": [
                 "NUTRSCI"
             ]
@@ -152,8 +123,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "Amber Haroldson",
-                    "Makayla Schuchardt",
-                    "DENISE NEY"
+                    "DENISE NEY",
+                    "Makayla Schuchardt"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -178,12 +149,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Amber Haroldson",
-                    "Huichuan Lai",
                     "Adam Kuchnia",
                     "Makayla Schuchardt",
-                    "DENISE NEY",
-                    "Tara La Rowe"
+                    "Huichuan Lai",
+                    "Tara La Rowe",
+                    "Amber Haroldson",
+                    "DENISE NEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -208,10 +179,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Amber Haroldson",
-                    "Huichuan Lai",
                     "Adam Kuchnia",
                     "Makayla Schuchardt",
+                    "Huichuan Lai",
+                    "Amber Haroldson",
                     "DENISE NEY"
                 ],
                 "no_credit": 0,
@@ -237,11 +208,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Amber Haroldson",
-                    "Huichuan Lai",
                     "Adam Kuchnia",
                     "Makayla Schuchardt",
-                    "Tara La Rowe"
+                    "Huichuan Lai",
+                    "Tara La Rowe",
+                    "Amber Haroldson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -266,11 +237,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Amber Haroldson",
-                    "Huichuan Lai",
                     "Adam Kuchnia",
+                    "Makayla Schuchardt",
+                    "Huichuan Lai",
                     "SHAWN PORTWOOD",
-                    "Makayla Schuchardt"
+                    "Amber Haroldson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

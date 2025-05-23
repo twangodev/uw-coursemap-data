@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 523,
         "subjects": [
-            "MICROBIO",
-            "SOILSCI"
+            "SOILSCI",
+            "MICROBIO"
         ]
     },
     "course_title": "SOIL MICROBIOLOGY AND BIOCHEMISTRY",
@@ -28,133 +28,21 @@
         "unsatisfactory": 2
     },
     "description": "Transformations of nutrients and contaminants in soils and groundwater by microorganisms: emphasis on enzymatic mechanisms and metabolic pathways. Approaches for analyzing microbial populations and activities including molecular techniques. Applications of microbial activities for bioremediation of contaminated soils and groundwater. Students should have completed one course in either Soil Science or Microbiology to feel comfortable with the course content.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Senior standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 104,
+            "subjects": [
+                "CHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Senior standing, (",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 116,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "Senior standing, (CHEM\u00a0104,109, or116) and (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0102,BOTANY/\u200bBIOLOGY\u00a0\u00a0130, orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151), or graduate/professional standing"
-    },
+        {
+            "course_number": 130,
+            "subjects": [
+                "BIOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -164,16 +52,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 104,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 109,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 116,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -181,16 +75,26 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 102,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 130,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 151,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -204,6 +108,20 @@
         },
         "course_references": [
             {
+                "course_number": 102,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BIOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
                 "course_number": 116,
                 "subjects": [
                     "CHEM"
@@ -216,10 +134,9 @@
                 ]
             },
             {
-                "course_number": 102,
+                "course_number": 109,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
+                    "CHEM"
                 ]
             },
             {
@@ -228,19 +145,6 @@
                     "BIOLOGY",
                     "ZOOLOGY",
                     "BOTANY"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
                 ]
             }
         ],
@@ -297,20 +201,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 323,
-            "subjects": [
-                "PLPATH",
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 425,
-            "subjects": [
-                "MICROBIO",
-                "SOILSCI"
-            ]
-        },
-        {
             "course_number": 425,
             "subjects": [
                 "CIVENGR"
@@ -320,6 +210,20 @@
             "course_number": 621,
             "subjects": [
                 "SOILSCI"
+            ]
+        },
+        {
+            "course_number": 425,
+            "subjects": [
+                "SOILSCI",
+                "MICROBIO"
+            ]
+        },
+        {
+            "course_number": 323,
+            "subjects": [
+                "SOILSCI",
+                "PLPATH"
             ]
         },
         {

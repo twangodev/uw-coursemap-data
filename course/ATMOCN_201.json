@@ -27,181 +27,95 @@
         "unsatisfactory": 0
     },
     "description": "Exploration of a field within atmospheric and oceanic sciences. Exposure to scientific principles, current findings, and career routes as it applies to topics such as meteorology, weather systems and weather forecasting, climate and climate change, atmospheric satellite remote sensing, oceanography, and professional careers in the discipline.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 105,
-                "subjects": [
-                    "GEOSCI",
-                    "ATMOCN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 100,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 141,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 105,
-                "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 140,
-                "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 132,
-                "subjects": [
-                    "ATMOCN",
-                    "SOILSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 171,
-                "subjects": [
-                    "ATMOCN",
-                    "ENVIRST"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ATMOCN",
-                    "GEOSCI",
-                    "ENVIRST"
-                ]
-            }
-        ],
-        "prerequisites_text": "ATM\u00a0OCN\u00a0100,101,141,ATM\u00a0OCN/\u200bGEOSCI\u00a0\u00a0105,140,SOIL\u00a0SCI/\u200bATM\u00a0OCN\u00a0\u00a0132,ATM\u00a0OCN/\u200bENVIR\u00a0ST\u00a0\u00a0171, orATM\u00a0OCN/\u200bENVIR\u00a0ST/\u200bGEOSCI\u00a0\u00a0102"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "ATMOCN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 100,
+                    "subjects": [
+                        "ATMOCN"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "ATMOCN"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 141,
+                    "subjects": [
+                        "ATMOCN"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 105,
+                    "subjects": [
+                        "GEOSCI",
+                        "ATMOCN"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 140,
+                    "subjects": [
+                        "GEOSCI",
+                        "ATMOCN"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 132,
+                    "subjects": [
+                        "ATMOCN",
+                        "SOILSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 171,
+                    "subjects": [
+                        "ENVIRST",
+                        "ATMOCN"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 102,
+                    "subjects": [
+                        "GEOSCI",
+                        "ENVIRST",
+                        "ATMOCN"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 171,
-                "subjects": [
-                    "ATMOCN",
-                    "ENVIRST"
-                ]
-            },
-            {
-                "course_number": 100,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            {
-                "course_number": 141,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            {
                 "course_number": 105,
                 "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
+                    "GEOSCI",
+                    "ATMOCN"
+                ]
+            },
+            {
+                "course_number": 140,
+                "subjects": [
+                    "GEOSCI",
+                    "ATMOCN"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "GEOSCI",
+                    "ENVIRST",
+                    "ATMOCN"
                 ]
             },
             {
@@ -212,24 +126,28 @@
                 ]
             },
             {
-                "course_number": 102,
+                "course_number": 100,
                 "subjects": [
-                    "ATMOCN",
-                    "GEOSCI",
-                    "ENVIRST"
+                    "ATMOCN"
+                ]
+            },
+            {
+                "course_number": 171,
+                "subjects": [
+                    "ENVIRST",
+                    "ATMOCN"
+                ]
+            },
+            {
+                "course_number": 141,
+                "subjects": [
+                    "ATMOCN"
                 ]
             },
             {
                 "course_number": 101,
                 "subjects": [
                     "ATMOCN"
-                ]
-            },
-            {
-                "course_number": 140,
-                "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
                 ]
             }
         ],
@@ -258,16 +176,16 @@
             {
                 "course_number": 105,
                 "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
+                    "GEOSCI",
+                    "ATMOCN"
                 ]
             },
             ", ",
             {
                 "course_number": 140,
                 "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
+                    "GEOSCI",
+                    "ATMOCN"
                 ]
             },
             ", ",
@@ -282,17 +200,17 @@
             {
                 "course_number": 171,
                 "subjects": [
-                    "ATMOCN",
-                    "ENVIRST"
+                    "ENVIRST",
+                    "ATMOCN"
                 ]
             },
             ", or ",
             {
                 "course_number": 102,
                 "subjects": [
-                    "ATMOCN",
+                    "ENVIRST",
                     "GEOSCI",
-                    "ENVIRST"
+                    "ATMOCN"
                 ]
             }
         ],
@@ -300,19 +218,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 810,
+            "subjects": [
+                "ATMOCN"
+            ]
+        },
+        {
             "course_number": 903,
             "subjects": [
                 "ATMOCN"
             ]
         },
         {
-            "course_number": 901,
-            "subjects": [
-                "ATMOCN"
-            ]
-        },
-        {
-            "course_number": 810,
+            "course_number": 900,
             "subjects": [
                 "ATMOCN"
             ]
@@ -324,7 +242,7 @@
             ]
         },
         {
-            "course_number": 900,
+            "course_number": 901,
             "subjects": [
                 "ATMOCN"
             ]

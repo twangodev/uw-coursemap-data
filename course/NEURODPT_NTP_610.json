@@ -9,115 +9,52 @@
     "course_title": "CELLULAR AND MOLECULAR NEUROSCIENCE",
     "cumulative_grade_data": null,
     "description": "Study of original papers leading to an understanding of the molecular basis of electrical activity in neurons. Topics include voltage-sensitive currents, molecular biology of neuronal receptorrs, synaptic transmission and sensory transduction.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 523,
+            "subjects": [
+                "PSYCH",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bPSYCH\u00a0\u00a0523and (PHYSICS\u00a0202,208, or248), or graduate/professional standing"
-    },
+        {
+            "course_number": 208,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 523,
+                            "subjects": [
+                                "PSYCH",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -131,10 +68,9 @@
         },
         "course_references": [
             {
-                "course_number": 523,
+                "course_number": 248,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PHYSICS"
                 ]
             },
             {
@@ -144,15 +80,16 @@
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 208,
+                "course_number": 523,
                 "subjects": [
-                    "PHYSICS"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -160,8 +97,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             " and (",
@@ -191,6 +128,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 900,
+            "subjects": [
+                "NTP"
+            ]
+        },
+        {
             "course_number": 616,
             "subjects": [
                 "NEURODPT",
@@ -198,16 +141,10 @@
             ]
         },
         {
-            "course_number": 900,
+            "course_number": 523,
             "subjects": [
-                "NTP"
-            ]
-        },
-        {
-            "course_number": 629,
-            "subjects": [
-                "NEURODPT",
-                "NTP"
+                "PSYCH",
+                "ZOOLOGY"
             ]
         },
         {
@@ -218,10 +155,10 @@
             ]
         },
         {
-            "course_number": 523,
+            "course_number": 629,
             "subjects": [
-                "ZOOLOGY",
-                "PSYCH"
+                "NEURODPT",
+                "NTP"
             ]
         }
     ],

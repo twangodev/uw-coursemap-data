@@ -27,111 +27,48 @@
         "unsatisfactory": 0
     },
     "description": "Application of engineering principles in the analysis of food process operations: properties of gases and vapors, psychrometrics, material and energy balances, fluid flow, heat transfer, microwave heating, mass transfer, packaging film permeability, dehydration.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "FOODSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            },
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), and (",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "FOOD\u00a0SCI\u00a0301, (MATH\u00a0217or221), and (PHYSICS\u00a0201or207)"
-    },
+        {
+            "course_number": 217,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 201,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "FOODSCI"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -139,12 +76,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 207,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -154,21 +95,9 @@
         },
         "course_references": [
             {
-                "course_number": 301,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            },
-            {
                 "course_number": 217,
                 "subjects": [
                     "MATH"
-                ]
-            },
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
                 ]
             },
             {
@@ -181,6 +110,18 @@
                 "course_number": 201,
                 "subjects": [
                     "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 207,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 301,
+                "subjects": [
+                    "FOODSCI"
                 ]
             }
         ],
@@ -225,6 +166,18 @@
     },
     "similar_courses": [
         {
+            "course_number": 249,
+            "subjects": [
+                "BSE"
+            ]
+        },
+        {
+            "course_number": 364,
+            "subjects": [
+                "BSE"
+            ]
+        },
+        {
             "course_number": 301,
             "subjects": [
                 "FOODSCI"
@@ -237,21 +190,9 @@
             ]
         },
         {
-            "course_number": 249,
-            "subjects": [
-                "BSE"
-            ]
-        },
-        {
             "course_number": 432,
             "subjects": [
                 "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 364,
-            "subjects": [
-                "BSE"
             ]
         }
     ],

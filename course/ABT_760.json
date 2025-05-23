@@ -27,74 +27,47 @@
         "unsatisfactory": 0
     },
     "description": "Quality and project management issues and roles during different phases from RD to market. Introduction to Installation qualification, operation qualification and process qualification (PQ). Project management phases: conceptualizing, planning, executing and closing. Project schedule and time management tools and techniques. Project requirements including quality assurance.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 720,
+            "subjects": [
+                "ABT"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 725,
-                "subjects": [
-                    "ABT"
-                ]
-            },
-            {
-                "course_number": 720,
-                "subjects": [
-                    "ABT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 720,
-                "subjects": [
-                    "ABT"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 725,
-                "subjects": [
-                    "ABT"
-                ]
-            }
-        ],
-        "prerequisites_text": "ABT\u00a0720and725"
-    },
+        {
+            "course_number": 725,
+            "subjects": [
+                "ABT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 720,
+                    "subjects": [
+                        "ABT"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 725,
+                    "subjects": [
+                        "ABT"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 720,
+                "course_number": 725,
                 "subjects": [
                     "ABT"
                 ]
             },
             {
-                "course_number": 725,
+                "course_number": 720,
                 "subjects": [
                     "ABT"
                 ]
@@ -125,15 +98,15 @@
             ]
         },
         {
-            "course_number": 790,
+            "course_number": 752,
             "subjects": [
-                "ABT"
+                "OTM"
             ]
         },
         {
-            "course_number": 518,
+            "course_number": 790,
             "subjects": [
-                "EPD"
+                "ABT"
             ]
         },
         {
@@ -143,9 +116,9 @@
             ]
         },
         {
-            "course_number": 752,
+            "course_number": 518,
             "subjects": [
-                "OTM"
+                "EPD"
             ]
         }
     ],

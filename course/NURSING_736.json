@@ -8,72 +8,27 @@
     "course_title": "PEDIATRIC ASSESSMENT FOR MENTAL HEALTH ADVANCED PRACTICE NURSES",
     "cumulative_grade_data": null,
     "description": "Advance students' knowledge of pediatric development to enhance clinical decision-making with emphasis on applying advanced assessment skills to the child and adolescent population.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared Post-Graduate Psychiatric Mental Health Nursing Capstone Certificate",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 601,
+            "subjects": [
+                "NURSING"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 601,
-                "subjects": [
-                    "NURSING"
-                ]
-            },
-            {
-                "course_number": 605,
-                "subjects": [
-                    "PHMPRAC",
-                    "NURSING"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared Post-Graduate Psychiatric Mental Health Nursing Capstone Certificate or (",
-            {
-                "course_number": 601,
-                "subjects": [
-                    "NURSING"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 605,
-                "subjects": [
-                    "PHMPRAC",
-                    "NURSING"
-                ]
-            },
-            ", and ",
-            {
-                "course_number": 811,
-                "subjects": [
-                    "NURSING"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Declared Post-Graduate Psychiatric Mental Health Nursing Capstone Certificate or (NURSING\u00a0601,NURSING/\u200bPHM\u00a0PRAC\u00a0\u00a0605, andNURSING\u00a0811)"
-    },
+        {
+            "course_number": 605,
+            "subjects": [
+                "NURSING",
+                "PHMPRAC"
+            ]
+        },
+        {
+            "course_number": 811,
+            "subjects": [
+                "NURSING"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -81,16 +36,23 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 601,
+                            "subjects": [
+                                "NURSING"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 605,
+                            "subjects": [
+                                "NURSING",
+                                "PHMPRAC"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 811,
+                            "subjects": [
+                                "NURSING"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -100,16 +62,16 @@
         },
         "course_references": [
             {
-                "course_number": 605,
+                "course_number": 811,
                 "subjects": [
-                    "PHMPRAC",
                     "NURSING"
                 ]
             },
             {
-                "course_number": 811,
+                "course_number": 605,
                 "subjects": [
-                    "NURSING"
+                    "NURSING",
+                    "PHMPRAC"
                 ]
             },
             {
@@ -131,8 +93,8 @@
             {
                 "course_number": 605,
                 "subjects": [
-                    "PHMPRAC",
-                    "NURSING"
+                    "NURSING",
+                    "PHMPRAC"
                 ]
             },
             ", and ",
@@ -148,12 +110,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 751,
-            "subjects": [
-                "NURSING"
-            ]
-        },
-        {
             "course_number": 946,
             "subjects": [
                 "PSYCHIAT"
@@ -166,13 +122,19 @@
             ]
         },
         {
+            "course_number": 741,
+            "subjects": [
+                "NURSING"
+            ]
+        },
+        {
             "course_number": 431,
             "subjects": [
                 "NURSING"
             ]
         },
         {
-            "course_number": 741,
+            "course_number": 751,
             "subjects": [
                 "NURSING"
             ]

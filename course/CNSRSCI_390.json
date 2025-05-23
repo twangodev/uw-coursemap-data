@@ -8,54 +8,14 @@
     "course_title": "FINANCIAL LIFE SKILLS: PEER EDUCATION TECHNIQUES",
     "cumulative_grade_data": null,
     "description": "Examine student learning and development to become effective peer educators in the Badger$ense Financial Life Skills program. Learn about common financial issues college students face. Develop knowledge and skills related to interpersonal and group communication, the impact of leadership, group learning and how to create a positive financial learning experience.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Completion of",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "CNSR SCI 321"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 111,
-                "subjects": [
-                    "CNSRSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Completion of ",
-            {
-                "course_number": 275,
-                "subjects": [
-                    "CNSRSCI"
-                ]
-            },
-            " OR ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "CNSRSCI"
-                ]
-            },
-            " OR CNSR SCI 321"
-        ],
-        "prerequisites_text": "Completion ofCNSR\u00a0SCI\u00a0275ORCNSR\u00a0SCI\u00a0111OR CNSR SCI 321"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 111,
+            "subjects": [
+                "CNSRSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -63,15 +23,19 @@
                     "children": [
                         "Completion of",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 275,
+                            "subjects": [
+                                "CNSRSCI"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 111,
+                    "subjects": [
+                        "CNSRSCI"
+                    ]
                 },
                 "CNSR SCI 321"
             ],
@@ -112,13 +76,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 775,
-            "subjects": [
-                "CNSRSCI"
-            ]
-        },
-        {
-            "course_number": 355,
+            "course_number": 273,
             "subjects": [
                 "CNSRSCI"
             ]
@@ -130,13 +88,19 @@
             ]
         },
         {
-            "course_number": 273,
+            "course_number": 340,
             "subjects": [
                 "CNSRSCI"
             ]
         },
         {
-            "course_number": 340,
+            "course_number": 775,
+            "subjects": [
+                "CNSRSCI"
+            ]
+        },
+        {
+            "course_number": 355,
             "subjects": [
                 "CNSRSCI"
             ]

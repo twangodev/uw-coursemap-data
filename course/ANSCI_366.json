@@ -27,126 +27,29 @@
         "unsatisfactory": 0
     },
     "description": "Genomics has revolutionized many fields of science, including animal breeding, plant breeding, physiology, microbiology, and human medicine. A basic overview of the latest concepts in genomics, including 3D genome organization, the importance of genome annotation, the use of genomic testing in plant and animal breeding, the potential of genomic prediction on human medicine, and the latest advances in omics integration.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Junior Standing",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior Standing and ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", and ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "Junior Standing andBOTANY/\u200bBIOLOGY/\u200bZOOLOGY\u00a0\u00a0152, (BIOLOGY/\u200bZOOLOGY\u00a0\u00a0101,102, andBIOLOGY/\u200bBOTANY\u00a0\u00a0130),BIOCORE\u00a0381, or graduate/professional standing"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        },
+        {
+            "course_number": 130,
+            "subjects": [
+                "BIOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -154,8 +57,12 @@
                     "children": [
                         "Junior Standing",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 152,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY",
+                                "BOTANY"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -163,50 +70,40 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 130,
+                            "subjects": [
+                                "BIOLOGY",
+                                "BOTANY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 },
                 "graduate/professional standing"
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
             {
                 "course_number": 102,
                 "subjects": [
@@ -218,6 +115,27 @@
                 "course_number": 130,
                 "subjects": [
                     "BIOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
                     "BOTANY"
                 ]
             }
@@ -269,14 +187,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 626,
-            "subjects": [
-                "GENETICS",
-                "CHEM"
-            ]
-        },
-        {
-            "course_number": 564,
+            "course_number": 548,
             "subjects": [
                 "GENETICS"
             ]
@@ -288,13 +199,20 @@
             ]
         },
         {
-            "course_number": 548,
+            "course_number": 626,
             "subjects": [
+                "CHEM",
                 "GENETICS"
             ]
         },
         {
             "course_number": 234,
+            "subjects": [
+                "GENETICS"
+            ]
+        },
+        {
+            "course_number": 564,
             "subjects": [
                 "GENETICS"
             ]

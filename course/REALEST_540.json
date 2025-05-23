@@ -27,98 +27,37 @@
         "unsatisfactory": 0
     },
     "description": "Understanding and applying both investment and real estate concepts to the Real Estate Investment Trust (REIT) market.  Emphasis is on applying investment and real estate concepts to a specific REIT.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 410,
+            "subjects": [
+                "REALEST"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 410,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            {
-                "course_number": 710,
-                "subjects": [
-                    "REALEST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 410,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 710,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "FINANCE",
-                    "ECON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 700,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(REAL\u00a0EST\u00a0410or710) and (FINANCE/\u200bECON\u00a0\u00a0300or700)"
-    },
+        {
+            "course_number": 300,
+            "subjects": [
+                "ECON",
+                "FINANCE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 410,
+                            "subjects": [
+                                "REALEST"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 710,
+                            "subjects": [
+                                "REALEST"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -126,12 +65,17 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "ECON",
+                                "FINANCE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 700,
+                            "subjects": [
+                                "FINANCE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -147,10 +91,9 @@
                 ]
             },
             {
-                "course_number": 300,
+                "course_number": 410,
                 "subjects": [
-                    "FINANCE",
-                    "ECON"
+                    "REALEST"
                 ]
             },
             {
@@ -160,9 +103,10 @@
                 ]
             },
             {
-                "course_number": 410,
+                "course_number": 300,
                 "subjects": [
-                    "REALEST"
+                    "ECON",
+                    "FINANCE"
                 ]
             }
         ],
@@ -185,8 +129,8 @@
             {
                 "course_number": 300,
                 "subjects": [
-                    "FINANCE",
-                    "ECON"
+                    "ECON",
+                    "FINANCE"
                 ]
             },
             " or ",
@@ -202,13 +146,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 640,
+            "course_number": 841,
             "subjects": [
                 "REALEST"
             ]
         },
         {
-            "course_number": 841,
+            "course_number": 550,
             "subjects": [
                 "REALEST"
             ]
@@ -220,7 +164,7 @@
             ]
         },
         {
-            "course_number": 550,
+            "course_number": 640,
             "subjects": [
                 "REALEST"
             ]
@@ -271,8 +215,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Timothy Pire",
-                    "MARGEAUX WYSOCKEY"
+                    "MARGEAUX WYSOCKEY",
+                    "Timothy Pire"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

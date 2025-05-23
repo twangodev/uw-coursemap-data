@@ -27,52 +27,24 @@
         "unsatisfactory": 0
     },
     "description": "Analysis of federal tax provisions and administrative rules regarding pass-through entities, such as partnerships, S-corporations, and limited liability companies; including their application to entity formation and operation, property and ownership basis, distributions, and interest transfers.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "graduate/professional standing",
-                        "declared in Business: Accounting",
-                        "Business Analysis MSB"
-                    ],
-                    "operator": "AND"
-                },
-                "declared in graduate Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 620,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 620,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            },
-            " and graduate/professional standing, declared in Business: Accounting and Business Analysis MSB, or declared in graduate Business Exchange program"
-        ],
-        "prerequisites_text": "ACCT\u00a0I\u00a0S\u00a0620and graduate/professional standing, declared in Business: Accounting and Business Analysis MSB, or declared in graduate Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 620,
+            "subjects": [
+                "ACCTIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 620,
+                            "subjects": [
+                                "ACCTIS"
+                            ]
                         },
                         "graduate/professional standing",
                         "declared in Business: Accounting",
@@ -111,13 +83,7 @@
             ]
         },
         {
-            "course_number": 725,
-            "subjects": [
-                "ACCTIS"
-            ]
-        },
-        {
-            "course_number": 772,
+            "course_number": 724,
             "subjects": [
                 "ACCTIS"
             ]
@@ -129,7 +95,13 @@
             ]
         },
         {
-            "course_number": 724,
+            "course_number": 725,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 772,
             "subjects": [
                 "ACCTIS"
             ]

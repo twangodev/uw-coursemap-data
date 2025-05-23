@@ -27,71 +27,36 @@
         "unsatisfactory": 3
     },
     "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 201,
+            "subjects": [
+                "EMA"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0M\u00a0A\u00a0201andMATH\u00a0222, graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -135,6 +100,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 506,
+            "subjects": [
+                "EMA"
+            ]
+        },
+        {
             "course_number": 303,
             "subjects": [
                 "EMA"
@@ -147,22 +118,16 @@
             ]
         },
         {
-            "course_number": 506,
+            "course_number": 444,
             "subjects": [
-                "EMA"
+                "ME"
             ]
         },
         {
             "course_number": 307,
             "subjects": [
-                "EMA",
-                "ME"
-            ]
-        },
-        {
-            "course_number": 444,
-            "subjects": [
-                "ME"
+                "ME",
+                "EMA"
             ]
         }
     ],
@@ -206,8 +171,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "YURI SHKEL",
-                    "JAY SAMUEL"
+                    "JAY SAMUEL",
+                    "YURI SHKEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -310,9 +275,9 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "ROXANN ENGELSTAD",
-                    "JACOB ZEUSKE",
                     "PREETISH SINHA",
+                    "JACOB ZEUSKE",
+                    "ROXANN ENGELSTAD",
                     "JAY SAMUEL"
                 ],
                 "no_credit": 0,
@@ -364,8 +329,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "RYAN KERSHNER",
-                    "JAY SAMUEL"
+                    "JAY SAMUEL",
+                    "RYAN KERSHNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -467,11 +432,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Krishnan SURESH",
-                    "MELIH ERITEN",
+                    "Andrew MIKKELSON",
                     "JACOB ZEUSKE",
                     "KWANG WON CHOI",
-                    "Andrew MIKKELSON"
+                    "MELIH ERITEN",
+                    "Krishnan SURESH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -496,10 +461,10 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "JACOB ZEUSKE",
-                    "Krishnan SURESH",
                     "KWANG WON CHOI",
-                    "JAY SAMUEL"
+                    "JAY SAMUEL",
+                    "JACOB ZEUSKE",
+                    "Krishnan SURESH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -525,9 +490,9 @@
                 "incomplete": 1,
                 "instructors": [
                     "JACOB ZEUSKE",
-                    "Michael Cheadle",
                     "Andrew MIKKELSON",
-                    "AHMET USTA"
+                    "AHMET USTA",
+                    "Michael Cheadle"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -629,8 +594,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Corinne HENAK",
-                    "Krishnan SURESH"
+                    "Krishnan SURESH",
+                    "Corinne HENAK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -655,8 +620,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Corinne HENAK",
-                    "Xiaoping QIAN"
+                    "Xiaoping QIAN",
+                    "Corinne HENAK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -682,8 +647,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Krishnan SURESH",
-                    "MELIH ERITEN",
-                    "Andrew MIKKELSON"
+                    "Andrew MIKKELSON",
+                    "MELIH ERITEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -708,8 +673,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "KRISHNA SIVA SHANKAR RUDRARAJU",
                     "MELIH ERITEN",
+                    "KRISHNA SIVA SHANKAR RUDRARAJU",
                     "Xiaoping QIAN",
                     "Andrew MIKKELSON"
                 ],
@@ -736,8 +701,8 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "KRISHNA SIVA SHANKAR RUDRARAJU",
                     "MELIH ERITEN",
+                    "KRISHNA SIVA SHANKAR RUDRARAJU",
                     "Andrew MIKKELSON"
                 ],
                 "no_credit": 0,
@@ -764,8 +729,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "KRISHNA SIVA SHANKAR RUDRARAJU",
-                    "STEPHAN RUDYKH",
-                    "Andrew MIKKELSON"
+                    "Andrew MIKKELSON",
+                    "STEPHAN RUDYKH"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -791,8 +756,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "KRISHNA SIVA SHANKAR RUDRARAJU",
-                    "STEPHAN RUDYKH",
-                    "Andrew MIKKELSON"
+                    "Andrew MIKKELSON",
+                    "STEPHAN RUDYKH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -817,10 +782,10 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "HANNAH MRAZSKO",
                     "AARON NIMITYONGSKUL",
-                    "KARL KOESSER",
-                    "Andrew MIKKELSON"
+                    "HANNAH MRAZSKO",
+                    "Andrew MIKKELSON",
+                    "KARL KOESSER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -845,8 +810,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Corinne HENAK",
-                    "Christian FRANCK"
+                    "Christian FRANCK",
+                    "Corinne HENAK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1027,12 +992,12 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
+                    "Andrew MIKKELSON",
+                    "ZISHENG YE",
                     "TANMAY GALANKAR",
-                    "MATTHEW WROBLEWSKI",
                     "GRAHAM HUNT",
                     "Jennifer Detlor",
-                    "Andrew MIKKELSON",
-                    "ZISHENG YE"
+                    "MATTHEW WROBLEWSKI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1057,8 +1022,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "YING LI",
-                    "MELIH ERITEN"
+                    "MELIH ERITEN",
+                    "YING LI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

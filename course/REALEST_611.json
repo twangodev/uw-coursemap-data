@@ -27,71 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "A capstone course. In-depth exposure to the world of the residential builder/developer/subdivider and the necessary tools of analysis--market analysis, zoning/environmental and other entitlements, site planning and design, infrastructure/construction cost analysis, financing, feasibility analysis, deal structuring, renovation/rehabilitation, special needs housing.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in the Business Exchange program"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 410,
+            "subjects": [
+                "REALEST"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 415,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            {
-                "course_number": 410,
-                "subjects": [
-                    "REALEST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 410,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 415,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            ") or declared in the Business Exchange program"
-        ],
-        "prerequisites_text": "(REAL\u00a0EST\u00a0410and415) or declared in the Business Exchange program"
-    },
+        {
+            "course_number": 415,
+            "subjects": [
+                "REALEST"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 410,
+                            "subjects": [
+                                "REALEST"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 415,
+                            "subjects": [
+                                "REALEST"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -102,13 +67,13 @@
         },
         "course_references": [
             {
-                "course_number": 415,
+                "course_number": 410,
                 "subjects": [
                     "REALEST"
                 ]
             },
             {
-                "course_number": 410,
+                "course_number": 415,
                 "subjects": [
                     "REALEST"
                 ]
@@ -135,18 +100,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 661,
-            "subjects": [
-                "REALEST"
-            ]
-        },
-        {
-            "course_number": 706,
-            "subjects": [
-                "REALEST"
-            ]
-        },
-        {
             "course_number": 651,
             "subjects": [
                 "REALEST"
@@ -159,7 +112,19 @@
             ]
         },
         {
+            "course_number": 706,
+            "subjects": [
+                "REALEST"
+            ]
+        },
+        {
             "course_number": 750,
+            "subjects": [
+                "REALEST"
+            ]
+        },
+        {
+            "course_number": 661,
             "subjects": [
                 "REALEST"
             ]

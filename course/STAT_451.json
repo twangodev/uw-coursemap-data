@@ -27,109 +27,46 @@
         "unsatisfactory": 0
     },
     "description": "Pattern classification, regression analysis, clustering, and dimensionality reduction. For each category, covers fundamental algorithms and selections of contemporary, current state-of-the-art algorithms. Focus on evaluation of machine learning models using statistical methods. Statistical pattern classification approaches, including maximum likelihood estimation and Bayesian decision theory, algorithmic and nonparametric approaches. Practical use of machine learning algorithms using open source libraries from the Python programming ecosystem.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "declared in Statistics VISP"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 321,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", graduate/professional standing, or declared in Statistics VISP"
-        ],
-        "prerequisites_text": "MATH\u00a0320,321,340,341,375, graduate/professional standing, or declared in Statistics VISP"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 375,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 320,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 321,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 340,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 341,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 375,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing",
                 "declared in Statistics VISP"
@@ -137,18 +74,6 @@
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
             {
                 "course_number": 340,
                 "subjects": [
@@ -163,6 +88,18 @@
             },
             {
                 "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 341,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
@@ -209,19 +146,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 841,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
             "course_number": 615,
             "subjects": [
                 "STAT"
             ]
         },
         {
-            "course_number": 613,
+            "course_number": 841,
+            "subjects": [
+                "STAT"
+            ]
+        },
+        {
+            "course_number": 443,
             "subjects": [
                 "STAT"
             ]
@@ -229,13 +166,13 @@
         {
             "course_number": 861,
             "subjects": [
-                "COMPSCI",
                 "STAT",
-                "ECE"
+                "ECE",
+                "COMPSCI"
             ]
         },
         {
-            "course_number": 443,
+            "course_number": 613,
             "subjects": [
                 "STAT"
             ]
@@ -255,8 +192,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SEBASTIAN RASCHKA",
-                    "ZHONGJIE YU"
+                    "ZHONGJIE YU",
+                    "SEBASTIAN RASCHKA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -281,9 +218,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "JITIAN ZHAO",
                     "YANBO SHEN",
-                    "SEBASTIAN RASCHKA",
-                    "JITIAN ZHAO"
+                    "SEBASTIAN RASCHKA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -334,9 +271,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ELINA CHOI",
                     "JITIAN ZHAO",
-                    "JOHN GILLETT"
+                    "JOHN GILLETT",
+                    "ELINA CHOI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -388,8 +325,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "XINGYU TANG",
-                    "JOHN GILLETT",
-                    "Ajinkya Kokandakar"
+                    "Ajinkya Kokandakar",
+                    "JOHN GILLETT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -441,8 +378,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "JITIAN ZHAO",
-                    "RYAN YEE",
-                    "JOHN GILLETT"
+                    "JOHN GILLETT",
+                    "RYAN YEE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

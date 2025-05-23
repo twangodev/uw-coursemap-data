@@ -27,66 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Covers the origins of nuclear weapons, the reasons states seek them, the strategies developed for their use, the consequences of their development, and efforts to control and reverse their spread.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "POLI SCI 103 taken prior to fall 2017",
-                "graduate standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 140,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "INTLST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 140,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "INTLST"
-                ]
-            },
-            ") or (POLI SCI 103 taken prior to fall 2017) or graduate standing"
-        ],
-        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0140orINTL\u00a0ST\u00a0101) or (POLI SCI 103 taken prior to fall 2017) or graduate standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 140,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -96,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 140,
+                                    "subjects": [
+                                        "POLISCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "INTLST"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -149,19 +101,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 857,
-            "subjects": [
-                "POLISCI"
-            ]
-        },
-        {
             "course_number": 960,
-            "subjects": [
-                "POLISCI"
-            ]
-        },
-        {
-            "course_number": 347,
             "subjects": [
                 "POLISCI"
             ]
@@ -173,7 +113,19 @@
             ]
         },
         {
+            "course_number": 857,
+            "subjects": [
+                "POLISCI"
+            ]
+        },
+        {
             "course_number": 140,
+            "subjects": [
+                "POLISCI"
+            ]
+        },
+        {
+            "course_number": 347,
             "subjects": [
                 "POLISCI"
             ]
@@ -343,8 +295,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "TIMOTHY WILLIAMS",
-                    "Andrew KYDD"
+                    "Andrew KYDD",
+                    "TIMOTHY WILLIAMS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

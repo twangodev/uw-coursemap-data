@@ -27,109 +27,46 @@
         "unsatisfactory": 0
     },
     "description": "Graphical, analytical, and computer methods for the kinematic and dynamic analysis of mechanical linkages, mechanisms, and geared and cam systems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "M\u00a0E\u00a0240,E\u00a0M\u00a0A\u00a0202,PHYSICS\u00a0201,207,247, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 240,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 240,
+                    "subjects": [
+                        "ME"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "EMA"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 201,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 207,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 247,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -150,6 +87,12 @@
                 ]
             },
             {
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
                 "course_number": 207,
                 "subjects": [
                     "PHYSICS"
@@ -159,12 +102,6 @@
                 "course_number": 240,
                 "subjects": [
                     "ME"
-                ]
-            },
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
                 ]
             }
         ],
@@ -209,7 +146,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 751,
+            "course_number": 448,
             "subjects": [
                 "ME"
             ]
@@ -221,7 +158,13 @@
             ]
         },
         {
-            "course_number": 448,
+            "course_number": 751,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 240,
             "subjects": [
                 "ME"
             ]
@@ -231,12 +174,6 @@
             "subjects": [
                 "ME",
                 "ECE"
-            ]
-        },
-        {
-            "course_number": 240,
-            "subjects": [
-                "ME"
             ]
         }
     ],

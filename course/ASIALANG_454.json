@@ -27,66 +27,32 @@
         "unsatisfactory": 0
     },
     "description": "Designed for advanced learners of Chinese to improve their Chinese language skills and cultural knowledge. Students will watch and analyze audio-visual media, such as documentary, talk show, movies, etc. In addition, students will make audios/videos to tell stories about themselves, their friends, or others.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "E ASIAN 301 prior to Fall 2019",
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            " (or E ASIAN 301 prior to Fall 2019) or placement into ",
-            {
-                "course_number": 302,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "prerequisites_text": "ASIALANG\u00a0301(or E ASIAN 301 prior to Fall 2019) or placement intoASIALANG\u00a0302"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "ASIALANG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "ASIALANG"
+                    ]
                 },
                 "E ASIAN 301 prior to Fall 2019",
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 302,
+                            "subjects": [
+                                "ASIALANG"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -96,13 +62,13 @@
         },
         "course_references": [
             {
-                "course_number": 302,
+                "course_number": 301,
                 "subjects": [
                     "ASIALANG"
                 ]
             },
             {
-                "course_number": 301,
+                "course_number": 302,
                 "subjects": [
                     "ASIALANG"
                 ]
@@ -127,7 +93,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 201,
+            "course_number": 457,
+            "subjects": [
+                "ASIALANG"
+            ]
+        },
+        {
+            "course_number": 202,
             "subjects": [
                 "ASIALANG"
             ]
@@ -145,13 +117,7 @@
             ]
         },
         {
-            "course_number": 457,
-            "subjects": [
-                "ASIALANG"
-            ]
-        },
-        {
-            "course_number": 202,
+            "course_number": 201,
             "subjects": [
                 "ASIALANG"
             ]

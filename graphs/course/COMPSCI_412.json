@@ -1,6 +1,45 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "Basic concepts of logic, sets, partial order and other relations, and functions. Basic concepts of mathematics (definitions, proofs, sets, functions, and relations) with a focus on discrete structures: integers, bits, strings, trees, and graphs.  Propositional logic, Boolean algebra, and predicate logic. Mathematical induction and recursion. Invariants and algorithmic correctness. Recurrences and asymptotic growth analysis. Fundamentals of counting.",
+            "id": "COMPSCI/MATH 240",
+            "title": "INTRODUCTION TO DISCRETE MATHEMATICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Continuation ofMATH\u00a0171. Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Completion ofMATH\u00a0217implies completion ofMATH\u00a0221and114.",
+            "id": "MATH 217",
+            "parent": "MATH",
+            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY II"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
             "id": "MATH 211",
             "parent": "MATH",
@@ -17,26 +56,10 @@
     },
     {
         "data": {
-            "description": "Gives students an introduction to computer and analytical skills to use in their subsequent course work and professional development. Discusses several methods of using computers to solve problems, including elementary programming techniques, symbolic manipulation languages, and software packages. Techniques will be illustrated using sample problems drawn from elementary engineering. Emphasis is on introduction of algorithms with the use of specific tools to illustrate the methods.",
-            "id": "COMPSCI 310",
-            "parent": "COMPSCI",
-            "title": "PROBLEM SOLVING USING COMPUTERS"
-        }
-    },
-    {
-        "data": {
             "description": "Interpolation, solution of linear and nonlinear systems of equations, approximate integration and differentiation, numerical solution of ordinary differential equations, Data fitting (such as least squares) by polynomials and splines. Knowledge of matrix algebra recommended, such asMATH\u00a0340.",
             "id": "COMPSCI 412",
             "parent": "COMPSCI",
             "title": "INTRODUCTION TO NUMERICAL METHODS"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to calculus of functions of several variables; calculus on parameterized curves, derivatives of functions of several variables, multiple integrals, vector calculus.",
-            "id": "MATH 234",
-            "parent": "MATH",
-            "title": "CALCULUS--FUNCTIONS OF SEVERAL VARIABLES"
         }
     },
     {
@@ -57,6 +80,14 @@
     },
     {
         "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
             "id": "MATH 222",
             "parent": "MATH",
@@ -65,7 +96,21 @@
     },
     {
         "data": {
+            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
+            "id": "MATH 171",
+            "parent": "MATH",
+            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
+        }
+    },
+    {
+        "data": {
             "id": "COMPSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
             "type": "compound"
         }
     },
@@ -83,8 +128,44 @@
     },
     {
         "data": {
-            "source": "COMPSCI 310",
+            "source": "COMPSCI/MATH 240",
             "target": "COMPSCI 412"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 171"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 171",
+            "target": "MATH 217"
         }
     },
     {
@@ -102,7 +183,13 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 217",
+            "target": "COMPSCI/MATH 240"
         }
     },
     {
@@ -120,25 +207,19 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "COMPSCI 310"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
             "target": "COMPSCI 412"
         }
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "MATH 234"
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {
         "data": {
-            "source": "MATH 234",
-            "target": "COMPSCI 412"
+            "source": "MATH 96",
+            "target": "MATH 171"
         }
     }
 ]

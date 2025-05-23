@@ -28,153 +28,30 @@
         "unsatisfactory": 0
     },
     "description": "The evolutionary history, morphology, and ecology of fossil invertebrates. Labs emphasize fossil identification and recognition of basic morphological features.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing."
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 110,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            {
-                "course_number": 204,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 110,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 204,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            "), or graduate/professional standing."
-        ],
-        "prerequisites_text": "(GEOSCI\u00a0110or204), (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, (BIOCORE\u00a0381and382), or graduate/professional standing."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 204,
+            "subjects": [
+                "GEOSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 110,
+                            "subjects": [
+                                "GEOSCI"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 204,
+                            "subjects": [
+                                "GEOSCI"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -182,29 +59,43 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 382,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -215,20 +106,14 @@
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 110,
+                "course_number": 204,
                 "subjects": [
                     "GEOSCI"
                 ]
@@ -240,9 +125,10 @@
                 ]
             },
             {
-                "course_number": 204,
+                "course_number": 101,
                 "subjects": [
-                    "GEOSCI"
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             },
             {
@@ -254,10 +140,15 @@
                 ]
             },
             {
-                "course_number": 102,
+                "course_number": 110,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
+                    "GEOSCI"
+                ]
+            },
+            {
+                "course_number": 382,
+                "subjects": [
+                    "BIOCORE"
                 ]
             }
         ],
@@ -333,6 +224,12 @@
             ]
         },
         {
+            "course_number": 275,
+            "subjects": [
+                "ZOOLOGY"
+            ]
+        },
+        {
             "course_number": 300,
             "subjects": [
                 "ZOOLOGY"
@@ -342,12 +239,6 @@
             "course_number": 541,
             "subjects": [
                 "GEOSCI",
-                "ZOOLOGY"
-            ]
-        },
-        {
-            "course_number": 275,
-            "subjects": [
                 "ZOOLOGY"
             ]
         }
@@ -416,8 +307,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SETH SUTTON",
-                    "DANIEL KELLY"
+                    "DANIEL KELLY",
+                    "SETH SUTTON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

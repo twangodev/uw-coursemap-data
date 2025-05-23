@@ -1,6 +1,22 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "A quantitative treatment of macroscopic phenomena including thermodynamics, chemical equilibria, solution behavior, electrochemistry, and chemical kinetics.",
             "id": "CHEM 116",
             "parent": "CHEM",
@@ -45,6 +61,14 @@
             "id": "PHYSICS 207",
             "parent": "PHYSICS",
             "title": "GENERAL PHYSICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
         }
     },
     {
@@ -113,6 +137,14 @@
     },
     {
         "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Properties of ideal and non-ideal vapors and liquids, ideal and non-ideal multicomponent vapor-liquid and liquid-liquid equilibria, complex chemical reaction equilibria, electrolytic solutions, surface thermodynamics, solid phase thermodynamics.",
             "id": "CBE 311",
             "parent": "CBE",
@@ -125,6 +157,22 @@
             "id": "MATH 222",
             "parent": "MATH",
             "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics in multi-variable calculus and introduction to differential equations.",
+            "id": "MATH 376",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
+        }
+    },
+    {
+        "data": {
+            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
+            "id": "MATH 375",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
@@ -207,6 +255,30 @@
     },
     {
         "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 211",
             "target": "MATH 213"
         }
@@ -220,7 +292,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -237,6 +309,18 @@
     },
     {
         "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 201"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 207"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 222",
             "target": "MATH 320"
         }
@@ -244,7 +328,25 @@
     {
         "data": {
             "source": "MATH 320",
-            "target": "CBE 255"
+            "target": "CBE 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 375",
+            "target": "MATH 376"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 376",
+            "target": "CBE 310"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {
@@ -262,7 +364,7 @@
     {
         "data": {
             "source": "PHYSICS 207",
-            "target": "CBE 320"
+            "target": "CBE 310"
         }
     },
     {

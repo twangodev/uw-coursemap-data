@@ -8,109 +8,57 @@
     "course_title": "MARINE BIOLOGY",
     "cumulative_grade_data": null,
     "description": "Explore the biological and ecological systems of the oceans and marginal seas. Focus on understanding how marine organisms interact with their physical environment and how the biological components of the oceans are interconnected through trophic interactions and habitat selection.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, orBIOCORE\u00a0381"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -125,13 +73,6 @@
                 ]
             },
             {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
                 "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
@@ -142,6 +83,13 @@
                 "course_number": 381,
                 "subjects": [
                     "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -189,31 +137,31 @@
             ]
         },
         {
-            "course_number": 260,
+            "course_number": 750,
             "subjects": [
-                "ZOOLOGY",
+                "GEOSCI",
                 "ENVIRST",
-                "BOTANY"
+                "ZOOLOGY",
+                "ATMOCN"
             ]
         },
         {
             "course_number": 911,
             "subjects": [
-                "ATMOCN",
-                "ZOOLOGY",
-                "CIVENGR",
-                "BOTANY",
                 "GEOSCI",
-                "ENVIRST"
+                "ENVIRST",
+                "ZOOLOGY",
+                "BOTANY",
+                "CIVENGR",
+                "ATMOCN"
             ]
         },
         {
-            "course_number": 750,
+            "course_number": 260,
             "subjects": [
-                "ATMOCN",
-                "GEOSCI",
+                "ENVIRST",
                 "ZOOLOGY",
-                "ENVIRST"
+                "BOTANY"
             ]
         },
         {

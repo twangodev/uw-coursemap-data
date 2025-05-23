@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 515,
         "subjects": [
-            "ANSCI",
-            "FOODSCI"
+            "FOODSCI",
+            "ANSCI"
         ]
     },
     "course_title": "COMMERCIAL MEAT PROCESSING",
@@ -28,65 +28,30 @@
         "unsatisfactory": 0
     },
     "description": "Principles and procedures in the commercial manufacture of processed meat products; sausage manufacturing, curing, smoking, freezing and packaging.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 305,
-                "subjects": [
-                    "ANSCI",
-                    "FOODSCI"
-                ]
-            },
-            {
-                "course_number": 410,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 305,
-                "subjects": [
-                    "ANSCI",
-                    "FOODSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 410,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "AN\u00a0SCI/\u200bFOOD\u00a0SCI\u00a0\u00a0305,FOOD\u00a0SCI\u00a0410, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 305,
+            "subjects": [
+                "FOODSCI",
+                "ANSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 305,
+                    "subjects": [
+                        "FOODSCI",
+                        "ANSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 410,
+                    "subjects": [
+                        "FOODSCI"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -102,8 +67,8 @@
             {
                 "course_number": 305,
                 "subjects": [
-                    "ANSCI",
-                    "FOODSCI"
+                    "FOODSCI",
+                    "ANSCI"
                 ]
             }
         ],
@@ -111,8 +76,8 @@
             {
                 "course_number": 305,
                 "subjects": [
-                    "ANSCI",
-                    "FOODSCI"
+                    "FOODSCI",
+                    "ANSCI"
                 ]
             },
             ", ",
@@ -128,9 +93,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 532,
+            "course_number": 725,
             "subjects": [
                 "FOODSCI"
+            ]
+        },
+        {
+            "course_number": 508,
+            "subjects": [
+                "ANSCI"
             ]
         },
         {
@@ -142,18 +113,12 @@
         {
             "course_number": 305,
             "subjects": [
-                "ANSCI",
-                "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 508,
-            "subjects": [
+                "FOODSCI",
                 "ANSCI"
             ]
         },
         {
-            "course_number": 725,
+            "course_number": 532,
             "subjects": [
                 "FOODSCI"
             ]

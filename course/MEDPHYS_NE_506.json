@@ -28,32 +28,63 @@
         "unsatisfactory": 1
     },
     "description": "Use of Monte Carlo technique for applications in nuclear engineering and medical physics. Major theory of Monte Carlo neutral particle transport is discussed. Standard Monte Carlo transport software is used for exercises and projects. Major emphasis is on analysis of real-world problems.",
-    "optimized_prerequisites": {
+    "optimized_prerequisites": [
+        {
+            "course_number": 305,
+            "subjects": [
+                "NE"
+            ]
+        },
+        {
+            "course_number": 501,
+            "subjects": [
+                "MEDPHYS",
+                "BME",
+                "HONCOL",
+                "PHYSICS"
+            ]
+        }
+    ],
+    "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 305,
+                            "subjects": [
+                                "NE"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 405,
+                                    "subjects": [
+                                        "NE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 408,
+                                    "subjects": [
+                                        "NE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 501,
+                                    "subjects": [
+                                        "MEDPHYS",
+                                        "BME",
+                                        "HONCOL",
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 569,
+                                    "subjects": [
+                                        "MEDPHYS",
+                                        "NE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -66,6 +97,19 @@
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 405,
+                "subjects": [
+                    "NE"
+                ]
+            },
+            {
+                "course_number": 569,
+                "subjects": [
+                    "MEDPHYS",
+                    "NE"
+                ]
+            },
             {
                 "course_number": 501,
                 "subjects": [
@@ -76,9 +120,8 @@
                 ]
             },
             {
-                "course_number": 569,
+                "course_number": 408,
                 "subjects": [
-                    "MEDPHYS",
                     "NE"
                 ]
             },
@@ -115,125 +158,9 @@
                 "course_number": 501,
                 "subjects": [
                     "MEDPHYS",
-                    "PHYSICS",
+                    "BME",
                     "HONCOL",
-                    "BME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 569,
-                "subjects": [
-                    "MEDPHYS",
-                    "NE"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "N\u00a0E\u00a0305and (N\u00a0E\u00a0405,N\u00a0E\u00a0408,PHYSICS/\u200bB\u00a0M\u00a0E/\u200bH\u00a0ONCOL/\u200bMED\u00a0PHYS\u00a0\u00a0501orN\u00a0E/\u200bMED\u00a0PHYS\u00a0\u00a0569) or graduate/professional standing"
-    },
-    "prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 405,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            {
-                "course_number": 305,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            {
-                "course_number": 408,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            {
-                "course_number": 569,
-                "subjects": [
-                    "MEDPHYS",
-                    "NE"
-                ]
-            },
-            {
-                "course_number": 501,
-                "subjects": [
-                    "MEDPHYS",
-                    "PHYSICS",
-                    "HONCOL",
-                    "BME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 305,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 405,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 408,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            ",  ",
-            {
-                "course_number": 501,
-                "subjects": [
-                    "MEDPHYS",
-                    "PHYSICS",
-                    "HONCOL",
-                    "BME"
+                    "PHYSICS"
                 ]
             },
             " or ",
@@ -250,29 +177,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 588,
-            "subjects": [
-                "MEDPHYS",
-                "PHYSICS"
-            ]
-        },
-        {
             "course_number": 566,
             "subjects": [
                 "MEDPHYS",
                 "BME"
-            ]
-        },
-        {
-            "course_number": 770,
-            "subjects": [
-                "MEDPHYS"
-            ]
-        },
-        {
-            "course_number": 705,
-            "subjects": [
-                "NE"
             ]
         },
         {
@@ -282,6 +190,25 @@
                 "BME",
                 "HONCOL",
                 "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 588,
+            "subjects": [
+                "MEDPHYS",
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 705,
+            "subjects": [
+                "NE"
+            ]
+        },
+        {
+            "course_number": 770,
+            "subjects": [
+                "MEDPHYS"
             ]
         }
     ],
@@ -424,8 +351,8 @@
                 "f": 0,
                 "incomplete": 3,
                 "instructors": [
-                    "Laura Bartol",
-                    "Paul Wilson"
+                    "Paul Wilson",
+                    "Laura Bartol"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

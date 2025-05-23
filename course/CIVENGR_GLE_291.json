@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 291,
         "subjects": [
-            "GLE",
-            "CIVENGR"
+            "CIVENGR",
+            "GLE"
         ]
     },
     "course_title": "PROBLEM SOLVING USING COMPUTER TOOLS",
@@ -28,42 +28,22 @@
         "unsatisfactory": 1
     },
     "description": "Introduction to engineering computations with emphasis on computer tools and computer based measurement, data collection, and processing. Tools will include computer aided design, spreadsheets, other engineering computation tools, and hardware and software for laboratory and spatial measurements.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "MATH\u00a0222or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "member of Engineering Guest Students"
             ],
@@ -90,7 +70,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 459,
+            "course_number": 331,
             "subjects": [
                 "ME"
             ]
@@ -102,19 +82,19 @@
             ]
         },
         {
-            "course_number": 273,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
             "course_number": 310,
             "subjects": [
                 "COMPSCI"
             ]
         },
         {
-            "course_number": 331,
+            "course_number": 459,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 273,
             "subjects": [
                 "ME"
             ]

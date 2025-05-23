@@ -27,109 +27,57 @@
         "unsatisfactory": 1
     },
     "description": "Basic vertebrate anatomical systems and a consideration of variations, using functional embryological and evolutionary approaches. Lab dissection and study of representative vertebrate material.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, orBIOCORE\u00a0381"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -144,13 +92,6 @@
                 ]
             },
             {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
                 "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
@@ -161,6 +102,13 @@
                 "course_number": 381,
                 "subjects": [
                     "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -202,7 +150,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 301,
+            "course_number": 555,
+            "subjects": [
+                "ZOOLOGY"
+            ]
+        },
+        {
+            "course_number": 611,
             "subjects": [
                 "ZOOLOGY"
             ]
@@ -214,13 +168,7 @@
             ]
         },
         {
-            "course_number": 611,
-            "subjects": [
-                "ZOOLOGY"
-            ]
-        },
-        {
-            "course_number": 555,
+            "course_number": 301,
             "subjects": [
                 "ZOOLOGY"
             ]
@@ -397,11 +345,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHAEL JOHN TILKENS",
-                    "LILY KHADEMPOUR",
-                    "ROBERT E. BLEIWEISS",
                     "PEGGY BOONE",
-                    "ROSE GRAVES"
+                    "MICHAEL JOHN TILKENS",
+                    "ROSE GRAVES",
+                    "ROBERT E. BLEIWEISS",
+                    "LILY KHADEMPOUR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -476,9 +424,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "JAMES WILLIAM BURNHAM",
                     "ROBERT E. BLEIWEISS",
-                    "STEFANIE BUXEL-FLORENZEN",
-                    "JAMES WILLIAM BURNHAM"
+                    "STEFANIE BUXEL-FLORENZEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -503,9 +451,9 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
+                    "JAMES WILLIAM BURNHAM",
                     "Scott Hartman",
-                    "STEFANIE BUXEL-FLORENZEN",
-                    "JAMES WILLIAM BURNHAM"
+                    "STEFANIE BUXEL-FLORENZEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -530,9 +478,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "JAMES WILLIAM BURNHAM",
                     "Scott Hartman",
-                    "STEFANIE BUXEL-FLORENZEN",
-                    "JAMES WILLIAM BURNHAM"
+                    "STEFANIE BUXEL-FLORENZEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -583,9 +531,9 @@
                 "f": 0,
                 "incomplete": 2,
                 "instructors": [
+                    "Scott Hartman",
                     "JACQUELYN WHISENANT",
-                    "AARON KUFNER",
-                    "Scott Hartman"
+                    "AARON KUFNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -610,9 +558,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Scott Hartman",
                     "JACQUELYN WHISENANT",
-                    "AARON KUFNER",
-                    "Scott Hartman"
+                    "AARON KUFNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -662,9 +610,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JACQUELYN WHISENANT",
                     "Scott Hartman",
-                    "CHRISTINE GREBE"
+                    "CHRISTINE GREBE",
+                    "JACQUELYN WHISENANT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -689,8 +637,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "AARON KUFNER",
-                    "Scott Hartman"
+                    "Scott Hartman",
+                    "AARON KUFNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

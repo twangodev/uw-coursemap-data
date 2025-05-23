@@ -27,49 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "Advanced readings that examine major problems in modern international health. Focus on epidemiology and disease ecology; political economy of health; migration; quarantine; international health research; cross-cultural healing; mental and maternal health; growth of international health organizations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Graduate/professional standing",
-                "concurrent enrollment in",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 553,
-                "subjects": [
-                    "POPHLTH",
-                    "MEDHIST",
-                    "HISTSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing and concurrent enrollment in ",
-            {
-                "course_number": 553,
-                "subjects": [
-                    "POPHLTH",
-                    "MEDHIST",
-                    "HISTSCI"
-                ]
-            }
-        ],
-        "prerequisites_text": "Graduate/professional standing and concurrent enrollment inPOP\u00a0HLTH/\u200bHIST\u00a0SCI/\u200bMED\u00a0HIST\u00a0\u00a0553"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 553,
+            "subjects": [
+                "HISTSCI",
+                "POPHLTH",
+                "MEDHIST"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Graduate/professional standing",
                 "concurrent enrollment in",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 553,
+                    "subjects": [
+                        "HISTSCI",
+                        "POPHLTH",
+                        "MEDHIST"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -78,9 +57,9 @@
             {
                 "course_number": 553,
                 "subjects": [
+                    "HISTSCI",
                     "POPHLTH",
-                    "MEDHIST",
-                    "HISTSCI"
+                    "MEDHIST"
                 ]
             }
         ],
@@ -89,9 +68,9 @@
             {
                 "course_number": 553,
                 "subjects": [
+                    "HISTSCI",
                     "POPHLTH",
-                    "MEDHIST",
-                    "HISTSCI"
+                    "MEDHIST"
                 ]
             }
         ],
@@ -99,22 +78,8 @@
     },
     "similar_courses": [
         {
-            "course_number": 750,
-            "subjects": [
-                "MEDHIST"
-            ]
-        },
-        {
             "course_number": 644,
             "subjects": [
-                "POPHLTH"
-            ]
-        },
-        {
-            "course_number": 553,
-            "subjects": [
-                "HISTSCI",
-                "MEDHIST",
                 "POPHLTH"
             ]
         },
@@ -128,6 +93,20 @@
             "course_number": 711,
             "subjects": [
                 "PUBLHLTH"
+            ]
+        },
+        {
+            "course_number": 553,
+            "subjects": [
+                "HISTSCI",
+                "POPHLTH",
+                "MEDHIST"
+            ]
+        },
+        {
+            "course_number": 750,
+            "subjects": [
+                "MEDHIST"
             ]
         }
     ],

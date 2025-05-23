@@ -27,59 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Primarily for non-science majors.  Roles of microorganisms and viruses in nature, health, agriculture, pollution control and ecology. Principles of disease production, epidemiology and body defense mechanisms. Biotechnology and the genetic engineering revolution.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "."
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "Not open to students with credit forMICROBIO\u00a0101or303."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "MICROBIO"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -87,8 +42,10 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "MICROBIO"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -96,8 +53,10 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 303,
+                            "subjects": [
+                                "MICROBIO"
+                            ]
                         },
                         "."
                     ],
@@ -147,6 +106,12 @@
             ]
         },
         {
+            "course_number": 425,
+            "subjects": [
+                "CIVENGR"
+            ]
+        },
+        {
             "course_number": 100,
             "subjects": [
                 "BOTANY"
@@ -155,20 +120,14 @@
         {
             "course_number": 425,
             "subjects": [
-                "CIVENGR"
+                "SOILSCI",
+                "MICROBIO"
             ]
         },
         {
             "course_number": 303,
             "subjects": [
                 "MICROBIO"
-            ]
-        },
-        {
-            "course_number": 425,
-            "subjects": [
-                "MICROBIO",
-                "SOILSCI"
             ]
         }
     ],

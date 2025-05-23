@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 373,
         "subjects": [
-            "ANSCI",
-            "DYSCI"
+            "DYSCI",
+            "ANSCI"
         ]
     },
     "course_title": "ANIMAL PHYSIOLOGY",
@@ -28,119 +28,62 @@
         "unsatisfactory": 0
     },
     "description": "Covers physiological processes that regulate the body and the anatomy and function of different physiological systems. Includes interactions between organ systems, analysis of a single organ system from the molecular to the organismal, and comparisons and contrasts of organ systems among different domestic animal species.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), or ",
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), orBIOCORE\u00a0383"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 383,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
             {
                 "course_number": 383,
                 "subjects": [
@@ -160,6 +103,13 @@
                     "BIOLOGY",
                     "ZOOLOGY",
                     "BOTANY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -200,25 +150,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 102,
-            "subjects": [
-                "ANSCI",
-                "DYSCI"
-            ]
-        },
-        {
             "course_number": 101,
             "subjects": [
-                "ANSCI",
-                "DYSCI"
-            ]
-        },
-        {
-            "course_number": 311,
-            "subjects": [
-                "ANSCI",
-                "NUTRSCI",
-                "DYSCI"
+                "DYSCI",
+                "ANSCI"
             ]
         },
         {
@@ -228,8 +163,23 @@
             ]
         },
         {
+            "course_number": 102,
+            "subjects": [
+                "DYSCI",
+                "ANSCI"
+            ]
+        },
+        {
             "course_number": 377,
             "subjects": [
+                "ANSCI"
+            ]
+        },
+        {
+            "course_number": 311,
+            "subjects": [
+                "NUTRSCI",
+                "DYSCI",
                 "ANSCI"
             ]
         }

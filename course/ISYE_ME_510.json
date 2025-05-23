@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 510,
         "subjects": [
-            "ISYE",
-            "ME"
+            "ME",
+            "ISYE"
         ]
     },
     "course_title": "FACILITIES PLANNING",
@@ -28,122 +28,63 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to plant location theory and analysis of models of plant location; models for determining plant size and time phasing; line balancing models; techniques for investigating conveyor and other material handling problems; and models of plant layout.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 315,
+            "subjects": [
+                "ISYE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 315,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            {
-                "course_number": 323,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            {
-                "course_number": 524,
-                "subjects": [
-                    "COMPSCI",
-                    "ISYE",
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 315,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 323,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            " or  ",
-            {
-                "course_number": 524,
-                "subjects": [
-                    "COMPSCI",
-                    "ISYE",
-                    "ECE"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 349,
-                "subjects": [
-                    "ISYE",
-                    "PSYCH"
-                ]
-            },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "I\u00a0SY\u00a0E\u00a0315, (I\u00a0SY\u00a0E\u00a0323orE\u00a0C\u00a0E/\u200bCOMP\u00a0SCI/\u200bI\u00a0SY\u00a0E\u00a0\u00a0524) andI\u00a0SY\u00a0E/\u200bPSYCH\u00a0\u00a0349, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 323,
+            "subjects": [
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 349,
+            "subjects": [
+                "PSYCH",
+                "ISYE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 315,
+                            "subjects": [
+                                "ISYE"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 323,
+                                    "subjects": [
+                                        "ISYE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 524,
+                                    "subjects": [
+                                        "ECE",
+                                        "COMPSCI",
+                                        "ISYE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 349,
+                            "subjects": [
+                                "PSYCH",
+                                "ISYE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -155,8 +96,17 @@
         },
         "course_references": [
             {
-                "course_number": 323,
+                "course_number": 349,
                 "subjects": [
+                    "PSYCH",
+                    "ISYE"
+                ]
+            },
+            {
+                "course_number": 524,
+                "subjects": [
+                    "ECE",
+                    "COMPSCI",
                     "ISYE"
                 ]
             },
@@ -167,18 +117,9 @@
                 ]
             },
             {
-                "course_number": 349,
+                "course_number": 323,
                 "subjects": [
-                    "ISYE",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 524,
-                "subjects": [
-                    "COMPSCI",
-                    "ISYE",
-                    "ECE"
+                    "ISYE"
                 ]
             }
         ],
@@ -200,17 +141,17 @@
             {
                 "course_number": 524,
                 "subjects": [
+                    "ECE",
                     "COMPSCI",
-                    "ISYE",
-                    "ECE"
+                    "ISYE"
                 ]
             },
             ") and ",
             {
                 "course_number": 349,
                 "subjects": [
-                    "ISYE",
-                    "PSYCH"
+                    "PSYCH",
+                    "ISYE"
                 ]
             },
             ", or graduate/professional standing, or member of Engineering Guest Students"
@@ -225,26 +166,26 @@
             ]
         },
         {
-            "course_number": 641,
-            "subjects": [
-                "ISYE",
-                "ME"
-            ]
-        },
-        {
             "course_number": 620,
             "subjects": [
                 "ISYE"
             ]
         },
         {
-            "course_number": 415,
+            "course_number": 625,
             "subjects": [
                 "ISYE"
             ]
         },
         {
-            "course_number": 625,
+            "course_number": 641,
+            "subjects": [
+                "ME",
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 415,
             "subjects": [
                 "ISYE"
             ]
@@ -289,8 +230,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEAN PHILIPPE LOOSE",
-                    "Shiyu ZHOU"
+                    "Shiyu ZHOU",
+                    "JEAN PHILIPPE LOOSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -340,8 +281,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LI ZENG",
-                    "Shiyu ZHOU"
+                    "Shiyu ZHOU",
+                    "LI ZENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -366,8 +307,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SHICHUAN QUAN",
-                    "Shiyu ZHOU"
+                    "Shiyu ZHOU",
+                    "SHICHUAN QUAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -392,8 +333,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SHICHUAN QUAN",
-                    "Shiyu ZHOU"
+                    "Shiyu ZHOU",
+                    "SHICHUAN QUAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -518,8 +459,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YUHANG LIU",
-                    "Shiyu ZHOU"
+                    "Shiyu ZHOU",
+                    "YUHANG LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -544,8 +485,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SALMAN JAHANI",
-                    "RAED AL KONTAR"
+                    "RAED AL KONTAR",
+                    "SALMAN JAHANI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -696,8 +637,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "VIPUL BANSAL",
-                    "Shiyu ZHOU"
+                    "Shiyu ZHOU",
+                    "VIPUL BANSAL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

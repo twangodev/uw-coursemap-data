@@ -2,11 +2,11 @@
     "course_reference": {
         "course_number": 371,
         "subjects": [
-            "GLE",
-            "GEOG",
             "GEOSCI",
-            "F&WECOL",
             "ENVIRST",
+            "GEOG",
+            "GLE",
+            "F&WECOL",
             "LANDARC"
         ]
     },
@@ -32,83 +32,14 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to the Earth as viewed from above, focusing on use of aerial photography and satellite imagery to study the environment. Includes physical processes of electromagnetic radiation, data types and sensing capabilities, methods for interpretation, analysis and mapping, and applications.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Sophomore standing",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 171,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 113,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 114,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(Sophomore standing and ",
-            {
-                "course_number": 113,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 114,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 171,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(Sophomore standing andMATH\u00a0113,114, or171), graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 171,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -118,19 +49,25 @@
                             "children": [
                                 "Sophomore standing",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 113,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 114,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 171,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -142,7 +79,7 @@
         },
         "course_references": [
             {
-                "course_number": 171,
+                "course_number": 113,
                 "subjects": [
                     "MATH"
                 ]
@@ -154,7 +91,7 @@
                 ]
             },
             {
-                "course_number": 113,
+                "course_number": 171,
                 "subjects": [
                     "MATH"
                 ]
@@ -194,7 +131,7 @@
             ]
         },
         {
-            "course_number": 931,
+            "course_number": 956,
             "subjects": [
                 "ENVIRST"
             ]
@@ -206,7 +143,7 @@
             ]
         },
         {
-            "course_number": 956,
+            "course_number": 931,
             "subjects": [
                 "ENVIRST"
             ]
@@ -214,8 +151,8 @@
         {
             "course_number": 556,
             "subjects": [
-                "ENVIRST",
                 "CIVENGR",
+                "ENVIRST",
                 "LANDARC"
             ]
         }

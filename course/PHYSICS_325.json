@@ -27,98 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Classical and modern optics, including imaging, polarization optics, optical telescopes, optical microscopes, interference and interferometers, optical fibers and fiber-optic communication, optical resonators, lasers, optical modulators, introduction to quantum and nonlinear optics. Concepts covered in lecture reinforced by weekly laboratory experiments.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 248,
+            "subjects": [
+                "PHYSICS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or concurrent enrollment), or graduate/professional standing"
-        ],
-        "prerequisites_text": "(PHYSICS\u00a0202,208, or248) and (PHYSICS\u00a0322or concurrent enrollment), or graduate/professional standing"
-    },
+        {
+            "course_number": 322,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -127,16 +49,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -144,8 +72,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 322,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -160,13 +90,13 @@
         },
         "course_references": [
             {
-                "course_number": 322,
+                "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 202,
+                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -178,7 +108,7 @@
                 ]
             },
             {
-                "course_number": 208,
+                "course_number": 322,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -219,13 +149,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 625,
+            "course_number": 104,
             "subjects": [
                 "PHYSICS"
             ]
         },
         {
-            "course_number": 248,
+            "course_number": 747,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 625,
             "subjects": [
                 "PHYSICS"
             ]
@@ -237,15 +173,9 @@
             ]
         },
         {
-            "course_number": 104,
+            "course_number": 248,
             "subjects": [
                 "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 747,
-            "subjects": [
-                "ECE"
             ]
         }
     ],

@@ -27,78 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Sources, reactions, transport, effects, and fates of chemical species in soils and associated water and air environments. Emphasis on the chemical behavior of elements and compounds and the phenomena affecting natural and anthropogenic materials in soils.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 116,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "CHEM\u00a0104,109,116, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 104,
+            "subjects": [
+                "CHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 104,
+                    "subjects": [
+                        "CHEM"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 109,
+                    "subjects": [
+                        "CHEM"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 116,
+                    "subjects": [
+                        "CHEM"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -112,13 +68,13 @@
                 ]
             },
             {
-                "course_number": 116,
+                "course_number": 109,
                 "subjects": [
                     "CHEM"
                 ]
             },
             {
-                "course_number": 109,
+                "course_number": 116,
                 "subjects": [
                     "CHEM"
                 ]
@@ -151,23 +107,23 @@
     },
     "similar_courses": [
         {
+            "course_number": 631,
+            "subjects": [
+                "CIVENGR",
+                "SOILSCI",
+                "M&ENVTOX"
+            ]
+        },
+        {
             "course_number": 131,
             "subjects": [
                 "SOILSCI"
             ]
         },
         {
-            "course_number": 324,
+            "course_number": 451,
             "subjects": [
-                "ENVIRST",
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 631,
-            "subjects": [
-                "M&ENVTOX",
-                "CIVENGR",
+                "F&WECOL",
                 "SOILSCI"
             ]
         },
@@ -178,9 +134,9 @@
             ]
         },
         {
-            "course_number": 451,
+            "course_number": 324,
             "subjects": [
-                "F&WECOL",
+                "ENVIRST",
                 "SOILSCI"
             ]
         }

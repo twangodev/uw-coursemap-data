@@ -27,187 +27,14 @@
         "unsatisfactory": 23
     },
     "description": "Core concepts in human physiology from cells to organ-systems via online lectures and active learning activities including laboratory experiments. Topics include homeostasis, membrane transport, cellular physiology, regulation of metabolism, and functions of the nervous, endocrine, muscular, reproductive, cardiovascular, respiratory, renal, and gastrointestinal system.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Sophomore standing",
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "OR"
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "OR"
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        "graduate/professional standing."
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        "Not open to students with credit for PHYSIOL 435",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 153,
-                "subjects": [
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing, (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 153,
-                "subjects": [
-                    "ZOOLOGY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 108,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 115,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            "), or graduate/professional standing. Not open to students with credit for PHYSIOL 435 or ",
-            {
-                "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            }
-        ],
-        "prerequisites_text": "Sophomore standing, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,BOTANY/\u200bBIOLOGY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY\u00a0153orBIOCORE\u00a0381) and (CHEM\u00a0103,108,109or115), or graduate/professional standing. Not open to students with credit for PHYSIOL 435 orANAT&PHY\u00a0435"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 435,
+            "subjects": [
+                "ANAT&PHY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -219,24 +46,38 @@
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 101,
+                                            "subjects": [
+                                                "BIOLOGY",
+                                                "ZOOLOGY"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 130,
+                                            "subjects": [
+                                                "BIOLOGY",
+                                                "BOTANY"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 151,
+                                            "subjects": [
+                                                "BIOLOGY",
+                                                "ZOOLOGY",
+                                                "BOTANY"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 153,
+                                            "subjects": [
+                                                "ZOOLOGY"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 381,
+                                            "subjects": [
+                                                "BIOCORE"
+                                            ]
                                         }
                                     ],
                                     "operator": "OR"
@@ -244,20 +85,28 @@
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 103,
+                                            "subjects": [
+                                                "CHEM"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 108,
+                                            "subjects": [
+                                                "CHEM"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 109,
+                                            "subjects": [
+                                                "CHEM"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 115,
+                                            "subjects": [
+                                                "CHEM"
+                                            ]
                                         }
                                     ],
                                     "operator": "OR"
@@ -273,8 +122,10 @@
                     "children": [
                         "Not open to students with credit for PHYSIOL 435",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 435,
+                            "subjects": [
+                                "ANAT&PHY"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -283,6 +134,45 @@
             "operator": "AND"
         },
         "course_references": [
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BIOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
+                "course_number": 115,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
+                "course_number": 153,
+                "subjects": [
+                    "ZOOLOGY"
+                ]
+            },
             {
                 "course_number": 101,
                 "subjects": [
@@ -297,52 +187,13 @@
                 ]
             },
             {
-                "course_number": 115,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
                 "course_number": 435,
                 "subjects": [
                     "ANAT&PHY"
                 ]
             },
             {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 153,
-                "subjects": [
-                    "ZOOLOGY"
-                ]
-            },
-            {
                 "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 109,
                 "subjects": [
                     "CHEM"
                 ]
@@ -428,18 +279,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 675,
-            "subjects": [
-                "NEURODPT"
-            ]
-        },
-        {
-            "course_number": 435,
-            "subjects": [
-                "ANAT&PHY"
-            ]
-        },
-        {
             "course_number": 235,
             "subjects": [
                 "ANAT&PHY"
@@ -447,6 +286,18 @@
         },
         {
             "course_number": 337,
+            "subjects": [
+                "ANAT&PHY"
+            ]
+        },
+        {
+            "course_number": 675,
+            "subjects": [
+                "NEURODPT"
+            ]
+        },
+        {
+            "course_number": 435,
             "subjects": [
                 "ANAT&PHY"
             ]
@@ -472,9 +323,9 @@
                 "f": 16,
                 "incomplete": 0,
                 "instructors": [
-                    "KEVIN STRANG",
                     "GRACE LEE",
-                    "ANDREW LOKUTA"
+                    "ANDREW LOKUTA",
+                    "KEVIN STRANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -499,8 +350,8 @@
                 "f": 17,
                 "incomplete": 0,
                 "instructors": [
-                    "KEVIN STRANG",
-                    "Beth Altschafl"
+                    "Beth Altschafl",
+                    "KEVIN STRANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -525,8 +376,8 @@
                 "f": 12,
                 "incomplete": 3,
                 "instructors": [
-                    "KEVIN STRANG",
-                    "ANDREW LOKUTA"
+                    "ANDREW LOKUTA",
+                    "KEVIN STRANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -551,8 +402,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "KEVIN STRANG",
-                    "Beth Altschafl"
+                    "Beth Altschafl",
+                    "KEVIN STRANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -706,21 +557,21 @@
                 "f": 6,
                 "incomplete": 1,
                 "instructors": [
-                    "ELEANNA PANAGIOTOU",
-                    "STEVEN ARCH",
-                    "JARED HARTUNG",
-                    "Eric WALSH",
-                    "Hedyeh Khademi Motlagh",
                     "SAREAN HARMONI GAYNOR-METZINGER",
-                    "SOPHIE LINDSAY",
-                    "SANDRA OSEI",
-                    "ANGELYN BANACH",
-                    "KELLY KOCH",
-                    "JOHN CHRISTOPHER BARON",
+                    "Eric WALSH",
                     "BRANDI GUETHS",
-                    "Michael Steplyk",
                     "ANDREW LOKUTA",
-                    "MORGAN RACE"
+                    "ANGELYN BANACH",
+                    "Hedyeh Khademi Motlagh",
+                    "Michael Steplyk",
+                    "JARED HARTUNG",
+                    "KELLY KOCH",
+                    "SANDRA OSEI",
+                    "SOPHIE LINDSAY",
+                    "ELEANNA PANAGIOTOU",
+                    "MORGAN RACE",
+                    "STEVEN ARCH",
+                    "JOHN CHRISTOPHER BARON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -745,20 +596,20 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
+                    "DONG GUN JIN",
+                    "OLIVIA VAN HAMMOND",
+                    "Eric WALSH",
+                    "BRANDI GUETHS",
+                    "ANDREW LOKUTA",
+                    "ANGELYN BANACH",
+                    "Michael Steplyk",
+                    "KELLY KOCH",
+                    "SANDRA OSEI",
+                    "SOPHIE LINDSAY",
                     "ELEANNA PANAGIOTOU",
                     "STEVEN ARCH",
-                    "Eric WALSH",
-                    "SOPHIE LINDSAY",
                     "MARIA PAUWELS",
-                    "OLIVIA VAN HAMMOND",
-                    "SANDRA OSEI",
-                    "ANGELYN BANACH",
-                    "DONG GUN JIN",
-                    "KELLY KOCH",
-                    "JOHN CHRISTOPHER BARON",
-                    "BRANDI GUETHS",
-                    "Michael Steplyk",
-                    "ANDREW LOKUTA"
+                    "JOHN CHRISTOPHER BARON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -783,20 +634,20 @@
                 "f": 9,
                 "incomplete": 0,
                 "instructors": [
-                    "ELEANNA PANAGIOTOU",
-                    "Eric WALSH",
-                    "VARUN SURYAWANSHI",
-                    "ISABEL LAMPRE",
-                    "SRINIVAS KOTTUR",
-                    "SANDRA OSEI",
                     "DONG GUN JIN",
-                    "KELLY KOCH",
-                    "Kayla Van Asten",
+                    "SRINIVAS KOTTUR",
+                    "Eric WALSH",
                     "NICOLE EISENMANN",
+                    "ANDREW LOKUTA",
                     "Michael Steplyk",
-                    "ANDRES ORTIZ",
+                    "KELLY KOCH",
                     "KATHLEEN MORALES",
-                    "ANDREW LOKUTA"
+                    "SANDRA OSEI",
+                    "ISABEL LAMPRE",
+                    "ELEANNA PANAGIOTOU",
+                    "VARUN SURYAWANSHI",
+                    "Kayla Van Asten",
+                    "ANDRES ORTIZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

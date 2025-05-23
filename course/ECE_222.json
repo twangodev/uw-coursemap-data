@@ -27,125 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Vector calculus application to electrodynamics problems; potential theory; static and dynamic electric and magnetic fields; macroscopic theory of dielectric and magnetic materials; Maxwell's equations; boundary conditions; wave equation; introduction to transmission lines.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "OR"
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "OR"
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        "member of Engineering Guest Students."
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        "Not open to students with credit in",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "."
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 220,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") or member of Engineering Guest Students. Not open to students with credit in ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "(PHYSICS\u00a0202,208, or248) and (MATH\u00a0234or376) or member of Engineering Guest Students. Not open to students with credit inE\u00a0C\u00a0E\u00a0220."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 220,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -156,16 +45,22 @@
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 202,
+                                            "subjects": [
+                                                "PHYSICS"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 208,
+                                            "subjects": [
+                                                "PHYSICS"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 248,
+                                            "subjects": [
+                                                "PHYSICS"
+                                            ]
                                         }
                                     ],
                                     "operator": "OR"
@@ -173,12 +68,16 @@
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 234,
+                                            "subjects": [
+                                                "MATH"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 376,
+                                            "subjects": [
+                                                "MATH"
+                                            ]
                                         }
                                     ],
                                     "operator": "OR"
@@ -194,8 +93,10 @@
                     "children": [
                         "Not open to students with credit in",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 220,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         "."
                     ],
@@ -206,13 +107,25 @@
         },
         "course_references": [
             {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
                 "course_number": 234,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 202,
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -224,21 +137,9 @@
                 ]
             },
             {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
                 "course_number": 220,
                 "subjects": [
                     "ECE"
-                ]
-            },
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
                 ]
             }
         ],
@@ -291,13 +192,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 740,
+            "course_number": 721,
             "subjects": [
-                "ECE"
+                "PHYSICS"
             ]
         },
         {
-            "course_number": 320,
+            "course_number": 740,
             "subjects": [
                 "ECE"
             ]
@@ -309,9 +210,9 @@
             ]
         },
         {
-            "course_number": 721,
+            "course_number": 320,
             "subjects": [
-                "PHYSICS"
+                "ECE"
             ]
         },
         {

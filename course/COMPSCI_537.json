@@ -27,82 +27,35 @@
         "unsatisfactory": 5
     },
     "description": "Input-output hardware, interrupt handling, properties of magnetic tapes, discs and drums, associative memories and virtual address translation techniques. Batch processing, time sharing and real-time systems, scheduling resource allocation, modular software systems, performance measurement and system evaluation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "COMP SCI 367",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 354,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 354,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            " and (COMP SCI 367 or ",
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ") or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0354and (COMP SCI 367 or400) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 354,
+            "subjects": [
+                "ECE",
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 354,
+                            "subjects": [
+                                "ECE",
+                                "COMPSCI"
+                            ]
                         },
                         {
                             "children": [
                                 "COMP SCI 367",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 400,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -117,15 +70,15 @@
         },
         "course_references": [
             {
-                "course_number": 354,
+                "course_number": 400,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
+                    "COMPSCI"
                 ]
             },
             {
-                "course_number": 400,
+                "course_number": 354,
                 "subjects": [
+                    "ECE",
                     "COMPSCI"
                 ]
             }
@@ -134,8 +87,8 @@
             {
                 "course_number": 354,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
+                    "ECE",
+                    "COMPSCI"
                 ]
             },
             " and (COMP SCI 367 or ",
@@ -151,9 +104,21 @@
     },
     "similar_courses": [
         {
-            "course_number": 750,
+            "course_number": 552,
             "subjects": [
-                "COMPSCI",
+                "ECE",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 736,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 353,
+            "subjects": [
                 "ECE"
             ]
         },
@@ -164,22 +129,10 @@
             ]
         },
         {
-            "course_number": 736,
+            "course_number": 750,
             "subjects": [
+                "ECE",
                 "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 552,
-            "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 353,
-            "subjects": [
-                "ECE"
             ]
         }
     ],
@@ -402,8 +355,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "SHAN LU",
-                    "Michael SWIFT"
+                    "Michael SWIFT",
+                    "SHAN LU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -531,8 +484,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "REMZI ARPACI-DUSSEAU",
                     "DANIEL MYERS",
+                    "REMZI ARPACI-DUSSEAU",
                     "BARTON MILLER"
                 ],
                 "no_credit": 0,
@@ -558,8 +511,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "SHAN LU",
-                    "DANIEL MYERS"
+                    "DANIEL MYERS",
+                    "SHAN LU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -610,11 +563,11 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "JYOTIPRAKASH MISHRA",
                     "VIJAY KUMAR",
-                    "SANKARALINGAM PANNEERSELVAM",
+                    "JYOTIPRAKASH MISHRA",
+                    "MICHAEL O'NEILL",
                     "PERRY KIVOLOWITZ",
-                    "MICHAEL O'NEILL"
+                    "SANKARALINGAM PANNEERSELVAM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -740,8 +693,8 @@
                 "f": 5,
                 "incomplete": 1,
                 "instructors": [
-                    "Michael SWIFT",
-                    "ADALBERT GERALD SOOSAI RAJ"
+                    "ADALBERT GERALD SOOSAI RAJ",
+                    "Michael SWIFT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -867,13 +820,13 @@
                 "incomplete": 0,
                 "instructors": [
                     "VIBHOR GOEL",
-                    "YIEN XU",
-                    "Setareh Behroozi",
-                    "SHIVANGI KAMAT",
+                    "KAIWEI TU",
                     "KONSTANTINOS KANELLIS",
-                    "Shivaram VENKATARAMAN",
+                    "YIEN XU",
                     "ABIGAIL MATTHEWS",
-                    "KAIWEI TU"
+                    "Setareh Behroozi",
+                    "Shivaram VENKATARAMAN",
+                    "SHIVANGI KAMAT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -924,14 +877,14 @@
                 "f": 4,
                 "incomplete": 1,
                 "instructors": [
-                    "CALLIE KIM",
+                    "CHENHAO YE",
                     "ALEXANDER ANDERSON",
-                    "REMZI ARPACI-DUSSEAU",
+                    "SUYAN QU",
                     "YUVRAJ PATEL",
+                    "REMZI ARPACI-DUSSEAU",
                     "KEREN CHEN",
                     "AKSHAT SINHA",
-                    "CHENHAO YE",
-                    "SUYAN QU",
+                    "CALLIE KIM",
                     "VINAY SAHADEVAPPA BANAKAR"
                 ],
                 "no_credit": 0,
@@ -983,8 +936,8 @@
                 "f": 3,
                 "incomplete": 8,
                 "instructors": [
-                    "REMZI ARPACI-DUSSEAU",
-                    "KAI MAST"
+                    "KAI MAST",
+                    "REMZI ARPACI-DUSSEAU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1009,15 +962,15 @@
                 "f": 2,
                 "incomplete": 4,
                 "instructors": [
-                    ". ANJALI",
-                    "Shivaram VENKATARAMAN",
-                    "KEREN CHEN",
+                    "AJAY SHRIDHAR JOSHI",
                     "RAHUL CHUNDURU",
-                    "JOHANNES FREISCHUETZ",
+                    ". ANJALI",
                     "Michael SWIFT",
+                    "KEREN CHEN",
                     "ABIGAIL MATTHEWS",
-                    "SUNAINA KRISHNAMOORTHY",
-                    "AJAY SHRIDHAR JOSHI"
+                    "Shivaram VENKATARAMAN",
+                    "JOHANNES FREISCHUETZ",
+                    "SUNAINA KRISHNAMOORTHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1042,16 +995,16 @@
                 "f": 10,
                 "incomplete": 0,
                 "instructors": [
-                    "FARIHA TABASSUM ISLAM",
-                    "OMID ROSTAMABADI",
-                    "ADITYA DAS SARMA",
                     "MUHAMMAD DANIAL SALEEM",
-                    "VOJTECH ASCHENBRENNER",
                     "YURUN YUAN",
-                    "Louis Oliphant",
+                    "ADITYA DAS SARMA",
                     "ABIGAIL MATTHEWS",
+                    "OMID ROSTAMABADI",
+                    "JOHN SHAWGER",
+                    "Louis Oliphant",
+                    "VOJTECH ASCHENBRENNER",
                     "SUNAINA KRISHNAMOORTHY",
-                    "JOHN SHAWGER"
+                    "FARIHA TABASSUM ISLAM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1076,16 +1029,16 @@
                 "f": 9,
                 "incomplete": 0,
                 "instructors": [
-                    "FARIHA TABASSUM ISLAM",
-                    "OMID ROSTAMABADI",
+                    "MUHAMMAD DANIAL SALEEM",
+                    "YURUN YUAN",
                     "ADITYA DAS SARMA",
                     "ABIGAIL MATTHEWS",
-                    "MUHAMMAD DANIAL SALEEM",
-                    "Louis Oliphant",
-                    "YURUN YUAN",
-                    "SUNAINA KRISHNAMOORTHY",
+                    "OMID ROSTAMABADI",
+                    "JOHN SHAWGER",
                     "Tej CHAJED",
-                    "JOHN SHAWGER"
+                    "Louis Oliphant",
+                    "FARIHA TABASSUM ISLAM",
+                    "SUNAINA KRISHNAMOORTHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1110,16 +1063,16 @@
                 "f": 5,
                 "incomplete": 5,
                 "instructors": [
-                    "ROBERT NAGEL",
-                    "FARIHA TABASSUM ISLAM",
-                    "OMID ROSTAMABADI",
-                    "LESHNA BALARA",
-                    "ADITYA DAS SARMA",
                     "SEUNGHYUN AN",
+                    "LESHNA BALARA",
                     "VOJTECH ASCHENBRENNER",
-                    "Shivaram VENKATARAMAN",
+                    "ADITYA DAS SARMA",
+                    "OMID ROSTAMABADI",
+                    "JOHN SHAWGER",
                     "Louis Oliphant",
-                    "JOHN SHAWGER"
+                    "Shivaram VENKATARAMAN",
+                    "ROBERT NAGEL",
+                    "FARIHA TABASSUM ISLAM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

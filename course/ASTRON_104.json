@@ -27,49 +27,14 @@
         "unsatisfactory": 4
     },
     "description": "Humanity is linked to the solar system in countless ways. Our view of the solar system, how planets form, and how planetary systems evolve has fundamentally changed with the discovery of countless exoplanets around other stars. Join us in exploring the modern view of the solar system and its relation to other planetary worlds. Includes the sky and celestial motions; ancient astronomy; the Copernican revolution; gravity, orbits, and interplanetary travel; formation of solar system; survey of sun, planets and moons; asteroids, meteors and comets; origin of life.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Satisfied Quantitative Reasoning",
-                        "QR",
-                        "A requirement."
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "ASTRON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Satisfied Quantitative Reasoning (QR) A requirement. Not open to students with credit for ",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "ASTRON"
-                ]
-            }
-        ],
-        "prerequisites_text": "Satisfied Quantitative Reasoning (QR) A requirement. Not open to students with credit forASTRON\u00a0200"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 200,
+            "subjects": [
+                "ASTRON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -85,8 +50,10 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 200,
+                            "subjects": [
+                                "ASTRON"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -115,8 +82,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 150,
+            "course_number": 160,
             "subjects": [
+                "GEOSCI",
                 "ASTRON"
             ]
         },
@@ -127,10 +95,9 @@
             ]
         },
         {
-            "course_number": 160,
+            "course_number": 340,
             "subjects": [
-                "ASTRON",
-                "GEOSCI"
+                "ASTRON"
             ]
         },
         {
@@ -140,7 +107,7 @@
             ]
         },
         {
-            "course_number": 340,
+            "course_number": 150,
             "subjects": [
                 "ASTRON"
             ]
@@ -386,8 +353,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "MARGARET TURNBULL",
-                    "JOHN GALLAGHER"
+                    "JOHN GALLAGHER",
+                    "MARGARET TURNBULL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

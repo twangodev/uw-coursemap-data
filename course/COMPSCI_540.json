@@ -27,111 +27,20 @@
         "unsatisfactory": 10
     },
     "description": "Principles of knowledge-based search techniques, automatic deduction, knowledge representation using predicate logic, machine learning, probabilistic reasoning. Applications in tasks such as problem solving, data mining, game playing, natural language understanding, computer vision, speech recognition, and robotics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "367"
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "275"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 320,
+            "subjects": [
+                "COMPSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            " or 367) and (",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or 275) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "(COMP\u00a0SCI\u00a0300,320or 367) and (MATH\u00a0211,217,221, or 275) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+        {
+            "course_number": 211,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -140,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 300,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 "367"
                             ],
@@ -154,16 +67,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 211,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 217,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "275"
                             ],
@@ -179,7 +98,7 @@
         },
         "course_references": [
             {
-                "course_number": 320,
+                "course_number": 300,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -191,19 +110,19 @@
                 ]
             },
             {
-                "course_number": 211,
+                "course_number": 221,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 300,
+                "course_number": 320,
                 "subjects": [
                     "COMPSCI"
                 ]
             },
             {
-                "course_number": 221,
+                "course_number": 211,
                 "subjects": [
                     "MATH"
                 ]
@@ -251,8 +170,17 @@
     },
     "similar_courses": [
         {
-            "course_number": 769,
+            "course_number": 539,
             "subjects": [
+                "ME",
+                "ECE",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 760,
+            "subjects": [
+                "ECE",
                 "COMPSCI"
             ]
         },
@@ -263,22 +191,13 @@
             ]
         },
         {
-            "course_number": 760,
-            "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 539,
-            "subjects": [
-                "COMPSCI",
-                "ME",
-                "ECE"
-            ]
-        },
-        {
             "course_number": 310,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 769,
             "subjects": [
                 "COMPSCI"
             ]
@@ -398,8 +317,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "CHARLES DYER",
-                    "JERRY ZHU"
+                    "JERRY ZHU",
+                    "CHARLES DYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -449,8 +368,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "CHARLES DYER",
-                    "JERRY ZHU"
+                    "JERRY ZHU",
+                    "CHARLES DYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -500,8 +419,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "CHARLES DYER",
-                    "JERRY ZHU"
+                    "JERRY ZHU",
+                    "CHARLES DYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -603,8 +522,8 @@
                 "f": 5,
                 "incomplete": 1,
                 "instructors": [
-                    "CHARLES DYER",
-                    "JUDE SHAVLIK"
+                    "JUDE SHAVLIK",
+                    "CHARLES DYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -655,8 +574,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "CHARLES DYER",
-                    "BRYAN GIBSON"
+                    "BRYAN GIBSON",
+                    "CHARLES DYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -760,8 +679,8 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "CHARLES DYER",
-                    "COLLIN ENGSTROM"
+                    "COLLIN ENGSTROM",
+                    "CHARLES DYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -812,8 +731,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "CHARLES DYER",
-                    "ERIN WINTER"
+                    "ERIN WINTER",
+                    "CHARLES DYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -838,10 +757,10 @@
                 "f": 12,
                 "incomplete": 1,
                 "instructors": [
-                    "DANIEL GRIFFIN",
-                    "ROSS KLEIMAN",
                     "JERRY ZHU",
-                    "COLLIN ENGSTROM"
+                    "DANIEL GRIFFIN",
+                    "COLLIN ENGSTROM",
+                    "ROSS KLEIMAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -866,8 +785,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "CHARLES DYER",
-                    "YINGYU LIANG"
+                    "YINGYU LIANG",
+                    "CHARLES DYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -967,15 +886,15 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "DANDI CHEN",
                     "LAURA LEGAULT",
-                    "TUAN DINH",
                     "JERRY ZHU",
                     "BASTIN JOSEPH",
-                    "BRIAN CHANG",
+                    "TUAN DINH",
+                    "ROHIT KUMAR SHARMA",
                     "APURBAA BHATTACHARJEE",
                     "AKSHAYA KALYANARAMAN",
-                    "ROHIT KUMAR SHARMA"
+                    "BRIAN CHANG",
+                    "DANDI CHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1000,10 +919,10 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "YIN LI",
-                    "Daifeng WANG",
                     "YINGYU LIANG",
-                    "Anthony GITTER"
+                    "Anthony GITTER",
+                    "YIN LI",
+                    "Daifeng WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1028,17 +947,17 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "SAMARTH MATHUR",
-                    "YUNHAN HU",
                     "Yudong CHEN",
-                    "SHUYAO LI",
-                    "YIN LIU",
-                    "WENXUAN ZHAO",
-                    "ZIYI ZHANG",
-                    "YINGYU LIANG",
-                    "ANDREW WANG",
+                    "SAMARTH MATHUR",
                     "JEREMY MCMAHAN",
-                    "Josiah HANNA"
+                    "ZIYI ZHANG",
+                    "Josiah HANNA",
+                    "YIN LIU",
+                    "YUNHAN HU",
+                    "SHUYAO LI",
+                    "WENXUAN ZHAO",
+                    "ANDREW WANG",
+                    "YINGYU LIANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1063,17 +982,17 @@
                 "f": 4,
                 "incomplete": 1,
                 "instructors": [
-                    "SAMARTH MATHUR",
-                    "STEPHEN JASINA",
-                    "ILIAS DIAKONIKOLAS",
-                    "ATHANASIOS PITTAS",
-                    "NIKOLAOS ZARIFIS",
-                    "YIXUAN LI",
                     "LISHENG REN",
-                    "JERRY ZHU",
-                    "ANDREW WANG",
                     "VASILEIOS KONTONIS",
-                    "JEREMY MCMAHAN"
+                    "SAMARTH MATHUR",
+                    "JEREMY MCMAHAN",
+                    "JERRY ZHU",
+                    "NIKOLAOS ZARIFIS",
+                    "ANDREW WANG",
+                    "ATHANASIOS PITTAS",
+                    "ILIAS DIAKONIKOLAS",
+                    "STEPHEN JASINA",
+                    "YIXUAN LI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1099,17 +1018,17 @@
                 "incomplete": 3,
                 "instructors": [
                     "BRIAN HUANG",
-                    "JUSTIN KIEFEL",
-                    "ZIQIAN LIN",
-                    "YIN LIU",
-                    "TIMOTHY OSSOWSKI",
-                    "YUXIN SUN",
                     "COLE DIIANNI",
                     "ZIYI ZHANG",
+                    "JUSTIN KIEFEL",
                     "ASMIT NAYAK",
-                    "YINGYU LIANG",
+                    "ZIQIAN LIN",
+                    "YIN LIU",
+                    "KIRTHEVASAN KANDASAMY",
                     "Fred SALA",
-                    "KIRTHEVASAN KANDASAMY"
+                    "TIMOTHY OSSOWSKI",
+                    "YINGYU LIANG",
+                    "YUXIN SUN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1134,14 +1053,14 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "YIN LIU",
-                    "ANA KLABJAN",
-                    "AXEL AGELII",
                     "YUNFU DENG",
-                    "ADAM LABIOSA",
                     "DYAH ADILA",
                     "JERRY ZHU",
-                    "Josiah HANNA"
+                    "AXEL AGELII",
+                    "Josiah HANNA",
+                    "ADAM LABIOSA",
+                    "YIN LIU",
+                    "ANA KLABJAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1166,20 +1085,20 @@
                 "f": 5,
                 "incomplete": 2,
                 "instructors": [
-                    "Yudong CHEN",
-                    "HAOTIAN MA",
-                    "ANA KLABJAN",
-                    "JUSTIN KIEFEL",
-                    "WENXUAN ZHAO",
-                    "HAFEEZ ALI ANEES ALI",
                     "COLE DIIANNI",
-                    "YANG GUO",
-                    "ZIYI ZHANG",
+                    "Yudong CHEN",
                     "CHENGPO YAN",
-                    "YINGYU LIANG",
+                    "ZIYI ZHANG",
+                    "JUSTIN KIEFEL",
                     "JERRY ZHU",
                     "ANIKET REGE",
-                    "ANDREW WANG"
+                    "ANA KLABJAN",
+                    "WENXUAN ZHAO",
+                    "YANG GUO",
+                    "ANDREW WANG",
+                    "YINGYU LIANG",
+                    "HAFEEZ ALI ANEES ALI",
+                    "HAOTIAN MA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1204,17 +1123,17 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "LISHENG REN",
                     "BRIAN HUANG",
-                    "ANA KLABJAN",
-                    "YUXIN SUN",
+                    "HANXIU ZHU",
                     "COLE DIIANNI",
                     "Blerina GKOTSE",
-                    "LISHENG REN",
+                    "ANA KLABJAN",
                     "ADAM LABIOSA",
+                    "SONIA CROMP",
                     "Fred SALA",
                     "ANDREW WANG",
-                    "SONIA CROMP",
-                    "HANXIU ZHU"
+                    "YUXIN SUN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1239,19 +1158,19 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Yudong CHEN",
-                    "HAOTIAN MA",
-                    "GUY ZAMIR",
-                    "ELLIOT PICKENS",
-                    "BRAHMA PAVSE",
-                    "RUIFENG XU",
-                    "ANIKET REGE",
                     "ABHINAV NARAYAN HARISH",
-                    "ADAM LABIOSA",
                     "ZHIQI GAO",
-                    "ANDREW WANG",
+                    "Yudong CHEN",
+                    "Young Wu",
+                    "RUIFENG XU",
+                    "ELLIOT PICKENS",
+                    "ANIKET REGE",
+                    "BRAHMA PAVSE",
+                    "ADAM LABIOSA",
                     "YUNA HWANG",
-                    "Young Wu"
+                    "GUY ZAMIR",
+                    "ANDREW WANG",
+                    "HAOTIAN MA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

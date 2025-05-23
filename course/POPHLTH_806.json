@@ -27,78 +27,51 @@
         "unsatisfactory": 0
     },
     "description": "Apply and extend methodologic knowledge learned in prior courses in the Population Health Sciences epidemiology methods sequence to selected key activities of a practicing epidemiologic researcher, including: study implementation; scientific writing and presentation; manuscript and grant peer-reviewing; measurement validation, simulation studies and sensitivity analyses; and, commonly-used epidemiology field instruments and methods.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 797,
+            "subjects": [
+                "SOC",
+                "POPHLTH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 798,
-                "subjects": [
-                    "POPHLTH"
-                ]
-            },
-            {
-                "course_number": 797,
-                "subjects": [
-                    "POPHLTH",
-                    "SOC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 797,
-                "subjects": [
-                    "SOC",
-                    "POPHLTH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 798,
-                "subjects": [
-                    "POPHLTH"
-                ]
-            }
-        ],
-        "prerequisites_text": "SOC/\u200bPOP\u00a0HLTH\u00a0\u00a0797andPOP\u00a0HLTH\u00a0798"
-    },
+        {
+            "course_number": 798,
+            "subjects": [
+                "POPHLTH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 797,
+                    "subjects": [
+                        "SOC",
+                        "POPHLTH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 798,
+                    "subjects": [
+                        "POPHLTH"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 797,
+                "course_number": 798,
                 "subjects": [
-                    "SOC",
                     "POPHLTH"
                 ]
             },
             {
-                "course_number": 798,
+                "course_number": 797,
                 "subjects": [
+                    "SOC",
                     "POPHLTH"
                 ]
             }
@@ -123,10 +96,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 797,
+            "course_number": 805,
             "subjects": [
-                "POPHLTH",
-                "SOC"
+                "POPHLTH"
             ]
         },
         {
@@ -142,15 +114,16 @@
             ]
         },
         {
-            "course_number": 805,
-            "subjects": [
-                "POPHLTH"
-            ]
-        },
-        {
             "course_number": 783,
             "subjects": [
                 "PUBLHLTH"
+            ]
+        },
+        {
+            "course_number": 797,
+            "subjects": [
+                "SOC",
+                "POPHLTH"
             ]
         }
     ],

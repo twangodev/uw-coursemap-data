@@ -27,70 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Collection development designed to teach professional skills in selection and control of collections. Examines large societal forces affecting the ways librarians have traditionally built collections and contemporary changes in access and ownership.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "concurrent enrollment"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 601,
+            "subjects": [
+                "LIS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 602,
-                "subjects": [
-                    "LIS"
-                ]
-            },
-            {
-                "course_number": 601,
-                "subjects": [
-                    "LIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 601,
-                "subjects": [
-                    "LIS"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 602,
-                "subjects": [
-                    "LIS"
-                ]
-            },
-            " or concurrent enrollment"
-        ],
-        "prerequisites_text": "L\u00a0I\u00a0S\u00a0601and602or concurrent enrollment"
-    },
+        {
+            "course_number": 602,
+            "subjects": [
+                "LIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 601,
+                            "subjects": [
+                                "LIS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 602,
+                            "subjects": [
+                                "LIS"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -133,19 +99,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 755,
-            "subjects": [
-                "LIS"
-            ]
-        },
-        {
             "course_number": 839,
-            "subjects": [
-                "LIS"
-            ]
-        },
-        {
-            "course_number": 651,
             "subjects": [
                 "LIS"
             ]
@@ -154,6 +108,18 @@
             "course_number": 519,
             "subjects": [
                 "DS"
+            ]
+        },
+        {
+            "course_number": 755,
+            "subjects": [
+                "LIS"
+            ]
+        },
+        {
+            "course_number": 651,
+            "subjects": [
+                "LIS"
             ]
         },
         {

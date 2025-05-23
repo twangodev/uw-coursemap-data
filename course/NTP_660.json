@@ -27,77 +27,39 @@
         "unsatisfactory": 0
     },
     "description": "Covers various topics in neuroscience and in the related sciences that demonstrate the interaction between science and public policy.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "declared in Neuroscience graduate program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 611,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 485,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 611,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            },
-            ", or declared in Neuroscience graduate program"
-        ],
-        "prerequisites_text": "BIOCORE\u00a0485,ZOOLOGY/\u200bPSYCH\u00a0\u00a0523,PSYCH/\u200bNEURODPT/\u200bNTP\u00a0\u00a0611, or declared in Neuroscience graduate program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 611,
+            "subjects": [
+                "NEURODPT",
+                "PSYCH",
+                "NTP"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 485,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 523,
+                    "subjects": [
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 611,
+                    "subjects": [
+                        "NEURODPT",
+                        "PSYCH",
+                        "NTP"
+                    ]
                 },
                 "declared in Neuroscience graduate program"
             ],
@@ -105,24 +67,24 @@
         },
         "course_references": [
             {
-                "course_number": 611,
+                "course_number": 485,
                 "subjects": [
-                    "PSYCH",
-                    "NEURODPT",
-                    "NTP"
+                    "BIOCORE"
                 ]
             },
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 485,
+                "course_number": 611,
                 "subjects": [
-                    "BIOCORE"
+                    "NEURODPT",
+                    "PSYCH",
+                    "NTP"
                 ]
             }
         ],
@@ -137,17 +99,17 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             ", ",
             {
                 "course_number": 611,
                 "subjects": [
-                    "NTP",
                     "NEURODPT",
-                    "PSYCH"
+                    "PSYCH",
+                    "NTP"
                 ]
             },
             ", or declared in Neuroscience graduate program"
@@ -156,16 +118,16 @@
     },
     "similar_courses": [
         {
-            "course_number": 611,
+            "course_number": 900,
             "subjects": [
-                "PSYCH",
-                "NEURODPT",
                 "NTP"
             ]
         },
         {
-            "course_number": 900,
+            "course_number": 611,
             "subjects": [
+                "NEURODPT",
+                "PSYCH",
                 "NTP"
             ]
         },
@@ -177,14 +139,14 @@
             ]
         },
         {
-            "course_number": 610,
+            "course_number": 640,
             "subjects": [
                 "NEURODPT",
                 "NTP"
             ]
         },
         {
-            "course_number": 640,
+            "course_number": 610,
             "subjects": [
                 "NEURODPT",
                 "NTP"
@@ -605,8 +567,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHAEL KOENIGS",
-                    "BARBARA BENDLIN"
+                    "BARBARA BENDLIN",
+                    "MICHAEL KOENIGS"
                 ],
                 "no_credit": 0,
                 "no_work": 1,

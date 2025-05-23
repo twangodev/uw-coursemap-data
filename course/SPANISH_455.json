@@ -8,89 +8,47 @@
     "course_title": "CONTEMPORARY MAYAS: A CULTURE OF NATURE",
     "cumulative_grade_data": null,
     "description": "Explore the enduring wisdom and resilience of the Maya civilization amidst historical challenges and contemporary dynamics. Delve into Maya philosophy, history, and current affairs, with a focus on their relationship with the environment. Analyze pivotal questions: Did the Maya civilization collapse or undergo intentional transformation? Why did the Maya army refrain from sacking the colonial capital during a major rebellion? Examine the impact of modern politics and economics on Maya culture. Uncover the role of Maya bioculture in cultural resistance and survival, and the interconnectedness of spirituality, health, and ethics with nature. Investigate the complexities of Maya perspectives on present-day issues.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "SPANISH",
+                "CHICLA"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SPANISH",
-                    "CHICLA"
-                ]
-            },
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SPANISH",
-                    "CHICLA"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 224,
-                "subjects": [
-                    "SPANISH"
-                ]
-            }
-        ],
-        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222orSPANISH\u00a0223) andSPANISH\u00a0224"
-    },
+        {
+            "course_number": 224,
+            "subjects": [
+                "SPANISH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "SPANISH",
+                                "CHICLA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 223,
+                            "subjects": [
+                                "SPANISH"
+                            ]
                         }
                     ],
                     "operator": "OR"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 224,
+                    "subjects": [
+                        "SPANISH"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -103,16 +61,16 @@
                 ]
             },
             {
+                "course_number": 223,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
+            {
                 "course_number": 222,
                 "subjects": [
                     "SPANISH",
                     "CHICLA"
-                ]
-            },
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
                 ]
             }
         ],
@@ -144,38 +102,38 @@
     },
     "similar_courses": [
         {
-            "course_number": 376,
-            "subjects": [
-                "ANTHRO",
-                "LACIS"
-            ]
-        },
-        {
-            "course_number": 445,
-            "subjects": [
-                "ENVIRST",
-                "SPANISH"
-            ]
-        },
-        {
             "course_number": 260,
             "subjects": [
-                "GEOG",
-                "SOC",
-                "LACIS",
                 "POLISCI",
-                "SPANISH",
-                "HISTORY",
+                "LACIS",
+                "GEOG",
                 "ANTHRO",
                 "AFROAMER",
+                "SOC",
+                "HISTORY",
+                "SPANISH",
                 "C&ESOC"
             ]
         },
         {
             "course_number": 377,
             "subjects": [
-                "ANTHRO",
-                "LACIS"
+                "LACIS",
+                "ANTHRO"
+            ]
+        },
+        {
+            "course_number": 445,
+            "subjects": [
+                "SPANISH",
+                "ENVIRST"
+            ]
+        },
+        {
+            "course_number": 376,
+            "subjects": [
+                "LACIS",
+                "ANTHRO"
             ]
         },
         {

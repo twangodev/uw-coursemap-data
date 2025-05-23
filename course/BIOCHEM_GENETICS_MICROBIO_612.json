@@ -3,8 +3,8 @@
         "course_number": 612,
         "subjects": [
             "MICROBIO",
-            "GENETICS",
-            "BIOCHEM"
+            "BIOCHEM",
+            "GENETICS"
         ]
     },
     "course_title": "PROKARYOTIC MOLECULAR BIOLOGY",
@@ -29,108 +29,20 @@
         "unsatisfactory": 0
     },
     "description": "Molecular basis of bacterial physiology and genetics with emphasis on molecular mechanisms; topics include nucleic acid-protein interactions, transcription, translation, replication, recombination, regulation of gene expression.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 501,
+            "subjects": [
+                "BIOCHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 470,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 507,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 470,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 468,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(BIOCHEM\u00a0501or507) and (MICROBIO\u00a0470,GENETICS\u00a0466or468) or graduate/professional standing"
-    },
+        {
+            "course_number": 470,
+            "subjects": [
+                "MICROBIO"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -139,12 +51,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 501,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 507,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -152,16 +68,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 470,
+                                    "subjects": [
+                                        "MICROBIO"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 466,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 468,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -175,9 +97,21 @@
         },
         "course_references": [
             {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
                 "course_number": 468,
                 "subjects": [
                     "GENETICS"
+                ]
+            },
+            {
+                "course_number": 470,
+                "subjects": [
+                    "MICROBIO"
                 ]
             },
             {
@@ -190,18 +124,6 @@
                 "course_number": 501,
                 "subjects": [
                     "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 470,
-                "subjects": [
-                    "MICROBIO"
                 ]
             }
         ],
@@ -247,9 +169,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 508,
+            "course_number": 466,
             "subjects": [
-                "BIOCHEM"
+                "GENETICS"
             ]
         },
         {
@@ -259,22 +181,22 @@
             ]
         },
         {
-            "course_number": 303,
+            "course_number": 508,
             "subjects": [
-                "MICROBIO"
-            ]
-        },
-        {
-            "course_number": 466,
-            "subjects": [
-                "GENETICS"
+                "BIOCHEM"
             ]
         },
         {
             "course_number": 917,
             "subjects": [
-                "MICROBIO",
-                "BIOCHEM"
+                "BIOCHEM",
+                "MICROBIO"
+            ]
+        },
+        {
+            "course_number": 303,
+            "subjects": [
+                "MICROBIO"
             ]
         }
     ],
@@ -317,8 +239,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Robert LANDICK",
                     "JAMES KECK",
+                    "Robert LANDICK",
                     "Richard GOURSE"
                 ],
                 "no_credit": 0,
@@ -344,8 +266,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Robert LANDICK",
                     "JAMES KECK",
+                    "Robert LANDICK",
                     "Richard GOURSE"
                 ],
                 "no_credit": 0,
@@ -371,8 +293,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Robert LANDICK",
                     "JAMES KECK",
+                    "Robert LANDICK",
                     "Richard GOURSE"
                 ],
                 "no_credit": 0,
@@ -398,8 +320,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Robert LANDICK",
                     "JAMES KECK",
+                    "Robert LANDICK",
                     "Richard GOURSE"
                 ],
                 "no_credit": 0,
@@ -450,8 +372,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Richard GOURSE",
-                    "KATRINA FOREST"
+                    "KATRINA FOREST",
+                    "Richard GOURSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -476,8 +398,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Richard GOURSE",
-                    "KATRINA FOREST"
+                    "KATRINA FOREST",
+                    "Richard GOURSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -502,8 +424,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Richard GOURSE",
-                    "KATRINA FOREST"
+                    "KATRINA FOREST",
+                    "Richard GOURSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

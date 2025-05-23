@@ -9,6 +9,14 @@
     },
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
             "description": "An introduction to proof writing techniques through a study of classical topics in elementary number theory. Topics include the divisibility, basic properties of primes, congruences, Fermat's theorem.",
             "id": "MATH 467",
             "parent": "MATH",
@@ -17,18 +25,18 @@
     },
     {
         "data": {
-            "description": "Groups, normal subgroups, Cayley's theorem, rings, ideals, homomorphisms, polynomial rings, abstract vector spaces.",
-            "id": "MATH 541",
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
             "parent": "MATH",
-            "title": "MODERN ALGEBRA"
+            "title": "TRIGONOMETRY"
         }
     },
     {
         "data": {
-            "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
-            "id": "MATH 340",
+            "description": "Groups, normal subgroups, Cayley's theorem, rings, ideals, homomorphisms, polynomial rings, abstract vector spaces.",
+            "id": "MATH 541",
             "parent": "MATH",
-            "title": "ELEMENTARY MATRIX AND LINEAR ALGEBRA"
+            "title": "MODERN ALGEBRA"
         }
     },
     {
@@ -88,6 +96,14 @@
     },
     {
         "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
             "id": "MATH 222",
             "parent": "MATH",
@@ -112,14 +128,6 @@
     },
     {
         "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
-        }
-    },
-    {
-        "data": {
             "id": "CROSSLISTED",
             "type": "compound"
         }
@@ -134,6 +142,36 @@
         "data": {
             "source": "COMPSCI/MATH 240",
             "target": "MATH 467"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 171"
         }
     },
     {
@@ -157,7 +195,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -187,12 +225,6 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "MATH 340"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
             "target": "MATH 467"
         }
     },
@@ -204,13 +236,7 @@
     },
     {
         "data": {
-            "source": "MATH 340",
-            "target": "MATH 467"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
+            "source": "MATH 234",
             "target": "MATH 541"
         }
     },
@@ -218,12 +244,6 @@
         "data": {
             "source": "MATH 341",
             "target": "MATH 541"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 467"
         }
     },
     {
@@ -236,6 +256,12 @@
         "data": {
             "source": "MATH 541",
             "target": "MATH 567"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {

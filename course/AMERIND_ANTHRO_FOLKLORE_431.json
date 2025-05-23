@@ -3,8 +3,8 @@
         "course_number": 431,
         "subjects": [
             "ANTHRO",
-            "FOLKLORE",
-            "AMERIND"
+            "AMERIND",
+            "FOLKLORE"
         ]
     },
     "course_title": "AMERICAN INDIAN FOLKLORE",
@@ -29,101 +29,14 @@
         "unsatisfactory": 0
     },
     "description": "An introduction to the genres of American Indian Folklore. Special attention is given to creation stories, trickster tales, and the relationship between folklore and historical memory.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Junior standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 230,
-                "subjects": [
-                    "FOLKLORE"
-                ]
-            },
-            {
-                "course_number": 100,
-                "subjects": [
-                    "FOLKLORE"
-                ]
-            },
-            {
-                "course_number": 314,
-                "subjects": [
-                    "ANTHRO",
-                    "AMERIND"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "FOLKLORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing and (",
-            {
-                "course_number": 314,
-                "subjects": [
-                    "ANTHRO",
-                    "AMERIND"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 100,
-                "subjects": [
-                    "FOLKLORE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 230,
-                "subjects": [
-                    "FOLKLORE"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "FOLKLORE"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "Junior standing and (AMER\u00a0IND/\u200bANTHRO\u00a0\u00a0314,FOLKLORE\u00a0100,230, or320), or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 230,
+            "subjects": [
+                "FOLKLORE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -133,20 +46,29 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 314,
+                                    "subjects": [
+                                        "ANTHRO",
+                                        "AMERIND"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 100,
+                                    "subjects": [
+                                        "FOLKLORE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 230,
+                                    "subjects": [
+                                        "FOLKLORE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "FOLKLORE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -159,12 +81,6 @@
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 100,
-                "subjects": [
-                    "FOLKLORE"
-                ]
-            },
             {
                 "course_number": 230,
                 "subjects": [
@@ -180,6 +96,12 @@
             },
             {
                 "course_number": 320,
+                "subjects": [
+                    "FOLKLORE"
+                ]
+            },
+            {
+                "course_number": 100,
                 "subjects": [
                     "FOLKLORE"
                 ]
@@ -221,19 +143,28 @@
     },
     "similar_courses": [
         {
-            "course_number": 102,
+            "course_number": 437,
             "subjects": [
-                "ASIANAM",
+                "ANTHRO",
                 "AMERIND",
-                "AFROAMER",
                 "FOLKLORE",
-                "CHICLA"
+                "GEN&WS"
             ]
         },
         {
-            "course_number": 100,
+            "course_number": 230,
             "subjects": [
                 "FOLKLORE"
+            ]
+        },
+        {
+            "course_number": 102,
+            "subjects": [
+                "ASIANAM",
+                "AFROAMER",
+                "FOLKLORE",
+                "AMERIND",
+                "CHICLA"
             ]
         },
         {
@@ -243,16 +174,7 @@
             ]
         },
         {
-            "course_number": 437,
-            "subjects": [
-                "ANTHRO",
-                "FOLKLORE",
-                "GEN&WS",
-                "AMERIND"
-            ]
-        },
-        {
-            "course_number": 230,
+            "course_number": 100,
             "subjects": [
                 "FOLKLORE"
             ]

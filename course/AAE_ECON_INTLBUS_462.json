@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 462,
         "subjects": [
+            "ECON",
             "AAE",
-            "INTLBUS",
-            "ECON"
+            "INTLBUS"
         ]
     },
     "course_title": "LATIN AMERICAN ECONOMIC DEVELOPMENT",
@@ -29,82 +29,40 @@
         "unsatisfactory": 0
     },
     "description": "A historico-institutional analysis of development problems in the principal Latin American countries, with attention to differentiation of national growth patterns and alternative development strategies.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "215 prior to Fall 2024"
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "AAE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "AAE"
-                ]
-            },
-            " (215 prior to Fall 2024), ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "prerequisites_text": "A\u00a0A\u00a0E\u00a0101(215 prior to Fall 2024),ECON\u00a0101, or111"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "AAE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "AAE"
+                            ]
                         },
                         "215 prior to Fall 2024"
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "ECON"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 111,
+                    "subjects": [
+                        "ECON"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -119,13 +77,13 @@
             {
                 "course_number": 101,
                 "subjects": [
-                    "ECON"
+                    "AAE"
                 ]
             },
             {
                 "course_number": 101,
                 "subjects": [
-                    "AAE"
+                    "ECON"
                 ]
             }
         ],
@@ -167,6 +125,13 @@
             ]
         },
         {
+            "course_number": 374,
+            "subjects": [
+                "AAE",
+                "INTLST"
+            ]
+        },
+        {
             "course_number": 730,
             "subjects": [
                 "AAE"
@@ -176,13 +141,6 @@
             "course_number": 642,
             "subjects": [
                 "AAE"
-            ]
-        },
-        {
-            "course_number": 374,
-            "subjects": [
-                "AAE",
-                "INTLST"
             ]
         }
     ],

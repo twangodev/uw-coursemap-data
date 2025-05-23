@@ -2,70 +2,35 @@
     "course_reference": {
         "course_number": 620,
         "subjects": [
-            "BMI",
-            "STAT"
+            "STAT",
+            "BMI"
         ]
     },
     "course_title": "STATISTICS IN HUMAN GENETICS",
     "cumulative_grade_data": null,
     "description": "Provides a comprehensive survey of statistical methods in human genetics research. Covered topics include linkage analysis, genome-wide association study, rare variant association analysis, meta-analysis, genome and variant annotation, heritability estimation, multi-trait modeling techniques, multi-omic data integration, and genetic risk prediction.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "STAT\u00a0333,340, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 340,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 333,
+                    "subjects": [
+                        "STAT"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 340,
+                    "subjects": [
+                        "STAT"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -105,24 +70,18 @@
     },
     "similar_courses": [
         {
-            "course_number": 826,
+            "course_number": 877,
             "subjects": [
+                "STAT",
                 "BMI"
-            ]
-        },
-        {
-            "course_number": 541,
-            "subjects": [
-                "BMI",
-                "STAT"
             ]
         },
         {
             "course_number": 849,
             "subjects": [
-                "ANSCI",
+                "GENETICS",
                 "POPHLTH",
-                "GENETICS"
+                "ANSCI"
             ]
         },
         {
@@ -133,10 +92,16 @@
             ]
         },
         {
-            "course_number": 877,
+            "course_number": 541,
             "subjects": [
-                "BMI",
-                "STAT"
+                "STAT",
+                "BMI"
+            ]
+        },
+        {
+            "course_number": 826,
+            "subjects": [
+                "BMI"
             ]
         }
     ],

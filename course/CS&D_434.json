@@ -27,43 +27,23 @@
         "unsatisfactory": 0
     },
     "description": "Interactive practice of ASL vocabulary; integrating principles of ASL facial expression and body language; conceptually accurate signed phrasing.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Sophomore standing",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 424,
-                "subjects": [
-                    "CS&D"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and ",
-            {
-                "course_number": 424,
-                "subjects": [
-                    "CS&D"
-                ]
-            }
-        ],
-        "prerequisites_text": "Sophomore standing andCS&D\u00a0424"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 424,
+            "subjects": [
+                "CS&D"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Sophomore standing",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 424,
+                    "subjects": [
+                        "CS&D"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -89,7 +69,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 705,
+            "course_number": 424,
             "subjects": [
                 "CS&D"
             ]
@@ -107,15 +87,15 @@
             ]
         },
         {
-            "course_number": 351,
+            "course_number": 705,
             "subjects": [
-                "LINGUIS"
+                "CS&D"
             ]
         },
         {
-            "course_number": 424,
+            "course_number": 351,
             "subjects": [
-                "CS&D"
+                "LINGUIS"
             ]
         }
     ],

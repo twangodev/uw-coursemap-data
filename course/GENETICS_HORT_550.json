@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 550,
         "subjects": [
-            "GENETICS",
-            "HORT"
+            "HORT",
+            "GENETICS"
         ]
     },
     "course_title": "MOLECULAR APPROACHES FOR POTENTIAL CROP IMPROVEMENT",
@@ -28,98 +28,44 @@
         "unsatisfactory": 0
     },
     "description": "Introduction of basic concepts of plant molecular biology and molecular techniques in current use. Topics include: organization and regulation of plant genes, gene cloning and analysis, transformation systems for plants, and molecular techniques for crop improvement.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 501,
+            "subjects": [
+                "BIOCHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            "); or graduate/professional standing"
-        ],
-        "prerequisites_text": "BIOCHEM\u00a0501and (GENETICS\u00a0466or467); or graduate/professional standing"
-    },
+        {
+            "course_number": 466,
+            "subjects": [
+                "GENETICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 501,
+                            "subjects": [
+                                "BIOCHEM"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 466,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 467,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -133,6 +79,12 @@
         },
         "course_references": [
             {
+                "course_number": 467,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
                 "course_number": 466,
                 "subjects": [
                     "GENETICS"
@@ -142,12 +94,6 @@
                 "course_number": 501,
                 "subjects": [
                     "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
                 ]
             }
         ],
@@ -180,29 +126,22 @@
         {
             "course_number": 338,
             "subjects": [
-                "AGRONOMY",
-                "HORT"
+                "HORT",
+                "AGRONOMY"
             ]
         },
         {
             "course_number": 631,
             "subjects": [
-                "GENETICS",
-                "BIOCHEM"
+                "BIOCHEM",
+                "GENETICS"
             ]
         },
         {
             "course_number": 340,
             "subjects": [
                 "AGRONOMY",
-                "HORT",
-                "BOTANY"
-            ]
-        },
-        {
-            "course_number": 501,
-            "subjects": [
-                "AGRONOMY",
+                "BOTANY",
                 "HORT"
             ]
         },
@@ -210,6 +149,13 @@
             "course_number": 545,
             "subjects": [
                 "GENETICS"
+            ]
+        },
+        {
+            "course_number": 501,
+            "subjects": [
+                "HORT",
+                "AGRONOMY"
             ]
         }
     ],
@@ -407,8 +353,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "RICHARD VIERSTRA",
-                    "PATRICK KRYSAN"
+                    "PATRICK KRYSAN",
+                    "RICHARD VIERSTRA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

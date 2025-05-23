@@ -2,10 +2,10 @@
     "course_reference": {
         "course_number": 632,
         "subjects": [
-            "ISYE",
-            "OTM",
+            "STAT",
             "MATH",
-            "STAT"
+            "ISYE",
+            "OTM"
         ]
     },
     "course_title": "INTRODUCTION TO STOCHASTIC PROCESSES",
@@ -30,175 +30,21 @@
         "unsatisfactory": 9
     },
     "description": "Topics include discrete-time Markov chains, Poisson point processes, continuous-time Markov chains, and renewal processes. Applications to queueing, branching, and other models in science, engineering and business.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                {
-                    "children": [
-                        "member of the Pre-Masters Mathematics",
-                        "Visiting International",
-                        "Program"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 309,
+            "subjects": [
+                "STAT",
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 531,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 531,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 421,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 531,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-        ],
-        "prerequisites_text": "(STAT/\u200bMATH\u00a0\u00a0431,309,STAT\u00a0311orMATH\u00a0531) and (MATH\u00a0320,340,341,375,421or531) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-    },
+        {
+            "course_number": 531,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -207,20 +53,30 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 431,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 309,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 311,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 531,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -228,28 +84,40 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 341,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 375,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 421,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 531,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -277,6 +145,37 @@
                 ]
             },
             {
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 531,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 341,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 309,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            {
                 "course_number": 320,
                 "subjects": [
                     "MATH"
@@ -289,41 +188,10 @@
                 ]
             },
             {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 431,
                 "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
+                    "STAT",
                     "MATH"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 531,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
                 ]
             }
         ],
@@ -332,16 +200,16 @@
             {
                 "course_number": 431,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ", ",
             {
                 "course_number": 309,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ", ",
@@ -406,35 +274,35 @@
     },
     "similar_courses": [
         {
-            "course_number": 320,
-            "subjects": [
-                "ISYE"
-            ]
-        },
-        {
             "course_number": 730,
             "subjects": [
                 "ECE"
             ]
         },
         {
-            "course_number": 733,
+            "course_number": 320,
             "subjects": [
-                "MATH",
-                "STAT"
+                "ISYE"
             ]
         },
         {
-            "course_number": 833,
+            "course_number": 733,
             "subjects": [
-                "MATH",
-                "STAT"
+                "STAT",
+                "MATH"
             ]
         },
         {
             "course_number": 624,
             "subjects": [
                 "ISYE"
+            ]
+        },
+        {
+            "course_number": 833,
+            "subjects": [
+                "STAT",
+                "MATH"
             ]
         }
     ],
@@ -1033,9 +901,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
+                    "Timo SEPPALAINEN",
                     "SIGURD ANGENENT",
-                    "GREGORY SHINAULT",
-                    "Timo SEPPALAINEN"
+                    "GREGORY SHINAULT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1087,8 +955,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Benedek VALKO",
-                    "David Anderson",
-                    "Timo SEPPALAINEN"
+                    "Timo SEPPALAINEN",
+                    "David Anderson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1139,8 +1007,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "ERIK BATES",
-                    "SCOTT SMITH"
+                    "SCOTT SMITH",
+                    "ERIK BATES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1165,9 +1033,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "HANBAEK LYU",
                     "Benedek VALKO",
-                    "VADIM GORIN"
+                    "VADIM GORIN",
+                    "HANBAEK LYU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1244,8 +1112,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DAVID KEATING",
-                    "SEBASTIEN ROCH"
+                    "SEBASTIEN ROCH",
+                    "DAVID KEATING"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1296,8 +1164,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "DAVID CLANCY",
-                    "DAVID KEATING"
+                    "DAVID KEATING",
+                    "DAVID CLANCY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1370,9 +1238,9 @@
                 },
                 "last_taught_term": "2025 Summr",
                 "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
+                    "abbreviation": "B",
+                    "name": "Business",
+                    "url": "http://www.bus.wisc.edu/"
                 },
                 "typically_offered": "Fall, Spring"
             },

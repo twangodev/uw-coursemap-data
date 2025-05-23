@@ -1,10 +1,18 @@
 [
     {
         "data": {
-            "description": "Continuation ofMATH\u00a0171. Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Completion ofMATH\u00a0217implies completion ofMATH\u00a0221and114.",
-            "id": "MATH 217",
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
             "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY II"
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
         }
     },
     {
@@ -33,22 +41,6 @@
     },
     {
         "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduces reproducible data management, modeling, analysis, and statistical inference through a practical, hands-on case studies approach. Topics include the use of an integrated statistical computing environment, data wrangling, the R programming language, data graphics and visualization, random variables and concepts of probability including the binomial and normal distributions, data modeling, statistical inference in one- and two- sample settings for proportions and means, simple linear regression, and report generation using R Markdown with applications to a wide variety of data to address open-ended questions.",
-            "id": "STAT 240",
-            "parent": "STAT",
-            "title": "DATA SCIENCE MODELING I"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
             "id": "MATH 221",
             "parent": "MATH",
@@ -73,22 +65,6 @@
     },
     {
         "data": {
-            "description": "Introduction to probability, random variables, and random processes. Confidence intervals, introduction to experimental design and hypothesis testing. Statistical averages, correlation, and spectral analysis for wide sense stationary processes. Random signals and noise in linear systems.",
-            "id": "ECE 331",
-            "parent": "ECE",
-            "title": "INTRODUCTION TO RANDOM SIGNAL ANALYSIS AND STATISTICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to the signals, information, and computational techniques in electrical engineering.",
-            "id": "ECE 203",
-            "parent": "ECE",
-            "title": "SIGNALS, INFORMATION, AND COMPUTATION"
-        }
-    },
-    {
-        "data": {
             "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
@@ -97,29 +73,7 @@
     },
     {
         "data": {
-            "description": "Teaches how to explore, model, and analyze data using R. Topics include basic probability models; the central limit theorem; Monte Carlo simulation; one- and two-sample hypothesis testing; Bayesian inference; linear and logistic regression; ANOVA; the bootstrap; random forests and cross-validation. Features the analysis of real-world data sets and the communication of findings in a clear and reproducible manner within a project setting.",
-            "id": "STAT 340",
-            "parent": "STAT",
-            "title": "DATA SCIENCE MODELING II"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
-            "id": "MATH 171",
-            "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
-        }
-    },
-    {
-        "data": {
             "id": "CIVENGR",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "ECE",
             "type": "compound"
         }
     },
@@ -137,32 +91,26 @@
     },
     {
         "data": {
-            "source": "ECE 203",
-            "target": "ECE 331"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 331",
-            "target": "CIVENGR 516"
+            "source": "MATH 112",
+            "target": "MATH 113"
         }
     },
     {
         "data": {
             "source": "MATH 112",
-            "target": "STAT 371"
+            "target": "MATH 221"
         }
     },
     {
         "data": {
-            "source": "MATH 171",
-            "target": "MATH 217"
+            "source": "MATH 113",
+            "target": "MATH 221"
         }
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -174,7 +122,7 @@
     {
         "data": {
             "source": "MATH 211",
-            "target": "STAT 340"
+            "target": "STAT 324"
         }
     },
     {
@@ -185,14 +133,8 @@
     },
     {
         "data": {
-            "source": "MATH 213",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 217",
-            "target": "ECE 203"
+            "source": "MATH 221",
+            "target": "CIVENGR 516"
         }
     },
     {
@@ -203,30 +145,12 @@
     },
     {
         "data": {
-            "source": "MATH 221",
-            "target": "STAT 371"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 96",
             "target": "MATH 112"
         }
     },
     {
         "data": {
-            "source": "MATH 96",
-            "target": "MATH 171"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 240",
-            "target": "STAT 340"
-        }
-    },
-    {
-        "data": {
             "source": "STAT 324",
             "target": "CIVENGR 516"
         }
@@ -235,12 +159,6 @@
         "data": {
             "source": "STAT 324",
             "target": "STAT 371"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 340",
-            "target": "CIVENGR 516"
         }
     },
     {

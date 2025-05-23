@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 550,
         "subjects": [
-            "ASTRON",
-            "EMA"
+            "EMA",
+            "ASTRON"
         ]
     },
     "course_title": "ASTRODYNAMICS",
@@ -28,81 +28,36 @@
         "unsatisfactory": 0
     },
     "description": "Coordinate system transformations, central force motion, two body problem, three and n-body problem, theory of orbital perturbations, artificial satellites, elementary transfer orbits, and elementary rocket dynamics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or concurrent enrollment), or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0M\u00a0A\u00a0202,M\u00a0E\u00a0240, orPHYSICS\u00a0311, or concurrent enrollment), or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 311,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 202,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 240,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 311,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -160,21 +115,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 150,
-            "subjects": [
-                "ASTRON"
-            ]
-        },
-        {
-            "course_number": 702,
-            "subjects": [
-                "ASTRON"
-            ]
-        },
-        {
             "course_number": 642,
             "subjects": [
                 "EMA"
+            ]
+        },
+        {
+            "course_number": 340,
+            "subjects": [
+                "ASTRON"
             ]
         },
         {
@@ -184,7 +133,13 @@
             ]
         },
         {
-            "course_number": 340,
+            "course_number": 702,
+            "subjects": [
+                "ASTRON"
+            ]
+        },
+        {
+            "course_number": 150,
             "subjects": [
                 "ASTRON"
             ]

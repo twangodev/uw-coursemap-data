@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Modeling of continuous systems; computer-aided solutions to systems problems; feedback control systems; stability, frequency response and transient response using root locus, frequency domain and state variable methods.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 330,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 330,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E\u00a0330or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 330,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 330,
+                    "subjects": [
+                        "ECE"
+                    ]
                 },
                 "member of Engineering Guest Students"
             ],
@@ -89,9 +69,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 446,
+            "course_number": 334,
             "subjects": [
-                "ME"
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 817,
+            "subjects": [
+                "ECE"
             ]
         },
         {
@@ -108,15 +94,9 @@
             ]
         },
         {
-            "course_number": 334,
+            "course_number": 446,
             "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 817,
-            "subjects": [
-                "ECE"
+                "ME"
             ]
         }
     ],

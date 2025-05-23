@@ -27,81 +27,39 @@
         "unsatisfactory": 0
     },
     "description": "The use of genetics in medicine has experienced significant growth over the past 50 years, identifying risk genes, and devising diagnostic tests and therapies based on this knowledge for specific clinical disorders such as cystic fibrosis, achondroplasia, and Retts syndrome.  MDs and biomedical scientists from UW Hospital and Clinics, the School of Medicine and Public Health, and other UW units will present lectures in this field followed by question-answers sessions. Other class sessions will be devoted to student presentations and open discussion of research literature.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "prerequisites_text": "GENETICS\u00a0466,467orBIOCORE\u00a0383"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 466,
+            "subjects": [
+                "GENETICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 466,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 467,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 383,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
             {
                 "course_number": 383,
                 "subjects": [
@@ -110,6 +68,12 @@
             },
             {
                 "course_number": 467,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
+                "course_number": 466,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -141,7 +105,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 721,
+            "course_number": 731,
             "subjects": [
                 "GENECSLR"
             ]
@@ -166,7 +130,7 @@
             ]
         },
         {
-            "course_number": 731,
+            "course_number": 721,
             "subjects": [
                 "GENECSLR"
             ]
@@ -186,8 +150,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TOMAS PROLLA",
                     "STEVEN SCHRODI",
+                    "TOMAS PROLLA",
                     "MICHAEL MEYN"
                 ],
                 "no_credit": 0,

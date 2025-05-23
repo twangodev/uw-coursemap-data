@@ -27,56 +27,29 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to theories of variation among world languages, focusing on syntactic phenomena.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ANTHRO",
-                    "LINGUIS"
-                ]
-            }
-        ],
-        "prerequisites_text": "LINGUIS\u00a0101or301"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "LINGUIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "LINGUIS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "ANTHRO",
+                        "LINGUIS"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -116,7 +89,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 101,
+            "subjects": [
+                "LINGUIS"
+            ]
+        },
+        {
             "course_number": 330,
+            "subjects": [
+                "LINGUIS"
+            ]
+        },
+        {
+            "course_number": 571,
             "subjects": [
                 "LINGUIS"
             ]
@@ -128,19 +113,7 @@
             ]
         },
         {
-            "course_number": 101,
-            "subjects": [
-                "LINGUIS"
-            ]
-        },
-        {
             "course_number": 322,
-            "subjects": [
-                "LINGUIS"
-            ]
-        },
-        {
-            "course_number": 571,
             "subjects": [
                 "LINGUIS"
             ]

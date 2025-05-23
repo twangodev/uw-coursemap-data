@@ -27,120 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Perform Data Science as an iterative (back and forth) process of four different types of activities (data collection, data wrangling, data analysis, communication). Traverse through the five requisite stances (scientist, coder, mathematician, methodologist, skeptic). Develop and hone a broad set of computational tools in R (but not the broadest) and a broad set of statistical/machine learning tools (but not the broadest). Focus on doing these with agility to make the coding \"transparent\" and serve the large goals of the project.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in Statistics VISP"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 340,
+            "subjects": [
+                "STAT"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), graduate/professional standing, or declared in Statistics VISP"
-        ],
-        "prerequisites_text": "(STAT\u00a0333or340) and (MATH\u00a0320,340,341, or375), graduate/professional standing, or declared in Statistics VISP"
-    },
+        {
+            "course_number": 341,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -149,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 333,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -162,20 +66,28 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 341,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 375,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -190,7 +102,19 @@
         },
         "course_references": [
             {
-                "course_number": 320,
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 333,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            {
+                "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
@@ -202,21 +126,9 @@
                 ]
             },
             {
-                "course_number": 375,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
                 ]
             },
             {
@@ -287,12 +199,6 @@
             ]
         },
         {
-            "course_number": 340,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
             "course_number": 240,
             "subjects": [
                 "STAT"
@@ -300,6 +206,12 @@
         },
         {
             "course_number": 605,
+            "subjects": [
+                "STAT"
+            ]
+        },
+        {
+            "course_number": 340,
             "subjects": [
                 "STAT"
             ]
@@ -345,8 +257,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KARL ROHE",
-                    "HONGZHI LIU"
+                    "HONGZHI LIU",
+                    "KARL ROHE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

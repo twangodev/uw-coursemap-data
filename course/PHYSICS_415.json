@@ -27,104 +27,20 @@
         "unsatisfactory": 1
     },
     "description": "An introduction to thermodynamics and statistical mechanics from a physics perspective. Thermodynamics, phase equilibrium, kinetic theory of gases, classical and quantum statistical mechanics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 241,
+            "subjects": [
+                "PHYSICS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 249,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 249,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 235,
-                "subjects": [
-                    "PHYSICS",
-                    "ECE"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "(PHYSICS\u00a0205,241,249, orPHYSICS/\u200bE\u00a0C\u00a0E\u00a0\u00a0235) andPHYSICS\u00a0311, or graduate/professional standing"
-    },
+        {
+            "course_number": 311,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -133,27 +49,38 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 205,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 241,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 249,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 235,
+                                    "subjects": [
+                                        "ECE",
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 311,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -163,6 +90,12 @@
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 311,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
             {
                 "course_number": 249,
                 "subjects": [
@@ -176,7 +109,7 @@
                 ]
             },
             {
-                "course_number": 311,
+                "course_number": 241,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -184,13 +117,7 @@
             {
                 "course_number": 235,
                 "subjects": [
-                    "PHYSICS",
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 241,
-                "subjects": [
+                    "ECE",
                     "PHYSICS"
                 ]
             }
@@ -221,8 +148,8 @@
             {
                 "course_number": 235,
                 "subjects": [
-                    "PHYSICS",
-                    "ECE"
+                    "ECE",
+                    "PHYSICS"
                 ]
             },
             ") and ",
@@ -244,18 +171,6 @@
             ]
         },
         {
-            "course_number": 715,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 761,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
             "course_number": 864,
             "subjects": [
                 "CHEM"
@@ -265,6 +180,18 @@
             "course_number": 241,
             "subjects": [
                 "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 715,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 761,
+            "subjects": [
+                "ME"
             ]
         }
     ],

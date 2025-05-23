@@ -27,68 +27,41 @@
         "unsatisfactory": 0
     },
     "description": "Gain practical experience in classical and molecular genetic laboratory techniques using plants, animals, and fungi. Topics include complementation and linkage analysis, gene mapping, library screening, yeast and bacterial transformation, restriction analysis, PCR, sequencing, and Southern blot analysis.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            }
-        ],
-        "prerequisites_text": "GENETICS\u00a0466or467"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 466,
+            "subjects": [
+                "GENETICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 466,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 467,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 466,
+                "course_number": 467,
                 "subjects": [
                     "GENETICS"
                 ]
             },
             {
-                "course_number": 467,
+                "course_number": 466,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -113,12 +86,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 615,
+            "course_number": 466,
             "subjects": [
-                "ANSCI",
-                "GENETICS",
-                "AGRONOMY",
-                "HORT"
+                "GENETICS"
             ]
         },
         {
@@ -128,23 +98,26 @@
             ]
         },
         {
-            "course_number": 655,
+            "course_number": 615,
             "subjects": [
-                "PLPATH",
-                "GENETICS",
-                "MM&I",
-                "BOTANY"
-            ]
-        },
-        {
-            "course_number": 466,
-            "subjects": [
+                "ANSCI",
+                "AGRONOMY",
+                "HORT",
                 "GENETICS"
             ]
         },
         {
             "course_number": 566,
             "subjects": [
+                "GENETICS"
+            ]
+        },
+        {
+            "course_number": 655,
+            "subjects": [
+                "MM&I",
+                "PLPATH",
+                "BOTANY",
                 "GENETICS"
             ]
         }
@@ -988,8 +961,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Carin LOEWEN",
-                    "Christopher TILMANN"
+                    "Christopher TILMANN",
+                    "Carin LOEWEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

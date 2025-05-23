@@ -27,43 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Experimental methods for aerodynamic measurements: wind tunnel tests with 6-component sting balance, pitot probe, hot wire anemometer; flow visualization with smoke generator and laser sheet; digital data acquisition; practical considerations for experimental design. Methods for comparing theoretical predictions to experimental measurements and computational simulations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 521,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 521,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0M\u00a0A\u00a0521, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 521,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 521,
+                    "subjects": [
+                        "EMA"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -91,10 +70,23 @@
     },
     "similar_courses": [
         {
+            "course_number": 521,
+            "subjects": [
+                "EMA"
+            ]
+        },
+        {
+            "course_number": 570,
+            "subjects": [
+                "ME",
+                "EMA"
+            ]
+        },
+        {
             "course_number": 540,
             "subjects": [
-                "EMA",
-                "ME"
+                "ME",
+                "EMA"
             ]
         },
         {
@@ -104,22 +96,9 @@
             ]
         },
         {
-            "course_number": 570,
-            "subjects": [
-                "EMA",
-                "ME"
-            ]
-        },
-        {
             "course_number": 573,
             "subjects": [
                 "ME"
-            ]
-        },
-        {
-            "course_number": 521,
-            "subjects": [
-                "EMA"
             ]
         }
     ],

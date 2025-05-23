@@ -27,69 +27,16 @@
         "unsatisfactory": 0
     },
     "description": "Covers the most current knowledge of the principles of organogenesis. Focuses on the molecular and cellular pathways leading to normal tissue and organ development and regeneration, including in depth discussions of specification and differentiation processes.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        "junior standing"
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ") and junior standing, or graduate/professional standing"
-        ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151orBIOCORE\u00a0383) and junior standing, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 151,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -98,12 +45,18 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 151,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 383,
+                                    "subjects": [
+                                        "BIOCORE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -155,21 +108,8 @@
     },
     "similar_courses": [
         {
-            "course_number": 675,
-            "subjects": [
-                "CRB"
-            ]
-        },
-        {
             "course_number": 625,
             "subjects": [
-                "CRB"
-            ]
-        },
-        {
-            "course_number": 710,
-            "subjects": [
-                "GENETICS",
                 "CRB"
             ]
         },
@@ -177,6 +117,19 @@
             "course_number": 640,
             "subjects": [
                 "CRB"
+            ]
+        },
+        {
+            "course_number": 675,
+            "subjects": [
+                "CRB"
+            ]
+        },
+        {
+            "course_number": 710,
+            "subjects": [
+                "CRB",
+                "GENETICS"
             ]
         },
         {
@@ -275,13 +228,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOUNGSOOK LEE",
-                    "Chad VEZINA",
+                    "ANNE GRIEP",
                     "Joan JORGENSEN",
-                    "Grace Boekhoff-Falk",
+                    "YOUNGSOOK LEE",
                     "BARAK BLUM",
-                    "DANIEL GREENSPAN",
-                    "ANNE GRIEP"
+                    "Chad VEZINA",
+                    "Grace Boekhoff-Falk",
+                    "DANIEL GREENSPAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -306,12 +259,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOUNGSOOK LEE",
+                    "ANNE GRIEP",
                     "Joan JORGENSEN",
-                    "Grace Boekhoff-Falk",
+                    "YOUNGSOOK LEE",
                     "BARAK BLUM",
-                    "DANIEL GREENSPAN",
-                    "ANNE GRIEP"
+                    "Grace Boekhoff-Falk",
+                    "DANIEL GREENSPAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -336,13 +289,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOUNGSOOK LEE",
-                    "Joan JORGENSEN",
-                    "Grace Boekhoff-Falk",
-                    "BARAK BLUM",
                     "ANNE GRIEP",
-                    "DANIEL GREENSPAN",
-                    "Kimberly Stietz"
+                    "Kimberly Stietz",
+                    "Joan JORGENSEN",
+                    "YOUNGSOOK LEE",
+                    "BARAK BLUM",
+                    "Grace Boekhoff-Falk",
+                    "DANIEL GREENSPAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

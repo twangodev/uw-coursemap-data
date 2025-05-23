@@ -29,178 +29,48 @@
         "unsatisfactory": 0
     },
     "description": "Nature, sources, distribution, and fate of contaminants in air, water, soil, and food and potential for harmful exposure.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 116,
+            "subjects": [
+                "CHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 116,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 116,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(CHEM\u00a0104,109, or116) and (MATH\u00a0211,217, or221) and (PHYSICS\u00a0104,202,208, or248)"
-    },
+        {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 104,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 104,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 109,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 116,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -208,16 +78,22 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 211,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -225,20 +101,28 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 104,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 202,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 208,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 248,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -247,48 +131,6 @@
             "operator": "AND"
         },
         "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
             {
                 "course_number": 104,
                 "subjects": [
@@ -302,9 +144,51 @@
                 ]
             },
             {
+                "course_number": 104,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
                 "course_number": 109,
                 "subjects": [
                     "CHEM"
+                ]
+            },
+            {
+                "course_number": 202,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 217,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 211,
+                "subjects": [
+                    "MATH"
                 ]
             }
         ],
@@ -385,6 +269,27 @@
     },
     "similar_courses": [
         {
+            "course_number": 704,
+            "subjects": [
+                "CIVENGR"
+            ]
+        },
+        {
+            "course_number": 621,
+            "subjects": [
+                "SOILSCI"
+            ]
+        },
+        {
+            "course_number": 606,
+            "subjects": [
+                "F&WECOL",
+                "PLPATH",
+                "SOILSCI",
+                "ENTOM"
+            ]
+        },
+        {
             "course_number": 324,
             "subjects": [
                 "ENVIRST",
@@ -392,28 +297,7 @@
             ]
         },
         {
-            "course_number": 704,
-            "subjects": [
-                "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 606,
-            "subjects": [
-                "ENTOM",
-                "F&WECOL",
-                "PLPATH",
-                "SOILSCI"
-            ]
-        },
-        {
             "course_number": 430,
-            "subjects": [
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 621,
             "subjects": [
                 "SOILSCI"
             ]

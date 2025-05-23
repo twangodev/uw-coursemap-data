@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 539,
         "subjects": [
-            "COMPSCI",
             "ME",
-            "ECE"
+            "ECE",
+            "COMPSCI"
         ]
     },
     "course_title": "INTRODUCTION TO ARTIFICIAL NEURAL NETWORKS",
@@ -29,121 +29,51 @@
         "unsatisfactory": 1
     },
     "description": "Theory and applications of artificial neural networks: multi-layer perceptron, self-organization mapdeep neural network convolutional neural network, recurrent network, support vector machines genetic algorithm, and evolution computing. Applications to control, pattern recognition, prediction, and object detection and tracking.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "301",
-                "302",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 301, 302, ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "COMP\u00a0SCI\u00a0200,220,300, 301, 302,310, placement intoCOMP\u00a0SCI\u00a0300, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 200,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 220,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 300,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 "301",
                 "302",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 310,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "COMPSCI"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -160,13 +90,13 @@
                 ]
             },
             {
-                "course_number": 200,
+                "course_number": 220,
                 "subjects": [
                     "COMPSCI"
                 ]
             },
             {
-                "course_number": 220,
+                "course_number": 200,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -219,21 +149,23 @@
     },
     "similar_courses": [
         {
-            "course_number": 521,
+            "course_number": 762,
             "subjects": [
-                "ISYE"
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 532,
+            "subjects": [
+                "ME",
+                "ECE",
+                "COMPSCI"
             ]
         },
         {
             "course_number": 760,
             "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 762,
-            "subjects": [
+                "ECE",
                 "COMPSCI"
             ]
         },
@@ -244,11 +176,9 @@
             ]
         },
         {
-            "course_number": 532,
+            "course_number": 521,
             "subjects": [
-                "COMPSCI",
-                "ME",
-                "ECE"
+                "ISYE"
             ]
         }
     ],
@@ -541,8 +471,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Pedro MARAVILHA MORGADO",
-                    "YU HU"
+                    "YU HU",
+                    "Pedro MARAVILHA MORGADO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -634,7 +564,7 @@
                 "ethnics_studies": false,
                 "general_education": false,
                 "instructors": {
-                    "Pedro MARAVILHA MORGADO": "PMORGADO@WISC.EDU"
+                    "Pedro MARAVILHA MORGADO": "PMARAVIL@ENG.UCSD.EDU"
                 },
                 "last_taught_term": "2025 Summr",
                 "school": {

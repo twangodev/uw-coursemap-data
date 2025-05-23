@@ -27,94 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to energy, focusing on energy sources and their impacts on humans and the environment, particularly through climate change. Develop basic physics skills to form opinions on energy-related issues affecting the world as well as your own use of energy. Apply the physical principles of mechanics, heat, electricity, and atomic nuclei to various energy sources (fossil fuels, renewables, and nuclear) and their impacts.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Satisfied Quantitative Reasoning",
-                        "QR",
-                        "A requirement."
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not open to students with credit for",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 103,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Satisfied Quantitative Reasoning (QR) A requirement. Not open to students with credit for ",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "Satisfied Quantitative Reasoning (QR) A requirement. Not open to students with credit forPHYSICS\u00a0103,201,207, or247."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 103,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -132,25 +52,33 @@
                             "children": [
                                 "Not open to students with credit for",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 103,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 207,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 247,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 "."
                             ],
@@ -170,6 +98,12 @@
                 ]
             },
             {
+                "course_number": 103,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
                 "course_number": 201,
                 "subjects": [
                     "PHYSICS"
@@ -177,12 +111,6 @@
             },
             {
                 "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 103,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -223,16 +151,16 @@
     },
     "similar_courses": [
         {
-            "course_number": 520,
-            "subjects": [
-                "GLE",
-                "CIVENGR"
-            ]
-        },
-        {
             "course_number": 472,
             "subjects": [
                 "ME"
+            ]
+        },
+        {
+            "course_number": 520,
+            "subjects": [
+                "CIVENGR",
+                "GLE"
             ]
         },
         {
@@ -252,8 +180,8 @@
         {
             "course_number": 367,
             "subjects": [
-                "BSE",
-                "ENVIRST"
+                "ENVIRST",
+                "BSE"
             ]
         }
     ],

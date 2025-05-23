@@ -9,65 +9,32 @@
     "course_title": "INTRODUCTION TO HEBREW LITERATURE",
     "cumulative_grade_data": null,
     "description": "Selected works from different periods and genres. Taught in Hebrew.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "HEBR-MOD"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "HEBR-MOD"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "JEWISH",
-                    "HEBR-MOD"
-                ]
-            }
-        ],
-        "prerequisites_text": "HEBR-MOD\u00a0202or placement intoHEBR-MOD/\u200bJEWISH\u00a0\u00a0301"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "HEBR-MOD"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "HEBR-MOD"
+                    ]
                 },
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 301,
+                            "subjects": [
+                                "JEWISH",
+                                "HEBR-MOD"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -117,12 +84,6 @@
             ]
         },
         {
-            "course_number": 201,
-            "subjects": [
-                "HEBR-MOD"
-            ]
-        },
-        {
             "course_number": 202,
             "subjects": [
                 "HEBR-MOD"
@@ -132,6 +93,12 @@
             "course_number": 401,
             "subjects": [
                 "JEWISH",
+                "HEBR-MOD"
+            ]
+        },
+        {
+            "course_number": 201,
+            "subjects": [
                 "HEBR-MOD"
             ]
         }

@@ -27,65 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Development and analysis of accounting data for managerial planning, control, decision-making, and costing, with a focus on the integration of financial and non-financial information needs for various managerial functions.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Graduate/professional standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in graduate Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 710,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing and (",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 710,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            },
-            "), or declared in graduate Business Exchange program"
-        ],
-        "prerequisites_text": "Graduate/professional standing and (ACCT\u00a0I\u00a0S\u00a0310or710), or declared in graduate Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 710,
+            "subjects": [
+                "ACCTIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -95,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 310,
+                                    "subjects": [
+                                        "ACCTIS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 710,
+                                    "subjects": [
+                                        "ACCTIS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -114,13 +67,13 @@
         },
         "course_references": [
             {
-                "course_number": 710,
+                "course_number": 310,
                 "subjects": [
                     "ACCTIS"
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 710,
                 "subjects": [
                     "ACCTIS"
                 ]
@@ -147,12 +100,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 700,
-            "subjects": [
-                "ACCTIS"
-            ]
-        },
-        {
             "course_number": 710,
             "subjects": [
                 "ACCTIS"
@@ -165,13 +112,19 @@
             ]
         },
         {
-            "course_number": 211,
+            "course_number": 700,
             "subjects": [
                 "ACCTIS"
             ]
         },
         {
             "course_number": 100,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 211,
             "subjects": [
                 "ACCTIS"
             ]

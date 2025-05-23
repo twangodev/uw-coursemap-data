@@ -27,84 +27,46 @@
         "unsatisfactory": 0
     },
     "description": "Intensive study of dramatic production and the part played by Ibsen as the founder of modern drama.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "SCANDST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 212,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "SCAND\u00a0ST\u00a0202,212,222or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "SCANDST"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "SCANDST"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 212,
+                    "subjects": [
+                        "SCANDST"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "SCANDST"
+                    ]
                 },
                 "graduate/professional standing"
             ],
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 212,
+                "subjects": [
+                    "SCANDST"
+                ]
+            },
             {
                 "course_number": 222,
                 "subjects": [
@@ -113,12 +75,6 @@
             },
             {
                 "course_number": 202,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            {
-                "course_number": 212,
                 "subjects": [
                     "SCANDST"
                 ]
@@ -151,20 +107,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 335,
-            "subjects": [
-                "THEATRE",
-                "LITTRANS"
-            ]
-        },
-        {
-            "course_number": 423,
-            "subjects": [
-                "SCANDST"
-            ]
-        },
-        {
-            "course_number": 251,
+            "course_number": 374,
             "subjects": [
                 "SCANDST"
             ]
@@ -176,7 +119,20 @@
             ]
         },
         {
-            "course_number": 374,
+            "course_number": 251,
+            "subjects": [
+                "SCANDST"
+            ]
+        },
+        {
+            "course_number": 335,
+            "subjects": [
+                "LITTRANS",
+                "THEATRE"
+            ]
+        },
+        {
+            "course_number": 423,
             "subjects": [
                 "SCANDST"
             ]

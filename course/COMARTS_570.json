@@ -27,112 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Study of major theories of rhetoric from their origins in ancient Greece to Bacon, including theories of Plato, Aristotle, Cicero, Quintilian, Longinus, St. Augustine, and others.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Two from:",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "472",
-                        "562",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 360,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            {
-                "course_number": 372,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(Two from: ",
-            {
-                "course_number": 262,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 360,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 370,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 372,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 470,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            ", 472, 562, or ",
-            {
-                "course_number": 374,
-                "subjects": [
-                    "COMARTS",
-                    "RELIGST"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(Two from:COM\u00a0ARTS\u00a0262,360,370,372,470, 472, 562, orRELIG\u00a0ST/\u200bCOM\u00a0ARTS\u00a0\u00a0374) or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 360,
+            "subjects": [
+                "COMARTS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -142,33 +44,46 @@
                             "children": [
                                 "Two from:",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 262,
+                                    "subjects": [
+                                        "COMARTS"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 360,
+                            "subjects": [
+                                "COMARTS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 370,
+                            "subjects": [
+                                "COMARTS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 372,
+                            "subjects": [
+                                "COMARTS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 470,
+                            "subjects": [
+                                "COMARTS"
+                            ]
                         },
                         "472",
                         "562",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 374,
+                            "subjects": [
+                                "RELIGST",
+                                "COMARTS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -178,12 +93,6 @@
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 370,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
             {
                 "course_number": 470,
                 "subjects": [
@@ -197,7 +106,13 @@
                 ]
             },
             {
-                "course_number": 262,
+                "course_number": 372,
+                "subjects": [
+                    "COMARTS"
+                ]
+            },
+            {
+                "course_number": 370,
                 "subjects": [
                     "COMARTS"
                 ]
@@ -205,12 +120,12 @@
             {
                 "course_number": 374,
                 "subjects": [
-                    "COMARTS",
-                    "RELIGST"
+                    "RELIGST",
+                    "COMARTS"
                 ]
             },
             {
-                "course_number": 372,
+                "course_number": 262,
                 "subjects": [
                     "COMARTS"
                 ]
@@ -266,20 +181,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 704,
+            "course_number": 969,
             "subjects": [
-                "ENGL",
                 "COMARTS"
             ]
         },
         {
             "course_number": 360,
-            "subjects": [
-                "COMARTS"
-            ]
-        },
-        {
-            "course_number": 969,
             "subjects": [
                 "COMARTS"
             ]
@@ -294,6 +202,13 @@
             "course_number": 976,
             "subjects": [
                 "COMARTS"
+            ]
+        },
+        {
+            "course_number": 704,
+            "subjects": [
+                "COMARTS",
+                "ENGL"
             ]
         }
     ],

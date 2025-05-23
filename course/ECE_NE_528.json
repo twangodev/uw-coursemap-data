@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 528,
         "subjects": [
-            "NE",
-            "ECE"
+            "ECE",
+            "NE"
         ]
     },
     "course_title": "PLASMA PROCESSING AND TECHNOLOGY",
@@ -28,64 +28,28 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to basic understanding and techniques. Plasma processing of materials for semiconductors, polymers, plasma spray coatings, ion implantation, etching, arcs, extractive metallurgy and welding. Plasma and materials diagnostics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "PHYSICS\u00a0322orE\u00a0C\u00a0E\u00a0320, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 322,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 322,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 320,
+                    "subjects": [
+                        "ECE"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -126,11 +90,11 @@
     },
     "similar_courses": [
         {
-            "course_number": 525,
+            "course_number": 922,
             "subjects": [
-                "PHYSICS",
+                "ECE",
                 "NE",
-                "ECE"
+                "PHYSICS"
             ]
         },
         {
@@ -140,23 +104,23 @@
             ]
         },
         {
+            "course_number": 310,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
             "course_number": 526,
             "subjects": [
                 "NE"
             ]
         },
         {
-            "course_number": 922,
+            "course_number": 525,
             "subjects": [
-                "PHYSICS",
+                "ECE",
                 "NE",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 310,
-            "subjects": [
-                "ME"
+                "PHYSICS"
             ]
         }
     ],

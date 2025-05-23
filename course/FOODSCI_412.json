@@ -27,87 +27,45 @@
         "unsatisfactory": 1
     },
     "description": "Application of quantitative techniques to the determination of composition and quality of food products.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "STAT"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 410,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            },
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 410,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            }
-        ],
-        "prerequisites_text": "(STAT\u00a0301or371) andFOOD\u00a0SCI\u00a0410"
-    },
+        {
+            "course_number": 410,
+            "subjects": [
+                "FOODSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 301,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 371,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "OR"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 410,
+                    "subjects": [
+                        "FOODSCI"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -159,13 +117,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 301,
+            "course_number": 514,
             "subjects": [
                 "FOODSCI"
             ]
         },
         {
-            "course_number": 410,
+            "course_number": 375,
             "subjects": [
                 "FOODSCI"
             ]
@@ -177,13 +135,13 @@
             ]
         },
         {
-            "course_number": 514,
+            "course_number": 301,
             "subjects": [
                 "FOODSCI"
             ]
         },
         {
-            "course_number": 375,
+            "course_number": 410,
             "subjects": [
                 "FOODSCI"
             ]

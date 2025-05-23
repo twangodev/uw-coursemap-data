@@ -27,93 +27,40 @@
         "unsatisfactory": 0
     },
     "description": "Provides a practical and fundamental introduction to sequence-based analysis focused on microbial systems. Emphasis on gaining a basic understanding of the principles of both classical and newer algorithms useful for bioinformatic analysis. Topics include: BLAST; RNA-seq analysis; transcriptional binding prediction; genome sequence assembly, analysis and annotation; and comparative genomics. Note that this course requires that each student have access to a laptop that runs a linux/unix Operating System such as a Mac or a ChromeBook. PC Laptops running a VM are also acceptable. No prior knowledge of computational biology is required.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "MICROBIO\u00a0303,BIOCHEM\u00a0501,GENETICS\u00a0466, or467or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 303,
+            "subjects": [
+                "MICROBIO"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 303,
+                    "subjects": [
+                        "MICROBIO"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 501,
+                    "subjects": [
+                        "BIOCHEM"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 466,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 467,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -133,15 +80,15 @@
                 ]
             },
             {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
                 "course_number": 467,
                 "subjects": [
                     "GENETICS"
+                ]
+            },
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
                 ]
             }
         ],
@@ -179,7 +126,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 357,
+            "course_number": 730,
+            "subjects": [
+                "ABT"
+            ]
+        },
+        {
+            "course_number": 470,
             "subjects": [
                 "MICROBIO"
             ]
@@ -191,13 +144,7 @@
             ]
         },
         {
-            "course_number": 730,
-            "subjects": [
-                "ABT"
-            ]
-        },
-        {
-            "course_number": 470,
+            "course_number": 357,
             "subjects": [
                 "MICROBIO"
             ]

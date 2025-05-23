@@ -27,80 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to basic probability and statistical tools and methods from an industrial application perspective. Random variables and probability distributions; descriptive statistics; point estimates. Perform hypothesis testing, construct confidence intervals, and understand design of experiments in the context of motivating case studies. Regression and correlation analysis. Focus on applying statistical methods and tools to solve engineering problems. Use of Microsoft Excel to interpret and analyze data.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(MATH\u00a0211,217, or221) or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 211,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 211,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -157,15 +113,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 416,
+            "course_number": 412,
             "subjects": [
-                "EPD"
-            ]
-        },
-        {
-            "course_number": 324,
-            "subjects": [
-                "STAT"
+                "ISYE"
             ]
         },
         {
@@ -176,15 +126,21 @@
             ]
         },
         {
+            "course_number": 324,
+            "subjects": [
+                "STAT"
+            ]
+        },
+        {
             "course_number": 575,
             "subjects": [
                 "ISYE"
             ]
         },
         {
-            "course_number": 412,
+            "course_number": 416,
             "subjects": [
-                "ISYE"
+                "EPD"
             ]
         }
     ],

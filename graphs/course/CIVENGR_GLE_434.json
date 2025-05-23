@@ -1,25 +1,18 @@
 [
     {
         "data": {
-            "description": "Basic principles of soil mechanics and fundamentals of application in engineering practice; soil composition and texture; classification; permeability and seepage; consolidation; settlement; shear strength; lateral earth pressures and retaining structures, shallow and deep foundations, slope stability; subsurface exploration; laboratory characterization of physical and engineering properties of soils.",
-            "id": "CIVENGR/GLE 330",
-            "title": "SOIL MECHANICS"
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
         }
     },
     {
         "data": {
-            "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
-            "id": "PHYSICS 201",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
-            "id": "PHYSICS 207",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
         }
     },
     {
@@ -27,6 +20,14 @@
             "description": "Classification of rock masses, stress and strain in rock, linear and non-linear behavior of rock, failure mechanisms, state of stress in rock masses, lab testing, geological and engineering applications.",
             "id": "CIVENGR/GEOSCI/GLE/MS&E 474",
             "title": "ROCK MECHANICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
         }
     },
     {
@@ -63,18 +64,10 @@
     },
     {
         "data": {
-            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns. For civil engineers.",
-            "id": "EMA 303",
-            "parent": "EMA",
-            "title": "MECHANICS OF MATERIALS"
-        }
-    },
-    {
-        "data": {
-            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns.",
-            "id": "ME 306",
-            "parent": "ME",
-            "title": "MECHANICS OF MATERIALS"
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -112,25 +105,7 @@
     },
     {
         "data": {
-            "id": "ME",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "PHYSICS",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "source": "CIVENGR/GEOSCI/GLE/MS&E 474",
-            "target": "CIVENGR/GLE 434"
-        }
-    },
-    {
-        "data": {
-            "source": "CIVENGR/GLE 330",
             "target": "CIVENGR/GLE 434"
         }
     },
@@ -142,20 +117,26 @@
     },
     {
         "data": {
-            "source": "EMA 201",
-            "target": "EMA 303"
+            "source": "MATH 112",
+            "target": "MATH 113"
         }
     },
     {
         "data": {
-            "source": "EMA 201",
-            "target": "ME 306"
+            "source": "MATH 112",
+            "target": "MATH 221"
         }
     },
     {
         "data": {
-            "source": "EMA 303",
-            "target": "CIVENGR/GLE 330"
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -173,7 +154,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -196,38 +177,8 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "EMA 303"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "ME 306"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 306",
-            "target": "CIVENGR/GLE 330"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
-            "target": "CIVENGR/GEOSCI/GLE/MS&E 474"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
-            "target": "PHYSICS 207"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 207",
-            "target": "PHYSICS 201"
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     }
 ]

@@ -28,66 +28,14 @@
         "unsatisfactory": 0
     },
     "description": "Apply the design process for orthopaedic implants (total joint replacements). Topics include: library skills; joint anatomy; tissue properties; surgical approach; joint loading; implants materials; preclinical testing and analysis.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Senior standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Senior standing and (",
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            "), or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "Senior standing and (M\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303), or graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 306,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -97,12 +45,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 306,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 303,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -117,15 +69,15 @@
         },
         "course_references": [
             {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
                 "course_number": 306,
                 "subjects": [
                     "ME"
+                ]
+            },
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
                 ]
             }
         ],
@@ -150,16 +102,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 564,
+            "course_number": 415,
             "subjects": [
-                "ISYE",
+                "ME",
                 "BME"
             ]
         },
         {
-            "course_number": 415,
+            "course_number": 315,
             "subjects": [
-                "ME",
                 "BME"
             ]
         },
@@ -178,8 +129,9 @@
             ]
         },
         {
-            "course_number": 315,
+            "course_number": 564,
             "subjects": [
+                "ISYE",
                 "BME"
             ]
         }
@@ -299,8 +251,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Josh ROTH",
-                    "LESLEY ARANT"
+                    "LESLEY ARANT",
+                    "Josh ROTH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

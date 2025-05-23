@@ -27,33 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Provides the opportunity for the student teacher to put theory into practice under the guidance of a licensed teacher and a university supervisor, allowing the gradual induction into the role of a professional teacher. Feedback and assessment are given in terms of growth in the understandings and abilities needed to assume the responsibilities of a beginning teacher. Emphasis is placed on helping the student teacher become a reflective professional. Cooperation among the classroom teacher, university supervisor, and administrators is encouraged.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [],
-            "operator": null
-        },
-        "course_references": [
-            {
-                "course_number": 547,
-                "subjects": [
-                    "KINES"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 547,
-                "subjects": [
-                    "KINES"
-                ]
-            }
-        ],
-        "prerequisites_text": "KINES\u00a0547"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 547,
+            "subjects": [
+                "KINES"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
-            "children": [],
-            "operator": null
+            "course_number": 547,
+            "subjects": [
+                "KINES"
+            ]
         },
         "course_references": [
             {
@@ -81,10 +68,9 @@
             ]
         },
         {
-            "course_number": 478,
+            "course_number": 566,
             "subjects": [
-                "KINES",
-                "CURRIC"
+                "KINES"
             ]
         },
         {
@@ -94,16 +80,17 @@
             ]
         },
         {
-            "course_number": 566,
+            "course_number": 478,
             "subjects": [
+                "CURRIC",
                 "KINES"
             ]
         },
         {
             "course_number": 479,
             "subjects": [
-                "KINES",
-                "CURRIC"
+                "CURRIC",
+                "KINES"
             ]
         }
     ],

@@ -27,92 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Basic dynamic concepts: equations of motion, basic approximations, Coriolis force, wave motions, normal modes, gravity waves, frictional turbulence and convective processes, geostrophic adjustment, scaling argument, effects of rotation on wave motions. Vorticity and potential vorticity.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "PHYSICS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "(PHYSICS\u00a0202,208, or248) andMATH\u00a0234, or graduate/professional standing"
-    },
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -121,23 +49,31 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -160,13 +96,13 @@
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 208,
+                "course_number": 248,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -213,13 +149,13 @@
             ]
         },
         {
-            "course_number": 311,
+            "course_number": 310,
             "subjects": [
                 "ATMOCN"
             ]
         },
         {
-            "course_number": 310,
+            "course_number": 460,
             "subjects": [
                 "ATMOCN"
             ]
@@ -231,7 +167,7 @@
             ]
         },
         {
-            "course_number": 460,
+            "course_number": 311,
             "subjects": [
                 "ATMOCN"
             ]

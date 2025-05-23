@@ -27,51 +27,24 @@
         "unsatisfactory": 0
     },
     "description": "A course for the exploration of subject areas possibly to be introduced into the business curriculum.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "sophomore standing"
-                    ],
-                    "operator": "AND"
-                },
-                "declared in the Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            " and sophomore standing) or declared in the Business Exchange program"
-        ],
-        "prerequisites_text": "(MARKETNG\u00a0300and sophomore standing) or declared in the Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "MARKETNG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "MARKETNG"
+                            ]
                         },
                         "sophomore standing"
                     ],
@@ -103,15 +76,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 765,
+            "course_number": 365,
             "subjects": [
-                "MARKETNG"
+                "OTM"
             ]
         },
         {
-            "course_number": 365,
+            "course_number": 765,
             "subjects": [
-                "FINANCE"
+                "MARKETNG"
             ]
         },
         {
@@ -123,13 +96,13 @@
         {
             "course_number": 365,
             "subjects": [
-                "MHR"
+                "FINANCE"
             ]
         },
         {
             "course_number": 365,
             "subjects": [
-                "OTM"
+                "MHR"
             ]
         }
     ],
@@ -147,9 +120,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "Verda BLYTHE",
                     "THOMAS OGUINN",
-                    "JOHN M. MC KELLER",
-                    "Verda BLYTHE"
+                    "JOHN M. MC KELLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -224,8 +197,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ARIC PHYLLIP RINDFLEISCH",
-                    "Peter LUKSZYS"
+                    "Peter LUKSZYS",
+                    "ARIC PHYLLIP RINDFLEISCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -275,8 +248,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "THOMAS OGUINN",
-                    "Peter LUKSZYS"
+                    "Peter LUKSZYS",
+                    "THOMAS OGUINN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -452,8 +425,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KATHRYN KRUEGER",
-                    "TAI LIM"
+                    "TAI LIM",
+                    "KATHRYN KRUEGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -529,10 +502,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KATHRYN KRUEGER",
-                    "Neeraj ARORA",
                     "TAI LIM",
-                    "Verda BLYTHE"
+                    "Verda BLYTHE",
+                    "KATHRYN KRUEGER",
+                    "Neeraj ARORA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -608,9 +581,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DOAK GEIGER",
                     "MICHAEL JUDGE",
-                    "Verda BLYTHE"
+                    "Verda BLYTHE",
+                    "DOAK GEIGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -661,9 +634,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "DOAK GEIGER",
                     "MICHAEL JUDGE",
-                    "Verda BLYTHE"
+                    "Verda BLYTHE",
+                    "DOAK GEIGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -688,8 +661,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "WONSUK JUNG",
                     "MOSES ALTSECH",
+                    "WONSUK JUNG",
                     "THOMAS OGUINN"
                 ],
                 "no_credit": 0,
@@ -716,8 +689,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "MICHAEL JUDGE",
-                    "TIMOTHY BUHL",
-                    "Verda BLYTHE"
+                    "Verda BLYTHE",
+                    "TIMOTHY BUHL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -794,10 +767,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Ishita CHAKRABORTY",
-                    "JUNGEUN LIM",
+                    "Verda BLYTHE",
                     "THOMAS GEORGE",
-                    "Verda BLYTHE"
+                    "Ishita CHAKRABORTY",
+                    "JUNGEUN LIM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -822,9 +795,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YI LIU",
                     "NITISHA TOMAR",
-                    "Verda BLYTHE"
+                    "Verda BLYTHE",
+                    "YI LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -849,9 +822,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRANDON KALINSKE",
+                    "ROBERT MASTER",
                     "KATHRYN KRUEGER",
-                    "ROBERT MASTER"
+                    "BRANDON KALINSKE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -876,10 +849,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
                     "NITISHA TOMAR",
-                    "Verda BLYTHE",
                     "Giustina Parisi",
+                    "Kristin BRANCH",
+                    "Verda BLYTHE",
                     "YI LIU"
                 ],
                 "no_credit": 0,
@@ -905,9 +878,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristin BRANCH",
+                    "ROBERT MASTER",
                     "ROBERT OSEN",
-                    "ROBERT MASTER"
+                    "Kristin BRANCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

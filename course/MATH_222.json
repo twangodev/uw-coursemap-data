@@ -27,104 +27,38 @@
         "unsatisfactory": 44
     },
     "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "does not fulfill the requisite."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ". ",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 213,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " does not fulfill the requisite."
-        ],
-        "prerequisites_text": "MATH\u00a0217or221.MATH\u00a0211or213does not fulfill the requisite."
-    },
+        {
+            "course_number": 213,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "."
                             ],
@@ -136,14 +70,18 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 211,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 213,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "does not fulfill the requisite."
                             ],
@@ -163,6 +101,12 @@
                 ]
             },
             {
+                "course_number": 213,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
                 "course_number": 221,
                 "subjects": [
                     "MATH"
@@ -170,12 +114,6 @@
             },
             {
                 "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 213,
                 "subjects": [
                     "MATH"
                 ]
@@ -215,7 +153,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 228,
+            "course_number": 213,
             "subjects": [
                 "MATH"
             ]
@@ -227,19 +165,19 @@
             ]
         },
         {
-            "course_number": 221,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 213,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
             "course_number": 621,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 228,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 221,
             "subjects": [
                 "MATH"
             ]
@@ -259,9 +197,9 @@
                 "f": 21,
                 "incomplete": 0,
                 "instructors": [
-                    "SIGURD ANGENENT",
-                    "KATHRIN BRINGMANN",
                     "DONALD PASSMAN",
+                    "KATHRIN BRINGMANN",
+                    "SIGURD ANGENENT",
                     "RONALD W. DICKEY"
                 ],
                 "no_credit": 0,
@@ -287,9 +225,9 @@
                 "f": 52,
                 "incomplete": 0,
                 "instructors": [
+                    "ROBERT WILSON",
                     "JOEL W. ROBBIN",
                     "I ISAACS",
-                    "ROBERT WILSON",
                     "SHIRIN MALEKPOUR"
                 ],
                 "no_credit": 0,
@@ -315,9 +253,9 @@
                 "f": 40,
                 "incomplete": 0,
                 "instructors": [
-                    "BART KASTERMANS",
                     "DIETRICH UHLENBROCK",
-                    "RONALD W. DICKEY"
+                    "RONALD W. DICKEY",
+                    "BART KASTERMANS"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -342,10 +280,10 @@
                 "f": 38,
                 "incomplete": 0,
                 "instructors": [
-                    "SEAN PAUL",
-                    "ROBERT WILSON",
+                    "ALEXANDRU IONESCU",
                     "SIGURD ANGENENT",
-                    "ALEXANDRU IONESCU"
+                    "ROBERT WILSON",
+                    "SEAN PAUL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -370,9 +308,9 @@
                 "f": 46,
                 "incomplete": 0,
                 "instructors": [
+                    "JAMES A ROSSMANITH",
                     "LEV BORISOV",
                     "ALEXANDER NAGEL",
-                    "JAMES A ROSSMANITH",
                     "DONALD PASSMAN"
                 ],
                 "no_credit": 0,
@@ -398,10 +336,10 @@
                 "f": 45,
                 "incomplete": 0,
                 "instructors": [
-                    "SIGURD ANGENENT",
+                    "CONCETTA M. GOMEZ",
                     "GLORIA MARI-BEFFA",
-                    "TONGHAI YANG",
-                    "CONCETTA M. GOMEZ"
+                    "SIGURD ANGENENT",
+                    "TONGHAI YANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -427,8 +365,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "ADRIAN TUDORASCU",
-                    "I ISAACS",
                     "MIKHAIL FELDMAN",
+                    "I ISAACS",
                     "Andreas SEEGER"
                 ],
                 "no_credit": 0,
@@ -481,10 +419,10 @@
                 "f": 37,
                 "incomplete": 2,
                 "instructors": [
-                    "ARNOLD MILLER",
                     "JOSEPH MILLER",
-                    "David Anderson",
-                    "ALEXANDER FISH"
+                    "ARNOLD MILLER",
+                    "ALEXANDER FISH",
+                    "David Anderson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -509,8 +447,8 @@
                 "f": 31,
                 "incomplete": 0,
                 "instructors": [
-                    "ANN SCHEELS",
                     "DONALD PASSMAN",
+                    "ANN SCHEELS",
                     "PAUL MILEWSKI"
                 ],
                 "no_credit": 0,
@@ -536,9 +474,9 @@
                 "f": 34,
                 "incomplete": 0,
                 "instructors": [
-                    "SAMUEL STECHMANN",
+                    "VLADIMIR EYDERMAN",
                     "JOSEPH MILLER",
-                    "VLADIMIR EYDERMAN"
+                    "SAMUEL STECHMANN"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -563,9 +501,9 @@
                 "f": 36,
                 "incomplete": 17,
                 "instructors": [
+                    "YONG-GEUN OH",
                     "SAMUEL STECHMANN",
-                    "PATRICK LAVICTOIRE",
-                    "YONG-GEUN OH"
+                    "PATRICK LAVICTOIRE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -590,9 +528,9 @@
                 "f": 44,
                 "incomplete": 5,
                 "instructors": [
+                    "JIRI LEBL",
                     "GABRIELE MEYER",
-                    "SIGURD ANGENENT",
-                    "JIRI LEBL"
+                    "SIGURD ANGENENT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -645,8 +583,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "MELANIE WOOD",
-                    "DAVID SONDAK",
-                    "JENNIFER BEICHMAN"
+                    "JENNIFER BEICHMAN",
+                    "DAVID SONDAK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -697,9 +635,9 @@
                 "f": 28,
                 "incomplete": 0,
                 "instructors": [
+                    "YAO YAO",
                     "JENNIFER BEICHMAN",
-                    "MARIA SOLEDAD BENGURIA DEPASSIER",
-                    "YAO YAO"
+                    "MARIA SOLEDAD BENGURIA DEPASSIER"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -750,10 +688,10 @@
                 "f": 25,
                 "incomplete": 1,
                 "instructors": [
-                    "JENNIFER BEICHMAN",
+                    "Saverio SPAGNOLIE",
                     "Xianghong GONG",
                     "SIMON MARSHALL",
-                    "Saverio SPAGNOLIE"
+                    "JENNIFER BEICHMAN"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -805,10 +743,10 @@
                 "f": 25,
                 "incomplete": 1,
                 "instructors": [
-                    "GREGORY SHINAULT",
                     "Saverio SPAGNOLIE",
+                    "BOTONG WANG",
                     "SHI JIN",
-                    "BOTONG WANG"
+                    "GREGORY SHINAULT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -859,9 +797,9 @@
                 "f": 25,
                 "incomplete": 2,
                 "instructors": [
-                    "SHARAD CHANDARANA",
                     "NOAH SCHWEBER",
-                    "Saverio SPAGNOLIE"
+                    "Saverio SPAGNOLIE",
+                    "SHARAD CHANDARANA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -886,10 +824,10 @@
                 "f": 44,
                 "incomplete": 0,
                 "instructors": [
-                    "MARIA SOLEDAD BENGURIA DEPASSIER",
-                    "MIHAELA IFRIM",
                     "ROBERT GRIZZARD",
-                    "NASER TALEBIZADEH SARDARI"
+                    "NASER TALEBIZADEH SARDARI",
+                    "MIHAELA IFRIM",
+                    "MARIA SOLEDAD BENGURIA DEPASSIER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -942,8 +880,8 @@
                 "incomplete": 4,
                 "instructors": [
                     "DANIEL ERMAN",
-                    "SIMON MARSHALL",
-                    "CHANWOO KIM"
+                    "CHANWOO KIM",
+                    "SIMON MARSHALL"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -968,10 +906,10 @@
                 "f": 5,
                 "incomplete": 1,
                 "instructors": [
-                    "SEAN PAUL",
-                    "Andrei CALDARARU",
+                    "Saverio SPAGNOLIE",
                     "MARIYA SOSKOVA",
-                    "Saverio SPAGNOLIE"
+                    "SEAN PAUL",
+                    "Andrei CALDARARU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -996,10 +934,10 @@
                 "f": 20,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT GRIZZARD",
-                    "Melissa LINDSEY",
                     "OH HOON KWON",
-                    "MARIYA SOSKOVA"
+                    "MARIYA SOSKOVA",
+                    "Melissa LINDSEY",
+                    "ROBERT GRIZZARD"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -1025,8 +963,8 @@
                 "incomplete": 9,
                 "instructors": [
                     "JOSEPH MILLER",
-                    "HAO SHEN",
-                    "BOTONG WANG"
+                    "BOTONG WANG",
+                    "HAO SHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1051,9 +989,9 @@
                 "f": 38,
                 "incomplete": 8,
                 "instructors": [
-                    "Andrei CALDARARU",
-                    "JUSTIN SUKIENNIK",
                     "MARIYA SOSKOVA",
+                    "JUSTIN SUKIENNIK",
+                    "Andrei CALDARARU",
                     "Mikhail IVANOV",
                     "Xianghong GONG"
                 ],
@@ -1081,8 +1019,8 @@
                 "incomplete": 36,
                 "instructors": [
                     "ROBERT GRIZZARD",
-                    "BRIAN LAWRENCE",
-                    "CHENXI WU"
+                    "CHENXI WU",
+                    "BRIAN LAWRENCE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1107,10 +1045,10 @@
                 "f": 75,
                 "incomplete": 8,
                 "instructors": [
+                    "Mikhail IVANOV",
+                    "BOTONG WANG",
                     "MARISSA LOVING",
                     "MARIA SOLEDAD BENGURIA DEPASSIER",
-                    "BOTONG WANG",
-                    "Mikhail IVANOV",
                     "Melissa LINDSEY"
                 ],
                 "no_credit": 0,
@@ -1137,8 +1075,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "MAURICE FABIEN",
-                    "Terry HARRIS",
                     "BRIAN LAWRENCE",
+                    "Terry HARRIS",
                     "LAURENTIU MAXIM"
                 ],
                 "no_credit": 0,
@@ -1190,8 +1128,8 @@
                 "f": 48,
                 "incomplete": 3,
                 "instructors": [
-                    "MAURICE FABIEN",
                     "JOSEPH MILLER",
+                    "MAURICE FABIEN",
                     "YUKUN YUE",
                     "Janine JANOSKI"
                 ],

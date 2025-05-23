@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Application of engineering principles to small, ungauged watershed analysis. Application of hydrologic and sedimentologic principles to upland watersheds for run-off and sediment control.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "MATH\u00a0222or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -89,13 +69,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 410,
+            "course_number": 820,
             "subjects": [
                 "CIVENGR"
             ]
         },
         {
-            "course_number": 820,
+            "course_number": 410,
             "subjects": [
                 "CIVENGR"
             ]
@@ -107,15 +87,15 @@
             ]
         },
         {
-            "course_number": 473,
-            "subjects": [
-                "BSE"
-            ]
-        },
-        {
             "course_number": 414,
             "subjects": [
                 "CIVENGR"
+            ]
+        },
+        {
+            "course_number": 473,
+            "subjects": [
+                "BSE"
             ]
         }
     ],

@@ -27,87 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "An intensive study of stage rigging, scenic locomotion, set construction and structural analysis techniques.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "concurrent enrollment in",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 270,
+            "subjects": [
+                "THEATRE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 270,
-                "subjects": [
-                    "THEATRE"
-                ]
-            },
-            {
-                "course_number": 370,
-                "subjects": [
-                    "THEATRE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 270,
-                "subjects": [
-                    "THEATRE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 370,
-                "subjects": [
-                    "THEATRE"
-                ]
-            },
-            " (or concurrent enrollment in ",
-            {
-                "course_number": 370,
-                "subjects": [
-                    "THEATRE"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "THEATRE\u00a0270andTHEATRE\u00a0370(or concurrent enrollment inTHEATRE\u00a0370) or graduate/professional standing"
-    },
+        {
+            "course_number": 370,
+            "subjects": [
+                "THEATRE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 270,
+                            "subjects": [
+                                "THEATRE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 370,
+                            "subjects": [
+                                "THEATRE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -116,8 +65,10 @@
                     "children": [
                         "concurrent enrollment in",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 370,
+                            "subjects": [
+                                "THEATRE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -167,13 +118,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 220,
+            "course_number": 770,
             "subjects": [
                 "THEATRE"
             ]
         },
         {
-            "course_number": 270,
+            "course_number": 579,
             "subjects": [
                 "THEATRE"
             ]
@@ -185,13 +136,13 @@
             ]
         },
         {
-            "course_number": 770,
+            "course_number": 220,
             "subjects": [
                 "THEATRE"
             ]
         },
         {
-            "course_number": 579,
+            "course_number": 270,
             "subjects": [
                 "THEATRE"
             ]

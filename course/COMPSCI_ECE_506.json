@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 506,
         "subjects": [
-            "COMPSCI",
-            "ECE"
+            "ECE",
+            "COMPSCI"
         ]
     },
     "course_title": "SOFTWARE ENGINEERING",
@@ -28,147 +28,20 @@
         "unsatisfactory": 2
     },
     "description": "Ideas and techniques for designing, developing, and modifying large software systems. Topics include software engineering processes; requirements and specifications; project team organization and management; software architectures; design patterns; testing and debugging; and cost and quality metrics and estimation. Students will work in large teams on a substantial programming project.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "COMP SCI 367",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "545",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "679",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 400,
+            "subjects": [
+                "COMPSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 536,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 552,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(COMP SCI 367 or ",
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 407,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 536,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 537,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 545, ",
-            {
-                "course_number": 559,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 564,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 570,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 679 or ",
-            {
-                "course_number": 552,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            ") or graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "(COMP SCI 367 or400) and (COMP\u00a0SCI\u00a0407,536,537, 545,559,564,570, 679 orE\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0552) or graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+        {
+            "course_number": 536,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -178,8 +51,10 @@
                             "children": [
                                 "COMP SCI 367",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 400,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -187,34 +62,49 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 407,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 536,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 537,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 "545",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 559,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 564,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 570,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 "679",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 552,
+                                    "subjects": [
+                                        "ECE",
+                                        "COMPSCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -229,20 +119,9 @@
         },
         "course_references": [
             {
-                "course_number": 570,
+                "course_number": 552,
                 "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 537,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 400,
-                "subjects": [
+                    "ECE",
                     "COMPSCI"
                 ]
             },
@@ -253,14 +132,7 @@
                 ]
             },
             {
-                "course_number": 552,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 559,
+                "course_number": 564,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -272,7 +144,25 @@
                 ]
             },
             {
-                "course_number": 564,
+                "course_number": 570,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 400,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 559,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 537,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -332,8 +222,8 @@
             {
                 "course_number": 552,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
+                    "ECE",
+                    "COMPSCI"
                 ]
             },
             ") or graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
@@ -342,19 +232,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 200,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
             "course_number": 542,
             "subjects": [
                 "COMPSCI"
             ]
         },
         {
-            "course_number": 701,
+            "course_number": 200,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 536,
             "subjects": [
                 "COMPSCI"
             ]
@@ -366,7 +256,7 @@
             ]
         },
         {
-            "course_number": 536,
+            "course_number": 701,
             "subjects": [
                 "COMPSCI"
             ]
@@ -636,10 +526,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PARUL GUPTA",
                     ". GEETIKA",
+                    "TRACY LEWIS-WILLIAMS",
                     "SIYANG CHEN",
-                    "TRACY LEWIS-WILLIAMS"
+                    "PARUL GUPTA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -690,10 +580,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "TRACY LEWIS-WILLIAMS",
-                    "CONNOR BAILEY",
+                    "NITZAN ORR",
                     "OBAIDULLAH ADIL AHMED",
                     "SIYANG CHEN",
-                    "NITZAN ORR"
+                    "CONNOR BAILEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -718,9 +608,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "KASSIE POVINELLI",
                     "AKSHAT SINHA",
                     "CAT NELSON",
-                    "KASSIE POVINELLI",
                     "Scott Swanson"
                 ],
                 "no_credit": 0,
@@ -746,12 +636,12 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Scott Swanson",
-                    "CAT NELSON",
                     "HIMANSHU SAGAR",
                     "ROBERT KLOCK",
                     "KASSIE POVINELLI",
-                    "ADITYA JAIN"
+                    "CAT NELSON",
+                    "ADITYA JAIN",
+                    "Scott Swanson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -776,13 +666,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Scott Swanson",
                     "SWEKSHA SINHA",
-                    "CAT NELSON",
+                    "XINCHENG XIE",
+                    "ABINAYAA KANIMOZHI CHANDRASEKAR",
                     "MARK TERVO",
                     "KASSIE POVINELLI",
-                    "ABINAYAA KANIMOZHI CHANDRASEKAR",
-                    "XINCHENG XIE"
+                    "CAT NELSON",
+                    "Scott Swanson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -807,12 +697,12 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "ABINAYAA KANIMOZHI CHANDRASEKAR",
                     "JUSTIN KIEFEL",
-                    "Scott Swanson",
                     "DANIEL SMEDEMA",
                     "MARK TERVO",
-                    "ABINAYAA KANIMOZHI CHANDRASEKAR",
-                    "GRAYSON ELIAS"
+                    "GRAYSON ELIAS",
+                    "Scott Swanson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -837,10 +727,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MYA SCHRODER",
-                    "Scott Swanson",
+                    "GRAYSON ELIAS",
                     "MICHAEL YU",
-                    "GRAYSON ELIAS"
+                    "MYA SCHRODER",
+                    "Scott Swanson"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

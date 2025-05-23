@@ -27,95 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Analysis of human action through the application of mechanical principles.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "KINES 328",
-                        "329",
-                        "KINES 337",
-                        "338",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "placement in",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 338,
+            "subjects": [
+                "ANAT&PHY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 337,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 338,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(KINES 328, 329, KINES 337, 338, ",
-            {
-                "course_number": 337,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 338,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or placement in ",
-            {
-                "course_number": 113,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(KINES 328, 329, KINES 337, 338,ANAT&PHY\u00a0337, or338) and (MATH\u00a0112or placement inMATH\u00a0113)"
-    },
+        {
+            "course_number": 113,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -126,12 +51,16 @@
                         "KINES 337",
                         "338",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 337,
+                            "subjects": [
+                                "ANAT&PHY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 338,
+                            "subjects": [
+                                "ANAT&PHY"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -139,15 +68,19 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 112,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 "placement in",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 113,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -160,9 +93,9 @@
         },
         "course_references": [
             {
-                "course_number": 338,
+                "course_number": 112,
                 "subjects": [
-                    "ANAT&PHY"
+                    "MATH"
                 ]
             },
             {
@@ -172,9 +105,9 @@
                 ]
             },
             {
-                "course_number": 112,
+                "course_number": 338,
                 "subjects": [
-                    "MATH"
+                    "ANAT&PHY"
                 ]
             },
             {
@@ -219,7 +152,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 618,
+            "course_number": 308,
             "subjects": [
                 "KINES"
             ]
@@ -232,7 +165,7 @@
             ]
         },
         {
-            "course_number": 953,
+            "course_number": 618,
             "subjects": [
                 "KINES"
             ]
@@ -244,7 +177,7 @@
             ]
         },
         {
-            "course_number": 308,
+            "course_number": 953,
             "subjects": [
                 "KINES"
             ]

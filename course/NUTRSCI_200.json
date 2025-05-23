@@ -8,50 +8,14 @@
     "course_title": "PROFESSIONAL SKILLS  IN DIETETICS",
     "cumulative_grade_data": null,
     "description": "An overview of the nutrition and dietetics professions: career options; professional development; professional references and resources; credentialing; professional issues.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in Nutritional Sciences BS",
-                {
-                    "children": [
-                        "BS-Nutrition",
-                        "Dietetics",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 631,
-                "subjects": [
-                    "NUTRSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Nutritional Sciences BS or BS-Nutrition and Dietetics and (",
-            {
-                "course_number": 631,
-                "subjects": [
-                    "NUTRSCI"
-                ]
-            },
-            " or concurrent enrollment)"
-        ],
-        "prerequisites_text": "Declared in Nutritional Sciences BS or BS-Nutrition and Dietetics and (NUTR\u00a0SCI\u00a0631or concurrent enrollment)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 631,
+            "subjects": [
+                "NUTRSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -63,8 +27,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 631,
+                                    "subjects": [
+                                        "NUTRSCI"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -98,13 +64,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 100,
-            "subjects": [
-                "NUTRSCI"
-            ]
-        },
-        {
-            "course_number": 642,
+            "course_number": 652,
             "subjects": [
                 "NUTRSCI"
             ]
@@ -122,7 +82,13 @@
             ]
         },
         {
-            "course_number": 652,
+            "course_number": 100,
+            "subjects": [
+                "NUTRSCI"
+            ]
+        },
+        {
+            "course_number": 642,
             "subjects": [
                 "NUTRSCI"
             ]

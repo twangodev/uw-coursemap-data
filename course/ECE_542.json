@@ -27,72 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to MEMS technology, devices and systems. Fundamentals of MEMS in fabrication, process integration, material mechanics of MEMS structures, sensors and actuators. Main topics in MEMS - microfluidics, optical MEMS, RF MEMS, BioMEMS, packaging, and CAD.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0C\u00a0E\u00a0335or340), graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 335,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 335,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 340,
+                            "subjects": [
+                                "ECE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -137,13 +95,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 615,
-            "subjects": [
-                "EMA",
-                "EP"
-            ]
-        },
-        {
             "course_number": 445,
             "subjects": [
                 "ME"
@@ -165,6 +116,13 @@
             "course_number": 376,
             "subjects": [
                 "ME"
+            ]
+        },
+        {
+            "course_number": 615,
+            "subjects": [
+                "EP",
+                "EMA"
             ]
         }
     ],

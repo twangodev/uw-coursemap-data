@@ -27,55 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "Emphasizes speaking and listening skills. Converse on different stylistic levels, with varying degrees of formality, according to the rules of Russian speech etiquette.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 118,
-                "subjects": [
-                    "SLAVIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 118,
-                "subjects": [
-                    "SLAVIC"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 204,
-                "subjects": [
-                    "SLAVIC"
-                ]
-            }
-        ],
-        "prerequisites_text": "SLAVIC\u00a0118or204"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 118,
+            "subjects": [
+                "SLAVIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 118,
+                    "subjects": [
+                        "SLAVIC"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 204,
+                    "subjects": [
+                        "SLAVIC"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -113,7 +86,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 316,
+            "course_number": 203,
+            "subjects": [
+                "SLAVIC"
+            ]
+        },
+        {
+            "course_number": 555,
             "subjects": [
                 "SLAVIC"
             ]
@@ -125,13 +104,7 @@
             ]
         },
         {
-            "course_number": 203,
-            "subjects": [
-                "SLAVIC"
-            ]
-        },
-        {
-            "course_number": 555,
+            "course_number": 316,
             "subjects": [
                 "SLAVIC"
             ]

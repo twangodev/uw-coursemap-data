@@ -3,8 +3,8 @@
         "course_number": 626,
         "subjects": [
             "BOTANY",
-            "HORT",
-            "SOILSCI"
+            "SOILSCI",
+            "HORT"
         ]
     },
     "course_title": "MINERAL NUTRITION OF PLANTS",
@@ -29,42 +29,22 @@
         "unsatisfactory": 0
     },
     "description": "Essential and beneficial elements, solutions and soil as nutrient sources, rhizosphere chemistry, nutritional physiology, ion uptake and translocation, functions of elements, nutrient interactions, genetics of plant nutrition.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 500,
-                "subjects": [
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 500,
-                "subjects": [
-                    "BOTANY"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "BOTANY\u00a0500or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 500,
+            "subjects": [
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 500,
+                    "subjects": [
+                        "BOTANY"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -91,19 +71,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 332,
-            "subjects": [
-                "HORT",
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 20,
-            "subjects": [
-                "FISC"
-            ]
-        },
-        {
             "course_number": 500,
             "subjects": [
                 "BOTANY"
@@ -116,11 +83,24 @@
             ]
         },
         {
+            "course_number": 20,
+            "subjects": [
+                "FISC"
+            ]
+        },
+        {
             "course_number": 326,
             "subjects": [
-                "AGRONOMY",
                 "HORT",
-                "SOILSCI"
+                "SOILSCI",
+                "AGRONOMY"
+            ]
+        },
+        {
+            "course_number": 332,
+            "subjects": [
+                "SOILSCI",
+                "HORT"
             ]
         }
     ],

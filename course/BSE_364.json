@@ -27,97 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Study of various physical, mechanical, thermal and other properties of food and biological materials. Importance of such property values on the design and operation of various food and bioprocess engineering systems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 249,
+            "subjects": [
+                "BSE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 249,
-                "subjects": [
-                    "BSE"
-                ]
-            },
-            {
-                "course_number": 250,
-                "subjects": [
-                    "CBE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 249,
-                "subjects": [
-                    "BSE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 250,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(BSE\u00a0249orCBE\u00a0250) and (M\u00a0E\u00a0361orCBE\u00a0310)"
-    },
+        {
+            "course_number": 361,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 249,
+                            "subjects": [
+                                "BSE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 250,
+                            "subjects": [
+                                "CBE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -125,12 +64,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 361,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 310,
+                            "subjects": [
+                                "CBE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -140,25 +83,25 @@
         },
         "course_references": [
             {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
                 "course_number": 249,
                 "subjects": [
                     "BSE"
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 250,
                 "subjects": [
                     "CBE"
                 ]
             },
             {
-                "course_number": 250,
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            {
+                "course_number": 310,
                 "subjects": [
                     "CBE"
                 ]
@@ -199,18 +142,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 301,
-            "subjects": [
-                "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 461,
-            "subjects": [
-                "BSE"
-            ]
-        },
-        {
             "course_number": 560,
             "subjects": [
                 "CBE",
@@ -224,9 +155,21 @@
             ]
         },
         {
+            "course_number": 301,
+            "subjects": [
+                "FOODSCI"
+            ]
+        },
+        {
             "course_number": 440,
             "subjects": [
                 "FOODSCI"
+            ]
+        },
+        {
+            "course_number": 461,
+            "subjects": [
+                "BSE"
             ]
         }
     ],

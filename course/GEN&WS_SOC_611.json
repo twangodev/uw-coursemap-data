@@ -28,80 +28,14 @@
         "unsatisfactory": 0
     },
     "description": "Examination of issues and theories in gender and science. Topics include historical and contemporary studies of technoscientific and medical constructions of sex/gender differences; feminist studies of science, technology, and medicine; proposals of new epistemologies.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Junior standing",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "GENWS 477",
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 441,
-                "subjects": [
-                    "GEN&WS"
-                ]
-            },
-            {
-                "course_number": 445,
-                "subjects": [
-                    "GEN&WS"
-                ]
-            },
-            {
-                "course_number": 475,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing and ",
-            {
-                "course_number": 475,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 441,
-                "subjects": [
-                    "GEN&WS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 445,
-                "subjects": [
-                    "GEN&WS"
-                ]
-            },
-            ", or GENWS 477 or graduate/professional standing"
-        ],
-        "prerequisites_text": "Junior standing andSOC/\u200bC&E\u00a0SOC\u00a0\u00a0475,GEN&WS\u00a0441,GEN&WS\u00a0445, or GENWS 477 or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 441,
+            "subjects": [
+                "GEN&WS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -109,19 +43,26 @@
                     "children": [
                         "Junior standing",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 475,
+                            "subjects": [
+                                "SOC",
+                                "C&ESOC"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 441,
+                    "subjects": [
+                        "GEN&WS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 445,
+                    "subjects": [
+                        "GEN&WS"
+                    ]
                 },
                 "GENWS 477",
                 "graduate/professional standing"
@@ -137,13 +78,13 @@
                 ]
             },
             {
-                "course_number": 445,
+                "course_number": 441,
                 "subjects": [
                     "GEN&WS"
                 ]
             },
             {
-                "course_number": 441,
+                "course_number": 445,
                 "subjects": [
                     "GEN&WS"
                 ]
@@ -178,7 +119,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 539,
+            "course_number": 320,
             "subjects": [
                 "GEN&WS"
             ]
@@ -190,7 +131,7 @@
             ]
         },
         {
-            "course_number": 320,
+            "course_number": 539,
             "subjects": [
                 "GEN&WS"
             ]

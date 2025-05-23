@@ -27,89 +27,47 @@
         "unsatisfactory": 0
     },
     "description": "Cultural evolution of Spanish America from pre-Hispanic days through the present. Conducted in Spanish.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "SPANISH",
+                "CHICLA"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SPANISH",
-                    "CHICLA"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SPANISH",
-                    "CHICLA"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 224,
-                "subjects": [
-                    "SPANISH"
-                ]
-            }
-        ],
-        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222orSPANISH\u00a0223) andSPANISH\u00a0224"
-    },
+        {
+            "course_number": 224,
+            "subjects": [
+                "SPANISH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "SPANISH",
+                                "CHICLA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 223,
+                            "subjects": [
+                                "SPANISH"
+                            ]
                         }
                     ],
                     "operator": "OR"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 224,
+                    "subjects": [
+                        "SPANISH"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -122,16 +80,16 @@
                 ]
             },
             {
+                "course_number": 223,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
+            {
                 "course_number": 222,
                 "subjects": [
                     "SPANISH",
                     "CHICLA"
-                ]
-            },
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
                 ]
             }
         ],
@@ -163,13 +121,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 203,
-            "subjects": [
-                "SPANISH"
-            ]
-        },
-        {
-            "course_number": 223,
+            "course_number": 468,
             "subjects": [
                 "SPANISH"
             ]
@@ -181,13 +133,19 @@
             ]
         },
         {
-            "course_number": 468,
+            "course_number": 223,
             "subjects": [
                 "SPANISH"
             ]
         },
         {
             "course_number": 322,
+            "subjects": [
+                "SPANISH"
+            ]
+        },
+        {
+            "course_number": 203,
             "subjects": [
                 "SPANISH"
             ]
@@ -382,8 +340,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SARLI MERCADO",
-                    "Marcelo PELLEGRINI"
+                    "Marcelo PELLEGRINI",
+                    "SARLI MERCADO"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -558,8 +516,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SARLI MERCADO",
-                    "Marcelo PELLEGRINI"
+                    "Marcelo PELLEGRINI",
+                    "SARLI MERCADO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -734,8 +692,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "SARLI MERCADO",
-                    "Marcelo PELLEGRINI"
+                    "Marcelo PELLEGRINI",
+                    "SARLI MERCADO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -760,8 +718,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GLORIA MORALES OSORIO",
-                    "Victor GOLDGEL-CARBALLO"
+                    "Victor GOLDGEL-CARBALLO",
+                    "GLORIA MORALES OSORIO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -786,8 +744,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Paola HERNANDEZ",
-                    "PEDRO DE JESUS GONZALES DURAN"
+                    "PEDRO DE JESUS GONZALES DURAN",
+                    "Paola HERNANDEZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

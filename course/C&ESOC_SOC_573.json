@@ -28,86 +28,15 @@
         "unsatisfactory": 0
     },
     "description": "Examines theories of community change and different models of community organizing.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Junior standing",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 140,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            {
-                "course_number": 211,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing or (",
-            {
-                "course_number": 181,
-                "subjects": [
-                    "SOC"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 140,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 210,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Junior standing or (SOC\u00a0181,SOC/\u200bC&E\u00a0SOC\u00a0\u00a0140,210, or211)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 140,
+            "subjects": [
+                "SOC",
+                "C&ESOC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -115,20 +44,31 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 181,
+                            "subjects": [
+                                "SOC"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 140,
+                            "subjects": [
+                                "SOC",
+                                "C&ESOC"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 210,
+                            "subjects": [
+                                "SOC",
+                                "C&ESOC"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 211,
+                            "subjects": [
+                                "SOC",
+                                "C&ESOC"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -138,6 +78,12 @@
         },
         "course_references": [
             {
+                "course_number": 181,
+                "subjects": [
+                    "SOC"
+                ]
+            },
+            {
                 "course_number": 211,
                 "subjects": [
                     "SOC",
@@ -145,20 +91,14 @@
                 ]
             },
             {
-                "course_number": 210,
+                "course_number": 140,
                 "subjects": [
                     "SOC",
                     "C&ESOC"
                 ]
             },
             {
-                "course_number": 181,
-                "subjects": [
-                    "SOC"
-                ]
-            },
-            {
-                "course_number": 140,
+                "course_number": 210,
                 "subjects": [
                     "SOC",
                     "C&ESOC"
@@ -203,9 +143,11 @@
     },
     "similar_courses": [
         {
-            "course_number": 125,
+            "course_number": 645,
             "subjects": [
-                "CSCS"
+                "SOC",
+                "URBRPL",
+                "C&ESOC"
             ]
         },
         {
@@ -216,17 +158,15 @@
             ]
         },
         {
-            "course_number": 985,
+            "course_number": 125,
             "subjects": [
-                "SOC",
-                "C&ESOC"
+                "CSCS"
             ]
         },
         {
-            "course_number": 645,
+            "course_number": 985,
             "subjects": [
                 "SOC",
-                "URBRPL",
                 "C&ESOC"
             ]
         },

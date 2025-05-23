@@ -27,138 +27,51 @@
         "unsatisfactory": 0
     },
     "description": "Environmental factors in the development and spread of diseases, pathogen variability, genetics of disease resistance, and principles of disease control.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "PLPATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "PLPATH"
-                ]
-            },
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 571,
-                "subjects": [
-                    "F&WECOL",
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "PLPATH"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), and (",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 571,
-                "subjects": [
-                    "F&WECOL",
-                    "STAT"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "PL\u00a0PATH\u00a0300, (MATH\u00a0217or221), and (STAT\u00a0301,371, orF&W\u00a0ECOL/\u200bSTAT\u00a0\u00a0571), or graduate/professional standing"
-    },
+        {
+            "course_number": 217,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 571,
+            "subjects": [
+                "STAT",
+                "F&WECOL"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "PLPATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 217,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -166,16 +79,23 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 301,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 371,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 571,
+                                    "subjects": [
+                                        "STAT",
+                                        "F&WECOL"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -191,8 +111,8 @@
             {
                 "course_number": 571,
                 "subjects": [
-                    "F&WECOL",
-                    "STAT"
+                    "STAT",
+                    "F&WECOL"
                 ]
             },
             {
@@ -202,27 +122,27 @@
                 ]
             },
             {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 371,
                 "subjects": [
                     "STAT"
                 ]
             },
             {
-                "course_number": 221,
+                "course_number": 300,
+                "subjects": [
+                    "PLPATH"
+                ]
+            },
+            {
+                "course_number": 217,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 300,
+                "course_number": 221,
                 "subjects": [
-                    "PLPATH"
+                    "MATH"
                 ]
             }
         ],
@@ -265,8 +185,8 @@
             {
                 "course_number": 571,
                 "subjects": [
-                    "F&WECOL",
-                    "STAT"
+                    "STAT",
+                    "F&WECOL"
                 ]
             },
             "), or graduate/professional standing"
@@ -274,12 +194,6 @@
         "prerequisites_text": "PL\u00a0PATH\u00a0300, (MATH\u00a0217or221), and (STAT\u00a0301,371, orF&W\u00a0ECOL/\u200bSTAT\u00a0\u00a0571), or graduate/professional standing"
     },
     "similar_courses": [
-        {
-            "course_number": 517,
-            "subjects": [
-                "PLPATH"
-            ]
-        },
         {
             "course_number": 622,
             "subjects": [
@@ -293,13 +207,19 @@
             ]
         },
         {
+            "course_number": 300,
+            "subjects": [
+                "PLPATH"
+            ]
+        },
+        {
             "course_number": 923,
             "subjects": [
                 "PLPATH"
             ]
         },
         {
-            "course_number": 300,
+            "course_number": 517,
             "subjects": [
                 "PLPATH"
             ]
@@ -319,8 +239,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Douglas ROUSE",
-                    "JOHN ANDREWS"
+                    "JOHN ANDREWS",
+                    "Douglas ROUSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -345,8 +265,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Douglas ROUSE",
-                    "JOHN ANDREWS"
+                    "JOHN ANDREWS",
+                    "Douglas ROUSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,43 +27,23 @@
         "unsatisfactory": 0
     },
     "description": "Examines Russian prose fiction, Anton Chekhov to the end of the 20th century. More writing intensive thanLITTRANS\u00a0202.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Not open to students with credit for",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "LITTRANS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "LITTRANS"
-                ]
-            }
-        ],
-        "prerequisites_text": "Not open to students with credit forLITTRANS\u00a0202"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "LITTRANS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Not open to students with credit for",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "LITTRANS"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -95,13 +75,7 @@
             ]
         },
         {
-            "course_number": 203,
-            "subjects": [
-                "LITTRANS"
-            ]
-        },
-        {
-            "course_number": 247,
+            "course_number": 202,
             "subjects": [
                 "LITTRANS"
             ]
@@ -114,7 +88,13 @@
             ]
         },
         {
-            "course_number": 202,
+            "course_number": 247,
+            "subjects": [
+                "LITTRANS"
+            ]
+        },
+        {
+            "course_number": 203,
             "subjects": [
                 "LITTRANS"
             ]

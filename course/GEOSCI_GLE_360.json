@@ -28,112 +28,20 @@
         "unsatisfactory": 0
     },
     "description": "Minerals, their physical and chemical properties, crystallography, and geologic significance.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 100,
+            "subjects": [
+                "GEOSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 100,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            {
-                "course_number": 106,
-                "subjects": [
-                    "GEOSCI",
-                    "ENVIRST"
-                ]
-            },
-            {
-                "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 100,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 106,
-                "subjects": [
-                    "GEOSCI",
-                    "ENVIRST"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 115,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", or concurrent enrollment), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(GEOSCI\u00a0100orENVIR\u00a0ST/\u200bGEOSCI\u00a0\u00a0106) and (CHEM\u00a0103,109,115, or concurrent enrollment), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 103,
+            "subjects": [
+                "CHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -142,12 +50,17 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 100,
+                                    "subjects": [
+                                        "GEOSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 106,
+                                    "subjects": [
+                                        "GEOSCI",
+                                        "ENVIRST"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -155,16 +68,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 103,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 109,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 115,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -180,6 +99,19 @@
         },
         "course_references": [
             {
+                "course_number": 106,
+                "subjects": [
+                    "GEOSCI",
+                    "ENVIRST"
+                ]
+            },
+            {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
                 "course_number": 100,
                 "subjects": [
                     "GEOSCI"
@@ -192,20 +124,7 @@
                 ]
             },
             {
-                "course_number": 106,
-                "subjects": [
-                    "GEOSCI",
-                    "ENVIRST"
-                ]
-            },
-            {
                 "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 109,
                 "subjects": [
                     "CHEM"
                 ]
@@ -254,13 +173,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 875,
+            "course_number": 765,
             "subjects": [
                 "GEOSCI"
             ]
         },
         {
-            "course_number": 515,
+            "course_number": 331,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
+            "course_number": 875,
             "subjects": [
                 "GEOSCI"
             ]
@@ -273,13 +198,7 @@
             ]
         },
         {
-            "course_number": 765,
-            "subjects": [
-                "GEOSCI"
-            ]
-        },
-        {
-            "course_number": 331,
+            "course_number": 515,
             "subjects": [
                 "GEOSCI"
             ]
@@ -299,8 +218,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP BROWN",
-                    "HUIFANG XU"
+                    "HUIFANG XU",
+                    "PHILIP BROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -350,8 +269,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP BROWN",
-                    "HUIFANG XU"
+                    "HUIFANG XU",
+                    "PHILIP BROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -376,8 +295,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "PHILIP BROWN",
-                    "HUIFANG XU"
+                    "HUIFANG XU",
+                    "PHILIP BROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -402,8 +321,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP BROWN",
-                    "HUIFANG XU"
+                    "HUIFANG XU",
+                    "PHILIP BROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -428,8 +347,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "PHILIP BROWN",
-                    "HUIFANG XU"
+                    "HUIFANG XU",
+                    "PHILIP BROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -454,8 +373,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP BROWN",
-                    "HUIFANG XU"
+                    "HUIFANG XU",
+                    "PHILIP BROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -480,8 +399,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "PHILIP BROWN",
-                    "HUIFANG XU"
+                    "HUIFANG XU",
+                    "PHILIP BROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -506,8 +425,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP BROWN",
-                    "HUIFANG XU"
+                    "HUIFANG XU",
+                    "PHILIP BROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

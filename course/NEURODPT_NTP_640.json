@@ -28,204 +28,72 @@
         "unsatisfactory": 0
     },
     "description": "Theory and application of methods in computational neuroscience across various levels of organization from single cells to global brain dynamics and cognition. Computational neuroscience is an approach to understanding the development and function of nervous systems in mechanistic terms at many different structural scales. Topics include biophysical properties of neurons and synapses, neural plasticity, sensory systems, neural circuits, whole brain analysis and modeling, and different views on brain function. Includes primers on relevant computational techniques (ICA, information theoretical approaches, dynamical systems) and a computational problem set. Starts with an introduction to MATLAB (used for problem sets).",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "graduate/professional standing",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 610,
+            "subjects": [
+                "NEURODPT",
+                "NTP"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 610,
-                "subjects": [
-                    "NEURODPT",
-                    "NTP"
-                ]
-            },
-            {
-                "course_number": 611,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 454,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 454,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", and (",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "); or graduate/professional standing and ",
-            {
-                "course_number": 610,
-                "subjects": [
-                    "NEURODPT",
-                    "NTP"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 611,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            }
-        ],
-        "prerequisites_text": "PSYCH/\u200bZOOLOGY\u00a0\u00a0523,PSYCH\u00a0454,MATH\u00a0221, and (PHYSICS\u00a0104,202,208, or248); or graduate/professional standing andNEURODPT/\u200bNTP\u00a0\u00a0610andPSYCH/\u200bNEURODPT/\u200bNTP\u00a0\u00a0611"
-    },
+        {
+            "course_number": 611,
+            "subjects": [
+                "NEURODPT",
+                "PSYCH",
+                "NTP"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 523,
+                            "subjects": [
+                                "PSYCH",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 454,
+                            "subjects": [
+                                "PSYCH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 104,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -237,12 +105,19 @@
                     "children": [
                         "graduate/professional standing",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 610,
+                            "subjects": [
+                                "NEURODPT",
+                                "NTP"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 611,
+                            "subjects": [
+                                "NEURODPT",
+                                "PSYCH",
+                                "NTP"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -252,10 +127,16 @@
         },
         "course_references": [
             {
+                "course_number": 104,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
                 "course_number": 611,
                 "subjects": [
-                    "PSYCH",
                     "NEURODPT",
+                    "PSYCH",
                     "NTP"
                 ]
             },
@@ -266,9 +147,22 @@
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 454,
                 "subjects": [
-                    "PHYSICS"
+                    "PSYCH"
+                ]
+            },
+            {
+                "course_number": 523,
+                "subjects": [
+                    "PSYCH",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
                 ]
             },
             {
@@ -285,28 +179,9 @@
                 ]
             },
             {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 454,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 104,
+                "course_number": 248,
                 "subjects": [
                     "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
                 ]
             }
         ],
@@ -314,8 +189,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             ", ",
@@ -372,9 +247,9 @@
             {
                 "course_number": 611,
                 "subjects": [
-                    "NTP",
                     "NEURODPT",
-                    "PSYCH"
+                    "PSYCH",
+                    "NTP"
                 ]
             }
         ],
@@ -382,10 +257,16 @@
     },
     "similar_courses": [
         {
+            "course_number": 900,
+            "subjects": [
+                "NTP"
+            ]
+        },
+        {
             "course_number": 611,
             "subjects": [
-                "PSYCH",
                 "NEURODPT",
+                "PSYCH",
                 "NTP"
             ]
         },
@@ -398,20 +279,14 @@
             ]
         },
         {
-            "course_number": 900,
-            "subjects": [
-                "NTP"
-            ]
-        },
-        {
-            "course_number": 610,
+            "course_number": 629,
             "subjects": [
                 "NEURODPT",
                 "NTP"
             ]
         },
         {
-            "course_number": 629,
+            "course_number": 610,
             "subjects": [
                 "NEURODPT",
                 "NTP"
@@ -433,8 +308,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "MATHEW JONES",
-                    "Larissa ALBANTAKIS",
-                    "Meyer JACKSON"
+                    "Meyer JACKSON",
+                    "Larissa ALBANTAKIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

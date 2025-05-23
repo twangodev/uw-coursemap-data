@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Provides opportunities to engage in research on public policy issues and possible solutions.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "sophomore standing"
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "PUBAFFR"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "PUBAFFR"
-                ]
-            },
-            " and sophomore standing"
-        ],
-        "prerequisites_text": "PUB\u00a0AFFR\u00a0200and sophomore standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 200,
+            "subjects": [
+                "PUBAFFR"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 200,
+                    "subjects": [
+                        "PUBAFFR"
+                    ]
                 },
                 "sophomore standing"
             ],

@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "This course will serve the dual purpose of providing students with a high level of proficiency in the Engineering Equation Solver software as well as giving students the opportunity to solve high-level engineering problems using this tool. Students leaving the course will have a very solid understanding of equation solving software including advanced features that would not be covered in any other class on campus. Students will also get another opportunity to apply sophisticated computing tools to engineering applications.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "MATH\u00a0222or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "member of Engineering Guest Students"
             ],
@@ -89,10 +69,17 @@
     },
     "similar_courses": [
         {
+            "course_number": 471,
+            "subjects": [
+                "EP",
+                "EMA"
+            ]
+        },
+        {
             "course_number": 291,
             "subjects": [
-                "GLE",
-                "CIVENGR"
+                "CIVENGR",
+                "GLE"
             ]
         },
         {
@@ -111,13 +98,6 @@
             "course_number": 310,
             "subjects": [
                 "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 471,
-            "subjects": [
-                "EMA",
-                "EP"
             ]
         }
     ],

@@ -2,107 +2,55 @@
     "course_reference": {
         "course_number": 606,
         "subjects": [
-            "ENTOM",
             "F&WECOL",
             "PLPATH",
-            "SOILSCI"
+            "SOILSCI",
+            "ENTOM"
         ]
     },
     "course_title": "COLLOQUIUM IN ENVIRONMENTAL TOXICOLOGY",
     "cumulative_grade_data": null,
     "description": "Current topics in molecular and environmental toxicology and problems related to biologically active substances in the environment. Topics vary each semester. Lectures are by resident and visiting professors and other researchers.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101orBOTANY/\u200bBIOLOGY\u00a0\u00a0130orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 151,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 130,
+                    "subjects": [
+                        "BIOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 "graduate/professional standing"
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
             {
                 "course_number": 151,
                 "subjects": [
@@ -116,6 +64,13 @@
                 "subjects": [
                     "BIOLOGY",
                     "BOTANY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -154,9 +109,17 @@
             "subjects": [
                 "POPHLTH",
                 "PHMSCI",
+                "PATH",
                 "PHMCOL-M",
-                "M&ENVTOX",
-                "PATH"
+                "M&ENVTOX"
+            ]
+        },
+        {
+            "course_number": 631,
+            "subjects": [
+                "CIVENGR",
+                "SOILSCI",
+                "M&ENVTOX"
             ]
         },
         {
@@ -174,14 +137,6 @@
         {
             "course_number": 730,
             "subjects": [
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 631,
-            "subjects": [
-                "M&ENVTOX",
-                "CIVENGR",
                 "SOILSCI"
             ]
         }

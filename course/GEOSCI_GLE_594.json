@@ -28,129 +28,56 @@
         "unsatisfactory": 0
     },
     "description": "Survey of applied geophysics, including seismic refraction, seismic reflection, electrical resistivity, gravity, and magnetics methods. Basic physics of each method and modeling techniques and field procedures.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "MATH\u00a0222and (PHYSICS\u00a0202,208,248, orE\u00a0M\u00a0A\u00a0202), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 202,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -167,11 +94,17 @@
             {
                 "course_number": 202,
                 "subjects": [
-                    "EMA"
+                    "PHYSICS"
                 ]
             },
             {
                 "course_number": 202,
+                "subjects": [
+                    "EMA"
+                ]
+            },
+            {
+                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -184,12 +117,6 @@
             },
             {
                 "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -242,12 +169,6 @@
             ]
         },
         {
-            "course_number": 758,
-            "subjects": [
-                "GEOSCI"
-            ]
-        },
-        {
             "course_number": 595,
             "subjects": [
                 "GEOSCI",
@@ -255,14 +176,20 @@
             ]
         },
         {
-            "course_number": 350,
+            "course_number": 758,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
+            "course_number": 747,
             "subjects": [
                 "GEOSCI",
                 "GLE"
             ]
         },
         {
-            "course_number": 747,
+            "course_number": 350,
             "subjects": [
                 "GEOSCI",
                 "GLE"
@@ -283,10 +210,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CLIFFORD H THURBER",
                     "HAROLD TOBIN",
-                    "MATTHEW W KNUTH",
-                    "Dante FRATTA"
+                    "Dante FRATTA",
+                    "CLIFFORD H THURBER",
+                    "MATTHEW W KNUTH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -312,8 +239,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "DANIEL ALVARADO",
-                    "CLIFFORD H THURBER",
-                    "Dante FRATTA"
+                    "Dante FRATTA",
+                    "CLIFFORD H THURBER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -338,10 +265,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CLIFFORD H THURBER",
-                    "NINFA BENNINGTON",
                     "HAROLD TOBIN",
-                    "Dante FRATTA"
+                    "Dante FRATTA",
+                    "CLIFFORD H THURBER",
+                    "NINFA BENNINGTON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -366,9 +293,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "ALEXANDER TEEL",
                     "Dante FRATTA",
-                    "HAROLD TOBIN",
-                    "ALEXANDER TEEL"
+                    "HAROLD TOBIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -393,9 +320,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MATTHEW KOGLE",
                     "HAROLD TOBIN",
-                    "Dante FRATTA"
+                    "Dante FRATTA",
+                    "MATTHEW KOGLE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -421,8 +348,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "SUSANNA WEBB",
-                    "HAROLD TOBIN",
-                    "Dante FRATTA"
+                    "Dante FRATTA",
+                    "HAROLD TOBIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -447,8 +374,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "HAROLD TOBIN",
                     "CHRISTOPHER RAWLES",
+                    "HAROLD TOBIN",
                     "Dante FRATTA"
                 ],
                 "no_credit": 0,
@@ -474,8 +401,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CLIFFORD H THURBER",
                     "HELENE LE MEVEL",
+                    "CLIFFORD H THURBER",
                     "Dante FRATTA"
                 ],
                 "no_credit": 0,
@@ -501,8 +428,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "CLIFFORD H THURBER",
-                    "Dante FRATTA"
+                    "Dante FRATTA",
+                    "CLIFFORD H THURBER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -527,8 +454,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CLIFFORD H THURBER",
-                    "ANA COSENZA MURALLES"
+                    "ANA COSENZA MURALLES",
+                    "CLIFFORD H THURBER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -553,9 +480,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "CLIFFORD H THURBER",
                     "IAN MCBREARTY",
-                    "Dante FRATTA"
+                    "Dante FRATTA",
+                    "CLIFFORD H THURBER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -580,9 +507,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Dante FRATTA",
                     "JONATHAN GRAHAM",
-                    "CLIFFORD H THURBER",
-                    "Dante FRATTA"
+                    "CLIFFORD H THURBER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -607,9 +534,9 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "DAVID MILLER",
                     "Dante FRATTA",
-                    "FEDERICA LANZA"
+                    "FEDERICA LANZA",
+                    "DAVID MILLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -634,9 +561,9 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
+                    "Dante FRATTA",
                     "CLIFFORD H THURBER",
-                    "DOUGAL HANSEN",
-                    "Dante FRATTA"
+                    "DOUGAL HANSEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -762,8 +689,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Eva GOLOS",
-                    "ERYCK OCHOA",
-                    "Dante FRATTA"
+                    "Dante FRATTA",
+                    "ERYCK OCHOA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -789,9 +716,9 @@
                 },
                 "last_taught_term": "Fall 2024",
                 "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
+                    "abbreviation": "E",
+                    "name": "Engineering",
+                    "url": "http://www.engr.wisc.edu/"
                 },
                 "typically_offered": "Fall"
             },

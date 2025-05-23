@@ -27,119 +27,20 @@
         "unsatisfactory": 2
     },
     "description": "Electrostatic fields, capacitance, multi-pole expansion, dielectric theory; magnetostatics; electromagnetic induction; magnetic properties of matter; Maxwell's equations and electromagnetic waves; relativity and electromagmetism. Experiments for this course are covered in PHYSICS 308.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 248,
+            "subjects": [
+                "PHYSICS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 321,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "(PHYSICS\u00a0202,208or248) and (MATH\u00a0234,321or376), or graduate/professional standing"
-    },
+        {
+            "course_number": 321,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -148,16 +49,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -165,16 +72,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 234,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 321,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 376,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -188,7 +101,7 @@
         },
         "course_references": [
             {
-                "course_number": 234,
+                "course_number": 321,
                 "subjects": [
                     "MATH"
                 ]
@@ -200,9 +113,15 @@
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 234,
                 "subjects": [
-                    "PHYSICS"
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
                 ]
             },
             {
@@ -212,15 +131,9 @@
                 ]
             },
             {
-                "course_number": 321,
+                "course_number": 248,
                 "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
+                    "PHYSICS"
                 ]
             }
         ],
@@ -273,6 +186,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 721,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
             "course_number": 740,
             "subjects": [
                 "ECE"
@@ -286,12 +205,6 @@
         },
         {
             "course_number": 323,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 721,
             "subjects": [
                 "PHYSICS"
             ]

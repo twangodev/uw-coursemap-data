@@ -1,6 +1,22 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
             "id": "MATH 340",
             "parent": "MATH",
@@ -21,14 +37,6 @@
             "id": "MATH 96",
             "parent": "MATH",
             "title": "PREPARATORY ALGEBRA"
-        }
-    },
-    {
-        "data": {
-            "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
-            "id": "STAT 324",
-            "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
         }
     },
     {
@@ -61,14 +69,6 @@
             "id": "MATH 221",
             "parent": "MATH",
             "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to modern statistical practice in the life sciences, using the R programming language. Topics include: exploratory data analysis, probability and random variables; one-sample testing and confidence intervals, role of assumptions, sample size determination, two-sample inference; basic ideas in experimental design, analysis of variance, linear regression, goodness-of fit; biological applications.",
-            "id": "STAT 371",
-            "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR THE LIFE SCIENCES"
         }
     },
     {
@@ -113,14 +113,6 @@
     },
     {
         "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
-        }
-    },
-    {
-        "data": {
             "id": "ISYE",
             "type": "compound"
         }
@@ -128,12 +120,6 @@
     {
         "data": {
             "id": "MATH",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "STAT",
             "type": "compound"
         }
     },
@@ -164,7 +150,25 @@
     {
         "data": {
             "source": "MATH 112",
-            "target": "STAT 371"
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -187,14 +191,8 @@
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "STAT 371"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -211,8 +209,8 @@
     },
     {
         "data": {
-            "source": "MATH 221",
-            "target": "STAT 371"
+            "source": "MATH 222",
+            "target": "ISYE 323"
         }
     },
     {
@@ -229,32 +227,8 @@
     },
     {
         "data": {
-            "source": "MATH 375",
-            "target": "ISYE 323"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 96",
             "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 324",
-            "target": "ISYE 315"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 324",
-            "target": "STAT 371"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 371",
-            "target": "STAT 324"
         }
     }
 ]

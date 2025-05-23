@@ -27,72 +27,38 @@
         "unsatisfactory": 0
     },
     "description": "Composition, structure, occurrence, origin, and economic investigation of important groups of mineral deposits; problems of mineral deposition.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 204,
+            "subjects": [
+                "GEOSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 370,
-                "subjects": [
-                    "GEOSCI",
-                    "GLE"
-                ]
-            },
-            {
-                "course_number": 204,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 204,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 370,
-                "subjects": [
-                    "GEOSCI",
-                    "GLE"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "GEOSCI\u00a0204andG\u00a0L\u00a0E/\u200bGEOSCI\u00a0\u00a0370, or graduate/professional standing"
-    },
+        {
+            "course_number": 370,
+            "subjects": [
+                "GEOSCI",
+                "GLE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 204,
+                            "subjects": [
+                                "GEOSCI"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 370,
+                            "subjects": [
+                                "GEOSCI",
+                                "GLE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -137,16 +103,21 @@
     },
     "similar_courses": [
         {
+            "course_number": 765,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
             "course_number": 875,
             "subjects": [
                 "GEOSCI"
             ]
         },
         {
-            "course_number": 360,
+            "course_number": 459,
             "subjects": [
-                "GEOSCI",
-                "GLE"
+                "GEOSCI"
             ]
         },
         {
@@ -156,15 +127,10 @@
             ]
         },
         {
-            "course_number": 765,
+            "course_number": 360,
             "subjects": [
-                "GEOSCI"
-            ]
-        },
-        {
-            "course_number": 459,
-            "subjects": [
-                "GEOSCI"
+                "GEOSCI",
+                "GLE"
             ]
         }
     ],

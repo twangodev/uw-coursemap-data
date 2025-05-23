@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 514,
         "subjects": [
-            "COMPSCI",
-            "MATH"
+            "MATH",
+            "COMPSCI"
         ]
     },
     "course_title": "NUMERICAL ANALYSIS",
@@ -28,216 +28,26 @@
         "unsatisfactory": 0
     },
     "description": "Polynomial forms, divided differences. Polynomial interpolation. Polynomial approximation: uniform approximation and Chebyshev polynomials, least-squares approximation and orthogonal polynomials. Numerical differentiation and integration. Splines, B-splines and spline approximation. Numerical methods for solving initial and boundary value problems for ordinary differential equations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "301 prior to Spring 2020",
-                                {
-                                    "children": [
-                                        "placement into",
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "grad/professional standing",
-                {
-                    "children": [
-                        "member of the Pre-Masters Mathematics",
-                        "Visiting International",
-                        "Program"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 320,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 322,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 322,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 421,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 521,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), and (",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", or 301 prior to Spring 2020, or placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            "); grad/professional standing; member of the Pre-Masters Mathematics (Visiting International) Program"
-        ],
-        "prerequisites_text": "(MATH\u00a0320,340,341, or375), (MATH\u00a0322,376,421, or521), and (COMP\u00a0SCI\u00a0200,220,300,310, or 301 prior to Spring 2020, or placement intoCOMP\u00a0SCI\u00a0300); grad/professional standing; member of the Pre-Masters Mathematics (Visiting International) Program"
-    },
+        {
+            "course_number": 322,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 310,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -246,20 +56,28 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 341,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 375,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -267,20 +85,28 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 322,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 376,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 421,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 521,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -288,28 +114,38 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 200,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 220,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 300,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 310,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 "301 prior to Spring 2020",
                                 {
                                     "children": [
                                         "placement into",
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 300,
+                                            "subjects": [
+                                                "COMPSCI"
+                                            ]
                                         }
                                     ],
                                     "operator": "AND"
@@ -334,7 +170,25 @@
         },
         "course_references": [
             {
-                "course_number": 320,
+                "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 220,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 200,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 340,
                 "subjects": [
                     "MATH"
                 ]
@@ -346,19 +200,7 @@
                 ]
             },
             {
-                "course_number": 421,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 322,
+                "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
@@ -376,13 +218,7 @@
                 ]
             },
             {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 340,
+                "course_number": 322,
                 "subjects": [
                     "MATH"
                 ]
@@ -394,15 +230,15 @@
                 ]
             },
             {
-                "course_number": 375,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 220,
+                "course_number": 421,
                 "subjects": [
-                    "COMPSCI"
+                    "MATH"
                 ]
             }
         ],
@@ -504,36 +340,36 @@
     },
     "similar_courses": [
         {
+            "course_number": 513,
+            "subjects": [
+                "MATH",
+                "COMPSCI"
+            ]
+        },
+        {
             "course_number": 319,
             "subjects": [
                 "MATH"
             ]
         },
         {
+            "course_number": 715,
+            "subjects": [
+                "MATH",
+                "COMPSCI"
+            ]
+        },
+        {
             "course_number": 714,
             "subjects": [
-                "COMPSCI",
-                "MATH"
+                "MATH",
+                "COMPSCI"
             ]
         },
         {
             "course_number": 412,
             "subjects": [
                 "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 513,
-            "subjects": [
-                "COMPSCI",
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 715,
-            "subjects": [
-                "COMPSCI",
-                "MATH"
             ]
         }
     ],
@@ -877,8 +713,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "CHENXI WU",
-                    "Qin Li"
+                    "Qin Li",
+                    "CHENXI WU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

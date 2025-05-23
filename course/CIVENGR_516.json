@@ -27,155 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to probability and statistics and application to the analysis and modeling of real-world problems in hydrology, water resources engineering, and environmental data analysis.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 324,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 331,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 324,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 325,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 331,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(MATH\u00a0221or217) and (STAT\u00a0311,324,340,MATH/\u200bSTAT\u00a0\u00a0309,431,B\u00a0M\u00a0E\u00a0325, orE\u00a0C\u00a0E\u00a0331), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 324,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -184,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 217,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -197,32 +66,48 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 311,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 324,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 309,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 431,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 325,
+                                    "subjects": [
+                                        "BME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 331,
+                                    "subjects": [
+                                        "ECE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -243,9 +128,9 @@
                 ]
             },
             {
-                "course_number": 325,
+                "course_number": 324,
                 "subjects": [
-                    "BME"
+                    "STAT"
                 ]
             },
             {
@@ -257,15 +142,8 @@
             {
                 "course_number": 309,
                 "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             {
@@ -281,13 +159,20 @@
                 ]
             },
             {
-                "course_number": 340,
+                "course_number": 325,
                 "subjects": [
-                    "STAT"
+                    "BME"
                 ]
             },
             {
-                "course_number": 324,
+                "course_number": 431,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 340,
                 "subjects": [
                     "STAT"
                 ]
@@ -333,16 +218,16 @@
             {
                 "course_number": 309,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ", ",
             {
                 "course_number": 431,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ", ",
@@ -365,12 +250,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 515,
-            "subjects": [
-                "CIVENGR"
-            ]
-        },
-        {
             "course_number": 416,
             "subjects": [
                 "CIVENGR"
@@ -378,6 +257,12 @@
         },
         {
             "course_number": 311,
+            "subjects": [
+                "CIVENGR"
+            ]
+        },
+        {
+            "course_number": 515,
             "subjects": [
                 "CIVENGR"
             ]

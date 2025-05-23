@@ -3,156 +3,35 @@
         "course_number": 625,
         "subjects": [
             "POPHLTH",
+            "ONCOLOGY",
             "PHMSCI",
             "PHMCOL-M",
-            "M&ENVTOX",
-            "ONCOLOGY"
+            "M&ENVTOX"
         ]
     },
     "course_title": "TOXICOLOGY I",
     "cumulative_grade_data": null,
     "description": "Basic principles of toxicology and biochemical mechanisms of toxicity in mammalian species and man. Correlation between morphological and functional changes caused by toxicants in different organs of the body.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 508,
+            "subjects": [
+                "BIOCHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 404,
-                "subjects": [
-                    "PATH"
-                ]
-            },
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 485,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 508,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            ", or (",
-            {
-                "course_number": 485,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 486,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ")) and ",
-            {
-                "course_number": 404,
-                "subjects": [
-                    "PATH"
-                ]
-            },
-            "; or graduate/professional standing"
-        ],
-        "prerequisites_text": "(BIOCHEM\u00a0501or508) and (ANAT&PHY\u00a0335,435, or (BIOCORE\u00a0485and486)) andPATH\u00a0404; or graduate/professional standing"
-    },
+        {
+            "course_number": 435,
+            "subjects": [
+                "ANAT&PHY"
+            ]
+        },
+        {
+            "course_number": 404,
+            "subjects": [
+                "PATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -161,12 +40,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 501,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 508,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -174,22 +57,30 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 335,
+                                    "subjects": [
+                                        "ANAT&PHY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 435,
+                                    "subjects": [
+                                        "ANAT&PHY"
+                                    ]
                                 },
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 485,
+                                            "subjects": [
+                                                "BIOCORE"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 486,
+                                            "subjects": [
+                                                "BIOCORE"
+                                            ]
                                         }
                                     ],
                                     "operator": "AND"
@@ -198,8 +89,10 @@
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 404,
+                            "subjects": [
+                                "PATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -210,25 +103,19 @@
         },
         "course_references": [
             {
-                "course_number": 508,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 435,
+                "course_number": 335,
                 "subjects": [
                     "ANAT&PHY"
                 ]
             },
             {
-                "course_number": 335,
+                "course_number": 404,
+                "subjects": [
+                    "PATH"
+                ]
+            },
+            {
+                "course_number": 435,
                 "subjects": [
                     "ANAT&PHY"
                 ]
@@ -240,15 +127,21 @@
                 ]
             },
             {
-                "course_number": 404,
+                "course_number": 508,
                 "subjects": [
-                    "PATH"
+                    "BIOCHEM"
                 ]
             },
             {
                 "course_number": 485,
                 "subjects": [
                     "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 501,
+                "subjects": [
+                    "BIOCHEM"
                 ]
             }
         ],
@@ -308,31 +201,31 @@
     },
     "similar_courses": [
         {
+            "course_number": 626,
+            "subjects": [
+                "POPHLTH",
+                "PHMSCI",
+                "PATH",
+                "PHMCOL-M",
+                "M&ENVTOX"
+            ]
+        },
+        {
             "course_number": 555,
             "subjects": [
                 "COMPBIO"
             ]
         },
         {
-            "course_number": 781,
-            "subjects": [
-                "PHMCOL-M"
-            ]
-        },
-        {
-            "course_number": 626,
-            "subjects": [
-                "POPHLTH",
-                "PHMSCI",
-                "PHMCOL-M",
-                "M&ENVTOX",
-                "PATH"
-            ]
-        },
-        {
             "course_number": 800,
             "subjects": [
                 "M&ENVTOX"
+            ]
+        },
+        {
+            "course_number": 781,
+            "subjects": [
+                "PHMCOL-M"
             ]
         },
         {

@@ -27,43 +27,23 @@
         "unsatisfactory": 0
     },
     "description": "Examines Russian prose fiction, Anton Chekhov to the end of the 20th century.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Not open to students with credit for",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 204,
-                "subjects": [
-                    "LITTRANS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 204,
-                "subjects": [
-                    "LITTRANS"
-                ]
-            }
-        ],
-        "prerequisites_text": "Not open to students with credit forLITTRANS\u00a0204"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 204,
+            "subjects": [
+                "LITTRANS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Not open to students with credit for",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 204,
+                    "subjects": [
+                        "LITTRANS"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -95,8 +75,15 @@
             ]
         },
         {
-            "course_number": 203,
+            "course_number": 204,
             "subjects": [
+                "LITTRANS"
+            ]
+        },
+        {
+            "course_number": 238,
+            "subjects": [
+                "SLAVIC",
                 "LITTRANS"
             ]
         },
@@ -107,15 +94,8 @@
             ]
         },
         {
-            "course_number": 204,
+            "course_number": 203,
             "subjects": [
-                "LITTRANS"
-            ]
-        },
-        {
-            "course_number": 238,
-            "subjects": [
-                "SLAVIC",
                 "LITTRANS"
             ]
         }

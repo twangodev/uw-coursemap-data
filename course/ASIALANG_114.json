@@ -27,98 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Focus on proficiency in four skills (speaking, listening, reading, and writing) to communicate in Japanese in basic everyday situations. Students with prior experience in the language are required to take a placement test administered by the department.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "E ASIAN 123 prior to Summer 2019",
-                        {
-                            "children": [
-                                "placement into",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not open to students who have completed",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        "E ASIAN 103 prior to Summer 2019"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 113,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 113,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            " (or E ASIAN 123 prior to Summer 2019) or placement into ",
-            {
-                "course_number": 114,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            ". Not open to students who have completed ",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            " (or E ASIAN 103 prior to Summer 2019)"
-        ],
-        "prerequisites_text": "ASIALANG\u00a0113(or E ASIAN 123 prior to Summer 2019) or placement intoASIALANG\u00a0114. Not open to students who have completedASIALANG\u00a0103(or E ASIAN 103 prior to Summer 2019)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 113,
+            "subjects": [
+                "ASIALANG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 113,
+                            "subjects": [
+                                "ASIALANG"
+                            ]
                         },
                         "E ASIAN 123 prior to Summer 2019",
                         {
                             "children": [
                                 "placement into",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 114,
+                                    "subjects": [
+                                        "ASIALANG"
+                                    ]
                                 },
                                 "."
                             ],
@@ -133,8 +69,10 @@
                             "children": [
                                 "Not open to students who have completed",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 103,
+                                    "subjects": [
+                                        "ASIALANG"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -148,13 +86,13 @@
         },
         "course_references": [
             {
-                "course_number": 103,
+                "course_number": 113,
                 "subjects": [
                     "ASIALANG"
                 ]
             },
             {
-                "course_number": 113,
+                "course_number": 103,
                 "subjects": [
                     "ASIALANG"
                 ]
@@ -187,7 +125,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 204,
+            "course_number": 104,
             "subjects": [
                 "ASIALANG"
             ]
@@ -205,13 +143,13 @@
             ]
         },
         {
-            "course_number": 104,
+            "course_number": 113,
             "subjects": [
                 "ASIALANG"
             ]
         },
         {
-            "course_number": 113,
+            "course_number": 204,
             "subjects": [
                 "ASIALANG"
             ]
@@ -231,9 +169,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "KENIA AVENDANO-GARRO",
                     "Takako NAKAKUBO",
-                    "TAKUYA ITO",
-                    "KENIA AVENDANO-GARRO"
+                    "TAKUYA ITO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -258,9 +196,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "AYAMI MORITA",
                     "Takako NAKAKUBO",
-                    "TAKEAKI OKAMOTO"
+                    "TAKEAKI OKAMOTO",
+                    "AYAMI MORITA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -285,8 +223,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Takako NAKAKUBO",
                     "MOMOKO ISHIKAWA",
+                    "Takako NAKAKUBO",
                     "TOMOKO WAKANA"
                 ],
                 "no_credit": 0,

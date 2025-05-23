@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 533,
         "subjects": [
-            "COMPSCI",
-            "ECE"
+            "ECE",
+            "COMPSCI"
         ]
     },
     "course_title": "IMAGE PROCESSING",
@@ -28,99 +28,44 @@
         "unsatisfactory": 0
     },
     "description": "Mathematical representation of continuous and digital images; models of image degradation; picture enhancement, restoration, segmentation, and coding; pattern recognition, tomography.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 330,
+            "subjects": [
+                "ECE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 330,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 330,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E\u00a0330and (MATH\u00a0320or340), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 340,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 330,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -141,15 +86,15 @@
                 ]
             },
             {
-                "course_number": 330,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
                 "course_number": 340,
                 "subjects": [
                     "MATH"
+                ]
+            },
+            {
+                "course_number": 330,
+                "subjects": [
+                    "ECE"
                 ]
             }
         ],
@@ -180,16 +125,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 766,
+            "course_number": 738,
             "subjects": [
-                "COMPSCI",
                 "ECE"
-            ]
-        },
-        {
-            "course_number": 566,
-            "subjects": [
-                "COMPSCI"
             ]
         },
         {
@@ -199,16 +137,23 @@
             ]
         },
         {
-            "course_number": 738,
+            "course_number": 767,
             "subjects": [
-                "ECE"
+                "BMI",
+                "COMPSCI"
             ]
         },
         {
-            "course_number": 767,
+            "course_number": 766,
             "subjects": [
-                "COMPSCI",
-                "BMI"
+                "ECE",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 566,
+            "subjects": [
+                "COMPSCI"
             ]
         }
     ],
@@ -326,8 +271,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "WILLIAM SETHARES",
-                    "JALAL SULAIMAN"
+                    "JALAL SULAIMAN",
+                    "WILLIAM SETHARES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

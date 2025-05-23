@@ -27,43 +27,22 @@
         "unsatisfactory": 2
     },
     "description": "Senior level undergraduate course covering various topics on information security. Covers a wide range of topics, such as cryptographic primitives, security protocols, system security, and emerging topics.  Elementary knowledge of mathematical logic and discrete probability theory needed, such asMATH/\u200bCOMP\u00a0SCI\u00a0\u00a0240.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 537,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 537,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            " or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "COMP\u00a0SCI\u00a0537or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 537,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 537,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 "graduate/professional standing",
                 "declared in the Capstone Certificate in Computer Sciences for Professionals"
@@ -97,18 +76,10 @@
             ]
         },
         {
-            "course_number": 435,
-            "subjects": [
-                "COMPSCI",
-                "MATH",
-                "ECE"
-            ]
-        },
-        {
             "course_number": 782,
             "subjects": [
-                "COMPSCI",
-                "ECE"
+                "ECE",
+                "COMPSCI"
             ]
         },
         {
@@ -120,6 +91,14 @@
         {
             "course_number": 638,
             "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 435,
+            "subjects": [
+                "MATH",
+                "ECE",
                 "COMPSCI"
             ]
         }
@@ -413,9 +392,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
+                    "SYED SULEMAN AHMAD",
                     "EARLENCE FERNANDES",
-                    "ZIJUN MA",
-                    "SYED SULEMAN AHMAD"
+                    "ZIJUN MA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -465,9 +444,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Rahul Chatterjee",
                     "SOPHIA STEPHENSON",
-                    "NICHOLAS CECCIO"
+                    "NICHOLAS CECCIO",
+                    "Rahul Chatterjee"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -492,9 +471,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Rahul Chatterjee",
                     "BENJAMIN JACOBSEN",
                     "NICHOLAS CECCIO",
+                    "Rahul Chatterjee",
                     "OBAIDULLAH ADIL AHMED"
                 ],
                 "no_credit": 0,
@@ -520,9 +499,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "NICHOLAS CECCIO",
                     "Rahul Chatterjee",
-                    "BENJAMIN JACOBSEN",
-                    "NICHOLAS CECCIO"
+                    "BENJAMIN JACOBSEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -547,8 +526,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "BENJAMIN JACOBSEN",
-                    "PATRICK MCDANIEL"
+                    "PATRICK MCDANIEL",
+                    "BENJAMIN JACOBSEN"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -573,8 +552,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Ethan CECCHETTI",
-                    "RAHUL KRISHNAN"
+                    "RAHUL KRISHNAN",
+                    "Ethan CECCHETTI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

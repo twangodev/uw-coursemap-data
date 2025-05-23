@@ -27,102 +27,20 @@
         "unsatisfactory": 1
     },
     "description": "Mathematical modeling and analysis of dynamic systems with mechanical, thermal, and fluid elements. Topics: time domain solutions, analog computer simulation, linearization techniques, block diagram representation, numerical methods and frequency domain solutions. Students are assumed to have basic competence in particle and planar rigid body dynamics, matrix and vector algebra, and linear differential equations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 240,
+            "subjects": [
+                "ME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0240orE\u00a0M\u00a0A\u00a0202) and (MATH\u00a0319,320, or375), or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 320,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -131,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 240,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -144,16 +66,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 319,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 375,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -167,9 +95,9 @@
         },
         "course_references": [
             {
-                "course_number": 202,
+                "course_number": 375,
                 "subjects": [
-                    "EMA"
+                    "MATH"
                 ]
             },
             {
@@ -179,9 +107,9 @@
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 202,
                 "subjects": [
-                    "MATH"
+                    "EMA"
                 ]
             },
             {
@@ -191,7 +119,7 @@
                 ]
             },
             {
-                "course_number": 375,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
@@ -239,13 +167,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 751,
+            "course_number": 448,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 448,
+            "course_number": 461,
             "subjects": [
                 "ME"
             ]
@@ -258,13 +186,13 @@
             ]
         },
         {
-            "course_number": 746,
+            "course_number": 751,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 461,
+            "course_number": 746,
             "subjects": [
                 "ME"
             ]
@@ -284,8 +212,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Darryl THELEN",
-                    "Dan NEGRUT"
+                    "Dan NEGRUT",
+                    "Darryl THELEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -310,8 +238,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Darryl THELEN",
                     "Dan NEGRUT",
+                    "Darryl THELEN",
                     "JING GENE SHIAU"
                 ],
                 "no_credit": 0,
@@ -337,8 +265,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "NEIL DUFFIE",
                     "Dan NEGRUT",
+                    "NEIL DUFFIE",
                     "JOHN MOSKWA"
                 ],
                 "no_credit": 0,
@@ -364,8 +292,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YURI SHKEL",
-                    "NEIL DUFFIE"
+                    "NEIL DUFFIE",
+                    "YURI SHKEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -416,8 +344,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Darryl THELEN",
-                    "NEIL DUFFIE"
+                    "NEIL DUFFIE",
+                    "Darryl THELEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -442,8 +370,8 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "FRANK FRONCZAK",
-                    "MICHAEL ZINN"
+                    "MICHAEL ZINN",
+                    "FRANK FRONCZAK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -975,8 +903,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Randy JACKSON",
-                    "Xiangru XU"
+                    "Xiangru XU",
+                    "Randy JACKSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1001,8 +929,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Randy JACKSON",
-                    "Xiangru XU"
+                    "Xiangru XU",
+                    "Randy JACKSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1052,8 +980,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "Randy JACKSON",
-                    "Xiangru XU"
+                    "Xiangru XU",
+                    "Randy JACKSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

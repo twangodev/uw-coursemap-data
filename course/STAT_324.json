@@ -27,102 +27,44 @@
         "unsatisfactory": 10
     },
     "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        "Not open to students with credit for STAT 302",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 211,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ". Not open to students with credit for STAT 302 or ",
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "prerequisites_text": "MATH\u00a0211,217, or221. Not open to students with credit for STAT 302 or371"
-    },
+        {
+            "course_number": 371,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 211,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "."
                             ],
@@ -135,8 +77,10 @@
                     "children": [
                         "Not open to students with credit for STAT 302",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 371,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -158,15 +102,15 @@
                 ]
             },
             {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 371,
                 "subjects": [
                     "STAT"
+                ]
+            },
+            {
+                "course_number": 211,
+                "subjects": [
+                    "MATH"
                 ]
             }
         ],
@@ -203,19 +147,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 416,
-            "subjects": [
-                "EPD"
-            ]
-        },
-        {
-            "course_number": 240,
+            "course_number": 371,
             "subjects": [
                 "STAT"
             ]
         },
         {
-            "course_number": 371,
+            "course_number": 210,
+            "subjects": [
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 240,
             "subjects": [
                 "STAT"
             ]
@@ -227,9 +171,9 @@
             ]
         },
         {
-            "course_number": 210,
+            "course_number": 416,
             "subjects": [
-                "ISYE"
+                "EPD"
             ]
         }
     ],
@@ -597,8 +541,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "YUAN WANG",
-                    "KEEGAN KORTHAUER"
+                    "KEEGAN KORTHAUER",
+                    "YUAN WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -623,8 +567,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YUAN WANG",
-                    "FREDERICK BOEHM"
+                    "FREDERICK BOEHM",
+                    "YUAN WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -755,9 +699,9 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
+                    "GINA BENNINGER",
                     "LUWAN ZHANG",
-                    "DONG XIA",
-                    "GINA BENNINGER"
+                    "DONG XIA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -782,8 +726,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "JARED BROWN",
                     "SIJING LI",
+                    "JARED BROWN",
                     "DEBRAJ DAS"
                 ],
                 "no_credit": 0,
@@ -835,9 +779,9 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
+                    "CHELSEY GREEN",
                     "DEREK BEAN",
-                    "JURIJS NAZAROVS",
-                    "CHELSEY GREEN"
+                    "JURIJS NAZAROVS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -862,9 +806,9 @@
                 "f": 7,
                 "incomplete": 2,
                 "instructors": [
-                    "DEREK BEAN",
+                    "CHELSEY GREEN",
                     "DUZHE WANG",
-                    "CHELSEY GREEN"
+                    "DEREK BEAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -889,11 +833,11 @@
                 "f": 4,
                 "incomplete": 1,
                 "instructors": [
-                    "WESLEY BROOKS",
-                    "RAHUL MAHAJAN",
                     "ZEDEKIAH FASHENA",
+                    "DEREK BEAN",
                     "DUZHE WANG",
-                    "DEREK BEAN"
+                    "WESLEY BROOKS",
+                    "RAHUL MAHAJAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -918,10 +862,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "HAO TENG",
-                    "NICHOLAS STEPHEN KEULER",
                     "ZEDEKIAH FASHENA",
-                    "RALPH TRANE"
+                    "NICHOLAS STEPHEN KEULER",
+                    "RALPH TRANE",
+                    "HAO TENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1023,9 +967,9 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "Brian POWERS",
+                    "CHELSEY GREEN",
                     "JOHN GILLETT",
-                    "CHELSEY GREEN"
+                    "Brian POWERS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1125,8 +1069,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "MOUMITA KARMAKAR",
-                    "CHELSEY GREEN"
+                    "CHELSEY GREEN",
+                    "MOUMITA KARMAKAR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

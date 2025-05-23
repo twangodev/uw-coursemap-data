@@ -27,42 +27,22 @@
         "unsatisfactory": 1
     },
     "description": "A second course in modeling and application of semiconductor devices and integrated circuits. Advanced transistor amplifier analysis, including feedback effects. Design for power amplifiers, op-amps, analog filters, oscillators, A/D and D/A converters, and power converters. Introduction to transistor level design of CMOS digital circuits.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E\u00a0340or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 340,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 340,
+                    "subjects": [
+                        "ECE"
+                    ]
                 },
                 "member of Engineering Guest Students"
             ],
@@ -89,7 +69,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 271,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
             "course_number": 541,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 447,
             "subjects": [
                 "ECE"
             ]
@@ -102,18 +94,6 @@
         },
         {
             "course_number": 548,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 447,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 271,
             "subjects": [
                 "ECE"
             ]
@@ -610,8 +590,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Ming LIU",
-                    "WILLIAM N. HITCHON"
+                    "WILLIAM N. HITCHON",
+                    "Ming LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

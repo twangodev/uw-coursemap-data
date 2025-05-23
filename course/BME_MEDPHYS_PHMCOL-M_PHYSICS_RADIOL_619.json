@@ -3,124 +3,77 @@
         "course_number": 619,
         "subjects": [
             "MEDPHYS",
-            "PHMCOL-M",
-            "BME",
             "RADIOL",
-            "PHYSICS"
+            "PHYSICS",
+            "PHMCOL-M",
+            "BME"
         ]
     },
     "course_title": "MICROSCOPY OF LIFE",
     "cumulative_grade_data": null,
     "description": "Survey of state of the art microscopic, cellular and molecular imaging techniques, beginning with subcellular microscopy and finishing with whole animal imaging.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 265,
-                "subjects": [
-                    "MEDPHYS",
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 265,
-                "subjects": [
-                    "MEDPHYS",
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "prerequisites_text": "PHYSICS\u00a0104,202,208, or248orPHYSICS/\u200bMED\u00a0PHYS\u00a0\u00a0265"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 265,
+            "subjects": [
+                "MEDPHYS",
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 104,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 208,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 248,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 265,
+                    "subjects": [
+                        "MEDPHYS",
+                        "PHYSICS"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 202,
+                "course_number": 265,
+                "subjects": [
+                    "MEDPHYS",
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 104,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -132,14 +85,7 @@
                 ]
             },
             {
-                "course_number": 265,
-                "subjects": [
-                    "MEDPHYS",
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 104,
+                "course_number": 248,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -192,15 +138,7 @@
             ]
         },
         {
-            "course_number": 750,
-            "subjects": [
-                "MEDPHYS",
-                "BME",
-                "CHEM"
-            ]
-        },
-        {
-            "course_number": 651,
+            "course_number": 604,
             "subjects": [
                 "BME"
             ]
@@ -213,8 +151,16 @@
             ]
         },
         {
-            "course_number": 604,
+            "course_number": 651,
             "subjects": [
+                "BME"
+            ]
+        },
+        {
+            "course_number": 750,
+            "subjects": [
+                "MEDPHYS",
+                "CHEM",
                 "BME"
             ]
         }

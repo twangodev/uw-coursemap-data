@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Special topics to be given as the need and opportunity arise.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 310,
+            "subjects": [
+                "ATMOCN"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 330,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 310,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 330,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            }
-        ],
-        "prerequisites_text": "ATM\u00a0OCN\u00a0310and330"
-    },
+        {
+            "course_number": 330,
+            "subjects": [
+                "ATMOCN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 310,
+                    "subjects": [
+                        "ATMOCN"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 330,
+                    "subjects": [
+                        "ATMOCN"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -119,13 +92,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 801,
+            "course_number": 201,
             "subjects": [
                 "ATMOCN"
             ]
         },
         {
-            "course_number": 141,
+            "course_number": 801,
             "subjects": [
                 "ATMOCN"
             ]
@@ -137,13 +110,13 @@
             ]
         },
         {
-            "course_number": 900,
+            "course_number": 141,
             "subjects": [
                 "ATMOCN"
             ]
         },
         {
-            "course_number": 201,
+            "course_number": 900,
             "subjects": [
                 "ATMOCN"
             ]
@@ -439,8 +412,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael MORGAN",
-                    "TRACEY HOLLOWAY"
+                    "TRACEY HOLLOWAY",
+                    "Michael MORGAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

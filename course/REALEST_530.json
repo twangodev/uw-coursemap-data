@@ -27,78 +27,38 @@
         "unsatisfactory": 0
     },
     "description": "A capstone focused on comprehensively underwriting commercial real estate. Investment analysis will be performed for a variety of real estate property types from the perspective of various real estate professionals, such as the property/asset manager, finance professional, leasing broker, acquisitions specialist, portfolio manager, and investment legal/risk team.  The investment analysis will emphasize the importance of value-creation through capital investment and effective income and expense management.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "current enrollment"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 415,
+            "subjects": [
+                "REALEST"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 425,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            {
-                "course_number": 415,
-                "subjects": [
-                    "REALEST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 415,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 425,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            " or current enrollment), or graduate/professional standing"
-        ],
-        "prerequisites_text": "REAL\u00a0EST\u00a0415and (REAL\u00a0EST\u00a0425or current enrollment), or graduate/professional standing"
-    },
+        {
+            "course_number": 425,
+            "subjects": [
+                "REALEST"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 415,
+                            "subjects": [
+                                "REALEST"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 425,
+                                    "subjects": [
+                                        "REALEST"
+                                    ]
                                 },
                                 "current enrollment"
                             ],
@@ -113,13 +73,13 @@
         },
         "course_references": [
             {
-                "course_number": 415,
+                "course_number": 425,
                 "subjects": [
                     "REALEST"
                 ]
             },
             {
-                "course_number": 425,
+                "course_number": 415,
                 "subjects": [
                     "REALEST"
                 ]
@@ -145,7 +105,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 702,
+            "course_number": 550,
             "subjects": [
                 "REALEST"
             ]
@@ -157,19 +117,19 @@
             ]
         },
         {
-            "course_number": 661,
-            "subjects": [
-                "REALEST"
-            ]
-        },
-        {
             "course_number": 703,
             "subjects": [
                 "REALEST"
             ]
         },
         {
-            "course_number": 550,
+            "course_number": 661,
+            "subjects": [
+                "REALEST"
+            ]
+        },
+        {
+            "course_number": 702,
             "subjects": [
                 "REALEST"
             ]
@@ -264,8 +224,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Mark Eppli",
-                    "Bill CAMP"
+                    "Bill CAMP",
+                    "Mark Eppli"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

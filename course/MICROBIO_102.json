@@ -27,82 +27,36 @@
         "unsatisfactory": 1
     },
     "description": "Covers techniques and procedures used in general microbiology, including cultivation, enumeration, aseptic techniques, physiology and selected applications.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment."
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "."
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "MICROBIO"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 304,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            " or concurrent enrollment. Not open to students with credit for ",
-            {
-                "course_number": 304,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "MICROBIO\u00a0101,303or concurrent enrollment. Not open to students with credit forMICROBIO\u00a0304."
-    },
+        {
+            "course_number": 304,
+            "subjects": [
+                "MICROBIO"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "MICROBIO"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 303,
+                            "subjects": [
+                                "MICROBIO"
+                            ]
                         },
                         "concurrent enrollment."
                     ],
@@ -112,8 +66,10 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 304,
+                            "subjects": [
+                                "MICROBIO"
+                            ]
                         },
                         "."
                     ],
@@ -124,13 +80,13 @@
         },
         "course_references": [
             {
-                "course_number": 303,
+                "course_number": 304,
                 "subjects": [
                     "MICROBIO"
                 ]
             },
             {
-                "course_number": 304,
+                "course_number": 303,
                 "subjects": [
                     "MICROBIO"
                 ]
@@ -169,15 +125,21 @@
     },
     "similar_courses": [
         {
+            "course_number": 101,
+            "subjects": [
+                "MICROBIO"
+            ]
+        },
+        {
             "course_number": 304,
             "subjects": [
                 "MICROBIO"
             ]
         },
         {
-            "course_number": 101,
+            "course_number": 915,
             "subjects": [
-                "MICROBIO"
+                "PATH"
             ]
         },
         {
@@ -190,12 +152,6 @@
             "course_number": 527,
             "subjects": [
                 "MICROBIO"
-            ]
-        },
-        {
-            "course_number": 915,
-            "subjects": [
-                "PATH"
             ]
         }
     ],

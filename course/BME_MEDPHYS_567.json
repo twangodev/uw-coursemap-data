@@ -28,98 +28,44 @@
         "unsatisfactory": 0
     },
     "description": "Physics of x-ray diagnostic procedures and equipment, radiation safety, general imaging considerations; lecture and lab.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 249,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 249,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "MATH\u00a0234and (PHYSICS\u00a0241or249) or graduate/professional standing"
-    },
+        {
+            "course_number": 241,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 241,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 249,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -133,7 +79,7 @@
         },
         "course_references": [
             {
-                "course_number": 249,
+                "course_number": 241,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -145,7 +91,7 @@
                 ]
             },
             {
-                "course_number": 241,
+                "course_number": 249,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -178,26 +124,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 581,
-            "subjects": [
-                "MEDPHYS"
-            ]
-        },
-        {
-            "course_number": 580,
-            "subjects": [
-                "MEDPHYS",
-                "BME"
-            ]
-        },
-        {
-            "course_number": 777,
-            "subjects": [
-                "MEDPHYS"
-            ]
-        },
-        {
             "course_number": 662,
+            "subjects": [
+                "MEDPHYS"
+            ]
+        },
+        {
+            "course_number": 581,
             "subjects": [
                 "MEDPHYS"
             ]
@@ -209,6 +142,19 @@
                 "BME",
                 "HONCOL",
                 "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 777,
+            "subjects": [
+                "MEDPHYS"
+            ]
+        },
+        {
+            "course_number": 580,
+            "subjects": [
+                "MEDPHYS",
+                "BME"
             ]
         }
     ],
@@ -532,9 +478,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "WILLIAM FERRIS",
                     "Michael SPEIDEL",
-                    "Frank Ranallo"
+                    "Frank Ranallo",
+                    "WILLIAM FERRIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

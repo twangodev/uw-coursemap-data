@@ -2,121 +2,28 @@
     "course_reference": {
         "course_number": 528,
         "subjects": [
-            "MM&I",
-            "PATH-BIO"
+            "PATH-BIO",
+            "MM&I"
         ]
     },
     "course_title": "IMMUNOLOGY",
     "cumulative_grade_data": null,
     "description": "Development and functions of immune response in animals; a comprehensive study of experimental humoral and cellular immunity.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 104,
+            "subjects": [
+                "CHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "(CHEM\u00a0104orCHEM\u00a0109) and (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151orBIOCORE\u00a0383), or graduate/professional standing"
-    },
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -125,12 +32,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 104,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 109,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -138,16 +49,25 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 151,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 383,
+                                    "subjects": [
+                                        "BIOCORE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -161,22 +81,15 @@
         },
         "course_references": [
             {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
                 "course_number": 104,
                 "subjects": [
                     "CHEM"
                 ]
             },
             {
-                "course_number": 383,
+                "course_number": 109,
                 "subjects": [
-                    "BIOCORE"
+                    "CHEM"
                 ]
             },
             {
@@ -188,9 +101,16 @@
                 ]
             },
             {
-                "course_number": 109,
+                "course_number": 101,
                 "subjects": [
-                    "CHEM"
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
                 ]
             }
         ],
@@ -239,21 +159,21 @@
     },
     "similar_courses": [
         {
-            "course_number": 774,
+            "course_number": 341,
             "subjects": [
-                "MEDSC-M"
+                "MM&I"
             ]
         },
         {
-            "course_number": 517,
+            "course_number": 510,
             "subjects": [
                 "PATH-BIO"
             ]
         },
         {
-            "course_number": 341,
+            "course_number": 774,
             "subjects": [
-                "MM&I"
+                "MEDSC-M"
             ]
         },
         {
@@ -263,7 +183,7 @@
             ]
         },
         {
-            "course_number": 510,
+            "course_number": 517,
             "subjects": [
                 "PATH-BIO"
             ]

@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 570,
         "subjects": [
-            "ISYE",
-            "ECE"
+            "ECE",
+            "ISYE"
         ]
     },
     "course_title": "ETHICS OF DATA FOR ENGINEERS",
@@ -28,158 +28,20 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to ethical issues in data engineering and principled solutions. Algorithmic fairness (individual fairness, group fairness, counterfactual fairness), differential privacy and its applications, and robustness.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 562,
+            "subjects": [
+                "ISYE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 562,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            {
-                "course_number": 521,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            {
-                "course_number": 331,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 521,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 562,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 532,
-                "subjects": [
-                    "COMPSCI",
-                    "ME",
-                    "ECE"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 539,
-                "subjects": [
-                    "COMPSCI",
-                    "ME",
-                    "ECE"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 331,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 331,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "(I\u00a0SY\u00a0E\u00a0521,562,M\u00a0E/\u200bCOMP\u00a0SCI/\u200bE\u00a0C\u00a0E\u00a0\u00a0532, or539) and (E\u00a0C\u00a0E\u00a0331,MATH/\u200bSTAT\u00a0\u00a0309,STAT\u00a0311,MATH\u00a0331, orSTAT/\u200bMATH\u00a0\u00a0431), or graduate/professional standing"
-    },
+        {
+            "course_number": 331,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -188,20 +50,32 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 521,
+                                    "subjects": [
+                                        "ISYE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 562,
+                                    "subjects": [
+                                        "ISYE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 532,
+                                    "subjects": [
+                                        "ME",
+                                        "ECE",
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 539,
+                                    "subjects": [
+                                        "ME",
+                                        "ECE",
+                                        "COMPSCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -209,24 +83,36 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 331,
+                                    "subjects": [
+                                        "ECE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 309,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 311,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 331,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 431,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -240,29 +126,44 @@
         },
         "course_references": [
             {
+                "course_number": 539,
+                "subjects": [
+                    "ME",
+                    "ECE",
+                    "COMPSCI"
+                ]
+            },
+            {
                 "course_number": 311,
                 "subjects": [
                     "STAT"
                 ]
             },
             {
-                "course_number": 521,
+                "course_number": 532,
                 "subjects": [
-                    "ISYE"
-                ]
-            },
-            {
-                "course_number": 539,
-                "subjects": [
-                    "COMPSCI",
                     "ME",
-                    "ECE"
+                    "ECE",
+                    "COMPSCI"
                 ]
             },
             {
                 "course_number": 562,
                 "subjects": [
                     "ISYE"
+                ]
+            },
+            {
+                "course_number": 309,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 331,
+                "subjects": [
+                    "ECE"
                 ]
             },
             {
@@ -274,29 +175,14 @@
             {
                 "course_number": 431,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             {
-                "course_number": 532,
+                "course_number": 521,
                 "subjects": [
-                    "COMPSCI",
-                    "ME",
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 331,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
+                    "ISYE"
                 ]
             }
         ],
@@ -319,18 +205,18 @@
             {
                 "course_number": 532,
                 "subjects": [
-                    "COMPSCI",
                     "ME",
-                    "ECE"
+                    "ECE",
+                    "COMPSCI"
                 ]
             },
             ", or ",
             {
                 "course_number": 539,
                 "subjects": [
-                    "COMPSCI",
                     "ME",
-                    "ECE"
+                    "ECE",
+                    "COMPSCI"
                 ]
             },
             ") and (",
@@ -344,8 +230,8 @@
             {
                 "course_number": 309,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ", ",
@@ -366,8 +252,8 @@
             {
                 "course_number": 431,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             "), or graduate/professional standing"
@@ -376,21 +262,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 461,
+            "course_number": 763,
             "subjects": [
-                "LIS"
-            ]
-        },
-        {
-            "course_number": 738,
-            "subjects": [
-                "BMI"
-            ]
-        },
-        {
-            "course_number": 562,
-            "subjects": [
-                "ISYE"
+                "COMPSCI"
             ]
         },
         {
@@ -400,9 +274,21 @@
             ]
         },
         {
-            "course_number": 763,
+            "course_number": 562,
             "subjects": [
-                "COMPSCI"
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 738,
+            "subjects": [
+                "BMI"
+            ]
+        },
+        {
+            "course_number": 461,
+            "subjects": [
+                "LIS"
             ]
         }
     ],

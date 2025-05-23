@@ -27,64 +27,31 @@
         "unsatisfactory": 2
     },
     "description": "Oral practice and conversation, grammar review, reading, vocabulary expansion, creative writing and study of French and Francophone cultures.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "FRENCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "FRENCH"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 203,
-                "subjects": [
-                    "FRENCH"
-                ]
-            }
-        ],
-        "prerequisites_text": "FRENCH\u00a0102or placement intoFRENCH\u00a0203"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "FRENCH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 102,
+                    "subjects": [
+                        "FRENCH"
+                    ]
                 },
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 203,
+                            "subjects": [
+                                "FRENCH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -119,19 +86,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 102,
-            "subjects": [
-                "FRENCH"
-            ]
-        },
-        {
-            "course_number": 204,
-            "subjects": [
-                "FRENCH"
-            ]
-        },
-        {
             "course_number": 271,
+            "subjects": [
+                "FRENCH"
+            ]
+        },
+        {
+            "course_number": 101,
             "subjects": [
                 "FRENCH"
             ]
@@ -143,7 +104,13 @@
             ]
         },
         {
-            "course_number": 101,
+            "course_number": 204,
+            "subjects": [
+                "FRENCH"
+            ]
+        },
+        {
+            "course_number": 102,
             "subjects": [
                 "FRENCH"
             ]
@@ -163,16 +130,16 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
+                    "THERESA PESAVENTO",
+                    "PAULA J. RUCKS",
+                    "RACHEL NATASHA HATCH",
                     "BENOIT PIERRE CHRISTIAN LECLERCQ",
                     "ANDREW IRVING",
                     "SHARON DONALDSON",
-                    "ALISON APRIL VANDER WOUDE",
-                    "PAULA J. RUCKS",
-                    "RACHEL NATASHA HATCH",
                     "ANNA CHRISTINE BACHMAN",
-                    "CLAIRE NODOT-KAUFMAN",
                     "MONICA ROZALIA GAROIU",
-                    "THERESA PESAVENTO"
+                    "ALISON APRIL VANDER WOUDE",
+                    "CLAIRE NODOT-KAUFMAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -197,12 +164,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BENOIT PIERRE CHRISTIAN LECLERCQ",
-                    "ALISON APRIL VANDER WOUDE",
-                    "SHARON DONALDSON",
-                    "CLAIRE NODOT-KAUFMAN",
                     "THERESA PESAVENTO",
-                    "MEI CATHERINE CHIN"
+                    "BENOIT PIERRE CHRISTIAN LECLERCQ",
+                    "MEI CATHERINE CHIN",
+                    "SHARON DONALDSON",
+                    "ALISON APRIL VANDER WOUDE",
+                    "CLAIRE NODOT-KAUFMAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -227,16 +194,16 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LESLIE HAYGOOD",
-                    "ANDREW IRVING",
-                    "PAULA J. RUCKS",
-                    "MARY CLAYPOOL",
-                    "MARY L SKEMP",
-                    "RYAN SCHROTH",
                     "STEPHANIE SPADARO",
+                    "RYAN SCHROTH",
                     "THERESA PESAVENTO",
+                    "PAULA J. RUCKS",
+                    "MARY L SKEMP",
+                    "ANDREW IRVING",
+                    "EL HADJ MALICK MBENGUE",
                     "REDOUANE KHAMAR",
-                    "EL HADJ MALICK MBENGUE"
+                    "MARY CLAYPOOL",
+                    "LESLIE HAYGOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -261,13 +228,13 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "MARY CLAYPOOL",
                     "RYAN SCHROTH",
-                    "MARTHA ANN GOODGE",
-                    "JACQUES LOUIS ARCENEAUX",
-                    "CYRIELLE FAIVRE",
                     "THERESA PESAVENTO",
-                    "EL HADJ MALICK MBENGUE"
+                    "MARTHA ANN GOODGE",
+                    "CYRIELLE FAIVRE",
+                    "JACQUES LOUIS ARCENEAUX",
+                    "EL HADJ MALICK MBENGUE",
+                    "MARY CLAYPOOL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -292,13 +259,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANDREW IRVING",
-                    "MARTHA ANN GOODGE",
-                    "KAITLIN KING",
-                    "GWENOLA CARADEC",
-                    "CYRIELLE FAIVRE",
                     "THERESA PESAVENTO",
+                    "GWENOLA CARADEC",
                     "ELISE BRYANT KRUIDENIER",
+                    "MARTHA ANN GOODGE",
+                    "ANDREW IRVING",
+                    "CYRIELLE FAIVRE",
+                    "KAITLIN KING",
                     "JENNIFER ANNE MEYER",
                     "REDOUANE KHAMAR"
                 ],
@@ -325,12 +292,12 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "CAMILLE CELLERIER",
-                    "MARTHA ANN GOODGE",
-                    "SANDRA SIMMONS",
                     "GWENOLA CARADEC",
+                    "SANDRA SIMMONS",
+                    "ELISE BRYANT KRUIDENIER",
+                    "MARTHA ANN GOODGE",
                     "CYRIELLE FAIVRE",
-                    "ELISE BRYANT KRUIDENIER"
+                    "CAMILLE CELLERIER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -355,14 +322,14 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "LESLIE HAYGOOD",
                     "ELIZABETH FRANZ",
-                    "ANNE DARGENT",
-                    "CYRIELLE FAIVRE",
-                    "THERESA PESAVENTO",
                     "ERIC TURCAT",
+                    "THERESA PESAVENTO",
                     "DENIS DEPINOY",
-                    "JENNIFER ANNE MEYER"
+                    "CYRIELLE FAIVRE",
+                    "JENNIFER ANNE MEYER",
+                    "ANNE DARGENT",
+                    "LESLIE HAYGOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -387,11 +354,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANGELA COPPIN",
-                    "RACHEL TAPLEY",
                     "ELIZABETH FRANZ",
+                    "DENIS DEPINOY",
+                    "RACHEL TAPLEY",
                     "CYRIELLE FAIVRE",
-                    "DENIS DEPINOY"
+                    "ANGELA COPPIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -417,13 +384,13 @@
                 "incomplete": 2,
                 "instructors": [
                     "ANNE HAJEK",
+                    "ELIZABETH FRANZ",
+                    "JENNIFER ANNE MEYER",
+                    "JENNIFER MISRAN",
                     "WALTER SCOTT",
                     "RACHEL TAPLEY",
                     "PREEAMVADA LEELAH",
-                    "ELIZABETH FRANZ",
-                    "JENNIFER MISRAN",
-                    "ERIC TURCAT",
-                    "JENNIFER ANNE MEYER"
+                    "ERIC TURCAT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -448,10 +415,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LARK PORTER",
-                    "RACHEL TAPLEY",
                     "ELIZABETH FRANZ",
                     "LINDA BRINDEAU",
+                    "LARK PORTER",
+                    "RACHEL TAPLEY",
                     "JENNIFER ANNE MEYER"
                 ],
                 "no_credit": 0,
@@ -477,12 +444,12 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "NATHAN GERMAIN",
                     "RYAN SCHROTH",
-                    "RACHEL TAPLEY",
                     "SIMON PIERRE MARIE YOASSI",
-                    "LINDSEY SMITH",
-                    "ETHAN ABENSOHN"
+                    "RACHEL TAPLEY",
+                    "NATHAN GERMAIN",
+                    "ETHAN ABENSOHN",
+                    "LINDSEY SMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -507,11 +474,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "JARMILA KAVECANSKA",
                     "WALTER SCOTT",
-                    "RACHEL TAPLEY",
                     "SIMON PIERRE MARIE YOASSI",
-                    "ETHAN ABENSOHN",
-                    "JARMILA KAVECANSKA"
+                    "RACHEL TAPLEY",
+                    "ETHAN ABENSOHN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -536,13 +503,13 @@
                 "f": 0,
                 "incomplete": 3,
                 "instructors": [
-                    "JENNIFER GRAY",
-                    "NATHAN GERMAIN",
                     "RYAN SCHROTH",
-                    "STEPHANIE SPADARO",
                     "JAN STARCZEWSKI",
                     "HUGO TORRES",
-                    "KALI COLES"
+                    "KALI COLES",
+                    "JENNIFER GRAY",
+                    "NATHAN GERMAIN",
+                    "STEPHANIE SPADARO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -568,10 +535,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "RYAN SCHROTH",
-                    "SIMON PIERRE MARIE YOASSI",
-                    "KELSEY ROY",
                     "JARMILA KAVECANSKA",
-                    "JAN STARCZEWSKI"
+                    "JAN STARCZEWSKI",
+                    "KELSEY ROY",
+                    "SIMON PIERRE MARIE YOASSI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -596,13 +563,13 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JENNIFER GRAY",
-                    "AMY CLAY",
-                    "STEPHANIE SPADARO",
-                    "KELSEY ROY",
-                    "KATHERINE BLACKMAN",
+                    "JARMILA KAVECANSKA",
                     "JAN STARCZEWSKI",
-                    "JARMILA KAVECANSKA"
+                    "KELSEY ROY",
+                    "JENNIFER GRAY",
+                    "KATHERINE BLACKMAN",
+                    "AMY CLAY",
+                    "STEPHANIE SPADARO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -627,11 +594,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "JARMILA KAVECANSKA",
+                    "JAN STARCZEWSKI",
                     "KELSEY ROY",
                     "KATHERINE BLACKMAN",
-                    "JAN STARCZEWSKI",
-                    "REDOUANE KHAMAR",
-                    "JARMILA KAVECANSKA"
+                    "REDOUANE KHAMAR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -656,12 +623,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JORDAN BERKEN",
-                    "LAUREN GOODSPEED",
-                    "TESSA SERMET",
                     "SANDRINE PELL",
                     "KATHERINE BLACKMAN",
-                    "COLLEEN HAMILTON"
+                    "TESSA SERMET",
+                    "JORDAN BERKEN",
+                    "COLLEEN HAMILTON",
+                    "LAUREN GOODSPEED"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -686,10 +653,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "LAUREN GOODSPEED",
                     "KATHERINE BLACKMAN",
+                    "JORDAN BERKEN",
                     "COLLEEN HAMILTON",
-                    "JORDAN BERKEN"
+                    "LAUREN GOODSPEED"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -714,11 +681,11 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "NIKLOUS KOEHLER",
-                    "CHARLES KILIAN",
-                    "CARA LANDRIGAN",
                     "CHARLOTTE BRUNETAUD",
-                    "COLLEEN HAMILTON"
+                    "CHARLES KILIAN",
+                    "COLLEEN HAMILTON",
+                    "CARA LANDRIGAN",
+                    "NIKLOUS KOEHLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -743,10 +710,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CHARLOTTE BRUNETAUD",
                     "CHARLES KILIAN",
-                    "COLLEEN HAMILTON",
-                    "CARA LANDRIGAN"
+                    "CARA LANDRIGAN",
+                    "CHARLOTTE BRUNETAUD",
+                    "COLLEEN HAMILTON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -772,10 +739,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "LINDSEY SMITH",
-                    "ANTHONY RADOIU",
-                    "SANDRINE PELL",
+                    "JARMILA KAVECANSKA",
                     "DAN ZHANG",
-                    "JARMILA KAVECANSKA"
+                    "SANDRINE PELL",
+                    "ANTHONY RADOIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -801,8 +768,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "ANTHONY RADOIU",
-                    "LINDSEY SMITH",
-                    "NIKLOUS KOEHLER"
+                    "NIKLOUS KOEHLER",
+                    "LINDSEY SMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -827,10 +794,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "YUAN LIU",
                     "NATHAN GERMAIN",
                     "NIKLOUS KOEHLER",
-                    "ALYSSA POLLOCK",
-                    "YUAN LIU"
+                    "ALYSSA POLLOCK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -856,8 +823,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "CHARLES KILIAN",
-                    "LINDSEY SMITH",
-                    "NIKLOUS KOEHLER"
+                    "NIKLOUS KOEHLER",
+                    "LINDSEY SMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -882,9 +849,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "MAGGIE HUGHES",
-                    "CHARLES KILIAN",
                     "DAN ZHANG",
+                    "CHARLES KILIAN",
+                    "MAGGIE HUGHES",
                     "ERIC WISTROM"
                 ],
                 "no_credit": 0,
@@ -991,10 +958,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "METYCIA BENGMO MAKEMZEM",
                     "TESSA ARCHAMBAULT",
-                    "HEIDI BIANCAT",
+                    "METYCIA BENGMO MAKEMZEM",
                     "ALYSSA POLLOCK",
+                    "HEIDI BIANCAT",
                     "YUAN LIU"
                 ],
                 "no_credit": 0,
@@ -1020,10 +987,10 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "MAGGIE HUGHES",
                     "TYLER ROWE",
-                    "JACQUELINE EBELABENA",
-                    "ANAIS LOUISE SIEWE DEUGA"
+                    "MAGGIE HUGHES",
+                    "ANAIS LOUISE SIEWE DEUGA",
+                    "JACQUELINE EBELABENA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1048,8 +1015,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "PETER RUSSELLA",
-                    "Heather ALLEN"
+                    "Heather ALLEN",
+                    "PETER RUSSELLA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1074,12 +1041,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "MATHILDE GARNIER",
                     "METYCIA BENGMO MAKEMZEM",
                     "NIMA KEIVANI",
-                    "MATHILDE GARNIER",
-                    "Heather ALLEN",
-                    "ROODMERLYNN PIERRE",
-                    "LUKE PTAK"
+                    "Roodmerlynn Pierre",
+                    "LUKE PTAK",
+                    "Heather ALLEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1104,9 +1071,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "ROODMERLYNN PIERRE",
-                    "NIMA KEIVANI",
                     "Heather ALLEN",
+                    "NIMA KEIVANI",
+                    "Roodmerlynn Pierre",
                     "LUKE PTAK"
                 ],
                 "no_credit": 0,
@@ -1132,11 +1099,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "METYCIA BENGMO MAKEMZEM",
                     "MATHILDE GARNIER",
-                    "Heather ALLEN",
+                    "METYCIA BENGMO MAKEMZEM",
+                    "KULANI JAHRLING",
                     "PETER RUSSELLA",
-                    "KULANI JAHRLING"
+                    "Heather ALLEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1162,9 +1129,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "Heather ALLEN",
-                    "ALEXANDER TAYLOR",
+                    "KULANI JAHRLING",
                     "JACQUELINE EBELABENA",
-                    "KULANI JAHRLING"
+                    "ALEXANDER TAYLOR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1190,9 +1157,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "CORA SCHOOFS",
-                    "ALEXANDER TAYLOR",
                     "Heather ALLEN",
-                    "JACQUELINE EBELABENA"
+                    "JACQUELINE EBELABENA",
+                    "ALEXANDER TAYLOR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

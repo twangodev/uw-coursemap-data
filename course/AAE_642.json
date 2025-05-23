@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "An overview of development economics, covering both basic theory and empirical applications. Topics include economic growth, trade, measurement of poverty and inequality, human capital, agricultural household models, technology adoption, migration, credit, savings, insurance, infrastructure, and the environment.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 635,
+            "subjects": [
+                "AAE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 635,
-                "subjects": [
-                    "AAE"
-                ]
-            },
-            {
-                "course_number": 636,
-                "subjects": [
-                    "AAE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 635,
-                "subjects": [
-                    "AAE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 636,
-                "subjects": [
-                    "AAE"
-                ]
-            }
-        ],
-        "prerequisites_text": "A\u00a0A\u00a0E\u00a0635and636"
-    },
+        {
+            "course_number": 636,
+            "subjects": [
+                "AAE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 635,
+                    "subjects": [
+                        "AAE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 636,
+                    "subjects": [
+                        "AAE"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -119,16 +92,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 731,
+            "course_number": 477,
             "subjects": [
+                "ECON",
                 "AAE"
-            ]
-        },
-        {
-            "course_number": 474,
-            "subjects": [
-                "AAE",
-                "ECON"
             ]
         },
         {
@@ -144,10 +111,16 @@
             ]
         },
         {
-            "course_number": 477,
+            "course_number": 474,
             "subjects": [
-                "AAE",
-                "ECON"
+                "ECON",
+                "AAE"
+            ]
+        },
+        {
+            "course_number": 731,
+            "subjects": [
+                "AAE"
             ]
         }
     ],

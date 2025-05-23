@@ -27,79 +27,38 @@
         "unsatisfactory": 0
     },
     "description": "Analysis of nuclear systems for the production of useful power. Emphasis: thermodynamic cycles, reactor types, coupling of reactor and power plant, design synthesis, and plant economics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 405,
+            "subjects": [
+                "NE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 411,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            {
-                "course_number": 405,
-                "subjects": [
-                    "NE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 405,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 411,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            " or concurrent enrollment), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "N\u00a0E\u00a0405and (N\u00a0E\u00a0411or concurrent enrollment), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 411,
+            "subjects": [
+                "NE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 405,
+                            "subjects": [
+                                "NE"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 411,
+                                    "subjects": [
+                                        "NE"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -115,13 +74,13 @@
         },
         "course_references": [
             {
-                "course_number": 405,
+                "course_number": 411,
                 "subjects": [
                     "NE"
                 ]
             },
             {
-                "course_number": 411,
+                "course_number": 405,
                 "subjects": [
                     "NE"
                 ]
@@ -147,8 +106,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 231,
+            "course_number": 565,
             "subjects": [
+                "ME",
                 "NE"
             ]
         },
@@ -159,20 +119,19 @@
             ]
         },
         {
-            "course_number": 565,
-            "subjects": [
-                "ME",
-                "NE"
-            ]
-        },
-        {
-            "course_number": 505,
+            "course_number": 231,
             "subjects": [
                 "NE"
             ]
         },
         {
             "course_number": 602,
+            "subjects": [
+                "NE"
+            ]
+        },
+        {
+            "course_number": 505,
             "subjects": [
                 "NE"
             ]

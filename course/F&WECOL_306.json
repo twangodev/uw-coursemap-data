@@ -27,130 +27,48 @@
         "unsatisfactory": 0
     },
     "description": "Life history, ecology, distribution, and taxonomy of reptiles, amphibians, birds, and mammals. Birds will receive less emphasis. Primary focus is on Wisconsin species, including conservation threats, but covers all major North American families, and surveys major groups of the world. Designed as a foundation for detailed study of vertebrates or to satisfy the need for a scientific introduction to Wisconsin vertebrates.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), (BIOCORE\u00a0381and382), or graduate/professional standing"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -158,12 +76,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 382,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -173,6 +95,27 @@
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
+                    "BOTANY"
+                ]
+            },
             {
                 "course_number": 101,
                 "subjects": [
@@ -184,27 +127,6 @@
                 "course_number": 382,
                 "subjects": [
                     "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
                 ]
             }
         ],
@@ -259,6 +181,14 @@
             ]
         },
         {
+            "course_number": 521,
+            "subjects": [
+                "F&WECOL",
+                "ZOOLOGY",
+                "ANSCI"
+            ]
+        },
+        {
             "course_number": 318,
             "subjects": [
                 "F&WECOL"
@@ -274,14 +204,6 @@
             "course_number": 401,
             "subjects": [
                 "F&WECOL"
-            ]
-        },
-        {
-            "course_number": 521,
-            "subjects": [
-                "ANSCI",
-                "F&WECOL",
-                "ZOOLOGY"
             ]
         }
     ],

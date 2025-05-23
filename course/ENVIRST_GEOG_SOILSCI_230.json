@@ -29,43 +29,23 @@
         "unsatisfactory": 11
     },
     "description": "Soils are fundamental to ecosystem science. A systems approach is used to investigate how soils look and function. Topics investigated include soil structure, biology, water, fertility, and taxonomy as well as the human impact on the soil environment.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Not open to students with credit for",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "SOILSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "SOILSCI"
-                ]
-            }
-        ],
-        "prerequisites_text": "Not open to students with credit forSOIL\u00a0SCI\u00a0301"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "SOILSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Not open to students with credit for",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "SOILSCI"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -91,13 +71,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 211,
+            "course_number": 131,
             "subjects": [
                 "SOILSCI"
             ]
         },
         {
-            "course_number": 131,
+            "course_number": 250,
+            "subjects": [
+                "SOILSCI"
+            ]
+        },
+        {
+            "course_number": 211,
             "subjects": [
                 "SOILSCI"
             ]
@@ -113,12 +99,6 @@
             "course_number": 101,
             "subjects": [
                 "ENVIRST",
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 250,
-            "subjects": [
                 "SOILSCI"
             ]
         }
@@ -412,8 +392,8 @@
                 "f": 3,
                 "incomplete": 1,
                 "instructors": [
-                    "Nick BALSTER",
-                    "Edward Boswell"
+                    "Edward Boswell",
+                    "Nick BALSTER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,42 +27,22 @@
         "unsatisfactory": 3
     },
     "description": "Analysis of selected television programming, interpretation of contemporary television programs, and survey of existing critical approaches.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 351,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 351,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "COM\u00a0ARTS\u00a0351or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 351,
+            "subjects": [
+                "COMARTS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 351,
+                    "subjects": [
+                        "COMARTS"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -95,7 +75,13 @@
             ]
         },
         {
-            "course_number": 540,
+            "course_number": 950,
+            "subjects": [
+                "COMARTS"
+            ]
+        },
+        {
+            "course_number": 454,
             "subjects": [
                 "COMARTS"
             ]
@@ -107,13 +93,7 @@
             ]
         },
         {
-            "course_number": 950,
-            "subjects": [
-                "COMARTS"
-            ]
-        },
-        {
-            "course_number": 454,
+            "course_number": 540,
             "subjects": [
                 "COMARTS"
             ]

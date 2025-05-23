@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 323,
         "subjects": [
-            "PLPATH",
-            "SOILSCI"
+            "SOILSCI",
+            "PLPATH"
         ]
     },
     "course_title": "SOIL BIOLOGY",
@@ -28,162 +28,22 @@
         "unsatisfactory": 0
     },
     "description": "Nature, activities and role of organisms inhabiting soil. Effects of soil biota on ecosystem function, response to cultural practices, and impacts on environmental quality, including bioremediation of contaminated soils.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 152,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 384,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 116,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, orZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102, orBOTANY/\u200bBIOLOGY\u00a0\u00a0130, orBIOCORE\u00a0384) and (CHEM\u00a0104,109, or116), or graduate/professional standing"
-    },
+        {
+            "course_number": 104,
+            "subjects": [
+                "CHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -192,29 +52,44 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 152,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 101,
+                                            "subjects": [
+                                                "BIOLOGY",
+                                                "ZOOLOGY"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 102,
+                                            "subjects": [
+                                                "BIOLOGY",
+                                                "ZOOLOGY"
+                                            ]
                                         }
                                     ],
                                     "operator": "AND"
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 130,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 384,
+                                    "subjects": [
+                                        "BIOCORE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -222,16 +97,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 104,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 109,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 116,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -244,39 +125,6 @@
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 384,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 116,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
             {
                 "course_number": 102,
                 "subjects": [
@@ -292,9 +140,42 @@
                 ]
             },
             {
+                "course_number": 116,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
+                "course_number": 104,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
                 "course_number": 109,
                 "subjects": [
                     "CHEM"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
+                "course_number": 384,
+                "subjects": [
+                    "BIOCORE"
                 ]
             }
         ],
@@ -366,16 +247,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 523,
-            "subjects": [
-                "MICROBIO",
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 324,
+            "course_number": 230,
             "subjects": [
                 "ENVIRST",
+                "GEOG",
                 "SOILSCI"
             ]
         },
@@ -388,16 +263,22 @@
         {
             "course_number": 425,
             "subjects": [
-                "MICROBIO",
+                "SOILSCI",
+                "MICROBIO"
+            ]
+        },
+        {
+            "course_number": 324,
+            "subjects": [
+                "ENVIRST",
                 "SOILSCI"
             ]
         },
         {
-            "course_number": 230,
+            "course_number": 523,
             "subjects": [
-                "ENVIRST",
-                "GEOG",
-                "SOILSCI"
+                "SOILSCI",
+                "MICROBIO"
             ]
         }
     ],
@@ -491,8 +372,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANN E MACGUIDWIN",
-                    "WILLIAM HICKEY"
+                    "WILLIAM HICKEY",
+                    "ANN E MACGUIDWIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -517,8 +398,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANN E MACGUIDWIN",
-                    "WILLIAM HICKEY"
+                    "WILLIAM HICKEY",
+                    "ANN E MACGUIDWIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -543,8 +424,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANN E MACGUIDWIN",
-                    "WILLIAM HICKEY"
+                    "WILLIAM HICKEY",
+                    "ANN E MACGUIDWIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -569,8 +450,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANN E MACGUIDWIN",
-                    "WILLIAM HICKEY"
+                    "WILLIAM HICKEY",
+                    "ANN E MACGUIDWIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -595,8 +476,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANN E MACGUIDWIN",
-                    "WILLIAM HICKEY"
+                    "WILLIAM HICKEY",
+                    "ANN E MACGUIDWIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -621,8 +502,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANN E MACGUIDWIN",
-                    "WILLIAM HICKEY"
+                    "WILLIAM HICKEY",
+                    "ANN E MACGUIDWIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -647,8 +528,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANN E MACGUIDWIN",
-                    "WILLIAM HICKEY"
+                    "WILLIAM HICKEY",
+                    "ANN E MACGUIDWIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

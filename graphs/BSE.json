@@ -1,6 +1,14 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
             "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
             "id": "MATH 113",
             "parent": "MATH",
@@ -49,10 +57,10 @@
     },
     {
         "data": {
-            "description": "An introduction to the invention of processes for the large scale, low cost processing of materials such as water, chemicals, petroleum products, food, drugs and wastes.",
-            "id": "CBE 250",
-            "parent": "CBE",
-            "title": "PROCESS SYNTHESIS"
+            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
+            "id": "MATH 320",
+            "parent": "MATH",
+            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
         }
     },
     {
@@ -214,13 +222,6 @@
     },
     {
         "data": {
-            "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
-            "id": "BIOLOGY/ZOOLOGY 101",
-            "title": "ANIMAL BIOLOGY"
-        }
-    },
-    {
-        "data": {
             "description": "Hands-on teaching experience through working with a course instructor to improve pedagogical understanding. Guidance will be provided on such aspects as course planning, delivery, student supervision, and evaluation, etc.",
             "id": "BSE 799",
             "parent": "BSE",
@@ -292,14 +293,6 @@
     },
     {
         "data": {
-            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
-            "id": "COMPSCI 220",
-            "parent": "COMPSCI",
-            "title": "DATA SCIENCE PROGRAMMING I"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to calculus of functions of several variables; calculus on parameterized curves, derivatives of functions of several variables, multiple integrals, vector calculus.",
             "id": "MATH 234",
             "parent": "MATH",
@@ -336,14 +329,6 @@
             "id": "EMA 202",
             "parent": "EMA",
             "title": "DYNAMICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Laws of mechanics and thermodynamics applied to fluids at rest and in motion; potential flow; dimensional analysis; viscous flow; pipe flow; boundary-layer theory; compressible flow.",
-            "id": "ME 363",
-            "parent": "ME",
-            "title": "FLUID DYNAMICS"
         }
     },
     {
@@ -498,14 +483,6 @@
     },
     {
         "data": {
-            "description": "Review of linear differential equations; series solution of linear differential equations; boundary value problems; Laplace transforms; possibly numerical methods and two dimensional autonomous systems.",
-            "id": "MATH 319",
-            "parent": "MATH",
-            "title": "TECHNIQUES IN ORDINARY DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
             "description": "Second semester of individual study for undergraduate students completing a thesis in the area of Biological Systems Engineering, as arranged with a faculty member.",
             "id": "BSE 692",
             "parent": "BSE",
@@ -562,6 +539,13 @@
     },
     {
         "data": {
+            "description": "The relationships of organisms and the environment. Population dynamics and community organization, human-environment relationships, action programs.",
+            "id": "BOTANY/ENVIRST/ZOOLOGY 260",
+            "title": "INTRODUCTORY ECOLOGY"
+        }
+    },
+    {
+        "data": {
             "description": "The two semester sequenceMATH\u00a0112-MATH\u00a0113covers similar material asMATH\u00a0114, but in a slower pace. Not recommended for students with less than an AB inMATH\u00a096.",
             "id": "MATH 114",
             "parent": "MATH",
@@ -574,29 +558,6 @@
             "id": "MATH 171",
             "parent": "MATH",
             "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-            "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics, and selected topics in Animal Physiology. Designed for engineering majors that do not need a lab component.",
-            "id": "ZOOLOGY 153",
-            "parent": "ZOOLOGY",
-            "title": "INTRODUCTORY BIOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
@@ -633,12 +594,6 @@
     },
     {
         "data": {
-            "id": "COMPSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "id": "CROSSLISTED",
             "type": "compound"
         }
@@ -669,32 +624,8 @@
     },
     {
         "data": {
-            "id": "ZOOLOGY",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
-            "target": "BIOLOGY/ZOOLOGY 101"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "source": "BOTANY/ENVIRST/ZOOLOGY 260",
             "target": "BSE 349"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "BIOLOGY/BOTANY/ZOOLOGY 151"
-        }
-    },
-    {
-        "data": {
-            "source": "BIOLOGY/ZOOLOGY 101",
-            "target": "ZOOLOGY 153"
         }
     },
     {
@@ -719,18 +650,6 @@
         "data": {
             "source": "BSE 508",
             "target": "BSE 509"
-        }
-    },
-    {
-        "data": {
-            "source": "CBE 250",
-            "target": "BSE 364"
-        }
-    },
-    {
-        "data": {
-            "source": "CBE 250",
-            "target": "BSE 461"
         }
     },
     {
@@ -772,13 +691,13 @@
     {
         "data": {
             "source": "CHEM 104",
-            "target": "CHEM 343"
+            "target": "CHEM 341"
         }
     },
     {
         "data": {
-            "source": "CHEM 109",
-            "target": "BSE 460"
+            "source": "CHEM 104",
+            "target": "CHEM 343"
         }
     },
     {
@@ -801,18 +720,6 @@
     },
     {
         "data": {
-            "source": "CHEM 109",
-            "target": "ME 361"
-        }
-    },
-    {
-        "data": {
-            "source": "CHEM 115",
-            "target": "BSE 380"
-        }
-    },
-    {
-        "data": {
             "source": "CHEM 115",
             "target": "CHEM 116"
         }
@@ -820,7 +727,7 @@
     {
         "data": {
             "source": "CHEM 116",
-            "target": "CBE 250"
+            "target": "BSE 349"
         }
     },
     {
@@ -849,12 +756,6 @@
     },
     {
         "data": {
-            "source": "COMPSCI 220",
-            "target": "BSE 405"
-        }
-    },
-    {
-        "data": {
             "source": "EMA 201",
             "target": "EMA 202"
         }
@@ -867,14 +768,14 @@
     },
     {
         "data": {
-            "source": "EMA 202",
-            "target": "BSE/ME 475"
+            "source": "EMA 201",
+            "target": "ME 361"
         }
     },
     {
         "data": {
             "source": "EMA 202",
-            "target": "BSE/ME 476"
+            "target": "BSE/ME 475"
         }
     },
     {
@@ -891,14 +792,50 @@
     },
     {
         "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 113",
             "target": "BSE 301"
         }
     },
     {
         "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 114",
             "target": "BSE 310"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 114",
+            "target": "CHEM 104"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 114"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 171"
         }
     },
     {
@@ -910,13 +847,19 @@
     {
         "data": {
             "source": "MATH 171",
-            "target": "BSE 310"
+            "target": "CHEM 103"
         }
     },
     {
         "data": {
             "source": "MATH 171",
             "target": "MATH 217"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "BSE 380"
         }
     },
     {
@@ -934,30 +877,12 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
         "data": {
             "source": "MATH 217",
-            "target": "BSE 473"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 217",
-            "target": "BSE/ENVIRST 367"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "ANSCI/BSE 344"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
             "target": "BSE 249"
         }
     },
@@ -970,6 +895,12 @@
     {
         "data": {
             "source": "MATH 221",
+            "target": "CHEM 109"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
             "target": "MATH 211"
         }
     },
@@ -977,6 +908,24 @@
         "data": {
             "source": "MATH 221",
             "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 201"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 207"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "BSE 349"
         }
     },
     {
@@ -1000,7 +949,7 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "MATH 319"
+            "target": "MATH 320"
         }
     },
     {
@@ -1017,14 +966,8 @@
     },
     {
         "data": {
-            "source": "MATH 319",
-            "target": "ME 363"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "CIVENGR 310"
+            "source": "MATH 320",
+            "target": "CBE 320"
         }
     },
     {
@@ -1048,12 +991,6 @@
     {
         "data": {
             "source": "ME 240",
-            "target": "BSE/ME 475"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 240",
             "target": "BSE/ME 476"
         }
     },
@@ -1066,30 +1003,18 @@
     {
         "data": {
             "source": "ME 361",
-            "target": "ME 363"
+            "target": "BSE 364"
         }
     },
     {
         "data": {
-            "source": "ME 363",
+            "source": "ME 361",
             "target": "BSE 464"
         }
     },
     {
         "data": {
-            "source": "ME 363",
-            "target": "BSE/ME 474"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
-            "target": "BSE/ME 475"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
+            "source": "ME 361",
             "target": "BSE/ME 476"
         }
     },
@@ -1108,19 +1033,7 @@
     {
         "data": {
             "source": "PHYSICS 207",
-            "target": "CBE 320"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 207",
             "target": "PHYSICS 201"
-        }
-    },
-    {
-        "data": {
-            "source": "ZOOLOGY 153",
-            "target": "BSE 349"
         }
     }
 ]

@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 475,
         "subjects": [
-            "BSE",
-            "ME"
+            "ME",
+            "BSE"
         ]
     },
     "course_title": "ENGINEERING PRINCIPLES OF AGRICULTURAL MACHINERY",
@@ -28,106 +28,14 @@
         "unsatisfactory": 0
     },
     "description": "Engineering design principles of machines for the production, processing and handling of crops for food, fuel, bio-mass and fiber. Environmental and biological factors that influence machine design and operation. Economic and capacity analysis of machines and systems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in Biological Systems Engineering",
-                {
-                    "children": [
-                        "Mechanical Engineering",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Biological Systems Engineering or Mechanical Engineering and (",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "),  graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "Declared in Biological Systems Engineering or Mechanical Engineering and (M\u00a0E\u00a0240,E\u00a0M\u00a0A\u00a0202,PHYSICS\u00a0201,207, or247),  graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -138,24 +46,34 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 240,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 201,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 207,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 247,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -182,6 +100,12 @@
                 ]
             },
             {
+                "course_number": 201,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
                 "course_number": 207,
                 "subjects": [
                     "PHYSICS"
@@ -191,12 +115,6 @@
                 "course_number": 240,
                 "subjects": [
                     "ME"
-                ]
-            },
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
                 ]
             }
         ],
@@ -242,21 +160,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 461,
-            "subjects": [
-                "BSE"
-            ]
-        },
-        {
             "course_number": 249,
             "subjects": [
                 "BSE"
-            ]
-        },
-        {
-            "course_number": 140,
-            "subjects": [
-                "FISC"
             ]
         },
         {
@@ -268,8 +174,20 @@
         {
             "course_number": 476,
             "subjects": [
-                "BSE",
-                "ME"
+                "ME",
+                "BSE"
+            ]
+        },
+        {
+            "course_number": 140,
+            "subjects": [
+                "FISC"
+            ]
+        },
+        {
+            "course_number": 461,
+            "subjects": [
+                "BSE"
             ]
         }
     ],

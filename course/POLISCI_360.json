@@ -27,66 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "The intellectual origins and evolution of American political thought as seen through the lens of leading politicians, novelists and social critics from the Puritans to the Civil War; consideration of the central tensions of American political thought from a contemporary perspective. Not open to students with credit for POLI SCI 565 prior to fall 2017",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "POLI SCI 209 taken prior to fall 2017",
-                "graduate standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 160,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 205,
-                "subjects": [
-                    "ILS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 160,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 205,
-                "subjects": [
-                    "ILS"
-                ]
-            },
-            ") or (POLI SCI 209 taken prior to fall 2017) or graduate standing"
-        ],
-        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0160orILS\u00a0205) or (POLI SCI 209 taken prior to fall 2017) or graduate standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 160,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -96,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 160,
+                                    "subjects": [
+                                        "POLISCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 205,
+                                    "subjects": [
+                                        "ILS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -149,14 +101,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 834,
-            "subjects": [
-                "POLISCI",
-                "CLASSICS"
-            ]
-        },
-        {
-            "course_number": 160,
+            "course_number": 361,
             "subjects": [
                 "POLISCI"
             ]
@@ -174,7 +119,14 @@
             ]
         },
         {
-            "course_number": 361,
+            "course_number": 834,
+            "subjects": [
+                "CLASSICS",
+                "POLISCI"
+            ]
+        },
+        {
+            "course_number": 160,
             "subjects": [
                 "POLISCI"
             ]

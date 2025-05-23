@@ -27,127 +27,48 @@
         "unsatisfactory": 0
     },
     "description": "Special topics in physics at the intermediate undergraduate level.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 103,
+            "subjects": [
+                "PHYSICS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 103,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(PHYSICS\u00a0103,201,207or247) and (MATH\u00a0217or221)"
-    },
+        {
+            "course_number": 217,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 103,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 207,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 247,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -155,12 +76,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -170,7 +95,7 @@
         },
         "course_references": [
             {
-                "course_number": 247,
+                "course_number": 103,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -182,7 +107,13 @@
                 ]
             },
             {
-                "course_number": 207,
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 201,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -194,13 +125,7 @@
                 ]
             },
             {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 103,
+                "course_number": 207,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -261,9 +186,9 @@
             ]
         },
         {
-            "course_number": 602,
+            "course_number": 805,
             "subjects": [
-                "EP"
+                "PHYSICS"
             ]
         },
         {
@@ -273,13 +198,13 @@
             ]
         },
         {
-            "course_number": 406,
+            "course_number": 602,
             "subjects": [
-                "PHYSICS"
+                "EP"
             ]
         },
         {
-            "course_number": 805,
+            "course_number": 406,
             "subjects": [
                 "PHYSICS"
             ]

@@ -27,85 +27,42 @@
         "unsatisfactory": 0
     },
     "description": "Presents an introduction to Brownian motion and its application to stochastic calculus. Sample path properties of Brownian motion, Ito stochastic integrals, Ito's formula, stochastic differential equations and properties of their solutions, and various applications will be included.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                {
-                    "children": [
-                        "member of the Pre-Masters Mathematics",
-                        "Visiting International",
-                        "Program"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 521,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 632,
-                "subjects": [
-                    "ISYE",
-                    "OTM",
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 521,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 521,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 632,
-                "subjects": [
-                    "ISYE",
-                    "OTM",
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-        ],
-        "prerequisites_text": "(MATH\u00a0521andSTAT/\u200bI\u00a0SY\u00a0E/\u200bMATH/\u200bOTM\u00a0\u00a0632) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-    },
+        {
+            "course_number": 632,
+            "subjects": [
+                "STAT",
+                "MATH",
+                "ISYE",
+                "OTM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 521,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 632,
+                            "subjects": [
+                                "STAT",
+                                "MATH",
+                                "ISYE",
+                                "OTM"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -124,18 +81,18 @@
         },
         "course_references": [
             {
-                "course_number": 632,
-                "subjects": [
-                    "ISYE",
-                    "OTM",
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
                 "course_number": 521,
                 "subjects": [
                     "MATH"
+                ]
+            },
+            {
+                "course_number": 632,
+                "subjects": [
+                    "STAT",
+                    "MATH",
+                    "ISYE",
+                    "OTM"
                 ]
             }
         ],
@@ -151,10 +108,10 @@
             {
                 "course_number": 632,
                 "subjects": [
-                    "ISYE",
-                    "OTM",
+                    "STAT",
                     "MATH",
-                    "STAT"
+                    "ISYE",
+                    "OTM"
                 ]
             },
             ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
@@ -169,10 +126,9 @@
             ]
         },
         {
-            "course_number": 734,
+            "course_number": 531,
             "subjects": [
-                "MATH",
-                "STAT"
+                "MATH"
             ]
         },
         {
@@ -188,8 +144,9 @@
             ]
         },
         {
-            "course_number": 531,
+            "course_number": 734,
             "subjects": [
+                "STAT",
                 "MATH"
             ]
         }

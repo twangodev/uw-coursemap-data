@@ -29,63 +29,28 @@
         "unsatisfactory": 0
     },
     "description": "Economic theory (location and growth) applicable to community economic development; the role of private and public sector in local economic development, and techniques for economic analysis of community.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "ECON\u00a0301or311or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "ECON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "ECON"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "ECON"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -125,17 +90,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 734,
+            "course_number": 720,
             "subjects": [
-                "PUBAFFR",
-                "URBRPL",
-                "ECON"
-            ]
-        },
-        {
-            "course_number": 875,
-            "subjects": [
-                "REALEST"
+                "REALEST",
+                "URBRPL"
             ]
         },
         {
@@ -145,18 +103,25 @@
             ]
         },
         {
-            "course_number": 720,
+            "course_number": 734,
             "subjects": [
-                "REALEST",
-                "URBRPL"
+                "ECON",
+                "URBRPL",
+                "PUBAFFR"
             ]
         },
         {
             "course_number": 420,
             "subjects": [
+                "ECON",
                 "REALEST",
-                "URBRPL",
-                "ECON"
+                "URBRPL"
+            ]
+        },
+        {
+            "course_number": 875,
+            "subjects": [
+                "REALEST"
             ]
         }
     ],

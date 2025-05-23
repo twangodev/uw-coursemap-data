@@ -27,100 +27,48 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to the study of our Universe as a whole. Distribution of matter on the largest scales. Equations for cosmic expansion; making observations in an expanding curved spacetime. Nucleosynthesis and other tests of the Big Bang hypothesis. Gravitational collapse and the growth of structure.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 249,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 249,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or concurrent enrollment)"
-        ],
-        "prerequisites_text": "MATH\u00a0222and (PHYSICS\u00a0205,241, or249, or concurrent enrollment)"
-    },
+        {
+            "course_number": 241,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 205,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 241,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 249,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -130,6 +78,12 @@
             "operator": "AND"
         },
         "course_references": [
+            {
+                "course_number": 241,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
             {
                 "course_number": 222,
                 "subjects": [
@@ -144,12 +98,6 @@
             },
             {
                 "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 241,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -195,16 +143,16 @@
             ]
         },
         {
-            "course_number": 200,
+            "course_number": 160,
             "subjects": [
+                "GEOSCI",
                 "ASTRON"
             ]
         },
         {
-            "course_number": 160,
+            "course_number": 200,
             "subjects": [
-                "ASTRON",
-                "GEOSCI"
+                "ASTRON"
             ]
         },
         {

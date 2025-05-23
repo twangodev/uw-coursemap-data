@@ -1,10 +1,42 @@
 [
     {
         "data": {
+            "description": "Examines team dynamics, highlights key factors that influence team effectiveness, develops skills in diagnosing opportunities and threats that face teams, and enhances teamwork expertise. The content is applicable to projects across specializations. For instance, teamwork skills are essential to project teams developing new products/services, working on business strategy, implementing process improvements, designing new financial investment instruments, and developing real estate. In any of these projects, employees would work as a team to accomplish their goals. The team's success or failure will depend, to a large extent, on how the team members work together.",
+            "id": "MHR 706",
+            "parent": "MHR",
+            "title": "LEADING AND WORKING IN TEAMS"
+        }
+    },
+    {
+        "data": {
             "description": "Exploration of statistical inference and data analytics tools. Review of relevant foundations of statistics, machine learning and probability theory. Emphasis on applying the resulting concepts to canonical business examples, using both Excel and R.",
             "id": "GENBUS 704",
             "parent": "GENBUS",
             "title": "DATA TO DECISIONS"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to financial management of firms and investment decision making; both theory and practice are emphasized. Topics covered include the financial environment and securities markets, financial statements and analysis, working capital management and capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision making under uncertainty and selected topics such as mergers, options, futures.",
+            "id": "FINANCE 700",
+            "parent": "FINANCE",
+            "title": "INTRODUCTION TO FINANCIAL MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Management of operations throughout an organization or supply chain. Emphasizes the coordination of resources to improve cost, quality, and customer service. Topics include capacity and materials management, operations strategy, and process improvement.",
+            "id": "OTM 700",
+            "parent": "OTM",
+            "title": "OPERATIONS AND SUPPLY CHAIN MANAGEMENT"
+        }
+    },
+    {
+        "data": {
+            "description": "Measurement and reporting guidelines underlying preparation of general purpose financial statements. Explore current measurement and reporting issues. Analyze and interpret financial statement data for investment, lending, and related decisions.",
+            "id": "ACCTIS 700",
+            "parent": "ACCTIS",
+            "title": "FINANCIAL ACCOUNTING"
         }
     },
     {
@@ -25,6 +57,18 @@
     },
     {
         "data": {
+            "id": "ACCTIS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "FINANCE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "GENBUS",
             "type": "compound"
         }
@@ -37,6 +81,30 @@
     },
     {
         "data": {
+            "id": "MHR",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "OTM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 700",
+            "target": "GENBUS 725"
+        }
+    },
+    {
+        "data": {
+            "source": "FINANCE 700",
+            "target": "GENBUS 725"
+        }
+    },
+    {
+        "data": {
             "source": "GENBUS 704",
             "target": "GENBUS 725"
         }
@@ -44,6 +112,18 @@
     {
         "data": {
             "source": "MARKETNG 700",
+            "target": "GENBUS 725"
+        }
+    },
+    {
+        "data": {
+            "source": "MHR 706",
+            "target": "GENBUS 725"
+        }
+    },
+    {
+        "data": {
+            "source": "OTM 700",
             "target": "GENBUS 725"
         }
     }

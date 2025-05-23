@@ -28,44 +28,14 @@
         "unsatisfactory": 0
     },
     "description": "Emphasis on obtaining equations which define the behavior of physical systems frequently subjected to control; mechanical processing, fluid power, and thermal systems; analytical, experimental, and computer techniques. Knowledge of Automatic Controls [such asM\u00a0E\u00a0446or E C E 322] is required.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Graduate/professional standing.",
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "."
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 746,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing. Not open to students with credit for ",
-            {
-                "course_number": 746,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "Graduate/professional standing. Not open to students with credit forM\u00a0E\u00a0746."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 746,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -74,8 +44,10 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 746,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         "."
                     ],
@@ -118,12 +90,6 @@
             ]
         },
         {
-            "course_number": 746,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
             "course_number": 770,
             "subjects": [
                 "CBE"
@@ -134,6 +100,12 @@
             "subjects": [
                 "ME",
                 "ECE"
+            ]
+        },
+        {
+            "course_number": 746,
+            "subjects": [
+                "ME"
             ]
         }
     ],
@@ -201,8 +173,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "AGOSTINO RUSSO",
-                    "NICHOLAS NAGEL"
+                    "NICHOLAS NAGEL",
+                    "AGOSTINO RUSSO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

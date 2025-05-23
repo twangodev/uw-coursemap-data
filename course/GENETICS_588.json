@@ -27,81 +27,39 @@
         "unsatisfactory": 0
     },
     "description": "Explores the interaction between genetics and the immune system. Examines the genetic mechanisms that drive the immunological and clinical differences observed between individuals when confronted with the same environment of immunological insults, such as COVID-19, influenza, allergies and cancer. Stresses clinical and research perspectives and their societal implications.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "prerequisites_text": "GENETICS\u00a0466,467orBIOCORE\u00a0383"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 466,
+            "subjects": [
+                "GENETICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 466,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 467,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 383,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
             {
                 "course_number": 383,
                 "subjects": [
@@ -110,6 +68,12 @@
             },
             {
                 "course_number": 467,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
+                "course_number": 466,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -141,7 +105,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 708,
+            "course_number": 662,
             "subjects": [
                 "MDGENET",
                 "GENETICS"
@@ -158,20 +122,20 @@
         {
             "course_number": 849,
             "subjects": [
-                "ANSCI",
+                "GENETICS",
                 "POPHLTH",
-                "GENETICS"
+                "ANSCI"
             ]
         },
         {
-            "course_number": 565,
+            "course_number": 708,
             "subjects": [
                 "MDGENET",
                 "GENETICS"
             ]
         },
         {
-            "course_number": 662,
+            "course_number": 565,
             "subjects": [
                 "MDGENET",
                 "GENETICS"

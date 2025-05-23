@@ -27,43 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Economics of the nuclear fuel cycle. Economic and environmental impact of the nuclear fuel cycle. Impact on design, plant siting and regulation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 405,
-                "subjects": [
-                    "NE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 405,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "N\u00a0E\u00a0405, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 405,
+            "subjects": [
+                "NE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 405,
+                    "subjects": [
+                        "NE"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -91,12 +70,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 231,
-            "subjects": [
-                "NE"
-            ]
-        },
-        {
             "course_number": 234,
             "subjects": [
                 "NE"
@@ -109,18 +82,24 @@
             ]
         },
         {
+            "course_number": 671,
+            "subjects": [
+                "ECON",
+                "AAE",
+                "ENVIRST",
+                "URBRPL"
+            ]
+        },
+        {
             "course_number": 412,
             "subjects": [
                 "NE"
             ]
         },
         {
-            "course_number": 671,
+            "course_number": 231,
             "subjects": [
-                "AAE",
-                "ENVIRST",
-                "URBRPL",
-                "ECON"
+                "NE"
             ]
         }
     ],

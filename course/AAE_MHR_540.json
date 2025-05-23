@@ -28,59 +28,14 @@
         "unsatisfactory": 1
     },
     "description": "Uses economic concepts to illustrate the nature of technological innovation, competition, and economic growth. Topics: economics of the intellectual property protection (IPP); market structure and innovation; interaction between public and private sectors; IPP and anticompetitive policies; globalization.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Graduate/professional standing",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing and (",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Graduate/professional standing and (ECON\u00a0301or311)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "ECON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -88,12 +43,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 301,
+                            "subjects": [
+                                "ECON"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 311,
+                            "subjects": [
+                                "ECON"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -136,15 +95,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 715,
+            "course_number": 467,
             "subjects": [
-                "MHR"
+                "ECON"
             ]
         },
         {
-            "course_number": 601,
+            "course_number": 715,
             "subjects": [
-                "AAE"
+                "MHR"
             ]
         },
         {
@@ -160,9 +119,9 @@
             ]
         },
         {
-            "course_number": 467,
+            "course_number": 601,
             "subjects": [
-                "ECON"
+                "AAE"
             ]
         }
     ],

@@ -27,107 +27,68 @@
         "unsatisfactory": 0
     },
     "description": "A project-based introduction to the examination of user experience, and is oriented toward practical methods for approaching a design problem. The focus of the course is to develop conceptual design based on the needs of users. Students will receive grounding in user research methods, design sketching, and design validation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "ART"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 346,
-                "subjects": [
-                    "ART"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ART"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ART"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 107,
-                "subjects": [
-                    "ART"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 346,
-                "subjects": [
-                    "ART"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 438,
-                "subjects": [
-                    "ART"
-                ]
-            }
-        ],
-        "prerequisites_text": "(ART\u00a0102or107),ART\u00a0346and438"
-    },
+        {
+            "course_number": 346,
+            "subjects": [
+                "ART"
+            ]
+        },
+        {
+            "course_number": 438,
+            "subjects": [
+                "ART"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "ART"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 107,
+                            "subjects": [
+                                "ART"
+                            ]
                         }
                     ],
                     "operator": "OR"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 346,
+                    "subjects": [
+                        "ART"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 438,
+                    "subjects": [
+                        "ART"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ART"
+                ]
+            },
             {
                 "course_number": 107,
                 "subjects": [
@@ -142,12 +103,6 @@
             },
             {
                 "course_number": 438,
-                "subjects": [
-                    "ART"
-                ]
-            },
-            {
-                "course_number": 102,
                 "subjects": [
                     "ART"
                 ]
@@ -187,17 +142,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 612,
+            "course_number": 663,
             "subjects": [
-                "COMPSCI",
-                "LIS"
-            ]
-        },
-        {
-            "course_number": 611,
-            "subjects": [
-                "COMPSCI",
-                "LIS"
+                "ART"
             ]
         },
         {
@@ -207,15 +154,23 @@
             ]
         },
         {
-            "course_number": 663,
+            "course_number": 556,
             "subjects": [
                 "ART"
             ]
         },
         {
-            "course_number": 556,
+            "course_number": 612,
             "subjects": [
-                "ART"
+                "LIS",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 611,
+            "subjects": [
+                "LIS",
+                "COMPSCI"
             ]
         }
     ],

@@ -29,129 +29,52 @@
         "unsatisfactory": 3
     },
     "description": "Evolutionary biology, emphasizing how modern scientists study evolution. Topics include: nature and mechanisms of microevolution, macroevolution, adaptation, speciation; systematics and taxonomy; quantitative genetics and measurement of natural selection; phylogenetic analyses of behavior, physiology, morphology, biochemistry; current controversies in evolution.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "satisfied QR-A requirement"
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 105,
-                "subjects": [
-                    "ANTHRO"
-                ]
-            },
-            " and satisfied QR-A requirement), or graduate/professional standing"
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,BIOLOGY/\u200bBOTANY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152,BIOCORE\u00a0381, (ANTHRO\u00a0105and satisfied QR-A requirement), or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 381,
+            "subjects": [
+                "BIOCORE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 130,
+                    "subjects": [
+                        "BIOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 105,
+                            "subjects": [
+                                "ANTHRO"
+                            ]
                         },
                         "satisfied QR-A requirement"
                     ],
@@ -163,9 +86,16 @@
         },
         "course_references": [
             {
-                "course_number": 105,
+                "course_number": 130,
                 "subjects": [
-                    "ANTHRO"
+                    "BIOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
                 ]
             },
             {
@@ -173,12 +103,6 @@
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
                 ]
             },
             {
@@ -190,10 +114,9 @@
                 ]
             },
             {
-                "course_number": 130,
+                "course_number": 105,
                 "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
+                    "ANTHRO"
                 ]
             }
         ],
@@ -242,19 +165,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 541,
+            "course_number": 381,
             "subjects": [
-                "GEOSCI",
-                "ZOOLOGY"
-            ]
-        },
-        {
-            "course_number": 820,
-            "subjects": [
-                "ENTOM",
-                "GENETICS",
-                "ZOOLOGY",
-                "BOTANY"
+                "BIOCORE"
             ]
         },
         {
@@ -265,9 +178,12 @@
             ]
         },
         {
-            "course_number": 381,
+            "course_number": 820,
             "subjects": [
-                "BIOCORE"
+                "BOTANY",
+                "ZOOLOGY",
+                "ENTOM",
+                "GENETICS"
             ]
         },
         {
@@ -276,6 +192,13 @@
                 "BIOLOGY",
                 "ZOOLOGY",
                 "BOTANY"
+            ]
+        },
+        {
+            "course_number": 541,
+            "subjects": [
+                "GEOSCI",
+                "ZOOLOGY"
             ]
         }
     ],
@@ -848,8 +771,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "NATHAN ANDERSON",
-                    "Carol LEE"
+                    "Carol LEE",
+                    "NATHAN ANDERSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -874,8 +797,8 @@
                 "f": 1,
                 "incomplete": 2,
                 "instructors": [
-                    "KRISTOFER SASSER",
-                    "Jesse WEBER"
+                    "Jesse WEBER",
+                    "KRISTOFER SASSER"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -925,8 +848,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEREMY ABELS",
-                    "Jesse WEBER"
+                    "Jesse WEBER",
+                    "JEREMY ABELS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

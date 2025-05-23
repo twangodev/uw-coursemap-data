@@ -29,109 +29,42 @@
         "unsatisfactory": 0
     },
     "description": "Focuses on optimization problems over discrete structures, such as shortest paths, spanning trees, flows, matchings, and the traveling salesman problem. We will investigate structural properties of these problems, and we will study both exact methods for their solution, and approximation algorithms.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                {
-                    "children": [
-                        "member of the Pre-Masters Mathematics",
-                        "Visiting International",
-                        "Program"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-        ],
-        "prerequisites_text": "(MATH\u00a0320,340,341, or375) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 340,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 320,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 340,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 341,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 375,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -150,13 +83,13 @@
         },
         "course_references": [
             {
-                "course_number": 375,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
@@ -209,6 +142,22 @@
     },
     "similar_courses": [
         {
+            "course_number": 475,
+            "subjects": [
+                "STAT",
+                "MATH",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 524,
+            "subjects": [
+                "ECE",
+                "COMPSCI",
+                "ISYE"
+            ]
+        },
+        {
             "course_number": 728,
             "subjects": [
                 "MATH",
@@ -217,33 +166,17 @@
             ]
         },
         {
-            "course_number": 524,
+            "course_number": 787,
             "subjects": [
-                "COMPSCI",
-                "ISYE",
-                "ECE"
+                "COMPSCI"
             ]
         },
         {
             "course_number": 525,
             "subjects": [
+                "STAT",
                 "MATH",
                 "ISYE",
-                "COMPSCI",
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 475,
-            "subjects": [
-                "COMPSCI",
-                "MATH",
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 787,
-            "subjects": [
                 "COMPSCI"
             ]
         }

@@ -27,43 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Language use in African societies; multilingualism; language in politics, religion, socialization.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Junior standing",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 204,
-                "subjects": [
-                    "AFRICAN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing and ",
-            {
-                "course_number": 204,
-                "subjects": [
-                    "AFRICAN"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "Junior standing andAFRICAN\u00a0204, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 204,
+            "subjects": [
+                "AFRICAN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -71,8 +42,10 @@
                     "children": [
                         "Junior standing",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 204,
+                            "subjects": [
+                                "AFRICAN"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -103,19 +76,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 204,
-            "subjects": [
-                "AFRICAN"
-            ]
-        },
-        {
-            "course_number": 338,
-            "subjects": [
-                "AFRICAN"
-            ]
-        },
-        {
             "course_number": 206,
+            "subjects": [
+                "AFRICAN"
+            ]
+        },
+        {
+            "course_number": 407,
             "subjects": [
                 "AFRICAN"
             ]
@@ -127,7 +94,13 @@
             ]
         },
         {
-            "course_number": 407,
+            "course_number": 204,
+            "subjects": [
+                "AFRICAN"
+            ]
+        },
+        {
+            "course_number": 338,
             "subjects": [
                 "AFRICAN"
             ]

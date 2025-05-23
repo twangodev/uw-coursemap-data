@@ -27,84 +27,42 @@
         "unsatisfactory": 0
     },
     "description": "Collection and analysis of morphological, syntactic, and semantic data from a particular language, using one or more speakers as consultants.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 310,
+            "subjects": [
+                "LINGUIS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 322,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            },
-            {
-                "course_number": 330,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 310,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 322,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 330,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "LINGUIS\u00a0310and (LINGUIS\u00a0322or330)"
-    },
+        {
+            "course_number": 322,
+            "subjects": [
+                "LINGUIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 310,
+                    "subjects": [
+                        "LINGUIS"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 322,
+                            "subjects": [
+                                "LINGUIS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 330,
+                            "subjects": [
+                                "LINGUIS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -120,13 +78,13 @@
                 ]
             },
             {
-                "course_number": 322,
+                "course_number": 330,
                 "subjects": [
                     "LINGUIS"
                 ]
             },
             {
-                "course_number": 330,
+                "course_number": 322,
                 "subjects": [
                     "LINGUIS"
                 ]
@@ -159,13 +117,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 522,
+            "course_number": 426,
             "subjects": [
                 "LINGUIS"
             ]
         },
         {
-            "course_number": 800,
+            "course_number": 101,
+            "subjects": [
+                "LINGUIS"
+            ]
+        },
+        {
+            "course_number": 522,
             "subjects": [
                 "LINGUIS"
             ]
@@ -177,13 +141,7 @@
             ]
         },
         {
-            "course_number": 426,
-            "subjects": [
-                "LINGUIS"
-            ]
-        },
-        {
-            "course_number": 101,
+            "course_number": 800,
             "subjects": [
                 "LINGUIS"
             ]

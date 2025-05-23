@@ -27,93 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to the fundamental phonetic system and grammar of standard spoken Chinese along with 200 characters. Students with prior experience in the language are required to take a placement test administered by the department.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "E ASIAN 121 prior to Fall 2019"
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                "placement into",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not open to students with credit for",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                "E ASIAN 101",
-                                "122 prior to Fall 2019"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 110,
+            "subjects": [
+                "ASIALANG"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 110,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 110,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            " (E ASIAN 121 prior to Fall 2019) or placement into ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            ". Not open to students with credit for ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            " (or E ASIAN 101 or 122 prior to Fall 2019)"
-        ],
-        "prerequisites_text": "ASIALANG\u00a0110(E ASIAN 121 prior to Fall 2019) or placement intoASIALANG\u00a0111. Not open to students with credit forASIALANG\u00a0101(or E ASIAN 101 or 122 prior to Fall 2019)"
-    },
+        {
+            "course_number": 101,
+            "subjects": [
+                "ASIALANG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -122,8 +49,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 110,
+                                    "subjects": [
+                                        "ASIALANG"
+                                    ]
                                 },
                                 "E ASIAN 121 prior to Fall 2019"
                             ],
@@ -133,8 +62,10 @@
                             "children": [
                                 "placement into",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 111,
+                                    "subjects": [
+                                        "ASIALANG"
+                                    ]
                                 },
                                 "."
                             ],
@@ -149,8 +80,10 @@
                             "children": [
                                 "Not open to students with credit for",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "ASIALANG"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -170,13 +103,13 @@
         },
         "course_references": [
             {
-                "course_number": 110,
+                "course_number": 101,
                 "subjects": [
                     "ASIALANG"
                 ]
             },
             {
-                "course_number": 101,
+                "course_number": 110,
                 "subjects": [
                     "ASIALANG"
                 ]
@@ -221,7 +154,7 @@
             ]
         },
         {
-            "course_number": 110,
+            "course_number": 101,
             "subjects": [
                 "ASIALANG"
             ]
@@ -233,7 +166,7 @@
             ]
         },
         {
-            "course_number": 101,
+            "course_number": 110,
             "subjects": [
                 "ASIALANG"
             ]

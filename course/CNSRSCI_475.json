@@ -27,55 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "Analysis of the family as a unique economic unit in the changing American economy.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "prerequisites_text": "ECON\u00a0101or111"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "ECON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "ECON"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 111,
+                    "subjects": [
+                        "ECON"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -113,19 +86,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 830,
-            "subjects": [
-                "CNSRSCI"
-            ]
-        },
-        {
             "course_number": 748,
             "subjects": [
                 "CNSRSCI"
             ]
         },
         {
-            "course_number": 575,
+            "course_number": 273,
             "subjects": [
                 "CNSRSCI"
             ]
@@ -137,7 +104,13 @@
             ]
         },
         {
-            "course_number": 273,
+            "course_number": 830,
+            "subjects": [
+                "CNSRSCI"
+            ]
+        },
+        {
+            "course_number": 575,
             "subjects": [
                 "CNSRSCI"
             ]

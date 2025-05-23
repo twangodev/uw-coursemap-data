@@ -27,128 +27,56 @@
         "unsatisfactory": 0
     },
     "description": "A detailed introduction to the use of machine learning techniques in physics. Topics will include basics of probability theory and statistics, basics of function fitting and parameter inference, basics of optimization, and machine learning techniques.  A selection of physics topics that are particularly amenable to analysis using machine learning will be discussed. These might include processing collider data, classifying astronomical images, solving the Ising model, parameter estimation from physics data sets, learning physical probability distributions, finding string theory compactifications, and finding symbolic physical laws.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "MATH\u00a0234and (PHYSICS\u00a0104,202,208, or248), or graduate/professional standing"
-    },
+        {
+            "course_number": 248,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 104,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -162,9 +90,9 @@
         },
         "course_references": [
             {
-                "course_number": 234,
+                "course_number": 104,
                 "subjects": [
-                    "MATH"
+                    "PHYSICS"
                 ]
             },
             {
@@ -174,9 +102,9 @@
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 234,
                 "subjects": [
-                    "PHYSICS"
+                    "MATH"
                 ]
             },
             {
@@ -186,7 +114,7 @@
                 ]
             },
             {
-                "course_number": 104,
+                "course_number": 248,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -233,30 +161,16 @@
     },
     "similar_courses": [
         {
+            "course_number": 761,
+            "subjects": [
+                "ECE",
+                "COMPSCI"
+            ]
+        },
+        {
             "course_number": 361,
             "subjects": [
                 "CHEM"
-            ]
-        },
-        {
-            "course_number": 861,
-            "subjects": [
-                "COMPSCI",
-                "STAT",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 761,
-            "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 736,
-            "subjects": [
-                "PHYSICS"
             ]
         },
         {
@@ -264,6 +178,20 @@
             "subjects": [
                 "MEDPHYS",
                 "BME"
+            ]
+        },
+        {
+            "course_number": 861,
+            "subjects": [
+                "STAT",
+                "ECE",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 736,
+            "subjects": [
+                "PHYSICS"
             ]
         }
     ],
@@ -281,8 +209,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "MORITZ MUNCHMEYER",
-                    "Gary SHIU"
+                    "Gary SHIU",
+                    "MORITZ MUNCHMEYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

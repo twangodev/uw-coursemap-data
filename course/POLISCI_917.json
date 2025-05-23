@@ -27,74 +27,47 @@
         "unsatisfactory": 0
     },
     "description": "This course introduces students to time series methods and applications, including ARMA models, error corrections models and reduced form specifications. Course also discusses co-integration and fractional integration.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 812,
+            "subjects": [
+                "POLISCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 813,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 812,
-                "subjects": [
-                    "POLISCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 812,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 813,
-                "subjects": [
-                    "POLISCI"
-                ]
-            }
-        ],
-        "prerequisites_text": "POLI\u00a0SCI\u00a0812and813"
-    },
+        {
+            "course_number": 813,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 812,
+                    "subjects": [
+                        "POLISCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 813,
+                    "subjects": [
+                        "POLISCI"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 813,
+                "course_number": 812,
                 "subjects": [
                     "POLISCI"
                 ]
             },
             {
-                "course_number": 812,
+                "course_number": 813,
                 "subjects": [
                     "POLISCI"
                 ]
@@ -119,24 +92,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 718,
-            "subjects": [
-                "ECON"
-            ]
-        },
-        {
-            "course_number": 654,
-            "subjects": [
-                "ACTSCI"
-            ]
-        },
-        {
-            "course_number": 701,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
             "course_number": 349,
             "subjects": [
                 "STAT"
@@ -146,6 +101,24 @@
             "course_number": 460,
             "subjects": [
                 "ECON"
+            ]
+        },
+        {
+            "course_number": 718,
+            "subjects": [
+                "ECON"
+            ]
+        },
+        {
+            "course_number": 701,
+            "subjects": [
+                "STAT"
+            ]
+        },
+        {
+            "course_number": 654,
+            "subjects": [
+                "ACTSCI"
             ]
         }
     ],

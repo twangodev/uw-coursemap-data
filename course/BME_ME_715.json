@@ -28,74 +28,32 @@
         "unsatisfactory": 0
     },
     "description": "Central topics in solid mechanics applied to soft tissues, including analysis of strain in the setting of large deformations, computation of stress in multiple experimental loading configurations, constitutive modeling of biomaterials using hyperelastic strain-energy functions, modeling tissue growth and remodeling, and the main theories for soft tissue failure will be covered. Application of finite elasticity theory in practical laboratory situations, and key papers and concepts in soft tissue mechanics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "622 prior to Fall 2024"
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 615,
-                "subjects": [
-                    "ME",
-                    "BME"
-                ]
-            },
-            {
-                "course_number": 710,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 615,
-                "subjects": [
-                    "ME",
-                    "BME"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 710,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", or 622 prior to Fall 2024) and graduate/professional standing"
-        ],
-        "prerequisites_text": "(M\u00a0E/\u200bB\u00a0M\u00a0E\u00a0\u00a0615,E\u00a0M\u00a0A\u00a0710, or 622 prior to Fall 2024) and graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 615,
+            "subjects": [
+                "ME",
+                "BME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 615,
+                            "subjects": [
+                                "ME",
+                                "BME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 710,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         "622 prior to Fall 2024"
                     ],
@@ -149,10 +107,9 @@
             ]
         },
         {
-            "course_number": 541,
+            "course_number": 315,
             "subjects": [
-                "EMA",
-                "MS&E"
+                "BME"
             ]
         },
         {
@@ -170,9 +127,10 @@
             ]
         },
         {
-            "course_number": 315,
+            "course_number": 541,
             "subjects": [
-                "BME"
+                "EMA",
+                "MS&E"
             ]
         }
     ],

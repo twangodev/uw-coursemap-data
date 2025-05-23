@@ -27,47 +27,26 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to scripting for Geographic Information Science. Geoprocessing with open-source GIS utilities. Python scripting with ArcGIS and open-source libraries.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent enrollment",
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 377,
-                "subjects": [
-                    "CIVENGR",
-                    "ENVIRST",
-                    "GEOG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 377,
-                "subjects": [
-                    "ENVIRST",
-                    "CIVENGR",
-                    "GEOG"
-                ]
-            },
-            " or concurrent enrollment, or graduate/professional standing"
-        ],
-        "prerequisites_text": "CIV\u00a0ENGR/\u200bENVIR\u00a0ST/\u200bGEOG\u00a0\u00a0377or concurrent enrollment, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 377,
+            "subjects": [
+                "CIVENGR",
+                "ENVIRST",
+                "GEOG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 377,
+                    "subjects": [
+                        "CIVENGR",
+                        "ENVIRST",
+                        "GEOG"
+                    ]
                 },
                 "concurrent enrollment",
                 "graduate/professional standing"
@@ -88,8 +67,8 @@
             {
                 "course_number": 377,
                 "subjects": [
-                    "ENVIRST",
                     "CIVENGR",
+                    "ENVIRST",
                     "GEOG"
                 ]
             },
@@ -98,18 +77,6 @@
         "prerequisites_text": "CIV\u00a0ENGR/\u200bENVIR\u00a0ST/\u200bGEOG\u00a0\u00a0377or concurrent enrollment, or graduate/professional standing"
     },
     "similar_courses": [
-        {
-            "course_number": 576,
-            "subjects": [
-                "GEOG"
-            ]
-        },
-        {
-            "course_number": 579,
-            "subjects": [
-                "GEOG"
-            ]
-        },
         {
             "course_number": 573,
             "subjects": [
@@ -125,8 +92,20 @@
         {
             "course_number": 377,
             "subjects": [
-                "ENVIRST",
                 "CIVENGR",
+                "ENVIRST",
+                "GEOG"
+            ]
+        },
+        {
+            "course_number": 579,
+            "subjects": [
+                "GEOG"
+            ]
+        },
+        {
+            "course_number": 576,
+            "subjects": [
                 "GEOG"
             ]
         }
@@ -271,8 +250,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "ZEBULON THOMAS",
-                    "YUYING CHEN",
-                    "CARL SACK"
+                    "CARL SACK",
+                    "YUYING CHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -322,8 +301,8 @@
                 "f": 2,
                 "incomplete": 2,
                 "instructors": [
-                    "MICHAEL EGGEN",
                     "ZEBULON THOMAS",
+                    "MICHAEL EGGEN",
                     "SONG GAO"
                 ],
                 "no_credit": 0,
@@ -426,8 +405,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "ZEBULON THOMAS",
-                    "SONG GAO",
-                    "Randy Sincoular"
+                    "Randy Sincoular",
+                    "SONG GAO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -605,8 +584,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JAKE KRUSE",
-                    "ZEBULON THOMAS"
+                    "ZEBULON THOMAS",
+                    "JAKE KRUSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

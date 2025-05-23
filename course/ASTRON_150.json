@@ -27,68 +27,41 @@
         "unsatisfactory": 0
     },
     "description": "Intensively study selected topics of modern astronomy. Examples include missions to the planets, formation of stars and planets, end states of stellar evolution (supernovae, white dwarfs, pulsars, black holes), origin and evolution of the universe.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 103,
-                "subjects": [
-                    "ASTRON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 103,
-                "subjects": [
-                    "ASTRON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "ASTRON"
-                ]
-            }
-        ],
-        "prerequisites_text": "ASTRON\u00a0103orASTRON\u00a0104"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 103,
+            "subjects": [
+                "ASTRON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 103,
+                    "subjects": [
+                        "ASTRON"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 104,
+                    "subjects": [
+                        "ASTRON"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 103,
+                "course_number": 104,
                 "subjects": [
                     "ASTRON"
                 ]
             },
             {
-                "course_number": 104,
+                "course_number": 103,
                 "subjects": [
                     "ASTRON"
                 ]
@@ -113,7 +86,14 @@
     },
     "similar_courses": [
         {
-            "course_number": 460,
+            "course_number": 910,
+            "subjects": [
+                "PHYSICS",
+                "ASTRON"
+            ]
+        },
+        {
+            "course_number": 200,
             "subjects": [
                 "ASTRON"
             ]
@@ -125,16 +105,9 @@
             ]
         },
         {
-            "course_number": 200,
+            "course_number": 460,
             "subjects": [
                 "ASTRON"
-            ]
-        },
-        {
-            "course_number": 910,
-            "subjects": [
-                "ASTRON",
-                "PHYSICS"
             ]
         },
         {

@@ -3,8 +3,8 @@
         "course_number": 340,
         "subjects": [
             "AGRONOMY",
-            "HORT",
-            "BOTANY"
+            "BOTANY",
+            "HORT"
         ]
     },
     "course_title": "PLANT CELL CULTURE AND GENETIC ENGINEERING",
@@ -29,137 +29,21 @@
         "unsatisfactory": 0
     },
     "description": "Presents an overview of the techniques, biology and underlying theory of plant tissue culture, genetic engineering and genome editing. Overviews of research and commercial applications, and issues/challenges in the area of plant biotechnology are also covered.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 130,
+            "subjects": [
+                "BIOLOGY",
+                "BOTANY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 116,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "(BOTANY/\u200bBIOLOGY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152,ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0102, orBIOCORE\u00a0381) and (CHEM\u00a0104,109, or116), or graduate/professional standing"
-    },
+        {
+            "course_number": 104,
+            "subjects": [
+                "CHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -168,20 +52,32 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 130,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 152,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 102,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 381,
+                                    "subjects": [
+                                        "BIOCORE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -189,16 +85,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 104,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 109,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 116,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -211,6 +113,20 @@
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 102,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BIOLOGY",
+                    "BOTANY"
+                ]
+            },
             {
                 "course_number": 116,
                 "subjects": [
@@ -230,31 +146,17 @@
                 ]
             },
             {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
                 "course_number": 152,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY",
                     "BOTANY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
                 ]
             }
         ],
@@ -318,38 +220,38 @@
     },
     "similar_courses": [
         {
+            "course_number": 502,
+            "subjects": [
+                "HORT",
+                "AGRONOMY"
+            ]
+        },
+        {
             "course_number": 338,
             "subjects": [
-                "AGRONOMY",
-                "HORT"
-            ]
-        },
-        {
-            "course_number": 360,
-            "subjects": [
-                "AGRONOMY",
-                "HORT"
-            ]
-        },
-        {
-            "course_number": 550,
-            "subjects": [
-                "GENETICS",
-                "HORT"
+                "HORT",
+                "AGRONOMY"
             ]
         },
         {
             "course_number": 631,
             "subjects": [
-                "GENETICS",
-                "BIOCHEM"
+                "BIOCHEM",
+                "GENETICS"
             ]
         },
         {
-            "course_number": 502,
+            "course_number": 360,
             "subjects": [
-                "AGRONOMY",
-                "HORT"
+                "HORT",
+                "AGRONOMY"
+            ]
+        },
+        {
+            "course_number": 550,
+            "subjects": [
+                "HORT",
+                "GENETICS"
             ]
         }
     ],

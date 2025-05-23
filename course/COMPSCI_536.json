@@ -27,82 +27,41 @@
         "unsatisfactory": 8
     },
     "description": "Introduction to the theory and practice of compiler design. Comparison of features of several programming languages and their implications for implementation techniques. Several programming projects required.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "COMP SCI 367",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 354,
+            "subjects": [
+                "ECE",
+                "COMPSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 354,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 354,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            " and (COMP SCI 367 or ",
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ") or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0354and (COMP SCI 367 or400) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+        {
+            "course_number": 400,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 354,
+                            "subjects": [
+                                "ECE",
+                                "COMPSCI"
+                            ]
                         },
                         {
                             "children": [
                                 "COMP SCI 367",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 400,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -117,15 +76,15 @@
         },
         "course_references": [
             {
-                "course_number": 354,
+                "course_number": 400,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
+                    "COMPSCI"
                 ]
             },
             {
-                "course_number": 400,
+                "course_number": 354,
                 "subjects": [
+                    "ECE",
                     "COMPSCI"
                 ]
             }
@@ -134,8 +93,8 @@
             {
                 "course_number": 354,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
+                    "ECE",
+                    "COMPSCI"
                 ]
             },
             " and (COMP SCI 367 or ",
@@ -150,6 +109,12 @@
         "prerequisites_text": "E\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0354and (COMP SCI 367 or400) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
     },
     "similar_courses": [
+        {
+            "course_number": 704,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
         {
             "course_number": 200,
             "subjects": [
@@ -170,12 +135,6 @@
         },
         {
             "course_number": 368,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 704,
             "subjects": [
                 "COMPSCI"
             ]
@@ -595,9 +554,9 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "MOHAMMED ANSARI",
                     "MENGHUI WANG",
-                    "CHARLES FISCHER"
+                    "CHARLES FISCHER",
+                    "MOHAMMED ANSARI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -901,9 +860,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Aws ALBARGHOUTHI",
                     "XIN YU",
-                    "NICHOLAS SORENSON"
+                    "NICHOLAS SORENSON",
+                    "Aws ALBARGHOUTHI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -929,9 +888,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "Beck Hasti",
-                    "AORAN WU",
+                    "NICHOLAS SORENSON",
                     "EVAN WIREMAN",
-                    "NICHOLAS SORENSON"
+                    "AORAN WU"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -957,12 +916,12 @@
                 "incomplete": 0,
                 "instructors": [
                     "SADMAN SAKIB",
-                    "RAHUL KRISHNAN",
-                    "RITHIK JAIN",
-                    "JINLANG WANG",
                     "SHAAN NAGY",
+                    "LORIS D'ANTONI",
                     "Beck Hasti",
-                    "LORIS D'ANTONI"
+                    "RITHIK JAIN",
+                    "RAHUL KRISHNAN",
+                    "JINLANG WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -988,11 +947,11 @@
                 "incomplete": 0,
                 "instructors": [
                     "SADMAN SAKIB",
-                    "ROBERT NAGEL",
-                    "ANDREY YAO",
+                    "Beck Hasti",
                     "SAIKUMAR YADUGIRI",
+                    "ANDREY YAO",
                     "TING CAI",
-                    "Beck Hasti"
+                    "ROBERT NAGEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

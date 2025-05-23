@@ -27,93 +27,42 @@
         "unsatisfactory": 0
     },
     "description": "Experimental evaluation and analysis of performance of various energy conversion systems such as turbines, compressors, refrigerators, fans, and internal combustion engines.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 363,
+            "subjects": [
+                "ME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 368,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 363,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 364,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 363,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 364,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or concurrent enrollment) and (",
-            {
-                "course_number": 368,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or concurrent enrollment)"
-        ],
-        "prerequisites_text": "M\u00a0E\u00a0363and (M\u00a0E\u00a0364or concurrent enrollment) and (M\u00a0E\u00a0368or concurrent enrollment)"
-    },
+        {
+            "course_number": 364,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 368,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 363,
+                    "subjects": [
+                        "ME"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 364,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -122,8 +71,10 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 368,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -140,13 +91,13 @@
                 ]
             },
             {
-                "course_number": 363,
+                "course_number": 368,
                 "subjects": [
                     "ME"
                 ]
             },
             {
-                "course_number": 368,
+                "course_number": 363,
                 "subjects": [
                     "ME"
                 ]
@@ -185,15 +136,9 @@
             ]
         },
         {
-            "course_number": 471,
+            "course_number": 461,
             "subjects": [
                 "ME"
-            ]
-        },
-        {
-            "course_number": 361,
-            "subjects": [
-                "EPD"
             ]
         },
         {
@@ -203,9 +148,15 @@
             ]
         },
         {
-            "course_number": 461,
+            "course_number": 471,
             "subjects": [
                 "ME"
+            ]
+        },
+        {
+            "course_number": 361,
+            "subjects": [
+                "EPD"
             ]
         }
     ],
@@ -399,9 +350,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "DANNY AERTS",
                     "KEVIN MYERS",
                     "Tom KRUPENKIN",
-                    "DANNY AERTS",
                     "DANIEL O'CONNOR"
                 ],
                 "no_credit": 0,
@@ -452,8 +403,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Tom KRUPENKIN",
-                    "DANNY AERTS"
+                    "DANNY AERTS",
+                    "Tom KRUPENKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -629,8 +580,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Tom KRUPENKIN",
-                    "DANNY AERTS"
+                    "DANNY AERTS",
+                    "Tom KRUPENKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,70 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Studio presentation of Shakespearean drama with emphasis on language and verse structure; techniques for enhancing performances skills.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 240,
+            "subjects": [
+                "THEATRE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 350,
-                "subjects": [
-                    "THEATRE"
-                ]
-            },
-            {
-                "course_number": 240,
-                "subjects": [
-                    "THEATRE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "THEATRE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 350,
-                "subjects": [
-                    "THEATRE"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "THEATRE\u00a0240and350or graduate/professional standing"
-    },
+        {
+            "course_number": 350,
+            "subjects": [
+                "THEATRE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 240,
+                            "subjects": [
+                                "THEATRE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 350,
+                            "subjects": [
+                                "THEATRE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -133,13 +99,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 150,
+            "course_number": 250,
             "subjects": [
                 "THEATRE"
             ]
         },
         {
-            "course_number": 250,
+            "course_number": 220,
+            "subjects": [
+                "ENGL"
+            ]
+        },
+        {
+            "course_number": 150,
             "subjects": [
                 "THEATRE"
             ]
@@ -154,12 +126,6 @@
             "course_number": 550,
             "subjects": [
                 "THEATRE"
-            ]
-        },
-        {
-            "course_number": 220,
-            "subjects": [
-                "ENGL"
             ]
         }
     ],

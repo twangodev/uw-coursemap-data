@@ -27,110 +27,38 @@
         "unsatisfactory": 0
     },
     "description": "Study of the market for corporate control including mergers and tender offers. Motives for business combinations; impacts on security holders, managers, labor, economic efficiency; federal and state laws; offensive and defensive strategies. Term paper involving comprehensive analysis of issues.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "ECON",
+                "FINANCE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "FINANCE",
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 325,
-                "subjects": [
-                    "FINANCE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "FINANCE",
-                    "ECON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 700,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 325,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 635,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 725,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(FINANCE/\u200bECON\u00a0\u00a0300or700) and (FINANCE\u00a0325,635, or725)"
-    },
+        {
+            "course_number": 725,
+            "subjects": [
+                "FINANCE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "ECON",
+                                "FINANCE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 700,
+                            "subjects": [
+                                "FINANCE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -138,16 +66,22 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 325,
+                            "subjects": [
+                                "FINANCE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 635,
+                            "subjects": [
+                                "FINANCE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 725,
+                            "subjects": [
+                                "FINANCE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -156,25 +90,6 @@
             "operator": "AND"
         },
         "course_references": [
-            {
-                "course_number": 635,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            {
-                "course_number": 325,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            {
-                "course_number": 300,
-                "subjects": [
-                    "FINANCE",
-                    "ECON"
-                ]
-            },
             {
                 "course_number": 725,
                 "subjects": [
@@ -186,6 +101,25 @@
                 "subjects": [
                     "FINANCE"
                 ]
+            },
+            {
+                "course_number": 300,
+                "subjects": [
+                    "ECON",
+                    "FINANCE"
+                ]
+            },
+            {
+                "course_number": 635,
+                "subjects": [
+                    "FINANCE"
+                ]
+            },
+            {
+                "course_number": 325,
+                "subjects": [
+                    "FINANCE"
+                ]
             }
         ],
         "linked_requisite_text": [
@@ -193,8 +127,8 @@
             {
                 "course_number": 300,
                 "subjects": [
-                    "FINANCE",
-                    "ECON"
+                    "ECON",
+                    "FINANCE"
                 ]
             },
             " or ",
@@ -231,19 +165,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 325,
-            "subjects": [
-                "FINANCE"
-            ]
-        },
-        {
-            "course_number": 300,
-            "subjects": [
-                "FINANCE",
-                "ECON"
-            ]
-        },
-        {
             "course_number": 725,
             "subjects": [
                 "FINANCE"
@@ -256,7 +177,20 @@
             ]
         },
         {
+            "course_number": 300,
+            "subjects": [
+                "ECON",
+                "FINANCE"
+            ]
+        },
+        {
             "course_number": 971,
+            "subjects": [
+                "FINANCE"
+            ]
+        },
+        {
+            "course_number": 325,
             "subjects": [
                 "FINANCE"
             ]
@@ -328,8 +262,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KYRA HERMANS",
-                    "JAMES CHANDLER"
+                    "JAMES CHANDLER",
+                    "KYRA HERMANS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -379,8 +313,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JAMES CHANDLER",
-                    "ANDREW EISENHAUER"
+                    "ANDREW EISENHAUER",
+                    "JAMES CHANDLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

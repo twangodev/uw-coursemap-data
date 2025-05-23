@@ -27,122 +27,21 @@
         "unsatisfactory": 0
     },
     "description": "Quantitative description of electronic, optical, and magnetic structure-property relationships of materials. Strategies for the development of new materials and introduction to applications of these materials.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 350,
+            "subjects": [
+                "MS&E"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 351,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            {
-                "course_number": 350,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            {
-                "course_number": 235,
-                "subjects": [
-                    "PHYSICS",
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 350,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 351,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 235,
-                "subjects": [
-                    "PHYSICS",
-                    "ECE"
-                ]
-            },
-            "),  graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(M\u00a0S\u00a0&\u00a0E\u00a0350or351) and (PHYSICS\u00a0202,208,248, orE\u00a0C\u00a0E/\u200bPHYSICS\u00a0\u00a0235),  graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 235,
+            "subjects": [
+                "ECE",
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -151,12 +50,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 350,
+                                    "subjects": [
+                                        "MS&E"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 351,
+                                    "subjects": [
+                                        "MS&E"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -164,20 +67,29 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 235,
+                                    "subjects": [
+                                        "ECE",
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -204,14 +116,9 @@
                 ]
             },
             {
-                "course_number": 351,
+                "course_number": 235,
                 "subjects": [
-                    "MS&E"
-                ]
-            },
-            {
-                "course_number": 248,
-                "subjects": [
+                    "ECE",
                     "PHYSICS"
                 ]
             },
@@ -222,10 +129,15 @@
                 ]
             },
             {
-                "course_number": 235,
+                "course_number": 351,
                 "subjects": [
-                    "PHYSICS",
-                    "ECE"
+                    "MS&E"
+                ]
+            },
+            {
+                "course_number": 248,
+                "subjects": [
+                    "PHYSICS"
                 ]
             }
         ],
@@ -269,8 +181,8 @@
             {
                 "course_number": 235,
                 "subjects": [
-                    "PHYSICS",
-                    "ECE"
+                    "ECE",
+                    "PHYSICS"
                 ]
             },
             "),  graduate/professional standing, or member of Engineering Guest Students"
@@ -279,21 +191,21 @@
     },
     "similar_courses": [
         {
-            "course_number": 350,
-            "subjects": [
-                "MS&E"
-            ]
-        },
-        {
             "course_number": 756,
             "subjects": [
                 "MS&E"
             ]
         },
         {
-            "course_number": 351,
+            "course_number": 350,
             "subjects": [
                 "MS&E"
+            ]
+        },
+        {
+            "course_number": 466,
+            "subjects": [
+                "ECE"
             ]
         },
         {
@@ -303,9 +215,9 @@
             ]
         },
         {
-            "course_number": 466,
+            "course_number": 351,
             "subjects": [
-                "ECE"
+                "MS&E"
             ]
         }
     ],

@@ -27,151 +27,42 @@
         "unsatisfactory": 0
     },
     "description": "Agricultural and life scientists need to creatively apply physical, chemical, and biological principles to address technical, business, and environmental challenges. Many of these challenges involve numerical analyses, including the interpretation of large datasets. The fundamentals of computer coding using numerical software will be taught, using real-world data science challenges from the agricultural and life sciences.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "placement into",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 103,
+            "subjects": [
+                "CHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 115,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 115,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 114,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(CHEM\u00a0103,109, or115) and (MATH\u00a0112,114,217or placement intoMATH\u00a0211or221)"
-    },
+        {
+            "course_number": 211,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 103,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 109,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 115,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -179,30 +70,40 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 112,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 114,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 "placement into",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 211,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -212,13 +113,13 @@
         },
         "course_references": [
             {
-                "course_number": 114,
+                "course_number": 109,
                 "subjects": [
-                    "MATH"
+                    "CHEM"
                 ]
             },
             {
-                "course_number": 217,
+                "course_number": 112,
                 "subjects": [
                     "MATH"
                 ]
@@ -230,13 +131,7 @@
                 ]
             },
             {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 112,
+                "course_number": 217,
                 "subjects": [
                     "MATH"
                 ]
@@ -254,9 +149,15 @@
                 ]
             },
             {
-                "course_number": 109,
+                "course_number": 114,
                 "subjects": [
-                    "CHEM"
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 211,
+                "subjects": [
+                    "MATH"
                 ]
             }
         ],
@@ -323,9 +224,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 458,
+            "course_number": 405,
             "subjects": [
-                "F&WECOL"
+                "BSE"
             ]
         },
         {
@@ -335,7 +236,13 @@
             ]
         },
         {
-            "course_number": 405,
+            "course_number": 458,
+            "subjects": [
+                "F&WECOL"
+            ]
+        },
+        {
+            "course_number": 249,
             "subjects": [
                 "BSE"
             ]
@@ -344,12 +251,6 @@
             "course_number": 718,
             "subjects": [
                 "AAE"
-            ]
-        },
-        {
-            "course_number": 249,
-            "subjects": [
-                "BSE"
             ]
         }
     ],

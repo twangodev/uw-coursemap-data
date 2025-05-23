@@ -27,99 +27,44 @@
         "unsatisfactory": 0
     },
     "description": "Emphasizes the importance of coenzyme and cofactors of enzymes (i.e., vitamins and minerals) in biochemistry. All aspects of the biochemistry of coenzymes will be covered, including their biosynthesis as far as is known, the biochemical reactions they catalyze, their chemical and spectroscopic properties, and the mechanisms by which they facilitate biochemical reactions.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 345,
+            "subjects": [
+                "CHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 507,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 345,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 345,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 507,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ", or concurrent enrollment), or graduate/professional standing"
-        ],
-        "prerequisites_text": "CHEM\u00a0345and (BIOCHEM\u00a0501,507, or concurrent enrollment), or graduate/professional standing"
-    },
+        {
+            "course_number": 501,
+            "subjects": [
+                "BIOCHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 345,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 501,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 507,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -140,13 +85,13 @@
                 ]
             },
             {
-                "course_number": 501,
+                "course_number": 507,
                 "subjects": [
                     "BIOCHEM"
                 ]
             },
             {
-                "course_number": 507,
+                "course_number": 501,
                 "subjects": [
                     "BIOCHEM"
                 ]
@@ -179,16 +124,16 @@
     },
     "similar_courses": [
         {
-            "course_number": 501,
+            "course_number": 715,
             "subjects": [
-                "BIOCHEM"
+                "NUTRSCI"
             ]
         },
         {
             "course_number": 510,
             "subjects": [
-                "NUTRSCI",
-                "BIOCHEM"
+                "BIOCHEM",
+                "NUTRSCI"
             ]
         },
         {
@@ -198,15 +143,15 @@
             ]
         },
         {
-            "course_number": 715,
+            "course_number": 623,
             "subjects": [
                 "NUTRSCI"
             ]
         },
         {
-            "course_number": 623,
+            "course_number": 501,
             "subjects": [
-                "NUTRSCI"
+                "BIOCHEM"
             ]
         }
     ],
@@ -224,8 +169,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN FOX",
                     "GEORGE REED",
+                    "BRIAN FOX",
                     "PERRY A FREY"
                 ],
                 "no_credit": 0,
@@ -251,8 +196,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "BRIAN FOX",
-                    "GEORGE REED"
+                    "GEORGE REED",
+                    "BRIAN FOX"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -277,8 +222,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN FOX",
-                    "GEORGE REED"
+                    "GEORGE REED",
+                    "BRIAN FOX"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -303,8 +248,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN FOX",
-                    "GEORGE REED"
+                    "GEORGE REED",
+                    "BRIAN FOX"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -329,8 +274,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN FOX",
-                    "GEORGE REED"
+                    "GEORGE REED",
+                    "BRIAN FOX"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -430,9 +375,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN FOX",
+                    "Ivan RAYMENT",
                     "HAZEL HOLDEN",
-                    "Ivan RAYMENT"
+                    "BRIAN FOX"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -457,9 +402,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN FOX",
+                    "Ivan RAYMENT",
                     "HAZEL HOLDEN",
-                    "Ivan RAYMENT"
+                    "BRIAN FOX"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

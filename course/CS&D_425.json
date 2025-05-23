@@ -27,76 +27,46 @@
         "unsatisfactory": 0
     },
     "description": "Topics include hearing devices and technology, auditory rehabilitation principles and methods across the lifespan.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 201,
+            "subjects": [
+                "CS&D"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CS&D"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "CS&D"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "CS&D"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "CS&D"
-                ]
-            },
-            ", and ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CS&D"
-                ]
-            }
-        ],
-        "prerequisites_text": "CS&D\u00a0201,202, and320"
-    },
+        {
+            "course_number": 202,
+            "subjects": [
+                "CS&D"
+            ]
+        },
+        {
+            "course_number": 320,
+            "subjects": [
+                "CS&D"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 201,
+                    "subjects": [
+                        "CS&D"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "CS&D"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 320,
+                    "subjects": [
+                        "CS&D"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -147,7 +117,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 834,
+            "course_number": 320,
             "subjects": [
                 "CS&D"
             ]
@@ -171,7 +141,7 @@
             ]
         },
         {
-            "course_number": 320,
+            "course_number": 834,
             "subjects": [
                 "CS&D"
             ]
@@ -568,8 +538,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ALEXA ROZYCKI",
-                    "Carlos BENITEZ BARRERA"
+                    "Carlos BENITEZ BARRERA",
+                    "ALEXA ROZYCKI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

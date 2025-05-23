@@ -27,65 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Labor-management relations at the firm level including its evolution, characteristics and contemporary issues. Emphasis on analysis of the labor-management relationship through reference to theory and research on collective action, bargaining behavior and conflict resolution.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in the Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 305,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            {
-                "course_number": 705,
-                "subjects": [
-                    "MHR"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 305,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 705,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            "), or declared in the Business Exchange program"
-        ],
-        "prerequisites_text": "Sophomore standing and (M\u00a0H\u00a0R\u00a0305or705), or declared in the Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 305,
+            "subjects": [
+                "MHR"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -95,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 305,
+                                    "subjects": [
+                                        "MHR"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 705,
+                                    "subjects": [
+                                        "MHR"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -153,15 +106,9 @@
             ]
         },
         {
-            "course_number": 628,
+            "course_number": 728,
             "subjects": [
                 "MHR"
-            ]
-        },
-        {
-            "course_number": 745,
-            "subjects": [
-                "LAW"
             ]
         },
         {
@@ -171,9 +118,15 @@
             ]
         },
         {
-            "course_number": 728,
+            "course_number": 628,
             "subjects": [
                 "MHR"
+            ]
+        },
+        {
+            "course_number": 745,
+            "subjects": [
+                "LAW"
             ]
         }
     ],
@@ -341,8 +294,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANNA HALEY-LOCK",
-                    "Michael CHILDERS"
+                    "Michael CHILDERS",
+                    "ANNA HALEY-LOCK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

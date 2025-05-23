@@ -8,43 +8,23 @@
     "course_title": "CONTEMPORARY TOPICS",
     "cumulative_grade_data": null,
     "description": "An exploration of subject areas possibly to be introduced into the business curriculum.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Sophomore standing",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "OTM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "OTM"
-                ]
-            }
-        ],
-        "prerequisites_text": "Sophomore standing andOTM\u00a0300"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "OTM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Sophomore standing",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 300,
+                    "subjects": [
+                        "OTM"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -70,15 +50,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 365,
+            "course_number": 765,
             "subjects": [
-                "INTLBUS"
-            ]
-        },
-        {
-            "course_number": 365,
-            "subjects": [
-                "FINANCE"
+                "OTM"
             ]
         },
         {
@@ -88,9 +62,15 @@
             ]
         },
         {
-            "course_number": 765,
+            "course_number": 365,
             "subjects": [
-                "OTM"
+                "INTLBUS"
+            ]
+        },
+        {
+            "course_number": 365,
+            "subjects": [
+                "FINANCE"
             ]
         },
         {

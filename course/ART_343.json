@@ -27,65 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "Reviews common welding and metal fabrication techniques available to artists, including various welding processes, brazing techniques, torch work, cutting devices, bending methods, and finishing techniques.  Mild steel will be the primary material of exploration.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "declared in an Art graduate program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 244,
-                "subjects": [
-                    "ART"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 214,
-                "subjects": [
-                    "ART"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 244,
-                "subjects": [
-                    "ART"
-                ]
-            },
-            ") or declared in an Art graduate program"
-        ],
-        "prerequisites_text": "(ART\u00a0214or244) or declared in an Art graduate program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 244,
+            "subjects": [
+                "ART"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 214,
+                            "subjects": [
+                                "ART"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 244,
+                            "subjects": [
+                                "ART"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -129,6 +94,18 @@
     },
     "similar_courses": [
         {
+            "course_number": 544,
+            "subjects": [
+                "ART"
+            ]
+        },
+        {
+            "course_number": 944,
+            "subjects": [
+                "ART"
+            ]
+        },
+        {
             "course_number": 244,
             "subjects": [
                 "ART"
@@ -141,19 +118,7 @@
             ]
         },
         {
-            "course_number": 944,
-            "subjects": [
-                "ART"
-            ]
-        },
-        {
             "course_number": 644,
-            "subjects": [
-                "ART"
-            ]
-        },
-        {
-            "course_number": 544,
             "subjects": [
                 "ART"
             ]

@@ -27,108 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to heat and mass transfer fundamentals, including transport mechanisms of conduction, convection, radiation, diffusion and evaporation. Development of governing equations and boundary conditions with application to living systems, controlled environments, water systems, and food processing. Introduction to, and application of, finite-difference and finitevolume methods, including computational fluid dynamics (CFD).",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 361,
+            "subjects": [
+                "ME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            {
-                "course_number": 363,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 363,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "CIVENGR"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0361orCBE\u00a0310) and (M\u00a0E\u00a0363,CBE\u00a0320, orCIV\u00a0ENGR\u00a0310)"
-    },
+        {
+            "course_number": 320,
+            "subjects": [
+                "CBE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 361,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 310,
+                            "subjects": [
+                                "CBE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -136,16 +64,22 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 363,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 320,
+                            "subjects": [
+                                "CBE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 310,
+                            "subjects": [
+                                "CIVENGR"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -167,12 +101,6 @@
                 ]
             },
             {
-                "course_number": 310,
-                "subjects": [
-                    "CIVENGR"
-                ]
-            },
-            {
                 "course_number": 320,
                 "subjects": [
                     "CBE"
@@ -182,6 +110,12 @@
                 "course_number": 310,
                 "subjects": [
                     "CBE"
+                ]
+            },
+            {
+                "course_number": 310,
+                "subjects": [
+                    "CIVENGR"
                 ]
             }
         ],
@@ -233,7 +167,19 @@
             ]
         },
         {
+            "course_number": 249,
+            "subjects": [
+                "BSE"
+            ]
+        },
+        {
             "course_number": 364,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 564,
             "subjects": [
                 "ME"
             ]
@@ -242,18 +188,6 @@
             "course_number": 461,
             "subjects": [
                 "BSE"
-            ]
-        },
-        {
-            "course_number": 249,
-            "subjects": [
-                "BSE"
-            ]
-        },
-        {
-            "course_number": 564,
-            "subjects": [
-                "ME"
             ]
         }
     ],

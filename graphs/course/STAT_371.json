@@ -1,6 +1,22 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
             "id": "MATH 96",
             "parent": "MATH",
@@ -21,14 +37,6 @@
             "id": "MATH 211",
             "parent": "MATH",
             "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
@@ -70,13 +78,25 @@
     {
         "data": {
             "source": "MATH 112",
-            "target": "STAT 371"
+            "target": "MATH 113"
         }
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -88,25 +108,19 @@
     {
         "data": {
             "source": "MATH 211",
-            "target": "STAT 371"
+            "target": "STAT 324"
         }
     },
     {
         "data": {
-            "source": "MATH 213",
-            "target": "MATH 221"
+            "source": "MATH 211",
+            "target": "STAT 371"
         }
     },
     {
         "data": {
             "source": "MATH 221",
             "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "STAT 371"
         }
     },
     {

@@ -27,44 +27,24 @@
         "unsatisfactory": 0
     },
     "description": "Physics of clinical, computer-based radiotherapy planning is taught. Topics include dose algorithms, measurement data, commissioning, contouring and volume definition, beam placement, modifiers and apertures and plan evaluation. Forward based and inverse planning (including IMRT optimization) are taught.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 566,
-                "subjects": [
-                    "MEDPHYS",
-                    "BME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 566,
-                "subjects": [
-                    "MEDPHYS",
-                    "BME"
-                ]
-            },
-            " and graduate/professional standing"
-        ],
-        "prerequisites_text": "MED\u00a0PHYS/\u200bB\u00a0M\u00a0E\u00a0\u00a0566and graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 566,
+            "subjects": [
+                "MEDPHYS",
+                "BME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 566,
+                    "subjects": [
+                        "MEDPHYS",
+                        "BME"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -93,28 +73,16 @@
     },
     "similar_courses": [
         {
+            "course_number": 662,
+            "subjects": [
+                "MEDPHYS"
+            ]
+        },
+        {
             "course_number": 566,
             "subjects": [
                 "MEDPHYS",
                 "BME"
-            ]
-        },
-        {
-            "course_number": 770,
-            "subjects": [
-                "MEDPHYS"
-            ]
-        },
-        {
-            "course_number": 912,
-            "subjects": [
-                "HONCOL"
-            ]
-        },
-        {
-            "course_number": 662,
-            "subjects": [
-                "MEDPHYS"
             ]
         },
         {
@@ -124,6 +92,18 @@
                 "BME",
                 "HONCOL",
                 "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 912,
+            "subjects": [
+                "HONCOL"
+            ]
+        },
+        {
+            "course_number": 770,
+            "subjects": [
+                "MEDPHYS"
             ]
         }
     ],
@@ -168,8 +148,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "JENNIFER SMILOWITZ",
-                    "KARSTEN WAKE",
-                    "Dustin Jacqmin"
+                    "Dustin Jacqmin",
+                    "KARSTEN WAKE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -195,8 +175,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "JENNIFER SMILOWITZ",
-                    "Dustin Jacqmin",
-                    "LISETTE LEMERISE"
+                    "LISETTE LEMERISE",
+                    "Dustin Jacqmin"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

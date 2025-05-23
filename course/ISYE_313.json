@@ -8,73 +8,30 @@
     "course_title": "ENGINEERING ECONOMIC ANALYSIS",
     "cumulative_grade_data": null,
     "description": "Financial accounting principles and cost systems, interpretation and use of accounting reports and supplemental information for engineering economic analyses, consideration of cost-volume-profit analyses, use of discounted cash flow techniques, flexible budgeting, transfer pricing, and capital budgeting.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or concurrent enrollment), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(MATH\u00a0217,221, or concurrent enrollment), graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 217,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -120,12 +77,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 301,
-            "subjects": [
-                "ACCTIS"
-            ]
-        },
-        {
             "course_number": 310,
             "subjects": [
                 "BSE"
@@ -138,15 +89,21 @@
             ]
         },
         {
-            "course_number": 611,
-            "subjects": [
-                "EPD"
-            ]
-        },
-        {
             "course_number": 701,
             "subjects": [
                 "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 301,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 611,
+            "subjects": [
+                "EPD"
             ]
         }
     ],

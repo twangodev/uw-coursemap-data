@@ -27,70 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Properties and tests of materials used in the treatment and conveyance of water and air. Introduction to laboratory and field measurement techniques to assess material performance capabilities. Technical report preparation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 320,
+            "subjects": [
+                "CIVENGR"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CIVENGR"
-                ]
-            },
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CIVENGR"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "CIV\u00a0ENGR\u00a0320andE\u00a0M\u00a0A\u00a0201, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 201,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 320,
+                            "subjects": [
+                                "CIVENGR"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "EMA"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -101,15 +67,15 @@
         },
         "course_references": [
             {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
                 "course_number": 320,
                 "subjects": [
                     "CIVENGR"
+                ]
+            },
+            {
+                "course_number": 201,
+                "subjects": [
+                    "EMA"
                 ]
             }
         ],
@@ -139,6 +105,12 @@
             ]
         },
         {
+            "course_number": 822,
+            "subjects": [
+                "CIVENGR"
+            ]
+        },
+        {
             "course_number": 322,
             "subjects": [
                 "CIVENGR"
@@ -147,14 +119,8 @@
         {
             "course_number": 395,
             "subjects": [
-                "EMA",
-                "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 822,
-            "subjects": [
-                "CIVENGR"
+                "CIVENGR",
+                "EMA"
             ]
         },
         {

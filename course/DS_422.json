@@ -27,84 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Surveys the history of architecture, interiors, furnishings and decorative arts from the mid-19th to the mid-20th century. Introduction to major design cultures and movements, emphasizing the role of social, economic, political, technological, and aesthetic factors in the shaping design.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 421,
-                "subjects": [
-                    "DS"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "ARTHIST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 421,
-                "subjects": [
-                    "DS"
-                ]
-            },
-            " or (",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "ARTHIST"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "ARTHIST"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "DS\u00a0421or (ART\u00a0HIST\u00a0201and202)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 421,
+            "subjects": [
+                "DS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 421,
+                    "subjects": [
+                        "DS"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "ARTHIST"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 202,
+                            "subjects": [
+                                "ARTHIST"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -159,9 +111,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 152,
+            "course_number": 421,
             "subjects": [
-                "CIVENGR"
+                "DS"
+            ]
+        },
+        {
+            "course_number": 130,
+            "subjects": [
+                "DS"
             ]
         },
         {
@@ -171,9 +129,9 @@
             ]
         },
         {
-            "course_number": 421,
+            "course_number": 152,
             "subjects": [
-                "DS"
+                "CIVENGR"
             ]
         },
         {
@@ -181,12 +139,6 @@
             "subjects": [
                 "DS",
                 "ARTHIST"
-            ]
-        },
-        {
-            "course_number": 130,
-            "subjects": [
-                "DS"
             ]
         }
     ],

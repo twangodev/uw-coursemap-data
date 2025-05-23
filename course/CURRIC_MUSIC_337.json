@@ -28,63 +28,15 @@
         "unsatisfactory": 0
     },
     "description": "Observation and participation in K-12 music education settings.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Declared in Music: Education",
-                        "concurrent enrollment in",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 302,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            },
-            {
-                "course_number": 301,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Music: Education and concurrent enrollment in ",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 302,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            }
-        ],
-        "prerequisites_text": "Declared in Music: Education and concurrent enrollment inMUSIC/\u200bCURRIC\u00a0\u00a0301or302"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 302,
+            "subjects": [
+                "MUSIC",
+                "CURRIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -93,15 +45,21 @@
                         "Declared in Music: Education",
                         "concurrent enrollment in",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 301,
+                            "subjects": [
+                                "MUSIC",
+                                "CURRIC"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 302,
+                    "subjects": [
+                        "MUSIC",
+                        "CURRIC"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -144,14 +102,21 @@
     },
     "similar_courses": [
         {
-            "course_number": 409,
+            "course_number": 410,
             "subjects": [
                 "MUSIC",
                 "CURRIC"
             ]
         },
         {
-            "course_number": 410,
+            "course_number": 302,
+            "subjects": [
+                "MUSIC",
+                "CURRIC"
+            ]
+        },
+        {
+            "course_number": 409,
             "subjects": [
                 "MUSIC",
                 "CURRIC"
@@ -165,13 +130,6 @@
         },
         {
             "course_number": 301,
-            "subjects": [
-                "MUSIC",
-                "CURRIC"
-            ]
-        },
-        {
-            "course_number": 302,
             "subjects": [
                 "MUSIC",
                 "CURRIC"
@@ -192,11 +150,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RUTH ELAINE GURGEL",
-                    "TERYL DOBBS",
                     "REGINA HAUGEN",
                     "JULIA E KOZA",
-                    "RONALD PAUL KOS"
+                    "RONALD PAUL KOS",
+                    "RUTH ELAINE GURGEL",
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -222,9 +180,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "REGINA HAUGEN",
-                    "TERYL DOBBS",
+                    "DEBORAH BRADLEY",
                     "RONALD PAUL KOS",
-                    "DEBORAH BRADLEY"
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -249,11 +207,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RUTH ELAINE GURGEL",
-                    "TERYL DOBBS",
-                    "MELISSA WEIS",
+                    "REGINA HAUGEN",
                     "DEBORAH BRADLEY",
-                    "REGINA HAUGEN"
+                    "RUTH ELAINE GURGEL",
+                    "MELISSA WEIS",
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -278,10 +236,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TERYL DOBBS",
-                    "MELISSA WEIS",
                     "REGINA HAUGEN",
-                    "DEBORAH BRADLEY"
+                    "DEBORAH BRADLEY",
+                    "MELISSA WEIS",
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -306,8 +264,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ADAM G HARRY",
                     "RUTH ELAINE GURGEL",
+                    "ADAM G HARRY",
                     "MELISSA WEIS"
                 ],
                 "no_credit": 0,
@@ -334,8 +292,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "ADAM G HARRY",
-                    "TERYL DOBBS",
                     "MELISSA WEIS",
+                    "TERYL DOBBS",
                     "DEBORAH BRADLEY"
                 ],
                 "no_credit": 0,
@@ -361,12 +319,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANTHONY CAO",
                     "RUTH ELAINE GURGEL",
-                    "TERYL DOBBS",
                     "DEBORAH BRADLEY",
                     "JULIA E KOZA",
-                    "DANIEL ROSS"
+                    "DANIEL ROSS",
+                    "ANTHONY CAO",
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -391,9 +349,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TERYL DOBBS",
                     "DANIEL ROSS",
-                    "DEBORAH BRADLEY"
+                    "DEBORAH BRADLEY",
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -418,11 +376,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TERYL DOBBS",
-                    "JULIA E KOZA",
                     "ANGELA WELLMAN",
+                    "JULIA E KOZA",
                     "DANIEL ROSS",
-                    "KRISTEN MYERS"
+                    "KRISTEN MYERS",
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -447,9 +405,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "DANIEL ROSS",
                     "ANGELA WELLMAN",
-                    "TERYL DOBBS",
-                    "DANIEL ROSS"
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -474,10 +432,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT SCHOVILLE",
                     "TOBIN SHUCHA",
-                    "TERYL DOBBS",
-                    "JULIA E KOZA"
+                    "JULIA E KOZA",
+                    "ROBERT SCHOVILLE",
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -502,12 +460,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TERYL DOBBS",
-                    "RONALD GOLNER",
-                    "JULIA E KOZA",
-                    "ADAM G HARRY",
                     "ANGELA WELLMAN",
-                    "TOBIN SHUCHA"
+                    "TOBIN SHUCHA",
+                    "JULIA E KOZA",
+                    "RONALD GOLNER",
+                    "ADAM G HARRY",
+                    "TERYL DOBBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -532,8 +490,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANGELA WELLMAN",
-                    "LAUREN OGDEN"
+                    "LAUREN OGDEN",
+                    "ANGELA WELLMAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -558,8 +516,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT SCHOVILLE",
-                    "LAUREN OGDEN"
+                    "LAUREN OGDEN",
+                    "ROBERT SCHOVILLE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -762,8 +720,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT SCHOVILLE",
                     "JESS MULLEN",
+                    "ROBERT SCHOVILLE",
                     "EMMA JOY JAMPOLE"
                 ],
                 "no_credit": 0,
@@ -814,8 +772,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JESS MULLEN",
-                    "Walter Rich"
+                    "Walter Rich",
+                    "JESS MULLEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1017,8 +975,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Walter Rich",
-                    "MEGAN GULLONE"
+                    "MEGAN GULLONE",
+                    "Walter Rich"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1043,8 +1001,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "AMY LEWIS",
-                    "MEGAN GULLONE"
+                    "MEGAN GULLONE",
+                    "AMY LEWIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1094,9 +1052,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "EVAN METCALF",
                     "KRISTIN MILLER",
-                    "Walter Rich"
+                    "Walter Rich",
+                    "EVAN METCALF"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1121,9 +1079,9 @@
                 },
                 "last_taught_term": null,
                 "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
+                    "abbreviation": "D",
+                    "name": "Education",
+                    "url": "http://www.education.wisc.edu/"
                 },
                 "typically_offered": "Fall, Spring"
             },

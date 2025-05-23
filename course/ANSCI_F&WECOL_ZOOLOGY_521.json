@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 521,
         "subjects": [
-            "ANSCI",
             "F&WECOL",
-            "ZOOLOGY"
+            "ZOOLOGY",
+            "ANSCI"
         ]
     },
     "course_title": "BIRDS OF SOUTHERN WISCONSIN",
@@ -29,145 +29,65 @@
         "unsatisfactory": 1
     },
     "description": "Outdoor and indoor labs/lectures emphasizing identification of southern Wisconsin birds by sight and vocalization. Two required Saturday field trips in Southern Wisconsin.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, (BIOCORE\u00a0381and382), or graduate/professional standing"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 382,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -178,22 +98,23 @@
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 382,
+                "course_number": 381,
                 "subjects": [
                     "BIOCORE"
                 ]
             },
             {
-                "course_number": 381,
+                "course_number": 101,
                 "subjects": [
-                    "BIOCORE"
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             },
             {
@@ -205,10 +126,9 @@
                 ]
             },
             {
-                "course_number": 102,
+                "course_number": 382,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
+                    "BIOCORE"
                 ]
             }
         ],
@@ -257,16 +177,17 @@
     },
     "similar_courses": [
         {
-            "course_number": 424,
+            "course_number": 520,
             "subjects": [
-                "F&WECOL"
+                "F&WECOL",
+                "ZOOLOGY",
+                "ANSCI"
             ]
         },
         {
-            "course_number": 511,
+            "course_number": 424,
             "subjects": [
-                "ZOOLOGY",
-                "ENVIRST"
+                "F&WECOL"
             ]
         },
         {
@@ -276,17 +197,16 @@
             ]
         },
         {
-            "course_number": 401,
+            "course_number": 511,
             "subjects": [
-                "BOTANY"
+                "ENVIRST",
+                "ZOOLOGY"
             ]
         },
         {
-            "course_number": 520,
+            "course_number": 401,
             "subjects": [
-                "ANSCI",
-                "F&WECOL",
-                "ZOOLOGY"
+                "BOTANY"
             ]
         }
     ],
@@ -304,10 +224,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JAMES WILLIAM BURNHAM",
                     "DANIEL ALAN MARSCHALEK",
-                    "CRAIG BRABANT",
-                    "APRIL SANSOM"
+                    "APRIL SANSOM",
+                    "JAMES WILLIAM BURNHAM",
+                    "CRAIG BRABANT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -333,9 +253,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "DENNIS LORENZ",
+                    "CRAIG BRABANT",
                     "DANIEL ALAN MARSCHALEK",
                     "MARK BERRES",
-                    "CRAIG BRABANT",
                     "APRIL SANSOM"
                 ],
                 "no_credit": 0,
@@ -362,9 +282,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "DENNIS LORENZ",
+                    "CRAIG BRABANT",
                     "DANIEL ALAN MARSCHALEK",
                     "MARK BERRES",
-                    "CRAIG BRABANT",
                     "APRIL SANSOM"
                 ],
                 "no_credit": 0,
@@ -390,10 +310,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "CRAIG BRABANT",
                     "MATTHEW HAYES",
                     "DANIEL ALAN MARSCHALEK",
                     "MARK BERRES",
-                    "CRAIG BRABANT",
                     "APRIL SANSOM"
                 ],
                 "no_credit": 0,
@@ -444,10 +364,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANDREW CASSINI",
+                    "AMY ALSTAD",
                     "MATTHEW HAYES",
                     "MARK BERRES",
-                    "AMY ALSTAD",
+                    "ANDREW CASSINI",
                     "APRIL SANSOM"
                 ],
                 "no_credit": 0,
@@ -498,10 +418,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANDREW CASSINI",
+                    "AMY ALSTAD",
                     "MATTHEW HAYES",
                     "MARK BERRES",
-                    "AMY ALSTAD",
+                    "ANDREW CASSINI",
                     "REBECCA KIRBY"
                 ],
                 "no_credit": 0,
@@ -527,11 +447,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANDREW CASSINI",
-                    "MATTHEW HAYES",
                     "Anna Pidgeon",
-                    "REBECCA KIRBY",
-                    "PAUL SCHILKE"
+                    "MATTHEW HAYES",
+                    "PAUL SCHILKE",
+                    "ANDREW CASSINI",
+                    "REBECCA KIRBY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -556,11 +476,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "JAMES WILLIAM BURNHAM",
                     "MAIA PERSCHE",
                     "Anna Pidgeon",
-                    "ELENA WEST",
                     "KRISTIN BRUNK",
-                    "JAMES WILLIAM BURNHAM"
+                    "ELENA WEST"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -585,10 +505,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MAIA PERSCHE",
                     "COLLEEN MILLER",
-                    "Anna Pidgeon",
                     "ISABEL ROJAS-VIADA",
+                    "MAIA PERSCHE",
+                    "Anna Pidgeon",
                     "KRISTIN BRUNK"
                 ],
                 "no_credit": 0,
@@ -614,10 +534,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "JENNIFER SCHNEIDERMAN",
                     "MAIA PERSCHE",
-                    "Anna Pidgeon",
                     "PAUL SCHILKE",
-                    "JENNIFER SCHNEIDERMAN"
+                    "Anna Pidgeon"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -642,10 +562,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "EVAN WILSON",
-                    "Anna Pidgeon",
+                    "JENNIFER SCHNEIDERMAN",
                     "AMY SHIPLEY",
-                    "JENNIFER SCHNEIDERMAN"
+                    "Anna Pidgeon",
+                    "EVAN WILSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -670,10 +590,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ASHLEY OLAH",
                     "RYAN BURON",
+                    "PAUL SCHILKE",
                     "Anna Pidgeon",
-                    "PAUL SCHILKE"
+                    "ASHLEY OLAH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -698,11 +618,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "RYAN BURON",
-                    "Michael Menon",
                     "Anna Pidgeon",
+                    "Michael Menon",
                     "ASHLEY OLAH",
-                    "NICOLE GORDON"
+                    "NICOLE GORDON",
+                    "RYAN BURON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -727,11 +647,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RYAN BURON",
-                    "Michael Menon",
+                    "PAIGE WIRTH",
                     "Anna Pidgeon",
+                    "Michael Menon",
                     "SAMANTHA HELLE",
-                    "PAIGE WIRTH"
+                    "RYAN BURON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

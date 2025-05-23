@@ -27,119 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Medically important bacteria, emphasizing the process of pathogenesis and host/parasite interactions, as well as intervention strategies, immunity and genetics as they apply to the pathogens.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 381,
+            "subjects": [
+                "BIOCORE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), or ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "prerequisites_text": "(BIOCORE\u00a0381and382), (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152"
-    },
+        {
+            "course_number": 382,
+            "subjects": [
+                "BIOCORE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 382,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -147,41 +64,52 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 382,
+                "course_number": 381,
                 "subjects": [
                     "BIOCORE"
                 ]
             },
             {
-                "course_number": 381,
+                "course_number": 101,
                 "subjects": [
-                    "BIOCORE"
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             },
             {
@@ -193,10 +121,9 @@
                 ]
             },
             {
-                "course_number": 102,
+                "course_number": 382,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
+                    "BIOCORE"
                 ]
             }
         ],
@@ -245,25 +172,25 @@
     },
     "similar_courses": [
         {
-            "course_number": 677,
-            "subjects": [
-                "MM&I"
-            ]
-        },
-        {
-            "course_number": 554,
-            "subjects": [
-                "MM&I"
-            ]
-        },
-        {
             "course_number": 341,
             "subjects": [
                 "MM&I"
             ]
         },
         {
+            "course_number": 677,
+            "subjects": [
+                "MM&I"
+            ]
+        },
+        {
             "course_number": 740,
+            "subjects": [
+                "MM&I"
+            ]
+        },
+        {
+            "course_number": 554,
             "subjects": [
                 "MM&I"
             ]

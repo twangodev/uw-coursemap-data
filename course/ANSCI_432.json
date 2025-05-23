@@ -27,84 +27,39 @@
         "unsatisfactory": 0
     },
     "description": "Application of research findings in breeding, feeding, management and marketing to modernize production. Lab may include farm visits, practical exercises in testing changes, and \"tools\" used by producers.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ANSCI",
-                    "DYSCI"
-                ]
-            },
-            {
-                "course_number": 434,
-                "subjects": [
-                    "ANSCI",
-                    "DYSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ANSCI",
-                    "NUTRSCI",
-                    "DYSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ANSCI",
-                    "DYSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 434,
-                "subjects": [
-                    "ANSCI",
-                    "DYSCI"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "NUTR\u00a0SCI/\u200bAN\u00a0SCI/\u200bDY\u00a0SCI\u00a0\u00a0311,DY\u00a0SCI/\u200bAN\u00a0SCI\u00a0\u00a0361,DY\u00a0SCI/\u200bAN\u00a0SCI\u00a0\u00a0434, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 361,
+            "subjects": [
+                "DYSCI",
+                "ANSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "NUTRSCI",
+                        "DYSCI",
+                        "ANSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 361,
+                    "subjects": [
+                        "DYSCI",
+                        "ANSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 434,
+                    "subjects": [
+                        "DYSCI",
+                        "ANSCI"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -112,25 +67,25 @@
         },
         "course_references": [
             {
+                "course_number": 361,
+                "subjects": [
+                    "DYSCI",
+                    "ANSCI"
+                ]
+            },
+            {
                 "course_number": 311,
                 "subjects": [
-                    "ANSCI",
                     "NUTRSCI",
-                    "DYSCI"
+                    "DYSCI",
+                    "ANSCI"
                 ]
             },
             {
                 "course_number": 434,
                 "subjects": [
-                    "ANSCI",
-                    "DYSCI"
-                ]
-            },
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ANSCI",
-                    "DYSCI"
+                    "DYSCI",
+                    "ANSCI"
                 ]
             }
         ],
@@ -139,24 +94,24 @@
                 "course_number": 311,
                 "subjects": [
                     "ANSCI",
-                    "NUTRSCI",
-                    "DYSCI"
+                    "DYSCI",
+                    "NUTRSCI"
                 ]
             },
             ", ",
             {
                 "course_number": 361,
                 "subjects": [
-                    "ANSCI",
-                    "DYSCI"
+                    "DYSCI",
+                    "ANSCI"
                 ]
             },
             ", ",
             {
                 "course_number": 434,
                 "subjects": [
-                    "ANSCI",
-                    "DYSCI"
+                    "DYSCI",
+                    "ANSCI"
                 ]
             },
             ", or graduate/professional standing"
@@ -165,36 +120,36 @@
     },
     "similar_courses": [
         {
-            "course_number": 431,
+            "course_number": 635,
             "subjects": [
+                "MEDSC-V"
+            ]
+        },
+        {
+            "course_number": 370,
+            "subjects": [
+                "DYSCI",
                 "ANSCI"
             ]
         },
         {
             "course_number": 363,
             "subjects": [
-                "ANSCI",
-                "DYSCI"
+                "DYSCI",
+                "ANSCI"
+            ]
+        },
+        {
+            "course_number": 431,
+            "subjects": [
+                "ANSCI"
             ]
         },
         {
             "course_number": 102,
             "subjects": [
-                "ANSCI",
-                "DYSCI"
-            ]
-        },
-        {
-            "course_number": 370,
-            "subjects": [
-                "ANSCI",
-                "DYSCI"
-            ]
-        },
-        {
-            "course_number": 635,
-            "subjects": [
-                "MEDSC-V"
+                "DYSCI",
+                "ANSCI"
             ]
         }
     ],

@@ -27,113 +27,26 @@
         "unsatisfactory": 0
     },
     "description": "Fundamentals of electromagnetic induction and application to transformers and induction heating; Lorentz forces with a focus on the operation and control of DC and AC motors and linear actuators; electrical power conversion using power electronics for motor drives and direct power converters.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 376,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "), and ",
-            {
-                "course_number": 376,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ", or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(MATH\u00a0234or376), (PHYSICS\u00a0202,208, or248), andE\u00a0C\u00a0E\u00a0376, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 202,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 376,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -142,12 +55,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 234,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 376,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -155,23 +72,31 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 376,
+                            "subjects": [
+                                "ECE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -182,21 +107,27 @@
         },
         "course_references": [
             {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 234,
                 "subjects": [
-                    "PHYSICS"
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 376,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
                 ]
             },
             {
@@ -206,15 +137,9 @@
                 ]
             },
             {
-                "course_number": 376,
+                "course_number": 248,
                 "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 376,
-                "subjects": [
-                    "ECE"
+                    "PHYSICS"
                 ]
             }
         ],
@@ -267,7 +192,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 411,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
             "course_number": 711,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 355,
             "subjects": [
                 "ECE"
             ]
@@ -280,18 +217,6 @@
         },
         {
             "course_number": 712,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 355,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 411,
             "subjects": [
                 "ECE"
             ]
@@ -336,8 +261,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DA CHEN",
-                    "ROBERT LORENZ"
+                    "ROBERT LORENZ",
+                    "DA CHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -363,8 +288,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "HASSAN NIKKHAJOEI",
-                    "ROBERT LORENZ",
-                    "IAN PATRICK BROWN"
+                    "IAN PATRICK BROWN",
+                    "ROBERT LORENZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -415,8 +340,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT LORENZ",
-                    "NEAL CLEMENTS"
+                    "NEAL CLEMENTS",
+                    "ROBERT LORENZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -441,8 +366,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT LORENZ",
-                    "NEAL CLEMENTS"
+                    "NEAL CLEMENTS",
+                    "ROBERT LORENZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -467,8 +392,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT LORENZ",
-                    "NEAL CLEMENTS"
+                    "NEAL CLEMENTS",
+                    "ROBERT LORENZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

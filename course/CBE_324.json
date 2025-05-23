@@ -27,88 +27,52 @@
         "unsatisfactory": 0
     },
     "description": "Determination of thermodynamic properties, transport properties, and transfer coefficients; study of related phenomena.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent registration"
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 310,
+            "subjects": [
+                "CBE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "CBE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 310,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            " or concurrent registration), and ",
-            {
-                "course_number": 324,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "prerequisites_text": "CBE\u00a0310, (CBE\u00a0320or concurrent registration), andSTAT\u00a0324"
-    },
+        {
+            "course_number": 320,
+            "subjects": [
+                "CBE"
+            ]
+        },
+        {
+            "course_number": 324,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 310,
+                    "subjects": [
+                        "CBE"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 320,
+                            "subjects": [
+                                "CBE"
+                            ]
                         },
                         "concurrent registration"
                     ],
                     "operator": "OR"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 324,
+                    "subjects": [
+                        "STAT"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -121,13 +85,13 @@
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 310,
                 "subjects": [
                     "CBE"
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 320,
                 "subjects": [
                     "CBE"
                 ]
@@ -159,21 +123,21 @@
     },
     "similar_courses": [
         {
-            "course_number": 620,
-            "subjects": [
-                "CBE"
-            ]
-        },
-        {
             "course_number": 710,
             "subjects": [
                 "CBE"
             ]
         },
         {
-            "course_number": 331,
+            "course_number": 620,
             "subjects": [
-                "MS&E"
+                "CBE"
+            ]
+        },
+        {
+            "course_number": 320,
+            "subjects": [
+                "CBE"
             ]
         },
         {
@@ -183,9 +147,9 @@
             ]
         },
         {
-            "course_number": 320,
+            "course_number": 331,
             "subjects": [
-                "CBE"
+                "MS&E"
             ]
         }
     ],
@@ -203,10 +167,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "R CHAVEZ-CONTRERAS",
                     "KARL OLAF STUEN",
-                    "ZHEN YU LIU",
-                    "I-HSIN LIN"
+                    "I-HSIN LIN",
+                    "R CHAVEZ-CONTRERAS",
+                    "ZHEN YU LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -231,10 +195,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "R CHAVEZ-CONTRERAS",
-                    "SUNIL RAMKUMAR SUNKARA",
-                    "NICHOLAS L ABBOTT",
                     "JINLONG ZHANG",
+                    "R CHAVEZ-CONTRERAS",
+                    "NICHOLAS L ABBOTT",
+                    "SUNIL RAMKUMAR SUNKARA",
                     "ERIC CODNER"
                 ],
                 "no_credit": 0,
@@ -260,9 +224,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "I-HSIN LIN",
                     "R CHAVEZ-CONTRERAS",
-                    "ERIC CODNER",
-                    "I-HSIN LIN"
+                    "ERIC CODNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -287,9 +251,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "R CHAVEZ-CONTRERAS",
+                    "SEAN P DELCAMBRE",
                     "JIALI DU",
-                    "SEAN P DELCAMBRE"
+                    "R CHAVEZ-CONTRERAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -314,10 +278,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "R CHAVEZ-CONTRERAS",
-                    "ERIC CODNER",
                     "MARK TUCKER",
-                    "CLARIBEL ACEVEDO"
+                    "R CHAVEZ-CONTRERAS",
+                    "CLARIBEL ACEVEDO",
+                    "ERIC CODNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -367,11 +331,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHELLE WILSON",
                     "R CHAVEZ-CONTRERAS",
                     "XIAOJUN LIAN",
-                    "ERIC CODNER",
-                    "ELIF GURBUZ"
+                    "ELIF GURBUZ",
+                    "MICHELLE WILSON",
+                    "ERIC CODNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -396,10 +360,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ERIC CODNER",
                     "STEPHEN LINDSAY",
-                    "REBECCA LENNEN",
-                    "ADAM BRODERICK"
+                    "ADAM BRODERICK",
+                    "ERIC CODNER",
+                    "REBECCA LENNEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -424,11 +388,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "R CHAVEZ-CONTRERAS",
+                    "Xudong WANG",
                     "KATHERINE RAHLIN",
+                    "R CHAVEZ-CONTRERAS",
                     "AMRITAVA DAS",
-                    "ERIC CODNER",
-                    "Xudong WANG"
+                    "ERIC CODNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -453,9 +417,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ROHAN PRADHAN",
-                    "AMRITAVA DAS",
                     "KATHERINE RAHLIN",
+                    "AMRITAVA DAS",
+                    "ROHAN PRADHAN",
                     "MEI CHIA",
                     "ERIC CODNER"
                 ],
@@ -482,10 +446,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRANDON O'NEILL",
-                    "ERIC CODNER",
+                    "KATHERINE RAHLIN",
                     "NIKHIL PRADHAN",
-                    "KATHERINE RAHLIN"
+                    "BRANDON O'NEILL",
+                    "ERIC CODNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -510,10 +474,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ERIC CODNER",
                     "MARK POLITZ",
                     "ABHISHEK SHAH",
-                    "NIKHIL PRADHAN"
+                    "NIKHIL PRADHAN",
+                    "ERIC CODNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -539,9 +503,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "R CHAVEZ-CONTRERAS",
-                    "WAI KIT ONG",
                     "NIKHIL PRADHAN",
                     "Benjamin Wilson",
+                    "WAI KIT ONG",
                     "ERIC CODNER"
                 ],
                 "no_credit": 0,
@@ -617,8 +581,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ERIC CODNER",
-                    "NATASHA MALLETTE"
+                    "NATASHA MALLETTE",
+                    "ERIC CODNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -718,8 +682,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ERIC CODNER",
-                    "CHRISTIAN TORMOS"
+                    "CHRISTIAN TORMOS",
+                    "ERIC CODNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -744,11 +708,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ASHWIN SHEKAR",
-                    "HUGH PURDY",
                     "CHRISTIAN TORMOS",
                     "HUICHENG SHI",
-                    "YU YANG"
+                    "YU YANG",
+                    "ASHWIN SHEKAR",
+                    "HUGH PURDY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

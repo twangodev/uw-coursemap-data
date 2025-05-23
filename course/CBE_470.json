@@ -27,70 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "A systematic introduction to dynamic behavior and automatic control of industrial processes; lab includes instrumentation, measurement and control of process variables by using conventional hardware and real-time digital computers.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 326,
+            "subjects": [
+                "CBE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 430,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            {
-                "course_number": 326,
-                "subjects": [
-                    "CBE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 326,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 430,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            " or concurrent enrollment)"
-        ],
-        "prerequisites_text": "CBE\u00a0326and (CBE\u00a0430or concurrent enrollment)"
-    },
+        {
+            "course_number": 430,
+            "subjects": [
+                "CBE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 326,
+                    "subjects": [
+                        "CBE"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 430,
+                            "subjects": [
+                                "CBE"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -133,7 +99,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 424,
+            "course_number": 770,
             "subjects": [
                 "CBE"
             ]
@@ -152,13 +118,13 @@
             ]
         },
         {
-            "course_number": 450,
+            "course_number": 424,
             "subjects": [
                 "CBE"
             ]
         },
         {
-            "course_number": 770,
+            "course_number": 450,
             "subjects": [
                 "CBE"
             ]

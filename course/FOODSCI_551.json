@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Offers the opportunity to learn to produce fermented beverages and dairy products in laboratory and scalable production facilities. Designed to introduce the chemical and physical basis for development of specific characteristics associated with individual styles of products as well as analytical methods to qualify those characteristics. Enrollment limited to students 21 years of age or older",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent enrollment"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 550,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 550,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            },
-            " or concurrent enrollment"
-        ],
-        "prerequisites_text": "FOOD\u00a0SCI\u00a0550or concurrent enrollment"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 550,
+            "subjects": [
+                "FOODSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 550,
+                    "subjects": [
+                        "FOODSCI"
+                    ]
                 },
                 "concurrent enrollment"
             ],
@@ -89,15 +69,8 @@
     },
     "similar_courses": [
         {
-            "course_number": 550,
+            "course_number": 725,
             "subjects": [
-                "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 324,
-            "subjects": [
-                "MICROBIO",
                 "FOODSCI"
             ]
         },
@@ -108,13 +81,20 @@
             ]
         },
         {
-            "course_number": 378,
+            "course_number": 550,
             "subjects": [
                 "FOODSCI"
             ]
         },
         {
-            "course_number": 725,
+            "course_number": 324,
+            "subjects": [
+                "FOODSCI",
+                "MICROBIO"
+            ]
+        },
+        {
+            "course_number": 378,
             "subjects": [
                 "FOODSCI"
             ]

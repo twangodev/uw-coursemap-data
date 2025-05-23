@@ -28,102 +28,42 @@
         "unsatisfactory": 0
     },
     "description": "Capstone for future middle and high school teachers, drawing connections between higher mathematics and school mathematics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 421,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 461,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 421,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 461,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or concurrent enrollment)"
-        ],
-        "prerequisites_text": "(MATH\u00a0341,375, or421) and (MATH\u00a0461or concurrent enrollment)"
-    },
+        {
+            "course_number": 461,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 341,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 375,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 421,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -131,8 +71,10 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 461,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -143,7 +85,7 @@
         },
         "course_references": [
             {
-                "course_number": 461,
+                "course_number": 421,
                 "subjects": [
                     "MATH"
                 ]
@@ -155,13 +97,13 @@
                 ]
             },
             {
-                "course_number": 341,
+                "course_number": 461,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 421,
+                "course_number": 341,
                 "subjects": [
                     "MATH"
                 ]
@@ -202,25 +144,25 @@
     },
     "similar_courses": [
         {
-            "course_number": 494,
-            "subjects": [
-                "CURRIC"
-            ]
-        },
-        {
             "course_number": 497,
             "subjects": [
                 "CURRIC"
             ]
         },
         {
-            "course_number": 393,
+            "course_number": 370,
             "subjects": [
                 "CURRIC"
             ]
         },
         {
-            "course_number": 370,
+            "course_number": 494,
+            "subjects": [
+                "CURRIC"
+            ]
+        },
+        {
+            "course_number": 393,
             "subjects": [
                 "CURRIC"
             ]

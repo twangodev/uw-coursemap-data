@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Overview of physical processes of the atmosphere and its coupling to the ocean and land. Understanding its seasonal climatology and variability. Synthesis through application of junior AOS core dynamics and physics to quantitatively understand diabatic, transport, and dissipative processes. Examples include global warming, air-ocean coupling, ENSO, ozone hole, tropospheric water and chemistry issues, diurnal to interannual time scales.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 311,
+            "subjects": [
+                "ATMOCN"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            }
-        ],
-        "prerequisites_text": "ATM\u00a0OCN\u00a0311and340"
-    },
+        {
+            "course_number": 340,
+            "subjects": [
+                "ATMOCN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "ATMOCN"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 340,
+                    "subjects": [
+                        "ATMOCN"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -119,13 +92,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 801,
-            "subjects": [
-                "ATMOCN"
-            ]
-        },
-        {
-            "course_number": 310,
+            "course_number": 630,
             "subjects": [
                 "ATMOCN"
             ]
@@ -137,7 +104,13 @@
             ]
         },
         {
-            "course_number": 630,
+            "course_number": 801,
+            "subjects": [
+                "ATMOCN"
+            ]
+        },
+        {
+            "course_number": 310,
             "subjects": [
                 "ATMOCN"
             ]

@@ -27,86 +27,15 @@
         "unsatisfactory": 0
     },
     "description": "Theoretical explanations of criminal behavior. Measurement of crime and evaluation of criminological research. Current issues in criminology and crime-related public policy.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Junior standing",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 131,
-                "subjects": [
-                    "LEGALST",
-                    "SOC"
-                ]
-            },
-            {
-                "course_number": 210,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing or (",
-            {
-                "course_number": 131,
-                "subjects": [
-                    "LEGALST",
-                    "SOC"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 181,
-                "subjects": [
-                    "SOC"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 210,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Junior standing or (SOC/\u200bLEGAL\u00a0ST\u00a0\u00a0131,SOC\u00a0181,C&E\u00a0SOC/\u200bSOC\u00a0\u00a0210, or211)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 131,
+            "subjects": [
+                "SOC",
+                "LEGALST"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -114,20 +43,31 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 131,
+                            "subjects": [
+                                "SOC",
+                                "LEGALST"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 181,
+                            "subjects": [
+                                "SOC"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 210,
+                            "subjects": [
+                                "SOC",
+                                "C&ESOC"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 211,
+                            "subjects": [
+                                "SOC",
+                                "C&ESOC"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -137,23 +77,23 @@
         },
         "course_references": [
             {
-                "course_number": 211,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            {
                 "course_number": 131,
                 "subjects": [
-                    "LEGALST",
-                    "SOC"
+                    "SOC",
+                    "LEGALST"
                 ]
             },
             {
                 "course_number": 181,
                 "subjects": [
                     "SOC"
+                ]
+            },
+            {
+                "course_number": 211,
+                "subjects": [
+                    "SOC",
+                    "C&ESOC"
                 ]
             },
             {
@@ -169,8 +109,8 @@
             {
                 "course_number": 131,
                 "subjects": [
-                    "LEGALST",
-                    "SOC"
+                    "SOC",
+                    "LEGALST"
                 ]
             },
             ", ",
@@ -202,22 +142,11 @@
     },
     "similar_courses": [
         {
-            "course_number": 446,
+            "course_number": 425,
             "subjects": [
-                "SOC"
-            ]
-        },
-        {
-            "course_number": 131,
-            "subjects": [
-                "LEGALST",
-                "SOC"
-            ]
-        },
-        {
-            "course_number": 401,
-            "subjects": [
-                "PSYCH"
+                "SOC",
+                "GEN&WS",
+                "LEGALST"
             ]
         },
         {
@@ -227,11 +156,22 @@
             ]
         },
         {
-            "course_number": 425,
+            "course_number": 446,
             "subjects": [
-                "LEGALST",
+                "SOC"
+            ]
+        },
+        {
+            "course_number": 131,
+            "subjects": [
                 "SOC",
-                "GEN&WS"
+                "LEGALST"
+            ]
+        },
+        {
+            "course_number": 401,
+            "subjects": [
+                "PSYCH"
             ]
         }
     ],

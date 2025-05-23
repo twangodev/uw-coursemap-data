@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "A comprehensive survey of Polish literature and its historical background from 1863 to the present. Readings in Polish.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "Graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 470,
-                "subjects": [
-                    "SLAVIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 470,
-                "subjects": [
-                    "SLAVIC"
-                ]
-            },
-            " or Graduate/professional standing"
-        ],
-        "prerequisites_text": "SLAVIC\u00a0470or Graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 470,
+            "subjects": [
+                "SLAVIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 470,
+                    "subjects": [
+                        "SLAVIC"
+                    ]
                 },
                 "Graduate/professional standing"
             ],
@@ -89,15 +69,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 471,
+            "course_number": 470,
             "subjects": [
-                "LITTRANS"
-            ]
-        },
-        {
-            "course_number": 473,
-            "subjects": [
-                "LITTRANS"
+                "SLAVIC"
             ]
         },
         {
@@ -107,15 +81,21 @@
             ]
         },
         {
-            "course_number": 470,
+            "course_number": 471,
             "subjects": [
-                "SLAVIC"
+                "LITTRANS"
             ]
         },
         {
             "course_number": 215,
             "subjects": [
                 "SLAVIC",
+                "LITTRANS"
+            ]
+        },
+        {
+            "course_number": 473,
+            "subjects": [
                 "LITTRANS"
             ]
         }

@@ -27,101 +27,56 @@
         "unsatisfactory": 0
     },
     "description": "Discusses the tools helpful for financing new ventures, with emphasis on their applications. The course also helps students understand the institutional setting that has an impact on the financing conditions of new ventures.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "ECON",
+                "FINANCE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "FINANCE",
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "FINANCE",
-                    "ECON"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            },
-            ", and (",
-            {
-                "course_number": 213,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "FINANCE/\u200bECON\u00a0\u00a0300,ACCT\u00a0I\u00a0S\u00a0301, and (MATH\u00a0213or222)"
-    },
+        {
+            "course_number": 301,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 213,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 300,
+                    "subjects": [
+                        "ECON",
+                        "FINANCE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "ACCTIS"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 213,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -131,9 +86,9 @@
         },
         "course_references": [
             {
-                "course_number": 301,
+                "course_number": 222,
                 "subjects": [
-                    "ACCTIS"
+                    "MATH"
                 ]
             },
             {
@@ -145,14 +100,14 @@
             {
                 "course_number": 300,
                 "subjects": [
-                    "FINANCE",
-                    "ECON"
+                    "ECON",
+                    "FINANCE"
                 ]
             },
             {
-                "course_number": 222,
+                "course_number": 301,
                 "subjects": [
-                    "MATH"
+                    "ACCTIS"
                 ]
             }
         ],
@@ -160,8 +115,8 @@
             {
                 "course_number": 300,
                 "subjects": [
-                    "FINANCE",
-                    "ECON"
+                    "ECON",
+                    "FINANCE"
                 ]
             },
             ", ",
@@ -191,7 +146,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 325,
+            "course_number": 700,
             "subjects": [
                 "FINANCE"
             ]
@@ -199,8 +154,14 @@
         {
             "course_number": 300,
             "subjects": [
-                "FINANCE",
-                "ECON"
+                "ECON",
+                "FINANCE"
+            ]
+        },
+        {
+            "course_number": 422,
+            "subjects": [
+                "MHR"
             ]
         },
         {
@@ -210,15 +171,9 @@
             ]
         },
         {
-            "course_number": 700,
+            "course_number": 325,
             "subjects": [
                 "FINANCE"
-            ]
-        },
-        {
-            "course_number": 422,
-            "subjects": [
-                "MHR"
             ]
         }
     ],
@@ -461,8 +416,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JACK MEURER",
-                    ". SARADA"
+                    ". SARADA",
+                    "JACK MEURER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -487,8 +442,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    ". SARADA",
-                    "AKIO INO"
+                    "AKIO INO",
+                    ". SARADA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -590,8 +545,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    ". SARADA",
-                    "JOHN GROSSARDT"
+                    "JOHN GROSSARDT",
+                    ". SARADA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

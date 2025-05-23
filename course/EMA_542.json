@@ -27,87 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Kinematics and kinetics of plane and three-dimensional motion, Coriolis acceleration, general methods of linear and angular momentum, central force motion, gyrodynamics, generalized coordinates. Lagrange's equations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0M\u00a0A\u00a0202,M\u00a0E\u00a0240, orPHYSICS\u00a0311), graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 202,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 240,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 311,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -165,9 +114,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 202,
+            "course_number": 711,
             "subjects": [
-                "EMA"
+                "PHYSICS"
             ]
         },
         {
@@ -177,13 +126,7 @@
             ]
         },
         {
-            "course_number": 711,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 642,
+            "course_number": 202,
             "subjects": [
                 "EMA"
             ]
@@ -192,6 +135,12 @@
             "course_number": 240,
             "subjects": [
                 "ME"
+            ]
+        },
+        {
+            "course_number": 642,
+            "subjects": [
+                "EMA"
             ]
         }
     ],
@@ -559,8 +508,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "Fabian WALEFFE",
-                    "MATTHEW ALLEN"
+                    "MATTHEW ALLEN",
+                    "Fabian WALEFFE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

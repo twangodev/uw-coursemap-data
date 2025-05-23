@@ -27,66 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Critical evaluation of the sustainability of engineering projects, considering roles as designers, citizens, and collaborators in creating the infrastructure of the future. Consider the impact of climate change on sustainability, an urgent topic, through case studies in water supply, flood management, water quality, materials recovery and recycling, mobility, buildings and structures, and energy generation and distribution.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Junior standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing and (",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "Junior standing and (MATH\u00a0217or221), graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -96,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 217,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -149,21 +101,22 @@
     },
     "similar_courses": [
         {
+            "course_number": 495,
+            "subjects": [
+                "CIVENGR"
+            ]
+        },
+        {
             "course_number": 215,
             "subjects": [
                 "ENVIRST"
             ]
         },
         {
-            "course_number": 578,
+            "course_number": 421,
             "subjects": [
-                "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 495,
-            "subjects": [
-                "CIVENGR"
+                "CIVENGR",
+                "GLE"
             ]
         },
         {
@@ -173,9 +126,8 @@
             ]
         },
         {
-            "course_number": 421,
+            "course_number": 578,
             "subjects": [
-                "GLE",
                 "CIVENGR"
             ]
         }
@@ -194,9 +146,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Robert Montgomery",
                     "Derek Hungness",
-                    "Bu WANG"
+                    "Bu WANG",
+                    "Robert Montgomery"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

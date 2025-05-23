@@ -27,76 +27,49 @@
         "unsatisfactory": 0
     },
     "description": "Learn basic business statistical skills to comprehend business reports, and to calculate statistical findings from business data using Excel. Understand simple probability calculations and how to apply probability to specific business uncertainties. Build capability to use simple statistical models and tests to estimate business variables of interest, and learn about predictive relationships between variables. Become comfortable using Excel for data manipulation, data analytics, and data visualization. Apply statistical analysis to address business issues.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 112,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 106,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 106,
-                "subjects": [
-                    "GENBUS"
-                ]
-            }
-        ],
-        "prerequisites_text": "MATH\u00a0112andGEN\u00a0BUS\u00a0106"
-    },
+        {
+            "course_number": 106,
+            "subjects": [
+                "GENBUS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 112,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 106,
+                    "subjects": [
+                        "GENBUS"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 106,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            {
                 "course_number": 112,
                 "subjects": [
                     "MATH"
+                ]
+            },
+            {
+                "course_number": 106,
+                "subjects": [
+                    "GENBUS"
                 ]
             }
         ],
@@ -125,6 +98,12 @@
             ]
         },
         {
+            "course_number": 704,
+            "subjects": [
+                "GENBUS"
+            ]
+        },
+        {
             "course_number": 881,
             "subjects": [
                 "GENBUS"
@@ -132,12 +111,6 @@
         },
         {
             "course_number": 207,
-            "subjects": [
-                "GENBUS"
-            ]
-        },
-        {
-            "course_number": 704,
             "subjects": [
                 "GENBUS"
             ]

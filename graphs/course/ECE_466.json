@@ -1,6 +1,22 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "Experiments cover Kirchhoff's laws, inductors, basic operational amplifier circuits, and frequency response.",
             "id": "ECE 270",
             "parent": "ECE",
@@ -96,6 +112,14 @@
     },
     {
         "data": {
+            "description": "Continuation ofPHYSICS\u00a0207: calculus-based introduction to physics intended for students majoring in biological sciences. Electricity, magnetism, light, and modern physics.",
+            "id": "PHYSICS 208",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
+        }
+    },
+    {
+        "data": {
             "description": "Continuation ofPHYSICS\u00a0247. Electromagnetism, circuits, optics, additional topics in modern physics; with computation.",
             "id": "PHYSICS 248",
             "parent": "PHYSICS",
@@ -160,14 +184,6 @@
     },
     {
         "data": {
-            "description": "Introduction to physics at the non-calculus level. Principles of mechanics, heat, and waves, with applications to a number of different fields. Not recommended for students in the physical sciences and engineering.",
-            "id": "PHYSICS 103",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to some fundamental properties of semiconductor materials and devices through the use of characterization techniques common in modern electronic industry. These concepts include: charge carriers; energy bands; space charge regions; carrier drift, diffusion and recombination; light emission; and lattice vibrations.",
             "id": "ECE 305",
             "parent": "ECE",
@@ -180,6 +196,14 @@
             "id": "ECE 203",
             "parent": "ECE",
             "title": "SIGNALS, INFORMATION, AND COMPUTATION"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -204,22 +228,6 @@
             "id": "MATH 171",
             "parent": "MATH",
             "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics in multi-variable calculus and introduction to differential equations.",
-            "id": "MATH 376",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
@@ -279,6 +287,12 @@
     {
         "data": {
             "source": "ECE 230",
+            "target": "ECE 335"
+        }
+    },
+    {
+        "data": {
+            "source": "ECE 230",
             "target": "ECE 340"
         }
     },
@@ -308,12 +322,6 @@
     },
     {
         "data": {
-            "source": "ECE 335",
-            "target": "ECE 466"
-        }
-    },
-    {
-        "data": {
             "source": "ECE 340",
             "target": "ECE 271"
         }
@@ -322,6 +330,36 @@
         "data": {
             "source": "ECE/PHYSICS 235",
             "target": "ECE 335"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 171"
         }
     },
     {
@@ -345,7 +383,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -368,6 +406,36 @@
     },
     {
         "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 201"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 202"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 207"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "ECE 230"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "ECE/PHYSICS 235"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 222",
             "target": "MATH 234"
         }
@@ -386,32 +454,14 @@
     },
     {
         "data": {
-            "source": "MATH 375",
-            "target": "MATH 376"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "PHYSICS 248"
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {
         "data": {
             "source": "MATH 96",
             "target": "MATH 171"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 103",
-            "target": "PHYSICS 202"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
-            "target": "PHYSICS 103"
         }
     },
     {
@@ -435,13 +485,7 @@
     {
         "data": {
             "source": "PHYSICS 202",
-            "target": "ECE 230"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 202",
-            "target": "ECE/PHYSICS 235"
+            "target": "PHYSICS 208"
         }
     },
     {
@@ -452,8 +496,14 @@
     },
     {
         "data": {
-            "source": "PHYSICS 247",
-            "target": "PHYSICS 103"
+            "source": "PHYSICS 207",
+            "target": "PHYSICS 208"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 208",
+            "target": "PHYSICS 202"
         }
     },
     {

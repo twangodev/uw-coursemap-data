@@ -28,44 +28,24 @@
         "unsatisfactory": 0
     },
     "description": "Hands-on turf establishment, cool- and warm-season grass, seed and weed identification, chemical application, and turf cultivation techniques and equipment use, plus field trips to major league sport facilities and golf courses.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent enrollment"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 261,
-                "subjects": [
-                    "PLPATH",
-                    "HORT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 261,
-                "subjects": [
-                    "PLPATH",
-                    "HORT"
-                ]
-            },
-            " or concurrent enrollment"
-        ],
-        "prerequisites_text": "PL\u00a0PATH/\u200bHORT\u00a0\u00a0261or concurrent enrollment"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 261,
+            "subjects": [
+                "PLPATH",
+                "HORT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 261,
+                    "subjects": [
+                        "PLPATH",
+                        "HORT"
+                    ]
                 },
                 "concurrent enrollment"
             ],
@@ -94,14 +74,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 332,
+            "course_number": 119,
             "subjects": [
-                "HORT",
-                "SOILSCI"
+                "FISC"
             ]
         },
         {
-            "course_number": 124,
+            "course_number": 122,
             "subjects": [
                 "FISC"
             ]
@@ -114,15 +93,16 @@
             ]
         },
         {
-            "course_number": 119,
+            "course_number": 124,
             "subjects": [
                 "FISC"
             ]
         },
         {
-            "course_number": 122,
+            "course_number": 332,
             "subjects": [
-                "FISC"
+                "SOILSCI",
+                "HORT"
             ]
         }
     ],
@@ -165,8 +145,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Paul Koch",
-                    "DOUGLAS SOLDAT"
+                    "DOUGLAS SOLDAT",
+                    "Paul Koch"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

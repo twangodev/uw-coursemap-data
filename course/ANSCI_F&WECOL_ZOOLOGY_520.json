@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 520,
         "subjects": [
-            "ANSCI",
             "F&WECOL",
-            "ZOOLOGY"
+            "ZOOLOGY",
+            "ANSCI"
         ]
     },
     "course_title": "ORNITHOLOGY",
@@ -29,145 +29,65 @@
         "unsatisfactory": 2
     },
     "description": "Introduction to bird biology, ecology, and behavior. Topics include the evolutionary origin of birds and flight, anatomy and physiology, functional morphology, migration, communication, reproductive strategies, ecological adaptations and roles, and biogeographical patterns.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, (BIOCORE\u00a0381and382), or graduate/professional standing"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 382,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -178,22 +98,23 @@
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 382,
+                "course_number": 381,
                 "subjects": [
                     "BIOCORE"
                 ]
             },
             {
-                "course_number": 381,
+                "course_number": 101,
                 "subjects": [
-                    "BIOCORE"
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             },
             {
@@ -205,10 +126,9 @@
                 ]
             },
             {
-                "course_number": 102,
+                "course_number": 382,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
+                    "BIOCORE"
                 ]
             }
         ],
@@ -270,6 +190,14 @@
             ]
         },
         {
+            "course_number": 152,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
+        },
+        {
             "course_number": 410,
             "subjects": [
                 "ANTHRO",
@@ -281,14 +209,6 @@
             "course_number": 401,
             "subjects": [
                 "F&WECOL"
-            ]
-        },
-        {
-            "course_number": 152,
-            "subjects": [
-                "BIOLOGY",
-                "ZOOLOGY",
-                "BOTANY"
             ]
         }
     ],
@@ -506,11 +426,11 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "ANDREW CASSINI",
-                    "MATTHEW HAYES",
                     "Anna Pidgeon",
-                    "REBECCA KIRBY",
-                    "PAUL SCHILKE"
+                    "MATTHEW HAYES",
+                    "PAUL SCHILKE",
+                    "ANDREW CASSINI",
+                    "REBECCA KIRBY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,123 +27,56 @@
         "unsatisfactory": 0
     },
     "description": "Solution of engineering problems using commercially-available software tools (spreadsheets, symbolic manipulators, and equation solvers). The emphasis will be on nuclear engineering problems, including radioactive decay, nuclear cross sections, scattering, and criticality.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or concurrent enrollment) or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "MATH\u00a0222and (E\u00a0M\u00a0A\u00a0201,PHYSICS\u00a0201,207,247, or concurrent enrollment) or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 201,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 201,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 201,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 207,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 247,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -164,13 +97,7 @@
                 ]
             },
             {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 207,
+                "course_number": 201,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -182,9 +109,15 @@
                 ]
             },
             {
-                "course_number": 201,
+                "course_number": 207,
                 "subjects": [
                     "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
                 ]
             }
         ],
@@ -229,16 +162,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 291,
+            "course_number": 471,
             "subjects": [
-                "GLE",
-                "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 231,
-            "subjects": [
-                "NE"
+                "EP",
+                "EMA"
             ]
         },
         {
@@ -248,10 +175,16 @@
             ]
         },
         {
-            "course_number": 471,
+            "course_number": 291,
             "subjects": [
-                "EMA",
-                "EP"
+                "CIVENGR",
+                "GLE"
+            ]
+        },
+        {
+            "course_number": 231,
+            "subjects": [
+                "NE"
             ]
         },
         {

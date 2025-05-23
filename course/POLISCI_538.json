@@ -8,71 +8,14 @@
     "course_title": "POLITICS AND POLICIES IN THE EUROPEAN UNION",
     "cumulative_grade_data": null,
     "description": "An advanced undergraduate seminar on the European Union that introduces students to the academic literature on EU politics and current debates in the field of EU studies. Topics covered include political institutions, decision- and policy-making, parties, elections, interest representation, political contestation, public opinion, enlargement, the \"democratic deficit,\" and current events- most importantly the ongoing Euro crisis.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "POLI SCI 106",
-                        "186 prior to fall 2017"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 182,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 120,
-                "subjects": [
-                    "POLISCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 120,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 182,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            ") or (POLI SCI 106 or 186 prior to fall 2017)"
-        ],
-        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0120or182) or (POLI SCI 106 or 186 prior to fall 2017)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 120,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -82,12 +25,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 120,
+                                    "subjects": [
+                                        "POLISCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 182,
+                                    "subjects": [
+                                        "POLISCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -107,13 +54,13 @@
         },
         "course_references": [
             {
-                "course_number": 182,
+                "course_number": 120,
                 "subjects": [
                     "POLISCI"
                 ]
             },
             {
-                "course_number": 120,
+                "course_number": 182,
                 "subjects": [
                     "POLISCI"
                 ]
@@ -140,12 +87,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 340,
-            "subjects": [
-                "POLISCI"
-            ]
-        },
-        {
             "course_number": 332,
             "subjects": [
                 "POLISCI"
@@ -158,13 +99,19 @@
             ]
         },
         {
-            "course_number": 461,
+            "course_number": 948,
             "subjects": [
                 "POLISCI"
             ]
         },
         {
-            "course_number": 948,
+            "course_number": 340,
+            "subjects": [
+                "POLISCI"
+            ]
+        },
+        {
+            "course_number": 461,
             "subjects": [
                 "POLISCI"
             ]

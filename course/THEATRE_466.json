@@ -27,63 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Detailed study of lighting design techniques and professional practices for commercial and resident theatres.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 366,
+            "subjects": [
+                "THEATRE",
+                "ART"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 366,
-                "subjects": [
-                    "THEATRE",
-                    "ART"
-                ]
-            },
-            {
-                "course_number": 370,
-                "subjects": [
-                    "THEATRE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 366,
-                "subjects": [
-                    "THEATRE",
-                    "ART"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 370,
-                "subjects": [
-                    "THEATRE"
-                ]
-            }
-        ],
-        "prerequisites_text": "THEATRE/\u200bART\u00a0\u00a0366andTHEATRE\u00a0370"
-    },
+        {
+            "course_number": 370,
+            "subjects": [
+                "THEATRE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 366,
+                    "subjects": [
+                        "THEATRE",
+                        "ART"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 370,
+                    "subjects": [
+                        "THEATRE"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -129,13 +102,7 @@
             ]
         },
         {
-            "course_number": 222,
-            "subjects": [
-                "THEATRE"
-            ]
-        },
-        {
-            "course_number": 366,
+            "course_number": 572,
             "subjects": [
                 "THEATRE",
                 "ART"
@@ -148,10 +115,16 @@
             ]
         },
         {
-            "course_number": 572,
+            "course_number": 366,
             "subjects": [
                 "THEATRE",
                 "ART"
+            ]
+        },
+        {
+            "course_number": 222,
+            "subjects": [
+                "THEATRE"
             ]
         }
     ],

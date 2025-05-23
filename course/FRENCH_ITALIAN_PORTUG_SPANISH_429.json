@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 429,
         "subjects": [
-            "SPANISH",
             "PORTUG",
             "ITALIAN",
+            "SPANISH",
             "FRENCH"
         ]
     },
@@ -30,102 +30,45 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to structural similarities and differences apparent in major Romance languages (French, Italian, Portuguese, Spanish) and to their historical developments, with reference to basic linguistic features of each language: phonology, morphology, syntax, and lexicon.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ITALIAN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 226,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 228,
-                "subjects": [
-                    "FRENCH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ITALIAN"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 226,
-                "subjects": [
-                    "PORTUG"
-                ]
-            }
-        ],
-        "prerequisites_text": "SPANISH\u00a0226,FRENCH\u00a0228,ITALIAN\u00a0311, orPORTUG\u00a0226"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 311,
+            "subjects": [
+                "ITALIAN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 226,
+                    "subjects": [
+                        "SPANISH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 228,
+                    "subjects": [
+                        "FRENCH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "ITALIAN"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 226,
+                    "subjects": [
+                        "PORTUG"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 226,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            {
-                "course_number": 226,
-                "subjects": [
-                    "PORTUG"
-                ]
-            },
             {
                 "course_number": 228,
                 "subjects": [
@@ -133,9 +76,21 @@
                 ]
             },
             {
+                "course_number": 226,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
+            {
                 "course_number": 311,
                 "subjects": [
                     "ITALIAN"
+                ]
+            },
+            {
+                "course_number": 226,
+                "subjects": [
+                    "PORTUG"
                 ]
             }
         ],
@@ -178,6 +133,19 @@
             ]
         },
         {
+            "course_number": 327,
+            "subjects": [
+                "SPANISH"
+            ]
+        },
+        {
+            "course_number": 541,
+            "subjects": [
+                "SPANISH",
+                "MEDIEVAL"
+            ]
+        },
+        {
             "course_number": 821,
             "subjects": [
                 "ITALIAN",
@@ -188,19 +156,6 @@
             "course_number": 340,
             "subjects": [
                 "ITALIAN"
-            ]
-        },
-        {
-            "course_number": 327,
-            "subjects": [
-                "SPANISH"
-            ]
-        },
-        {
-            "course_number": 541,
-            "subjects": [
-                "MEDIEVAL",
-                "SPANISH"
             ]
         }
     ],

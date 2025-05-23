@@ -27,122 +27,51 @@
         "unsatisfactory": 0
     },
     "description": "An overview of computing concepts that support modeling and simulation in engineering applications. Learn the basics of computer architecture, software development and the interplay between software and hardware components.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "301",
-                "302",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 301, 302, ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", or placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "COMP\u00a0SCI\u00a0200,220,300, 301, 302,320, or placement intoCOMP\u00a0SCI\u00a0300, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 200,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 200,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 220,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 300,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 "301",
                 "302",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 320,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "COMPSCI"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -160,7 +89,7 @@
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 220,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -172,7 +101,7 @@
                 ]
             },
             {
-                "course_number": 220,
+                "course_number": 320,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -219,26 +148,22 @@
     },
     "similar_courses": [
         {
-            "course_number": 291,
-            "subjects": [
-                "GLE",
-                "CIVENGR"
-            ]
-        },
-        {
             "course_number": 839,
             "subjects": [
                 "COMPSCI"
             ]
         },
         {
-            "course_number": 759,
+            "course_number": 291,
             "subjects": [
-                "EMA",
-                "COMPSCI",
-                "ME",
-                "ECE",
-                "EP"
+                "CIVENGR",
+                "GLE"
+            ]
+        },
+        {
+            "course_number": 331,
+            "subjects": [
+                "ME"
             ]
         },
         {
@@ -248,9 +173,13 @@
             ]
         },
         {
-            "course_number": 331,
+            "course_number": 759,
             "subjects": [
-                "ME"
+                "ME",
+                "EMA",
+                "ECE",
+                "COMPSCI",
+                "EP"
             ]
         }
     ],
@@ -268,8 +197,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "NICHOLAS OLSEN",
-                    "Dan NEGRUT"
+                    "Dan NEGRUT",
+                    "NICHOLAS OLSEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -294,8 +223,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "NICHOLAS OLSEN",
-                    "Dan NEGRUT"
+                    "Dan NEGRUT",
+                    "NICHOLAS OLSEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -320,8 +249,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LIJING YANG",
-                    "Dan NEGRUT"
+                    "Dan NEGRUT",
+                    "LIJING YANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -371,8 +300,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "HUZAIFA MUSTAFA UNJHAWALA",
                     "Dan NEGRUT",
+                    "HUZAIFA MUSTAFA UNJHAWALA",
                     "RUOCHUN ZHANG"
                 ],
                 "no_credit": 0,

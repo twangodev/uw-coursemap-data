@@ -27,100 +27,48 @@
         "unsatisfactory": 0
     },
     "description": "Properties of neutral and ionized interstellar gas, giant molecular clouds, the warm and hot intercloud medium, supernova remnants, and interstellar dust. Physical processes in low density gases including radiation transfer, excitation and ionization of interstellar atoms and molecules, and the interaction between gas and dust.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 249,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or concurrent enrollment)"
-        ],
-        "prerequisites_text": "MATH\u00a0222and (PHYSICS\u00a0205,241, or249, or concurrent enrollment)"
-    },
+        {
+            "course_number": 241,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 205,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 241,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 249,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -130,6 +78,12 @@
             "operator": "AND"
         },
         "course_references": [
+            {
+                "course_number": 241,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
             {
                 "course_number": 222,
                 "subjects": [
@@ -144,12 +98,6 @@
             },
             {
                 "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 241,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -189,13 +137,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 700,
+            "subjects": [
+                "ASTRON"
+            ]
+        },
+        {
             "course_number": 310,
             "subjects": [
                 "ASTRON"
             ]
         },
         {
-            "course_number": 700,
+            "course_number": 340,
             "subjects": [
                 "ASTRON"
             ]
@@ -208,12 +162,6 @@
         },
         {
             "course_number": 720,
-            "subjects": [
-                "ASTRON"
-            ]
-        },
-        {
-            "course_number": 340,
             "subjects": [
                 "ASTRON"
             ]
@@ -333,9 +281,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SNEZANA STANIMIROVIC",
                     "Eric WILCOTS",
                     "JOHN GALLAGHER",
+                    "SNEZANA STANIMIROVIC",
                     "ANNA WILLIAMS"
                 ],
                 "no_credit": 0,

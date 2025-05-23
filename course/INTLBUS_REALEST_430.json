@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 430,
         "subjects": [
-            "INTLBUS",
-            "REALEST"
+            "REALEST",
+            "INTLBUS"
         ]
     },
     "course_title": "INTERNATIONAL REAL ESTATE",
@@ -28,48 +28,28 @@
         "unsatisfactory": 0
     },
     "description": "Analysis of international real estate and related transaction issues, especially in foreign countries which are visited as part of the course; survey of land use patterns and regulations, ownership rights, types of leases, transfer procedures, mortgage system, tax matters, currency risks, and geographical diversification issues.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "declared in the Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 306,
-                "subjects": [
-                    "AAE",
-                    "REALEST",
-                    "URBRPL",
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 306,
-                "subjects": [
-                    "AAE",
-                    "REALEST",
-                    "URBRPL",
-                    "ECON"
-                ]
-            },
-            " or declared in the Business Exchange program"
-        ],
-        "prerequisites_text": "URB\u00a0R\u00a0PL/\u200bA\u00a0A\u00a0E/\u200bECON/\u200bREAL\u00a0EST\u00a0\u00a0306or declared in the Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 306,
+            "subjects": [
+                "ECON",
+                "AAE",
+                "REALEST",
+                "URBRPL"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 306,
+                    "subjects": [
+                        "ECON",
+                        "AAE",
+                        "REALEST",
+                        "URBRPL"
+                    ]
                 },
                 "declared in the Business Exchange program"
             ],
@@ -79,10 +59,10 @@
             {
                 "course_number": 306,
                 "subjects": [
+                    "ECON",
                     "AAE",
                     "REALEST",
-                    "URBRPL",
-                    "ECON"
+                    "URBRPL"
                 ]
             }
         ],
@@ -90,10 +70,10 @@
             {
                 "course_number": 306,
                 "subjects": [
+                    "ECON",
                     "AAE",
                     "REALEST",
-                    "URBRPL",
-                    "ECON"
+                    "URBRPL"
                 ]
             },
             " or declared in the Business Exchange program"
@@ -101,12 +81,6 @@
         "prerequisites_text": "URB\u00a0R\u00a0PL/\u200bA\u00a0A\u00a0E/\u200bECON/\u200bREAL\u00a0EST\u00a0\u00a0306or declared in the Business Exchange program"
     },
     "similar_courses": [
-        {
-            "course_number": 706,
-            "subjects": [
-                "REALEST"
-            ]
-        },
         {
             "course_number": 425,
             "subjects": [
@@ -121,6 +95,12 @@
         },
         {
             "course_number": 530,
+            "subjects": [
+                "REALEST"
+            ]
+        },
+        {
+            "course_number": 706,
             "subjects": [
                 "REALEST"
             ]

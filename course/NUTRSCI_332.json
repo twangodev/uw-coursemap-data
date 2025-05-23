@@ -27,129 +27,43 @@
         "unsatisfactory": 1
     },
     "description": "Biochemical and physiological basis of the nutritional requirements of humans.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 103,
+            "subjects": [
+                "CHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 115,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(CHEM\u00a0103,109, or115) and (ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101, orBIOCORE\u00a0381)"
-    },
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 103,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 109,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 115,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -157,16 +71,25 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 151,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY",
+                                "BOTANY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -176,26 +99,13 @@
         },
         "course_references": [
             {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 115,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
                 "course_number": 381,
                 "subjects": [
                     "BIOCORE"
                 ]
             },
             {
-                "course_number": 103,
+                "course_number": 109,
                 "subjects": [
                     "CHEM"
                 ]
@@ -209,7 +119,20 @@
                 ]
             },
             {
-                "course_number": 109,
+                "course_number": 115,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 103,
                 "subjects": [
                     "CHEM"
                 ]
@@ -267,20 +190,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 132,
+            "course_number": 710,
             "subjects": [
                 "NUTRSCI"
             ]
         },
         {
-            "course_number": 510,
-            "subjects": [
-                "NUTRSCI",
-                "BIOCHEM"
-            ]
-        },
-        {
-            "course_number": 710,
+            "course_number": 715,
             "subjects": [
                 "NUTRSCI"
             ]
@@ -292,7 +208,14 @@
             ]
         },
         {
-            "course_number": 715,
+            "course_number": 510,
+            "subjects": [
+                "BIOCHEM",
+                "NUTRSCI"
+            ]
+        },
+        {
+            "course_number": 132,
             "subjects": [
                 "NUTRSCI"
             ]
@@ -1097,8 +1020,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "Ying WANG",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "Ying WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1174,9 +1097,9 @@
                 "f": 1,
                 "incomplete": 3,
                 "instructors": [
-                    "Tim Rhoads",
                     "Eric YEN",
-                    "Guy GROBLEWSKI"
+                    "Guy GROBLEWSKI",
+                    "Tim Rhoads"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1201,9 +1124,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Tim Rhoads",
                     "Eric YEN",
-                    "ROBERT HATCH"
+                    "ROBERT HATCH",
+                    "Tim Rhoads"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1228,9 +1151,9 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "Tim Rhoads",
                     "ANSHIT SINGH",
-                    "Eric YEN"
+                    "Eric YEN",
+                    "Tim Rhoads"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

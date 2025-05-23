@@ -27,109 +27,37 @@
         "unsatisfactory": 0
     },
     "description": "Applies classroom study and prior design course experiences for senior teams to solve a directed client-based biomedical engineering design project.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "BME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            {
-                "course_number": 301,
-                "subjects": [
-                    "BME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 315,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 430,
-                "subjects": [
-                    "BME",
-                    "PHMSCI"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(B\u00a0M\u00a0E\u00a0300orB\u00a0M\u00a0E\u00a0301) and (B\u00a0M\u00a0E\u00a0310,315, orPHM\u00a0SCI/\u200bB\u00a0M\u00a0E\u00a0\u00a0430)"
-    },
+        {
+            "course_number": 430,
+            "subjects": [
+                "BME",
+                "PHMSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "BME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 301,
+                            "subjects": [
+                                "BME"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -137,16 +65,23 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 310,
+                            "subjects": [
+                                "BME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 315,
+                            "subjects": [
+                                "BME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 430,
+                            "subjects": [
+                                "BME",
+                                "PHMSCI"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -156,7 +91,19 @@
         },
         "course_references": [
             {
-                "course_number": 301,
+                "course_number": 300,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            {
+                "course_number": 310,
+                "subjects": [
+                    "BME"
+                ]
+            },
+            {
+                "course_number": 315,
                 "subjects": [
                     "BME"
                 ]
@@ -169,19 +116,7 @@
                 ]
             },
             {
-                "course_number": 310,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            {
-                "course_number": 300,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            {
-                "course_number": 315,
+                "course_number": 301,
                 "subjects": [
                     "BME"
                 ]
@@ -230,18 +165,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 402,
-            "subjects": [
-                "BME"
-            ]
-        },
-        {
-            "course_number": 200,
-            "subjects": [
-                "BME"
-            ]
-        },
-        {
             "course_number": 300,
             "subjects": [
                 "BME"
@@ -255,6 +178,18 @@
         },
         {
             "course_number": 601,
+            "subjects": [
+                "BME"
+            ]
+        },
+        {
+            "course_number": 402,
+            "subjects": [
+                "BME"
+            ]
+        },
+        {
+            "course_number": 200,
             "subjects": [
                 "BME"
             ]
@@ -524,13 +459,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Amit Nimunkar",
-                    "JOSEPH TOWLES",
-                    "John Puccinelli",
-                    "PAUL THOMPSON",
-                    "MITCHELL TYLER",
                     "Tracy Puccinelli",
-                    "JOHN WEBSTER"
+                    "Amit Nimunkar",
+                    "John Puccinelli",
+                    "JOHN WEBSTER",
+                    "MITCHELL TYLER",
+                    "PAUL THOMPSON",
+                    "JOSEPH TOWLES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -555,13 +490,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Tracy Puccinelli",
                     "Amit Nimunkar",
-                    "Jeremy ROGERS",
-                    "JOSEPH TOWLES",
                     "John Puccinelli",
-                    "PAUL THOMPSON",
+                    "Jeremy ROGERS",
                     "MITCHELL TYLER",
-                    "Tracy Puccinelli"
+                    "PAUL THOMPSON",
+                    "JOSEPH TOWLES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,126 +27,21 @@
         "unsatisfactory": 2
     },
     "description": "Basic biology of microorganisms, including structure, function, physiology, genetics, ecology, diversity, and evolution.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,BIOCORE\u00a0383, orBIOLOGY/\u200bBOTANY\u00a0\u00a0130) and (CHEM\u00a0104or109) or graduate/professional standing"
-    },
+        {
+            "course_number": 104,
+            "subjects": [
+                "CHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -155,20 +50,32 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 151,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 383,
+                                    "subjects": [
+                                        "BIOCORE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 130,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "BOTANY"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -176,12 +83,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 104,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 109,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -195,10 +106,10 @@
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 130,
                 "subjects": [
                     "BIOLOGY",
-                    "ZOOLOGY"
+                    "BOTANY"
                 ]
             },
             {
@@ -208,9 +119,9 @@
                 ]
             },
             {
-                "course_number": 383,
+                "course_number": 109,
                 "subjects": [
-                    "BIOCORE"
+                    "CHEM"
                 ]
             },
             {
@@ -222,16 +133,16 @@
                 ]
             },
             {
-                "course_number": 130,
+                "course_number": 101,
                 "subjects": [
                     "BIOLOGY",
-                    "BOTANY"
+                    "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 109,
+                "course_number": 383,
                 "subjects": [
-                    "CHEM"
+                    "BIOCORE"
                 ]
             }
         ],
@@ -288,13 +199,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 304,
+            "course_number": 101,
             "subjects": [
                 "MICROBIO"
             ]
         },
         {
-            "course_number": 101,
+            "course_number": 304,
             "subjects": [
                 "MICROBIO"
             ]
@@ -382,9 +293,9 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "JORGE ESCALANTE",
                     "DIANA DOWNS",
-                    "KATRINA FOREST"
+                    "KATRINA FOREST",
+                    "JORGE ESCALANTE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -410,8 +321,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "JORGE ESCALANTE",
-                    "DIANA DOWNS",
-                    "KATRINA FOREST"
+                    "KATRINA FOREST",
+                    "DIANA DOWNS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -462,8 +373,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JORGE ESCALANTE",
                     "DIANA DOWNS",
+                    "JORGE ESCALANTE",
                     "Charles KASPAR"
                 ],
                 "no_credit": 0,
@@ -490,8 +401,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Michelle Rondon",
-                    "DIANA DOWNS",
-                    "KATRINA FOREST"
+                    "KATRINA FOREST",
+                    "DIANA DOWNS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -517,8 +428,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "Michelle Rondon",
-                    "DIANA DOWNS",
-                    "KATRINA FOREST"
+                    "KATRINA FOREST",
+                    "DIANA DOWNS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -543,8 +454,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JORGE ESCALANTE",
                     "DIANA DOWNS",
+                    "JORGE ESCALANTE",
                     "Charles KASPAR"
                 ],
                 "no_credit": 0,
@@ -570,8 +481,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JORGE ESCALANTE",
                     "DIANA DOWNS",
+                    "JORGE ESCALANTE",
                     "Charles KASPAR"
                 ],
                 "no_credit": 0,
@@ -624,8 +535,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "JORGE ESCALANTE",
                     "DIANA DOWNS",
+                    "JORGE ESCALANTE",
                     "Charles KASPAR"
                 ],
                 "no_credit": 0,
@@ -652,8 +563,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Michelle Rondon",
-                    "Charles KASPAR",
-                    "DIANA DOWNS"
+                    "DIANA DOWNS",
+                    "Charles KASPAR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -678,8 +589,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "Timothy Paustian",
-                    "Jon Roll"
+                    "Jon Roll",
+                    "Timothy Paustian"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -704,8 +615,8 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "Michelle Rondon",
-                    "ROBIN KURTZ"
+                    "ROBIN KURTZ",
+                    "Michelle Rondon"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -730,8 +641,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Timothy Paustian",
-                    "Jon Roll"
+                    "Jon Roll",
+                    "Timothy Paustian"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -756,8 +667,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Michelle Rondon",
-                    "ROBIN KURTZ"
+                    "ROBIN KURTZ",
+                    "Michelle Rondon"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -807,8 +718,8 @@
                 "f": 3,
                 "incomplete": 1,
                 "instructors": [
-                    "Michelle Rondon",
-                    "ROBIN KURTZ"
+                    "ROBIN KURTZ",
+                    "Michelle Rondon"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

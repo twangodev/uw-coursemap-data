@@ -27,59 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "The design philosophy is presented. Students will be required to apply their knowledge of elementary mechanics, engineering and basic science to arrive at acceptable solutions to a variety of design problems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in Engineering Mechanics",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Engineering Mechanics and (",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Declared in Engineering Mechanics and (E\u00a0M\u00a0A\u00a0303orM\u00a0E\u00a0306)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 303,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -87,12 +42,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 303,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 306,
+                            "subjects": [
+                                "ME"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -102,15 +61,15 @@
         },
         "course_references": [
             {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
                 "course_number": 306,
                 "subjects": [
                     "ME"
+                ]
+            },
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
                 ]
             }
         ],
@@ -135,7 +94,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 748,
+            "course_number": 548,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 349,
             "subjects": [
                 "ME"
             ]
@@ -147,7 +112,7 @@
             ]
         },
         {
-            "course_number": 349,
+            "course_number": 748,
             "subjects": [
                 "ME"
             ]
@@ -156,12 +121,6 @@
             "course_number": 569,
             "subjects": [
                 "EMA"
-            ]
-        },
-        {
-            "course_number": 548,
-            "subjects": [
-                "ME"
             ]
         }
     ],
@@ -281,8 +240,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "FREDERICK ELDER",
-                    "NOAH HERSHKOWITZ"
+                    "NOAH HERSHKOWITZ",
+                    "FREDERICK ELDER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -509,8 +468,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN MURPHY",
-                    "AARON NIMITYONGSKUL"
+                    "AARON NIMITYONGSKUL",
+                    "JOHN MURPHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

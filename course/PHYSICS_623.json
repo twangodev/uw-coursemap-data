@@ -8,108 +8,20 @@
     "course_title": "ELECTRONIC AIDS TO MEASUREMENT",
     "cumulative_grade_data": null,
     "description": "Fundamentals of electronics, electronic elements, basic circuits; combinations of these into measuring instruments.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 248,
+            "subjects": [
+                "PHYSICS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "(PHYSICS\u00a0202,208, or248) and (MATH\u00a0234or376), or graduate/professional standing"
-    },
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -118,16 +30,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -135,12 +53,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 234,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 376,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -154,21 +76,21 @@
         },
         "course_references": [
             {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 234,
                 "subjects": [
-                    "PHYSICS"
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
                 ]
             },
             {
@@ -178,9 +100,9 @@
                 ]
             },
             {
-                "course_number": 376,
+                "course_number": 248,
                 "subjects": [
-                    "MATH"
+                    "PHYSICS"
                 ]
             }
         ],
@@ -226,15 +148,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 368,
+            "course_number": 365,
             "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 321,
-            "subjects": [
-                "PHYSICS"
+                "BSE"
             ]
         },
         {
@@ -244,15 +160,21 @@
             ]
         },
         {
-            "course_number": 365,
+            "course_number": 368,
             "subjects": [
-                "BSE"
+                "ME"
             ]
         },
         {
             "course_number": 545,
             "subjects": [
                 "ECE"
+            ]
+        },
+        {
+            "course_number": 321,
+            "subjects": [
+                "PHYSICS"
             ]
         }
     ],

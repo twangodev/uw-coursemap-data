@@ -27,74 +27,47 @@
         "unsatisfactory": 0
     },
     "description": "Discussion, practice, and occasional lectures on various aspects of the teaching of physics. Course planning; course materials; lecture, demonstration, and discussion techniques; laboratory; problem solving; examinations, grading, and evaluation. Problems arising in the teaching of physics; levels of difficulty, differences in talents and backgrounds; methods of presentation of various specific topics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 311,
+            "subjects": [
+                "PHYSICS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "prerequisites_text": "PHYSICS\u00a0311and322"
-    },
+        {
+            "course_number": 322,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 322,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 322,
+                "course_number": 311,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 311,
+                "course_number": 322,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -131,12 +104,6 @@
             ]
         },
         {
-            "course_number": 602,
-            "subjects": [
-                "EP"
-            ]
-        },
-        {
             "course_number": 301,
             "subjects": [
                 "PHYSICS"
@@ -146,6 +113,12 @@
             "course_number": 805,
             "subjects": [
                 "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 602,
+            "subjects": [
+                "EP"
             ]
         }
     ],
@@ -263,8 +236,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Cary FOREST",
-                    "JAMES REARDON"
+                    "JAMES REARDON",
+                    "Cary FOREST"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

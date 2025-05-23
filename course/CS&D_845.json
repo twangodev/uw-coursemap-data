@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Study of human balance function with emphasis on the vestibular system, including neurophysiology,  testing, and rehabilitation. Clinical experience in electronystagmography (ENG) and videonystagmography (VNG), analysis of results, familiarization with rotational and posturography tests, and treatment techniques are included.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 850,
+            "subjects": [
+                "CS&D"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 852,
-                "subjects": [
-                    "CS&D"
-                ]
-            },
-            {
-                "course_number": 850,
-                "subjects": [
-                    "CS&D"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 850,
-                "subjects": [
-                    "CS&D"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 852,
-                "subjects": [
-                    "CS&D"
-                ]
-            }
-        ],
-        "prerequisites_text": "CS&D\u00a0850and852"
-    },
+        {
+            "course_number": 852,
+            "subjects": [
+                "CS&D"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 850,
+                    "subjects": [
+                        "CS&D"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 852,
+                    "subjects": [
+                        "CS&D"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -119,7 +92,14 @@
     },
     "similar_courses": [
         {
-            "course_number": 834,
+            "course_number": 415,
+            "subjects": [
+                "ME",
+                "BME"
+            ]
+        },
+        {
+            "course_number": 862,
             "subjects": [
                 "CS&D"
             ]
@@ -137,14 +117,7 @@
             ]
         },
         {
-            "course_number": 415,
-            "subjects": [
-                "ME",
-                "BME"
-            ]
-        },
-        {
-            "course_number": 862,
+            "course_number": 834,
             "subjects": [
                 "CS&D"
             ]

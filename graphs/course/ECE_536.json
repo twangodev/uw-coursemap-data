@@ -1,10 +1,26 @@
 [
     {
         "data": {
-            "description": "Electrostatic fields, capacitance, multi-pole expansion, dielectric theory; magnetostatics; electromagnetic induction; magnetic properties of matter; Maxwell's equations and electromagnetic waves; relativity and electromagmetism. Experiments for this course are covered in PHYSICS 308.",
-            "id": "PHYSICS 322",
-            "parent": "PHYSICS",
-            "title": "ELECTROMAGNETIC FIELDS"
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "Ohm's law, Kirchhoff's laws, resistive circuits, nodal and mesh analysis, superposition, equivalent circuits using Thevenin-Norton theories, op amps and op amp circuits, first-order circuits, second-order circuits, sinusoidal steady state, phasors, RMS value, complex power, power factor, mutual inductance, linear and ideal transformers, ideal filters and transfer functions.",
+            "id": "ECE 230",
+            "parent": "ECE",
+            "title": "CIRCUIT ANALYSIS"
         }
     },
     {
@@ -88,6 +104,14 @@
     },
     {
         "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
             "id": "MATH 211",
             "parent": "MATH",
@@ -120,18 +144,18 @@
     },
     {
         "data": {
-            "description": "Introduction to physics at the non-calculus level. Principles of mechanics, heat, and waves, with applications to a number of different fields. Not recommended for students in the physical sciences and engineering.",
-            "id": "PHYSICS 103",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to ray optics, physical optics and interference, applications of Fourier optics, absorption, dispersion, and polarization of light. Light sources, including lasers (gas, solid state, and semiconductor), modulation and detection of light.",
             "id": "ECE 434",
             "parent": "ECE",
             "title": "PHOTONICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -156,30 +180,6 @@
             "id": "MATH 222",
             "parent": "MATH",
             "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics in multi-variable calculus and introduction to differential equations.",
-            "id": "MATH 376",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "description": "Transmission lines: frequency domain analysis of radio frequency and microwave transmission circuits including power relations and graphical and computer methods. Electromagnetic waves: planar optical components, pulse dispersion, phase front considerations for optical components, conducting waveguides, dielectric waveguides. Radiation: retarded potentials, elemental dipoles, radiating antenna characterization, receiving mode.",
-            "id": "ECE 420",
-            "parent": "ECE",
-            "title": "ELECTROMAGNETIC WAVE TRANSMISSION"
-        }
-    },
-    {
-        "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
@@ -226,8 +226,8 @@
     },
     {
         "data": {
-            "source": "ECE 320",
-            "target": "ECE 420"
+            "source": "ECE 230",
+            "target": "ECE 335"
         }
     },
     {
@@ -239,12 +239,6 @@
     {
         "data": {
             "source": "ECE 335",
-            "target": "ECE 536"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 420",
             "target": "ECE 536"
         }
     },
@@ -268,6 +262,30 @@
     },
     {
         "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 211",
             "target": "MATH 213"
         }
@@ -281,7 +299,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -294,6 +312,36 @@
         "data": {
             "source": "MATH 221",
             "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 201"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 202"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 207"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "ECE 230"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "ECE/PHYSICS 235"
         }
     },
     {
@@ -316,26 +364,8 @@
     },
     {
         "data": {
-            "source": "MATH 375",
-            "target": "MATH 376"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "PHYSICS 248"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 103",
-            "target": "PHYSICS 202"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
-            "target": "PHYSICS 103"
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {
@@ -359,19 +389,7 @@
     {
         "data": {
             "source": "PHYSICS 202",
-            "target": "ECE/PHYSICS 235"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 202",
             "target": "PHYSICS 208"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 202",
-            "target": "PHYSICS 322"
         }
     },
     {
@@ -389,13 +407,7 @@
     {
         "data": {
             "source": "PHYSICS 208",
-            "target": "PHYSICS 322"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 247",
-            "target": "PHYSICS 103"
+            "target": "PHYSICS 202"
         }
     },
     {
@@ -407,19 +419,13 @@
     {
         "data": {
             "source": "PHYSICS 248",
-            "target": "ECE/PHYSICS 235"
+            "target": "ECE 230"
         }
     },
     {
         "data": {
             "source": "PHYSICS 248",
-            "target": "PHYSICS 322"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 322",
-            "target": "ECE 434"
+            "target": "ECE/PHYSICS 235"
         }
     }
 ]

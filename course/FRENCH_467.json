@@ -27,68 +27,41 @@
         "unsatisfactory": 0
     },
     "description": "A study of the latest developments in contemporary French Literature. Taught in French.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 322,
-                "subjects": [
-                    "FRENCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 321,
-                "subjects": [
-                    "FRENCH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 322,
-                "subjects": [
-                    "FRENCH"
-                ]
-            }
-        ],
-        "prerequisites_text": "FRENCH\u00a0321or322"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 322,
+            "subjects": [
+                "FRENCH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 321,
+                    "subjects": [
+                        "FRENCH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 322,
+                    "subjects": [
+                        "FRENCH"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 322,
+                "course_number": 321,
                 "subjects": [
                     "FRENCH"
                 ]
             },
             {
-                "course_number": 321,
+                "course_number": 322,
                 "subjects": [
                     "FRENCH"
                 ]
@@ -125,13 +98,13 @@
             ]
         },
         {
-            "course_number": 647,
+            "course_number": 567,
             "subjects": [
                 "FRENCH"
             ]
         },
         {
-            "course_number": 567,
+            "course_number": 647,
             "subjects": [
                 "FRENCH"
             ]

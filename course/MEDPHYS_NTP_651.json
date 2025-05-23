@@ -28,70 +28,14 @@
         "unsatisfactory": 0
     },
     "description": "Provides a practical foundation for neuroimaging research studies with statistical image analysis. Specific imaging methods include functional BOLD MRI, structural MRI morphometry, and diffusion tensor imaging. Lectures and associated in-class computer exercises will cover the physics and methods of image acquisition, steps and tools for image analyses, the basis for statistical image analyses and interpretation of the results.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Graduate/professional standing",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing or (",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Graduate/professional standing or (PHYSICS\u00a0104,202or208)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 208,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -99,16 +43,22 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 104,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 202,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 208,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -118,12 +68,6 @@
         },
         "course_references": [
             {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
                 "course_number": 202,
                 "subjects": [
                     "PHYSICS"
@@ -131,6 +75,12 @@
             },
             {
                 "course_number": 104,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -164,22 +114,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 768,
+            "course_number": 701,
             "subjects": [
-                "BMI",
-                "STAT"
+                "NTP"
             ]
         },
         {
             "course_number": 780,
             "subjects": [
                 "MEDPHYS"
-            ]
-        },
-        {
-            "course_number": 701,
-            "subjects": [
-                "NTP"
             ]
         },
         {
@@ -192,7 +135,14 @@
         {
             "course_number": 767,
             "subjects": [
-                "COMPSCI",
+                "BMI",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 768,
+            "subjects": [
+                "STAT",
                 "BMI"
             ]
         }
@@ -211,8 +161,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "ANDREW ALEXANDER",
-                    "RASMUS BIRN"
+                    "RASMUS BIRN",
+                    "ANDREW ALEXANDER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -237,8 +187,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANDREW ALEXANDER",
-                    "RASMUS BIRN"
+                    "RASMUS BIRN",
+                    "ANDREW ALEXANDER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -263,8 +213,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "ANDREW ALEXANDER",
-                    "RASMUS BIRN"
+                    "RASMUS BIRN",
+                    "ANDREW ALEXANDER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -289,9 +239,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANDREW ALEXANDER",
+                    "DOUGLAS DEAN",
                     "RASMUS BIRN",
-                    "DOUGLAS DEAN"
+                    "ANDREW ALEXANDER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -316,9 +266,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "ANDREW ALEXANDER",
+                    "DOUGLAS DEAN",
                     "RASMUS BIRN",
-                    "DOUGLAS DEAN"
+                    "ANDREW ALEXANDER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -343,8 +293,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RASMUS BIRN",
-                    "DOUGLAS DEAN"
+                    "DOUGLAS DEAN",
+                    "RASMUS BIRN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -370,8 +320,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Tobey Betthauser",
-                    "RASMUS BIRN",
-                    "DOUGLAS DEAN"
+                    "DOUGLAS DEAN",
+                    "RASMUS BIRN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -397,8 +347,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "Tobey Betthauser",
-                    "RASMUS BIRN",
-                    "DOUGLAS DEAN"
+                    "DOUGLAS DEAN",
+                    "RASMUS BIRN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

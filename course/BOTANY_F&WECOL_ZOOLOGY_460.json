@@ -29,121 +29,16 @@
         "unsatisfactory": 4
     },
     "description": "Ecology of individual organisms, populations, communities, ecosystems, landscapes, and the biosphere. The interaction of organisms with each other and their physical environment. These relationships are studied, often in quantitative terms, in both field and laboratory settings.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Satisfied Quantitative Reasoning",
-                        "QR",
-                        "A requirement",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Satisfied Quantitative Reasoning (QR) A requirement and ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "Satisfied Quantitative Reasoning (QR) A requirement andZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),BIOCORE\u00a0381, orBOTANY/\u200bBIOLOGY\u00a0\u00a0130, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 152,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -153,8 +48,12 @@
                         "QR",
                         "A requirement",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 152,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY",
+                                "BOTANY"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -162,50 +61,40 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 130,
+                    "subjects": [
+                        "BIOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 "graduate/professional standing"
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
             {
                 "course_number": 102,
                 "subjects": [
@@ -217,6 +106,27 @@
                 "course_number": 130,
                 "subjects": [
                     "BIOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 152,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
                     "BOTANY"
                 ]
             }
@@ -268,29 +178,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 260,
-            "subjects": [
-                "ZOOLOGY",
-                "ENVIRST",
-                "BOTANY"
-            ]
-        },
-        {
-            "course_number": 821,
-            "subjects": [
-                "ENTOM",
-                "F&WECOL",
-                "ZOOLOGY",
-                "BOTANY"
-            ]
-        },
-        {
-            "course_number": 251,
-            "subjects": [
-                "ENVIRST"
-            ]
-        },
-        {
             "course_number": 725,
             "subjects": [
                 "ZOOLOGY",
@@ -303,6 +190,29 @@
                 "F&WECOL",
                 "ZOOLOGY",
                 "BOTANY"
+            ]
+        },
+        {
+            "course_number": 251,
+            "subjects": [
+                "ENVIRST"
+            ]
+        },
+        {
+            "course_number": 260,
+            "subjects": [
+                "ENVIRST",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
+        },
+        {
+            "course_number": 821,
+            "subjects": [
+                "F&WECOL",
+                "ZOOLOGY",
+                "BOTANY",
+                "ENTOM"
             ]
         }
     ],
@@ -347,8 +257,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "THOMAS GIVNISH",
-                    "SUSAN WOLF"
+                    "SUSAN WOLF",
+                    "THOMAS GIVNISH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -425,9 +335,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Anthony IVES",
+                    "SUSAN WOLF",
                     "STANLEY I. DODSON",
-                    "SUSAN WOLF"
+                    "Anthony IVES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -452,8 +362,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "THOMAS GIVNISH",
-                    "SUSAN WOLF"
+                    "SUSAN WOLF",
+                    "THOMAS GIVNISH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -478,10 +388,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "SUSAN WOLF",
                     "ROBERT BOHANAN",
                     "HEATHER LUMPKIN",
-                    "ERIKA MUDRAK",
-                    "SUSAN WOLF"
+                    "ERIKA MUDRAK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -532,8 +442,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "SUSAN WOLF"
+                    "SUSAN WOLF",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -584,8 +494,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "SUSAN WOLF"
+                    "SUSAN WOLF",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -610,8 +520,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "SUSAN WOLF"
+                    "SUSAN WOLF",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -662,8 +572,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "BRIAN HARVEY"
+                    "BRIAN HARVEY",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -714,8 +624,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "TRICIA FRY"
+                    "TRICIA FRY",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -840,8 +750,8 @@
                 "f": 1,
                 "incomplete": 2,
                 "instructors": [
-                    "Sara HOTCHKISS",
-                    "Kate MCCULLOH"
+                    "Kate MCCULLOH",
+                    "Sara HOTCHKISS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -916,8 +826,8 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "Kyle Webert"
+                    "Kyle Webert",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -942,9 +852,9 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Kyle Webert",
+                    "Kate MCCULLOH",
                     "Sara HOTCHKISS",
-                    "Kate MCCULLOH"
+                    "Kyle Webert"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -969,8 +879,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "Kyle Webert"
+                    "Kyle Webert",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1021,8 +931,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "Kyle Webert"
+                    "Kyle Webert",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1047,8 +957,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "Kyle Webert"
+                    "Kyle Webert",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1099,8 +1009,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Ellen DAMSCHEN",
-                    "Kyle Webert"
+                    "Kyle Webert",
+                    "Ellen DAMSCHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1151,8 +1061,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHAEL PEYTON",
-                    "Kyle Webert"
+                    "Kyle Webert",
+                    "MICHAEL PEYTON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1250,9 +1160,9 @@
                 },
                 "last_taught_term": "2025 Summr",
                 "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
+                    "abbreviation": "A",
+                    "name": "Agricultural and Life Sciences",
+                    "url": "http://www.cals.wisc.edu/"
                 },
                 "typically_offered": "Fall, Spring"
             },

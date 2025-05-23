@@ -27,66 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Investigation at an advanced level of selected problems in political philosophy.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "POLI SCI 209 taken prior to fall 2017",
-                "graduate standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 160,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 205,
-                "subjects": [
-                    "ILS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 160,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 205,
-                "subjects": [
-                    "ILS"
-                ]
-            },
-            ") or (POLI SCI 209 taken prior to fall 2017) or graduate standing"
-        ],
-        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0160orILS\u00a0205) or (POLI SCI 209 taken prior to fall 2017) or graduate standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 160,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -96,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 160,
+                                    "subjects": [
+                                        "POLISCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 205,
+                                    "subjects": [
+                                        "ILS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -155,13 +107,13 @@
             ]
         },
         {
-            "course_number": 160,
+            "course_number": 930,
             "subjects": [
                 "POLISCI"
             ]
         },
         {
-            "course_number": 461,
+            "course_number": 160,
             "subjects": [
                 "POLISCI"
             ]
@@ -173,7 +125,7 @@
             ]
         },
         {
-            "course_number": 930,
+            "course_number": 461,
             "subjects": [
                 "POLISCI"
             ]
@@ -193,9 +145,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "MICHAEL PROMISEL",
                     "CRAIG FISCHER",
-                    "DOUGLAS WALKER",
-                    "MICHAEL PROMISEL"
+                    "DOUGLAS WALKER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -220,8 +172,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DOUGLAS WALKER",
-                    "BRENDON WESTLER"
+                    "BRENDON WESTLER",
+                    "DOUGLAS WALKER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -271,8 +223,8 @@
                 "f": 0,
                 "incomplete": 7,
                 "instructors": [
-                    "DOUGLAS WALKER",
-                    "HOWARD SCHWEBER"
+                    "HOWARD SCHWEBER",
+                    "DOUGLAS WALKER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -347,8 +299,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "RICHARD AVRAMENKO",
-                    "EDUARDO SCHMIDT PASSOS"
+                    "EDUARDO SCHMIDT PASSOS",
+                    "RICHARD AVRAMENKO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -450,8 +402,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RICHARD AVRAMENKO",
-                    "EDUARDO SCHMIDT PASSOS"
+                    "EDUARDO SCHMIDT PASSOS",
+                    "RICHARD AVRAMENKO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

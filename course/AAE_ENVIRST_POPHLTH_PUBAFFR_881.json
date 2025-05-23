@@ -3,9 +3,9 @@
         "course_number": 881,
         "subjects": [
             "AAE",
-            "PUBAFFR",
             "ENVIRST",
-            "POPHLTH"
+            "POPHLTH",
+            "PUBAFFR"
         ]
     },
     "course_title": "BENEFIT-COST ANALYSIS",
@@ -30,99 +30,20 @@
         "unsatisfactory": 0
     },
     "description": "Presents the welfare economics underpinnings for evaluating the social benefits and costs of government activities. Issues such as uncertainty, the social discount rate, and welfare weights will be discussed; case studies from the environmental, social policy, and agricultural areas will be studied.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Graduate/professional standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 818,
+            "subjects": [
+                "PUBAFFR"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 880,
-                "subjects": [
-                    "PUBAFFR"
-                ]
-            },
-            {
-                "course_number": 635,
-                "subjects": [
-                    "AAE"
-                ]
-            },
-            {
-                "course_number": 875,
-                "subjects": [
-                    "POPHLTH",
-                    "ISYE"
-                ]
-            },
-            {
-                "course_number": 818,
-                "subjects": [
-                    "PUBAFFR"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing and (",
-            {
-                "course_number": 818,
-                "subjects": [
-                    "PUBAFFR"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 880,
-                "subjects": [
-                    "PUBAFFR"
-                ]
-            },
-            "), or ",
-            {
-                "course_number": 875,
-                "subjects": [
-                    "POPHLTH",
-                    "ISYE"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 635,
-                "subjects": [
-                    "AAE"
-                ]
-            }
-        ],
-        "prerequisites_text": "Graduate/professional standing and (PUB\u00a0AFFR\u00a0818and880), orPOP\u00a0HLTH/\u200bI\u00a0SY\u00a0E\u00a0\u00a0875, orA\u00a0A\u00a0E\u00a0635"
-    },
+        {
+            "course_number": 880,
+            "subjects": [
+                "PUBAFFR"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -132,12 +53,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 818,
+                                    "subjects": [
+                                        "PUBAFFR"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 880,
+                                    "subjects": [
+                                        "PUBAFFR"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -146,12 +71,17 @@
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 875,
+                    "subjects": [
+                        "ISYE",
+                        "POPHLTH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 635,
+                    "subjects": [
+                        "AAE"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -160,18 +90,18 @@
             {
                 "course_number": 875,
                 "subjects": [
-                    "POPHLTH",
-                    "ISYE"
+                    "ISYE",
+                    "POPHLTH"
                 ]
             },
             {
-                "course_number": 880,
+                "course_number": 818,
                 "subjects": [
                     "PUBAFFR"
                 ]
             },
             {
-                "course_number": 818,
+                "course_number": 880,
                 "subjects": [
                     "PUBAFFR"
                 ]
@@ -202,8 +132,8 @@
             {
                 "course_number": 875,
                 "subjects": [
-                    "POPHLTH",
-                    "ISYE"
+                    "ISYE",
+                    "POPHLTH"
                 ]
             },
             ", or ",
@@ -218,11 +148,23 @@
     },
     "similar_courses": [
         {
+            "course_number": 643,
+            "subjects": [
+                "AAE"
+            ]
+        },
+        {
             "course_number": 531,
             "subjects": [
+                "ECON",
                 "AAE",
-                "F&WECOL",
-                "ECON"
+                "F&WECOL"
+            ]
+        },
+        {
+            "course_number": 760,
+            "subjects": [
+                "AAE"
             ]
         },
         {
@@ -235,18 +177,6 @@
             "course_number": 743,
             "subjects": [
                 "EDPOL"
-            ]
-        },
-        {
-            "course_number": 643,
-            "subjects": [
-                "AAE"
-            ]
-        },
-        {
-            "course_number": 760,
-            "subjects": [
-                "AAE"
             ]
         }
     ],
@@ -748,9 +678,9 @@
                 },
                 "last_taught_term": "Fall 2024",
                 "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
+                    "abbreviation": "A",
+                    "name": "Agricultural and Life Sciences",
+                    "url": "http://www.cals.wisc.edu/"
                 },
                 "typically_offered": "Fall"
             },

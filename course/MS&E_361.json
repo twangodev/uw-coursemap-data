@@ -27,73 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Experimental principles of materials science. Thermal, kinetic, structural, and materials synthesis experiments and associated concepts, data analysis, and presentation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Declared in Materials Science",
-                        "Engineering BS"
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "Applied Mathematics",
-                        "Physics",
-                        "Engineering BS",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 351,
+            "subjects": [
+                "MS&E"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 351,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            {
-                "course_number": 360,
-                "subjects": [
-                    "MS&E"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Materials Science and Engineering BS or Applied Mathematics, Physics and Engineering BS and (",
-            {
-                "course_number": 351,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 360,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Declared in Materials Science and Engineering BS or Applied Mathematics, Physics and Engineering BS and (M\u00a0S\u00a0&\u00a0E\u00a0351and360)"
-    },
+        {
+            "course_number": 360,
+            "subjects": [
+                "MS&E"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -112,12 +59,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 351,
+                                    "subjects": [
+                                        "MS&E"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 360,
+                                    "subjects": [
+                                        "MS&E"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -130,13 +81,13 @@
         },
         "course_references": [
             {
-                "course_number": 360,
+                "course_number": 351,
                 "subjects": [
                     "MS&E"
                 ]
             },
             {
-                "course_number": 351,
+                "course_number": 360,
                 "subjects": [
                     "MS&E"
                 ]
@@ -163,6 +114,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 362,
+            "subjects": [
+                "MS&E"
+            ]
+        },
+        {
             "course_number": 330,
             "subjects": [
                 "MS&E"
@@ -170,12 +127,6 @@
         },
         {
             "course_number": 350,
-            "subjects": [
-                "MS&E"
-            ]
-        },
-        {
-            "course_number": 362,
             "subjects": [
                 "MS&E"
             ]
@@ -282,8 +233,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "SUNGTAE KIM",
-                    "SUSAN BABCOCK"
+                    "SUSAN BABCOCK",
+                    "SUNGTAE KIM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

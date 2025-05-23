@@ -27,42 +27,22 @@
         "unsatisfactory": 1
     },
     "description": "Provide students with hands-on experience in and understanding of greenhouse cultivation. The optional lab component ofHORT\u00a0334Greenhouse Cultivation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent registration"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 334,
-                "subjects": [
-                    "HORT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 334,
-                "subjects": [
-                    "HORT"
-                ]
-            },
-            " or concurrent registration"
-        ],
-        "prerequisites_text": "HORT\u00a0334or concurrent registration"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 334,
+            "subjects": [
+                "HORT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 334,
+                    "subjects": [
+                        "HORT"
+                    ]
                 },
                 "concurrent registration"
             ],
@@ -89,13 +69,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 799,
-            "subjects": [
-                "HORT"
-            ]
-        },
-        {
-            "course_number": 120,
+            "course_number": 334,
             "subjects": [
                 "HORT"
             ]
@@ -113,7 +87,13 @@
             ]
         },
         {
-            "course_number": 334,
+            "course_number": 120,
+            "subjects": [
+                "HORT"
+            ]
+        },
+        {
+            "course_number": 799,
             "subjects": [
                 "HORT"
             ]

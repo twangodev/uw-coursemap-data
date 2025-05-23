@@ -27,44 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Intensive analysis of selected films, using contemporary critical theories and methods.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Junior standing",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in Communication Arts MA",
-                "PhD"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 350,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(Junior standing and ",
-            {
-                "course_number": 350,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            ") or declared in Communication Arts MA or PhD"
-        ],
-        "prerequisites_text": "(Junior standing andCOM\u00a0ARTS\u00a0350) or declared in Communication Arts MA or PhD"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 350,
+            "subjects": [
+                "COMARTS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -72,8 +42,10 @@
                     "children": [
                         "Junior standing",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 350,
+                            "subjects": [
+                                "COMARTS"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -105,6 +77,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 902,
+            "subjects": [
+                "COMARTS"
+            ]
+        },
+        {
             "course_number": 552,
             "subjects": [
                 "COMARTS"
@@ -117,19 +95,13 @@
             ]
         },
         {
-            "course_number": 613,
-            "subjects": [
-                "COMARTS"
-            ]
-        },
-        {
             "course_number": 350,
             "subjects": [
                 "COMARTS"
             ]
         },
         {
-            "course_number": 902,
+            "course_number": 613,
             "subjects": [
                 "COMARTS"
             ]

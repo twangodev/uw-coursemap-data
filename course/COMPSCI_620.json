@@ -27,43 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Build a meaningful product from start to finish with a local, regional, national and international corporate client that solves a real-world problem. In a collaborative space design, develop, test, debug, document, and deliver a software project for a corporate client, learning and using new technologies and agile software development techniques.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "senior standing",
-                "declared in an undergraduate Computer Sciences major"
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", senior standing, and declared in an undergraduate Computer Sciences major"
-        ],
-        "prerequisites_text": "COMP\u00a0SCI\u00a0400, senior standing, and declared in an undergraduate Computer Sciences major"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 400,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 400,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 "senior standing",
                 "declared in an undergraduate Computer Sciences major"
@@ -91,20 +70,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 614,
-            "subjects": [
-                "COMPSCI",
-                "LIS"
-            ]
-        },
-        {
-            "course_number": 506,
-            "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
             "course_number": 650,
             "subjects": [
                 "DS"
@@ -120,6 +85,20 @@
             "course_number": 881,
             "subjects": [
                 "OCCTHER"
+            ]
+        },
+        {
+            "course_number": 614,
+            "subjects": [
+                "LIS",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 506,
+            "subjects": [
+                "ECE",
+                "COMPSCI"
             ]
         }
     ],

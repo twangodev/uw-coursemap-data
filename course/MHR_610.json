@@ -27,65 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Determinants of wage levels, wage structures and individual wages; analysis of the impact of wages on individual attitudes and decisions to participate and perform in organizations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in the Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 705,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            {
-                "course_number": 305,
-                "subjects": [
-                    "MHR"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 305,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 705,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            "), or declared in the Business Exchange program"
-        ],
-        "prerequisites_text": "Sophomore standing and (M\u00a0H\u00a0R\u00a0305or705), or declared in the Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 705,
+            "subjects": [
+                "MHR"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -95,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 305,
+                                    "subjects": [
+                                        "MHR"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 705,
+                                    "subjects": [
+                                        "MHR"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -147,15 +100,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 956,
+            "course_number": 450,
             "subjects": [
                 "ECON"
-            ]
-        },
-        {
-            "course_number": 612,
-            "subjects": [
-                "MHR"
             ]
         },
         {
@@ -165,7 +112,7 @@
             ]
         },
         {
-            "course_number": 450,
+            "course_number": 956,
             "subjects": [
                 "ECON"
             ]
@@ -174,6 +121,12 @@
             "course_number": 955,
             "subjects": [
                 "ECON"
+            ]
+        },
+        {
+            "course_number": 612,
+            "subjects": [
+                "MHR"
             ]
         }
     ],

@@ -27,108 +27,44 @@
         "unsatisfactory": 1
     },
     "description": "Basic principles of fluid flow, heat transfer and diffusion are introduced. Examples relevant to design and processing of materials including metals, semiconductors, glasses, polymers, and ceramics are given.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 330,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 330,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or concurrent enrollment), or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "M\u00a0S\u00a0&\u00a0E\u00a0330and (MATH\u00a0319,320,376, or concurrent enrollment), or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 330,
+            "subjects": [
+                "MS&E"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 330,
+                            "subjects": [
+                                "MS&E"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 319,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 376,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -143,18 +79,6 @@
         },
         "course_references": [
             {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 320,
                 "subjects": [
                     "MATH"
@@ -164,6 +88,18 @@
                 "course_number": 330,
                 "subjects": [
                     "MS&E"
+                ]
+            },
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 376,
+                "subjects": [
+                    "MATH"
                 ]
             }
         ],
@@ -201,21 +137,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 620,
-            "subjects": [
-                "CBE"
-            ]
-        },
-        {
             "course_number": 417,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 564,
+            "course_number": 620,
             "subjects": [
-                "ME"
+                "CBE"
             ]
         },
         {
@@ -228,6 +158,12 @@
             "course_number": 320,
             "subjects": [
                 "CBE"
+            ]
+        },
+        {
+            "course_number": 564,
+            "subjects": [
+                "ME"
             ]
         }
     ],

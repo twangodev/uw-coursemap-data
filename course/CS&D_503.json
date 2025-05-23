@@ -27,73 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Basic neuroanatomical and neurophysiological mechanisms underlying the communication process. Neuropathologies and their associated communication disorders.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Declared in Biology",
-                                "Neurobiology"
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in Communication Sciences  Disorders MS"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 210,
-                "subjects": [
-                    "CS&D"
-                ]
-            },
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(Declared in Biology or Neurobiology) and (",
-            {
-                "course_number": 210,
-                "subjects": [
-                    "CS&D"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            "), or declared in Communication Sciences  Disorders MS"
-        ],
-        "prerequisites_text": "(Declared in Biology or Neurobiology) and (CS&D\u00a0210orPSYCH/\u200bZOOLOGY\u00a0\u00a0523), or declared in Communication Sciences  Disorders MS"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 210,
+            "subjects": [
+                "CS&D"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -109,12 +50,17 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 210,
+                                    "subjects": [
+                                        "CS&D"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 523,
+                                    "subjects": [
+                                        "PSYCH",
+                                        "ZOOLOGY"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -136,8 +82,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -153,8 +99,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             "), or declared in Communication Sciences  Disorders MS"
@@ -163,15 +109,22 @@
     },
     "similar_courses": [
         {
+            "course_number": 210,
+            "subjects": [
+                "CS&D"
+            ]
+        },
+        {
             "course_number": 110,
             "subjects": [
                 "CS&D"
             ]
         },
         {
-            "course_number": 210,
+            "course_number": 523,
             "subjects": [
-                "CS&D"
+                "PSYCH",
+                "ZOOLOGY"
             ]
         },
         {
@@ -184,13 +137,6 @@
             "course_number": 318,
             "subjects": [
                 "CS&D"
-            ]
-        },
-        {
-            "course_number": 523,
-            "subjects": [
-                "ZOOLOGY",
-                "PSYCH"
             ]
         }
     ],

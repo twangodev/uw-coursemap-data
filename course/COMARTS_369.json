@@ -27,43 +27,23 @@
         "unsatisfactory": 0
     },
     "description": "Approach the U.S. presidential election from a rhetorical perspective. Analyze how individual candidates and political parties use and abuse language and other symbols to 1) identify with U.S. voters; 2) advance an agenda to address a current need; 3) present a particular narrative of U.S. history, identity, and national purpose; and 4) convince U.S. citizens to support their candidacy and policies on Election Day.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Sophomore standing",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 260,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing or ",
-            {
-                "course_number": 260,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "prerequisites_text": "Sophomore standing orCOM\u00a0ARTS\u00a0260"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 260,
+            "subjects": [
+                "COMARTS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Sophomore standing",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 260,
+                    "subjects": [
+                        "COMARTS"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -101,7 +81,7 @@
             ]
         },
         {
-            "course_number": 360,
+            "course_number": 372,
             "subjects": [
                 "COMARTS"
             ]
@@ -113,7 +93,7 @@
             ]
         },
         {
-            "course_number": 372,
+            "course_number": 360,
             "subjects": [
                 "COMARTS"
             ]

@@ -27,43 +27,23 @@
         "unsatisfactory": 0
     },
     "description": "Accelerated development of oral, reading and writing skills up to a level equivalent to that of the end ofITALIAN\u00a0102. No previous knowledge of Italian is required. Does not award retrocredit.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Not open to students with credit for",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ITALIAN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ITALIAN"
-                ]
-            }
-        ],
-        "prerequisites_text": "Not open to students with credit forITALIAN\u00a0102"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "ITALIAN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Not open to students with credit for",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 102,
+                    "subjects": [
+                        "ITALIAN"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -101,6 +81,12 @@
             ]
         },
         {
+            "course_number": 100,
+            "subjects": [
+                "ITALIAN"
+            ]
+        },
+        {
             "course_number": 205,
             "subjects": [
                 "ITALIAN"
@@ -108,12 +94,6 @@
         },
         {
             "course_number": 311,
-            "subjects": [
-                "ITALIAN"
-            ]
-        },
-        {
-            "course_number": 100,
             "subjects": [
                 "ITALIAN"
             ]
@@ -133,9 +113,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "BARBARA BIRD",
+                    "CHAD WARREN SHORTER",
                     "Melody Niwot",
-                    "CHAD WARREN SHORTER"
+                    "BARBARA BIRD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -186,8 +166,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "MONICA SEGER",
-                    "TANIA CONVERTINI"
+                    "TANIA CONVERTINI",
+                    "MONICA SEGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -239,8 +219,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "CHAD WARREN SHORTER",
-                    "MATTEO GILEBBI",
-                    "LIDIA CICCONE"
+                    "LIDIA CICCONE",
+                    "MATTEO GILEBBI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -845,7 +825,10 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
+                "instructors": {
+                    "Francesco Satta": "FSATTA@WISC.EDU",
+                    "Ozge Sahin": "OSAHIN4@WISC.EDU"
+                },
                 "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "L",

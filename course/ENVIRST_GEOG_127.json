@@ -28,45 +28,25 @@
         "unsatisfactory": 0
     },
     "description": "An introduction to natural environmental systems, emphasizing the interconnections between the systems of the solid earth (minerals, rocks, soils), the hydrosphere (water in all its forms), the biosphere, and the atmosphere. Emphasizes connections between basic concepts and specific environmental issues through hands-on case studies, lab projects, and field trips to collect samples and observations for lab projects.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Not open to students with credit for",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 120,
-                "subjects": [
-                    "ENVIRST",
-                    "GEOG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 120,
-                "subjects": [
-                    "ENVIRST",
-                    "GEOG"
-                ]
-            }
-        ],
-        "prerequisites_text": "Not open to students with credit forENVIR\u00a0ST/\u200bGEOG\u00a0\u00a0120"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 120,
+            "subjects": [
+                "ENVIRST",
+                "GEOG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Not open to students with credit for",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 120,
+                    "subjects": [
+                        "ENVIRST",
+                        "GEOG"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -94,22 +74,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 337,
+            "course_number": 120,
             "subjects": [
                 "ENVIRST",
                 "GEOG"
-            ]
-        },
-        {
-            "course_number": 980,
-            "subjects": [
-                "ATMOCN",
-                "ZOOLOGY",
-                "BOTANY",
-                "GEOG",
-                "GEOSCI",
-                "F&WECOL",
-                "ENVIRST"
             ]
         },
         {
@@ -120,16 +88,28 @@
             ]
         },
         {
+            "course_number": 337,
+            "subjects": [
+                "ENVIRST",
+                "GEOG"
+            ]
+        },
+        {
             "course_number": 250,
             "subjects": [
                 "SOILSCI"
             ]
         },
         {
-            "course_number": 120,
+            "course_number": 980,
             "subjects": [
+                "GEOSCI",
                 "ENVIRST",
-                "GEOG"
+                "ZOOLOGY",
+                "BOTANY",
+                "GEOG",
+                "F&WECOL",
+                "ATMOCN"
             ]
         }
     ],

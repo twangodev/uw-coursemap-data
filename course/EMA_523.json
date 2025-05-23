@@ -27,71 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Aircraft longitudinal and lateral static stability. Aircraft equations of motion. Stability derivatives. Longitudinal and lateral dynamic stability of uncontrolled motion. Open-loop aircraft control. Closed-loop aircraft control.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 521,
+            "subjects": [
+                "EMA"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 542,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 521,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 521,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 542,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0M\u00a0A\u00a0521and542, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 542,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 521,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 542,
+                            "subjects": [
+                                "EMA"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -103,13 +68,13 @@
         },
         "course_references": [
             {
-                "course_number": 521,
+                "course_number": 542,
                 "subjects": [
                     "EMA"
                 ]
             },
             {
-                "course_number": 542,
+                "course_number": 521,
                 "subjects": [
                     "EMA"
                 ]
@@ -147,6 +112,12 @@
             ]
         },
         {
+            "course_number": 542,
+            "subjects": [
+                "EMA"
+            ]
+        },
+        {
             "course_number": 732,
             "subjects": [
                 "ME",
@@ -157,12 +128,6 @@
             "course_number": 746,
             "subjects": [
                 "ME"
-            ]
-        },
-        {
-            "course_number": 542,
-            "subjects": [
-                "EMA"
             ]
         }
     ],

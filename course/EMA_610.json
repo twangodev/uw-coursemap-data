@@ -27,64 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "An introduction to test-based validation of finite element models for the design and analysis of dynamic structures.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 545,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 440,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 545,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 440,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ", or graduate/professional standing or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0M\u00a0A\u00a0545orM\u00a0E\u00a0440, or graduate/professional standing or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 545,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 545,
+                    "subjects": [
+                        "EMA"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 440,
+                    "subjects": [
+                        "ME"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -93,15 +57,15 @@
         },
         "course_references": [
             {
-                "course_number": 545,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
                 "course_number": 440,
                 "subjects": [
                     "ME"
+                ]
+            },
+            {
+                "course_number": 545,
+                "subjects": [
+                    "EMA"
                 ]
             }
         ],
@@ -125,13 +89,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 405,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
-            "course_number": 745,
+            "course_number": 705,
             "subjects": [
                 "EMA"
             ]
@@ -143,13 +101,19 @@
             ]
         },
         {
+            "course_number": 745,
+            "subjects": [
+                "EMA"
+            ]
+        },
+        {
             "course_number": 460,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 705,
+            "course_number": 405,
             "subjects": [
                 "EMA"
             ]

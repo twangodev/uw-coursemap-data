@@ -27,70 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Guided practice in the development and implementation of information literacy curriculum at the university level. Participants will assist campus teaching librarians with the Communication Requirement A courses and perform other teaching related tasks at assigned site.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "concurrent enrollment"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 601,
+            "subjects": [
+                "LIS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 601,
-                "subjects": [
-                    "LIS"
-                ]
-            },
-            {
-                "course_number": 602,
-                "subjects": [
-                    "LIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 601,
-                "subjects": [
-                    "LIS"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 602,
-                "subjects": [
-                    "LIS"
-                ]
-            },
-            " or concurrent enrollment"
-        ],
-        "prerequisites_text": "L\u00a0I\u00a0S\u00a0601and602or concurrent enrollment"
-    },
+        {
+            "course_number": 602,
+            "subjects": [
+                "LIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 601,
+                            "subjects": [
+                                "LIS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 602,
+                            "subjects": [
+                                "LIS"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -133,14 +99,21 @@
     },
     "similar_courses": [
         {
+            "course_number": 820,
+            "subjects": [
+                "LIS"
+            ]
+        },
+        {
             "course_number": 639,
             "subjects": [
                 "LIS"
             ]
         },
         {
-            "course_number": 840,
+            "course_number": 620,
             "subjects": [
+                "LIS",
                 "CURRIC"
             ]
         },
@@ -151,15 +124,8 @@
             ]
         },
         {
-            "course_number": 820,
+            "course_number": 840,
             "subjects": [
-                "LIS"
-            ]
-        },
-        {
-            "course_number": 620,
-            "subjects": [
-                "LIS",
                 "CURRIC"
             ]
         }

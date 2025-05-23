@@ -8,117 +8,42 @@
     "course_title": "INTRODUCTION TO QUANTUM DATA SCIENCE",
     "cumulative_grade_data": null,
     "description": "Quantum computation issues, including probability, statistics, sensing, information, machine learning, and applying data science to quantum information science.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 611,
+            "subjects": [
+                "STAT"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 611,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 609,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 601,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 601,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 609,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 610,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            "), or (",
-            {
-                "course_number": 611,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 612,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "STAT\u00a0601, (STAT\u00a0609and610), or (STAT\u00a0611and612)"
-    },
+        {
+            "course_number": 612,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 601,
+                    "subjects": [
+                        "STAT"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 609,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 610,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -126,12 +51,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 611,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 612,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -141,13 +70,7 @@
         },
         "course_references": [
             {
-                "course_number": 609,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 612,
+                "course_number": 610,
                 "subjects": [
                     "STAT"
                 ]
@@ -165,7 +88,13 @@
                 ]
             },
             {
-                "course_number": 610,
+                "course_number": 612,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            {
+                "course_number": 609,
                 "subjects": [
                     "STAT"
                 ]
@@ -212,18 +141,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 448,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 707,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
             "course_number": 779,
             "subjects": [
                 "PHYSICS"
@@ -232,13 +149,25 @@
         {
             "course_number": 888,
             "subjects": [
-                "MATH",
                 "STAT",
+                "MATH",
                 "ECE"
             ]
         },
         {
+            "course_number": 448,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
             "course_number": 709,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 707,
             "subjects": [
                 "PHYSICS"
             ]

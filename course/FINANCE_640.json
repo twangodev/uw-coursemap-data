@@ -27,71 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Thorough grounding in credit instruments. Topics include loans, bonds, credit default swaps, and trading strategies.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 325,
+            "subjects": [
+                "FINANCE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 325,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            {
-                "course_number": 330,
-                "subjects": [
-                    "FINANCE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 325,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 330,
-                "subjects": [
-                    "FINANCE"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(FINANCE\u00a0325and330) or graduate/professional standing"
-    },
+        {
+            "course_number": 330,
+            "subjects": [
+                "FINANCE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 325,
+                            "subjects": [
+                                "FINANCE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 330,
+                            "subjects": [
+                                "FINANCE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -135,7 +100,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 340,
+            "course_number": 760,
+            "subjects": [
+                "FINANCE"
+            ]
+        },
+        {
+            "course_number": 740,
             "subjects": [
                 "FINANCE"
             ]
@@ -147,19 +118,13 @@
             ]
         },
         {
-            "course_number": 760,
+            "course_number": 340,
             "subjects": [
                 "FINANCE"
             ]
         },
         {
             "course_number": 645,
-            "subjects": [
-                "FINANCE"
-            ]
-        },
-        {
-            "course_number": 740,
             "subjects": [
                 "FINANCE"
             ]
@@ -179,8 +144,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Betsi HILL",
-                    "LUKE HUPFER"
+                    "LUKE HUPFER",
+                    "Betsi HILL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

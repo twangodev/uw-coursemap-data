@@ -27,100 +27,48 @@
         "unsatisfactory": 0
     },
     "description": "Properties of normal and peculiar stars as found from an analysis of the radiation they emit; introduction to radiation transfer. Theory of stellar atmospheres, interiors, and evolution.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 249,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or concurrent enrollment)"
-        ],
-        "prerequisites_text": "MATH\u00a0222and (PHYSICS\u00a0205,241, or249, or concurrent enrollment)"
-    },
+        {
+            "course_number": 241,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 205,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 241,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 249,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -130,6 +78,12 @@
             "operator": "AND"
         },
         "course_references": [
+            {
+                "course_number": 241,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
             {
                 "course_number": 222,
                 "subjects": [
@@ -144,12 +98,6 @@
             },
             {
                 "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 241,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -189,19 +137,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 715,
-            "subjects": [
-                "ASTRON"
-            ]
-        },
-        {
             "course_number": 700,
-            "subjects": [
-                "ASTRON"
-            ]
-        },
-        {
-            "course_number": 702,
             "subjects": [
                 "ASTRON"
             ]
@@ -209,12 +145,24 @@
         {
             "course_number": 910,
             "subjects": [
-                "ASTRON",
-                "PHYSICS"
+                "PHYSICS",
+                "ASTRON"
             ]
         },
         {
             "course_number": 340,
+            "subjects": [
+                "ASTRON"
+            ]
+        },
+        {
+            "course_number": 715,
+            "subjects": [
+                "ASTRON"
+            ]
+        },
+        {
+            "course_number": 702,
             "subjects": [
                 "ASTRON"
             ]
@@ -384,8 +332,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BENJAMIN BROWN",
-                    "ELLEN ZWEIBEL"
+                    "ELLEN ZWEIBEL",
+                    "BENJAMIN BROWN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -436,8 +384,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ELLEN ZWEIBEL",
-                    "ROBERT MATHIEU"
+                    "ROBERT MATHIEU",
+                    "ELLEN ZWEIBEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

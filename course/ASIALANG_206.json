@@ -27,65 +27,24 @@
         "unsatisfactory": 0
     },
     "description": "Further practice in speaking, reading and writing Korean. Students with prior experience in the language are required to take a placement test administered by the department. Not open to students with credit for E ASIAN 346 prior to Summer 2019.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "E ASIAN 345 prior to Summer 2019"
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 205,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 205,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            " (E ASIAN 345 prior to Summer 2019) or placement into ",
-            {
-                "course_number": 206,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "prerequisites_text": "ASIALANG\u00a0205(E ASIAN 345 prior to Summer 2019) or placement intoASIALANG\u00a0206"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 205,
+            "subjects": [
+                "ASIALANG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 205,
+                            "subjects": [
+                                "ASIALANG"
+                            ]
                         },
                         "E ASIAN 345 prior to Summer 2019"
                     ],
@@ -95,8 +54,10 @@
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 206,
+                            "subjects": [
+                                "ASIALANG"
+                            ]
                         }
                     ],
                     "operator": "AND"

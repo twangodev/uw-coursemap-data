@@ -1,6 +1,22 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "Ohm's law, Kirchhoff's laws, resistive circuits, nodal and mesh analysis, superposition, equivalent circuits using Thevenin and Norton Theorems, op amps and op amp circuits, capacitors and inductors in first-order circuits, sinusoidal steady state, phasors, RMS value, complex power, power factor, mutual inductance, linear and ideal transformers.",
             "id": "ECE 376",
             "parent": "ECE",
@@ -41,30 +57,6 @@
     },
     {
         "data": {
-            "description": "Calculus-based introduction to physics intended for engineering students. Electricity, magnetism, light, and sound.",
-            "id": "PHYSICS 202",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
-            "id": "PHYSICS 201",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
-            "id": "PHYSICS 207",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
             "description": "Continuation ofMATH\u00a0171. Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Completion ofMATH\u00a0217implies completion ofMATH\u00a0221and114.",
             "id": "MATH 217",
             "parent": "MATH",
@@ -89,14 +81,6 @@
     },
     {
         "data": {
-            "description": "Energy storage and conversion, force and emf production, coupled circuit analysis of systems with both electrical and mechanical inputs. Applications to electric motors and generators and other electromechanical transducers.",
-            "id": "ECE 355",
-            "parent": "ECE",
-            "title": "ELECTROMECHANICAL ENERGY CONVERSION"
-        }
-    },
-    {
-        "data": {
             "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
             "id": "MATH 211",
             "parent": "MATH",
@@ -109,14 +93,6 @@
             "id": "MATH 213",
             "parent": "MATH",
             "title": "SURVEY OF CALCULUS 2"
-        }
-    },
-    {
-        "data": {
-            "description": "Fundamentals of electromagnetic induction and application to transformers and induction heating; Lorentz forces with a focus on the operation and control of DC and AC motors and linear actuators; electrical power conversion using power electronics for motor drives and direct power converters.",
-            "id": "ECE 377",
-            "parent": "ECE",
-            "title": "FUNDAMENTALS OF ELECTRICAL AND ELECTRO-MECHANICAL POWER CONVERSION"
         }
     },
     {
@@ -137,18 +113,18 @@
     },
     {
         "data": {
-            "description": "Introduction to physics at the non-calculus level. Principles of mechanics, heat, and waves, with applications to a number of different fields. Not recommended for students in the physical sciences and engineering.",
-            "id": "PHYSICS 103",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to the signals, information, and computational techniques in electrical engineering.",
             "id": "ECE 203",
             "parent": "ECE",
             "title": "SIGNALS, INFORMATION, AND COMPUTATION"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -185,22 +161,6 @@
     },
     {
         "data": {
-            "description": "Topics in multi-variable calculus and introduction to differential equations.",
-            "id": "MATH 376",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
-        }
-    },
-    {
-        "data": {
             "id": "ECE",
             "type": "compound"
         }
@@ -226,12 +186,6 @@
     {
         "data": {
             "source": "ECE 230",
-            "target": "ECE 355"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 230",
             "target": "ECE 376"
         }
     },
@@ -243,12 +197,6 @@
     },
     {
         "data": {
-            "source": "ECE 355",
-            "target": "ECE 411"
-        }
-    },
-    {
-        "data": {
             "source": "ECE 356",
             "target": "ECE 411"
         }
@@ -256,25 +204,7 @@
     {
         "data": {
             "source": "ECE 376",
-            "target": "ECE 355"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 376",
             "target": "ECE 356"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 376",
-            "target": "ECE 377"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 377",
-            "target": "ECE 411"
         }
     },
     {
@@ -287,6 +217,36 @@
         "data": {
             "source": "ECE 427",
             "target": "ECE 511"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 171"
         }
     },
     {
@@ -310,7 +270,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -334,19 +294,19 @@
     {
         "data": {
             "source": "MATH 222",
+            "target": "ECE 230"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
             "target": "PHYSICS 247"
         }
     },
     {
         "data": {
-            "source": "MATH 375",
-            "target": "MATH 376"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "PHYSICS 248"
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {
@@ -357,54 +317,6 @@
     },
     {
         "data": {
-            "source": "PHYSICS 103",
-            "target": "PHYSICS 202"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
-            "target": "PHYSICS 103"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
-            "target": "PHYSICS 202"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 201",
-            "target": "PHYSICS 207"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 202",
-            "target": "ECE 230"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 202",
-            "target": "ECE 377"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 207",
-            "target": "PHYSICS 201"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 247",
-            "target": "PHYSICS 103"
-        }
-    },
-    {
-        "data": {
             "source": "PHYSICS 247",
             "target": "PHYSICS 248"
         }
@@ -413,12 +325,6 @@
         "data": {
             "source": "PHYSICS 248",
             "target": "ECE 230"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 248",
-            "target": "ECE 376"
         }
     }
 ]

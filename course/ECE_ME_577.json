@@ -28,46 +28,23 @@
         "unsatisfactory": 0
     },
     "description": "Control theory is reduced to engineering practice through the analysis and design of actual systems in the laboratory. Experiments are conducted with modern servo systems using both analog and digital control. Systems identification and modern controls design are applied to motion and torque control.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "M E 346",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 332,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "M E 346 or ",
-            {
-                "course_number": 332,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ", or graduate/professional standing or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "M E 346 orE\u00a0C\u00a0E\u00a0332, or graduate/professional standing or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 332,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "M E 346",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 332,
+                    "subjects": [
+                        "ECE"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -96,13 +73,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 445,
+            "course_number": 747,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 447,
+            "course_number": 445,
             "subjects": [
                 "ME"
             ]
@@ -115,16 +92,16 @@
             ]
         },
         {
-            "course_number": 747,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
             "course_number": 733,
             "subjects": [
                 "ME",
                 "ECE"
+            ]
+        },
+        {
+            "course_number": 447,
+            "subjects": [
+                "ME"
             ]
         }
     ],
@@ -267,8 +244,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JONATHAN HOFFMAN",
                     "CALEB SECREST",
+                    "JONATHAN HOFFMAN",
                     "ROBERT LORENZ"
                 ],
                 "no_credit": 0,

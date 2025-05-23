@@ -27,160 +27,61 @@
         "unsatisfactory": 0
     },
     "description": "Provides basic training in quantitative data analysis, with an emphasis on descriptive and inferential statistics with consumer research applications.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "GEOG 360"
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 210,
+            "subjects": [
+                "PSYCH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 360,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            {
-                "course_number": 210,
-                "subjects": [
-                    "PSYCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 360,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 210,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 306,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            ", or GEOG 360) and (",
-            {
-                "course_number": 106,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 335,
-                "subjects": [
-                    "AAE"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(STAT\u00a0301,371,C&E\u00a0SOC/\u200bSOC\u00a0\u00a0360,PSYCH\u00a0210,ECON\u00a0310,GEN\u00a0BUS\u00a0306, or GEOG 360) and (GEN\u00a0BUS\u00a0106orA\u00a0A\u00a0E\u00a0335)"
-    },
+        {
+            "course_number": 335,
+            "subjects": [
+                "AAE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 301,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 371,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 360,
+                            "subjects": [
+                                "SOC",
+                                "C&ESOC"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 210,
+                            "subjects": [
+                                "PSYCH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 310,
+                            "subjects": [
+                                "ECON"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 306,
+                            "subjects": [
+                                "GENBUS"
+                            ]
                         },
                         "GEOG 360"
                     ],
@@ -189,12 +90,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 106,
+                            "subjects": [
+                                "GENBUS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 335,
+                            "subjects": [
+                                "AAE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -204,33 +109,27 @@
         },
         "course_references": [
             {
-                "course_number": 306,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            {
-                "course_number": 106,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            {
-                "course_number": 210,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
                 "course_number": 301,
                 "subjects": [
                     "STAT"
                 ]
             },
             {
-                "course_number": 335,
+                "course_number": 371,
                 "subjects": [
-                    "AAE"
+                    "STAT"
+                ]
+            },
+            {
+                "course_number": 306,
+                "subjects": [
+                    "GENBUS"
+                ]
+            },
+            {
+                "course_number": 310,
+                "subjects": [
+                    "ECON"
                 ]
             },
             {
@@ -241,15 +140,21 @@
                 ]
             },
             {
-                "course_number": 371,
+                "course_number": 335,
                 "subjects": [
-                    "STAT"
+                    "AAE"
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 210,
                 "subjects": [
-                    "ECON"
+                    "PSYCH"
+                ]
+            },
+            {
+                "course_number": 106,
+                "subjects": [
+                    "GENBUS"
                 ]
             }
         ],
@@ -317,19 +222,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 768,
-            "subjects": [
-                "CNSRSCI"
-            ]
-        },
-        {
-            "course_number": 901,
-            "subjects": [
-                "CNSRSCI"
-            ]
-        },
-        {
             "course_number": 561,
+            "subjects": [
+                "CNSRSCI"
+            ]
+        },
+        {
+            "course_number": 768,
             "subjects": [
                 "CNSRSCI"
             ]
@@ -342,6 +241,12 @@
         },
         {
             "course_number": 888,
+            "subjects": [
+                "CNSRSCI"
+            ]
+        },
+        {
+            "course_number": 901,
             "subjects": [
                 "CNSRSCI"
             ]
@@ -386,8 +291,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN MARSDEN",
-                    "FENABA ADDO"
+                    "FENABA ADDO",
+                    "BRIAN MARSDEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -514,9 +419,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LINDIANDIAN YI",
+                    "MOONHOON CHOI",
                     "FENABA ADDO",
-                    "MOONHOON CHOI"
+                    "LINDIANDIAN YI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -591,8 +496,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LINDIANDIAN YI",
-                    "FENABA ADDO"
+                    "FENABA ADDO",
+                    "LINDIANDIAN YI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -643,8 +548,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "YILING ZHANG",
-                    "PATRICIA SIGLER",
-                    "MACKENZIE JAHN"
+                    "MACKENZIE JAHN",
+                    "PATRICIA SIGLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -670,9 +575,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "YILING ZHANG",
-                    "PATRICIA SIGLER",
                     "SANCHITA CHAKRABORTY",
-                    "KRISTINA LAURING"
+                    "KRISTINA LAURING",
+                    "PATRICIA SIGLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -697,9 +602,9 @@
                 "f": 0,
                 "incomplete": 2,
                 "instructors": [
-                    "YILING ZHANG",
                     "SANCHITA CHAKRABORTY",
                     "KRISTINA LAURING",
+                    "YILING ZHANG",
                     "NAFSANIATH FATHEMA"
                 ],
                 "no_credit": 0,
@@ -725,13 +630,13 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "YILING ZHANG",
                     "RISHABH LAKHOTIA",
-                    "SANCHITA CHAKRABORTY",
+                    "LAURI LUOSTA",
                     "PATRICIA SIGLER",
-                    "JILL HUIZENGA",
                     "NAFSANIATH FATHEMA",
-                    "LAURI LUOSTA"
+                    "YILING ZHANG",
+                    "SANCHITA CHAKRABORTY",
+                    "JILL HUIZENGA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -756,12 +661,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YILING ZHANG",
-                    "Nancy WONG",
-                    "PATRICIA SIGLER",
+                    "LAURI LUOSTA",
                     "MAHESH RANGABHAT",
+                    "PATRICIA SIGLER",
                     "SANCHITA CHAKRABORTY",
-                    "LAURI LUOSTA"
+                    "YILING ZHANG",
+                    "Nancy WONG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -786,14 +691,14 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "MAHESH RANGABHAT",
                     "LOGAN HASH",
-                    "Melissa BUBLITZ",
-                    "Gisella KAGY",
-                    "SHARAN MEHRA",
+                    "MAHESH RANGABHAT",
+                    "LAURI LUOSTA",
                     "MICAH NELSON",
                     "NAFSANIATH FATHEMA",
-                    "LAURI LUOSTA"
+                    "Melissa BUBLITZ",
+                    "SHARAN MEHRA",
+                    "Gisella KAGY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

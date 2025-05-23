@@ -8,85 +8,42 @@
     "course_title": "MODELING NEURODEVELOPMENTAL DISEASE",
     "cumulative_grade_data": null,
     "description": "Systematically explores current animal models of human diseases that affect the central nervous system. Topics will include birth defects that disrupt normal brain architecture (holoprosencephaly and neural tube closure defects), birth defects affecting the visual system, and postnatal disease, e.g. neurodegeneration and stroke.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "ZOOLOGY\u00a0470",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            ", ZOOLOGY\u00a0470, or ",
-            {
-                "course_number": 570,
-                "subjects": [
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "prerequisites_text": "GENETICS\u00a0466,ZOOLOGY/\u200bPSYCH\u00a0\u00a0523, ZOOLOGY\u00a0470, or570"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 523,
+            "subjects": [
+                "PSYCH",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 466,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 523,
+                    "subjects": [
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
                 },
                 "ZOOLOGY\u00a0470",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 570,
+                    "subjects": [
+                        "ZOOLOGY"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
             {
                 "course_number": 570,
                 "subjects": [
@@ -94,10 +51,16 @@
                 ]
             },
             {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -112,8 +75,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             ", ZOOLOGY\u00a0470, or ",
@@ -128,20 +91,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 627,
-            "subjects": [
-                "GENETICS"
-            ]
-        },
-        {
-            "course_number": 765,
-            "subjects": [
-                "NEURODPT",
-                "ZOOLOGY",
-                "NTP"
-            ]
-        },
-        {
             "course_number": 735,
             "subjects": [
                 "NEUROL"
@@ -154,9 +103,23 @@
             ]
         },
         {
+            "course_number": 765,
+            "subjects": [
+                "NEURODPT",
+                "ZOOLOGY",
+                "NTP"
+            ]
+        },
+        {
             "course_number": 444,
             "subjects": [
                 "ZOOLOGY"
+            ]
+        },
+        {
+            "course_number": 627,
+            "subjects": [
+                "GENETICS"
             ]
         }
     ],

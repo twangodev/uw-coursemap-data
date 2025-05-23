@@ -27,45 +27,23 @@
         "unsatisfactory": 0
     },
     "description": "Western science and technology in the making. Major developments viewed in philosophical and social context, from antiquity to 17th century.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Not open to students with credit for",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "."
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "HISTSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "HISTSCI"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "Not open to students with credit forHIST\u00a0SCI\u00a0201."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 201,
+            "subjects": [
+                "HISTSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Not open to students with credit for",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 201,
+                    "subjects": [
+                        "HISTSCI"
+                    ]
                 },
                 "."
             ],
@@ -93,18 +71,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 202,
-            "subjects": [
-                "HISTSCI"
-            ]
-        },
-        {
-            "course_number": 205,
-            "subjects": [
-                "ILS"
-            ]
-        },
-        {
             "course_number": 203,
             "subjects": [
                 "ILS"
@@ -112,6 +78,18 @@
         },
         {
             "course_number": 202,
+            "subjects": [
+                "ILS"
+            ]
+        },
+        {
+            "course_number": 202,
+            "subjects": [
+                "HISTSCI"
+            ]
+        },
+        {
+            "course_number": 205,
             "subjects": [
                 "ILS"
             ]

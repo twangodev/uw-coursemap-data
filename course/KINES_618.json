@@ -27,67 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Biomechanics of human movement and skill with emphasis on kinematics and kinetics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Declared in Kinesiology",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "KINES 328",
-                                "337",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 318,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            {
-                "course_number": 337,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Kinesiology, ",
-            {
-                "course_number": 318,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            " and (KINES 328, 337 or ",
-            {
-                "course_number": 337,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "Declared in Kinesiology,KINES\u00a0318and (KINES 328, 337 orANAT&PHY\u00a0337) or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 318,
+            "subjects": [
+                "KINES"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -95,16 +42,20 @@
                     "children": [
                         "Declared in Kinesiology",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 318,
+                            "subjects": [
+                                "KINES"
+                            ]
                         },
                         {
                             "children": [
                                 "KINES 328",
                                 "337",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 337,
+                                    "subjects": [
+                                        "ANAT&PHY"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -151,7 +102,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 318,
+            "course_number": 308,
             "subjects": [
                 "KINES"
             ]
@@ -164,19 +115,19 @@
             ]
         },
         {
-            "course_number": 227,
-            "subjects": [
-                "KINES"
-            ]
-        },
-        {
             "course_number": 951,
             "subjects": [
                 "KINES"
             ]
         },
         {
-            "course_number": 308,
+            "course_number": 318,
+            "subjects": [
+                "KINES"
+            ]
+        },
+        {
+            "course_number": 227,
             "subjects": [
                 "KINES"
             ]

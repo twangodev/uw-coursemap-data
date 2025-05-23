@@ -27,106 +27,66 @@
         "unsatisfactory": 0
     },
     "description": "Designed to advance knowledge for clinical decision making. Health promotion, illness prevention and common health conditions are emphasized.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent enrollment in",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 601,
+            "subjects": [
+                "NURSING"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 601,
-                "subjects": [
-                    "NURSING"
-                ]
-            },
-            {
-                "course_number": 728,
-                "subjects": [
-                    "NURSING"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 601,
-                "subjects": [
-                    "NURSING"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 605,
-                "subjects": [
-                    "PHMPRAC",
-                    "NURSING"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 811,
-                "subjects": [
-                    "NURSING"
-                ]
-            },
-            ", and concurrent enrollment in ",
-            {
-                "course_number": 728,
-                "subjects": [
-                    "NURSING"
-                ]
-            }
-        ],
-        "prerequisites_text": "NURSING\u00a0601,605,811, and concurrent enrollment inNURSING\u00a0728"
-    },
+        {
+            "course_number": 605,
+            "subjects": [
+                "NURSING",
+                "PHMPRAC"
+            ]
+        },
+        {
+            "course_number": 811,
+            "subjects": [
+                "NURSING"
+            ]
+        },
+        {
+            "course_number": 728,
+            "subjects": [
+                "NURSING"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 601,
+                    "subjects": [
+                        "NURSING"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 605,
+                    "subjects": [
+                        "NURSING",
+                        "PHMPRAC"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 811,
+                    "subjects": [
+                        "NURSING"
+                    ]
                 },
                 "concurrent enrollment in",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 728,
+                    "subjects": [
+                        "NURSING"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
-            {
-                "course_number": 605,
-                "subjects": [
-                    "PHMPRAC",
-                    "NURSING"
-                ]
-            },
             {
                 "course_number": 811,
                 "subjects": [
@@ -134,13 +94,20 @@
                 ]
             },
             {
-                "course_number": 728,
+                "course_number": 605,
+                "subjects": [
+                    "NURSING",
+                    "PHMPRAC"
+                ]
+            },
+            {
+                "course_number": 601,
                 "subjects": [
                     "NURSING"
                 ]
             },
             {
-                "course_number": 601,
+                "course_number": 728,
                 "subjects": [
                     "NURSING"
                 ]
@@ -157,8 +124,8 @@
             {
                 "course_number": 605,
                 "subjects": [
-                    "PHMPRAC",
-                    "NURSING"
+                    "NURSING",
+                    "PHMPRAC"
                 ]
             },
             ", ",
@@ -180,13 +147,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 446,
-            "subjects": [
-                "CNP"
-            ]
-        },
-        {
-            "course_number": 601,
+            "course_number": 313,
             "subjects": [
                 "NURSING"
             ]
@@ -198,13 +159,19 @@
             ]
         },
         {
-            "course_number": 313,
+            "course_number": 446,
+            "subjects": [
+                "CNP"
+            ]
+        },
+        {
+            "course_number": 727,
             "subjects": [
                 "NURSING"
             ]
         },
         {
-            "course_number": 727,
+            "course_number": 601,
             "subjects": [
                 "NURSING"
             ]
@@ -224,8 +191,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "KELLY KRUSE-NELLES",
-                    "ELIZABETH RICE"
+                    "ELIZABETH RICE",
+                    "KELLY KRUSE-NELLES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -250,9 +217,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEFFERY KOBERNUSZ",
+                    "ELIZABETH RICE",
                     "KELLY KRUSE-NELLES",
-                    "ELIZABETH RICE"
+                    "JEFFERY KOBERNUSZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -277,10 +244,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEFFERY KOBERNUSZ",
                     "TRACY SALADAR",
                     "Sarah Endicott",
-                    "ELIZABETH RICE"
+                    "ELIZABETH RICE",
+                    "JEFFERY KOBERNUSZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -305,10 +272,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEFFERY KOBERNUSZ",
                     "TRACY SALADAR",
                     "Sarah Endicott",
-                    "ELIZABETH RICE"
+                    "ELIZABETH RICE",
+                    "JEFFERY KOBERNUSZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -333,10 +300,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEFFERY KOBERNUSZ",
                     "TRACY SALADAR",
+                    "KATHLEEN MURPHY-ENDE",
                     "Sarah Endicott",
-                    "KATHLEEN MURPHY-ENDE"
+                    "JEFFERY KOBERNUSZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -361,10 +328,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEFFERY KOBERNUSZ",
                     "TRACY SALADAR",
+                    "KATHLEEN MURPHY-ENDE",
                     "Sarah Endicott",
-                    "KATHLEEN MURPHY-ENDE"
+                    "JEFFERY KOBERNUSZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -389,10 +356,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEFFERY KOBERNUSZ",
                     "TRACY SALADAR",
+                    "KATHLEEN MURPHY-ENDE",
                     "Sarah Endicott",
-                    "KATHLEEN MURPHY-ENDE"
+                    "JEFFERY KOBERNUSZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -417,10 +384,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SARAH KILEN",
                     "TRACY SALADAR",
+                    "CHANDRA NORDER-BRANDLI",
                     "KATHLEEN MURPHY-ENDE",
-                    "CHANDRA NORDER-BRANDLI"
+                    "SARAH KILEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -445,11 +412,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Linda OAKLEY",
-                    "TRACY SALADAR",
-                    "Sarah Endicott",
                     "JEFFERY KOBERNUSZ",
-                    "Elliot Tebbe"
+                    "TRACY SALADAR",
+                    "Elliot Tebbe",
+                    "Sarah Endicott",
+                    "Linda OAKLEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -474,11 +441,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Linda OAKLEY",
-                    "TRACY SALADAR",
-                    "Sarah Endicott",
                     "JEFFERY KOBERNUSZ",
-                    "Elliot Tebbe"
+                    "TRACY SALADAR",
+                    "Elliot Tebbe",
+                    "Sarah Endicott",
+                    "Linda OAKLEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -503,11 +470,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Linda OAKLEY",
-                    "TRACY SALADAR",
-                    "Sarah Endicott",
                     "JEFFERY KOBERNUSZ",
-                    "Elliot Tebbe"
+                    "TRACY SALADAR",
+                    "Elliot Tebbe",
+                    "Sarah Endicott",
+                    "Linda OAKLEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -532,11 +499,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Linda OAKLEY",
-                    "TRACY SALADAR",
-                    "KATHERINE LOTHE",
                     "JEFFERY KOBERNUSZ",
-                    "Elliot Tebbe"
+                    "TRACY SALADAR",
+                    "Elliot Tebbe",
+                    "Linda OAKLEY",
+                    "KATHERINE LOTHE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -561,11 +528,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Gina Bryan",
-                    "CAITLIN Weitzel",
                     "TRACY SALADAR",
-                    "KATHERINE LOTHE",
-                    "Elliot Tebbe"
+                    "Elliot Tebbe",
+                    "CAITLIN Weitzel",
+                    "Gina Bryan",
+                    "KATHERINE LOTHE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

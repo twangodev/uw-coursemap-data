@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Conduct research, apply strategic human resources knowledge, and complete a capstone project for a local client organization, addressing a human resources business challenge or need.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 705,
+            "subjects": [
+                "MHR"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 705,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            {
-                "course_number": 725,
-                "subjects": [
-                    "GENBUS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 705,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 725,
-                "subjects": [
-                    "GENBUS"
-                ]
-            }
-        ],
-        "prerequisites_text": "M\u00a0H\u00a0R\u00a0705andGEN\u00a0BUS\u00a0725"
-    },
+        {
+            "course_number": 725,
+            "subjects": [
+                "GENBUS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 705,
+                    "subjects": [
+                        "MHR"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 725,
+                    "subjects": [
+                        "GENBUS"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -131,6 +104,12 @@
             ]
         },
         {
+            "course_number": 423,
+            "subjects": [
+                "MHR"
+            ]
+        },
+        {
             "course_number": 775,
             "subjects": [
                 "MHR"
@@ -138,12 +117,6 @@
         },
         {
             "course_number": 976,
-            "subjects": [
-                "MHR"
-            ]
-        },
-        {
-            "course_number": 423,
             "subjects": [
                 "MHR"
             ]

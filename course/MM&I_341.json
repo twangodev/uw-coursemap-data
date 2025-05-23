@@ -27,80 +27,51 @@
         "unsatisfactory": 0
     },
     "description": "An introduction to the immune response to infectious disease. Examines the role of the host in host-parasite relationships using select microbial agents or antigens to illustrate the nonspecific and specific mechanisms of host defenses. Includes study of the nonspecific inflammatory response, the nature of microbial antigens, current concepts of antibody and cell-mediated immune reactions to infectious agents and the principles underlying the development of vaccines.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151orBIOCORE\u00a0381"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
+                    "BOTANY"
+                ]
+            },
             {
                 "course_number": 381,
                 "subjects": [
@@ -112,14 +83,6 @@
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
                 ]
             }
         ],
@@ -152,9 +115,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 774,
+            "course_number": 528,
             "subjects": [
-                "MEDSC-M"
+                "PATH-BIO",
+                "MM&I"
             ]
         },
         {
@@ -164,16 +128,15 @@
             ]
         },
         {
-            "course_number": 528,
-            "subjects": [
-                "MM&I",
-                "PATH-BIO"
-            ]
-        },
-        {
             "course_number": 740,
             "subjects": [
                 "MM&I"
+            ]
+        },
+        {
+            "course_number": 774,
+            "subjects": [
+                "MEDSC-M"
             ]
         },
         {
@@ -574,8 +537,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MEKAIL KHAN",
-                    "MIROSLAV MALKOVSKY"
+                    "MIROSLAV MALKOVSKY",
+                    "MEKAIL KHAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

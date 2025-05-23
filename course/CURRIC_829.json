@@ -27,45 +27,23 @@
         "unsatisfactory": 0
     },
     "description": "Major movements in the field such as Herbartianism, scientific curriculum planning, rational decision making, group process, and structure of the disciplines. Analysis of major documents and leading figures.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "CURRIC 662",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "706"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 704,
-                "subjects": [
-                    "CURRIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "CURRIC 662, ",
-            {
-                "course_number": 704,
-                "subjects": [
-                    "CURRIC"
-                ]
-            },
-            ", or 706"
-        ],
-        "prerequisites_text": "CURRIC 662,704, or 706"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 704,
+            "subjects": [
+                "CURRIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "CURRIC 662",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 704,
+                    "subjects": [
+                        "CURRIC"
+                    ]
                 },
                 "706"
             ],
@@ -93,19 +71,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 704,
-            "subjects": [
-                "CURRIC"
-            ]
-        },
-        {
             "course_number": 860,
             "subjects": [
                 "EDPOL"
             ]
         },
         {
-            "course_number": 716,
+            "course_number": 375,
             "subjects": [
                 "CURRIC"
             ]
@@ -117,7 +89,13 @@
             ]
         },
         {
-            "course_number": 375,
+            "course_number": 716,
+            "subjects": [
+                "CURRIC"
+            ]
+        },
+        {
+            "course_number": 704,
             "subjects": [
                 "CURRIC"
             ]

@@ -27,113 +27,26 @@
         "unsatisfactory": 0
     },
     "description": "A systematic introduction to the application of the first and second laws of thermodynamics to systems relevant to environmental engineering. Energy balances used to solve environmental engineering problems in flowing and non-flowing systems. Examines the relationship between energy, heat and work using theoretical and practical models. Chemical reactions as well as gas and fluid mixing from a thermodynamics perspective. Performance limits imposed by the second law of thermodynamics on devices used in power generation, fluid flow, refrigeration, and air conditioning.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 104,
+            "subjects": [
+                "CHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", and (",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "), or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(CHEM\u00a0104or109),MATH\u00a0234, and (E\u00a0M\u00a0A\u00a0201,PHYSICS\u00a0201or207), or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 201,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -142,33 +55,45 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 104,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 109,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 201,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 201,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 207,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -182,21 +107,27 @@
         },
         "course_references": [
             {
+                "course_number": 104,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
                 "course_number": 234,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 207,
+                "course_number": 201,
                 "subjects": [
                     "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 104,
-                "subjects": [
-                    "CHEM"
                 ]
             },
             {
@@ -206,15 +137,9 @@
                 ]
             },
             {
-                "course_number": 201,
+                "course_number": 207,
                 "subjects": [
                     "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
                 ]
             }
         ],
@@ -267,15 +192,21 @@
     },
     "similar_courses": [
         {
-            "course_number": 361,
+            "course_number": 723,
             "subjects": [
-                "ME"
+                "CIVENGR"
             ]
         },
         {
             "course_number": 722,
             "subjects": [
                 "CIVENGR"
+            ]
+        },
+        {
+            "course_number": 361,
+            "subjects": [
+                "ME"
             ]
         },
         {
@@ -288,12 +219,6 @@
             "course_number": 361,
             "subjects": [
                 "EPD"
-            ]
-        },
-        {
-            "course_number": 723,
-            "subjects": [
-                "CIVENGR"
             ]
         }
     ],

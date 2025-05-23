@@ -27,54 +27,15 @@
         "unsatisfactory": 0
     },
     "description": "Emergence of scientific method and scientific modes of thought out of ancient philosophical and religious traditions; the impact of ancient science on medieval Christendom; the origins and development of the Copernican-Newtonian world view.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 323,
-                "subjects": [
-                    "HISTSCI",
-                    "HISTORY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "ILS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 323,
-                "subjects": [
-                    "HISTSCI",
-                    "HISTORY"
-                ]
-            }
-        ],
-        "prerequisites_text": "Not open to students with credit forILS\u00a0201orHIST\u00a0SCI/\u200bHISTORY\u00a0\u00a0323"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 323,
+            "subjects": [
+                "HISTSCI",
+                "HISTORY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -82,15 +43,20 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "ILS"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 323,
+                    "subjects": [
+                        "HISTSCI",
+                        "HISTORY"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -131,14 +97,20 @@
     },
     "similar_courses": [
         {
-            "course_number": 323,
+            "course_number": 623,
             "subjects": [
-                "HISTSCI",
-                "HISTORY"
+                "HISTSCI"
             ]
         },
         {
-            "course_number": 623,
+            "course_number": 206,
+            "subjects": [
+                "HISTSCI",
+                "ASTRON"
+            ]
+        },
+        {
+            "course_number": 555,
             "subjects": [
                 "HISTSCI"
             ]
@@ -150,16 +122,10 @@
             ]
         },
         {
-            "course_number": 206,
+            "course_number": 323,
             "subjects": [
-                "ASTRON",
-                "HISTSCI"
-            ]
-        },
-        {
-            "course_number": 555,
-            "subjects": [
-                "HISTSCI"
+                "HISTSCI",
+                "HISTORY"
             ]
         }
     ],

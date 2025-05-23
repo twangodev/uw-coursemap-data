@@ -27,88 +27,27 @@
         "unsatisfactory": 0
     },
     "description": "Characteristics of semiconductors; study of physical mechanisms and circuit modeling of solid state electronic and photonic devices; principles of microelectronic processing and examples of integrated circuits.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 220,
+            "subjects": [
+                "ECE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 235,
-                "subjects": [
-                    "PHYSICS",
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 220,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 230,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ", and ",
-            {
-                "course_number": 235,
-                "subjects": [
-                    "PHYSICS",
-                    "ECE"
-                ]
-            },
-            ", or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0C\u00a0E\u00a0220or222),E\u00a0C\u00a0E\u00a0230, andPHYSICS/\u200bE\u00a0C\u00a0E\u00a0\u00a0235, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 230,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 235,
+            "subjects": [
+                "ECE",
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -117,23 +56,32 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 220,
+                                    "subjects": [
+                                        "ECE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 222,
+                                    "subjects": [
+                                        "ECE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 230,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 235,
+                            "subjects": [
+                                "ECE",
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -150,15 +98,15 @@
                 ]
             },
             {
-                "course_number": 220,
+                "course_number": 235,
                 "subjects": [
-                    "ECE"
+                    "ECE",
+                    "PHYSICS"
                 ]
             },
             {
-                "course_number": 235,
+                "course_number": 220,
                 "subjects": [
-                    "PHYSICS",
                     "ECE"
                 ]
             },
@@ -195,8 +143,8 @@
             {
                 "course_number": 235,
                 "subjects": [
-                    "PHYSICS",
-                    "ECE"
+                    "ECE",
+                    "PHYSICS"
                 ]
             },
             ", or member of Engineering Guest Students"
@@ -205,13 +153,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 305,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 745,
+            "course_number": 536,
             "subjects": [
                 "ECE"
             ]
@@ -223,14 +165,20 @@
             ]
         },
         {
-            "course_number": 235,
+            "course_number": 305,
             "subjects": [
-                "PHYSICS",
                 "ECE"
             ]
         },
         {
-            "course_number": 536,
+            "course_number": 235,
+            "subjects": [
+                "ECE",
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 745,
             "subjects": [
                 "ECE"
             ]

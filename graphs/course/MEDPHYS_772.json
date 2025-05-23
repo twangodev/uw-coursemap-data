@@ -1,6 +1,22 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "Electrostatic fields, capacitance, multi-pole expansion, dielectric theory; magnetostatics; electromagnetic induction; magnetic properties of matter; Maxwell's equations and electromagnetic waves; relativity and electromagmetism. Experiments for this course are covered in PHYSICS 308.",
             "id": "PHYSICS 322",
             "parent": "PHYSICS",
@@ -65,18 +81,18 @@
     },
     {
         "data": {
-            "description": "Continuation ofPHYSICS\u00a0248. Modern physics: introduction to quantum mechanics, topics from nuclear and particle physics, condensed matter physics, and atomic physics. Three lectures and one discussion per week.",
-            "id": "PHYSICS 249",
-            "parent": "PHYSICS",
-            "title": "A MODERN INTRODUCTION TO PHYSICS"
-        }
-    },
-    {
-        "data": {
             "description": "Continuation ofPHYSICS\u00a0448. Review of atomic and other quantum phenomena and special relativity; introduction to quantum mechanics treating the more advanced topics of atomic physics and applications to molecular, solid state, nuclear, and elementary particle physics and quantum statistics.",
             "id": "PHYSICS 449",
             "parent": "PHYSICS",
             "title": "ATOMIC AND QUANTUM PHYSICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
         }
     },
     {
@@ -112,18 +128,18 @@
     },
     {
         "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
+            "description": "Introduction to calculus of functions of several variables; calculus on parameterized curves, derivatives of functions of several variables, multiple integrals, vector calculus.",
+            "id": "MATH 234",
             "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "title": "CALCULUS--FUNCTIONS OF SEVERAL VARIABLES"
         }
     },
     {
         "data": {
-            "description": "Introduction to physics at the non-calculus level. Principles of mechanics, heat, and waves, with applications to a number of different fields. Not recommended for students in the physical sciences and engineering.",
-            "id": "PHYSICS 103",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
         }
     },
     {
@@ -143,10 +159,26 @@
     },
     {
         "data": {
+            "description": "Origin and development of classical mechanics; mathematical techniques, especially vector analysis; conservation laws and their relation to symmetry principles; brief introduction to orbit theory and rigid-body dynamics; accelerated coordinate systems; introduction to the generalized-coordinate formalisms of Lagrange and Hamilton.",
+            "id": "PHYSICS 311",
+            "parent": "PHYSICS",
+            "title": "MECHANICS"
+        }
+    },
+    {
+        "data": {
             "description": "Physics of clinical, computer-based radiotherapy planning is taught. Topics include dose algorithms, measurement data, commissioning, contouring and volume definition, beam placement, modifiers and apertures and plan evaluation. Forward based and inverse planning (including IMRT optimization) are taught.",
             "id": "MEDPHYS 772",
             "parent": "MEDPHYS",
             "title": "ADVANCED RADIATION TREATMENT PLANNING"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -175,18 +207,10 @@
     },
     {
         "data": {
-            "description": "Topics in multi-variable calculus and introduction to differential equations.",
-            "id": "MATH 376",
+            "description": "Vector analysis: algebra and geometry of vectors, vector differential and integral calculus, theorems of Green, Gauss, and Stokes; complex analysis: analytic functions, complex integrals and residues, Taylor and Laurent series.",
+            "id": "MATH 321",
             "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
+            "title": "APPLIED MATHEMATICAL ANALYSIS"
         }
     },
     {
@@ -227,6 +251,30 @@
     },
     {
         "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 211",
             "target": "MATH 213"
         }
@@ -240,7 +288,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -257,8 +305,38 @@
     },
     {
         "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 201"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 202"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 207"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 234"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 222",
             "target": "MATH 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "PHYSICS 241"
         }
     },
     {
@@ -269,32 +347,38 @@
     },
     {
         "data": {
+            "source": "MATH 234",
+            "target": "MATH 321"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 320",
             "target": "BME/HONCOL/MEDPHYS/PHYSICS 501"
         }
     },
     {
         "data": {
-            "source": "MATH 375",
-            "target": "MATH 376"
+            "source": "MATH 320",
+            "target": "MATH 321"
         }
     },
     {
         "data": {
-            "source": "MATH 376",
-            "target": "PHYSICS 248"
+            "source": "MATH 321",
+            "target": "PHYSICS 311"
         }
     },
     {
         "data": {
-            "source": "PHYSICS 103",
-            "target": "PHYSICS 202"
+            "source": "MATH 321",
+            "target": "PHYSICS 322"
         }
     },
     {
         "data": {
-            "source": "PHYSICS 201",
-            "target": "PHYSICS 103"
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {
@@ -324,19 +408,13 @@
     {
         "data": {
             "source": "PHYSICS 202",
-            "target": "PHYSICS 322"
+            "target": "PHYSICS 311"
         }
     },
     {
         "data": {
             "source": "PHYSICS 205",
             "target": "PHYSICS 241"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 205",
-            "target": "PHYSICS 448"
         }
     },
     {
@@ -354,7 +432,13 @@
     {
         "data": {
             "source": "PHYSICS 208",
-            "target": "PHYSICS 322"
+            "target": "PHYSICS 202"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 241",
+            "target": "PHYSICS 205"
         }
     },
     {
@@ -366,19 +450,13 @@
     {
         "data": {
             "source": "PHYSICS 247",
-            "target": "PHYSICS 103"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 247",
             "target": "PHYSICS 248"
         }
     },
     {
         "data": {
             "source": "PHYSICS 248",
-            "target": "PHYSICS 249"
+            "target": "PHYSICS 241"
         }
     },
     {
@@ -389,13 +467,7 @@
     },
     {
         "data": {
-            "source": "PHYSICS 249",
-            "target": "PHYSICS 241"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 249",
+            "source": "PHYSICS 311",
             "target": "PHYSICS 448"
         }
     },

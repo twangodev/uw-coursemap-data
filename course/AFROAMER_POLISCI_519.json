@@ -28,66 +28,14 @@
         "unsatisfactory": 0
     },
     "description": "Explores a range of theories that African Americans have drawn upon to cope with and ameliorate their political circumstances in the United States within the specific parameters of political theory.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "POLI SCI 209 taken prior to fall 2017",
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 160,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "AFROAMER"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 160,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "AFROAMER"
-                ]
-            },
-            ") or (POLI SCI 209 taken prior to fall 2017) or graduate/professional standing"
-        ],
-        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0160orAFROAMER\u00a0151) or (POLI SCI 209 taken prior to fall 2017) or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 160,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -97,12 +45,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 160,
+                                    "subjects": [
+                                        "POLISCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 151,
+                                    "subjects": [
+                                        "AFROAMER"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -150,13 +102,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 839,
+            "course_number": 931,
             "subjects": [
                 "POLISCI"
             ]
         },
         {
-            "course_number": 481,
+            "course_number": 825,
+            "subjects": [
+                "POLISCI"
+            ]
+        },
+        {
+            "course_number": 839,
             "subjects": [
                 "POLISCI"
             ]
@@ -168,13 +126,7 @@
             ]
         },
         {
-            "course_number": 931,
-            "subjects": [
-                "POLISCI"
-            ]
-        },
-        {
-            "course_number": 825,
+            "course_number": 481,
             "subjects": [
                 "POLISCI"
             ]

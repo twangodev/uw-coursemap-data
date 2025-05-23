@@ -27,54 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Principles of power converters, two axis models of AC machines and AC drives, simulation of drive systems, analytical modeling of drives, dynamic behavior of induction and synchronous motors and drive systems. Knowledge of Simulink required.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "graduate/professional standing",
-                        {
-                            "children": [
-                                "declared in Capstone Certificate in Power Conversion",
-                                "Control"
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 411,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 411,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " and (graduate/professional standing or declared in Capstone Certificate in Power Conversion and Control)"
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E\u00a0411and (graduate/professional standing or declared in Capstone Certificate in Power Conversion and Control)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 411,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 411,
+                    "subjects": [
+                        "ECE"
+                    ]
                 },
                 {
                     "children": [
@@ -113,13 +81,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 504,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 712,
+            "course_number": 411,
             "subjects": [
                 "ECE"
             ]
@@ -137,7 +99,13 @@
             ]
         },
         {
-            "course_number": 411,
+            "course_number": 504,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 712,
             "subjects": [
                 "ECE"
             ]

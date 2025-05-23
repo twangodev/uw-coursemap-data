@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 565,
         "subjects": [
-            "F&WECOL",
             "ZOOLOGY",
+            "F&WECOL",
             "LANDARC"
         ]
     },
@@ -29,114 +29,22 @@
         "unsatisfactory": 0
     },
     "description": "Emphasizes the importance of spatial patterns at broad scales. Concepts and applications are covered.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 460,
+            "subjects": [
+                "F&WECOL",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 460,
-                "subjects": [
-                    "F&WECOL",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 550,
-                "subjects": [
-                    "F&WECOL"
-                ]
-            },
-            {
-                "course_number": 571,
-                "subjects": [
-                    "F&WECOL",
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 460,
-                "subjects": [
-                    "F&WECOL",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 550,
-                "subjects": [
-                    "F&WECOL"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 571,
-                "subjects": [
-                    "F&WECOL",
-                    "STAT"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBOTANY/\u200bF&W\u00a0ECOL\u00a0\u00a0460orF&W\u00a0ECOL\u00a0550) and (STAT\u00a0301,371, orF&W\u00a0ECOL/\u200bSTAT\u00a0\u00a0571), or graduate/professional standing"
-    },
+        {
+            "course_number": 371,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -145,12 +53,18 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 460,
+                                    "subjects": [
+                                        "F&WECOL",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 550,
+                                    "subjects": [
+                                        "F&WECOL"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -158,16 +72,23 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 301,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 371,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 571,
+                                    "subjects": [
+                                        "STAT",
+                                        "F&WECOL"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -183,8 +104,8 @@
             {
                 "course_number": 571,
                 "subjects": [
-                    "F&WECOL",
-                    "STAT"
+                    "STAT",
+                    "F&WECOL"
                 ]
             },
             {
@@ -249,8 +170,8 @@
             {
                 "course_number": 571,
                 "subjects": [
-                    "F&WECOL",
-                    "STAT"
+                    "STAT",
+                    "F&WECOL"
                 ]
             },
             "), or graduate/professional standing"
@@ -259,9 +180,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 318,
+            "course_number": 725,
             "subjects": [
-                "F&WECOL"
+                "ZOOLOGY",
+                "BOTANY"
             ]
         },
         {
@@ -287,10 +209,9 @@
             ]
         },
         {
-            "course_number": 725,
+            "course_number": 318,
             "subjects": [
-                "ZOOLOGY",
-                "BOTANY"
+                "F&WECOL"
             ]
         }
     ],

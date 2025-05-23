@@ -28,43 +28,22 @@
         "unsatisfactory": 0
     },
     "description": "Computer science educational pedagogy and general teaching practices. Practical experience gained through tutoring students. Knowledge of object-oriented programming required.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "302",
-                "declared in Computer Science graduate program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            " or 302 or declared in Computer Science graduate program"
-        ],
-        "prerequisites_text": "COMP\u00a0SCI\u00a0300or 302 or declared in Computer Science graduate program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 300,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 "302",
                 "declared in Computer Science graduate program"
@@ -92,9 +71,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 721,
+            "course_number": 702,
             "subjects": [
-                "CURRIC"
+                "COMPSCI"
             ]
         },
         {
@@ -110,9 +89,9 @@
             ]
         },
         {
-            "course_number": 702,
+            "course_number": 721,
             "subjects": [
-                "COMPSCI"
+                "CURRIC"
             ]
         },
         {

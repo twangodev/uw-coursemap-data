@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 305,
         "subjects": [
-            "HISTSCI",
-            "ECON"
+            "ECON",
+            "HISTSCI"
         ]
     },
     "course_title": "DEVELOPMENT OF ECONOMIC THOUGHT",
@@ -28,119 +28,36 @@
         "unsatisfactory": 1
     },
     "description": "Development of economic thought from the middle ages to the present; emphasis on major schools of thought including Classical, Marxian, Neo-Classical, and Keynesian schools.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        "215 prior to Fall 2024"
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "ECON"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "AAE"
-                ]
-            },
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ") or (",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "AAE"
-                ]
-            },
-            " or 215 prior to Fall 2024) or ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "prerequisites_text": "(ECON\u00a0101and102) or (ECON\u00a0102andA\u00a0A\u00a0E\u00a0101or 215 prior to Fall 2024) orECON\u00a0111"
-    },
+        {
+            "course_number": 101,
+            "subjects": [
+                "AAE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "ECON"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "ECON"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -150,12 +67,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 102,
+                                    "subjects": [
+                                        "ECON"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "AAE"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -165,8 +86,10 @@
                     "operator": "OR"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 111,
+                    "subjects": [
+                        "ECON"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -179,15 +102,15 @@
                 ]
             },
             {
-                "course_number": 101,
-                "subjects": [
-                    "AAE"
-                ]
-            },
-            {
                 "course_number": 102,
                 "subjects": [
                     "ECON"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "AAE"
                 ]
             },
             {
@@ -238,13 +161,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 899,
-            "subjects": [
-                "ECON"
-            ]
-        },
-        {
-            "course_number": 205,
+            "course_number": 206,
             "subjects": [
                 "ILS"
             ]
@@ -258,14 +175,20 @@
         {
             "course_number": 524,
             "subjects": [
-                "PHILOS",
-                "ECON"
+                "ECON",
+                "PHILOS"
             ]
         },
         {
-            "course_number": 206,
+            "course_number": 205,
             "subjects": [
                 "ILS"
+            ]
+        },
+        {
+            "course_number": 899,
+            "subjects": [
+                "ECON"
             ]
         }
     ],

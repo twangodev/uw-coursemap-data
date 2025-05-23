@@ -29,67 +29,15 @@
         "unsatisfactory": 14
     },
     "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "prerequisites_text": "Not open to students with credit forBIOLOGY/\u200bZOOLOGY\u00a0\u00a0101,102orBIOLOGY/\u200bBOTANY\u00a0\u00a0130"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -97,31 +45,33 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 102,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 130,
+                    "subjects": [
+                        "BIOLOGY",
+                        "BOTANY"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
             {
                 "course_number": 102,
                 "subjects": [
@@ -134,6 +84,13 @@
                 "subjects": [
                     "BIOLOGY",
                     "BOTANY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -173,10 +130,10 @@
             ]
         },
         {
-            "course_number": 101,
+            "course_number": 130,
             "subjects": [
                 "BIOLOGY",
-                "ZOOLOGY"
+                "BOTANY"
             ]
         },
         {
@@ -186,17 +143,17 @@
             ]
         },
         {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        },
+        {
             "course_number": 152,
             "subjects": [
                 "BIOLOGY",
                 "ZOOLOGY",
-                "BOTANY"
-            ]
-        },
-        {
-            "course_number": 130,
-            "subjects": [
-                "BIOLOGY",
                 "BOTANY"
             ]
         }
@@ -216,11 +173,11 @@
                 "incomplete": 1,
                 "instructors": [
                     "DONNA FERNANDEZ",
-                    "David BAUM",
+                    "Nihal AHMAD",
                     "ANDREA GARGAS",
                     "Carol LEE",
-                    "NICOLE PERNA",
-                    "Nihal AHMAD"
+                    "David BAUM",
+                    "NICOLE PERNA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -245,12 +202,12 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "VLADIMIR SPIEGELMAN",
-                    "Douglas ROUSE",
-                    "Marisa OTEGUI",
-                    "YEVGENYA GRINBLAT",
+                    "ROBERT JEANNE",
                     "Seth BLAIR",
-                    "ROBERT JEANNE"
+                    "Marisa OTEGUI",
+                    "VLADIMIR SPIEGELMAN",
+                    "YEVGENYA GRINBLAT",
+                    "Douglas ROUSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -275,15 +232,15 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "JANETTE BOUGHMAN",
-                    "VIJAYASARADHI SETALURI",
-                    "MANISH PATANKAR",
-                    "LINDA GRAHAM",
-                    "Simon GILROY",
-                    "MICHAEL D MADRITCH",
                     "Seth BLAIR",
                     "KAI HUNG",
-                    "Nihal AHMAD"
+                    "VIJAYASARADHI SETALURI",
+                    "JANETTE BOUGHMAN",
+                    "Nihal AHMAD",
+                    "Simon GILROY",
+                    "MICHAEL D MADRITCH",
+                    "LINDA GRAHAM",
+                    "MANISH PATANKAR"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -308,11 +265,11 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "VLADIMIR SPIEGELMAN",
-                    "Douglas ROUSE",
-                    "YEVGENYA GRINBLAT",
+                    "ROBERT JEANNE",
                     "Seth BLAIR",
-                    "ROBERT JEANNE"
+                    "VLADIMIR SPIEGELMAN",
+                    "YEVGENYA GRINBLAT",
+                    "Douglas ROUSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -338,11 +295,11 @@
                 "incomplete": 0,
                 "instructors": [
                     "VIJAYASARADHI SETALURI",
-                    "David BAUM",
-                    "Carol LEE",
+                    "Nihal AHMAD",
                     "Simon GILROY",
+                    "Carol LEE",
                     "LINDA GRAHAM",
-                    "Nihal AHMAD"
+                    "David BAUM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -367,9 +324,9 @@
                 "f": 10,
                 "incomplete": 0,
                 "instructors": [
-                    "VLADIMIR SPIEGELMAN",
                     "Marisa OTEGUI",
-                    "Douglas ROUSE"
+                    "Douglas ROUSE",
+                    "VLADIMIR SPIEGELMAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -394,13 +351,13 @@
                 "f": 32,
                 "incomplete": 0,
                 "instructors": [
-                    "Douglas ROUSE",
-                    "David BAUM",
-                    "MANISH PATANKAR",
-                    "Simon GILROY",
-                    "YEVGENYA GRINBLAT",
+                    "ROBERT JEANNE",
                     "Seth BLAIR",
-                    "ROBERT JEANNE"
+                    "Simon GILROY",
+                    "David BAUM",
+                    "YEVGENYA GRINBLAT",
+                    "MANISH PATANKAR",
+                    "Douglas ROUSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -426,8 +383,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "VLADIMIR SPIEGELMAN",
-                    "WILLIAM BEMENT",
-                    "DONALD WALLER"
+                    "DONALD WALLER",
+                    "WILLIAM BEMENT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -452,13 +409,13 @@
                 "f": 3,
                 "incomplete": 2,
                 "instructors": [
-                    "Michelle Rondon",
+                    "Seth BLAIR",
                     "DONNA FERNANDEZ",
-                    "LINDA GRAHAM",
                     "Simon GILROY",
+                    "Michelle Rondon",
                     "YEVGENYA GRINBLAT",
                     "Carol LEE",
-                    "Seth BLAIR"
+                    "LINDA GRAHAM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -483,9 +440,9 @@
                 "f": 2,
                 "incomplete": 6,
                 "instructors": [
-                    "VLADIMIR SPIEGELMAN",
                     "Marisa OTEGUI",
-                    "DONALD WALLER"
+                    "DONALD WALLER",
+                    "VLADIMIR SPIEGELMAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -510,13 +467,13 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "Douglas ROUSE",
-                    "Michelle Rondon",
-                    "David BAUM",
-                    "MANISH PATANKAR",
+                    "Seth BLAIR",
                     "Simon GILROY",
+                    "David BAUM",
                     "YEVGENYA GRINBLAT",
-                    "Seth BLAIR"
+                    "Michelle Rondon",
+                    "MANISH PATANKAR",
+                    "Douglas ROUSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -541,12 +498,12 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "VLADIMIR SPIEGELMAN",
-                    "Douglas ROUSE",
+                    "Seth BLAIR",
                     "DONNA FERNANDEZ",
                     "Simon GILROY",
+                    "VLADIMIR SPIEGELMAN",
                     "Carol LEE",
-                    "Seth BLAIR"
+                    "Douglas ROUSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -597,12 +554,12 @@
                 "f": 1,
                 "incomplete": 8,
                 "instructors": [
-                    "VLADIMIR SPIEGELMAN",
-                    "David ABBOTT",
+                    "Seth BLAIR",
                     "DONNA FERNANDEZ",
-                    "ANTONY STRETTON",
+                    "David ABBOTT",
                     "Simon GILROY",
-                    "Seth BLAIR"
+                    "VLADIMIR SPIEGELMAN",
+                    "ANTONY STRETTON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -627,8 +584,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "Seth BLAIR",
-                    "ANTONY STRETTON"
+                    "ANTONY STRETTON",
+                    "Seth BLAIR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -653,11 +610,11 @@
                 "f": 7,
                 "incomplete": 2,
                 "instructors": [
-                    "David ABBOTT",
-                    "DONNA FERNANDEZ",
                     "STEPHEN GAMMIE",
-                    "Simon GILROY",
-                    "MARC WOLMAN"
+                    "DONNA FERNANDEZ",
+                    "David ABBOTT",
+                    "MARC WOLMAN",
+                    "Simon GILROY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -682,8 +639,8 @@
                 "f": 9,
                 "incomplete": 0,
                 "instructors": [
-                    "Seth BLAIR",
-                    "ANTONY STRETTON"
+                    "ANTONY STRETTON",
+                    "Seth BLAIR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -708,11 +665,11 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "David ABBOTT",
-                    "DONNA FERNANDEZ",
                     "STEPHEN GAMMIE",
-                    "Simon GILROY",
-                    "MARC WOLMAN"
+                    "DONNA FERNANDEZ",
+                    "David ABBOTT",
+                    "MARC WOLMAN",
+                    "Simon GILROY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -737,8 +694,8 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "Seth BLAIR",
-                    "ANTONY STRETTON"
+                    "ANTONY STRETTON",
+                    "Seth BLAIR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -763,11 +720,11 @@
                 "f": 4,
                 "incomplete": 2,
                 "instructors": [
-                    "David ABBOTT",
-                    "DONNA FERNANDEZ",
                     "STEPHEN GAMMIE",
-                    "Simon GILROY",
-                    "MARC WOLMAN"
+                    "DONNA FERNANDEZ",
+                    "David ABBOTT",
+                    "MARC WOLMAN",
+                    "Simon GILROY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -792,8 +749,8 @@
                 "f": 7,
                 "incomplete": 1,
                 "instructors": [
-                    "Seth BLAIR",
-                    "ANTONY STRETTON"
+                    "ANTONY STRETTON",
+                    "Seth BLAIR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -818,11 +775,11 @@
                 "f": 4,
                 "incomplete": 2,
                 "instructors": [
-                    "David ABBOTT",
-                    "DONNA FERNANDEZ",
                     "STEPHEN GAMMIE",
-                    "Simon GILROY",
-                    "MARC WOLMAN"
+                    "DONNA FERNANDEZ",
+                    "David ABBOTT",
+                    "MARC WOLMAN",
+                    "Simon GILROY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -847,8 +804,8 @@
                 "f": 8,
                 "incomplete": 0,
                 "instructors": [
-                    "Seth BLAIR",
-                    "ANTONY STRETTON"
+                    "ANTONY STRETTON",
+                    "Seth BLAIR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -873,9 +830,9 @@
                 "f": 6,
                 "incomplete": 2,
                 "instructors": [
-                    "David ABBOTT",
                     "MARC WOLMAN",
-                    "DONNA FERNANDEZ"
+                    "DONNA FERNANDEZ",
+                    "David ABBOTT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -926,13 +883,13 @@
                 "f": 5,
                 "incomplete": 4,
                 "instructors": [
-                    "David ABBOTT",
-                    "DONNA FERNANDEZ",
                     "JULIA COLLINS",
+                    "DONNA FERNANDEZ",
                     "Kerry Martin",
+                    "JEREMIAH YAHN",
                     "PHILLIP NEWMARK",
-                    "Simon GILROY",
-                    "JEREMIAH YAHN"
+                    "David ABBOTT",
+                    "Simon GILROY"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -957,9 +914,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JEAN HEITZ",
                     "Seth BLAIR",
-                    "JEREMIAH YAHN"
+                    "JEREMIAH YAHN",
+                    "JEAN HEITZ"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -984,13 +941,13 @@
                 "f": 8,
                 "incomplete": 2,
                 "instructors": [
-                    "KRISTINE MATTIS",
-                    "BREEANA HUBBARD",
-                    "David ABBOTT",
                     "DONNA FERNANDEZ",
                     "Kerry Martin",
+                    "JEREMIAH YAHN",
                     "PHILLIP NEWMARK",
-                    "JEREMIAH YAHN"
+                    "BREEANA HUBBARD",
+                    "David ABBOTT",
+                    "KRISTINE MATTIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1015,10 +972,10 @@
                 "f": 6,
                 "incomplete": 1,
                 "instructors": [
-                    "Kerry Martin",
+                    "Angela Kita",
                     "Seth BLAIR",
-                    "Simon GILROY",
-                    "Angela Kita"
+                    "Kerry Martin",
+                    "Simon GILROY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1069,11 +1026,11 @@
                 "f": 7,
                 "incomplete": 0,
                 "instructors": [
-                    "HALEY BRIEL",
-                    "STEPHEN GAMMIE",
-                    "Simon GILROY",
                     "Seth BLAIR",
-                    "JEREMIAH YAHN"
+                    "STEPHEN GAMMIE",
+                    "JEREMIAH YAHN",
+                    "Simon GILROY",
+                    "HALEY BRIEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1124,11 +1081,11 @@
                 "f": 5,
                 "incomplete": 2,
                 "instructors": [
-                    "Farrah MADISON",
-                    "BRENDAN SCHERER",
-                    "Simon GILROY",
                     "Seth BLAIR",
-                    "JEREMIAH YAHN"
+                    "Farrah MADISON",
+                    "JEREMIAH YAHN",
+                    "BRENDAN SCHERER",
+                    "Simon GILROY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1180,8 +1137,8 @@
                 "incomplete": 3,
                 "instructors": [
                     "Seth BLAIR",
-                    "Farrah MADISON",
-                    "Simon GILROY"
+                    "Simon GILROY",
+                    "Farrah MADISON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

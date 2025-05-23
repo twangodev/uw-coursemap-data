@@ -27,72 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "Monolithic integrated circuit fabrication; mask making, photolithography, oxidation, diffusion, junction evaluation, metallization, packaging, and testing.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 548,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 548,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0C\u00a0E\u00a0335or548), graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 548,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 335,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 548,
+                            "subjects": [
+                                "ECE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -104,13 +62,13 @@
         },
         "course_references": [
             {
-                "course_number": 335,
+                "course_number": 548,
                 "subjects": [
                     "ECE"
                 ]
             },
             {
-                "course_number": 548,
+                "course_number": 335,
                 "subjects": [
                     "ECE"
                 ]
@@ -137,13 +95,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 541,
+            "course_number": 335,
             "subjects": [
                 "ECE"
             ]
         },
         {
-            "course_number": 335,
+            "course_number": 541,
             "subjects": [
                 "ECE"
             ]
@@ -151,20 +109,20 @@
         {
             "course_number": 755,
             "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 548,
-            "subjects": [
-                "ECE"
+                "ECE",
+                "COMPSCI"
             ]
         },
         {
             "course_number": 576,
             "subjects": [
                 "ME",
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 548,
+            "subjects": [
                 "ECE"
             ]
         }

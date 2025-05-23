@@ -27,63 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to topics such as perception, cognition, communication, design, implementation, applications, tools, and evaluation. Provides a broad survey of the field  and covers fundamental concepts, theory, and tools in data visualization with opportunities for hands-on activities. Gain real-world experience in designing and evaluating visualizations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "Graduate/Professional Standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", or Graduate/Professional Standing"
-        ],
-        "prerequisites_text": "COMP\u00a0SCI\u00a0320,400, or Graduate/Professional Standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 320,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 320,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 400,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 "Graduate/Professional Standing"
             ],
@@ -91,13 +56,13 @@
         },
         "course_references": [
             {
-                "course_number": 320,
+                "course_number": 400,
                 "subjects": [
                     "COMPSCI"
                 ]
             },
             {
-                "course_number": 400,
+                "course_number": 320,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -123,18 +88,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 407,
-            "subjects": [
-                "LIS"
-            ]
-        },
-        {
-            "course_number": 765,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
             "course_number": 707,
             "subjects": [
                 "LIS"
@@ -151,6 +104,18 @@
             "course_number": 649,
             "subjects": [
                 "ISYE"
+            ]
+        },
+        {
+            "course_number": 407,
+            "subjects": [
+                "LIS"
+            ]
+        },
+        {
+            "course_number": 765,
+            "subjects": [
+                "COMPSCI"
             ]
         }
     ],

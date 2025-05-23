@@ -27,66 +27,14 @@
         "unsatisfactory": 1
     },
     "description": "Analyzes the interaction of politics and economics in the international arena, both historically and in the contemporary era of globalization. Focuses on international trade, monetary, and financial relations in both developed and developing economies. Not open to students with credit for POLI SCI 371 prior to fall 2017",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "POLI SCI 103 taken prior to fall 2017",
-                "graduate standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 140,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "INTLST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 140,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "INTLST"
-                ]
-            },
-            ") or (POLI SCI 103 taken prior to fall 2017) or graduate standing"
-        ],
-        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0140orINTL\u00a0ST\u00a0101) or (POLI SCI 103 taken prior to fall 2017) or graduate standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 140,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -96,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 140,
+                                    "subjects": [
+                                        "POLISCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "INTLST"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -161,9 +113,9 @@
             ]
         },
         {
-            "course_number": 864,
+            "course_number": 602,
             "subjects": [
-                "POLISCI"
+                "INTLST"
             ]
         },
         {
@@ -173,9 +125,9 @@
             ]
         },
         {
-            "course_number": 602,
+            "course_number": 864,
             "subjects": [
-                "INTLST"
+                "POLISCI"
             ]
         }
     ],

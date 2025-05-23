@@ -27,45 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Advanced practice and coursework in educational settings to conceptualize social work skills in schools and to integrate knowledge of social work theory and practice.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Graduate/professional standing",
-                        "concurrent enrollment in",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in the Professional",
-                "Personal Enrichment Program."
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 801,
-                "subjects": [
-                    "SOCWORK"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing and concurrent enrollment in ",
-            {
-                "course_number": 801,
-                "subjects": [
-                    "SOCWORK"
-                ]
-            },
-            " or declared in the Professional or Personal Enrichment Program."
-        ],
-        "prerequisites_text": "Graduate/professional standing and concurrent enrollment inSOC\u00a0WORK\u00a0801or declared in the Professional or Personal Enrichment Program."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 801,
+            "subjects": [
+                "SOCWORK"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -74,8 +43,10 @@
                         "Graduate/professional standing",
                         "concurrent enrollment in",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 801,
+                            "subjects": [
+                                "SOCWORK"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -113,6 +84,12 @@
             ]
         },
         {
+            "course_number": 816,
+            "subjects": [
+                "SOCWORK"
+            ]
+        },
+        {
             "course_number": 815,
             "subjects": [
                 "SOCWORK"
@@ -126,12 +103,6 @@
         },
         {
             "course_number": 818,
-            "subjects": [
-                "SOCWORK"
-            ]
-        },
-        {
-            "course_number": 816,
             "subjects": [
                 "SOCWORK"
             ]
@@ -201,8 +172,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Elizabeth Premo",
-                    "JENNIFER BRAUNGINN"
+                    "JENNIFER BRAUNGINN",
+                    "Elizabeth Premo"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

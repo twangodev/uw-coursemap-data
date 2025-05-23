@@ -27,152 +27,63 @@
         "unsatisfactory": 0
     },
     "description": "How people perceive, learn, remember, plan, solve problems, make decisions, and communicate. The main approach is psychological but will also consider contributions from computer science, linguistics, and neurobiology.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or (",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "PSYCH\u00a0202, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102),ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, or (BIOCORE\u00a0381and382)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "PSYCH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "PSYCH"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 382,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -182,16 +93,10 @@
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
                 ]
             },
             {
@@ -207,18 +112,24 @@
                 ]
             },
             {
-                "course_number": 102,
+                "course_number": 151,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
+                "course_number": 101,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 151,
+                "course_number": 382,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
+                    "BIOCORE"
                 ]
             }
         ],
@@ -274,12 +185,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 720,
-            "subjects": [
-                "PSYCH"
-            ]
-        },
-        {
             "course_number": 733,
             "subjects": [
                 "PSYCH"
@@ -300,8 +205,14 @@
         {
             "course_number": 841,
             "subjects": [
-                "COMPSCI",
+                "PSYCH",
                 "BMI",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 720,
+            "subjects": [
                 "PSYCH"
             ]
         }
@@ -345,8 +256,8 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "BRADLEY POSTLE",
-                    "DANIEL JOSEPH ACHESON"
+                    "DANIEL JOSEPH ACHESON",
+                    "BRADLEY POSTLE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -397,8 +308,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "BRADLEY POSTLE",
-                    "SHANTA DURGA HATTIKUDUR"
+                    "SHANTA DURGA HATTIKUDUR",
+                    "BRADLEY POSTLE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -475,8 +386,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRADLEY POSTLE",
-                    "LANG CHEN"
+                    "LANG CHEN",
+                    "BRADLEY POSTLE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -656,8 +567,8 @@
                 "f": 7,
                 "incomplete": 1,
                 "instructors": [
-                    "BRADLEY POSTLE",
-                    "JIANGANG SHAN"
+                    "JIANGANG SHAN",
+                    "BRADLEY POSTLE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -682,8 +593,8 @@
                 "f": 5,
                 "incomplete": 1,
                 "instructors": [
-                    "SPENCER COOKE",
-                    "Jonathan GALLIMORE"
+                    "Jonathan GALLIMORE",
+                    "SPENCER COOKE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -734,8 +645,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOSEPH AUSTERWEIL",
-                    "KESONG CAO"
+                    "KESONG CAO",
+                    "JOSEPH AUSTERWEIL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

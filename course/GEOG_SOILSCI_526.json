@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 526,
         "subjects": [
-            "GEOG",
-            "SOILSCI"
+            "SOILSCI",
+            "GEOG"
         ]
     },
     "course_title": "HUMAN TRANSFORMATIONS OF EARTH SURFACE PROCESSES",
@@ -28,45 +28,25 @@
         "unsatisfactory": 0
     },
     "description": "Takes an earth systems approach to explore the role of human societies in shaping earth surface processes from local to global scales. We address how alterations to our landscapes and waterways affect biological, physical and chemical interactions among our biosphere, geosphere, hydrosphere and atmosphere. We discuss methods used to distinguish the \"human impact\" from background variability.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Junior standing",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 120,
-                "subjects": [
-                    "ENVIRST",
-                    "GEOG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing or ",
-            {
-                "course_number": 120,
-                "subjects": [
-                    "ENVIRST",
-                    "GEOG"
-                ]
-            }
-        ],
-        "prerequisites_text": "Junior standing orENVIR\u00a0ST/\u200bGEOG\u00a0\u00a0120"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 120,
+            "subjects": [
+                "ENVIRST",
+                "GEOG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Junior standing",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 120,
+                    "subjects": [
+                        "ENVIRST",
+                        "GEOG"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -100,13 +80,7 @@
             ]
         },
         {
-            "course_number": 131,
-            "subjects": [
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 309,
+            "course_number": 120,
             "subjects": [
                 "ENVIRST",
                 "GEOG"
@@ -120,7 +94,13 @@
             ]
         },
         {
-            "course_number": 120,
+            "course_number": 131,
+            "subjects": [
+                "SOILSCI"
+            ]
+        },
+        {
+            "course_number": 309,
             "subjects": [
                 "ENVIRST",
                 "GEOG"

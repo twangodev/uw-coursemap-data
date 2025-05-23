@@ -27,143 +27,53 @@
         "unsatisfactory": 0
     },
     "description": "Work in teams to lead Computer Science clubs and workshops for K-12 students at sites in the Madison area. Design and lead activities to help K-12 students learn computational thinking and computer programming.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "301",
-                "302",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "367",
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "COMP SCI 202 prior to Fall 2023"
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "COMPSCI",
-                    "LIS"
-                ]
-            },
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 301, 302, ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 367, placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "COMPSCI",
-                    "LIS"
-                ]
-            },
-            " (COMP SCI 202 prior to Fall 2023), graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "COMP\u00a0SCI\u00a0200,220,300, 301, 302,310, 367, placement intoCOMP\u00a0SCI\u00a0300, orL\u00a0I\u00a0S/\u200bCOMP\u00a0SCI\u00a0\u00a0102(COMP SCI 202 prior to Fall 2023), graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "LIS",
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 200,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 220,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 300,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 "301",
                 "302",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 310,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 "367",
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "COMPSCI"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -171,8 +81,11 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "LIS",
+                                "COMPSCI"
+                            ]
                         },
                         "COMP SCI 202 prior to Fall 2023"
                     ],
@@ -185,20 +98,19 @@
         },
         "course_references": [
             {
-                "course_number": 102,
-                "subjects": [
-                    "COMPSCI",
-                    "LIS"
-                ]
-            },
-            {
-                "course_number": 200,
+                "course_number": 300,
                 "subjects": [
                     "COMPSCI"
                 ]
             },
             {
-                "course_number": 300,
+                "course_number": 220,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 200,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -210,8 +122,9 @@
                 ]
             },
             {
-                "course_number": 220,
+                "course_number": 102,
                 "subjects": [
+                    "LIS",
                     "COMPSCI"
                 ]
             }
@@ -255,8 +168,8 @@
             {
                 "course_number": 102,
                 "subjects": [
-                    "COMPSCI",
-                    "LIS"
+                    "LIS",
+                    "COMPSCI"
                 ]
             },
             " (COMP SCI 202 prior to Fall 2023), graduate/professional standing, or declared in the Capstone Certificate in Computer Sciences for Professionals"
@@ -265,15 +178,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 102,
+            "course_number": 502,
             "subjects": [
                 "COMPSCI",
-                "LIS"
-            ]
-        },
-        {
-            "course_number": 721,
-            "subjects": [
                 "CURRIC"
             ]
         },
@@ -284,16 +191,22 @@
             ]
         },
         {
-            "course_number": 368,
+            "course_number": 102,
             "subjects": [
+                "LIS",
                 "COMPSCI"
             ]
         },
         {
-            "course_number": 502,
+            "course_number": 721,
             "subjects": [
-                "COMPSCI",
                 "CURRIC"
+            ]
+        },
+        {
+            "course_number": 368,
+            "subjects": [
+                "COMPSCI"
             ]
         }
     ],
@@ -840,8 +753,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANDREA ARPACI-DUSSEAU",
-                    "KRISTIN BROWN"
+                    "KRISTIN BROWN",
+                    "ANDREA ARPACI-DUSSEAU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,118 +27,53 @@
         "unsatisfactory": 1
     },
     "description": "An introduction to Euclidean or non-Euclidean geometry.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                {
-                    "children": [
-                        "member of the Pre-Masters Mathematics",
-                        "Visiting International",
-                        "Program"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or (",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "COMPSCI",
-                    "MATH"
-                ]
-            },
-            ") or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International)  Program"
-        ],
-        "prerequisites_text": "MATH\u00a0234or (MATH\u00a0222andCOMP\u00a0SCI/\u200bMATH\u00a0\u00a0240) orMATH\u00a0375or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International)  Program"
-    },
+        {
+            "course_number": 240,
+            "subjects": [
+                "MATH",
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 234,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 240,
+                            "subjects": [
+                                "MATH",
+                                "COMPSCI"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 375,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing",
                 {
@@ -154,13 +89,13 @@
         },
         "course_references": [
             {
-                "course_number": 222,
+                "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 375,
+                "course_number": 222,
                 "subjects": [
                     "MATH"
                 ]
@@ -168,8 +103,8 @@
             {
                 "course_number": 240,
                 "subjects": [
-                    "COMPSCI",
-                    "MATH"
+                    "MATH",
+                    "COMPSCI"
                 ]
             },
             {
@@ -197,8 +132,8 @@
             {
                 "course_number": 240,
                 "subjects": [
-                    "COMPSCI",
-                    "MATH"
+                    "MATH",
+                    "COMPSCI"
                 ]
             },
             ") or ",
@@ -220,6 +155,12 @@
             ]
         },
         {
+            "course_number": 844,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
             "course_number": 865,
             "subjects": [
                 "MATH"
@@ -233,12 +174,6 @@
         },
         {
             "course_number": 491,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 844,
             "subjects": [
                 "MATH"
             ]

@@ -27,52 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Keyboard skills for the piano major.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Concurrent enrollment in",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "MUSPERF"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Concurrent enrollment in ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "MUSPERF"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 203,
-                "subjects": [
-                    "MUSPERF"
-                ]
-            }
-        ],
-        "prerequisites_text": "Concurrent enrollment inMUS\u00a0PERF\u00a0201or203"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 201,
+            "subjects": [
+                "MUSPERF"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -80,28 +42,32 @@
                     "children": [
                         "Concurrent enrollment in",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "MUSPERF"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 203,
+                    "subjects": [
+                        "MUSPERF"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 201,
+                "course_number": 203,
                 "subjects": [
                     "MUSPERF"
                 ]
             },
             {
-                "course_number": 203,
+                "course_number": 201,
                 "subjects": [
                     "MUSPERF"
                 ]
@@ -127,13 +93,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 501,
-            "subjects": [
-                "MUSPERF"
-            ]
-        },
-        {
-            "course_number": 401,
+            "course_number": 701,
             "subjects": [
                 "MUSPERF"
             ]
@@ -145,13 +105,19 @@
             ]
         },
         {
-            "course_number": 701,
+            "course_number": 201,
             "subjects": [
                 "MUSPERF"
             ]
         },
         {
-            "course_number": 201,
+            "course_number": 501,
+            "subjects": [
+                "MUSPERF"
+            ]
+        },
+        {
+            "course_number": 401,
             "subjects": [
                 "MUSPERF"
             ]
@@ -524,8 +490,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Martha FISCHER",
-                    "WILLIAM PRESTON"
+                    "WILLIAM PRESTON",
+                    "Martha FISCHER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

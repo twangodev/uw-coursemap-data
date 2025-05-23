@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "A selection of texts, chiefly religious in content, pagan, Jewish, and Christian.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 306,
-                "subjects": [
-                    "GREEK"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 306,
-                "subjects": [
-                    "GREEK"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "GREEK\u00a0306or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 306,
+            "subjects": [
+                "GREEK"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 306,
+                    "subjects": [
+                        "GREEK"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -89,15 +69,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 306,
+            "course_number": 571,
             "subjects": [
                 "GREEK"
-            ]
-        },
-        {
-            "course_number": 320,
-            "subjects": [
-                "CLASSICS"
             ]
         },
         {
@@ -109,13 +83,19 @@
         {
             "course_number": 346,
             "subjects": [
-                "JEWISH",
+                "CLASSICS",
                 "RELIGST",
+                "JEWISH"
+            ]
+        },
+        {
+            "course_number": 320,
+            "subjects": [
                 "CLASSICS"
             ]
         },
         {
-            "course_number": 571,
+            "course_number": 306,
             "subjects": [
                 "GREEK"
             ]

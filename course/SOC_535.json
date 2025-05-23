@@ -27,73 +27,15 @@
         "unsatisfactory": 0
     },
     "description": "Focus on the systematic observation and analysis of face-to-face interaction. Sociological approaches to naturally occurring interaction--i.e., human talk and behavior that has been observed, audiorecorded, or videorecorded--will be explored. The approaches include ethnomethodology, conversational analysis, and Goffmanian sociology.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Junior standing",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 181,
-                "subjects": [
-                    "SOC"
-                ]
-            },
-            {
-                "course_number": 210,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing or (",
-            {
-                "course_number": 181,
-                "subjects": [
-                    "SOC"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 210,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "SOC",
-                    "C&ESOC"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Junior standing or (SOC\u00a0181,C&E\u00a0SOC/\u200bSOC\u00a0\u00a0210, or211)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 210,
+            "subjects": [
+                "SOC",
+                "C&ESOC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -101,16 +43,24 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 181,
+                            "subjects": [
+                                "SOC"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 210,
+                            "subjects": [
+                                "SOC",
+                                "C&ESOC"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 211,
+                            "subjects": [
+                                "SOC",
+                                "C&ESOC"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -120,16 +70,16 @@
         },
         "course_references": [
             {
+                "course_number": 181,
+                "subjects": [
+                    "SOC"
+                ]
+            },
+            {
                 "course_number": 211,
                 "subjects": [
                     "SOC",
                     "C&ESOC"
-                ]
-            },
-            {
-                "course_number": 181,
-                "subjects": [
-                    "SOC"
                 ]
             },
             {
@@ -170,9 +120,8 @@
     },
     "similar_courses": [
         {
-            "course_number": 710,
+            "course_number": 196,
             "subjects": [
-                "ENGL",
                 "SOC"
             ]
         },
@@ -189,13 +138,14 @@
             ]
         },
         {
-            "course_number": 444,
+            "course_number": 710,
             "subjects": [
-                "SOC"
+                "SOC",
+                "ENGL"
             ]
         },
         {
-            "course_number": 196,
+            "course_number": 444,
             "subjects": [
                 "SOC"
             ]

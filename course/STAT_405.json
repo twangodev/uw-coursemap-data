@@ -27,125 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "The development of tools necessary for collecting, managing, and analyzing large data sets. Examples of techniques and programs used include Linux, R, distributed computing, text editor(s), git/github, and other related tools. Work in teams to research, develop, write, and make presentations related to a variety of data analysis projects.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [
-                                        "placement into",
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 240,
+            "subjects": [
+                "STAT"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 303,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", or placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "(STAT\u00a0240or303) and (COMP\u00a0SCI\u00a0200,220,300, or placement intoCOMP\u00a0SCI\u00a0300), or graduate/professional standing"
-    },
+        {
+            "course_number": 220,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -154,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 240,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 303,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -167,23 +66,31 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 200,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 220,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 300,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
                                     "children": [
                                         "placement into",
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 300,
+                                            "subjects": [
+                                                "COMPSCI"
+                                            ]
                                         }
                                     ],
                                     "operator": "AND"
@@ -200,21 +107,21 @@
         },
         "course_references": [
             {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
                 "course_number": 300,
                 "subjects": [
                     "COMPSCI"
                 ]
             },
             {
-                "course_number": 303,
+                "course_number": 220,
                 "subjects": [
-                    "STAT"
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 200,
+                "subjects": [
+                    "COMPSCI"
                 ]
             },
             {
@@ -224,9 +131,9 @@
                 ]
             },
             {
-                "course_number": 220,
+                "course_number": 303,
                 "subjects": [
-                    "COMPSCI"
+                    "STAT"
                 ]
             }
         ],
@@ -279,7 +186,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 305,
+            "course_number": 606,
             "subjects": [
                 "STAT"
             ]
@@ -291,7 +198,7 @@
             ]
         },
         {
-            "course_number": 606,
+            "course_number": 305,
             "subjects": [
                 "STAT"
             ]
@@ -323,8 +230,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SHAN LU",
-                    "JOHN GILLETT"
+                    "JOHN GILLETT",
+                    "SHAN LU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

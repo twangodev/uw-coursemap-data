@@ -27,72 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Comparative analysis of the countries of contemporary Eastern Europe, including issues of democratization, economic transition, and social change; political crises and institutional adjustments; interactions between regimes and domestic social forces; prospect for future systemic change.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "POLI SCI 106",
-                        "186 taken prior to fall 2017"
-                    ],
-                    "operator": "OR"
-                },
-                "graduate standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 120,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 182,
-                "subjects": [
-                    "POLISCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 120,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 182,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            ") or (POLI SCI 106 or 186 taken prior to fall 2017) or graduate standing"
-        ],
-        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0120or182) or (POLI SCI 106 or 186 taken prior to fall 2017) or graduate standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 120,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -102,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 120,
+                                    "subjects": [
+                                        "POLISCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 182,
+                                    "subjects": [
+                                        "POLISCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -128,13 +74,13 @@
         },
         "course_references": [
             {
-                "course_number": 182,
+                "course_number": 120,
                 "subjects": [
                     "POLISCI"
                 ]
             },
             {
-                "course_number": 120,
+                "course_number": 182,
                 "subjects": [
                     "POLISCI"
                 ]
@@ -161,7 +107,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 840,
+            "course_number": 120,
             "subjects": [
                 "POLISCI"
             ]
@@ -173,13 +119,7 @@
             ]
         },
         {
-            "course_number": 120,
-            "subjects": [
-                "POLISCI"
-            ]
-        },
-        {
-            "course_number": 182,
+            "course_number": 840,
             "subjects": [
                 "POLISCI"
             ]
@@ -187,10 +127,16 @@
         {
             "course_number": 254,
             "subjects": [
+                "SLAVIC",
                 "HISTORY",
                 "POLISCI",
-                "SLAVIC",
                 "GEOG"
+            ]
+        },
+        {
+            "course_number": 182,
+            "subjects": [
+                "POLISCI"
             ]
         }
     ],

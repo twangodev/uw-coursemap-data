@@ -9,95 +9,48 @@
     "course_title": "MOLECULAR AND CELLULAR MECHANISMS OF MEMORY",
     "cumulative_grade_data": null,
     "description": "Focuses on the cell signaling and the resulting structural changes that occur at neuronal synapses during memory formation. The aim is to understand how the synaptic changes underlying memory occur.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Graduate/professional standing",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "PHYSIOL 335",
-                "435",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing or ",
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            ", PHYSIOL 335, 435 or ",
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            }
-        ],
-        "prerequisites_text": "Graduate/professional standing orANAT&PHY\u00a0335,435, PHYSIOL 335, 435 orZOOLOGY/\u200bPSYCH\u00a0\u00a0523"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 523,
+            "subjects": [
+                "PSYCH",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Graduate/professional standing",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 335,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 435,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
                 },
                 "PHYSIOL 335",
                 "435",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 523,
+                    "subjects": [
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 523,
+                "course_number": 335,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "ANAT&PHY"
                 ]
             },
             {
@@ -107,9 +60,10 @@
                 ]
             },
             {
-                "course_number": 335,
+                "course_number": 523,
                 "subjects": [
-                    "ANAT&PHY"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -132,8 +86,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -147,10 +101,10 @@
             ]
         },
         {
-            "course_number": 610,
+            "course_number": 523,
             "subjects": [
-                "NEURODPT",
-                "NTP"
+                "PSYCH",
+                "ZOOLOGY"
             ]
         },
         {
@@ -161,16 +115,16 @@
             ]
         },
         {
-            "course_number": 523,
-            "subjects": [
-                "ZOOLOGY",
-                "PSYCH"
-            ]
-        },
-        {
             "course_number": 444,
             "subjects": [
                 "ZOOLOGY"
+            ]
+        },
+        {
+            "course_number": 610,
+            "subjects": [
+                "NEURODPT",
+                "NTP"
             ]
         }
     ],

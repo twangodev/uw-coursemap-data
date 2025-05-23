@@ -27,43 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Investigate the mathematics in the elementary school curriculum, how critical mathematics concepts and skills are learned, and how those concepts can be taught.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in Elementary Education BSE",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "MATH 132"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CURRIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Elementary Education BSE and (",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CURRIC"
-                ]
-            },
-            " or MATH 132)"
-        ],
-        "prerequisites_text": "Declared in Elementary Education BSE and (CURRIC\u00a0320or MATH 132)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 320,
+            "subjects": [
+                "CURRIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -71,8 +42,10 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 320,
+                            "subjects": [
+                                "CURRIC"
+                            ]
                         },
                         "MATH 132"
                     ],
@@ -103,25 +76,25 @@
     },
     "similar_courses": [
         {
-            "course_number": 320,
-            "subjects": [
-                "CURRIC"
-            ]
-        },
-        {
             "course_number": 636,
             "subjects": [
                 "CURRIC"
             ]
         },
         {
-            "course_number": 393,
+            "course_number": 320,
             "subjects": [
                 "CURRIC"
             ]
         },
         {
             "course_number": 319,
+            "subjects": [
+                "CURRIC"
+            ]
+        },
+        {
+            "course_number": 393,
             "subjects": [
                 "CURRIC"
             ]
@@ -174,8 +147,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LAURA MARIE PAIGE",
                     "RYAN BATES FLESSNER",
+                    "LAURA MARIE PAIGE",
                     "KINGA SZPRENGIEL"
                 ],
                 "no_credit": 0,
@@ -281,8 +254,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "MARK DZIEDZIC",
-                    "ANITA WAGER",
-                    "COURTNEY KOESTLER"
+                    "COURTNEY KOESTLER",
+                    "ANITA WAGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -334,10 +307,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANITA WAGER",
                     "DANA HAGERMAN",
                     "COURTNEY KOESTLER",
-                    "TORREY KULOW"
+                    "TORREY KULOW",
+                    "ANITA WAGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -362,10 +335,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANITA WAGER",
-                    "Hala GHOUSSEINI",
                     "JENNIFER DIAZ",
-                    "TORREY KULOW"
+                    "TORREY KULOW",
+                    "Hala GHOUSSEINI",
+                    "ANITA WAGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -390,9 +363,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "TORREY KULOW",
                     "JUDITH ANDRUS",
-                    "JENNIFER DIAZ"
+                    "JENNIFER DIAZ",
+                    "TORREY KULOW"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -417,10 +390,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TORREY KULOW",
-                    "Hala GHOUSSEINI",
                     "JENNIFER DIAZ",
-                    "JEREMIAH HOLDEN"
+                    "JEREMIAH HOLDEN",
+                    "TORREY KULOW",
+                    "Hala GHOUSSEINI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -445,10 +418,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TORREY KULOW",
-                    "KELLY HARRIGAN",
                     "JENNIFER DIAZ",
-                    "JEREMIAH HOLDEN"
+                    "JEREMIAH HOLDEN",
+                    "TORREY KULOW",
+                    "KELLY HARRIGAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -473,11 +446,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANITA WAGER",
-                    "KELLY HARRIGAN",
                     "JEREMIAH HOLDEN",
+                    "ANITA WAGER",
+                    "JENNIFER DIAZ",
                     "TORREY KULOW",
-                    "JENNIFER DIAZ"
+                    "KELLY HARRIGAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -629,8 +602,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "ANITA WAGER",
-                    "Hala GHOUSSEINI"
+                    "Hala GHOUSSEINI",
+                    "ANITA WAGER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -731,8 +704,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PETER WOODS",
-                    "Hala GHOUSSEINI"
+                    "Hala GHOUSSEINI",
+                    "PETER WOODS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -782,9 +755,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "PETER WOODS",
                     "SAMANTHA PROUGH",
-                    "BRIDGET CHRISTENSON"
+                    "BRIDGET CHRISTENSON",
+                    "PETER WOODS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -834,8 +807,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Hala GHOUSSEINI",
-                    "Nicole LOUIE"
+                    "Nicole LOUIE",
+                    "Hala GHOUSSEINI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -961,10 +934,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Hala GHOUSSEINI",
-                    "Sarah Lord",
+                    "Nicole LOUIE",
                     "Rahul Panda",
-                    "Nicole LOUIE"
+                    "Hala GHOUSSEINI",
+                    "Sarah Lord"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

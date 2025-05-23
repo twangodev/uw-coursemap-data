@@ -27,43 +27,23 @@
         "unsatisfactory": 1
     },
     "description": "Significant speeches from throughout history, generally from the United States. Speakers studied include Pericles, Abraham Lincoln, Elizabeth Cady Stanton, Frederick Douglass, Emma Watson, John F. Kennedy, Barbara Jordan, Nelson Mandela.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Sophomore standing",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 260,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing or ",
-            {
-                "course_number": 260,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "prerequisites_text": "Sophomore standing orCOM\u00a0ARTS\u00a0260"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 260,
+            "subjects": [
+                "COMARTS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Sophomore standing",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 260,
+                    "subjects": [
+                        "COMARTS"
+                    ]
                 }
             ],
             "operator": "OR"

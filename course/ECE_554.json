@@ -27,123 +27,44 @@
         "unsatisfactory": 0
     },
     "description": "Practical aspects of computer system design. Design, construction, and testing of significant digital subsystems. Design, construction, and programming of pipelined digital computers.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "."
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "Not open to special students",
-                        {
-                            "children": [
-                                "students with credit for",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 551,
+            "subjects": [
+                "ECE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 552,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 551,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 551,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 552,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            ". Not open to special students or students with credit for ",
-            {
-                "course_number": 453,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 454,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 455,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E\u00a0551andE\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0552. Not open to special students or students with credit forE\u00a0C\u00a0E\u00a0453,454or455."
-    },
+        {
+            "course_number": 552,
+            "subjects": [
+                "ECE",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 455,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 551,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 552,
+                            "subjects": [
+                                "ECE",
+                                "COMPSCI"
+                            ]
                         },
                         "."
                     ],
@@ -156,21 +77,27 @@
                             "children": [
                                 "students with credit for",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 453,
+                                    "subjects": [
+                                        "ECE"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 454,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 455,
+                                    "subjects": [
+                                        "ECE"
+                                    ]
                                 },
                                 "."
                             ],
@@ -184,6 +111,19 @@
         },
         "course_references": [
             {
+                "course_number": 552,
+                "subjects": [
+                    "ECE",
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 455,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            {
                 "course_number": 454,
                 "subjects": [
                     "ECE"
@@ -196,20 +136,7 @@
                 ]
             },
             {
-                "course_number": 552,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            {
                 "course_number": 551,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 455,
                 "subjects": [
                     "ECE"
                 ]
@@ -226,8 +153,8 @@
             {
                 "course_number": 552,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
+                    "ECE",
+                    "COMPSCI"
                 ]
             },
             ". Not open to special students or students with credit for ",
@@ -257,17 +184,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 755,
+            "course_number": 552,
             "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 352,
-            "subjects": [
-                "COMPSCI",
-                "ECE"
+                "ECE",
+                "COMPSCI"
             ]
         },
         {
@@ -277,10 +197,17 @@
             ]
         },
         {
-            "course_number": 552,
+            "course_number": 352,
             "subjects": [
-                "COMPSCI",
-                "ECE"
+                "ECE",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 755,
+            "subjects": [
+                "ECE",
+                "COMPSCI"
             ]
         },
         {
@@ -856,8 +783,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PARAMESWARAN RAMANATHAN",
-                    "Bhuvana KRISHNASWAMY"
+                    "Bhuvana KRISHNASWAMY",
+                    "PARAMESWARAN RAMANATHAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -907,8 +834,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PARAMESWARAN RAMANATHAN",
-                    "Bhuvana KRISHNASWAMY"
+                    "Bhuvana KRISHNASWAMY",
+                    "PARAMESWARAN RAMANATHAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

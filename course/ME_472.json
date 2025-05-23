@@ -27,154 +27,66 @@
         "unsatisfactory": 0
     },
     "description": "Thermodynamic analysis of energy conversion systems with emphasis on efficiency and greenhouse gas emissions; basic economic analysis of energy systems; radiative energy exchange with participating atmosphere; global energy balance; electricity production and transportation sustainability.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "301",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [
-                                        "placement into",
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 361,
+            "subjects": [
+                "ME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 301, ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", or placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            "), or graduate/professional standing"
-        ],
-        "prerequisites_text": "M\u00a0E\u00a0361and (COMP\u00a0SCI\u00a0200,220,300, 301,310, or placement intoCOMP\u00a0SCI\u00a0300), or graduate/professional standing"
-    },
+        {
+            "course_number": 310,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 361,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 200,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 220,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 300,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 "301",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 310,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
                                     "children": [
                                         "placement into",
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 300,
+                                            "subjects": [
+                                                "COMPSCI"
+                                            ]
                                         }
                                     ],
                                     "operator": "AND"
@@ -191,9 +103,15 @@
         },
         "course_references": [
             {
-                "course_number": 361,
+                "course_number": 300,
                 "subjects": [
-                    "ME"
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 220,
+                "subjects": [
+                    "COMPSCI"
                 ]
             },
             {
@@ -203,19 +121,13 @@
                 ]
             },
             {
-                "course_number": 300,
+                "course_number": 361,
                 "subjects": [
-                    "COMPSCI"
+                    "ME"
                 ]
             },
             {
                 "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 220,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -271,20 +183,14 @@
         {
             "course_number": 520,
             "subjects": [
-                "GLE",
-                "CIVENGR"
+                "CIVENGR",
+                "GLE"
             ]
         },
         {
-            "course_number": 370,
+            "course_number": 461,
             "subjects": [
                 "ME"
-            ]
-        },
-        {
-            "course_number": 324,
-            "subjects": [
-                "CIVENGR"
             ]
         },
         {
@@ -295,7 +201,13 @@
             ]
         },
         {
-            "course_number": 461,
+            "course_number": 324,
+            "subjects": [
+                "CIVENGR"
+            ]
+        },
+        {
+            "course_number": 370,
             "subjects": [
                 "ME"
             ]

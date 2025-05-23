@@ -27,167 +27,50 @@
         "unsatisfactory": 0
     },
     "description": "An introduction to proof writing techniques through a study of classical topics in elementary number theory. Topics include the divisibility, basic properties of primes, congruences, Fermat's theorem.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 240,
-                "subjects": [
-                    "COMPSCI",
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "COMPSCI",
-                    "MATH"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), or (",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "MATH\u00a0234,375, (MATH\u00a0222andCOMP\u00a0SCI/\u200bMATH\u00a0\u00a0240), (MATH\u00a0222and320), or (MATH\u00a0222and340)"
-    },
+        {
+            "course_number": 240,
+            "subjects": [
+                "MATH",
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 234,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 375,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 240,
+                            "subjects": [
+                                "MATH",
+                                "COMPSCI"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -195,12 +78,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 320,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -208,12 +95,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 340,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -222,24 +113,6 @@
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
             {
                 "course_number": 340,
                 "subjects": [
@@ -253,10 +126,28 @@
                 ]
             },
             {
+                "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
                 "course_number": 240,
                 "subjects": [
-                    "COMPSCI",
-                    "MATH"
+                    "MATH",
+                    "COMPSCI"
                 ]
             }
         ],
@@ -285,8 +176,8 @@
             {
                 "course_number": 240,
                 "subjects": [
-                    "COMPSCI",
-                    "MATH"
+                    "MATH",
+                    "COMPSCI"
                 ]
             },
             "), (",
@@ -323,6 +214,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 567,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
             "course_number": 848,
             "subjects": [
                 "MATH"
@@ -342,12 +239,6 @@
         },
         {
             "course_number": 748,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 567,
             "subjects": [
                 "MATH"
             ]

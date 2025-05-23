@@ -27,72 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "A first course in finite elements, with theory and applications in stress analysis and in areas related to structural mechanics. Practice in the use and/or development of computer programs.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0M\u00a0A\u00a0303orM\u00a0E\u00a0306), graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 303,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 303,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 306,
+                            "subjects": [
+                                "ME"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -104,15 +62,15 @@
         },
         "course_references": [
             {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
                 "course_number": 306,
                 "subjects": [
                     "ME"
+                ]
+            },
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
                 ]
             }
         ],
@@ -137,13 +95,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 303,
+            "course_number": 705,
             "subjects": [
                 "EMA"
             ]
         },
         {
-            "course_number": 405,
+            "course_number": 303,
             "subjects": [
                 "EMA"
             ]
@@ -161,7 +119,7 @@
             ]
         },
         {
-            "course_number": 705,
+            "course_number": 405,
             "subjects": [
                 "EMA"
             ]

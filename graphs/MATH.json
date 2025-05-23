@@ -484,6 +484,14 @@
     },
     {
         "data": {
+            "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
+            "id": "STAT 324",
+            "parent": "STAT",
+            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
+        }
+    },
+    {
+        "data": {
             "description": "Development of finite difference methods for hyperbolic, parabolic and elliptic partial differential equations. Analysis of accuracy and stability of difference schemes. Direct and iterative methods for solving linear systems. Introduction to finite volume methods. Applications from science and engineering. Students are strongly encouraged to have programming skills (e.g.COMP\u00a0SCI\u00a0200) and some undergraduate numerical analysis (e.g.MATH/\u200bCOMP\u00a0SCI\u00a0\u00a0514orCOMP\u00a0SCI\u00a0412), analysis and differential equations (e.g.MATH\u00a0322andMATH\u00a0521) and linear algebra (e.g.MATH\u00a0341).",
             "id": "COMPSCI/MATH 714",
             "title": "METHODS OF COMPUTATIONAL MATHEMATICS I"
@@ -534,6 +542,14 @@
             "id": "MATH 699",
             "parent": "MATH",
             "title": "DIRECTED STUDY"
+        }
+    },
+    {
+        "data": {
+            "description": "Distributions, measures of central tendency, dispersion and shape, the normal distribution; experiments to compare means, standard errors, confidence intervals; effects of departure from assumption; method of least squares, regression, correlation, assumptions and limitations; basic ideas of experimental design.",
+            "id": "STAT 301",
+            "parent": "STAT",
+            "title": "INTRODUCTION TO STATISTICAL METHODS"
         }
     },
     {
@@ -628,6 +644,14 @@
             "id": "MATH 863",
             "parent": "MATH",
             "title": "ADVANCED TOPICS IN ALGEBRAIC GEOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "Gives students an introduction to computer and analytical skills to use in their subsequent course work and professional development. Discusses several methods of using computers to solve problems, including elementary programming techniques, symbolic manipulation languages, and software packages. Techniques will be illustrated using sample problems drawn from elementary engineering. Emphasis is on introduction of algorithms with the use of specific tools to illustrate the methods.",
+            "id": "COMPSCI 310",
+            "parent": "COMPSCI",
+            "title": "PROBLEM SOLVING USING COMPUTERS"
         }
     },
     {
@@ -734,14 +758,6 @@
     },
     {
         "data": {
-            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
-            "id": "COMPSCI 220",
-            "parent": "COMPSCI",
-            "title": "DATA SCIENCE PROGRAMMING I"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to Data Science programming using Python. In addition to a survey of programming basics (control flow and data structures), web scraping, database queries, and tabular analysis will be introduced. Projects will emphasize analyzing real datasets in a variety of forms and visual communication using plotting tools. Similar toCOMP\u00a0SCI\u00a0220but the pedagogical style of the projects will be adapted to graduate students in fields other than computer science and data science. No previous programming experience required.",
             "id": "COMPSCI 319",
             "parent": "COMPSCI",
@@ -801,6 +817,14 @@
             "description": "Introduction to measure theoretic probability; derivation and transformation of probability distributions; generating functions and characteristic functions; conditional expectation, sufficiency, and unbiased estimation; methods of large sample theory including laws of large numbers and central limit theorems; order statistics.",
             "id": "MATH/STAT 709",
             "title": "MATHEMATICAL STATISTICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to modern statistical practice in the life sciences, using the R programming language. Topics include: exploratory data analysis, probability and random variables; one-sample testing and confidence intervals, role of assumptions, sample size determination, two-sample inference; basic ideas in experimental design, analysis of variance, linear regression, goodness-of fit; biological applications.",
+            "id": "STAT 371",
+            "parent": "STAT",
+            "title": "INTRODUCTORY APPLIED STATISTICS FOR THE LIFE SCIENCES"
         }
     },
     {
@@ -1274,14 +1298,32 @@
     },
     {
         "data": {
-            "source": "COMPSCI 220",
-            "target": "COMPSCI 320"
+            "source": "COMPSCI 310",
+            "target": "COMPSCI/MATH 513"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 310",
+            "target": "COMPSCI/MATH 514"
         }
     },
     {
         "data": {
             "source": "COMPSCI 319",
             "target": "COMPSCI 320"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 320",
+            "target": "COMPSCI/ECE/ME 532"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 320",
+            "target": "MATH 345"
         }
     },
     {
@@ -1305,6 +1347,12 @@
     {
         "data": {
             "source": "COMPSCI/MATH 240",
+            "target": "MATH 461"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI/MATH 240",
             "target": "MATH 467"
         }
     },
@@ -1318,6 +1366,42 @@
         "data": {
             "source": "MATH 112",
             "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 114"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 141"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 171"
         }
     },
     {
@@ -1340,8 +1424,20 @@
     },
     {
         "data": {
+            "source": "MATH 211",
+            "target": "STAT 324"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "STAT 371"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -1371,6 +1467,12 @@
     {
         "data": {
             "source": "MATH 222",
+            "target": "COMPSCI 310"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
             "target": "MATH 234"
         }
     },
@@ -1390,6 +1492,12 @@
         "data": {
             "source": "MATH 222",
             "target": "MATH 340"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 345"
         }
     },
     {
@@ -1431,49 +1539,19 @@
     {
         "data": {
             "source": "MATH 234",
-            "target": "MATH 461"
+            "target": "MATH 541"
         }
     },
     {
         "data": {
             "source": "MATH 234",
-            "target": "MATH 521"
+            "target": "MATH 551"
         }
     },
     {
         "data": {
             "source": "MATH 234",
-            "target": "MATH/STAT 431"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 319",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 319",
-            "target": "MATH 415"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 319",
-            "target": "MATH 619"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 320",
-            "target": "BIOCHEM/BMI/BMOLCHEM/MATH 609"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 320",
-            "target": "COMPSCI/ECE/ME 532"
+            "target": "MATH/PHILOS 571"
         }
     },
     {
@@ -1498,12 +1576,6 @@
         "data": {
             "source": "MATH 320",
             "target": "MATH 519"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 320",
-            "target": "MATH 540"
         }
     },
     {
@@ -1539,12 +1611,6 @@
     {
         "data": {
             "source": "MATH 322",
-            "target": "MATH 521"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 322",
             "target": "MATH 619"
         }
     },
@@ -1563,49 +1629,7 @@
     {
         "data": {
             "source": "MATH 340",
-            "target": "COMPSCI/ISYE/MATH/STAT 525"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
-            "target": "COMPSCI/MATH 513"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
-            "target": "MATH 345"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
-            "target": "MATH 415"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
             "target": "MATH 443"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
-            "target": "MATH 444"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
-            "target": "MATH 467"
         }
     },
     {
@@ -1617,25 +1641,7 @@
     {
         "data": {
             "source": "MATH 340",
-            "target": "MATH 541"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 341",
-            "target": "COMPSCI/ECE/MATH 435"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 341",
-            "target": "COMPSCI/ECE/ME 532"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 341",
-            "target": "COMPSCI/ISYE/MATH 425"
+            "target": "MATH 551"
         }
     },
     {
@@ -1659,37 +1665,13 @@
     {
         "data": {
             "source": "MATH 341",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 341",
             "target": "MATH 345"
         }
     },
     {
         "data": {
             "source": "MATH 341",
-            "target": "MATH 415"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 341",
-            "target": "MATH 443"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 341",
             "target": "MATH 444"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 341",
-            "target": "MATH 522"
         }
     },
     {
@@ -1707,7 +1689,7 @@
     {
         "data": {
             "source": "MATH 341",
-            "target": "MATH 570"
+            "target": "MATH/PHILOS 571"
         }
     },
     {
@@ -1725,61 +1707,7 @@
     {
         "data": {
             "source": "MATH 375",
-            "target": "COMPSCI/MATH 513"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "COMPSCI/MATH 514"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "COMPSCI/MATH/STAT 475"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "CURRIC/MATH 471"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
             "target": "MATH 376"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 415"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 461"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 467"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 519"
         }
     },
     {
@@ -1791,49 +1719,13 @@
     {
         "data": {
             "source": "MATH 375",
-            "target": "MATH 551"
+            "target": "MATH 535"
         }
     },
     {
         "data": {
             "source": "MATH 375",
-            "target": "MATH 561"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 616"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "MATH 322"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "MATH 415"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "MATH 519"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "MATH 561"
+            "target": "MATH 540"
         }
     },
     {
@@ -1851,25 +1743,31 @@
     {
         "data": {
             "source": "MATH 421",
+            "target": "CURRIC/MATH 471"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 421",
+            "target": "MATH 519"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 421",
             "target": "MATH 521"
         }
     },
     {
         "data": {
             "source": "MATH 421",
-            "target": "MATH 531"
+            "target": "MATH 561"
         }
     },
     {
         "data": {
             "source": "MATH 421",
-            "target": "MATH 551"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 421",
-            "target": "MATH/PHILOS 571"
+            "target": "MATH 616"
         }
     },
     {
@@ -1882,12 +1780,6 @@
         "data": {
             "source": "MATH 467",
             "target": "MATH 541"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 467",
-            "target": "MATH 570"
         }
     },
     {
@@ -1935,12 +1827,6 @@
     {
         "data": {
             "source": "MATH 521",
-            "target": "MATH 623"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 521",
             "target": "MATH 627"
         }
     },
@@ -1948,18 +1834,6 @@
         "data": {
             "source": "MATH 521",
             "target": "MATH 635"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 521",
-            "target": "MATH/PHILOS 571"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 522",
-            "target": "MATH 621"
         }
     },
     {
@@ -1978,12 +1852,6 @@
         "data": {
             "source": "MATH 531",
             "target": "MATH 535"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 531",
-            "target": "MATH 616"
         }
     },
     {
@@ -2055,12 +1923,6 @@
     {
         "data": {
             "source": "MATH/STAT 309",
-            "target": "MATH 535"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH/STAT 309",
             "target": "MATH 616"
         }
     },
@@ -2078,44 +1940,38 @@
     },
     {
         "data": {
-            "source": "MATH/STAT 431",
-            "target": "ISYE/MATH/OTM/STAT 632"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH/STAT 431",
-            "target": "MATH 535"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH/STAT 431",
-            "target": "MATH/STAT 309"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH/STAT 431",
-            "target": "MATH/STAT 310"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH/STAT 431",
-            "target": "STAT 311"
-        }
-    },
-    {
-        "data": {
             "source": "MATH/STAT 709",
             "target": "MATH/STAT 710"
         }
     },
     {
         "data": {
-            "source": "STAT 311",
+            "source": "STAT 301",
             "target": "MATH/STAT 310"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 311",
+            "target": "MATH/STAT 309"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 324",
+            "target": "STAT 301"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 324",
+            "target": "STAT 371"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 371",
+            "target": "STAT 324"
         }
     }
 ]

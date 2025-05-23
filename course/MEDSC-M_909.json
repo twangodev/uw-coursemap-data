@@ -27,91 +27,58 @@
         "unsatisfactory": 0
     },
     "description": "Designed for students to apply the knowledge and skills developed over four years of medical school and prepare them for the transition from medical student to intern. The course will cover topics in the following domains: Common and Critical Medical Conditions, Laboratory Interpretation and Procedural Skills, Professionalism and Communication, Hospital and Team Functioning and Life Skills. Sessions will include core topics for all students and sessions for those who will pursue medical or surgical specialties.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 810,
+            "subjects": [
+                "MEDSC-M"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 813,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            {
-                "course_number": 812,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 810,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 811,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 812,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            ", and ",
-            {
-                "course_number": 813,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            }
-        ],
-        "prerequisites_text": "MED\u00a0SC-M\u00a0810,811,812, and813"
-    },
+        {
+            "course_number": 811,
+            "subjects": [
+                "MEDSC-M"
+            ]
+        },
+        {
+            "course_number": 812,
+            "subjects": [
+                "MEDSC-M"
+            ]
+        },
+        {
+            "course_number": 813,
+            "subjects": [
+                "MEDSC-M"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 810,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 811,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 812,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 813,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -124,6 +91,12 @@
                 ]
             },
             {
+                "course_number": 813,
+                "subjects": [
+                    "MEDSC-M"
+                ]
+            },
+            {
                 "course_number": 812,
                 "subjects": [
                     "MEDSC-M"
@@ -131,12 +104,6 @@
             },
             {
                 "course_number": 810,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            {
-                "course_number": 813,
                 "subjects": [
                     "MEDSC-M"
                 ]
@@ -183,7 +150,7 @@
         {
             "course_number": 909,
             "subjects": [
-                "SURGERY"
+                "FAMMED"
             ]
         },
         {
@@ -195,13 +162,13 @@
         {
             "course_number": 909,
             "subjects": [
-                "OBS&GYN"
+                "SURGERY"
             ]
         },
         {
             "course_number": 909,
             "subjects": [
-                "FAMMED"
+                "OBS&GYN"
             ]
         }
     ],

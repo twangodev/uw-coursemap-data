@@ -28,103 +28,20 @@
         "unsatisfactory": 0
     },
     "description": "Propagation of ultrasonic waves in biological tissues; principles of ultrasonic measuring and imaging instrumentation; design and use of currently available tools for performance evaluation of diagnostic instrumentation; biological effects of ultrasound.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Graduate/professional standing",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 320,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing or (",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Graduate/professional standing or (MATH\u00a0234,319, or320andPHYSICS\u00a0202or208)"
-    },
+        {
+            "course_number": 202,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -132,29 +49,39 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 319,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 208,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -164,15 +91,9 @@
         },
         "course_references": [
             {
-                "course_number": 319,
+                "course_number": 202,
                 "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
+                    "PHYSICS"
                 ]
             },
             {
@@ -182,15 +103,21 @@
                 ]
             },
             {
-                "course_number": 202,
+                "course_number": 319,
                 "subjects": [
-                    "PHYSICS"
+                    "MATH"
                 ]
             },
             {
                 "course_number": 208,
                 "subjects": [
                     "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
                 ]
             }
         ],
@@ -236,17 +163,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 775,
-            "subjects": [
-                "MEDPHYS"
-            ]
-        },
-        {
-            "course_number": 778,
+            "course_number": 578,
             "subjects": [
                 "MEDPHYS",
-                "BME",
-                "ECE"
+                "BME"
             ]
         },
         {
@@ -256,16 +176,23 @@
             ]
         },
         {
-            "course_number": 578,
+            "course_number": 775,
             "subjects": [
-                "MEDPHYS",
-                "BME"
+                "MEDPHYS"
             ]
         },
         {
             "course_number": 651,
             "subjects": [
                 "PHYASST"
+            ]
+        },
+        {
+            "course_number": 778,
+            "subjects": [
+                "MEDPHYS",
+                "ECE",
+                "BME"
             ]
         }
     ],

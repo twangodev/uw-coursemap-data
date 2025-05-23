@@ -27,90 +27,39 @@
         "unsatisfactory": 7
     },
     "description": "The two semester sequenceMATH\u00a0112-MATH\u00a0113covers similar material asMATH\u00a0114, but in a slower pace. Not recommended for students with less than an AB inMATH\u00a096.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "placement into",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "does not fulfill the requisite"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 96,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 96,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 96,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 114,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ". ",
-            {
-                "course_number": 118,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " does not fulfill the requisite"
-        ],
-        "prerequisites_text": "MATH\u00a096or placement intoMATH\u00a0114.MATH\u00a0118does not fulfill the requisite"
-    },
+        {
+            "course_number": 118,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 96,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 "placement into",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 114,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "."
                             ],
@@ -122,8 +71,10 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 118,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         "does not fulfill the requisite"
                     ],
@@ -134,13 +85,13 @@
         },
         "course_references": [
             {
-                "course_number": 96,
+                "course_number": 118,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 118,
+                "course_number": 96,
                 "subjects": [
                     "MATH"
                 ]
@@ -179,13 +130,7 @@
             ]
         },
         {
-            "course_number": 96,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 217,
+            "course_number": 113,
             "subjects": [
                 "MATH"
             ]
@@ -197,7 +142,13 @@
             ]
         },
         {
-            "course_number": 113,
+            "course_number": 96,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 217,
             "subjects": [
                 "MATH"
             ]
@@ -468,8 +419,8 @@
                 "f": 3,
                 "incomplete": 1,
                 "instructors": [
-                    "EUGENIA MALITSKY",
-                    "GABRIELE MEYER"
+                    "GABRIELE MEYER",
+                    "EUGENIA MALITSKY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -670,8 +621,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "GABRIELE MEYER",
-                    "DIANE RIVARD"
+                    "DIANE RIVARD",
+                    "GABRIELE MEYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -721,8 +672,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "GABRIELE MEYER",
-                    "DIANE RIVARD"
+                    "DIANE RIVARD",
+                    "GABRIELE MEYER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -772,8 +723,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "EUGENIA MALITSKY",
-                    "OH HOON KWON"
+                    "OH HOON KWON",
+                    "EUGENIA MALITSKY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -823,8 +774,8 @@
                 "f": 9,
                 "incomplete": 0,
                 "instructors": [
-                    "SHARAD CHANDARANA",
-                    "OH HOON KWON"
+                    "OH HOON KWON",
+                    "SHARAD CHANDARANA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -924,8 +875,8 @@
                 "f": 17,
                 "incomplete": 1,
                 "instructors": [
-                    "SHAOSAI HUANG",
-                    "PRERNA GERA"
+                    "PRERNA GERA",
+                    "SHAOSAI HUANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,43 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Theoretical and practical perspectives of traffic flow modeling with a focus on micro-simulation. Simulation software, such as CORSIM, VISSIM, and PARAMICS. Develop and calibrate a set of base models of existing conditions, extend the models to include design alternatives (generally using traffic demands projected for future years), and then generate conclusions on the basis of the modeling results.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 370,
-                "subjects": [
-                    "CIVENGR"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 370,
-                "subjects": [
-                    "CIVENGR"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "CIV\u00a0ENGR\u00a0370, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 370,
+            "subjects": [
+                "CIVENGR"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 370,
+                    "subjects": [
+                        "CIVENGR"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -91,13 +70,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 574,
+            "subjects": [
+                "CIVENGR"
+            ]
+        },
+        {
             "course_number": 571,
             "subjects": [
                 "CIVENGR"
             ]
         },
         {
-            "course_number": 572,
+            "course_number": 579,
             "subjects": [
                 "CIVENGR"
             ]
@@ -109,13 +94,7 @@
             ]
         },
         {
-            "course_number": 574,
-            "subjects": [
-                "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 579,
+            "course_number": 572,
             "subjects": [
                 "CIVENGR"
             ]

@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 435,
         "subjects": [
-            "COMPSCI",
             "MATH",
-            "ECE"
+            "ECE",
+            "COMPSCI"
         ]
     },
     "course_title": "INTRODUCTION TO CRYPTOGRAPHY",
@@ -29,109 +29,42 @@
         "unsatisfactory": 7
     },
     "description": "Cryptography is the art and science of transmitting digital information in a secure manner. Provides an introduction to its technical aspects.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                {
-                    "children": [
-                        "member of the Pre-Masters Mathematics",
-                        "Visiting International",
-                        "Program"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-        ],
-        "prerequisites_text": "(MATH\u00a0320,340,341, or375) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 375,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 320,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 340,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 341,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 375,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -150,13 +83,13 @@
         },
         "course_references": [
             {
-                "course_number": 375,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
@@ -209,19 +142,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 812,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 642,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 880,
+            "course_number": 763,
             "subjects": [
                 "COMPSCI"
             ]
@@ -233,7 +154,19 @@
             ]
         },
         {
-            "course_number": 763,
+            "course_number": 880,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 812,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 642,
             "subjects": [
                 "COMPSCI"
             ]
@@ -503,9 +436,9 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
+                    "SUBRAMANYA GAUTAM PRAKRIYA VENKATA",
                     "WOOYEONG JANG",
-                    "SOMESH JHA",
-                    "SUBRAMANYA GAUTAM PRAKRIYA VENKATA"
+                    "SOMESH JHA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -580,8 +513,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "GREGORY SHINAULT",
-                    "EDWARD HANSON"
+                    "EDWARD HANSON",
+                    "GREGORY SHINAULT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -656,8 +589,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT WALKER",
-                    "EDWARD HANSON"
+                    "EDWARD HANSON",
+                    "ROBERT WALKER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -682,9 +615,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "ROCIL MACHADO",
                     "NICOLLAS MOCELIN SDROIEVSKI",
                     "SOMESH JHA",
+                    "ROCIL MACHADO",
                     "JIHYE CHOI"
                 ],
                 "no_credit": 0,
@@ -735,10 +668,10 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "SOMESH JHA",
+                    "TIANHAO CHAI",
                     "DAVID ZIKEL",
                     "NILS PALUMBO",
-                    "TIANHAO CHAI"
+                    "SOMESH JHA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -815,11 +748,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DAVID ZIKEL",
                     "MATTHEW KINGSTON",
                     "Rishab GOYAL",
-                    "JIAQI CHENG",
-                    "ROMIT KANKARIA"
+                    "DAVID ZIKEL",
+                    "ROMIT KANKARIA",
+                    "JIAQI CHENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -844,8 +777,8 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "SOMESH JHA",
                     "JIAQI CHENG",
+                    "SOMESH JHA",
                     "SAIKUMAR YADUGIRI"
                 ],
                 "no_credit": 0,
@@ -871,8 +804,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Mikhail IVANOV",
-                    "FENG ZHU"
+                    "FENG ZHU",
+                    "Mikhail IVANOV"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -898,8 +831,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "ABTIN AFSHAR SHANDI",
-                    "SAIKUMAR YADUGIRI",
-                    "Rishab GOYAL"
+                    "Rishab GOYAL",
+                    "SAIKUMAR YADUGIRI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

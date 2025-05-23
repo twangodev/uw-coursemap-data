@@ -27,84 +27,46 @@
         "unsatisfactory": 0
     },
     "description": "Nineteenth century Scandinavian immigration.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            {
-                "course_number": 212,
-                "subjects": [
-                    "SCANDST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 212,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "SCAND\u00a0ST\u00a0202,212,222or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 212,
+            "subjects": [
+                "SCANDST"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "SCANDST"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 212,
+                    "subjects": [
+                        "SCANDST"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "SCANDST"
+                    ]
                 },
                 "graduate/professional standing"
             ],
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 212,
+                "subjects": [
+                    "SCANDST"
+                ]
+            },
             {
                 "course_number": 222,
                 "subjects": [
@@ -113,12 +75,6 @@
             },
             {
                 "course_number": 202,
-                "subjects": [
-                    "SCANDST"
-                ]
-            },
-            {
-                "course_number": 212,
                 "subjects": [
                     "SCANDST"
                 ]
@@ -151,10 +107,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 431,
+            "course_number": 421,
             "subjects": [
-                "SCANDST",
-                "HISTORY"
+                "SCANDST"
             ]
         },
         {
@@ -170,8 +125,9 @@
             ]
         },
         {
-            "course_number": 421,
+            "course_number": 431,
             "subjects": [
+                "HISTORY",
                 "SCANDST"
             ]
         },

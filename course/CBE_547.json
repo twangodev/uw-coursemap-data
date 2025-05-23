@@ -27,87 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to topics in colloid and interface science, including sedimentation and diffusion, solution thermodynamics, rheology, light scattering, surface tension and contact angle, adsorption, association colloids, particle interactions, electrokinetics, and colloidal stability.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            {
-                "course_number": 561,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 561,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 562,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(CBE\u00a0311,CHEM\u00a0561, or562), graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 311,
+            "subjects": [
+                "CBE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 311,
+                            "subjects": [
+                                "CBE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 561,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 562,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -119,12 +68,6 @@
         },
         "course_references": [
             {
-                "course_number": 562,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
                 "course_number": 311,
                 "subjects": [
                     "CBE"
@@ -132,6 +75,12 @@
             },
             {
                 "course_number": 561,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
+                "course_number": 562,
                 "subjects": [
                     "CHEM"
                 ]
@@ -165,19 +114,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 961,
+            "course_number": 562,
             "subjects": [
                 "CBE"
             ]
         },
         {
-            "course_number": 777,
+            "course_number": 720,
             "subjects": [
-                "CHEM"
+                "CBE"
             ]
         },
         {
-            "course_number": 720,
+            "course_number": 961,
             "subjects": [
                 "CBE"
             ]
@@ -189,9 +138,9 @@
             ]
         },
         {
-            "course_number": 562,
+            "course_number": 777,
             "subjects": [
-                "CBE"
+                "CHEM"
             ]
         }
     ],
@@ -259,8 +208,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LIE NA TAN",
-                    "NICHOLAS L ABBOTT"
+                    "NICHOLAS L ABBOTT",
+                    "LIE NA TAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

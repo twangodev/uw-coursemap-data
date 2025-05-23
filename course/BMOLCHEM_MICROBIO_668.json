@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 668,
         "subjects": [
-            "MICROBIO",
-            "BMOLCHEM"
+            "BMOLCHEM",
+            "MICROBIO"
         ]
     },
     "course_title": "MICROBIOLOGY AT ATOMIC RESOLUTION",
@@ -28,101 +28,22 @@
         "unsatisfactory": 0
     },
     "description": "Three-dimensional protein structures form the basis for discussions of high resolution microbiology; how particular problems are solved with given protein architectures and chemistries and how themes of protein structure are modified and recycled.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 507,
+            "subjects": [
+                "BIOCHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 612,
-                "subjects": [
-                    "MICROBIO",
-                    "GENETICS",
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 470,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            {
-                "course_number": 507,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 507,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 470,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 612,
-                "subjects": [
-                    "MICROBIO",
-                    "GENETICS",
-                    "BIOCHEM"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(BIOCHEM\u00a0501or507) and (MICROBIO\u00a0470or612) or graduate/professional standing"
-    },
+        {
+            "course_number": 612,
+            "subjects": [
+                "MICROBIO",
+                "BIOCHEM",
+                "GENETICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -131,12 +52,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 501,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 507,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -144,12 +69,18 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 470,
+                                    "subjects": [
+                                        "MICROBIO"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 612,
+                                    "subjects": [
+                                        "MICROBIO",
+                                        "BIOCHEM",
+                                        "GENETICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -166,12 +97,12 @@
                 "course_number": 612,
                 "subjects": [
                     "MICROBIO",
-                    "GENETICS",
-                    "BIOCHEM"
+                    "BIOCHEM",
+                    "GENETICS"
                 ]
             },
             {
-                "course_number": 501,
+                "course_number": 507,
                 "subjects": [
                     "BIOCHEM"
                 ]
@@ -183,7 +114,7 @@
                 ]
             },
             {
-                "course_number": 507,
+                "course_number": 501,
                 "subjects": [
                     "BIOCHEM"
                 ]
@@ -215,9 +146,9 @@
             {
                 "course_number": 612,
                 "subjects": [
-                    "MICROBIO",
+                    "BIOCHEM",
                     "GENETICS",
-                    "BIOCHEM"
+                    "MICROBIO"
                 ]
             },
             ") or graduate/professional standing"
@@ -226,13 +157,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 675,
+            "course_number": 719,
             "subjects": [
-                "BMOLCHEM"
+                "BIOCHEM"
             ]
         },
         {
-            "course_number": 901,
+            "course_number": 675,
             "subjects": [
                 "BMOLCHEM"
             ]
@@ -250,9 +181,9 @@
             ]
         },
         {
-            "course_number": 719,
+            "course_number": 901,
             "subjects": [
-                "BIOCHEM"
+                "BMOLCHEM"
             ]
         }
     ],

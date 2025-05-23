@@ -27,117 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Overview of linear feedback control analysis and design techniques for mechanical systems. Modeling of linear dynamic mechanical systems (review), derivation of their defining differential equations, and analysis of their response using both transient and frequency response techniques; Analysis and design of feedback control of mechanical systems using classical control transform techniques such as root locus and frequency response; Analysis of system robustness through evaluation of phase and gain margins and the Nyquist stability criterion. Design of feedback controllers for mechanical systems using frequency domain loop-shaping methods. Design domains, including mechanical, thermal, and fluid feedback control systems. Effects of non-ideal system characteristics commonly encountered in mechanical systems, such as compliance, delay, and actuator and sensor saturation. Builds on knowledge of high-level computational programming language such as Matlab or Simulink.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "OR"
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "OR"
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        "graduate/professional standing",
-                        "member of Engineering Guest Students",
-                        {
-                            "children": [
-                                "declared in Capstone Certificate in Power Conversion",
-                                "Control."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "Not open to students with credit for M E 346."
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 340,
+            "subjects": [
+                "ME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 545,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 545,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), graduate/professional standing, member of Engineering Guest Students, or declared in Capstone Certificate in Power Conversion and Control. Not open to students with credit for M E 346."
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0340orE\u00a0M\u00a0A\u00a0545) and (MATH\u00a0319or320), graduate/professional standing, member of Engineering Guest Students, or declared in Capstone Certificate in Power Conversion and Control. Not open to students with credit for M E 346."
-    },
+        {
+            "course_number": 319,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -148,12 +51,16 @@
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 340,
+                                            "subjects": [
+                                                "ME"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 545,
+                                            "subjects": [
+                                                "EMA"
+                                            ]
                                         }
                                     ],
                                     "operator": "OR"
@@ -161,12 +68,16 @@
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 319,
+                                            "subjects": [
+                                                "MATH"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 320,
+                                            "subjects": [
+                                                "MATH"
+                                            ]
                                         }
                                     ],
                                     "operator": "OR"
@@ -192,12 +103,6 @@
         },
         "course_references": [
             {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 320,
                 "subjects": [
                     "MATH"
@@ -213,6 +118,12 @@
                 "course_number": 340,
                 "subjects": [
                     "ME"
+                ]
+            },
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
                 ]
             }
         ],
@@ -251,19 +162,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 332,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 445,
+            "course_number": 448,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 448,
+            "course_number": 445,
             "subjects": [
                 "ME"
             ]
@@ -279,6 +184,12 @@
             "course_number": 746,
             "subjects": [
                 "ME"
+            ]
+        },
+        {
+            "course_number": 332,
+            "subjects": [
+                "ECE"
             ]
         }
     ],
@@ -679,8 +590,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "NEIL DUFFIE",
-                    "MICHAEL ZINN"
+                    "MICHAEL ZINN",
+                    "NEIL DUFFIE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -705,8 +616,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "NEIL DUFFIE",
-                    "MICHAEL ZINN"
+                    "MICHAEL ZINN",
+                    "NEIL DUFFIE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -756,8 +667,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "NEIL DUFFIE",
-                    "MICHAEL ZINN"
+                    "MICHAEL ZINN",
+                    "NEIL DUFFIE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -984,8 +895,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ISHAN GANDHI",
-                    "MICHAEL ZINN"
+                    "MICHAEL ZINN",
+                    "ISHAN GANDHI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

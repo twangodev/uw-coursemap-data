@@ -27,68 +27,41 @@
         "unsatisfactory": 0
     },
     "description": "Provides an overview of disabilities with an emphasis on biological, psycho-social, and vocational aspects.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 325,
-                "subjects": [
-                    "RP&SE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 125,
-                "subjects": [
-                    "RP&SE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 325,
-                "subjects": [
-                    "RP&SE"
-                ]
-            }
-        ],
-        "prerequisites_text": "RP\u00a0&\u00a0SE\u00a0125or325"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 325,
+            "subjects": [
+                "RP&SE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 125,
+                    "subjects": [
+                        "RP&SE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 325,
+                    "subjects": [
+                        "RP&SE"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 325,
+                "course_number": 125,
                 "subjects": [
                     "RP&SE"
                 ]
             },
             {
-                "course_number": 125,
+                "course_number": 325,
                 "subjects": [
                     "RP&SE"
                 ]
@@ -113,7 +86,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 750,
+            "subjects": [
+                "RP&SE"
+            ]
+        },
+        {
             "course_number": 300,
+            "subjects": [
+                "RP&SE"
+            ]
+        },
+        {
+            "course_number": 100,
             "subjects": [
                 "RP&SE"
             ]
@@ -125,19 +110,7 @@
             ]
         },
         {
-            "course_number": 750,
-            "subjects": [
-                "RP&SE"
-            ]
-        },
-        {
             "course_number": 501,
-            "subjects": [
-                "RP&SE"
-            ]
-        },
-        {
-            "course_number": 100,
             "subjects": [
                 "RP&SE"
             ]
@@ -307,9 +280,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "David Rosenthal",
                     "JENNIFER SANCHEZ",
-                    "CELESTE HUNTER"
+                    "CELESTE HUNTER",
+                    "David Rosenthal"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -434,9 +407,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "DEREK RUIZ",
                     "DIVYA PARASHAR",
-                    "ANTONIO REYES"
+                    "ANTONIO REYES",
+                    "DEREK RUIZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -487,10 +460,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JAE YOUNG KIM",
-                    "KATHERINE BAKHUIZEN",
                     "YUNZHEN HUANG",
-                    "MIRANG PARK"
+                    "JAE YOUNG KIM",
+                    "MIRANG PARK",
+                    "KATHERINE BAKHUIZEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -515,10 +488,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KATHERINE BAKHUIZEN",
-                    "Ji Na Chun",
                     "SIN YOUNG PARK",
-                    "MARCUS WEATHERS"
+                    "MARCUS WEATHERS",
+                    "Ji Na Chun",
+                    "KATHERINE BAKHUIZEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -544,9 +517,9 @@
                 "incomplete": 1,
                 "instructors": [
                     "YAZMIN CASTRUITA RIOS",
-                    "KATHERINE BAKHUIZEN",
                     "JING CAO",
-                    "Megan Baumunk"
+                    "Megan Baumunk",
+                    "KATHERINE BAKHUIZEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -571,10 +544,10 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "RACHEL FRIEFELD",
-                    "KATELYN MATKIN",
                     "Uzma Khan",
-                    "Megan Baumunk"
+                    "Megan Baumunk",
+                    "RACHEL FRIEFELD",
+                    "KATELYN MATKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -599,12 +572,12 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
+                    "Eunjeong Ko",
+                    "Ji Na Chun",
                     "YUJIE MAO",
-                    "Muharrem Koc",
                     "AVA TRYON",
                     "JAE YOUNG KIM",
-                    "Ji Na Chun",
-                    "Eunjeong Ko"
+                    "Muharrem Koc"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -630,12 +603,12 @@
                 "incomplete": 0,
                 "instructors": [
                     "MINJU LEE",
-                    "Muharrem Koc",
                     "LIZBETH LOPEZ MORALES",
+                    "Megan Baumunk",
+                    "Ji Na Chun",
                     "CONSTANCE RICHARD",
                     "JAE YOUNG KIM",
-                    "Ji Na Chun",
-                    "Megan Baumunk"
+                    "Muharrem Koc"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -660,9 +633,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "TIMOTHY TANSEY",
+                    "MARCUS WEATHERS",
                     "Garrett Huck",
-                    "MARCUS WEATHERS"
+                    "TIMOTHY TANSEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -687,10 +660,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Garrett Huck",
-                    "AYLIN CELIK ZENCIR",
                     "Susan Smedema",
-                    "KATELYN MATKIN"
+                    "KATELYN MATKIN",
+                    "AYLIN CELIK ZENCIR",
+                    "Garrett Huck"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -715,10 +688,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Ji Na Chun",
                     "Garrett Huck",
-                    "KYLEE KOHLHOFF",
-                    "GIZEM TEKINARSLAN"
+                    "GIZEM TEKINARSLAN",
+                    "Ji Na Chun",
+                    "KYLEE KOHLHOFF"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,88 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "Intensive introduction to German-language culture and texts of varying length and genre, emphasizing reading, writing, and discussion skills. Equivalent toGERMAN\u00a0258and262.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "."
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not open to students with credit for",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 204,
+            "subjects": [
+                "GERMAN"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 258,
-                "subjects": [
-                    "GERMAN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 204,
-                "subjects": [
-                    "GERMAN"
-                ]
-            },
-            ". Not open to students with credit for ",
-            {
-                "course_number": 258,
-                "subjects": [
-                    "GERMAN"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 262,
-                "subjects": [
-                    "GERMAN"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "GERMAN\u00a0204. Not open to students with credit forGERMAN\u00a0258or262."
-    },
+        {
+            "course_number": 258,
+            "subjects": [
+                "GERMAN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 204,
+                            "subjects": [
+                                "GERMAN"
+                            ]
                         },
                         "."
                     ],
@@ -120,8 +62,10 @@
                             "children": [
                                 "Not open to students with credit for",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 258,
+                                    "subjects": [
+                                        "GERMAN"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -129,8 +73,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 262,
+                                    "subjects": [
+                                        "GERMAN"
+                                    ]
                                 },
                                 "."
                             ],
@@ -144,12 +90,6 @@
         },
         "course_references": [
             {
-                "course_number": 204,
-                "subjects": [
-                    "GERMAN"
-                ]
-            },
-            {
                 "course_number": 258,
                 "subjects": [
                     "GERMAN"
@@ -157,6 +97,12 @@
             },
             {
                 "course_number": 262,
+                "subjects": [
+                    "GERMAN"
+                ]
+            },
+            {
+                "course_number": 204,
                 "subjects": [
                     "GERMAN"
                 ]
@@ -189,7 +135,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 758,
+            "course_number": 385,
+            "subjects": [
+                "GERMAN"
+            ]
+        },
+        {
+            "course_number": 305,
             "subjects": [
                 "GERMAN"
             ]
@@ -201,13 +153,7 @@
             ]
         },
         {
-            "course_number": 385,
-            "subjects": [
-                "GERMAN"
-            ]
-        },
-        {
-            "course_number": 305,
+            "course_number": 758,
             "subjects": [
                 "GERMAN"
             ]

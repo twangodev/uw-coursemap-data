@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Special relativity, electromagnetic momentum, electromagnetic waves: propagation, interference, scattering, reflection and refraction at a dielectric interface, waves in a conductor. Wave packets and group velocity, dispersion. Waveguides and transmission lines. Retarded potentials. Radiation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "PHYSICS\u00a0322or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 322,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 322,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -89,6 +69,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 721,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
             "course_number": 322,
             "subjects": [
                 "PHYSICS"
@@ -110,12 +96,6 @@
             "course_number": 220,
             "subjects": [
                 "ECE"
-            ]
-        },
-        {
-            "course_number": 721,
-            "subjects": [
-                "PHYSICS"
             ]
         }
     ],

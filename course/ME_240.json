@@ -27,70 +27,36 @@
         "unsatisfactory": 2
     },
     "description": "Rectilinear and curvilinear motion of a particle; force, mass, acceleration; work, potential, and kinetic energy; impulse and momentum; kinematics of rigid bodies; moving coordinate systems with relative motion; general planar rigid body kinematics and kinetics. Applications to linkages, cams and geared systems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 201,
+            "subjects": [
+                "EMA"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0M\u00a0A\u00a0201andMATH\u00a0222, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -133,21 +99,21 @@
     },
     "similar_courses": [
         {
-            "course_number": 202,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
             "course_number": 451,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 751,
+            "course_number": 202,
             "subjects": [
-                "ME"
+                "EMA"
+            ]
+        },
+        {
+            "course_number": 542,
+            "subjects": [
+                "EMA"
             ]
         },
         {
@@ -157,9 +123,9 @@
             ]
         },
         {
-            "course_number": 542,
+            "course_number": 751,
             "subjects": [
-                "EMA"
+                "ME"
             ]
         }
     ],
@@ -177,8 +143,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "NICOLA FERRIER",
-                    "JOHN J. UICKER"
+                    "JOHN J. UICKER",
+                    "NICOLA FERRIER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -203,8 +169,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "NICOLA FERRIER",
-                    "JOHN J. UICKER"
+                    "JOHN J. UICKER",
+                    "NICOLA FERRIER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -229,8 +195,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "NICOLA FERRIER",
-                    "MICHAEL ZINN"
+                    "MICHAEL ZINN",
+                    "NICOLA FERRIER"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -255,8 +221,8 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "NICOLA FERRIER",
-                    "MICHAEL ZINN"
+                    "MICHAEL ZINN",
+                    "NICOLA FERRIER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -281,8 +247,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "SCOTT SCHUETTER",
-                    "Andrew MIKKELSON"
+                    "Andrew MIKKELSON",
+                    "SCOTT SCHUETTER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -307,8 +273,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "SCOTT SCHUETTER",
-                    "Andrew MIKKELSON"
+                    "Andrew MIKKELSON",
+                    "SCOTT SCHUETTER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -333,8 +299,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "NICOLA FERRIER",
-                    "Andrew MIKKELSON"
+                    "Andrew MIKKELSON",
+                    "NICOLA FERRIER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -359,9 +325,9 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
+                    "MICHAEL ZINN",
                     "JUSTIN BORGSTADT",
-                    "Andrew MIKKELSON",
-                    "MICHAEL ZINN"
+                    "Andrew MIKKELSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -412,9 +378,9 @@
                 "f": 6,
                 "incomplete": 1,
                 "instructors": [
-                    "NICOLA FERRIER",
                     "Darryl THELEN",
-                    "JUSTIN BORGSTADT"
+                    "JUSTIN BORGSTADT",
+                    "NICOLA FERRIER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -439,9 +405,9 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "NICOLA FERRIER",
                     "JUSTIN BORGSTADT",
-                    "Andrew MIKKELSON"
+                    "Andrew MIKKELSON",
+                    "NICOLA FERRIER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -642,8 +608,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "WENDY CRONE",
-                    "Peter ADAMCZYK"
+                    "Peter ADAMCZYK",
+                    "WENDY CRONE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,82 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Explores strategies and processes by which organizations effectively discover, develop, and launch impactful new products. Includes design thinking methods and the stage-gate approach to generate and evaluate new product ideas.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Graduate/professional standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in graduate Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 700,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            {
-                "course_number": 311,
-                "subjects": [
-                    "GENBUS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing and (",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 700,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            "), or declared in graduate Business Exchange program"
-        ],
-        "prerequisites_text": "Graduate/professional standing and (MARKETNG\u00a0300,700orGEN\u00a0BUS\u00a0311), or declared in graduate Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 700,
+            "subjects": [
+                "MARKETNG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -112,16 +44,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 300,
+                                    "subjects": [
+                                        "MARKETNG"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 700,
+                                    "subjects": [
+                                        "MARKETNG"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 311,
+                                    "subjects": [
+                                        "GENBUS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -181,13 +119,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 700,
+            "subjects": [
+                "MARKETNG"
+            ]
+        },
+        {
             "course_number": 437,
             "subjects": [
                 "MARKETNG"
             ]
         },
         {
-            "course_number": 700,
+            "course_number": 840,
             "subjects": [
                 "MARKETNG"
             ]
@@ -200,12 +144,6 @@
         },
         {
             "course_number": 740,
-            "subjects": [
-                "MARKETNG"
-            ]
-        },
-        {
-            "course_number": 840,
             "subjects": [
                 "MARKETNG"
             ]
@@ -601,8 +539,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ALEXI POTTER",
-                    "CATHERINE MOREAU"
+                    "CATHERINE MOREAU",
+                    "ALEXI POTTER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

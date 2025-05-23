@@ -27,99 +27,44 @@
         "unsatisfactory": 0
     },
     "description": "Characteristics of semiconductors; study of physical mechanisms and modeling of solid state electronic and photonic devices; principles of optoelectronic processing and examples of integrated optoelectronics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 335,
+            "subjects": [
+                "ECE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 434,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 420,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 420,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 434,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E\u00a0335and (E\u00a0C\u00a0E\u00a0420or434), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 434,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 335,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 420,
+                                    "subjects": [
+                                        "ECE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 434,
+                                    "subjects": [
+                                        "ECE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -134,6 +79,12 @@
         },
         "course_references": [
             {
+                "course_number": 420,
+                "subjects": [
+                    "ECE"
+                ]
+            },
+            {
                 "course_number": 434,
                 "subjects": [
                     "ECE"
@@ -141,12 +92,6 @@
             },
             {
                 "course_number": 335,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 420,
                 "subjects": [
                     "ECE"
                 ]
@@ -179,15 +124,22 @@
     },
     "similar_courses": [
         {
+            "course_number": 741,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
             "course_number": 335,
             "subjects": [
                 "ECE"
             ]
         },
         {
-            "course_number": 434,
+            "course_number": 235,
             "subjects": [
-                "ECE"
+                "ECE",
+                "PHYSICS"
             ]
         },
         {
@@ -197,14 +149,7 @@
             ]
         },
         {
-            "course_number": 235,
-            "subjects": [
-                "PHYSICS",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 741,
+            "course_number": 434,
             "subjects": [
                 "ECE"
             ]

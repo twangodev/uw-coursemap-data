@@ -27,87 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Techniques of real estate valuation. Property analysis, market analysis, legal and political analysis, and highest and best use analysis; in-depth exposure to the three approaches to valuation; sales comparison, income, and cost; application to main commercial property types; the role of valuation in real estate investment.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 410,
+            "subjects": [
+                "REALEST"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 410,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            {
-                "course_number": 411,
-                "subjects": [
-                    "REALEST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 410,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 411,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            " or concurrent enrollment), and (",
-            {
-                "course_number": 412,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            " or concurrent enrollment)"
-        ],
-        "prerequisites_text": "REAL\u00a0EST\u00a0410, (REAL\u00a0EST\u00a0411or concurrent enrollment), and (REAL\u00a0EST\u00a0412or concurrent enrollment)"
-    },
+        {
+            "course_number": 411,
+            "subjects": [
+                "REALEST"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 410,
+                    "subjects": [
+                        "REALEST"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 411,
+                            "subjects": [
+                                "REALEST"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -116,8 +65,10 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 412,
+                            "subjects": [
+                                "REALEST"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -128,6 +79,12 @@
         },
         "course_references": [
             {
+                "course_number": 412,
+                "subjects": [
+                    "REALEST"
+                ]
+            },
+            {
                 "course_number": 411,
                 "subjects": [
                     "REALEST"
@@ -135,12 +92,6 @@
             },
             {
                 "course_number": 410,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            {
-                "course_number": 412,
                 "subjects": [
                     "REALEST"
                 ]
@@ -173,9 +124,12 @@
     },
     "similar_courses": [
         {
-            "course_number": 715,
+            "course_number": 306,
             "subjects": [
-                "REALEST"
+                "ECON",
+                "AAE",
+                "REALEST",
+                "URBRPL"
             ]
         },
         {
@@ -185,16 +139,13 @@
             ]
         },
         {
-            "course_number": 306,
+            "course_number": 410,
             "subjects": [
-                "AAE",
-                "REALEST",
-                "URBRPL",
-                "ECON"
+                "REALEST"
             ]
         },
         {
-            "course_number": 410,
+            "course_number": 715,
             "subjects": [
                 "REALEST"
             ]
@@ -345,8 +296,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LAWRENCE NICHOLSON",
-                    "SHARON MC CABE"
+                    "SHARON MC CABE",
+                    "LAWRENCE NICHOLSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -521,8 +472,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "STEPHEN MALPEZZI",
-                    "MICHAEL HERSHBERGER"
+                    "MICHAEL HERSHBERGER",
+                    "STEPHEN MALPEZZI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -548,8 +499,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "STEPHEN MALPEZZI",
-                    "Arif QURESHI",
-                    "JOSEPH WALSH"
+                    "JOSEPH WALSH",
+                    "Arif QURESHI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -930,9 +881,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "MARK SCHAER",
                     "Bill CAMP",
-                    "JOSEPH WALSH",
-                    "MARK SCHAER"
+                    "JOSEPH WALSH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1112,9 +1063,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael Schlicting",
                     "JOSEPH WALSH",
-                    "Chase Zadnik"
+                    "Chase Zadnik",
+                    "Michael Schlicting"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

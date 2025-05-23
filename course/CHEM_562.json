@@ -27,148 +27,54 @@
         "unsatisfactory": 5
     },
     "description": "Molecular theory: quantum chemistry, molecular structure and spectra, statistical mechanics, selected topics in the molecular theory of matter in bulk.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 561,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 665,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "), and (",
-            {
-                "course_number": 561,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 665,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 330,
-                "subjects": [
-                    "MS&E"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "MATH\u00a0222, (PHYSICS\u00a0202,208, or248), and (CHEM\u00a0561,665,CBE\u00a0310, orM\u00a0S\u00a0&\u00a0E\u00a0330)"
-    },
+        {
+            "course_number": 248,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 561,
+            "subjects": [
+                "CHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 202,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 208,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 248,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -176,20 +82,28 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 561,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 665,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 310,
+                            "subjects": [
+                                "CBE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 330,
+                            "subjects": [
+                                "MS&E"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -205,6 +119,12 @@
                 ]
             },
             {
+                "course_number": 561,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
                 "course_number": 202,
                 "subjects": [
                     "PHYSICS"
@@ -217,9 +137,15 @@
                 ]
             },
             {
-                "course_number": 561,
+                "course_number": 208,
                 "subjects": [
-                    "CHEM"
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 310,
+                "subjects": [
+                    "CBE"
                 ]
             },
             {
@@ -232,18 +158,6 @@
                 "course_number": 248,
                 "subjects": [
                     "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "CBE"
                 ]
             }
         ],
@@ -309,7 +223,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 675,
+            "course_number": 860,
             "subjects": [
                 "CHEM"
             ]
@@ -321,7 +235,7 @@
             ]
         },
         {
-            "course_number": 564,
+            "course_number": 675,
             "subjects": [
                 "CHEM"
             ]
@@ -333,7 +247,7 @@
             ]
         },
         {
-            "course_number": 860,
+            "course_number": 564,
             "subjects": [
                 "CHEM"
             ]
@@ -428,8 +342,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT WOODS",
-                    "JAYASHREE NAGESH"
+                    "JAYASHREE NAGESH",
+                    "ROBERT WOODS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -654,8 +568,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JAMES WEISSHAAR",
-                    "FRANK KEUTSCH"
+                    "FRANK KEUTSCH",
+                    "JAMES WEISSHAAR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,68 +27,31 @@
         "unsatisfactory": 0
     },
     "description": "Group instruction in elementary piano.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "declared in Music"
-                    ],
-                    "operator": "AND"
-                },
-                "Music: Performance BM",
-                "Music: Education BM"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "MUSPERF"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "MUSPERF"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "MUSPERF"
-                ]
-            },
-            " and declared in Music, Music: Performance BM, or Music: Education BM"
-        ],
-        "prerequisites_text": "MUS\u00a0PERF\u00a0102or placement intoMUS\u00a0PERF\u00a0103and declared in Music, Music: Performance BM, or Music: Education BM"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "MUSPERF"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 102,
+                    "subjects": [
+                        "MUSPERF"
+                    ]
                 },
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 103,
+                            "subjects": [
+                                "MUSPERF"
+                            ]
                         },
                         "declared in Music"
                     ],
@@ -127,12 +90,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 102,
-            "subjects": [
-                "MUSPERF"
-            ]
-        },
-        {
             "course_number": 200,
             "subjects": [
                 "MUSPERF"
@@ -152,6 +109,12 @@
         },
         {
             "course_number": 201,
+            "subjects": [
+                "MUSPERF"
+            ]
+        },
+        {
+            "course_number": 102,
             "subjects": [
                 "MUSPERF"
             ]
@@ -872,8 +835,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Ying WANG",
-                    "JESSICA JOHNSON"
+                    "JESSICA JOHNSON",
+                    "Ying WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -898,8 +861,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "YOO MIN LEE",
-                    "JESSICA JOHNSON"
+                    "JESSICA JOHNSON",
+                    "YOO MIN LEE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -949,8 +912,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOO MIN LEE",
-                    "CHANGYUE LIU"
+                    "CHANGYUE LIU",
+                    "YOO MIN LEE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -975,8 +938,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOO MIN LEE",
-                    "JAMES CARL OSORIO"
+                    "JAMES CARL OSORIO",
+                    "YOO MIN LEE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1001,9 +964,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Sarah Prescott",
                     "ELIZABETH VAUGHAN",
-                    "HYEYEON SEOK",
-                    "Sarah Prescott"
+                    "HYEYEON SEOK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1028,8 +991,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MATTHEW DRIVER",
-                    "Sarah Prescott"
+                    "Sarah Prescott",
+                    "MATTHEW DRIVER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

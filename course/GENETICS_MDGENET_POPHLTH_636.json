@@ -29,47 +29,16 @@
         "unsatisfactory": 0
     },
     "description": "Provides an introduction to public health genomics through a review of fundamental principles of genetics, the use of genetic information in clinical and research settings, and its implications for disease management and prevention, and health promotion.  Explores policies that guide public health and discusses current ethical, legal, and social implications of these policies.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Junior standing",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(Junior standing and ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(Junior standing andZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151) or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 151,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -77,8 +46,12 @@
                     "children": [
                         "Junior standing",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 151,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY",
+                                "BOTANY"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -119,12 +92,6 @@
             ]
         },
         {
-            "course_number": 523,
-            "subjects": [
-                "PUBAFFR"
-            ]
-        },
-        {
             "course_number": 911,
             "subjects": [
                 "MDGENET"
@@ -133,9 +100,9 @@
         {
             "course_number": 849,
             "subjects": [
-                "ANSCI",
+                "GENETICS",
                 "POPHLTH",
-                "GENETICS"
+                "ANSCI"
             ]
         },
         {
@@ -143,6 +110,12 @@
             "subjects": [
                 "MDGENET",
                 "GENETICS"
+            ]
+        },
+        {
+            "course_number": 523,
+            "subjects": [
+                "PUBAFFR"
             ]
         }
     ],

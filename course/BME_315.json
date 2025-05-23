@@ -27,65 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "An introduction to the mechanical behavior of biological tissues and systems. Specific topics include: structure and function of biological tissues, mechanical properties of biological tissues, and analysis of specific tissues (i.e. bone, muscle, and soft connective tissues).",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            "), or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0M\u00a0A\u00a0303orM\u00a0E\u00a0306), or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 306,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 303,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 306,
+                            "subjects": [
+                                "ME"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -96,15 +61,15 @@
         },
         "course_references": [
             {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
                 "course_number": 306,
                 "subjects": [
                     "ME"
+                ]
+            },
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
                 ]
             }
         ],
@@ -143,14 +108,14 @@
             ]
         },
         {
-            "course_number": 715,
+            "course_number": 615,
             "subjects": [
                 "ME",
                 "BME"
             ]
         },
         {
-            "course_number": 615,
+            "course_number": 715,
             "subjects": [
                 "ME",
                 "BME"
@@ -605,8 +570,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Christa Wille",
-                    "JESSICA BRAND",
-                    "NAOMI CHESLER"
+                    "NAOMI CHESLER",
+                    "JESSICA BRAND"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

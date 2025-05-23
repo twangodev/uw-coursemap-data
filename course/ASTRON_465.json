@@ -27,75 +27,45 @@
         "unsatisfactory": 0
     },
     "description": "A basic introduction into astronomical observations and data analysis techniques by undertaking observational projects with optical and radio telescopes. Topics covered include observation and data reduction, basic calibration of radio and optical telescopes, basics of data analysis and statistics, presenting scientific results, and basics of scientific ethics. Although specific to observational astrophysics, these methods are applicable to any of the physical sciences disciplines.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 241,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 249,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "prerequisites_text": "PHYSICS\u00a0205,241, or249"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 205,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 205,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 241,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 249,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 241,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
             {
                 "course_number": 249,
                 "subjects": [
@@ -104,12 +74,6 @@
             },
             {
                 "course_number": 205,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 241,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -141,8 +105,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 460,
+            "course_number": 735,
             "subjects": [
+                "ASTRON"
+            ]
+        },
+        {
+            "course_number": 910,
+            "subjects": [
+                "PHYSICS",
                 "ASTRON"
             ]
         },
@@ -153,22 +124,15 @@
             ]
         },
         {
+            "course_number": 460,
+            "subjects": [
+                "ASTRON"
+            ]
+        },
+        {
             "course_number": 150,
             "subjects": [
                 "ASTRON"
-            ]
-        },
-        {
-            "course_number": 735,
-            "subjects": [
-                "ASTRON"
-            ]
-        },
-        {
-            "course_number": 910,
-            "subjects": [
-                "ASTRON",
-                "PHYSICS"
             ]
         }
     ],
@@ -211,8 +175,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "SNEZANA STANIMIROVIC",
-                    "HONGXING CHEN"
+                    "HONGXING CHEN",
+                    "SNEZANA STANIMIROVIC"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

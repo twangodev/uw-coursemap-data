@@ -27,117 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Various advanced topics on the use of data to answer important economic questions.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 310,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 303,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 310,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            "), or (",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "ECON\u00a0310, (STAT\u00a0240and340), or (STAT\u00a0303and333)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 310,
+            "subjects": [
+                "ECON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 310,
+                    "subjects": [
+                        "ECON"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 240,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 340,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -145,12 +64,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 303,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 333,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -160,19 +83,13 @@
         },
         "course_references": [
             {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 303,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
                 "course_number": 333,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            {
+                "course_number": 240,
                 "subjects": [
                     "STAT"
                 ]
@@ -184,7 +101,13 @@
                 ]
             },
             {
-                "course_number": 240,
+                "course_number": 303,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            {
+                "course_number": 340,
                 "subjects": [
                     "STAT"
                 ]
@@ -231,19 +154,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 570,
-            "subjects": [
-                "ECON"
-            ]
-        },
-        {
             "course_number": 690,
             "subjects": [
                 "ECON"
             ]
         },
         {
-            "course_number": 725,
+            "course_number": 705,
+            "subjects": [
+                "ECON"
+            ]
+        },
+        {
+            "course_number": 570,
             "subjects": [
                 "ECON"
             ]
@@ -255,7 +178,7 @@
             ]
         },
         {
-            "course_number": 705,
+            "course_number": 725,
             "subjects": [
                 "ECON"
             ]
@@ -423,8 +346,10 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
-                "last_taught_term": "Fall 2024",
+                "instructors": {
+                    "Austin Miller": "ARMILLER43@WISC.EDU"
+                },
+                "last_taught_term": null,
                 "school": {
                     "abbreviation": "L",
                     "name": "Letters and Science",

@@ -27,56 +27,24 @@
         "unsatisfactory": 0
     },
     "description": "Fundamentals, principles, and practices of the United States Food Systems, Food Service, and Food Service Management. Introduction to the food service industry as applied in diverse settings, including but not limited to schools, hospitals and restaurants.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "declared in Nutritional Sciences BS"
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "BS-Nutrition",
-                        "Dietetics"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            },
-            " and declared in Nutritional Sciences BS or BS-Nutrition and Dietetics"
-        ],
-        "prerequisites_text": "FOOD\u00a0SCI\u00a0301and declared in Nutritional Sciences BS or BS-Nutrition and Dietetics"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "FOODSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 301,
+                            "subjects": [
+                                "FOODSCI"
+                            ]
                         },
                         "declared in Nutritional Sciences BS"
                     ],
@@ -113,13 +81,26 @@
     },
     "similar_courses": [
         {
+            "course_number": 321,
+            "subjects": [
+                "FOODSCI",
+                "ANSCI"
+            ]
+        },
+        {
+            "course_number": 201,
+            "subjects": [
+                "FOODSCI"
+            ]
+        },
+        {
             "course_number": 301,
             "subjects": [
                 "FOODSCI"
             ]
         },
         {
-            "course_number": 201,
+            "course_number": 440,
             "subjects": [
                 "FOODSCI"
             ]
@@ -130,19 +111,6 @@
                 "AAE",
                 "SOC",
                 "C&ESOC"
-            ]
-        },
-        {
-            "course_number": 440,
-            "subjects": [
-                "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 321,
-            "subjects": [
-                "ANSCI",
-                "FOODSCI"
             ]
         }
     ],
@@ -535,8 +503,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Bradley Bolling",
                     "Yaa Asantewaa Klu",
+                    "Bradley Bolling",
                     "Tara La Rowe"
                 ],
                 "no_credit": 0,
@@ -562,8 +530,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Yaa Asantewaa Klu",
-                    "Tara La Rowe"
+                    "Tara La Rowe",
+                    "Yaa Asantewaa Klu"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

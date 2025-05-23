@@ -27,107 +27,47 @@
         "unsatisfactory": 0
     },
     "description": "An introduction to multiple programming languages and technical computing methods used in the Atmospheric and Oceanic Sciences. Data analysis methods and software development for specialized applications related to the field are also highlighted.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [
-                                        "placement into",
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "MATH\u00a0234and (COMP\u00a0SCI\u00a0200or placement intoCOMP\u00a0SCI\u00a0300) or graduate/professional standing"
-    },
+        {
+            "course_number": 300,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 200,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
                                     "children": [
                                         "placement into",
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 300,
+                                            "subjects": [
+                                                "COMPSCI"
+                                            ]
                                         }
                                     ],
                                     "operator": "AND"
@@ -189,13 +129,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 801,
+            "course_number": 630,
             "subjects": [
                 "ATMOCN"
             ]
         },
         {
-            "course_number": 575,
+            "course_number": 201,
+            "subjects": [
+                "ATMOCN"
+            ]
+        },
+        {
+            "course_number": 801,
             "subjects": [
                 "ATMOCN"
             ]
@@ -207,13 +153,7 @@
             ]
         },
         {
-            "course_number": 630,
-            "subjects": [
-                "ATMOCN"
-            ]
-        },
-        {
-            "course_number": 201,
+            "course_number": 575,
             "subjects": [
                 "ATMOCN"
             ]
@@ -258,8 +198,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Hannah ZANOWSKI",
-                    "CAMERON BERTOSSA"
+                    "CAMERON BERTOSSA",
+                    "Hannah ZANOWSKI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -284,8 +224,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Hannah ZANOWSKI",
-                    "CAMERON BERTOSSA"
+                    "CAMERON BERTOSSA",
+                    "Hannah ZANOWSKI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,71 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Provides an overview of engineering fundamentals behind supply chains. Topics covered will include modeling and design of multi-stage production distribution systems, multi-echelon inventory models, theory of supply chain contracts, value of flexibility and information sharing in supply chains.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 323,
+            "subjects": [
+                "ISYE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 323,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            {
-                "course_number": 415,
-                "subjects": [
-                    "ISYE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 323,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 415,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "I\u00a0SY\u00a0E\u00a0323andI\u00a0SY\u00a0E\u00a0415, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 415,
+            "subjects": [
+                "ISYE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 323,
+                            "subjects": [
+                                "ISYE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 415,
+                            "subjects": [
+                                "ISYE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -103,13 +68,13 @@
         },
         "course_references": [
             {
-                "course_number": 323,
+                "course_number": 415,
                 "subjects": [
                     "ISYE"
                 ]
             },
             {
-                "course_number": 415,
+                "course_number": 323,
                 "subjects": [
                     "ISYE"
                 ]
@@ -135,13 +100,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 641,
-            "subjects": [
-                "ISYE",
-                "ME"
-            ]
-        },
-        {
             "course_number": 620,
             "subjects": [
                 "ISYE"
@@ -154,14 +112,21 @@
             ]
         },
         {
+            "course_number": 604,
+            "subjects": [
+                "ISYE"
+            ]
+        },
+        {
             "course_number": 625,
             "subjects": [
                 "ISYE"
             ]
         },
         {
-            "course_number": 604,
+            "course_number": 641,
             "subjects": [
+                "ME",
                 "ISYE"
             ]
         }

@@ -27,88 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Study of sensing and computational techniques that enhance or extend the capabilities of digital photography by using methods from computer vision and computer graphics to create new visual representations. Algorithms for analyzing, improving, manipulating, combining, and synthesizing images.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "367"
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "COMPSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            " or 367) and (",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "(COMP\u00a0SCI\u00a0300or 367) and (MATH\u00a0217or221) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+        {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -117,8 +49,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 300,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 "367"
                             ],
@@ -127,12 +61,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 217,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -147,6 +85,12 @@
         },
         "course_references": [
             {
+                "course_number": 217,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
                 "course_number": 300,
                 "subjects": [
                     "COMPSCI"
@@ -154,12 +98,6 @@
             },
             {
                 "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 217,
                 "subjects": [
                     "MATH"
                 ]
@@ -193,23 +131,12 @@
     },
     "similar_courses": [
         {
-            "course_number": 533,
+            "course_number": 722,
             "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 566,
-            "subjects": [
+                "ECE",
+                "MEDPHYS",
+                "BMI",
                 "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 766,
-            "subjects": [
-                "COMPSCI",
-                "ECE"
             ]
         },
         {
@@ -219,12 +146,23 @@
             ]
         },
         {
-            "course_number": 722,
+            "course_number": 533,
             "subjects": [
-                "MEDPHYS",
-                "COMPSCI",
-                "BMI",
-                "ECE"
+                "ECE",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 766,
+            "subjects": [
+                "ECE",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 566,
+            "subjects": [
+                "COMPSCI"
             ]
         }
     ],

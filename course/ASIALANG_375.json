@@ -27,64 +27,31 @@
         "unsatisfactory": 0
     },
     "description": "Focus on proficiency in four skills (speaking, listening, reading, and writing) and Japanese culture. Continuation of skill development in reviewing, reinforcing, and expanding grammar, kanji and vocabulary/ expressions. Introduce skills to understand authentic textual and audiovisual materials. Solidify the foundations in preparation for advanced-level Japanese coursework.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 304,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "prerequisites_text": "ASIALANG\u00a0303or placement intoASIALANG\u00a0304"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 303,
+            "subjects": [
+                "ASIALANG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 303,
+                    "subjects": [
+                        "ASIALANG"
+                    ]
                 },
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 304,
+                            "subjects": [
+                                "ASIALANG"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -125,7 +92,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 114,
+            "course_number": 203,
+            "subjects": [
+                "ASIALANG"
+            ]
+        },
+        {
+            "course_number": 303,
             "subjects": [
                 "ASIALANG"
             ]
@@ -137,13 +110,7 @@
             ]
         },
         {
-            "course_number": 203,
-            "subjects": [
-                "ASIALANG"
-            ]
-        },
-        {
-            "course_number": 303,
+            "course_number": 114,
             "subjects": [
                 "ASIALANG"
             ]

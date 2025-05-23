@@ -27,143 +27,14 @@
         "unsatisfactory": 39
     },
     "description": "Introduction to Object-Oriented Programming using classes and objects to solve more complex problems. Introduces array-based and linked data structures: including lists, stacks, and queues. Programming assignments require writing and developing multi-class (file) programs using interfaces, generics, and exception handling to solve challenging real world problems. Topics reviewed include reading/writing data and objects from/to files and exception handling, and command line arguments. Topics introduced: object-oriented design; class vs. object; create and define interfaces and iterators; searching and sorting; abstract data types (List,Stack,Queue,PriorityQueue(Heap),Binary Search Tree); generic interfaces (parametric polymorphism); how to design and write test methods and classes; array based vs. linked node implementations; introduction to complexity analysis; recursion.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Satisfied QR-A",
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        "302",
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        "301",
-                                        {
-                                            "children": [
-                                                "placement into",
-                                                {
-                                                    "children": [],
-                                                    "operator": null
-                                                }
-                                            ],
-                                            "operator": "AND"
-                                        }
-                                    ],
-                                    "operator": "OR"
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        "graduate/professional standing",
-                        "declared in Capstone Certificate in COMP SCI."
-                    ],
-                    "operator": "OR"
-                },
-                "Not open to students with credit for COMP SCI 367."
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 252,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Satisfied QR-A and (",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 302, ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 301, or placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ") or (",
-            {
-                "course_number": 252,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 203,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            "); graduate/professional standing; declared in Capstone Certificate in COMP SCI. Not open to students with credit for COMP SCI 367."
-        ],
-        "prerequisites_text": "Satisfied QR-A and (COMP\u00a0SCI\u00a0200,220, 302,310, 301, or placement intoCOMP\u00a0SCI\u00a0300) or (E\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0252andE\u00a0C\u00a0E\u00a0203); graduate/professional standing; declared in Capstone Certificate in COMP SCI. Not open to students with credit for COMP SCI 367."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 200,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -175,25 +46,33 @@
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 200,
+                                            "subjects": [
+                                                "COMPSCI"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 220,
+                                            "subjects": [
+                                                "COMPSCI"
+                                            ]
                                         },
                                         "302",
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 310,
+                                            "subjects": [
+                                                "COMPSCI"
+                                            ]
                                         },
                                         "301",
                                         {
                                             "children": [
                                                 "placement into",
                                                 {
-                                                    "children": [],
-                                                    "operator": null
+                                                    "course_number": 300,
+                                                    "subjects": [
+                                                        "COMPSCI"
+                                                    ]
                                                 }
                                             ],
                                             "operator": "AND"
@@ -207,12 +86,17 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 252,
+                                    "subjects": [
+                                        "ECE",
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 203,
+                                    "subjects": [
+                                        "ECE"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -228,16 +112,9 @@
         },
         "course_references": [
             {
-                "course_number": 252,
+                "course_number": 220,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 203,
-                "subjects": [
-                    "ECE"
+                    "COMPSCI"
                 ]
             },
             {
@@ -247,13 +124,20 @@
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 203,
                 "subjects": [
+                    "ECE"
+                ]
+            },
+            {
+                "course_number": 252,
+                "subjects": [
+                    "ECE",
                     "COMPSCI"
                 ]
             },
             {
-                "course_number": 220,
+                "course_number": 310,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -292,8 +176,8 @@
             {
                 "course_number": 252,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
+                    "ECE",
+                    "COMPSCI"
                 ]
             },
             " and ",
@@ -323,18 +207,18 @@
         {
             "course_number": 354,
             "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 400,
-            "subjects": [
+                "ECE",
                 "COMPSCI"
             ]
         },
         {
             "course_number": 536,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 400,
             "subjects": [
                 "COMPSCI"
             ]
@@ -379,9 +263,9 @@
                 "f": 16,
                 "incomplete": 0,
                 "instructors": [
-                    "MOUNA KACEM",
+                    "GARY DAHL",
                     "ALEXANDER BROOKS",
-                    "GARY DAHL"
+                    "MOUNA KACEM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -406,9 +290,9 @@
                 "f": 19,
                 "incomplete": 0,
                 "instructors": [
-                    "MOUNA KACEM",
+                    "GARY DAHL",
                     "ALEXANDER BROOKS",
-                    "GARY DAHL"
+                    "MOUNA KACEM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -433,8 +317,8 @@
                 "f": 17,
                 "incomplete": 1,
                 "instructors": [
-                    "MOUNA KACEM",
-                    "GARY DAHL"
+                    "GARY DAHL",
+                    "MOUNA KACEM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -459,8 +343,8 @@
                 "f": 10,
                 "incomplete": 1,
                 "instructors": [
-                    "MOUNA KACEM",
-                    "GARY DAHL"
+                    "GARY DAHL",
+                    "MOUNA KACEM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -485,24 +369,24 @@
                 "f": 6,
                 "incomplete": 1,
                 "instructors": [
-                    "VANSHIKA BAONI",
-                    "GARY DAHL",
-                    "RAJAN DALAL",
-                    "ADITYA BARVE",
-                    "HANG YIN",
-                    "SULONG ZHOU",
-                    "SRI HARSHAL PARIMI",
-                    "MOUNA KACEM",
                     "CHETNA SUREKA",
-                    "ADARSH MITTAL",
-                    "JUAN RIOS",
+                    "HANG YIN",
+                    "SRI HARSHAL PARIMI",
                     "LAURA LEGAULT",
-                    "MICHELLE JENSEN",
-                    "SRILAKSHMI BHARADWAJ",
-                    "ASHWIN KESHAV TAYADE",
                     "HARIT VISHWAKARMA",
+                    "SULONG ZHOU",
+                    "GARY DAHL",
+                    "ASHWIN KESHAV TAYADE",
+                    "SHUBHAM BHARTI",
                     "MENGXIAO ZHANG",
-                    "SHUBHAM BHARTI"
+                    "SRILAKSHMI BHARADWAJ",
+                    "MICHELLE JENSEN",
+                    "VANSHIKA BAONI",
+                    "ADARSH MITTAL",
+                    "ADITYA BARVE",
+                    "JUAN RIOS",
+                    "RAJAN DALAL",
+                    "MOUNA KACEM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -527,8 +411,8 @@
                 "f": 17,
                 "incomplete": 1,
                 "instructors": [
-                    "MOUNA KACEM",
-                    "LAURA LEGAULT"
+                    "LAURA LEGAULT",
+                    "MOUNA KACEM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -553,20 +437,20 @@
                 "f": 12,
                 "incomplete": 10,
                 "instructors": [
-                    "ABISHEK KUMAR",
-                    "EVANGELIA GERGATSOULI",
-                    "KUSHAGRA KAPIL",
                     "AISHA MOHAMED",
-                    "MAKESH NARSIMHAN SREEDHAR",
                     "HANG YIN",
-                    "MOUNA KACEM",
-                    "PREETI NAYAK",
-                    "HIMANSHU SAGAR",
-                    "Yiwei ZHANG",
-                    "MICHELLE JENSEN",
                     "LAURA LEGAULT",
-                    "MINGRUI LIU",
-                    "ASHLEY SAMUELSON"
+                    "HIMANSHU SAGAR",
+                    "EVANGELIA GERGATSOULI",
+                    "ABISHEK KUMAR",
+                    "Yiwei ZHANG",
+                    "KUSHAGRA KAPIL",
+                    "MICHELLE JENSEN",
+                    "ASHLEY SAMUELSON",
+                    "PREETI NAYAK",
+                    "MAKESH NARSIMHAN SREEDHAR",
+                    "MOUNA KACEM",
+                    "MINGRUI LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -591,22 +475,22 @@
                 "f": 7,
                 "incomplete": 3,
                 "instructors": [
-                    "DEBARSHI DEKA",
-                    "ZEYI HUANG",
-                    "KUSHAGRA KAPIL",
-                    "MUHAMMAD SALMAN MUNAF",
                     "AISHA MOHAMED",
-                    "MOUNA KACEM",
-                    "PREETI NAYAK",
-                    "RAJESH SHASHI KUMAR",
-                    "Yiwei ZHANG",
-                    "SNEHAL RAJESH WADHWANI",
-                    "MICHELLE JENSEN",
                     "LAURA LEGAULT",
                     "ARAVIND VARATHAN",
-                    "MINGRUI LIU",
                     "HARSH SAHU",
-                    "ASHLEY SAMUELSON"
+                    "Yiwei ZHANG",
+                    "MUHAMMAD SALMAN MUNAF",
+                    "KUSHAGRA KAPIL",
+                    "MICHELLE JENSEN",
+                    "ZEYI HUANG",
+                    "ASHLEY SAMUELSON",
+                    "RAJESH SHASHI KUMAR",
+                    "SNEHAL RAJESH WADHWANI",
+                    "PREETI NAYAK",
+                    "DEBARSHI DEKA",
+                    "MOUNA KACEM",
+                    "MINGRUI LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -632,25 +516,25 @@
                 "incomplete": 3,
                 "instructors": [
                     "KENDALL PARK",
-                    "Yiwei ZHANG",
-                    "ABINAYAA KANIMOZHI CHANDRASEKAR",
-                    "CHANGHO SHIN",
                     "AISHA MOHAMED",
-                    "SNEHAL RAJESH WADHWANI",
-                    "LAURA LEGAULT",
-                    "MOHIT LOGANATHAN",
-                    "MINGRUI LIU",
-                    "KUSHAGRA KAPIL",
-                    "MUHAMMAD SALMAN MUNAF",
-                    "ROBERT KLOCK",
-                    "MICHELLE JENSEN",
-                    "PRIYAVARSHINI MURUGAN",
-                    "PREETI NAYAK",
-                    "DEBARSHI DEKA",
-                    "Jeff NYHOFF",
-                    "MOUNA KACEM",
                     "AKHIL POLAMARASETTY",
-                    "ASHLEY SAMUELSON"
+                    "ABINAYAA KANIMOZHI CHANDRASEKAR",
+                    "ROBERT KLOCK",
+                    "KUSHAGRA KAPIL",
+                    "MICHELLE JENSEN",
+                    "SNEHAL RAJESH WADHWANI",
+                    "DEBARSHI DEKA",
+                    "Yiwei ZHANG",
+                    "CHANGHO SHIN",
+                    "MOHIT LOGANATHAN",
+                    "ASHLEY SAMUELSON",
+                    "Jeff NYHOFF",
+                    "LAURA LEGAULT",
+                    "PREETI NAYAK",
+                    "MINGRUI LIU",
+                    "PRIYAVARSHINI MURUGAN",
+                    "MUHAMMAD SALMAN MUNAF",
+                    "MOUNA KACEM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -675,24 +559,24 @@
                 "f": 11,
                 "incomplete": 3,
                 "instructors": [
-                    "DEBARSHI DEKA",
-                    "ASHLEY SAMUELSON",
-                    "KUSHAGRA KAPIL",
-                    "MUHAMMAD SALMAN MUNAF",
-                    "AISHA MOHAMED",
                     "AKHIL POLAMARASETTY",
-                    "GOWTHAM RAMESH",
                     "KENDALL PARK",
-                    "MOUNA KACEM",
-                    "Yiwei ZHANG",
-                    "SNEHAL RAJESH WADHWANI",
-                    "MICHELLE JENSEN",
-                    "LAURA LEGAULT",
-                    "MINGRUI LIU",
-                    "CHANGHO SHIN",
-                    "MOHIT LOGANATHAN",
                     "PRIYAVARSHINI MURUGAN",
-                    "PREETI NAYAK"
+                    "AISHA MOHAMED",
+                    "LAURA LEGAULT",
+                    "Yiwei ZHANG",
+                    "MUHAMMAD SALMAN MUNAF",
+                    "KUSHAGRA KAPIL",
+                    "GOWTHAM RAMESH",
+                    "CHANGHO SHIN",
+                    "MICHELLE JENSEN",
+                    "MOHIT LOGANATHAN",
+                    "ASHLEY SAMUELSON",
+                    "SNEHAL RAJESH WADHWANI",
+                    "PREETI NAYAK",
+                    "DEBARSHI DEKA",
+                    "MOUNA KACEM",
+                    "MINGRUI LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -718,26 +602,26 @@
                 "incomplete": 2,
                 "instructors": [
                     "KENDALL PARK",
-                    "Yiwei ZHANG",
-                    "ZHIQI GAO",
-                    "RIYAD HASSEN",
-                    "ZHIWEI SONG",
-                    "LAURA LEGAULT",
-                    "DANYAL MAQBOOL",
-                    "ANGUS HE",
-                    "MARK MANSI",
-                    "WILLIAM CONG",
+                    "VAISHNAVI BHARGAVA",
+                    "BOWMAN BROWN",
                     "ROBERT KLOCK",
                     "MICHELLE JENSEN",
-                    "BOWMAN BROWN",
+                    "DANYAL MAQBOOL",
+                    "RIYAD HASSEN",
+                    "Yiwei ZHANG",
+                    "SHENGYUAN YANG",
+                    "ASHLEY SAMUELSON",
+                    "ZHIQI GAO",
+                    "LAURA LEGAULT",
+                    "WILLIAM CONG",
+                    "ZHIWEI SONG",
+                    "MARK MANSI",
+                    "ADITYA KOLSUR",
+                    "RAHUL CHOUDHARY",
+                    "ANGUS HE",
                     "PUCHENG XIONG",
                     "GOWTHAM RAMESH",
-                    "ADITYA KOLSUR",
-                    "SHENGYUAN YANG",
-                    "RAHUL CHOUDHARY",
-                    "MOUNA KACEM",
-                    "VAISHNAVI BHARGAVA",
-                    "ASHLEY SAMUELSON"
+                    "MOUNA KACEM"
                 ],
                 "no_credit": 0,
                 "no_work": 2,
@@ -763,24 +647,24 @@
                 "incomplete": 4,
                 "instructors": [
                     "KENDALL PARK",
-                    "ZHIQI GAO",
-                    "RIYAD HASSEN",
-                    "ZHIWEI SONG",
-                    "LAURA LEGAULT",
-                    "DANYAL MAQBOOL",
-                    "ANGUS HE",
-                    "YUYUAN KANG",
+                    "VAISHNAVI BHARGAVA",
+                    "AYDAN BAILEY",
                     "ROBERT KLOCK",
                     "MICHELLE JENSEN",
-                    "POOJA YADAV",
-                    "GIANNIS IAKOVIDIS",
+                    "DANYAL MAQBOOL",
                     "MOUNA KACEM",
-                    "RAHUL CHOUDHARY",
-                    "ADITYA KOLSUR",
-                    "AYDAN BAILEY",
+                    "RIYAD HASSEN",
                     "WILLIAM SUN",
-                    "VAISHNAVI BHARGAVA",
-                    "ASHLEY SAMUELSON"
+                    "ASHLEY SAMUELSON",
+                    "ZHIQI GAO",
+                    "LAURA LEGAULT",
+                    "POOJA YADAV",
+                    "ZHIWEI SONG",
+                    "YUYUAN KANG",
+                    "ADITYA KOLSUR",
+                    "ANGUS HE",
+                    "GIANNIS IAKOVIDIS",
+                    "RAHUL CHOUDHARY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -805,22 +689,22 @@
                 "f": 8,
                 "incomplete": 3,
                 "instructors": [
-                    "YIKAI ZHANG",
-                    "YIHENG SU",
-                    "XINYU ZHOU",
-                    "RAHUL CHOUDHARY",
-                    "ADITYA KOLSUR",
-                    "WILLIAM CONG",
-                    "PROTEET PAUL",
-                    "Blerina GKOTSE",
-                    "MICHELLE JENSEN",
-                    "LAURA LEGAULT",
-                    "WILLIAM SUN",
-                    "YUHAO LIU",
                     "JING LAN",
-                    "RITHIK JAIN",
                     "SHUIBAI ZHANG",
-                    "RIYAD HASSEN"
+                    "PROTEET PAUL",
+                    "RIYAD HASSEN",
+                    "LAURA LEGAULT",
+                    "YIKAI ZHANG",
+                    "XINYU ZHOU",
+                    "RITHIK JAIN",
+                    "Blerina GKOTSE",
+                    "YUHAO LIU",
+                    "WILLIAM CONG",
+                    "MICHELLE JENSEN",
+                    "WILLIAM SUN",
+                    "YIHENG SU",
+                    "ADITYA KOLSUR",
+                    "RAHUL CHOUDHARY"
                 ],
                 "no_credit": 0,
                 "no_work": 1,

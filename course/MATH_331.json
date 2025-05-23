@@ -27,55 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "Topics covered include axioms of probability, random variables, the most important discrete and continuous probability distributions, expectation and variance, conditional probability and conditional expectations, Markov's and Chebyshev's inequalities, laws of large numbers, and the central limit theorem. Includes a brief introduction to techniques of multivariate integration.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 213,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 213,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "prerequisites_text": "MATH\u00a0213or222"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 213,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 213,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -113,37 +86,37 @@
     },
     "similar_courses": [
         {
-            "course_number": 733,
-            "subjects": [
-                "MATH",
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 431,
-            "subjects": [
-                "MATH",
-                "STAT"
-            ]
-        },
-        {
             "course_number": 531,
             "subjects": [
                 "MATH"
             ]
         },
         {
-            "course_number": 833,
+            "course_number": 309,
             "subjects": [
-                "MATH",
-                "STAT"
+                "STAT",
+                "MATH"
             ]
         },
         {
-            "course_number": 309,
+            "course_number": 733,
             "subjects": [
-                "MATH",
-                "STAT"
+                "STAT",
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 431,
+            "subjects": [
+                "STAT",
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 833,
+            "subjects": [
+                "STAT",
+                "MATH"
             ]
         }
     ],

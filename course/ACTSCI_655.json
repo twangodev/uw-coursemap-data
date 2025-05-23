@@ -27,95 +27,42 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to the broad area of health, integrating how researchers from multiple perspectives have investigated various aspects of health, along with the hands-on practice of learning and using statistical tools to analyze these topics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "declared in undergraduate Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 640,
-                "subjects": [
-                    "ACTSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 640,
-                "subjects": [
-                    "ACTSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 656,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            "), or declared in undergraduate Business Exchange program"
-        ],
-        "prerequisites_text": "(ACT\u00a0SCI\u00a0640,GEN\u00a0BUS\u00a0656,STAT\u00a0333, or340), or declared in undergraduate Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 640,
+            "subjects": [
+                "ACTSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 640,
+                            "subjects": [
+                                "ACTSCI"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 656,
+                            "subjects": [
+                                "GENBUS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 333,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 340,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -132,12 +79,6 @@
                 ]
             },
             {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
                 "course_number": 333,
                 "subjects": [
                     "STAT"
@@ -147,6 +88,12 @@
                 "course_number": 640,
                 "subjects": [
                     "ACTSCI"
+                ]
+            },
+            {
+                "course_number": 340,
+                "subjects": [
+                    "STAT"
                 ]
             }
         ],
@@ -185,15 +132,21 @@
     },
     "similar_courses": [
         {
-            "course_number": 914,
-            "subjects": [
-                "MEDICINE"
-            ]
-        },
-        {
             "course_number": 242,
             "subjects": [
                 "PUBAFFR"
+            ]
+        },
+        {
+            "course_number": 784,
+            "subjects": [
+                "POPHLTH"
+            ]
+        },
+        {
+            "course_number": 914,
+            "subjects": [
+                "MEDICINE"
             ]
         },
         {
@@ -204,16 +157,10 @@
             ]
         },
         {
-            "course_number": 784,
-            "subjects": [
-                "POPHLTH"
-            ]
-        },
-        {
             "course_number": 551,
             "subjects": [
-                "POPHLTH",
-                "BMI"
+                "BMI",
+                "POPHLTH"
             ]
         }
     ],

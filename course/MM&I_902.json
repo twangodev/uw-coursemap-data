@@ -27,91 +27,58 @@
         "unsatisfactory": 0
     },
     "description": "The human microbiome can profoundly influence the balance between health and disease. Advances in next-generation sequencing technology and bioinformatics enabled the detailed study of the trillions of microorganisms living in us and on us and their associations with both healthy and disease conditions. Current state of the art approaches to study the microbiome through examples of human diseases with a known microbiome component. Critically assess the microbiome literature and design clinical studies aiming to include the microbiome as a variable. Bioinformatics tools required to study complex microbial communities by reproducing published datasets from human patients and learn ecological concepts to interpret results in a clinically meaningful way.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 810,
+            "subjects": [
+                "MEDSC-M"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 811,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            {
-                "course_number": 810,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 810,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 811,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 812,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            ", and ",
-            {
-                "course_number": 813,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            }
-        ],
-        "prerequisites_text": "MED\u00a0SC-M\u00a0810,811,812, and813"
-    },
+        {
+            "course_number": 811,
+            "subjects": [
+                "MEDSC-M"
+            ]
+        },
+        {
+            "course_number": 812,
+            "subjects": [
+                "MEDSC-M"
+            ]
+        },
+        {
+            "course_number": 813,
+            "subjects": [
+                "MEDSC-M"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 810,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 811,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 812,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 813,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -124,6 +91,12 @@
                 ]
             },
             {
+                "course_number": 813,
+                "subjects": [
+                    "MEDSC-M"
+                ]
+            },
+            {
                 "course_number": 812,
                 "subjects": [
                     "MEDSC-M"
@@ -131,12 +104,6 @@
             },
             {
                 "course_number": 810,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            {
-                "course_number": 813,
                 "subjects": [
                     "MEDSC-M"
                 ]
@@ -175,6 +142,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 657,
+            "subjects": [
+                "MICROBIO"
+            ]
+        },
+        {
             "course_number": 345,
             "subjects": [
                 "MICROBIO"
@@ -193,17 +166,11 @@
             ]
         },
         {
-            "course_number": 657,
-            "subjects": [
-                "MICROBIO"
-            ]
-        },
-        {
             "course_number": 335,
             "subjects": [
-                "ANSCI",
                 "MICROBIO",
-                "BOTANY"
+                "BOTANY",
+                "ANSCI"
             ]
         }
     ],

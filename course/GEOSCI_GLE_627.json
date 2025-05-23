@@ -28,158 +28,21 @@
         "unsatisfactory": 0
     },
     "description": "Mathematical treatment of the physical principles governing the flow of groundwater; emphasis on well hydraulics and flow system analysis.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 106,
+            "subjects": [
+                "GEOSCI",
+                "ENVIRST"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 106,
-                "subjects": [
-                    "GEOSCI",
-                    "ENVIRST"
-                ]
-            },
-            {
-                "course_number": 100,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            {
-                "course_number": 110,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 100,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 110,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 105,
-                "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 140,
-                "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 106,
-                "subjects": [
-                    "GEOSCI",
-                    "ENVIRST"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 160,
-                "subjects": [
-                    "ASTRON",
-                    "GEOSCI"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(GEOSCI\u00a0100,109,110,ATM\u00a0OCN/\u200bGEOSCI\u00a0\u00a0105,140,ENVIR\u00a0ST/\u200bGEOSCI\u00a0\u00a0106, orASTRON/\u200bGEOSCI\u00a0\u00a0160) and (MATH\u00a0217or221), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -188,32 +51,50 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 100,
+                                    "subjects": [
+                                        "GEOSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 109,
+                                    "subjects": [
+                                        "GEOSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 110,
+                                    "subjects": [
+                                        "GEOSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 105,
+                                    "subjects": [
+                                        "GEOSCI",
+                                        "ATMOCN"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 140,
+                                    "subjects": [
+                                        "GEOSCI",
+                                        "ATMOCN"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 106,
+                                    "subjects": [
+                                        "GEOSCI",
+                                        "ENVIRST"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 160,
+                                    "subjects": [
+                                        "GEOSCI",
+                                        "ASTRON"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -221,12 +102,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 217,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -247,6 +132,34 @@
                 ]
             },
             {
+                "course_number": 140,
+                "subjects": [
+                    "GEOSCI",
+                    "ATMOCN"
+                ]
+            },
+            {
+                "course_number": 105,
+                "subjects": [
+                    "GEOSCI",
+                    "ATMOCN"
+                ]
+            },
+            {
+                "course_number": 160,
+                "subjects": [
+                    "GEOSCI",
+                    "ASTRON"
+                ]
+            },
+            {
+                "course_number": 106,
+                "subjects": [
+                    "GEOSCI",
+                    "ENVIRST"
+                ]
+            },
+            {
                 "course_number": 100,
                 "subjects": [
                     "GEOSCI"
@@ -259,42 +172,14 @@
                 ]
             },
             {
-                "course_number": 110,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            {
                 "course_number": 221,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 105,
+                "course_number": 110,
                 "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
-                ]
-            },
-            {
-                "course_number": 106,
-                "subjects": [
-                    "GEOSCI",
-                    "ENVIRST"
-                ]
-            },
-            {
-                "course_number": 160,
-                "subjects": [
-                    "ASTRON",
-                    "GEOSCI"
-                ]
-            },
-            {
-                "course_number": 140,
-                "subjects": [
-                    "ATMOCN",
                     "GEOSCI"
                 ]
             }
@@ -325,16 +210,16 @@
             {
                 "course_number": 105,
                 "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
+                    "GEOSCI",
+                    "ATMOCN"
                 ]
             },
             ", ",
             {
                 "course_number": 140,
                 "subjects": [
-                    "ATMOCN",
-                    "GEOSCI"
+                    "GEOSCI",
+                    "ATMOCN"
                 ]
             },
             ", ",
@@ -349,8 +234,8 @@
             {
                 "course_number": 160,
                 "subjects": [
-                    "ASTRON",
-                    "GEOSCI"
+                    "GEOSCI",
+                    "ASTRON"
                 ]
             },
             ") and (",
@@ -373,22 +258,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 412,
-            "subjects": [
-                "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 724,
+            "course_number": 629,
             "subjects": [
                 "GEOSCI",
                 "GLE"
-            ]
-        },
-        {
-            "course_number": 929,
-            "subjects": [
-                "GEOSCI"
             ]
         },
         {
@@ -398,7 +271,19 @@
             ]
         },
         {
-            "course_number": 629,
+            "course_number": 929,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
+            "course_number": 412,
+            "subjects": [
+                "CIVENGR"
+            ]
+        },
+        {
+            "course_number": 724,
             "subjects": [
                 "GEOSCI",
                 "GLE"
@@ -419,8 +304,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RANDALL JAMES HUNT",
-                    "HERBERT WANG"
+                    "HERBERT WANG",
+                    "RANDALL JAMES HUNT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -445,8 +330,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RANDALL JAMES HUNT",
-                    "HERBERT WANG"
+                    "HERBERT WANG",
+                    "RANDALL JAMES HUNT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -521,8 +406,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEAN BAHR",
-                    "HERBERT WANG"
+                    "HERBERT WANG",
+                    "JEAN BAHR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -672,8 +557,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEAN BAHR",
-                    "Michael CARDIFF"
+                    "Michael CARDIFF",
+                    "JEAN BAHR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -698,8 +583,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JEAN BAHR",
-                    "Michael CARDIFF"
+                    "Michael CARDIFF",
+                    "JEAN BAHR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -903,9 +788,9 @@
                 },
                 "last_taught_term": "Fall 2024",
                 "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
+                    "abbreviation": "E",
+                    "name": "Engineering",
+                    "url": "http://www.engr.wisc.edu/"
                 },
                 "typically_offered": "Fall"
             },

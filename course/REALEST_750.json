@@ -27,73 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "Creating industrial real estate, office space, shopping centers, and hotel/recreation facilities, including strategy, market and feasibility analysis, site planning/design, capital cost analysis, construction, and financial structuring. Emphasis on case studies and project analysis.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 710,
+            "subjects": [
+                "REALEST"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 715,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            {
-                "course_number": 710,
-                "subjects": [
-                    "REALEST"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 710,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            " or concurrent enrollment) and (",
-            {
-                "course_number": 715,
-                "subjects": [
-                    "REALEST"
-                ]
-            },
-            " or concurrent enrollment)"
-        ],
-        "prerequisites_text": "(REAL\u00a0EST\u00a0710or concurrent enrollment) and (REAL\u00a0EST\u00a0715or concurrent enrollment)"
-    },
+        {
+            "course_number": 715,
+            "subjects": [
+                "REALEST"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 710,
+                            "subjects": [
+                                "REALEST"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -102,8 +59,10 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 715,
+                            "subjects": [
+                                "REALEST"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -114,13 +73,13 @@
         },
         "course_references": [
             {
-                "course_number": 710,
+                "course_number": 715,
                 "subjects": [
                     "REALEST"
                 ]
             },
             {
-                "course_number": 715,
+                "course_number": 710,
                 "subjects": [
                     "REALEST"
                 ]
@@ -147,13 +106,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 706,
-            "subjects": [
-                "REALEST"
-            ]
-        },
-        {
-            "course_number": 611,
+            "course_number": 770,
             "subjects": [
                 "REALEST"
             ]
@@ -165,7 +118,13 @@
             ]
         },
         {
-            "course_number": 770,
+            "course_number": 611,
+            "subjects": [
+                "REALEST"
+            ]
+        },
+        {
+            "course_number": 706,
             "subjects": [
                 "REALEST"
             ]

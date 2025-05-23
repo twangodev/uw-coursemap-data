@@ -28,44 +28,14 @@
         "unsatisfactory": 1
     },
     "description": "Elementary theory and practical work in phonetics, phonology, morphology, and syntax, with attention to formal grammar.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Graduate/professional standing.",
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "."
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing. Not open to students with credit for ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "Graduate/professional standing. Not open to students with credit forLINGUIS\u00a0101."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "LINGUIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -74,8 +44,10 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "LINGUIS"
+                            ]
                         },
                         "."
                     ],
@@ -106,12 +78,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 330,
-            "subjects": [
-                "LINGUIS"
-            ]
-        },
-        {
             "course_number": 310,
             "subjects": [
                 "LINGUIS"
@@ -120,12 +86,18 @@
         {
             "course_number": 377,
             "subjects": [
-                "ANTHRO",
-                "LACIS"
+                "LACIS",
+                "ANTHRO"
             ]
         },
         {
             "course_number": 101,
+            "subjects": [
+                "LINGUIS"
+            ]
+        },
+        {
+            "course_number": 330,
             "subjects": [
                 "LINGUIS"
             ]
@@ -176,8 +148,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Monica MACAULAY",
-                    "VIVIAN I LIN"
+                    "VIVIAN I LIN",
+                    "Monica MACAULAY"
                 ],
                 "no_credit": 0,
                 "no_work": 1,

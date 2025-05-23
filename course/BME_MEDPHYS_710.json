@@ -28,58 +28,31 @@
         "unsatisfactory": 0
     },
     "description": "Addresses the theory and applications of magnetic resonance (MR) in medicine, by providing the necessary theoretical background to understand advanced MR techniques including magnetic resonance imaging (MRI).",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 568,
-                "subjects": [
-                    "MEDPHYS",
-                    "BME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 568,
-                "subjects": [
-                    "MEDPHYS",
-                    "BME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 578,
-                "subjects": [
-                    "MEDPHYS",
-                    "BME"
-                ]
-            }
-        ],
-        "prerequisites_text": "MED\u00a0PHYS/\u200bB\u00a0M\u00a0E\u00a0\u00a0568or578"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 568,
+            "subjects": [
+                "MEDPHYS",
+                "BME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 568,
+                    "subjects": [
+                        "MEDPHYS",
+                        "BME"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 578,
+                    "subjects": [
+                        "MEDPHYS",
+                        "BME"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -121,27 +94,14 @@
     },
     "similar_courses": [
         {
-            "course_number": 573,
-            "subjects": [
-                "MEDPHYS",
-                "BME"
-            ]
-        },
-        {
-            "course_number": 671,
-            "subjects": [
-                "MEDPHYS"
-            ]
-        },
-        {
-            "course_number": 567,
-            "subjects": [
-                "MEDPHYS",
-                "BME"
-            ]
-        },
-        {
             "course_number": 578,
+            "subjects": [
+                "MEDPHYS",
+                "BME"
+            ]
+        },
+        {
+            "course_number": 573,
             "subjects": [
                 "MEDPHYS",
                 "BME"
@@ -152,6 +112,19 @@
             "subjects": [
                 "MEDPHYS",
                 "BME"
+            ]
+        },
+        {
+            "course_number": 567,
+            "subjects": [
+                "MEDPHYS",
+                "BME"
+            ]
+        },
+        {
+            "course_number": 671,
+            "subjects": [
+                "MEDPHYS"
             ]
         }
     ],

@@ -27,117 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "A mathematical approach to the principles and theories of national income determination, analysis of savings, consumption, investment and other aggregates in the national and international economy and relation to employment, inflation, and stabilization.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        },
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        "Not open to students who have credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 111,
+            "subjects": [
+                "ECON"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 302,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ") or ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ". Not open to students who have credit for ",
-            {
-                "course_number": 302,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "prerequisites_text": "MATH\u00a0222and (ECON\u00a0101and102) orECON\u00a0111. Not open to students who have credit forECON\u00a0302"
-    },
+        {
+            "course_number": 302,
+            "subjects": [
+                "ECON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -146,18 +49,24 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 222,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
                                     "children": [
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 101,
+                                            "subjects": [
+                                                "ECON"
+                                            ]
                                         },
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 102,
+                                            "subjects": [
+                                                "ECON"
+                                            ]
                                         }
                                     ],
                                     "operator": "AND"
@@ -168,8 +77,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 111,
+                                    "subjects": [
+                                        "ECON"
+                                    ]
                                 },
                                 "."
                             ],
@@ -182,8 +93,10 @@
                     "children": [
                         "Not open to students who have credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 302,
+                            "subjects": [
+                                "ECON"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -192,18 +105,6 @@
             "operator": "AND"
         },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
             {
                 "course_number": 102,
                 "subjects": [
@@ -217,9 +118,21 @@
                 ]
             },
             {
+                "course_number": 101,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            {
                 "course_number": 111,
                 "subjects": [
                     "ECON"
+                ]
+            },
+            {
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
                 ]
             }
         ],
@@ -263,19 +176,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 311,
-            "subjects": [
-                "ECON"
-            ]
-        },
-        {
-            "course_number": 810,
-            "subjects": [
-                "ECON"
-            ]
-        },
-        {
-            "course_number": 102,
+            "course_number": 702,
             "subjects": [
                 "ECON"
             ]
@@ -287,7 +188,19 @@
             ]
         },
         {
-            "course_number": 702,
+            "course_number": 810,
+            "subjects": [
+                "ECON"
+            ]
+        },
+        {
+            "course_number": 311,
+            "subjects": [
+                "ECON"
+            ]
+        },
+        {
+            "course_number": 102,
             "subjects": [
                 "ECON"
             ]

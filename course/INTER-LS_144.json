@@ -27,52 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to research-based best practices for success in college-level math courses.  Practical application in the areas of study skills, goal setting, time management, and notetaking; hands-on practice with problem-solving strategies.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Concurrent enrollment in",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 96,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Concurrent enrollment in ",
-            {
-                "course_number": 96,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "prerequisites_text": "Concurrent enrollment inMATH\u00a096or112"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 96,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -80,28 +42,32 @@
                     "children": [
                         "Concurrent enrollment in",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 96,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 112,
+                    "subjects": [
+                        "MATH"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 96,
+                "course_number": 112,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 112,
+                "course_number": 96,
                 "subjects": [
                     "MATH"
                 ]
@@ -139,7 +105,7 @@
             ]
         },
         {
-            "course_number": 812,
+            "course_number": 811,
             "subjects": [
                 "CURRIC"
             ]
@@ -151,7 +117,7 @@
             ]
         },
         {
-            "course_number": 811,
+            "course_number": 812,
             "subjects": [
                 "CURRIC"
             ]

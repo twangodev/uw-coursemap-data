@@ -27,118 +27,14 @@
         "unsatisfactory": 1
     },
     "description": "Establishment, management, harvesting and utilization of forage crops for use as hay, pasture and silage. Emphasis on cool season perennial grasses and legumes.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Junior standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 100,
-                "subjects": [
-                    "AGRONOMY"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ANSCI",
-                    "DYSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing and (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ANSCI",
-                    "DYSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 100,
-                "subjects": [
-                    "AGRONOMY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "Junior standing and (DY\u00a0SCI/\u200bAN\u00a0SCI\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,AGRONOMY\u00a0100, orBIOCORE\u00a0381) or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 100,
+            "subjects": [
+                "AGRONOMY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -148,24 +44,38 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "DYSCI",
+                                        "ANSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 151,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 100,
+                                    "subjects": [
+                                        "AGRONOMY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 381,
+                                    "subjects": [
+                                        "BIOCORE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -181,8 +91,22 @@
             {
                 "course_number": 101,
                 "subjects": [
-                    "ANSCI",
-                    "DYSCI"
+                    "DYSCI",
+                    "ANSCI"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY",
+                    "BOTANY"
                 ]
             },
             {
@@ -193,23 +117,9 @@
                 ]
             },
             {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
                 "course_number": 100,
                 "subjects": [
                     "AGRONOMY"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
                 ]
             }
         ],
@@ -218,8 +128,8 @@
             {
                 "course_number": 101,
                 "subjects": [
-                    "ANSCI",
-                    "DYSCI"
+                    "DYSCI",
+                    "ANSCI"
                 ]
             },
             ", ",
@@ -265,9 +175,9 @@
             ]
         },
         {
-            "course_number": 71,
+            "course_number": 300,
             "subjects": [
-                "FISC"
+                "AGRONOMY"
             ]
         },
         {
@@ -277,13 +187,13 @@
             ]
         },
         {
-            "course_number": 300,
+            "course_number": 58,
             "subjects": [
-                "AGRONOMY"
+                "FISC"
             ]
         },
         {
-            "course_number": 58,
+            "course_number": 71,
             "subjects": [
                 "FISC"
             ]

@@ -27,64 +27,28 @@
         "unsatisfactory": 1
     },
     "description": "Review of Euler's equations, torque-free motion, stability of rotation, energy dissipation effects, gyroscopic instruments, gyrodynamics of the Earth, gravity gradient stabilized satellites, spin stabilized satellites, dual spin satellites, tethered satellites, mass movement techniques, space vehicle motion and rocket dynamics.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 542,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 542,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or graduate/professional standing or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0M\u00a0A\u00a0542orPHYSICS\u00a0311, or graduate/professional standing or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 542,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 542,
+                    "subjects": [
+                        "EMA"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -93,15 +57,15 @@
         },
         "course_references": [
             {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
                 "course_number": 542,
                 "subjects": [
                     "EMA"
+                ]
+            },
+            {
+                "course_number": 311,
+                "subjects": [
+                    "PHYSICS"
                 ]
             }
         ],
@@ -125,12 +89,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 202,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
             "course_number": 745,
             "subjects": [
                 "EMA"
@@ -143,16 +101,22 @@
             ]
         },
         {
-            "course_number": 550,
+            "course_number": 542,
             "subjects": [
-                "ASTRON",
                 "EMA"
             ]
         },
         {
-            "course_number": 542,
+            "course_number": 202,
             "subjects": [
                 "EMA"
+            ]
+        },
+        {
+            "course_number": 550,
+            "subjects": [
+                "EMA",
+                "ASTRON"
             ]
         }
     ],

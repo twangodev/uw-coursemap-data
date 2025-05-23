@@ -27,76 +27,32 @@
         "unsatisfactory": 0
     },
     "description": "Hands-on laboratory on soil analysis and interpretation of soil properties for different uses, such as food production, waste management, water quality, stormwater control, and environmental sustainability.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "SOILSCI"
-                ]
-            },
-            {
-                "course_number": 230,
-                "subjects": [
-                    "ENVIRST",
-                    "GEOG",
-                    "SOILSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 230,
-                "subjects": [
-                    "ENVIRST",
-                    "GEOG",
-                    "SOILSCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "SOILSCI"
-                ]
-            },
-            ", or concurrent enrollment) or graduate/professional standing"
-        ],
-        "prerequisites_text": "(GEOG/\u200bENVIR\u00a0ST/\u200bSOIL\u00a0SCI\u00a0\u00a0230orSOIL\u00a0SCI\u00a0301, or concurrent enrollment) or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "SOILSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 230,
+                            "subjects": [
+                                "ENVIRST",
+                                "GEOG",
+                                "SOILSCI"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 301,
+                            "subjects": [
+                                "SOILSCI"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -151,15 +107,14 @@
             ]
         },
         {
-            "course_number": 131,
+            "course_number": 327,
             "subjects": [
                 "SOILSCI"
             ]
         },
         {
-            "course_number": 324,
+            "course_number": 131,
             "subjects": [
-                "ENVIRST",
                 "SOILSCI"
             ]
         },
@@ -170,8 +125,9 @@
             ]
         },
         {
-            "course_number": 327,
+            "course_number": 324,
             "subjects": [
+                "ENVIRST",
                 "SOILSCI"
             ]
         }

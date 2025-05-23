@@ -27,78 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Principles, procedures and problems of the legislative process of the United States Congress. Not open to students with credit for POLI SCI 426",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Sophomore standing",
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 104,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 184,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            {
-                "course_number": 217,
-                "subjects": [
-                    "LEGALST",
-                    "POLISCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing and (",
-            {
-                "course_number": 104,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 184,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "LEGALST",
-                    "POLISCI"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Sophomore standing and (POLI\u00a0SCI\u00a0104,184, orLEGAL\u00a0ST/\u200bPOLI\u00a0SCI\u00a0\u00a0217)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 104,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -106,16 +42,23 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 104,
+                            "subjects": [
+                                "POLISCI"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 184,
+                            "subjects": [
+                                "POLISCI"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "POLISCI",
+                                "LEGALST"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -127,18 +70,18 @@
             {
                 "course_number": 217,
                 "subjects": [
-                    "LEGALST",
-                    "POLISCI"
+                    "POLISCI",
+                    "LEGALST"
                 ]
             },
             {
-                "course_number": 104,
+                "course_number": 184,
                 "subjects": [
                     "POLISCI"
                 ]
             },
             {
-                "course_number": 184,
+                "course_number": 104,
                 "subjects": [
                     "POLISCI"
                 ]
@@ -163,8 +106,8 @@
             {
                 "course_number": 217,
                 "subjects": [
-                    "LEGALST",
-                    "POLISCI"
+                    "POLISCI",
+                    "LEGALST"
                 ]
             },
             ")"
@@ -173,7 +116,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 401,
+            "course_number": 511,
             "subjects": [
                 "POLISCI"
             ]
@@ -191,7 +134,7 @@
             ]
         },
         {
-            "course_number": 511,
+            "course_number": 401,
             "subjects": [
                 "POLISCI"
             ]

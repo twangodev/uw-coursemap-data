@@ -27,106 +27,59 @@
         "unsatisfactory": 0
     },
     "description": "The genetic basis of nervous system development, structure, function, and dysfunction. Will emphasize both current research findings on the genetic basis of specific neurological disorders, as well as genetic methodologies and experimental approaches used in neurobiological research.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 587,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 454,
-                "subjects": [
-                    "PSYCH"
-                ]
-            }
-        ],
-        "prerequisites_text": "GENETICS\u00a0466,467,BIOCORE\u00a0587,ZOOLOGY/\u200bPSYCH\u00a0\u00a0523, orPSYCH\u00a0454"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 523,
+            "subjects": [
+                "PSYCH",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 466,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 467,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 587,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 523,
+                    "subjects": [
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 454,
+                    "subjects": [
+                        "PSYCH"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
             {
                 "course_number": 587,
                 "subjects": [
@@ -146,16 +99,10 @@
                 ]
             },
             {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -184,8 +131,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             ", or ",
@@ -200,21 +147,14 @@
     },
     "similar_courses": [
         {
-            "course_number": 627,
-            "subjects": [
-                "GENETICS"
-            ]
-        },
-        {
             "course_number": 735,
             "subjects": [
                 "NEUROL"
             ]
         },
         {
-            "course_number": 565,
+            "course_number": 568,
             "subjects": [
-                "MDGENET",
                 "GENETICS"
             ]
         },
@@ -226,7 +166,14 @@
             ]
         },
         {
-            "course_number": 568,
+            "course_number": 565,
+            "subjects": [
+                "MDGENET",
+                "GENETICS"
+            ]
+        },
+        {
+            "course_number": 627,
             "subjects": [
                 "GENETICS"
             ]

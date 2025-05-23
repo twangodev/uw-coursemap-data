@@ -27,114 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Students will select specific engineering design projects. These projects will be student team efforts supervised by individual faculty members.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "have completed",
-                        {
-                            "children": [
-                                "be concurrently enrolled in two of",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 469,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 506,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 469,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " and (have completed or be concurrently enrolled in two of ",
-            {
-                "course_number": 506,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 519,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 521,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 542,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 545,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "E\u00a0M\u00a0A\u00a0469and (have completed or be concurrently enrolled in two ofE\u00a0M\u00a0A\u00a0506,519,521,542,545)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 469,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 469,
+                    "subjects": [
+                        "EMA"
+                    ]
                 },
                 {
                     "children": [
@@ -143,24 +51,34 @@
                             "children": [
                                 "be concurrently enrolled in two of",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 506,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 519,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 521,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 542,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 545,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -173,13 +91,13 @@
         },
         "course_references": [
             {
-                "course_number": 469,
+                "course_number": 506,
                 "subjects": [
                     "EMA"
                 ]
             },
             {
-                "course_number": 506,
+                "course_number": 521,
                 "subjects": [
                     "EMA"
                 ]
@@ -191,7 +109,7 @@
                 ]
             },
             {
-                "course_number": 521,
+                "course_number": 469,
                 "subjects": [
                     "EMA"
                 ]
@@ -257,6 +175,18 @@
     },
     "similar_courses": [
         {
+            "course_number": 349,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 990,
+            "subjects": [
+                "EMA"
+            ]
+        },
+        {
             "course_number": 549,
             "subjects": [
                 "ME"
@@ -269,21 +199,9 @@
             ]
         },
         {
-            "course_number": 349,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
             "course_number": 491,
             "subjects": [
                 "ECE"
-            ]
-        },
-        {
-            "course_number": 990,
-            "subjects": [
-                "EMA"
             ]
         }
     ],
@@ -351,8 +269,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "FREDERICK ELDER",
-                    "NOAH HERSHKOWITZ"
+                    "NOAH HERSHKOWITZ",
+                    "FREDERICK ELDER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -581,8 +499,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN MURPHY",
-                    "AARON NIMITYONGSKUL"
+                    "AARON NIMITYONGSKUL",
+                    "JOHN MURPHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -607,8 +525,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN MURPHY",
-                    "AARON NIMITYONGSKUL"
+                    "AARON NIMITYONGSKUL",
+                    "JOHN MURPHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -684,8 +602,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "AARON NIMITYONGSKUL",
-                    "NINO MIOSI",
-                    "TRAVIS SHEPERD"
+                    "TRAVIS SHEPERD",
+                    "NINO MIOSI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

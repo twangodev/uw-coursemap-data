@@ -2,105 +2,28 @@
     "course_reference": {
         "course_number": 640,
         "subjects": [
-            "MM&I",
+            "ONCOLOGY",
             "PLPATH",
-            "ONCOLOGY"
+            "MM&I"
         ]
     },
     "course_title": "GENERAL VIROLOGY-MULTIPLICATION OF VIRUSES",
     "cumulative_grade_data": null,
     "description": "The structure, multiplication, genetics, pathology and control of animal and plant viruses.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 467,
+            "subjects": [
+                "GENETICS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 508,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 508,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(GENETICS\u00a0466or467) and (BIOCHEM\u00a0501or508) or graduate/professional standing"
-    },
+        {
+            "course_number": 508,
+            "subjects": [
+                "BIOCHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -109,12 +32,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 466,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 467,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -122,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 501,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 508,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -141,15 +72,15 @@
         },
         "course_references": [
             {
-                "course_number": 466,
+                "course_number": 467,
                 "subjects": [
                     "GENETICS"
                 ]
             },
             {
-                "course_number": 501,
+                "course_number": 466,
                 "subjects": [
-                    "BIOCHEM"
+                    "GENETICS"
                 ]
             },
             {
@@ -159,9 +90,9 @@
                 ]
             },
             {
-                "course_number": 467,
+                "course_number": 501,
                 "subjects": [
-                    "GENETICS"
+                    "BIOCHEM"
                 ]
             }
         ],
@@ -202,14 +133,13 @@
         {
             "course_number": 575,
             "subjects": [
-                "MM&I",
-                "BIOCHEM"
+                "BIOCHEM",
+                "MM&I"
             ]
         },
         {
-            "course_number": 750,
+            "course_number": 513,
             "subjects": [
-                "MM&I",
                 "PATH-BIO"
             ]
         },
@@ -220,9 +150,10 @@
             ]
         },
         {
-            "course_number": 513,
+            "course_number": 750,
             "subjects": [
-                "PATH-BIO"
+                "PATH-BIO",
+                "MM&I"
             ]
         },
         {

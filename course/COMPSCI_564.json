@@ -27,82 +27,41 @@
         "unsatisfactory": 2
     },
     "description": "What a database management system is; different data models currently used to structure the logical view of the database: relational, hierarchical, and network. Hands-on experience with relational and network-based database systems. Implementation techniques for database systems. File organization, query processing, concurrency control, rollback and recovery, integrity and consistency, and view implementation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "COMP SCI 367",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 354,
+            "subjects": [
+                "ECE",
+                "COMPSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 354,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 354,
-                "subjects": [
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            " and (COMP SCI 367 or ",
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ") or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E/\u200bCOMP\u00a0SCI\u00a0\u00a0354and (COMP SCI 367 or400) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+        {
+            "course_number": 400,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 354,
+                            "subjects": [
+                                "ECE",
+                                "COMPSCI"
+                            ]
                         },
                         {
                             "children": [
                                 "COMP SCI 367",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 400,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -117,15 +76,15 @@
         },
         "course_references": [
             {
-                "course_number": 354,
+                "course_number": 400,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
+                    "COMPSCI"
                 ]
             },
             {
-                "course_number": 400,
+                "course_number": 354,
                 "subjects": [
+                    "ECE",
                     "COMPSCI"
                 ]
             }
@@ -134,8 +93,8 @@
             {
                 "course_number": 354,
                 "subjects": [
-                    "COMPSCI",
-                    "ECE"
+                    "ECE",
+                    "COMPSCI"
                 ]
             },
             " and (COMP SCI 367 or ",
@@ -157,6 +116,12 @@
             ]
         },
         {
+            "course_number": 464,
+            "subjects": [
+                "LIS"
+            ]
+        },
+        {
             "course_number": 751,
             "subjects": [
                 "LIS"
@@ -172,12 +137,6 @@
             "course_number": 764,
             "subjects": [
                 "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 464,
-            "subjects": [
-                "LIS"
             ]
         }
     ],
@@ -195,8 +154,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "AN DOAN",
-                    "DAVID J DEWITT"
+                    "DAVID J DEWITT",
+                    "AN DOAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -572,10 +531,10 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "AVINAASH GUPTA",
-                    "GAUTAM UMESH SARGUR",
                     "STEPHEN LAZZARO",
-                    "JEFFREY NAUGHTON"
+                    "JEFFREY NAUGHTON",
+                    "AVINAASH GUPTA",
+                    "GAUTAM UMESH SARGUR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -600,9 +559,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "AN DOAN",
                     "AVINAASH GUPTA",
-                    "HARNEET SINGH",
-                    "AN DOAN"
+                    "HARNEET SINGH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -627,8 +586,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "ARUN KUMAR",
-                    "PARASCHOS KOUTRIS"
+                    "PARASCHOS KOUTRIS",
+                    "ARUN KUMAR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -678,9 +637,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "AMBUJ SHATDAL",
+                    "PARASCHOS KOUTRIS",
                     "MINHHIEN NGUYEN THI",
-                    "PARASCHOS KOUTRIS"
+                    "AMBUJ SHATDAL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -730,8 +689,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "THEODOROS REKATSINAS",
-                    "ADEL ARDALAN"
+                    "ADEL ARDALAN",
+                    "THEODOROS REKATSINAS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -856,11 +815,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RUOHUI WANG",
-                    "YUNJIA ZHANG",
                     "ELENA MILKAI",
+                    "PARASCHOS KOUTRIS",
+                    "YUNJIA ZHANG",
                     "SOMYA ARORA",
-                    "PARASCHOS KOUTRIS"
+                    "RUOHUI WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -910,10 +869,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RUOHUI WANG",
-                    "YIFEI YANG",
-                    "ZHELIANG FAN",
                     "PARASCHOS KOUTRIS",
+                    "YIFEI YANG",
+                    "RUOHUI WANG",
+                    "ZHELIANG FAN",
                     "SONG BIAN"
                 ],
                 "no_credit": 0,
@@ -939,11 +898,11 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
+                    "IOANNIS CHRONIS",
+                    "SHALEEN DEEP",
                     "RUOHUI WANG",
                     "WANXIANG ZHONG",
-                    "SHALEEN DEEP",
                     "ZHELIANG FAN",
-                    "IOANNIS CHRONIS",
                     "SONG BIAN"
                 ],
                 "no_credit": 0,
@@ -969,14 +928,14 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "AN DOAN",
-                    "SUNIL MALLIREDDY",
                     "SWEKSHA SINHA",
-                    "SAANIDHI ARORA",
-                    "- TABISH",
-                    "PARASCHOS KOUTRIS",
+                    "SUNIL MALLIREDDY",
                     "CONG DING",
-                    "YINGXIN JIA"
+                    "YINGXIN JIA",
+                    "PARASCHOS KOUTRIS",
+                    "AN DOAN",
+                    "- TABISH",
+                    "SAANIDHI ARORA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1001,13 +960,13 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "WENXUAN ZHAO",
-                    "XIANGYAO YU",
                     "SWEKSHA SINHA",
-                    "SAANIDHI ARORA",
-                    "KEVIN GAFFNEY",
                     "- TABISH",
-                    "RUTHVIKA REDDY LOKA"
+                    "KEVIN GAFFNEY",
+                    "SAANIDHI ARORA",
+                    "WENXUAN ZHAO",
+                    "RUTHVIKA REDDY LOKA",
+                    "XIANGYAO YU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1032,11 +991,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "BRIAN ZHENG",
                     "AN DOAN",
                     "SAANIDHI ARORA",
-                    "RUTHVIKA REDDY LOKA",
                     "POULAMI PAUL",
-                    "BRIAN ZHENG"
+                    "RUTHVIKA REDDY LOKA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1061,11 +1020,11 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "XIANGYAO YU",
                     "SWEKSHA SINHA",
+                    "BRIAN ZHENG",
                     "- TABISH",
                     "POULAMI PAUL",
-                    "BRIAN ZHENG"
+                    "XIANGYAO YU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1090,13 +1049,13 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "MINH PHAN",
-                    "ZHIWEI SONG",
+                    "BRIAN ZHENG",
+                    "ZHENGHONG YU",
                     "AN DOAN",
                     "MARK TERVO",
-                    "ZHENGHONG YU",
                     "AMANPREET SINGH SAINI",
-                    "BRIAN ZHENG"
+                    "ZHIWEI SONG",
+                    "MINH PHAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

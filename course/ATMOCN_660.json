@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Physical properties of sea water: ocean climatology, water, salt and heat budget, measurements, ocean circulation and water mass of the world ocean, thermocline, thermohaline, equatorial ocean and southern ocean.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ATMOCN"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "ATM\u00a0OCN\u00a0311or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 311,
+            "subjects": [
+                "ATMOCN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "ATMOCN"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -89,8 +69,24 @@
     },
     "similar_courses": [
         {
-            "course_number": 965,
+            "course_number": 105,
             "subjects": [
+                "GEOSCI",
+                "ATMOCN"
+            ]
+        },
+        {
+            "course_number": 460,
+            "subjects": [
+                "ATMOCN"
+            ]
+        },
+        {
+            "course_number": 750,
+            "subjects": [
+                "GEOSCI",
+                "ENVIRST",
+                "ZOOLOGY",
                 "ATMOCN"
             ]
         },
@@ -101,23 +97,7 @@
             ]
         },
         {
-            "course_number": 105,
-            "subjects": [
-                "ATMOCN",
-                "GEOSCI"
-            ]
-        },
-        {
-            "course_number": 750,
-            "subjects": [
-                "ATMOCN",
-                "GEOSCI",
-                "ZOOLOGY",
-                "ENVIRST"
-            ]
-        },
-        {
-            "course_number": 460,
+            "course_number": 965,
             "subjects": [
                 "ATMOCN"
             ]

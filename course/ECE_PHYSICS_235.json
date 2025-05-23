@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 235,
         "subjects": [
-            "PHYSICS",
-            "ECE"
+            "ECE",
+            "PHYSICS"
         ]
     },
     "course_title": "INTRODUCTION TO SOLID STATE ELECTRONICS",
@@ -28,107 +28,50 @@
         "unsatisfactory": 0
     },
     "description": "An introduction to the physical principles underlying solid-state electronic and photonic devices, including elements of quantum mechanics, crystal structure, semiconductor band theory, carrier statistics, and band diagrams. Offers examples of modern semiconductor structures. Prior experience with MATLAB [such asE\u00a0C\u00a0E\u00a0203] is strongly encouraged but not required.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "), or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "MATH\u00a0222and (PHYSICS\u00a0202,208, or248), or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 248,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 208,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 248,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -142,25 +85,25 @@
         },
         "course_references": [
             {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 202,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 222,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 208,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 208,
+                "course_number": 248,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -200,6 +143,18 @@
     },
     "similar_courses": [
         {
+            "course_number": 536,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 551,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
             "course_number": 335,
             "subjects": [
                 "ECE"
@@ -212,19 +167,7 @@
             ]
         },
         {
-            "course_number": 551,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
             "course_number": 745,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 536,
             "subjects": [
                 "ECE"
             ]
@@ -798,8 +741,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "Srdjan MILICIC",
-                    "Dan BOTEZ"
+                    "Dan BOTEZ",
+                    "Srdjan MILICIC"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

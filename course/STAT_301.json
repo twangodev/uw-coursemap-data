@@ -27,60 +27,14 @@
         "unsatisfactory": 7
     },
     "description": "Distributions, measures of central tendency, dispersion and shape, the normal distribution; experiments to compare means, standard errors, confidence intervals; effects of departure from assumption; method of least squares, regression, correlation, assumptions and limitations; basic ideas of experimental design.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Satisfied Quantitative Reasoning",
-                        "QR",
-                        "A requirement."
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        "Not open to students with credit for STAT 302",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 324,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Satisfied Quantitative Reasoning (QR) A requirement. Not open to students with credit for STAT 302, ",
-            {
-                "course_number": 324,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "prerequisites_text": "Satisfied Quantitative Reasoning (QR) A requirement. Not open to students with credit for STAT 302,324, or371"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 324,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -96,12 +50,16 @@
                     "children": [
                         "Not open to students with credit for STAT 302",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 324,
+                            "subjects": [
+                                "STAT"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 371,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -143,7 +101,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 610,
+            "subjects": [
+                "STAT"
+            ]
+        },
+        {
             "course_number": 602,
+            "subjects": [
+                "STAT"
+            ]
+        },
+        {
+            "course_number": 601,
             "subjects": [
                 "STAT"
             ]
@@ -156,18 +126,6 @@
         },
         {
             "course_number": 613,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 601,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 610,
             "subjects": [
                 "STAT"
             ]
@@ -187,10 +145,10 @@
                 "f": 29,
                 "incomplete": 0,
                 "instructors": [
-                    "FANG FANG",
-                    "ELOISA D CHAVAS",
                     "ROBERT WARDROP",
-                    "ISMOR FISCHER"
+                    "ISMOR FISCHER",
+                    "FANG FANG",
+                    "ELOISA D CHAVAS"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -215,9 +173,9 @@
                 "f": 22,
                 "incomplete": 0,
                 "instructors": [
-                    "SONA Z SWANSON",
-                    "ISMOR FISCHER",
                     "ROBERT WARDROP",
+                    "ISMOR FISCHER",
+                    "SONA Z SWANSON",
                     "KAM-WAH TSUI"
                 ],
                 "no_credit": 0,
@@ -243,11 +201,11 @@
                 "f": 24,
                 "incomplete": 0,
                 "instructors": [
-                    "GARY HOWARD SCHROEDER",
                     "RICHARD A. JOHNSON",
                     "ISMOR FISCHER",
-                    "ZHIGUO XIAO",
-                    "ROBERT WARDROP"
+                    "ROBERT WARDROP",
+                    "GARY HOWARD SCHROEDER",
+                    "ZHIGUO XIAO"
                 ],
                 "no_credit": 0,
                 "no_work": 2,
@@ -272,10 +230,10 @@
                 "f": 12,
                 "incomplete": 0,
                 "instructors": [
-                    "ZHIGUO XIAO",
-                    "RICHARD A. JOHNSON",
                     "ROBERT WARDROP",
-                    "ISMOR FISCHER"
+                    "ZHIGUO XIAO",
+                    "ISMOR FISCHER",
+                    "RICHARD A. JOHNSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -300,9 +258,9 @@
                 "f": 10,
                 "incomplete": 1,
                 "instructors": [
+                    "ROBERT WARDROP",
                     "WEI ZHENG",
                     "KAZUHIKO SHINKI",
-                    "ROBERT WARDROP",
                     "CHIEN-WEI CHEN",
                     "SIJIAN WANG"
                 ],
@@ -329,11 +287,11 @@
                 "f": 9,
                 "incomplete": 0,
                 "instructors": [
-                    "JIAN WU",
                     "ISMOR FISCHER",
                     "DONALD PORTER",
+                    "ROBERT WARDROP",
                     "WEI ZHENG",
-                    "ROBERT WARDROP"
+                    "JIAN WU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -358,10 +316,10 @@
                 "f": 10,
                 "incomplete": 1,
                 "instructors": [
+                    "QI TANG",
                     "ISMOR FISCHER",
                     "DONALD PORTER",
-                    "XINWEI DENG",
-                    "QI TANG"
+                    "XINWEI DENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -387,11 +345,11 @@
                 "incomplete": 1,
                 "instructors": [
                     "ISMOR FISCHER",
-                    "YU QIU LIU",
-                    "AKICHIKA OZEKI",
-                    "QI TANG",
                     "JOHN GILLETT",
-                    "XINWEI DENG"
+                    "XINWEI DENG",
+                    "AKICHIKA OZEKI",
+                    "YU QIU LIU",
+                    "QI TANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -416,11 +374,11 @@
                 "f": 18,
                 "incomplete": 4,
                 "instructors": [
-                    "KEVIN PACKARD",
                     "ISMOR FISCHER",
                     "TING-LI LIN",
-                    "AKICHIKA OZEKI",
-                    "XINWEI DENG"
+                    "XINWEI DENG",
+                    "KEVIN PACKARD",
+                    "AKICHIKA OZEKI"
                 ],
                 "no_credit": 0,
                 "no_work": 2,
@@ -445,10 +403,10 @@
                 "f": 15,
                 "incomplete": 2,
                 "instructors": [
-                    "XINWEI DENG",
+                    "ISMOR FISCHER",
                     "DONALD PORTER",
                     "KEVIN PACKARD",
-                    "ISMOR FISCHER"
+                    "XINWEI DENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -473,9 +431,9 @@
                 "f": 20,
                 "incomplete": 1,
                 "instructors": [
-                    "KEVIN PACKARD",
                     "ISMOR FISCHER",
                     "DONALD PORTER",
+                    "KEVIN PACKARD",
                     "YU QIU LIU",
                     "ALAN HUANG"
                 ],
@@ -502,10 +460,10 @@
                 "f": 17,
                 "incomplete": 2,
                 "instructors": [
-                    "KEVIN PACKARD",
+                    "ISMOR FISCHER",
                     "DONALD PORTER",
                     "YU QIU LIU",
-                    "ISMOR FISCHER"
+                    "KEVIN PACKARD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -530,9 +488,9 @@
                 "f": 19,
                 "incomplete": 1,
                 "instructors": [
-                    "KEVIN PACKARD",
                     "ISMOR FISCHER",
                     "NICHOLAS STEPHEN KEULER",
+                    "KEVIN PACKARD",
                     "YU QIU LIU",
                     "SHENG ZHANG"
                 ],
@@ -559,11 +517,11 @@
                 "f": 29,
                 "incomplete": 0,
                 "instructors": [
-                    "KEVIN PACKARD",
                     "ISMOR FISCHER",
-                    "SHANE HUBLER",
+                    "KEVIN PACKARD",
                     "CHEN CHENG",
-                    "KAM-WAH TSUI"
+                    "KAM-WAH TSUI",
+                    "SHANE HUBLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -588,11 +546,11 @@
                 "f": 34,
                 "incomplete": 3,
                 "instructors": [
-                    "KEVIN PACKARD",
                     "ISMOR FISCHER",
+                    "GINA BENNINGER",
+                    "KEVIN PACKARD",
                     "CHEN CHENG",
-                    "KAM-WAH TSUI",
-                    "GINA BENNINGER"
+                    "KAM-WAH TSUI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -617,11 +575,11 @@
                 "f": 26,
                 "incomplete": 0,
                 "instructors": [
-                    "KEVIN PACKARD",
                     "ISMOR FISCHER",
                     "DONALD PORTER",
-                    "CHEN CHENG",
-                    "GINA BENNINGER"
+                    "GINA BENNINGER",
+                    "KEVIN PACKARD",
+                    "CHEN CHENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -647,8 +605,8 @@
                 "incomplete": 3,
                 "instructors": [
                     "BROOK LUERS",
-                    "KEVIN PACKARD",
                     "KAM-WAH TSUI",
+                    "KEVIN PACKARD",
                     "ISMOR FISCHER"
                 ],
                 "no_credit": 0,
@@ -674,9 +632,9 @@
                 "f": 15,
                 "incomplete": 0,
                 "instructors": [
-                    "KYLE HEBERT",
                     "ISMOR FISCHER",
-                    "GINA BENNINGER"
+                    "GINA BENNINGER",
+                    "KYLE HEBERT"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -701,8 +659,8 @@
                 "f": 5,
                 "incomplete": 1,
                 "instructors": [
-                    "KYLE HEBERT",
                     "ROBERT WARDROP",
+                    "KYLE HEBERT",
                     "RYAN ZEA"
                 ],
                 "no_credit": 0,
@@ -728,9 +686,9 @@
                 "f": 10,
                 "incomplete": 0,
                 "instructors": [
-                    "VICTORIA MANSFIELD",
+                    "GINA BENNINGER",
                     "KYLE HEBERT",
-                    "GINA BENNINGER"
+                    "VICTORIA MANSFIELD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -755,9 +713,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ABIGAIL BENZINE",
+                    "DEREK BEAN",
                     "VICTORIA MANSFIELD",
-                    "DEREK BEAN"
+                    "ABIGAIL BENZINE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -782,10 +740,10 @@
                 "f": 11,
                 "incomplete": 1,
                 "instructors": [
-                    "ABIGAIL BENZINE",
-                    "VICTORIA MANSFIELD",
+                    "CHELSEY GREEN",
                     "REBECCA POST",
-                    "CHELSEY GREEN"
+                    "VICTORIA MANSFIELD",
+                    "ABIGAIL BENZINE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -810,9 +768,9 @@
                 "f": 11,
                 "incomplete": 1,
                 "instructors": [
-                    "VICTOR LUO",
+                    "CHELSEY GREEN",
                     "NICHOLAS STEPHEN KEULER",
-                    "CHELSEY GREEN"
+                    "VICTOR LUO"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -837,9 +795,9 @@
                 "f": 7,
                 "incomplete": 1,
                 "instructors": [
+                    "CHELSEY GREEN",
                     "LIAM JOHNSTON",
-                    "ALEXANDER COVINGTON",
-                    "CHELSEY GREEN"
+                    "ALEXANDER COVINGTON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -865,10 +823,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "LIAM JOHNSTON",
-                    "CHELSEY GREEN",
+                    "MICHAEL MCCANTS",
                     "NICHOLAS STEPHEN KEULER",
-                    "MITCHELL PAUKNER",
-                    "MICHAEL MCCANTS"
+                    "CHELSEY GREEN",
+                    "MITCHELL PAUKNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -920,8 +878,8 @@
                 "f": 3,
                 "incomplete": 1,
                 "instructors": [
-                    "ALEXANDER COVINGTON",
-                    "CHELSEY GREEN"
+                    "CHELSEY GREEN",
+                    "ALEXANDER COVINGTON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -946,8 +904,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ALEXANDER COVINGTON",
-                    "CHELSEY GREEN"
+                    "CHELSEY GREEN",
+                    "ALEXANDER COVINGTON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -972,8 +930,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "ALEXANDER COVINGTON",
-                    "GLORIA BAUTISTA MENDOZA"
+                    "GLORIA BAUTISTA MENDOZA",
+                    "ALEXANDER COVINGTON"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -998,8 +956,8 @@
                 "f": 10,
                 "incomplete": 6,
                 "instructors": [
-                    "MITCHELL PAUKNER",
-                    "GLORIA BAUTISTA MENDOZA"
+                    "GLORIA BAUTISTA MENDOZA",
+                    "MITCHELL PAUKNER"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -1124,8 +1082,8 @@
                 "f": 7,
                 "incomplete": 0,
                 "instructors": [
-                    "Alejandra QUINTOS LIMA",
-                    "GLORIA BAUTISTA MENDOZA"
+                    "GLORIA BAUTISTA MENDOZA",
+                    "Alejandra QUINTOS LIMA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,52 +27,14 @@
         "unsatisfactory": 1
     },
     "description": "Western science and technology in the making. Major developments viewed in philosophical and social context from the 17th to early twentieth century.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 202,
-                "subjects": [
-                    "HISTSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "HISTSCI"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 404,
-                "subjects": [
-                    "HISTSCI"
-                ]
-            }
-        ],
-        "prerequisites_text": "Not open to students with credit forHIST\u00a0SCI\u00a0202or404"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "HISTSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -80,15 +42,19 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 202,
+                            "subjects": [
+                                "HISTSCI"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 404,
+                    "subjects": [
+                        "HISTSCI"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -127,12 +93,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 204,
-            "subjects": [
-                "ILS"
-            ]
-        },
-        {
             "course_number": 201,
             "subjects": [
                 "ILS"
@@ -146,6 +106,12 @@
         },
         {
             "course_number": 205,
+            "subjects": [
+                "ILS"
+            ]
+        },
+        {
+            "course_number": 204,
             "subjects": [
                 "ILS"
             ]

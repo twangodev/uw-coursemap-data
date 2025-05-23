@@ -27,45 +27,23 @@
         "unsatisfactory": 0
     },
     "description": "Small group meetings for Wisconsin Emerging Scholars - Computer Science (WES-CS) students. Meets in small groups to work together on problems related to theCOMP\u00a0SCI\u00a0200course material. For information about WES-CS membership, contact the computer sciences department.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Concurrent enrollment in",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "member of Wisconsin Emerging Scholars program in Computer Science"
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Concurrent enrollment in ",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            " and member of Wisconsin Emerging Scholars program in Computer Science"
-        ],
-        "prerequisites_text": "Concurrent enrollment inCOMP\u00a0SCI\u00a0200and member of Wisconsin Emerging Scholars program in Computer Science"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 200,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Concurrent enrollment in",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 200,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
                 },
                 "member of Wisconsin Emerging Scholars program in Computer Science"
             ],
@@ -93,13 +71,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 298,
+            "course_number": 900,
             "subjects": [
                 "COMPSCI"
             ]
         },
         {
             "course_number": 200,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 298,
             "subjects": [
                 "COMPSCI"
             ]
@@ -112,12 +96,6 @@
         },
         {
             "course_number": 880,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 900,
             "subjects": [
                 "COMPSCI"
             ]
@@ -712,9 +690,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ALEXA SIEGEL",
-                    "DAVID TYMOSZENKO",
                     "NINA MOHS",
+                    "DAVID TYMOSZENKO",
+                    "ALEXA SIEGEL",
                     "SAGE FRITZ",
                     "Andrew Kuemmel"
                 ],
@@ -766,10 +744,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "SYDNEY CUNNINGHAM",
                     "NINA MOHS",
                     "AURELIE ROBERT",
-                    "Andrew Kuemmel",
-                    "SYDNEY CUNNINGHAM"
+                    "Andrew Kuemmel"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

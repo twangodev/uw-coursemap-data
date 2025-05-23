@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Chemistry of milk components (i.e. protein, lipids, carbohydrate, salts, enzymes) with an emhasis on chemical and physical changes that occur during the manufacture of a range of milk products (i.e. ice cream, butter, cheese). Dairy technology and microbiological quality.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 410,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 410,
-                "subjects": [
-                    "FOODSCI"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "FOOD\u00a0SCI\u00a0410or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 410,
+            "subjects": [
+                "FOODSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 410,
+                    "subjects": [
+                        "FOODSCI"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -95,6 +75,12 @@
             ]
         },
         {
+            "course_number": 330,
+            "subjects": [
+                "FOODSCI"
+            ]
+        },
+        {
             "course_number": 301,
             "subjects": [
                 "FOODSCI"
@@ -102,12 +88,6 @@
         },
         {
             "course_number": 410,
-            "subjects": [
-                "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 330,
             "subjects": [
                 "FOODSCI"
             ]

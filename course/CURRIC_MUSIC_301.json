@@ -28,69 +28,39 @@
         "unsatisfactory": 0
     },
     "description": "The learning and teaching of music at the elementary and middle school levels.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrently enrolled in",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "declared in Music: Education"
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "MUSIC",
+                "CURRIC"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            },
-            {
-                "course_number": 337,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            },
-            " and concurrently enrolled in ",
-            {
-                "course_number": 337,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            },
-            " and declared in Music: Education"
-        ],
-        "prerequisites_text": "MUSIC/\u200bCURRIC\u00a0\u00a0300and concurrently enrolled inMUSIC/\u200bCURRIC\u00a0\u00a0337and declared in Music: Education"
-    },
+        {
+            "course_number": 337,
+            "subjects": [
+                "MUSIC",
+                "CURRIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 300,
+                    "subjects": [
+                        "MUSIC",
+                        "CURRIC"
+                    ]
                 },
                 "concurrently enrolled in",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 337,
+                    "subjects": [
+                        "MUSIC",
+                        "CURRIC"
+                    ]
                 },
                 "declared in Music: Education"
             ],
@@ -98,14 +68,14 @@
         },
         "course_references": [
             {
-                "course_number": 300,
+                "course_number": 337,
                 "subjects": [
                     "MUSIC",
                     "CURRIC"
                 ]
             },
             {
-                "course_number": 337,
+                "course_number": 300,
                 "subjects": [
                     "MUSIC",
                     "CURRIC"
@@ -134,13 +104,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 409,
-            "subjects": [
-                "MUSIC",
-                "CURRIC"
-            ]
-        },
-        {
             "course_number": 410,
             "subjects": [
                 "MUSIC",
@@ -148,7 +111,7 @@
             ]
         },
         {
-            "course_number": 304,
+            "course_number": 302,
             "subjects": [
                 "MUSIC",
                 "CURRIC"
@@ -162,7 +125,14 @@
             ]
         },
         {
-            "course_number": 302,
+            "course_number": 304,
+            "subjects": [
+                "MUSIC",
+                "CURRIC"
+            ]
+        },
+        {
+            "course_number": 409,
             "subjects": [
                 "MUSIC",
                 "CURRIC"

@@ -27,43 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Sources, interactions, and detection of ionizing radiation. Biological effects, shielding, standards of radiation protection.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 305,
-                "subjects": [
-                    "NE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 305,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "N\u00a0E\u00a0305, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 305,
+            "subjects": [
+                "NE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 305,
+                    "subjects": [
+                        "NE"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -91,17 +70,10 @@
     },
     "similar_courses": [
         {
-            "course_number": 410,
+            "course_number": 569,
             "subjects": [
                 "MEDPHYS",
-                "HONCOL"
-            ]
-        },
-        {
-            "course_number": 588,
-            "subjects": [
-                "MEDPHYS",
-                "PHYSICS"
+                "NE"
             ]
         },
         {
@@ -112,18 +84,25 @@
             ]
         },
         {
-            "course_number": 569,
-            "subjects": [
-                "MEDPHYS",
-                "NE"
-            ]
-        },
-        {
             "course_number": 501,
             "subjects": [
                 "MEDPHYS",
                 "BME",
                 "HONCOL",
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 410,
+            "subjects": [
+                "MEDPHYS",
+                "HONCOL"
+            ]
+        },
+        {
+            "course_number": 588,
+            "subjects": [
+                "MEDPHYS",
                 "PHYSICS"
             ]
         }

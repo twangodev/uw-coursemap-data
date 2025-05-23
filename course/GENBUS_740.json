@@ -27,90 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Provides an introduction to experimental and causal methods for driving business insights. Topics include: (1) Review and distinction of correlation vs. causation; (2) design and analysis of randomized-controlled experiments; and (3) identification of \"natural experiments\" in business data and corresponding empirical strategies.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 704,
+            "subjects": [
+                "GENBUS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 704,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            {
-                "course_number": 705,
-                "subjects": [
-                    "GENBUS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 704,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 705,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 720,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            " or concurrent enrollment); or ",
-            {
-                "course_number": 881,
-                "subjects": [
-                    "GENBUS"
-                ]
-            }
-        ],
-        "prerequisites_text": "(GEN\u00a0BUS\u00a0704or705) and (GEN\u00a0BUS\u00a0720or concurrent enrollment); orGEN\u00a0BUS\u00a0881"
-    },
+        {
+            "course_number": 720,
+            "subjects": [
+                "GENBUS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -119,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 704,
+                                    "subjects": [
+                                        "GENBUS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 705,
+                                    "subjects": [
+                                        "GENBUS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -132,8 +66,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 720,
+                                    "subjects": [
+                                        "GENBUS"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -143,8 +79,10 @@
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 881,
+                    "subjects": [
+                        "GENBUS"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -163,13 +101,13 @@
                 ]
             },
             {
-                "course_number": 704,
+                "course_number": 705,
                 "subjects": [
                     "GENBUS"
                 ]
             },
             {
-                "course_number": 705,
+                "course_number": 704,
                 "subjects": [
                     "GENBUS"
                 ]
@@ -209,7 +147,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 656,
+            "subjects": [
+                "GENBUS"
+            ]
+        },
+        {
             "course_number": 306,
+            "subjects": [
+                "GENBUS"
+            ]
+        },
+        {
+            "course_number": 704,
             "subjects": [
                 "GENBUS"
             ]
@@ -222,18 +172,6 @@
         },
         {
             "course_number": 207,
-            "subjects": [
-                "GENBUS"
-            ]
-        },
-        {
-            "course_number": 656,
-            "subjects": [
-                "GENBUS"
-            ]
-        },
-        {
-            "course_number": 704,
             "subjects": [
                 "GENBUS"
             ]
@@ -303,8 +241,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JUSTIN SYDNOR",
-                    "CAROL LIU"
+                    "CAROL LIU",
+                    "JUSTIN SYDNOR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -329,8 +267,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JUSTIN SYDNOR",
                     "Dan SACKS",
+                    "JUSTIN SYDNOR",
                     "JUNGEUN LIM"
                 ],
                 "no_credit": 0,
@@ -381,8 +319,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "JUSTIN SYDNOR",
-                    "Dan SACKS"
+                    "Dan SACKS",
+                    "JUSTIN SYDNOR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

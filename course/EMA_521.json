@@ -27,109 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Potential flow theory; stream functions; vortex filaments and sheets. Two- and three-dimensional wing theory. Doublet and panels methods. Propeller theory.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 202,
+            "subjects": [
+                "EMA"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 363,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "CIVENGR"
-                ]
-            },
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "CIVENGR"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 363,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            "), or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0M\u00a0A\u00a0202,M\u00a0E\u00a0240, orPHYSICS\u00a0311) and (CIV\u00a0ENGR\u00a0310orM\u00a0E\u00a0363), or graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 363,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -138,16 +49,22 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 202,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 240,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 311,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -155,12 +72,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 310,
+                                    "subjects": [
+                                        "CIVENGR"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 363,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -175,9 +96,9 @@
         },
         "course_references": [
             {
-                "course_number": 202,
+                "course_number": 311,
                 "subjects": [
-                    "EMA"
+                    "PHYSICS"
                 ]
             },
             {
@@ -187,9 +108,9 @@
                 ]
             },
             {
-                "course_number": 310,
+                "course_number": 202,
                 "subjects": [
-                    "CIVENGR"
+                    "EMA"
                 ]
             },
             {
@@ -199,9 +120,9 @@
                 ]
             },
             {
-                "course_number": 311,
+                "course_number": 310,
                 "subjects": [
-                    "PHYSICS"
+                    "CIVENGR"
                 ]
             }
         ],
@@ -247,18 +168,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 363,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 522,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
             "course_number": 705,
             "subjects": [
                 "MATH"
@@ -271,7 +180,19 @@
             ]
         },
         {
+            "course_number": 363,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
             "course_number": 542,
+            "subjects": [
+                "EMA"
+            ]
+        },
+        {
+            "course_number": 522,
             "subjects": [
                 "EMA"
             ]
@@ -741,8 +662,8 @@
                 "f": 1,
                 "incomplete": 2,
                 "instructors": [
-                    "Jennifer FRANCK",
-                    "KOLTON JANZ"
+                    "KOLTON JANZ",
+                    "Jennifer FRANCK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

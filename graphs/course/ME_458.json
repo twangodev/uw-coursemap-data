@@ -1,18 +1,26 @@
 [
     {
         "data": {
-            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
-            "id": "MATH 320",
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
             "parent": "MATH",
-            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
         }
     },
     {
         "data": {
-            "description": "Continuation ofMATH\u00a0171. Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Completion ofMATH\u00a0217implies completion ofMATH\u00a0221and114.",
-            "id": "MATH 217",
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
             "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY II"
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
+            "id": "MATH 320",
+            "parent": "MATH",
+            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
         }
     },
     {
@@ -49,14 +57,6 @@
     },
     {
         "data": {
-            "description": "General theory of free, forced, and transient vibrations; vibration transmission, isolation, and measurement; normal modes and generalized coordinates; method of matrix equation formulation and solution. The application of theory and methods to the analysis, measurement and design of dynamic systems.",
-            "id": "EMA 545",
-            "parent": "EMA",
-            "title": "MECHANICAL VIBRATIONS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
             "id": "MATH 221",
             "parent": "MATH",
@@ -65,34 +65,10 @@
     },
     {
         "data": {
-            "description": "Introduction to the signals, information, and computational techniques in electrical engineering.",
-            "id": "ECE 203",
-            "parent": "ECE",
-            "title": "SIGNALS, INFORMATION, AND COMPUTATION"
-        }
-    },
-    {
-        "data": {
-            "description": "Kinematics, force-mass-acceleration relations, work and energy, impulse and momentum, moments of inertia and mass.",
-            "id": "EMA 202",
-            "parent": "EMA",
-            "title": "DYNAMICS"
-        }
-    },
-    {
-        "data": {
             "description": "Mathematical modeling and analysis of dynamic systems with mechanical, thermal, and fluid elements. Topics: time domain solutions, analog computer simulation, linearization techniques, block diagram representation, numerical methods and frequency domain solutions. Students are assumed to have basic competence in particle and planar rigid body dynamics, matrix and vector algebra, and linear differential equations.",
             "id": "ME 340",
             "parent": "ME",
             "title": "DYNAMIC SYSTEMS"
-        }
-    },
-    {
-        "data": {
-            "description": "Modeling of continuous systems; computer-aided solutions to systems problems; feedback control systems; stability, frequency response and transient response using root locus, frequency domain and state variable methods.",
-            "id": "ECE 332",
-            "parent": "ECE",
-            "title": "FEEDBACK CONTROL SYSTEMS"
         }
     },
     {
@@ -109,6 +85,14 @@
             "id": "EMA 201",
             "parent": "EMA",
             "title": "STATICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -137,28 +121,6 @@
     },
     {
         "data": {
-            "description": "Time-domain response and convolution; frequency-domain response using Fourier series, Fourier transform, Laplace transform; discrete Fourier series and transform; sampling; z-transform; relationships between time and frequency descriptions of discrete and continuous signals and systems.",
-            "id": "ECE 330",
-            "parent": "ECE",
-            "title": "SIGNALS AND SYSTEMS"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
-            "id": "MATH 171",
-            "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
-        }
-    },
-    {
-        "data": {
-            "id": "ECE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "id": "EMA",
             "type": "compound"
         }
@@ -177,50 +139,32 @@
     },
     {
         "data": {
-            "source": "ECE 203",
-            "target": "ECE 330"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 330",
-            "target": "ECE 332"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 332",
-            "target": "ME 458"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 201",
-            "target": "EMA 202"
-        }
-    },
-    {
-        "data": {
             "source": "EMA 201",
             "target": "ME 240"
         }
     },
     {
         "data": {
-            "source": "EMA 202",
-            "target": "EMA 545"
+            "source": "MATH 112",
+            "target": "MATH 113"
         }
     },
     {
         "data": {
-            "source": "EMA 545",
-            "target": "ME 446"
+            "source": "MATH 112",
+            "target": "MATH 221"
         }
     },
     {
         "data": {
-            "source": "MATH 171",
-            "target": "MATH 217"
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -238,13 +182,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 217",
-            "target": "ECE 203"
+            "target": "MATH 222"
         }
     },
     {
@@ -297,20 +235,8 @@
     },
     {
         "data": {
-            "source": "MATH 320",
-            "target": "ME 446"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 96",
-            "target": "MATH 171"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 240",
-            "target": "EMA 545"
+            "target": "MATH 112"
         }
     },
     {

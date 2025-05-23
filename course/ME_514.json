@@ -27,73 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "A quantitative and qualitative study of additive manufacturing processes. Emphasis on proper additive manufacturing technique selection for optimized final product design and properties, as well as presentation of emerging additive manufacturing techniques.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Senior standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students",
-                {
-                    "children": [
-                        "declared in Capstone Certificate in Polymer Processing",
-                        "Manufacturing"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 310,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 313,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Senior standing and (",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 313,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            "), graduate/professional standing, member of Engineering Guest Students, or declared in Capstone Certificate in Polymer Processing and Manufacturing"
-        ],
-        "prerequisites_text": "Senior standing and (M\u00a0E\u00a0310or313), graduate/professional standing, member of Engineering Guest Students, or declared in Capstone Certificate in Polymer Processing and Manufacturing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 310,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -103,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 310,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 313,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -130,13 +75,13 @@
         },
         "course_references": [
             {
-                "course_number": 310,
+                "course_number": 313,
                 "subjects": [
                     "ME"
                 ]
             },
             {
-                "course_number": 313,
+                "course_number": 310,
                 "subjects": [
                     "ME"
                 ]
@@ -163,19 +108,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 310,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
             "course_number": 717,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 531,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 310,
+            "course_number": 313,
             "subjects": [
                 "ME"
             ]
@@ -188,7 +133,7 @@
             ]
         },
         {
-            "course_number": 313,
+            "course_number": 531,
             "subjects": [
                 "ME"
             ]
@@ -409,8 +354,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "ZIJIE LIU",
-                    "Lennon RODGERS",
-                    "TIM OSSWALD"
+                    "TIM OSSWALD",
+                    "Lennon RODGERS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

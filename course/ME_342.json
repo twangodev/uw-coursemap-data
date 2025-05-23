@@ -27,93 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Analysis and design of machine elements and machines; loads, stresses, deflections, material selection, fatigue failure, finite elements; mechanical power transmission components including gearing, bearings, shafting, and frictional devices.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment",
-                                "declared in Biological Systems Engineering"
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 306,
+            "subjects": [
+                "ME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 331,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 331,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "BME"
-                ]
-            },
-            ", or concurrent enrollment or declared in Biological Systems Engineering), or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303) and (M\u00a0E\u00a0331,B\u00a0M\u00a0E\u00a0201, or concurrent enrollment or declared in Biological Systems Engineering), or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 331,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -122,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 306,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 303,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -135,12 +66,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 331,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 201,
+                                    "subjects": [
+                                        "BME"
+                                    ]
                                 },
                                 "concurrent enrollment",
                                 "declared in Biological Systems Engineering"
@@ -156,12 +91,6 @@
         },
         "course_references": [
             {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
                 "course_number": 306,
                 "subjects": [
                     "ME"
@@ -171,6 +100,12 @@
                 "course_number": 201,
                 "subjects": [
                     "BME"
+                ]
+            },
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
                 ]
             },
             {
@@ -215,7 +150,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 748,
+            "course_number": 740,
             "subjects": [
                 "ME"
             ]
@@ -227,19 +162,19 @@
             ]
         },
         {
-            "course_number": 492,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 740,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
             "course_number": 964,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 748,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 492,
             "subjects": [
                 "ME"
             ]
@@ -259,8 +194,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT ROWLANDS",
-                    "JAY SAMUEL"
+                    "JAY SAMUEL",
+                    "ROBERT ROWLANDS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -286,8 +221,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "KEVIN TURNER",
-                    "ROBERT ROWLANDS",
-                    "HEIDI-LYNN PLOEG"
+                    "HEIDI-LYNN PLOEG",
+                    "ROBERT ROWLANDS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -312,9 +247,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT ROWLANDS",
                     "JAY SAMUEL",
-                    "HEIDI-LYNN PLOEG"
+                    "HEIDI-LYNN PLOEG",
+                    "ROBERT ROWLANDS"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -340,8 +275,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "JUSTIN MADSEN",
-                    "ROBERT ROWLANDS",
                     "JAY SAMUEL",
+                    "ROBERT ROWLANDS",
                     "HEIDI-LYNN PLOEG"
                 ],
                 "no_credit": 0,
@@ -445,8 +380,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "ROBERT ROWLANDS",
-                    "HEIDI-LYNN PLOEG"
+                    "HEIDI-LYNN PLOEG",
+                    "ROBERT ROWLANDS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -471,8 +406,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "RYAN KERSHNER",
-                    "JAY SAMUEL"
+                    "JAY SAMUEL",
+                    "RYAN KERSHNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -497,8 +432,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ROBERT ROWLANDS",
-                    "HEIDI-LYNN PLOEG"
+                    "HEIDI-LYNN PLOEG",
+                    "ROBERT ROWLANDS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -1,10 +1,34 @@
 [
     {
         "data": {
-            "description": "Topics covered include axioms of probability, random variables, the most important discrete and continuous probability distributions, expectation and variance, conditional probability and conditional expectations, Markov's and Chebyshev's inequalities, laws of large numbers, and the central limit theorem. Includes a brief introduction to techniques of multivariate integration.",
-            "id": "MATH 331",
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
             "parent": "MATH",
-            "title": "INTRODUCTORY PROBABILITY"
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Elements of probability, important discrete distributions, acceptance sampling by attributes, sample characteristics, probability distributions and population characteristics, the normal distribution, acceptance sampling plans based on sample means and variances, sampling from the normal, the central limit theorem, point and interval estimation.",
+            "id": "STAT 311",
+            "parent": "STAT",
+            "title": "INTRODUCTION TO THEORY AND METHODS OF MATHEMATICAL STATISTICS I"
         }
     },
     {
@@ -21,22 +45,6 @@
             "id": "MATH 213",
             "parent": "MATH",
             "title": "SURVEY OF CALCULUS 2"
-        }
-    },
-    {
-        "data": {
-            "description": "Gives students an introduction to computer and analytical skills to use in their subsequent course work and professional development. Discusses several methods of using computers to solve problems, including elementary programming techniques, symbolic manipulation languages, and software packages. Techniques will be illustrated using sample problems drawn from elementary engineering. Emphasis is on introduction of algorithms with the use of specific tools to illustrate the methods.",
-            "id": "COMPSCI 310",
-            "parent": "COMPSCI",
-            "title": "PROBLEM SOLVING USING COMPUTERS"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
-            "id": "COMPSCI 220",
-            "parent": "COMPSCI",
-            "title": "DATA SCIENCE PROGRAMMING I"
         }
     },
     {
@@ -73,9 +81,17 @@
     },
     {
         "data": {
-            "description": "Logic components built with transistors, rudimentary Boolean algebra, basic combinational logic design, basic synchronous sequential logic design, basic computer organization and design, introductory machine- and assembly-language programming.",
-            "id": "COMPSCI/ECE 252",
-            "title": "INTRODUCTION TO COMPUTER ENGINEERING"
+            "description": "Probability and combinatorial methods, discrete and continuous, univariate and multivariate distributions, expected values, moments, normal distribution and derived distributions, estimation.",
+            "id": "MATH/STAT 309",
+            "title": "INTRODUCTION TO PROBABILITY AND MATHEMATICAL STATISTICS I"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -112,14 +128,6 @@
     },
     {
         "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
-        }
-    },
-    {
-        "data": {
             "id": "COMPSCI",
             "type": "compound"
         }
@@ -138,13 +146,13 @@
     },
     {
         "data": {
-            "source": "COMPSCI 200",
-            "target": "COMPSCI 300"
+            "id": "STAT",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "source": "COMPSCI 220",
+            "source": "COMPSCI 200",
             "target": "COMPSCI 300"
         }
     },
@@ -156,20 +164,32 @@
     },
     {
         "data": {
-            "source": "COMPSCI 310",
-            "target": "COMPSCI 300"
-        }
-    },
-    {
-        "data": {
             "source": "COMPSCI 400",
             "target": "COMPSCI 566"
         }
     },
     {
         "data": {
-            "source": "COMPSCI/ECE 252",
-            "target": "COMPSCI 300"
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -187,13 +207,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "MATH 331"
+            "target": "MATH 222"
         }
     },
     {
@@ -211,12 +225,6 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "COMPSCI 310"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
             "target": "MATH 234"
         }
     },
@@ -228,20 +236,32 @@
     },
     {
         "data": {
-            "source": "MATH 331",
-            "target": "COMPSCI 566"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 341",
             "target": "COMPSCI 566"
         }
     },
     {
         "data": {
-            "source": "MATH 375",
+            "source": "MATH 96",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH/STAT 309",
+            "target": "STAT 311"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 311",
             "target": "COMPSCI 566"
+        }
+    },
+    {
+        "data": {
+            "source": "STAT 311",
+            "target": "MATH/STAT 309"
         }
     }
 ]

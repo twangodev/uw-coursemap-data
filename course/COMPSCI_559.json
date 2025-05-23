@@ -27,80 +27,39 @@
         "unsatisfactory": 14
     },
     "description": "Survey of computer graphics. Image representation, formation, presentation, composition and manipulation. Modeling, transformation, and display of geometric objects in two and three dimensions. Representation of curves and surfaces. Rendering, animation, multi-media and visualization. Fluency with vector mathematics (e.g., fromMATH\u00a0234or a linear algebra class) is recommended.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "COMP SCI 367",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in the Capstone Certificate in Computer Sciences for Professionals"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and (COMP SCI 367 or ",
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ") or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-        ],
-        "prerequisites_text": "MATH\u00a0222and (COMP SCI 367 or400) or graduate/professional standing or declared in the Capstone Certificate in Computer Sciences for Professionals"
-    },
+        {
+            "course_number": 400,
+            "subjects": [
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 "COMP SCI 367",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 400,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -153,14 +112,7 @@
             ]
         },
         {
-            "course_number": 766,
-            "subjects": [
-                "COMPSCI",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 736,
+            "course_number": 463,
             "subjects": [
                 "ART"
             ]
@@ -173,9 +125,16 @@
             ]
         },
         {
-            "course_number": 463,
+            "course_number": 736,
             "subjects": [
                 "ART"
+            ]
+        },
+        {
+            "course_number": 766,
+            "subjects": [
+                "ECE",
+                "COMPSCI"
             ]
         }
     ],
@@ -471,8 +430,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "PERRY KIVOLOWITZ",
-                    "MING GAO"
+                    "MING GAO",
+                    "PERRY KIVOLOWITZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -747,11 +706,11 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
+                    "Young Wu",
+                    "DANIEL KIEL",
                     "ARIJIT PRAMANIK",
                     "Michael GLEICHER",
-                    "NILS PALUMBO",
-                    "DANIEL KIEL",
-                    "Young Wu"
+                    "NILS PALUMBO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -801,11 +760,11 @@
                 "f": 0,
                 "incomplete": 4,
                 "instructors": [
-                    "HYO JOON PARK",
-                    "YUTIAN TAO",
                     "CARTER SIFFERMAN",
                     "EFTYCHIOS SIFAKIS",
-                    "YING LI"
+                    "YING LI",
+                    "HYO JOON PARK",
+                    "YUTIAN TAO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -830,11 +789,11 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "HYO JOON PARK",
                     "BO-HSUN CHEN",
-                    "Michael GLEICHER",
                     "CARTER SIFFERMAN",
-                    "YING LI"
+                    "YING LI",
+                    "Michael GLEICHER",
+                    "HYO JOON PARK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -859,10 +818,10 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "RUOHUI WANG",
-                    "SPENCER SCHOENBERG",
                     "EFTYCHIOS SIFAKIS",
                     "YING LI",
+                    "RUOHUI WANG",
+                    "SPENCER SCHOENBERG",
                     "THAO NGUYEN"
                 ],
                 "no_credit": 0,
@@ -888,10 +847,10 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "RUOHUI WANG",
                     "PRANAV RAO",
-                    "SPENCER SCHOENBERG",
                     "Michael GLEICHER",
+                    "RUOHUI WANG",
+                    "SPENCER SCHOENBERG",
                     "THAO NGUYEN"
                 ],
                 "no_credit": 0,
@@ -917,11 +876,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "DANIEL KILLOUGH",
-                    "ERIC BRANDT",
-                    "EFTYCHIOS SIFAKIS",
                     "SANGEETHA GRAMA SRINIVASAN",
-                    "JACK STANEK"
+                    "JACK STANEK",
+                    "EFTYCHIOS SIFAKIS",
+                    "DANIEL KILLOUGH",
+                    "ERIC BRANDT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -946,13 +905,13 @@
                 "f": 5,
                 "incomplete": 1,
                 "instructors": [
-                    "ALEX PESECKIS",
+                    "Young Wu",
+                    "ALEX SMITH",
                     "DANIEL MCNEELA",
                     "PRANAV RAO",
-                    "ALEX SMITH",
-                    "DANIEL KILLOUGH",
+                    "ALEX PESECKIS",
                     "YING LI",
-                    "Young Wu"
+                    "DANIEL KILLOUGH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -977,9 +936,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ERIC BRANDT",
                     "JACK STANEK",
-                    "EFTYCHIOS SIFAKIS"
+                    "EFTYCHIOS SIFAKIS",
+                    "ERIC BRANDT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

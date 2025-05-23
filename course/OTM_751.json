@@ -27,76 +27,49 @@
         "unsatisfactory": 0
     },
     "description": "Application of operations management principles to the analysis of service-delivery systems in profit and nonprofit organizations. Topics include designing service-delivery systems, location and layout, operations planning and control, yield management, technology and information systems, and service quality management.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 700,
+            "subjects": [
+                "OTM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 700,
-                "subjects": [
-                    "OTM"
-                ]
-            },
-            {
-                "course_number": 704,
-                "subjects": [
-                    "GENBUS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 700,
-                "subjects": [
-                    "OTM"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 704,
-                "subjects": [
-                    "GENBUS"
-                ]
-            }
-        ],
-        "prerequisites_text": "OTM\u00a0700andGEN\u00a0BUS\u00a0704"
-    },
+        {
+            "course_number": 704,
+            "subjects": [
+                "GENBUS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 700,
+                    "subjects": [
+                        "OTM"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 704,
+                    "subjects": [
+                        "GENBUS"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 704,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            {
                 "course_number": 700,
                 "subjects": [
                     "OTM"
+                ]
+            },
+            {
+                "course_number": 704,
+                "subjects": [
+                    "GENBUS"
                 ]
             }
         ],
@@ -125,13 +98,7 @@
             ]
         },
         {
-            "course_number": 700,
-            "subjects": [
-                "OTM"
-            ]
-        },
-        {
-            "course_number": 300,
+            "course_number": 453,
             "subjects": [
                 "OTM"
             ]
@@ -143,7 +110,13 @@
             ]
         },
         {
-            "course_number": 453,
+            "course_number": 700,
+            "subjects": [
+                "OTM"
+            ]
+        },
+        {
+            "course_number": 300,
             "subjects": [
                 "OTM"
             ]

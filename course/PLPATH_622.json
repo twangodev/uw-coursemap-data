@@ -8,128 +8,56 @@
     "course_title": "PLANT-BACTERIAL INTERACTIONS",
     "cumulative_grade_data": null,
     "description": "Physiology, genetics, taxonomy, and ecology of bacterial pathogens, epiphytes, and symbionts of plants.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 303,
+            "subjects": [
+                "MICROBIO"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 468,
-                "subjects": [
-                    "GENETICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 468,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 508,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "MICROBIO\u00a0303and (GENETICS\u00a0466,468,BIOCHEM\u00a0501, or508) or graduate/professional standing"
-    },
+        {
+            "course_number": 466,
+            "subjects": [
+                "GENETICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 303,
+                            "subjects": [
+                                "MICROBIO"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 466,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 468,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 501,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 508,
+                                    "subjects": [
+                                        "BIOCHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -143,6 +71,12 @@
         },
         "course_references": [
             {
+                "course_number": 466,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
                 "course_number": 468,
                 "subjects": [
                     "GENETICS"
@@ -155,21 +89,15 @@
                 ]
             },
             {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
                 "course_number": 303,
                 "subjects": [
                     "MICROBIO"
                 ]
             },
             {
-                "course_number": 466,
+                "course_number": 501,
                 "subjects": [
-                    "GENETICS"
+                    "BIOCHEM"
                 ]
             }
         ],
@@ -214,24 +142,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 123,
-            "subjects": [
-                "PLPATH",
-                "BOTANY"
-            ]
-        },
-        {
             "course_number": 923,
             "subjects": [
                 "PLPATH"
-            ]
-        },
-        {
-            "course_number": 505,
-            "subjects": [
-                "ENTOM",
-                "PLPATH",
-                "BOTANY"
             ]
         },
         {
@@ -244,6 +157,21 @@
             "course_number": 315,
             "subjects": [
                 "PLPATH"
+            ]
+        },
+        {
+            "course_number": 505,
+            "subjects": [
+                "PLPATH",
+                "BOTANY",
+                "ENTOM"
+            ]
+        },
+        {
+            "course_number": 123,
+            "subjects": [
+                "PLPATH",
+                "BOTANY"
             ]
         }
     ],

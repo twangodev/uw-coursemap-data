@@ -3,8 +3,8 @@
         "course_number": 335,
         "subjects": [
             "ANSCI",
-            "MICROBIO",
-            "BOTANY"
+            "BOTANY",
+            "MICROBIO"
         ]
     },
     "course_title": "THE MICROBIOME OF PLANTS, ANIMALS, AND HUMANS",
@@ -29,63 +29,28 @@
         "unsatisfactory": 0
     },
     "description": "Examination of the structure and function of microbial communities that live inside and on host organisms (plants, animals, and humans). Introduction to general concepts of the microbiome and microbiota, and their relationship to host nutrition, health, and disease.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "MICROBIO\u00a0101or303or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 303,
+            "subjects": [
+                "MICROBIO"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "MICROBIO"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 303,
+                    "subjects": [
+                        "MICROBIO"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -137,12 +102,6 @@
             ]
         },
         {
-            "course_number": 100,
-            "subjects": [
-                "BOTANY"
-            ]
-        },
-        {
             "course_number": 710,
             "subjects": [
                 "MICROBIO"
@@ -152,6 +111,12 @@
             "course_number": 315,
             "subjects": [
                 "PLPATH"
+            ]
+        },
+        {
+            "course_number": 100,
+            "subjects": [
+                "BOTANY"
             ]
         }
     ],

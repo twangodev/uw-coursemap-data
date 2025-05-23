@@ -27,209 +27,20 @@
         "unsatisfactory": 1
     },
     "description": "Introduction to modern statistical practice in the life sciences, using the R programming language. Topics include: exploratory data analysis, probability and random variables; one-sample testing and confidence intervals, role of assumptions, sample size determination, two-sample inference; basic ideas in experimental design, analysis of variance, linear regression, goodness-of fit; biological applications.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "placed out of",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "placed out of",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "placement in",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        "Not open to students with credit for STAT 302",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 211,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 324,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and placed out of ",
-            {
-                "course_number": 113,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 113,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and placed out of ",
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 113,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 114,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 171,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or placement in ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ". Not open to students with credit for STAT 302 or ",
-            {
-                "course_number": 324,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "prerequisites_text": "(MATH\u00a0112and placed out ofMATH\u00a0113), (MATH\u00a0113and placed out ofMATH\u00a0112), (MATH\u00a0112and113),MATH\u00a0114,171,211or221or placement inMATH\u00a0221. Not open to students with credit for STAT 302 or324"
-    },
+        {
+            "course_number": 324,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -238,13 +49,17 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 112,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "placed out of",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 113,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -252,13 +67,17 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 113,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "placed out of",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 112,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -266,38 +85,52 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 112,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 113,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 114,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 171,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 211,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 "placement in",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "."
                             ],
@@ -310,8 +143,10 @@
                     "children": [
                         "Not open to students with credit for STAT 302",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 324,
+                            "subjects": [
+                                "STAT"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -327,15 +162,15 @@
                 ]
             },
             {
-                "course_number": 114,
+                "course_number": 113,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 211,
+                "course_number": 324,
                 "subjects": [
-                    "MATH"
+                    "STAT"
                 ]
             },
             {
@@ -351,15 +186,15 @@
                 ]
             },
             {
-                "course_number": 113,
+                "course_number": 114,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 324,
+                "course_number": 211,
                 "subjects": [
-                    "STAT"
+                    "MATH"
                 ]
             }
         ],
@@ -455,7 +290,13 @@
         {
             "course_number": 571,
             "subjects": [
-                "F&WECOL",
+                "STAT",
+                "F&WECOL"
+            ]
+        },
+        {
+            "course_number": 324,
+            "subjects": [
                 "STAT"
             ]
         },
@@ -476,12 +317,6 @@
             "subjects": [
                 "STAT"
             ]
-        },
-        {
-            "course_number": 324,
-            "subjects": [
-                "STAT"
-            ]
         }
     ],
     "term_data": {
@@ -498,8 +333,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "LEI XU",
-                    "XIAODAN WEI"
+                    "XIAODAN WEI",
+                    "LEI XU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -600,8 +435,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "REBECCA KOSCIK",
-                    "Karl BROMAN"
+                    "Karl BROMAN",
+                    "REBECCA KOSCIK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -626,9 +461,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHAEL HOGAN",
+                    "NELLIE LAUGHLIN",
                     "NICHOLAS STEPHEN KEULER",
-                    "NELLIE LAUGHLIN"
+                    "MICHAEL HOGAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -678,8 +513,8 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "KEVIN PACKARD",
-                    "ROBERT WARDROP"
+                    "ROBERT WARDROP",
+                    "KEVIN PACKARD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -704,8 +539,8 @@
                 "f": 0,
                 "incomplete": 2,
                 "instructors": [
-                    "BRET HANLON",
-                    "ROBERT WARDROP"
+                    "ROBERT WARDROP",
+                    "BRET HANLON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -730,8 +565,8 @@
                 "f": 2,
                 "incomplete": 4,
                 "instructors": [
-                    "BRET HANLON",
-                    "ROBERT WARDROP"
+                    "ROBERT WARDROP",
+                    "BRET HANLON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -756,8 +591,8 @@
                 "f": 0,
                 "incomplete": 3,
                 "instructors": [
-                    "BRET HANLON",
-                    "ROBERT WARDROP"
+                    "ROBERT WARDROP",
+                    "BRET HANLON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -782,8 +617,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "BRET HANLON",
-                    "DONALD PORTER"
+                    "DONALD PORTER",
+                    "BRET HANLON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -808,8 +643,8 @@
                 "f": 5,
                 "incomplete": 1,
                 "instructors": [
-                    "BRET HANLON",
                     "DONALD PORTER",
+                    "BRET HANLON",
                     "JIE ZHANG"
                 ],
                 "no_credit": 0,
@@ -835,10 +670,10 @@
                 "f": 4,
                 "incomplete": 1,
                 "instructors": [
-                    "CHENLIANG XU",
+                    "ROBERT WARDROP",
                     "BRET HANLON",
-                    "YI LIU",
-                    "ROBERT WARDROP"
+                    "CHENLIANG XU",
+                    "YI LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -864,9 +699,9 @@
                 "incomplete": 1,
                 "instructors": [
                     "ROBERT WARDROP",
-                    "CHENLIANG XU",
                     "DONALD PORTER",
-                    "YI LIU"
+                    "YI LIU",
+                    "CHENLIANG XU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -891,11 +726,11 @@
                 "f": 6,
                 "incomplete": 3,
                 "instructors": [
-                    "ALYSSA DIGILIO",
-                    "JOHN DAVIS",
-                    "BRET HANLON",
                     "ROBERT WARDROP",
-                    "YI LIU"
+                    "JOHN DAVIS",
+                    "YI LIU",
+                    "BRET HANLON",
+                    "ALYSSA DIGILIO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -920,10 +755,10 @@
                 "f": 8,
                 "incomplete": 1,
                 "instructors": [
-                    "ROBERT WARDROP",
                     "JOHN DAVIS",
-                    "JENNIFER BIRSTLER",
-                    "YI LIU"
+                    "ROBERT WARDROP",
+                    "YI LIU",
+                    "JENNIFER BIRSTLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -948,10 +783,10 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "PAUL SAVARIAPPAN",
                     "JOHN DAVIS",
+                    "ROBERT WARDROP",
                     "SIJING LI",
-                    "ROBERT WARDROP"
+                    "PAUL SAVARIAPPAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -976,10 +811,10 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN DAVIS",
+                    "Qin Li",
                     "SIJING LI",
                     "JOHN GILLETT",
-                    "Qin Li"
+                    "JOHN DAVIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1004,10 +839,10 @@
                 "f": 9,
                 "incomplete": 0,
                 "instructors": [
+                    "JOHN GILLETT",
                     "NICHOLAS STEPHEN KEULER",
                     "DONALD PORTER",
-                    "FREDERICK BOEHM",
-                    "JOHN GILLETT"
+                    "FREDERICK BOEHM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1032,10 +867,10 @@
                 "f": 9,
                 "incomplete": 0,
                 "instructors": [
-                    "DEREK BEAN",
+                    "Qin Li",
                     "NICHOLAS STEPHEN KEULER",
                     "HAO TENG",
-                    "Qin Li"
+                    "DEREK BEAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1060,9 +895,9 @@
                 "f": 10,
                 "incomplete": 0,
                 "instructors": [
-                    "HAO TENG",
                     "DUZHE WANG",
                     "JOHN GILLETT",
+                    "HAO TENG",
                     "ALEXANDER COVINGTON"
                 ],
                 "no_credit": 0,
@@ -1088,8 +923,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "HAO TENG",
                     "JOHN GILLETT",
+                    "HAO TENG",
                     "DUZHE WANG"
                 ],
                 "no_credit": 0,
@@ -1116,10 +951,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "SEAN KENT",
-                    "HAO TENG",
-                    "DEREK BEAN",
+                    "JOHN GILLETT",
                     "YONG JAE LEE",
-                    "JOHN GILLETT"
+                    "DEREK BEAN",
+                    "HAO TENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1144,11 +979,11 @@
                 "f": 8,
                 "incomplete": 0,
                 "instructors": [
-                    "JURIJS NAZAROVS",
-                    "HAO TENG",
-                    "DEREK BEAN",
+                    "JOHN GILLETT",
                     "YONG JAE LEE",
-                    "JOHN GILLETT"
+                    "DEREK BEAN",
+                    "JURIJS NAZAROVS",
+                    "HAO TENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1173,10 +1008,10 @@
                 "f": 10,
                 "incomplete": 0,
                 "instructors": [
-                    "HAO TENG",
-                    "MITCHELL PAUKNER",
                     "MOHAMED ELKHOULY",
-                    "JOHN GILLETT"
+                    "JOHN GILLETT",
+                    "HAO TENG",
+                    "MITCHELL PAUKNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1228,8 +1063,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "HENRY MENDOZA RIVERA",
-                    "CHELSEY GREEN"
+                    "CHELSEY GREEN",
+                    "HENRY MENDOZA RIVERA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1254,8 +1089,8 @@
                 "f": 8,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHAEL CULBERTSON",
-                    "CHELSEY GREEN"
+                    "CHELSEY GREEN",
+                    "MICHAEL CULBERTSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1280,8 +1115,8 @@
                 "f": 9,
                 "incomplete": 2,
                 "instructors": [
-                    "AMY BEYLER",
-                    "CHELSEY GREEN"
+                    "CHELSEY GREEN",
+                    "AMY BEYLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1306,8 +1141,8 @@
                 "f": 12,
                 "incomplete": 2,
                 "instructors": [
-                    "MIRANDA RINTOUL",
-                    "CHELSEY GREEN"
+                    "CHELSEY GREEN",
+                    "MIRANDA RINTOUL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1411,8 +1246,8 @@
                 "f": 7,
                 "incomplete": 5,
                 "instructors": [
-                    "MATTHEW BLOSS",
-                    "MIRANDA RINTOUL"
+                    "MIRANDA RINTOUL",
+                    "MATTHEW BLOSS"
                 ],
                 "no_credit": 0,
                 "no_work": 2,

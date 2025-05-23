@@ -27,52 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Provides opportunities to explore pharmacy career paths, develop pre-professional plans, learn about pharmacy student co-curricular and professional development experiences, and prepare to successfully participate in the pharmacy admissions process.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 126,
-                "subjects": [
-                    "PHARMACY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 125,
-                "subjects": [
-                    "PHARMACY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 126,
-                "subjects": [
-                    "PHARMACY"
-                ]
-            }
-        ],
-        "prerequisites_text": "Not open to students with credit forPHARMACY\u00a0125or126"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 126,
+            "subjects": [
+                "PHARMACY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -80,15 +42,19 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 125,
+                            "subjects": [
+                                "PHARMACY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 126,
+                    "subjects": [
+                        "PHARMACY"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -127,21 +93,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 126,
-            "subjects": [
-                "PHARMACY"
-            ]
-        },
-        {
-            "course_number": 461,
-            "subjects": [
-                "PHMPRAC"
-            ]
-        },
-        {
             "course_number": 471,
             "subjects": [
                 "PHMPRAC"
+            ]
+        },
+        {
+            "course_number": 125,
+            "subjects": [
+                "PHARMACY"
             ]
         },
         {
@@ -151,9 +111,15 @@
             ]
         },
         {
-            "course_number": 125,
+            "course_number": 126,
             "subjects": [
                 "PHARMACY"
+            ]
+        },
+        {
+            "course_number": 461,
+            "subjects": [
+                "PHMPRAC"
             ]
         }
     ],
@@ -171,9 +137,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Casey Gallimore",
                     "MICHAEL PITTERLE",
-                    "Amy ZWASKA",
-                    "Casey Gallimore"
+                    "Amy ZWASKA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -198,8 +164,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Amy ZWASKA",
-                    "Casey Gallimore"
+                    "Casey Gallimore",
+                    "Amy ZWASKA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

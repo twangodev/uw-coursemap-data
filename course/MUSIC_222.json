@@ -27,63 +27,35 @@
         "unsatisfactory": 0
     },
     "description": "Advanced strategies for composing, understanding, and writing about music.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent enrollment in",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 221,
+            "subjects": [
+                "MUSIC"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MUSIC"
-                ]
-            },
-            {
-                "course_number": 272,
-                "subjects": [
-                    "MUSIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MUSIC"
-                ]
-            },
-            " and concurrent enrollment in ",
-            {
-                "course_number": 272,
-                "subjects": [
-                    "MUSIC"
-                ]
-            }
-        ],
-        "prerequisites_text": "MUSIC\u00a0221and concurrent enrollment inMUSIC\u00a0272"
-    },
+        {
+            "course_number": 272,
+            "subjects": [
+                "MUSIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 221,
+                    "subjects": [
+                        "MUSIC"
+                    ]
                 },
                 "concurrent enrollment in",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 272,
+                    "subjects": [
+                        "MUSIC"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -121,21 +93,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 121,
-            "subjects": [
-                "MUSIC"
-            ]
-        },
-        {
             "course_number": 122,
             "subjects": [
                 "MUSIC"
             ]
         },
         {
-            "course_number": 272,
+            "course_number": 447,
             "subjects": [
-                "MUSIC"
+                "MUSPERF"
             ]
         },
         {
@@ -145,9 +111,15 @@
             ]
         },
         {
-            "course_number": 447,
+            "course_number": 121,
             "subjects": [
-                "MUSPERF"
+                "MUSIC"
+            ]
+        },
+        {
+            "course_number": 272,
+            "subjects": [
+                "MUSIC"
             ]
         }
     ],

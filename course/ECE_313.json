@@ -27,70 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Light detection using photovoltaic and photoconductive detectors and phototransistors. Light generation using light emitting diodes and laser diodes. Light transmission using optical fibers. Optoisolators and optical switches. Light emitting diode and liquid crystal displays.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 271,
+            "subjects": [
+                "ECE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 271,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 271,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ", or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0C\u00a0E\u00a0271and340, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 340,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 271,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 340,
+                            "subjects": [
+                                "ECE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -101,13 +67,13 @@
         },
         "course_references": [
             {
-                "course_number": 340,
+                "course_number": 271,
                 "subjects": [
                     "ECE"
                 ]
             },
             {
-                "course_number": 271,
+                "course_number": 340,
                 "subjects": [
                     "ECE"
                 ]
@@ -133,21 +99,8 @@
     },
     "similar_courses": [
         {
-            "course_number": 335,
+            "course_number": 536,
             "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 434,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 235,
-            "subjects": [
-                "PHYSICS",
                 "ECE"
             ]
         },
@@ -158,7 +111,20 @@
             ]
         },
         {
-            "course_number": 536,
+            "course_number": 335,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 235,
+            "subjects": [
+                "ECE",
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 434,
             "subjects": [
                 "ECE"
             ]
@@ -178,8 +144,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BENJAMIN BING-YEH YANG",
                     "JAMES R BARNER",
+                    "BENJAMIN BING-YEH YANG",
                     "CHAD M STAUS"
                 ],
                 "no_credit": 0,
@@ -206,8 +172,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "CHAO QIN",
-                    "BENJAMIN BING-YEH YANG",
                     "SUNG-JIN HO",
+                    "BENJAMIN BING-YEH YANG",
                     "JAMES R BARNER"
                 ],
                 "no_credit": 0,
@@ -234,8 +200,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "STEPHEN MICHAEL KENNEDY",
-                    "JAMES R BARNER",
-                    "BENJAMIN BING-YEH YANG"
+                    "BENJAMIN BING-YEH YANG",
+                    "JAMES R BARNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -260,8 +226,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN FOX",
                     "STEPHEN MICHAEL KENNEDY",
+                    "BRIAN FOX",
                     "JAMES R BARNER"
                 ],
                 "no_credit": 0,
@@ -287,8 +253,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN FOX",
                     "BENJAMIN STEIN",
+                    "BRIAN FOX",
                     "JAMES R BARNER"
                 ],
                 "no_credit": 0,
@@ -315,8 +281,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "HARSH SINHA",
-                    "JAMES R BARNER",
-                    "BRIAN FOX"
+                    "BRIAN FOX",
+                    "JAMES R BARNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -367,9 +333,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "PUSHKAR KULKARNI",
                     "BRIAN FOX",
-                    "JAMES R BARNER",
-                    "PUSHKAR KULKARNI"
+                    "JAMES R BARNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -394,9 +360,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "PUSHKAR KULKARNI",
                     "BRIAN FOX",
-                    "JAMES R BARNER",
-                    "PUSHKAR KULKARNI"
+                    "JAMES R BARNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -421,9 +387,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "PUSHKAR KULKARNI",
                     "BRIAN FOX",
-                    "JAMES R BARNER",
-                    "PUSHKAR KULKARNI"
+                    "JAMES R BARNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -448,8 +414,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "BRIAN FOX",
-                    "LEON MCCAUGHAN"
+                    "LEON MCCAUGHAN",
+                    "BRIAN FOX"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -649,9 +615,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "XIAODONG WANG",
+                    "ZHE YANG",
                     "Luke MAWST",
-                    "ZHE YANG"
+                    "XIAODONG WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -676,9 +642,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Luke MAWST",
                     "AMIRFARSHAD MASHAL",
-                    "XIAODONG WANG",
-                    "Luke MAWST"
+                    "XIAODONG WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1053,9 +1019,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SHUQI ZHANG",
+                    "SHOVASIS KUMAR BISWAS",
                     "Srdjan MILICIC",
-                    "SHOVASIS KUMAR BISWAS"
+                    "SHUQI ZHANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,100 +27,21 @@
         "unsatisfactory": 0
     },
     "description": "Harmonic motion; natural frequencies and vibration of damped and undamped single and multi-degree of freedom systems; modal analysis; influence coefficients; lumped-mass modeling; dynamic load factors; Rayleigh's method; flow-induced vibrations; shaft whirl; balancing; vibration absorbers and tuned mass dampers; finite element modeling.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 306,
+            "subjects": [
+                "ME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 540,
-                "subjects": [
-                    "EMA",
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 306,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 540,
-                "subjects": [
-                    "EMA",
-                    "ME"
-                ]
-            },
-            "), or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0306orE\u00a0M\u00a0A\u00a0303) and (M\u00a0E\u00a0340orE\u00a0M\u00a0A/\u200bM\u00a0E\u00a0\u00a0540), or graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 540,
+            "subjects": [
+                "ME",
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -129,12 +50,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 306,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 303,
+                                    "subjects": [
+                                        "EMA"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -142,12 +67,17 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 540,
+                                    "subjects": [
+                                        "ME",
+                                        "EMA"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -162,21 +92,8 @@
         },
         "course_references": [
             {
-                "course_number": 303,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
                 "course_number": 306,
                 "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 540,
-                "subjects": [
-                    "EMA",
                     "ME"
                 ]
             },
@@ -184,6 +101,19 @@
                 "course_number": 340,
                 "subjects": [
                     "ME"
+                ]
+            },
+            {
+                "course_number": 540,
+                "subjects": [
+                    "ME",
+                    "EMA"
+                ]
+            },
+            {
+                "course_number": 303,
+                "subjects": [
+                    "EMA"
                 ]
             }
         ],
@@ -213,8 +143,8 @@
             {
                 "course_number": 540,
                 "subjects": [
-                    "EMA",
-                    "ME"
+                    "ME",
+                    "EMA"
                 ]
             },
             "), or graduate/professional standing, or member of Engineering Guest Students"
@@ -223,22 +153,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 745,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
-            "course_number": 540,
-            "subjects": [
-                "EMA",
-                "ME"
-            ]
-        },
-        {
             "course_number": 448,
             "subjects": [
                 "ME"
+            ]
+        },
+        {
+            "course_number": 545,
+            "subjects": [
+                "EMA"
             ]
         },
         {
@@ -248,7 +171,14 @@
             ]
         },
         {
-            "course_number": 545,
+            "course_number": 540,
+            "subjects": [
+                "ME",
+                "EMA"
+            ]
+        },
+        {
+            "course_number": 745,
             "subjects": [
                 "EMA"
             ]

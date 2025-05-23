@@ -27,68 +27,41 @@
         "unsatisfactory": 0
     },
     "description": "Statistical theory and methodology for modern financial data. Topics include financial stochastic models based on time series and stochastic calculus, modern statistical inference, and statistical learning for financial data as well as their applications to financial problems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 601,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 601,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 701,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "prerequisites_text": "STAT\u00a0601or701"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 701,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 601,
+                    "subjects": [
+                        "STAT"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 701,
+                    "subjects": [
+                        "STAT"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 701,
+                "course_number": 601,
                 "subjects": [
                     "STAT"
                 ]
             },
             {
-                "course_number": 601,
+                "course_number": 701,
                 "subjects": [
                     "STAT"
                 ]
@@ -119,7 +92,7 @@
             ]
         },
         {
-            "course_number": 613,
+            "course_number": 349,
             "subjects": [
                 "STAT"
             ]
@@ -137,7 +110,7 @@
             ]
         },
         {
-            "course_number": 349,
+            "course_number": 613,
             "subjects": [
                 "STAT"
             ]

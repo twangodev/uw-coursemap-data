@@ -27,43 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Development and history of documentary film and video from Lumiere to the present.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "declared in Communication Arts MA",
-                "PhD"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 350,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 350,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            " or declared in Communication Arts MA or PhD"
-        ],
-        "prerequisites_text": "COM\u00a0ARTS\u00a0350or declared in Communication Arts MA or PhD"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 350,
+            "subjects": [
+                "COMARTS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 350,
+                    "subjects": [
+                        "COMARTS"
+                    ]
                 },
                 "declared in Communication Arts MA",
                 "PhD"

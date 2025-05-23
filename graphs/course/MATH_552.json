@@ -1,6 +1,14 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
             "description": "An introduction to proof writing techniques through a study of classical topics in elementary number theory. Topics include the divisibility, basic properties of primes, congruences, Fermat's theorem.",
             "id": "MATH 467",
             "parent": "MATH",
@@ -9,18 +17,18 @@
     },
     {
         "data": {
-            "description": "Groups, normal subgroups, Cayley's theorem, rings, ideals, homomorphisms, polynomial rings, abstract vector spaces.",
-            "id": "MATH 541",
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
             "parent": "MATH",
-            "title": "MODERN ALGEBRA"
+            "title": "TRIGONOMETRY"
         }
     },
     {
         "data": {
-            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
-            "id": "MATH 320",
+            "description": "Groups, normal subgroups, Cayley's theorem, rings, ideals, homomorphisms, polynomial rings, abstract vector spaces.",
+            "id": "MATH 541",
             "parent": "MATH",
-            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
+            "title": "MODERN ALGEBRA"
         }
     },
     {
@@ -104,18 +112,10 @@
     },
     {
         "data": {
-            "description": "Review of linear differential equations; series solution of linear differential equations; boundary value problems; Laplace transforms; possibly numerical methods and two dimensional autonomous systems.",
-            "id": "MATH 319",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
             "parent": "MATH",
-            "title": "TECHNIQUES IN ORDINARY DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "description": "Sturm-Liouville theory; Fourier series, including mean convergence; boundary value problems for linear second order partial differential equations, including separation of variables and eigenfunction expansions.",
-            "id": "MATH 322",
-            "parent": "MATH",
-            "title": "APPLIED MATHEMATICAL ANALYSIS"
+            "title": "ALGEBRA"
         }
     },
     {
@@ -152,34 +152,10 @@
     },
     {
         "data": {
-            "description": "Topics in multi-variable calculus and introduction to differential equations.",
-            "id": "MATH 376",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
             "description": "Topological spaces, connectedness, compactness, separation axioms, metric spaces.",
             "id": "MATH 551",
             "parent": "MATH",
             "title": "ELEMENTARY TOPOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Vector analysis: algebra and geometry of vectors, vector differential and integral calculus, theorems of Green, Gauss, and Stokes; complex analysis: analytic functions, complex integrals and residues, Taylor and Laurent series.",
-            "id": "MATH 321",
-            "parent": "MATH",
-            "title": "APPLIED MATHEMATICAL ANALYSIS"
-        }
-    },
-    {
-        "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
-            "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
@@ -198,6 +174,36 @@
         "data": {
             "source": "COMPSCI/MATH 240",
             "target": "MATH 467"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 171"
         }
     },
     {
@@ -221,7 +227,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -251,18 +257,6 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "MATH 319"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "MATH 320"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
             "target": "MATH 340"
         }
     },
@@ -270,12 +264,6 @@
         "data": {
             "source": "MATH 222",
             "target": "MATH 467"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 234",
-            "target": "MATH 321"
         }
     },
     {
@@ -293,55 +281,19 @@
     {
         "data": {
             "source": "MATH 234",
-            "target": "MATH 521"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 319",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 320",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 321",
-            "target": "MATH 322"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 322",
-            "target": "MATH 521"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
-            "target": "MATH 467"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 340",
             "target": "MATH 541"
         }
     },
     {
         "data": {
-            "source": "MATH 341",
-            "target": "MATH 321"
+            "source": "MATH 234",
+            "target": "MATH 551"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 340",
+            "target": "MATH 551"
         }
     },
     {
@@ -352,50 +304,8 @@
     },
     {
         "data": {
-            "source": "MATH 375",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 376"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 467"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 375",
-            "target": "MATH 551"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 376",
-            "target": "MATH 322"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 421",
             "target": "MATH 521"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 421",
-            "target": "MATH 551"
         }
     },
     {
@@ -420,6 +330,12 @@
         "data": {
             "source": "MATH 551",
             "target": "MATH 552"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {

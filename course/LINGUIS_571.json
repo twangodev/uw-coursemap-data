@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "In-depth study of all components of the grammar of a language.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 310,
+            "subjects": [
+                "LINGUIS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 330,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 310,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 330,
-                "subjects": [
-                    "LINGUIS"
-                ]
-            }
-        ],
-        "prerequisites_text": "LINGUIS\u00a0310and330"
-    },
+        {
+            "course_number": 330,
+            "subjects": [
+                "LINGUIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 310,
+                    "subjects": [
+                        "LINGUIS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 330,
+                    "subjects": [
+                        "LINGUIS"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -119,7 +92,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 101,
+            "subjects": [
+                "LINGUIS"
+            ]
+        },
+        {
             "course_number": 330,
+            "subjects": [
+                "LINGUIS"
+            ]
+        },
+        {
+            "course_number": 373,
             "subjects": [
                 "LINGUIS"
             ]
@@ -132,18 +117,6 @@
         },
         {
             "course_number": 309,
-            "subjects": [
-                "LINGUIS"
-            ]
-        },
-        {
-            "course_number": 373,
-            "subjects": [
-                "LINGUIS"
-            ]
-        },
-        {
-            "course_number": 101,
             "subjects": [
                 "LINGUIS"
             ]

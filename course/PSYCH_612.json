@@ -27,122 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Comprehensive review of the field of behavioral neuropharmacology, focusing on methodology, major neurotransmitter systems, critical evaluation of experimental evidence regarding behavioral functions of these transmitter systems and drugs used to treat mental illness.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 454,
+            "subjects": [
+                "PSYCH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 454,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 225,
-                "subjects": [
-                    "PSYCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 454,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 225,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            ", or (",
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 384,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(PSYCH\u00a0454orZOOLOGY/\u200bPSYCH\u00a0\u00a0523) andBOTANY/\u200bBIOLOGY/\u200bZOOLOGY\u00a0\u00a0152,PSYCH\u00a0225, or (BIOCORE\u00a0383and384)"
-    },
+        {
+            "course_number": 152,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -151,36 +51,51 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 454,
+                                    "subjects": [
+                                        "PSYCH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 523,
+                                    "subjects": [
+                                        "PSYCH",
+                                        "ZOOLOGY"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 152,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY",
+                                "BOTANY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 225,
+                    "subjects": [
+                        "PSYCH"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 383,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 384,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -190,21 +105,16 @@
         },
         "course_references": [
             {
-                "course_number": 384,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 225,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
                 "course_number": 454,
                 "subjects": [
                     "PSYCH"
+                ]
+            },
+            {
+                "course_number": 523,
+                "subjects": [
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             {
@@ -216,15 +126,20 @@
                 ]
             },
             {
+                "course_number": 384,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
                 "course_number": 383,
                 "subjects": [
                     "BIOCORE"
                 ]
             },
             {
-                "course_number": 523,
+                "course_number": 225,
                 "subjects": [
-                    "ZOOLOGY",
                     "PSYCH"
                 ]
             }
@@ -241,8 +156,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             ") and ",
@@ -281,13 +196,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 657,
-            "subjects": [
-                "NURSING"
-            ]
-        },
-        {
-            "course_number": 632,
+            "course_number": 770,
             "subjects": [
                 "PHARMACY"
             ]
@@ -299,9 +208,15 @@
             ]
         },
         {
-            "course_number": 770,
+            "course_number": 632,
             "subjects": [
                 "PHARMACY"
+            ]
+        },
+        {
+            "course_number": 657,
+            "subjects": [
+                "NURSING"
             ]
         },
         {

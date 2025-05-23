@@ -27,83 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "The process of oral communication; principles of effective speaking; application of principles in selected speaking and reading projects.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in an Honors program.",
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not open to students with credit for",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        "Students required to take the MSN ESLAT cannot enroll until the",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "requirement is satisfied."
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 100,
+            "subjects": [
+                "COMARTS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 100,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in an Honors program. Not open to students with credit for ",
-            {
-                "course_number": 100,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 105,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            ". Students required to take the MSN ESLAT cannot enroll until the ",
-            {
-                "course_number": 118,
-                "subjects": [
-                    "ESL"
-                ]
-            },
-            " requirement is satisfied."
-        ],
-        "prerequisites_text": "Declared in an Honors program. Not open to students with credit forCOM\u00a0ARTS\u00a0100or105. Students required to take the MSN ESLAT cannot enroll until theESL\u00a0118requirement is satisfied."
-    },
+        {
+            "course_number": 118,
+            "subjects": [
+                "ESL"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -114,8 +51,10 @@
                             "children": [
                                 "Not open to students with credit for",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 100,
+                                    "subjects": [
+                                        "COMARTS"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -123,8 +62,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 105,
+                                    "subjects": [
+                                        "COMARTS"
+                                    ]
                                 },
                                 "."
                             ],
@@ -137,8 +78,10 @@
                     "children": [
                         "Students required to take the MSN ESLAT cannot enroll until the",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 118,
+                            "subjects": [
+                                "ESL"
+                            ]
                         },
                         "requirement is satisfied."
                     ],
@@ -155,15 +98,15 @@
                 ]
             },
             {
-                "course_number": 105,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            {
                 "course_number": 118,
                 "subjects": [
                     "ESL"
+                ]
+            },
+            {
+                "course_number": 105,
+                "subjects": [
+                    "COMARTS"
                 ]
             }
         ],
@@ -566,8 +509,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "TAYLORE WOODHOUSE",
-                    "Sarah Jedd"
+                    "Sarah Jedd",
+                    "TAYLORE WOODHOUSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -592,8 +535,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MATTHEW JACOBS",
-                    "Sarah Jedd"
+                    "Sarah Jedd",
+                    "MATTHEW JACOBS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -2,50 +2,29 @@
     "course_reference": {
         "course_number": 617,
         "subjects": [
-            "ISYE",
-            "BMI"
+            "BMI",
+            "ISYE"
         ]
     },
     "course_title": "HEALTH INFORMATION SYSTEMS",
     "cumulative_grade_data": null,
     "description": "Provides grounding in core concepts of health information systems. Major applications include clinical information systems, language and standards, decision support, image technology and digital libraries. Evaluation of IE tools and perspectives designed to improve the quality, efficiency and effectiveness of health information.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 417,
-                "subjects": [
-                    "ISYE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 417,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "I\u00a0SY\u00a0E\u00a0417, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 417,
+            "subjects": [
+                "ISYE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 417,
+                    "subjects": [
+                        "ISYE"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -75,14 +54,8 @@
         {
             "course_number": 918,
             "subjects": [
-                "MEDICINE",
-                "BMI"
-            ]
-        },
-        {
-            "course_number": 715,
-            "subjects": [
-                "NURSING"
+                "BMI",
+                "MEDICINE"
             ]
         },
         {
@@ -101,6 +74,12 @@
             "course_number": 702,
             "subjects": [
                 "MEDICINE"
+            ]
+        },
+        {
+            "course_number": 715,
+            "subjects": [
+                "NURSING"
             ]
         }
     ],

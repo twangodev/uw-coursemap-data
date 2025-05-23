@@ -28,63 +28,28 @@
         "unsatisfactory": 0
     },
     "description": "Biochemistry of photosynthesis, respiration, cell walls, and other metabolic and biosynthetic processes in plants.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 507,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 501,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 507,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "BIOCHEM\u00a0501,507, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 501,
+            "subjects": [
+                "BIOCHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 501,
+                    "subjects": [
+                        "BIOCHEM"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 507,
+                    "subjects": [
+                        "BIOCHEM"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -92,13 +57,13 @@
         },
         "course_references": [
             {
-                "course_number": 501,
+                "course_number": 507,
                 "subjects": [
                     "BIOCHEM"
                 ]
             },
             {
-                "course_number": 507,
+                "course_number": 501,
                 "subjects": [
                     "BIOCHEM"
                 ]
@@ -130,19 +95,6 @@
             ]
         },
         {
-            "course_number": 860,
-            "subjects": [
-                "BOTANY"
-            ]
-        },
-        {
-            "course_number": 631,
-            "subjects": [
-                "GENETICS",
-                "BIOCHEM"
-            ]
-        },
-        {
             "course_number": 500,
             "subjects": [
                 "BOTANY"
@@ -150,6 +102,19 @@
         },
         {
             "course_number": 858,
+            "subjects": [
+                "BOTANY"
+            ]
+        },
+        {
+            "course_number": 631,
+            "subjects": [
+                "BIOCHEM",
+                "GENETICS"
+            ]
+        },
+        {
+            "course_number": 860,
             "subjects": [
                 "BOTANY"
             ]
@@ -169,8 +134,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "THOMAS D SHARKEY",
-                    "SEBASTIAN BEDNAREK"
+                    "SEBASTIAN BEDNAREK",
+                    "THOMAS D SHARKEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -195,8 +160,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Hiroshi MAEDA",
                     "SEBASTIAN BEDNAREK",
+                    "Hiroshi MAEDA",
                     "John Ralph"
                 ],
                 "no_credit": 0,
@@ -222,8 +187,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Hiroshi MAEDA",
                     "SEBASTIAN BEDNAREK",
+                    "Hiroshi MAEDA",
                     "John Ralph"
                 ],
                 "no_credit": 0,
@@ -249,8 +214,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Hiroshi MAEDA",
                     "SEBASTIAN BEDNAREK",
+                    "Hiroshi MAEDA",
                     "John Ralph"
                 ],
                 "no_credit": 0,
@@ -276,8 +241,8 @@
                 "f": 0,
                 "incomplete": 3,
                 "instructors": [
-                    "Hiroshi MAEDA",
                     "SEBASTIAN BEDNAREK",
+                    "Hiroshi MAEDA",
                     "John Ralph"
                 ],
                 "no_credit": 0,
@@ -303,8 +268,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Hiroshi MAEDA",
                     "SEBASTIAN BEDNAREK",
+                    "Hiroshi MAEDA",
                     "John Ralph"
                 ],
                 "no_credit": 0,
@@ -330,8 +295,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Hiroshi MAEDA",
-                    "SEBASTIAN BEDNAREK"
+                    "SEBASTIAN BEDNAREK",
+                    "Hiroshi MAEDA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -358,9 +323,9 @@
                 },
                 "last_taught_term": "Fall 2023",
                 "school": {
-                    "abbreviation": "L",
-                    "name": "Letters and Science",
-                    "url": "http://www.ls.wisc.edu/"
+                    "abbreviation": "A",
+                    "name": "Agricultural and Life Sciences",
+                    "url": "http://www.cals.wisc.edu/"
                 },
                 "typically_offered": "Every Other Spring"
             },

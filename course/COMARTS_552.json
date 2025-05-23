@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "An examination of contemporary Hollywood films focusing on the interrelations of cinematic narrative, style, technology, and institutions. Survey the work of major directors and consider the box office impact of key genres and film cycles.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent enrollment"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 350,
-                "subjects": [
-                    "COMARTS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 350,
-                "subjects": [
-                    "COMARTS"
-                ]
-            },
-            " or concurrent enrollment"
-        ],
-        "prerequisites_text": "COM\u00a0ARTS\u00a0350or concurrent enrollment"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 350,
+            "subjects": [
+                "COMARTS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 350,
+                    "subjects": [
+                        "COMARTS"
+                    ]
                 },
                 "concurrent enrollment"
             ],
@@ -89,7 +69,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 902,
+            "subjects": [
+                "COMARTS"
+            ]
+        },
+        {
             "course_number": 462,
+            "subjects": [
+                "COMARTS"
+            ]
+        },
+        {
+            "course_number": 454,
             "subjects": [
                 "COMARTS"
             ]
@@ -102,18 +94,6 @@
         },
         {
             "course_number": 350,
-            "subjects": [
-                "COMARTS"
-            ]
-        },
-        {
-            "course_number": 902,
-            "subjects": [
-                "COMARTS"
-            ]
-        },
-        {
-            "course_number": 454,
             "subjects": [
                 "COMARTS"
             ]
@@ -433,8 +413,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "MATTHEW ST. JOHN",
-                    "Jeffrey SMITH"
+                    "Jeffrey SMITH",
+                    "MATTHEW ST. JOHN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

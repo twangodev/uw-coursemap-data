@@ -1,6 +1,14 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
             "description": "Analysis from a financial planner's perspective of the process of planning the accumulation, conservation, and distribution of an estate, in the manner that most effectively and efficiently accomplishes an individual's personal tax and non-tax objectives.",
             "id": "CNSRSCI 635",
             "parent": "CNSRSCI",
@@ -28,6 +36,14 @@
             "description": "As the saying goes, money can't buy happiness -- but in modern America, we certainly try. This course will provide an overview of the study of happiness and well-being, examine how consumers engage in consumption in pursuit of happiness, as well as explore the emergence of the experience economy, and the intersection of money and well-being. Students will read academic and popular pieces on positive psychology, prosocial spending and explore the psychology of persuasion in the promises associated with this industry. In addition to integrating visual media, students will have the opportunity to experience first-hand whether the advice works in their own lives.",
             "id": "CNSRSCI/RELIGST 173",
             "title": "CONSUMING HAPPINESS"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
         }
     },
     {
@@ -112,6 +128,14 @@
     },
     {
         "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Developing store image through visual merchandising, advertising, sales, and other promotional activities.",
             "id": "CNSRSCI 560",
             "parent": "CNSRSCI",
@@ -156,6 +180,14 @@
             "id": "ECON 101",
             "parent": "ECON",
             "title": "PRINCIPLES OF MICROECONOMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
@@ -296,6 +328,22 @@
     },
     {
         "data": {
+            "description": "Introduction to data analysis for social scientists using spreadsheets software - with specific applications to economics, business and finance - including data management and manipulation; formulas and calculations; data visualization and presentation using charts and graphics; statistical and visual analysis of economic indicators using tables, functions, graphs and descriptive statistics; and optimization of functions with economic and financial data.",
+            "id": "AAE 335",
+            "parent": "AAE",
+            "title": "INTRODUCTION TO DATA ANALYSIS USING SPREADSHEETS"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
             "description": "Introduction to empirical consumer science research methods, with an emphasis on application. Covers different types of data structures commonly encountered, statistical properties of data, bivariate and multivariate linear regression models.",
             "id": "CNSRSCI 768",
             "parent": "CNSRSCI",
@@ -367,9 +415,10 @@
     },
     {
         "data": {
-            "description": "Presentation of sociological data; descriptive statistics; probability theory and statistical inference; estimation and tests of hypotheses; regression and correlation and the analysis of contingency tables.",
-            "id": "C&ESOC/SOC 360",
-            "title": "STATISTICS FOR SOCIOLOGISTS I"
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -494,6 +543,12 @@
     },
     {
         "data": {
+            "id": "AAE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "ACCTIS",
             "type": "compound"
         }
@@ -524,8 +579,20 @@
     },
     {
         "data": {
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "PSYCH",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "AAE 335",
+            "target": "CNSRSCI 201"
         }
     },
     {
@@ -544,12 +611,6 @@
         "data": {
             "source": "ACCTIS 300",
             "target": "CNSRSCI 564"
-        }
-    },
-    {
-        "data": {
-            "source": "C&ESOC/SOC 360",
-            "target": "CNSRSCI 201"
         }
     },
     {
@@ -662,20 +723,14 @@
     },
     {
         "data": {
+            "source": "ECON 101",
+            "target": "ECON 102"
+        }
+    },
+    {
+        "data": {
             "source": "ECON 102",
             "target": "ECON 111"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 111",
-            "target": "CNSRSCI 477"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 111",
-            "target": "CNSRSCI 575"
         }
     },
     {
@@ -694,6 +749,54 @@
         "data": {
             "source": "GENBUS 106",
             "target": "CNSRSCI 564"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {

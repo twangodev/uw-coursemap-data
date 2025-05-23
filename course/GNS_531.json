@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Enhance speaking, listening, writing and reading skills. Build confidence in speaking about issues related to daily life.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "LCA LANG 432 prior to fall 2018"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 432,
-                "subjects": [
-                    "GNS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 432,
-                "subjects": [
-                    "GNS"
-                ]
-            },
-            " (or LCA LANG 432 prior to fall 2018)"
-        ],
-        "prerequisites_text": "GNS\u00a0432(or LCA LANG 432 prior to fall 2018)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 432,
+            "subjects": [
+                "GNS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 432,
+                    "subjects": [
+                        "GNS"
+                    ]
                 },
                 "LCA LANG 432 prior to fall 2018"
             ],

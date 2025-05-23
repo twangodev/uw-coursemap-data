@@ -27,78 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Population genetics, aimed at preparing students to initiate research in this field. Explore how genetic variation is influenced by mutation and recombination, population size changes and migration, and natural selection for or against new mutations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 468,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 468,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "GENETICS\u00a0466,468,BIOCORE\u00a0381, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 468,
+            "subjects": [
+                "GENETICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 466,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 468,
+                    "subjects": [
+                        "GENETICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -106,13 +62,13 @@
         },
         "course_references": [
             {
-                "course_number": 468,
+                "course_number": 466,
                 "subjects": [
                     "GENETICS"
                 ]
             },
             {
-                "course_number": 466,
+                "course_number": 468,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -157,12 +113,6 @@
             ]
         },
         {
-            "course_number": 415,
-            "subjects": [
-                "ZOOLOGY"
-            ]
-        },
-        {
             "course_number": 381,
             "subjects": [
                 "BIOCORE"
@@ -171,8 +121,14 @@
         {
             "course_number": 624,
             "subjects": [
+                "ZOOLOGY",
                 "ENTOM",
-                "GENETICS",
+                "GENETICS"
+            ]
+        },
+        {
+            "course_number": 415,
+            "subjects": [
                 "ZOOLOGY"
             ]
         },

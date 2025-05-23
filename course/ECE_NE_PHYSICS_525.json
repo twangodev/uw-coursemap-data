@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 525,
         "subjects": [
-            "PHYSICS",
+            "ECE",
             "NE",
-            "ECE"
+            "PHYSICS"
         ]
     },
     "course_title": "INTRODUCTION TO PLASMAS",
@@ -29,72 +29,30 @@
         "unsatisfactory": 0
     },
     "description": "Basic description of plasmas: collective phenomena and sheaths, collisional processes, single particle motions, fluid models, equilibria, waves, electromagnetic properties, instabilities, and introduction to kinetic theory and nonlinear processes. Examples from fusion, astrophysical and materials processing processing plasmas.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 322,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0C\u00a0E\u00a0320orPHYSICS\u00a0322), graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 322,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 320,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 322,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -139,19 +97,27 @@
     },
     "similar_courses": [
         {
-            "course_number": 725,
+            "course_number": 726,
             "subjects": [
-                "PHYSICS",
+                "ECE",
                 "NE",
-                "ECE"
+                "PHYSICS"
             ]
         },
         {
-            "course_number": 724,
+            "course_number": 725,
             "subjects": [
-                "PHYSICS",
+                "ECE",
                 "NE",
-                "ECE"
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 922,
+            "subjects": [
+                "ECE",
+                "NE",
+                "PHYSICS"
             ]
         },
         {
@@ -161,19 +127,11 @@
             ]
         },
         {
-            "course_number": 922,
+            "course_number": 724,
             "subjects": [
-                "PHYSICS",
+                "ECE",
                 "NE",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 726,
-            "subjects": [
-                "PHYSICS",
-                "NE",
-                "ECE"
+                "PHYSICS"
             ]
         }
     ],

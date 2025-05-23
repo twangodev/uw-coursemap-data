@@ -27,45 +27,24 @@
         "unsatisfactory": 0
     },
     "description": "This course is directed at graduate and advanced undergraduates with focused interest in polymeric materials. Basic principles of compatibility between macromolecules and small molecules, physical chemistry of blends and concepts in phase separation, and selected topics on materials design using self-assembly concepts.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 421,
-                "subjects": [
-                    "MS&E",
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 421,
-                "subjects": [
-                    "MS&E",
-                    "CHEM"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "CHEM/\u200bM\u00a0S\u00a0&\u00a0E\u00a0\u00a0421, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 421,
+            "subjects": [
+                "CHEM",
+                "MS&E"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 421,
+                    "subjects": [
+                        "CHEM",
+                        "MS&E"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -76,8 +55,8 @@
             {
                 "course_number": 421,
                 "subjects": [
-                    "MS&E",
-                    "CHEM"
+                    "CHEM",
+                    "MS&E"
                 ]
             }
         ],
@@ -94,12 +73,6 @@
         "prerequisites_text": "CHEM/\u200bM\u00a0S\u00a0&\u00a0E\u00a0\u00a0421, graduate/professional standing, or member of Engineering Guest Students"
     },
     "similar_courses": [
-        {
-            "course_number": 540,
-            "subjects": [
-                "CBE"
-            ]
-        },
         {
             "course_number": 421,
             "subjects": [
@@ -123,6 +96,12 @@
             "course_number": 250,
             "subjects": [
                 "MS&E"
+            ]
+        },
+        {
+            "course_number": 540,
+            "subjects": [
+                "CBE"
             ]
         }
     ],

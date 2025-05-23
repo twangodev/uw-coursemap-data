@@ -27,43 +27,23 @@
         "unsatisfactory": 0
     },
     "description": "Examines the theories and methodologies of the relevant research areas in biology and animal behavior that underlie biological determinist theories of gender and gender differences, and explores alternative approaches, theoretical constructs and interpretations.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Junior standing",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 103,
-                "subjects": [
-                    "GEN&WS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Junior standing or ",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "GEN&WS"
-                ]
-            }
-        ],
-        "prerequisites_text": "Junior standing orGEN&WS\u00a0103"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 103,
+            "subjects": [
+                "GEN&WS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Junior standing",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 103,
+                    "subjects": [
+                        "GEN&WS"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -89,23 +69,23 @@
     },
     "similar_courses": [
         {
-            "course_number": 528,
+            "course_number": 611,
             "subjects": [
+                "SOC",
                 "GEN&WS"
-            ]
-        },
-        {
-            "course_number": 522,
-            "subjects": [
-                "GEN&WS",
-                "PSYCH"
             ]
         },
         {
             "course_number": 932,
             "subjects": [
-                "GEN&WS",
-                "PSYCH"
+                "PSYCH",
+                "GEN&WS"
+            ]
+        },
+        {
+            "course_number": 528,
+            "subjects": [
+                "GEN&WS"
             ]
         },
         {
@@ -115,9 +95,9 @@
             ]
         },
         {
-            "course_number": 611,
+            "course_number": 522,
             "subjects": [
-                "SOC",
+                "PSYCH",
                 "GEN&WS"
             ]
         }

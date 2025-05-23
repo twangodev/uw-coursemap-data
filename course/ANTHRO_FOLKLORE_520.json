@@ -28,80 +28,36 @@
         "unsatisfactory": 0
     },
     "description": "Representation and self-representation of ethnic cultures in Wisconsin. For example: museums, mass media, ethnic theater.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 200,
-                "subjects": [
-                    "GNS",
-                    "FOLKLORE"
-                ]
-            },
-            {
-                "course_number": 100,
-                "subjects": [
-                    "FOLKLORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "ANTHRO"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 100,
-                "subjects": [
-                    "FOLKLORE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "GNS",
-                    "FOLKLORE"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "ANTHRO\u00a0300,FOLKLORE\u00a0100,GNS/\u200bFOLKLORE\u00a0\u00a0200, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 200,
+            "subjects": [
+                "GNS",
+                "FOLKLORE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 300,
+                    "subjects": [
+                        "ANTHRO"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 100,
+                    "subjects": [
+                        "FOLKLORE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 200,
+                    "subjects": [
+                        "GNS",
+                        "FOLKLORE"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -109,15 +65,15 @@
         },
         "course_references": [
             {
-                "course_number": 100,
+                "course_number": 200,
                 "subjects": [
+                    "GNS",
                     "FOLKLORE"
                 ]
             },
             {
-                "course_number": 200,
+                "course_number": 100,
                 "subjects": [
-                    "GNS",
                     "FOLKLORE"
                 ]
             },
@@ -156,25 +112,15 @@
     },
     "similar_courses": [
         {
-            "course_number": 764,
-            "subjects": [
-                "DS",
-                "HISTORY",
-                "ARTHIST",
-                "ANTHRO",
-                "LANDARC"
-            ]
-        },
-        {
-            "course_number": 320,
-            "subjects": [
-                "FOLKLORE"
-            ]
-        },
-        {
             "course_number": 540,
             "subjects": [
                 "FOLKLORE"
+            ]
+        },
+        {
+            "course_number": 250,
+            "subjects": [
+                "AMERIND"
             ]
         },
         {
@@ -185,9 +131,19 @@
             ]
         },
         {
-            "course_number": 250,
+            "course_number": 764,
             "subjects": [
-                "AMERIND"
+                "DS",
+                "ANTHRO",
+                "LANDARC",
+                "HISTORY",
+                "ARTHIST"
+            ]
+        },
+        {
+            "course_number": 320,
+            "subjects": [
+                "FOLKLORE"
             ]
         }
     ],

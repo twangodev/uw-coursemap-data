@@ -27,68 +27,41 @@
         "unsatisfactory": 0
     },
     "description": "Representative French-language films will be studied from an esthetic and a cultural perspective. Choice of themes and periods studied will vary, and may range from historical surveys to a close examination of films from a particular time or place. Taught in French.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 322,
-                "subjects": [
-                    "FRENCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 321,
-                "subjects": [
-                    "FRENCH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 322,
-                "subjects": [
-                    "FRENCH"
-                ]
-            }
-        ],
-        "prerequisites_text": "FRENCH\u00a0321or322"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 322,
+            "subjects": [
+                "FRENCH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 321,
+                    "subjects": [
+                        "FRENCH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 322,
+                    "subjects": [
+                        "FRENCH"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 322,
+                "course_number": 321,
                 "subjects": [
                     "FRENCH"
                 ]
             },
             {
-                "course_number": 321,
+                "course_number": 322,
                 "subjects": [
                     "FRENCH"
                 ]
@@ -119,7 +92,7 @@
             ]
         },
         {
-            "course_number": 462,
+            "course_number": 672,
             "subjects": [
                 "FRENCH"
             ]
@@ -133,12 +106,12 @@
         {
             "course_number": 440,
             "subjects": [
-                "AFRICAN",
-                "FRENCH"
+                "FRENCH",
+                "AFRICAN"
             ]
         },
         {
-            "course_number": 672,
+            "course_number": 462,
             "subjects": [
                 "FRENCH"
             ]

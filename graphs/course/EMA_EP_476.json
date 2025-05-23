@@ -1,17 +1,25 @@
 [
     {
         "data": {
-            "description": "Background for professional numerical computation in Linux environments begins with shell scripting and software archiving. Programming skills in a compiled language are then developed through scientific and engineering examples. Engineering problem-solving skills are reinforced through applications that require numerical solutions to systems of differential and/or integral equations, while motivating progressively more advanced computational methods.",
-            "id": "EMA/EP 476",
-            "title": "INTRODUCTION TO SCIENTIFIC COMPUTING FOR ENGINEERING PHYSICS"
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
         }
     },
     {
         "data": {
-            "description": "Calculus-based introduction to physics intended for Physics, AMEP, and Astronomy-Physics majors. Mechanics, waves, thermodynamics and statistical mechanics, topics in modern physics; with computation.  A more mathematically rigorous and in-depth introduction to physics than the other introductory physics sequences.",
-            "id": "PHYSICS 247",
-            "parent": "PHYSICS",
-            "title": "A MODERN INTRODUCTION TO PHYSICS"
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "Background for professional numerical computation in Linux environments begins with shell scripting and software archiving. Programming skills in a compiled language are then developed through scientific and engineering examples. Engineering problem-solving skills are reinforced through applications that require numerical solutions to systems of differential and/or integral equations, while motivating progressively more advanced computational methods.",
+            "id": "EMA/EP 476",
+            "title": "INTRODUCTION TO SCIENTIFIC COMPUTING FOR ENGINEERING PHYSICS"
         }
     },
     {
@@ -32,6 +40,14 @@
     },
     {
         "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
             "id": "MATH 211",
             "parent": "MATH",
@@ -48,18 +64,18 @@
     },
     {
         "data": {
-            "description": "Gives students an introduction to computer and analytical skills to use in their subsequent course work and professional development. Discusses several methods of using computers to solve problems, including elementary programming techniques, symbolic manipulation languages, and software packages. Techniques will be illustrated using sample problems drawn from elementary engineering. Emphasis is on introduction of algorithms with the use of specific tools to illustrate the methods.",
-            "id": "COMPSCI 310",
-            "parent": "COMPSCI",
-            "title": "PROBLEM SOLVING USING COMPUTERS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
             "id": "MATH 221",
             "parent": "MATH",
             "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -88,12 +104,6 @@
     },
     {
         "data": {
-            "id": "COMPSCI",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "id": "CROSSLISTED",
             "type": "compound"
         }
@@ -118,14 +128,32 @@
     },
     {
         "data": {
-            "source": "COMPSCI 310",
+            "source": "EP 271",
             "target": "EMA/EP 476"
         }
     },
     {
         "data": {
-            "source": "EP 271",
-            "target": "EMA/EP 476"
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -143,7 +171,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -160,8 +188,20 @@
     },
     {
         "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 201"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "PHYSICS 207"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 222",
-            "target": "COMPSCI 310"
+            "target": "EP 271"
         }
     },
     {
@@ -172,14 +212,14 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "PHYSICS 247"
+            "source": "MATH 319",
+            "target": "EMA/EP 476"
         }
     },
     {
         "data": {
-            "source": "MATH 319",
-            "target": "EMA/EP 476"
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {
@@ -198,12 +238,6 @@
         "data": {
             "source": "PHYSICS 207",
             "target": "PHYSICS 201"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 247",
-            "target": "EP 271"
         }
     }
 ]

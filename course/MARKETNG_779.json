@@ -8,105 +8,14 @@
     "course_title": "BAYESIAN MACHINE LEARNING FOR MARKETING",
     "cumulative_grade_data": null,
     "description": "Learn to resolve common marketing tasks such as consumer choice prediction, market analysis, and product development by using Bayesian statistical learning methods. A broad range of methods are covered, from standard approaches such as hierarchical modeling to more advanced techniques, including Bayesian Optimization and Bayesian Deep Learning.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Graduate/professional standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in graduate Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 656,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            {
-                "course_number": 709,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 704,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing and (",
-            {
-                "course_number": 656,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 704,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 709,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 609,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 709,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ") or declared in graduate Business Exchange program"
-        ],
-        "prerequisites_text": "Graduate/professional standing and (GEN\u00a0BUS\u00a0656,ECON\u00a0704,709,STAT\u00a0609, orSTAT/\u200bMATH\u00a0\u00a0709) or declared in graduate Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 656,
+            "subjects": [
+                "GENBUS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -116,24 +25,35 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 656,
+                                    "subjects": [
+                                        "GENBUS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 704,
+                                    "subjects": [
+                                        "ECON"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 709,
+                                    "subjects": [
+                                        "ECON"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 609,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 709,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -147,12 +67,6 @@
         },
         "course_references": [
             {
-                "course_number": 609,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
                 "course_number": 656,
                 "subjects": [
                     "GENBUS"
@@ -161,14 +75,20 @@
             {
                 "course_number": 709,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             {
                 "course_number": 704,
                 "subjects": [
                     "ECON"
+                ]
+            },
+            {
+                "course_number": 609,
+                "subjects": [
+                    "STAT"
                 ]
             },
             {
@@ -211,8 +131,8 @@
             {
                 "course_number": 709,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ") or declared in graduate Business Exchange program"
@@ -220,12 +140,6 @@
         "prerequisites_text": "Graduate/professional standing and (GEN\u00a0BUS\u00a0656,ECON\u00a0704,709,STAT\u00a0609, orSTAT/\u200bMATH\u00a0\u00a0709) or declared in graduate Business Exchange program"
     },
     "similar_courses": [
-        {
-            "course_number": 700,
-            "subjects": [
-                "MARKETNG"
-            ]
-        },
         {
             "course_number": 450,
             "subjects": [
@@ -239,6 +153,12 @@
             ]
         },
         {
+            "course_number": 700,
+            "subjects": [
+                "MARKETNG"
+            ]
+        },
+        {
             "course_number": 815,
             "subjects": [
                 "MARKETNG"
@@ -247,9 +167,9 @@
         {
             "course_number": 775,
             "subjects": [
+                "ECON",
                 "STAT",
-                "GENBUS",
-                "ECON"
+                "GENBUS"
             ]
         }
     ],

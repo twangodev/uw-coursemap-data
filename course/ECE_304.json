@@ -27,66 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "Terminal characteristics of electric machines, elements of speed control, voltage regulation, and applications in systems. Emphasis on the experimental approach to the solution of complex physical problems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 355,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 355,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 356,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ", or concurrent enrollment) or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(E\u00a0C\u00a0E\u00a0355,356, or concurrent enrollment) or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 355,
+            "subjects": [
+                "ECE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 355,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 356,
+                            "subjects": [
+                                "ECE"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -131,13 +95,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 711,
+            "course_number": 411,
             "subjects": [
                 "ECE"
             ]
         },
         {
-            "course_number": 504,
+            "course_number": 713,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 711,
             "subjects": [
                 "ECE"
             ]
@@ -149,13 +119,7 @@
             ]
         },
         {
-            "course_number": 713,
-            "subjects": [
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 411,
+            "course_number": 504,
             "subjects": [
                 "ECE"
             ]

@@ -27,107 +27,50 @@
         "unsatisfactory": 1
     },
     "description": "Laws of mechanics and thermodynamics applied to fluids at rest and in motion; potential flow; dimensional analysis; viscous flow; pipe flow; boundary-layer theory; compressible flow.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 361,
+            "subjects": [
+                "ME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "M\u00a0E\u00a0361and (MATH\u00a0319,320or375), or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 319,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 361,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 319,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 375,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -141,25 +84,25 @@
         },
         "course_references": [
             {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
                 "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 319,
+                "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 375,
+                "course_number": 361,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            {
+                "course_number": 319,
                 "subjects": [
                     "MATH"
                 ]
@@ -199,6 +142,18 @@
     },
     "similar_courses": [
         {
+            "course_number": 705,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 563,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
             "course_number": 572,
             "subjects": [
                 "ME"
@@ -211,21 +166,9 @@
             ]
         },
         {
-            "course_number": 563,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
             "course_number": 310,
             "subjects": [
                 "CIVENGR"
-            ]
-        },
-        {
-            "course_number": 705,
-            "subjects": [
-                "MATH"
             ]
         }
     ],
@@ -243,8 +186,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Scott SANDERS",
-                    "JAY MARTIN"
+                    "JAY MARTIN",
+                    "Scott SANDERS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -269,8 +212,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Jason OAKLEY",
-                    "Scott SANDERS"
+                    "Scott SANDERS",
+                    "Jason OAKLEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -373,8 +316,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Mario TRUJILLO",
-                    "JAY MARTIN"
+                    "JAY MARTIN",
+                    "Mario TRUJILLO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -477,8 +420,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "Mario TRUJILLO",
-                    "JAY MARTIN"
+                    "JAY MARTIN",
+                    "Mario TRUJILLO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -529,8 +472,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "Jason OAKLEY",
-                    "David ROTHAMER"
+                    "David ROTHAMER",
+                    "Jason OAKLEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -634,9 +577,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
+                    "CHRISTOPHER RUTLAND",
                     "Jason OAKLEY",
-                    "Glenn Bower",
-                    "CHRISTOPHER RUTLAND"
+                    "Glenn Bower"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -687,9 +630,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Glenn Bower",
                     "Alejandro Roldan",
-                    "Mario TRUJILLO"
+                    "Mario TRUJILLO",
+                    "Glenn Bower"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -740,10 +683,10 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Jason OAKLEY",
-                    "Alejandro Roldan",
                     "Wenxiao PAN",
-                    "Mario TRUJILLO"
+                    "Jason OAKLEY",
+                    "Mario TRUJILLO",
+                    "Alejandro Roldan"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -794,8 +737,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Wenxiao PAN",
-                    "David ROTHAMER"
+                    "David ROTHAMER",
+                    "Wenxiao PAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -845,8 +788,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Tom KRUPENKIN",
-                    "Wenxiao PAN"
+                    "Wenxiao PAN",
+                    "Tom KRUPENKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -897,8 +840,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ROMAN MORSE",
-                    "KRISTOFER DRESSLER"
+                    "KRISTOFER DRESSLER",
+                    "ROMAN MORSE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -950,8 +893,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "ARGANTHAEL BERSON",
-                    "Jason OAKLEY",
-                    "Wenxiao PAN"
+                    "Wenxiao PAN",
+                    "Jason OAKLEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -977,8 +920,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "ARGANTHAEL BERSON",
-                    "Jason OAKLEY",
-                    "Jaal GHANDHI"
+                    "Jaal GHANDHI",
+                    "Jason OAKLEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1081,9 +1024,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Jason OAKLEY",
                     "Jennifer Detlor",
-                    "JINLONG WU"
+                    "JINLONG WU",
+                    "Jason OAKLEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1108,9 +1051,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "ZIYANG HANG",
                     "Jason OAKLEY",
-                    "Jennifer Detlor",
-                    "ZIYANG HANG"
+                    "Jennifer Detlor"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1136,9 +1079,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "Jennifer Detlor",
-                    "Wenxiao PAN",
                     "JINLONG WU",
-                    "DEEKSHITH PONNANA"
+                    "DEEKSHITH PONNANA",
+                    "Wenxiao PAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -27,44 +27,22 @@
         "unsatisfactory": 2
     },
     "description": "Analysis and design of engineering systems involving applications of thermodynamics, economics, heat transfer, and fluid flow.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent enrollment",
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 364,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 364,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or concurrent enrollment, or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "M\u00a0E\u00a0364or concurrent enrollment, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 364,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 364,
+                    "subjects": [
+                        "ME"
+                    ]
                 },
                 "concurrent enrollment",
                 "graduate/professional standing",
@@ -99,7 +77,7 @@
             ]
         },
         {
-            "course_number": 471,
+            "course_number": 564,
             "subjects": [
                 "ME"
             ]
@@ -111,15 +89,15 @@
             ]
         },
         {
-            "course_number": 361,
+            "course_number": 471,
             "subjects": [
-                "EPD"
+                "ME"
             ]
         },
         {
-            "course_number": 564,
+            "course_number": 361,
             "subjects": [
-                "ME"
+                "EPD"
             ]
         }
     ],

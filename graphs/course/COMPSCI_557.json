@@ -1,6 +1,22 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "A comprehensive yet accessible introduction to high-performance computing practices, emphasizing shared-memory systems and using numerical algorithms as case studies. A focus on shared-memory, single-node multiprocessor systems, with some attention to GPUs. Emphasis is given on multithreaded programming, vectorization, memory hierarchy and its implications, and analysis of performance-limiting factors.",
             "id": "COMPSCI 557",
             "parent": "COMPSCI",
@@ -16,10 +32,10 @@
     },
     {
         "data": {
-            "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
-            "id": "MATH 340",
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
             "parent": "MATH",
-            "title": "ELEMENTARY MATRIX AND LINEAR ALGEBRA"
+            "title": "PREPARATORY ALGEBRA"
         }
     },
     {
@@ -36,22 +52,6 @@
             "id": "MATH 213",
             "parent": "MATH",
             "title": "SURVEY OF CALCULUS 2"
-        }
-    },
-    {
-        "data": {
-            "description": "Gives students an introduction to computer and analytical skills to use in their subsequent course work and professional development. Discusses several methods of using computers to solve problems, including elementary programming techniques, symbolic manipulation languages, and software packages. Techniques will be illustrated using sample problems drawn from elementary engineering. Emphasis is on introduction of algorithms with the use of specific tools to illustrate the methods.",
-            "id": "COMPSCI 310",
-            "parent": "COMPSCI",
-            "title": "PROBLEM SOLVING USING COMPUTERS"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
-            "id": "COMPSCI 220",
-            "parent": "COMPSCI",
-            "title": "DATA SCIENCE PROGRAMMING I"
         }
     },
     {
@@ -91,6 +91,14 @@
             "description": "Logic components built with transistors, rudimentary Boolean algebra, basic combinational logic design, basic synchronous sequential logic design, basic computer organization and design, introductory machine- and assembly-language programming.",
             "id": "COMPSCI/ECE 252",
             "title": "INTRODUCTION TO COMPUTER ENGINEERING"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -135,26 +143,8 @@
     },
     {
         "data": {
-            "source": "COMPSCI 220",
-            "target": "COMPSCI 300"
-        }
-    },
-    {
-        "data": {
             "source": "COMPSCI 300",
             "target": "COMPSCI/ECE 354"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI 310",
-            "target": "COMPSCI 300"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI/ECE 252",
-            "target": "COMPSCI 300"
         }
     },
     {
@@ -167,6 +157,30 @@
         "data": {
             "source": "COMPSCI/ECE 354",
             "target": "COMPSCI 557"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -184,7 +198,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -202,19 +216,7 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "COMPSCI 310"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
             "target": "MATH 234"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "MATH 340"
         }
     },
     {
@@ -225,14 +227,14 @@
     },
     {
         "data": {
-            "source": "MATH 340",
+            "source": "MATH 341",
             "target": "COMPSCI 557"
         }
     },
     {
         "data": {
-            "source": "MATH 341",
-            "target": "COMPSCI 557"
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     }
 ]

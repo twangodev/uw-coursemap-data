@@ -28,139 +28,32 @@
         "unsatisfactory": 0
     },
     "description": "Focuses on the cultural evolution of Chicanos, Puerto Ricans, Cuban-Americans, and other U.S. Latinos in relation to their countries of origin. Topics vary.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SPANISH",
-                    "CHICLA"
-                ]
-            },
-            {
-                "course_number": 364,
-                "subjects": [
-                    "SPANISH",
-                    "CHICLA"
-                ]
-            },
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "SPANISH",
-                    "CHICLA"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 224,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 224,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            "), ",
-            {
-                "course_number": 361,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 363,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 364,
-                "subjects": [
-                    "SPANISH",
-                    "CHICLA"
-                ]
-            }
-        ],
-        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222andSPANISH\u00a0224), (SPANISH\u00a0223and224),SPANISH\u00a0361,363, orCHICLA/\u200bSPANISH\u00a0\u00a0364"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 364,
+            "subjects": [
+                "SPANISH",
+                "CHICLA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "SPANISH",
+                                "CHICLA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 224,
+                            "subjects": [
+                                "SPANISH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -168,34 +61,45 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 223,
+                            "subjects": [
+                                "SPANISH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 224,
+                            "subjects": [
+                                "SPANISH"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 361,
+                    "subjects": [
+                        "SPANISH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 363,
+                    "subjects": [
+                        "SPANISH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 364,
+                    "subjects": [
+                        "SPANISH",
+                        "CHICLA"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 223,
+                "course_number": 224,
                 "subjects": [
                     "SPANISH"
                 ]
@@ -207,9 +111,16 @@
                 ]
             },
             {
-                "course_number": 224,
+                "course_number": 223,
                 "subjects": [
                     "SPANISH"
+                ]
+            },
+            {
+                "course_number": 364,
+                "subjects": [
+                    "SPANISH",
+                    "CHICLA"
                 ]
             },
             {
@@ -223,13 +134,6 @@
                 "course_number": 363,
                 "subjects": [
                     "SPANISH"
-                ]
-            },
-            {
-                "course_number": 364,
-                "subjects": [
-                    "SPANISH",
-                    "CHICLA"
                 ]
             }
         ],
@@ -290,6 +194,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 328,
+            "subjects": [
+                "CHICLA"
+            ]
+        },
+        {
             "course_number": 210,
             "subjects": [
                 "CHICLA"
@@ -302,20 +212,14 @@
             ]
         },
         {
-            "course_number": 222,
+            "course_number": 364,
             "subjects": [
                 "SPANISH",
                 "CHICLA"
             ]
         },
         {
-            "course_number": 328,
-            "subjects": [
-                "CHICLA"
-            ]
-        },
-        {
-            "course_number": 364,
+            "course_number": 222,
             "subjects": [
                 "SPANISH",
                 "CHICLA"

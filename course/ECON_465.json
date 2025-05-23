@@ -8,55 +8,28 @@
     "course_title": "THE AMERICAN ECONOMY TO 1865",
     "cumulative_grade_data": null,
     "description": "Survey of the forces underlying American economic development and the distribution of income; rise of regional economies; origins of manufacturing; effects of slavery; influence of government and politics on growth.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "prerequisites_text": "ECON\u00a0101or111"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "ECON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "ECON"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 111,
+                    "subjects": [
+                        "ECON"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -94,7 +67,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 101,
+            "course_number": 329,
             "subjects": [
                 "HISTORY"
             ]
@@ -112,7 +85,7 @@
             ]
         },
         {
-            "course_number": 329,
+            "course_number": 101,
             "subjects": [
                 "HISTORY"
             ]
@@ -120,8 +93,8 @@
         {
             "course_number": 466,
             "subjects": [
-                "HISTORY",
-                "ECON"
+                "ECON",
+                "HISTORY"
             ]
         }
     ],

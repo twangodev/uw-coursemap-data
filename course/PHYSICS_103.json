@@ -27,192 +27,60 @@
         "unsatisfactory": 2
     },
     "description": "Introduction to physics at the non-calculus level. Principles of mechanics, heat, and waves, with applications to a number of different fields. Not recommended for students in the physical sciences and engineering.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "placement into",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "special student standing."
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not open to students with credit for",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 112,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 113,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 114,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 171,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", placement into ",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or special student standing. Not open to students with credit for ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "MATH\u00a0112,113,114,171, placement intoMATH\u00a0211or221, or special student standing. Not open to students with credit forPHYSICS\u00a0201,207, or247."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 201,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 112,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 113,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 114,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 171,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 "placement into",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 211,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         "special student standing."
                     ],
@@ -224,21 +92,27 @@
                             "children": [
                                 "Not open to students with credit for",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 201,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 207,
+                            "subjects": [
+                                "PHYSICS"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 247,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 "."
                             ],
@@ -258,27 +132,9 @@
                 ]
             },
             {
-                "course_number": 114,
+                "course_number": 113,
                 "subjects": [
                     "MATH"
-                ]
-            },
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
                 ]
             },
             {
@@ -300,7 +156,25 @@
                 ]
             },
             {
-                "course_number": 113,
+                "course_number": 247,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 207,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 114,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 211,
                 "subjects": [
                     "MATH"
                 ]
@@ -375,7 +249,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 247,
+            "course_number": 104,
             "subjects": [
                 "PHYSICS"
             ]
@@ -387,19 +261,19 @@
             ]
         },
         {
-            "course_number": 207,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 104,
+            "course_number": 247,
             "subjects": [
                 "PHYSICS"
             ]
         },
         {
             "course_number": 201,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 207,
             "subjects": [
                 "PHYSICS"
             ]
@@ -471,8 +345,8 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "Gary SHIU",
-                    "LESLEY SMITH"
+                    "LESLEY SMITH",
+                    "Gary SHIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -627,9 +501,9 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
+                    "LESLEY SMITH",
                     "NATALIA PERKINS",
-                    "Matthew HERNDON",
-                    "LESLEY SMITH"
+                    "Matthew HERNDON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -654,8 +528,8 @@
                 "f": 7,
                 "incomplete": 0,
                 "instructors": [
-                    "Sridhara DASU",
-                    "TERESA MONTARULI"
+                    "TERESA MONTARULI",
+                    "Sridhara DASU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -680,8 +554,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "LESLEY SMITH",
-                    "BRUCE MELLADO"
+                    "BRUCE MELLADO",
+                    "LESLEY SMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -732,8 +606,8 @@
                 "f": 3,
                 "incomplete": 2,
                 "instructors": [
-                    "Pupa GILBERT",
-                    "LESLEY SMITH"
+                    "LESLEY SMITH",
+                    "Pupa GILBERT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -758,8 +632,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "LISA MCGUIRE",
-                    "Matthew HERNDON"
+                    "Matthew HERNDON",
+                    "LISA MCGUIRE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -784,8 +658,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "HOAI NGUYEN",
-                    "LESLEY SMITH"
+                    "LESLEY SMITH",
+                    "HOAI NGUYEN"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -835,8 +709,8 @@
                 "f": 3,
                 "incomplete": 2,
                 "instructors": [
-                    "RALF WEHLITZ",
-                    "LESLEY SMITH"
+                    "LESLEY SMITH",
+                    "RALF WEHLITZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -887,8 +761,8 @@
                 "f": 4,
                 "incomplete": 2,
                 "instructors": [
-                    "JEFFREY SCHMIDT",
-                    "LESLEY SMITH"
+                    "LESLEY SMITH",
+                    "JEFFREY SCHMIDT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -940,8 +814,8 @@
                 "incomplete": 2,
                 "instructors": [
                     "Yibin Pan",
-                    "LESLEY SMITH",
-                    "ANDREW LOELIGER"
+                    "ANDREW LOELIGER",
+                    "LESLEY SMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -993,9 +867,9 @@
                 "incomplete": 4,
                 "instructors": [
                     "Yibin Pan",
-                    "Matthew HERNDON",
+                    "LESLEY SMITH",
                     "VICTOR BRAR",
-                    "LESLEY SMITH"
+                    "Matthew HERNDON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1073,8 +947,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Daniel THURS",
                     "Benjamin Spike",
+                    "Daniel THURS",
                     "Mark RZCHOWSKI"
                 ],
                 "no_credit": 0,
@@ -1100,9 +974,9 @@
                 "f": 6,
                 "incomplete": 2,
                 "instructors": [
+                    "VICTOR BRAR",
                     "Daniel THURS",
-                    "Yibin Pan",
-                    "VICTOR BRAR"
+                    "Yibin Pan"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1153,8 +1027,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Daniel THURS",
                     "VICTOR BRAR",
+                    "Daniel THURS",
                     "ROBERT MCDERMOTT"
                 ],
                 "no_credit": 0,
@@ -1206,8 +1080,8 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "Benjamin Spike",
-                    "VICTOR BRAR"
+                    "VICTOR BRAR",
+                    "Benjamin Spike"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1285,9 +1159,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "Daniel THURS",
+                    "VICTOR BRAR",
                     "KAEL HANSON",
-                    "VICTOR BRAR"
+                    "Daniel THURS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1312,8 +1186,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Benjamin Spike",
-                    "VICTOR BRAR"
+                    "VICTOR BRAR",
+                    "Benjamin Spike"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1338,8 +1212,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Daniel THURS",
                     "KAEL HANSON",
+                    "Daniel THURS",
                     "ALBRECHT KARLE"
                 ],
                 "no_credit": 0,

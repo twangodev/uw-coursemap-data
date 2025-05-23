@@ -27,74 +27,47 @@
         "unsatisfactory": 0
     },
     "description": "Explore specific dye and manipulation techniques that directly relate to integrated textile and garment design. Working with color, composition and fabric movement discuss simple garment shapes and how they can be used in conjunction with expressive textiles.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "DS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "DS"
-                ]
-            },
-            {
-                "course_number": 154,
-                "subjects": [
-                    "DS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "DS"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 154,
-                "subjects": [
-                    "DS"
-                ]
-            }
-        ],
-        "prerequisites_text": "DS\u00a0101and154"
-    },
+        {
+            "course_number": 154,
+            "subjects": [
+                "DS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "DS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 154,
+                    "subjects": [
+                        "DS"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 154,
                 "subjects": [
                     "DS"
                 ]
             },
             {
-                "course_number": 154,
+                "course_number": 101,
                 "subjects": [
                     "DS"
                 ]
@@ -119,12 +92,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 101,
-            "subjects": [
-                "DS"
-            ]
-        },
-        {
             "course_number": 427,
             "subjects": [
                 "DS"
@@ -137,13 +104,19 @@
             ]
         },
         {
-            "course_number": 528,
+            "course_number": 101,
             "subjects": [
                 "DS"
             ]
         },
         {
             "course_number": 253,
+            "subjects": [
+                "DS"
+            ]
+        },
+        {
+            "course_number": 528,
             "subjects": [
                 "DS"
             ]

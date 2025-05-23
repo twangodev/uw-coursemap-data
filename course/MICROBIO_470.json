@@ -27,43 +27,22 @@
         "unsatisfactory": 2
     },
     "description": "Examines modern microbial genetics and molecular processes. Emphasis on the use of eubacterial and eukaryotic microbes to elucidate cellular function. Discussion of experimental approaches to study microbes and their use in biotechnology, bioremediation, and medicine.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent enrollment",
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            " or concurrent enrollment or graduate/professional standing"
-        ],
-        "prerequisites_text": "MICROBIO\u00a0303or concurrent enrollment or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 303,
+            "subjects": [
+                "MICROBIO"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 303,
+                    "subjects": [
+                        "MICROBIO"
+                    ]
                 },
                 "concurrent enrollment",
                 "graduate/professional standing"
@@ -91,6 +70,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 657,
+            "subjects": [
+                "MICROBIO"
+            ]
+        },
+        {
             "course_number": 304,
             "subjects": [
                 "MICROBIO"
@@ -110,12 +95,6 @@
         },
         {
             "course_number": 303,
-            "subjects": [
-                "MICROBIO"
-            ]
-        },
-        {
-            "course_number": 657,
             "subjects": [
                 "MICROBIO"
             ]
@@ -438,8 +417,8 @@
                 "f": 3,
                 "incomplete": 1,
                 "instructors": [
-                    "MARCIN FILUTOWICZ",
-                    "KATRINA FOREST"
+                    "KATRINA FOREST",
+                    "MARCIN FILUTOWICZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

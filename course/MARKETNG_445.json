@@ -27,66 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Introduces business analytic techniques applied in the context of digital marketing.  Includes approaches to design, run, evaluate, and improve online marketing tactics in order to meet specific business objectives such as customer acquisition. Covers digital analytics methods and execution of marketing tactics with data-driven techniques. Emphasizes the implementation of analytic skills on practical problems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Sophomore standing",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "GEN BUS 303",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "declared in the Business Exchange program"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 300,
+            "subjects": [
+                "MARKETNG"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            {
-                "course_number": 306,
-                "subjects": [
-                    "GENBUS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing, ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "MARKETNG"
-                ]
-            },
-            " and (GEN BUS 303 or ",
-            {
-                "course_number": 306,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            "), or declared in the Business Exchange program"
-        ],
-        "prerequisites_text": "Sophomore standing,MARKETNG\u00a0300and (GEN BUS 303 or306), or declared in the Business Exchange program"
-    },
+        {
+            "course_number": 306,
+            "subjects": [
+                "GENBUS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -94,15 +48,19 @@
                     "children": [
                         "Sophomore standing",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 300,
+                            "subjects": [
+                                "MARKETNG"
+                            ]
                         },
                         {
                             "children": [
                                 "GEN BUS 303",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 306,
+                                    "subjects": [
+                                        "GENBUS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -149,19 +107,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 442,
-            "subjects": [
-                "MARKETNG"
-            ]
-        },
-        {
             "course_number": 450,
-            "subjects": [
-                "MARKETNG"
-            ]
-        },
-        {
-            "course_number": 842,
             "subjects": [
                 "MARKETNG"
             ]
@@ -174,6 +120,18 @@
         },
         {
             "course_number": 745,
+            "subjects": [
+                "MARKETNG"
+            ]
+        },
+        {
+            "course_number": 442,
+            "subjects": [
+                "MARKETNG"
+            ]
+        },
+        {
+            "course_number": 842,
             "subjects": [
                 "MARKETNG"
             ]

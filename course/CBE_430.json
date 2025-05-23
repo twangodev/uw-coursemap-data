@@ -27,74 +27,47 @@
         "unsatisfactory": 0
     },
     "description": "Analysis and interpretation of kinetic data and catalytic phenomena; application of basic engineering principles to chemical reactor design.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 311,
+            "subjects": [
+                "CBE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            {
-                "course_number": 311,
-                "subjects": [
-                    "CBE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 311,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CBE"
-                ]
-            }
-        ],
-        "prerequisites_text": "CBE\u00a0311and320"
-    },
+        {
+            "course_number": 320,
+            "subjects": [
+                "CBE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "CBE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 320,
+                    "subjects": [
+                        "CBE"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 311,
+                "course_number": 320,
                 "subjects": [
                     "CBE"
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 311,
                 "subjects": [
                     "CBE"
                 ]
@@ -119,13 +92,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 750,
-            "subjects": [
-                "CBE"
-            ]
-        },
-        {
-            "course_number": 735,
+            "course_number": 961,
             "subjects": [
                 "CBE"
             ]
@@ -137,7 +104,13 @@
             ]
         },
         {
-            "course_number": 961,
+            "course_number": 750,
+            "subjects": [
+                "CBE"
+            ]
+        },
+        {
+            "course_number": 735,
             "subjects": [
                 "CBE"
             ]
@@ -513,8 +486,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LANG XU",
-                    "EMMANOUIL MAVRIKAKIS"
+                    "EMMANOUIL MAVRIKAKIS",
+                    "LANG XU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

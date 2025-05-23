@@ -27,87 +27,44 @@
         "unsatisfactory": 0
     },
     "description": "Comprehensive course on modern aspects of cell biology.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, orBIOCORE\u00a0383"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 151,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 383,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
             {
                 "course_number": 383,
                 "subjects": [
@@ -120,6 +77,13 @@
                     "BIOLOGY",
                     "ZOOLOGY",
                     "BOTANY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -152,25 +116,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 101,
-            "subjects": [
-                "BIOLOGY",
-                "ZOOLOGY"
-            ]
-        },
-        {
-            "course_number": 960,
-            "subjects": [
-                "ZOOLOGY"
-            ]
-        },
-        {
-            "course_number": 153,
-            "subjects": [
-                "ZOOLOGY"
-            ]
-        },
-        {
             "course_number": 800,
             "subjects": [
                 "ZOOLOGY"
@@ -182,6 +127,25 @@
                 "BIOLOGY",
                 "ZOOLOGY",
                 "BOTANY"
+            ]
+        },
+        {
+            "course_number": 153,
+            "subjects": [
+                "ZOOLOGY"
+            ]
+        },
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        },
+        {
+            "course_number": 960,
+            "subjects": [
+                "ZOOLOGY"
             ]
         }
     ],
@@ -435,8 +399,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "KURT AMANN",
                     "BAUL YOON",
+                    "KURT AMANN",
                     "WILLIAM BEMENT"
                 ],
                 "no_credit": 0,
@@ -618,8 +582,8 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "ALEX MURPHY",
-                    "KURT AMANN"
+                    "KURT AMANN",
+                    "ALEX MURPHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

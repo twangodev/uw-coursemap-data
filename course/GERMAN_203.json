@@ -27,64 +27,31 @@
         "unsatisfactory": 0
     },
     "description": "Four-skills approach (speaking, listening, writing, reading) centered around authentic texts, recordings, and images. Grammar review, concerted vocabulary expansion, and intensive practice.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "GERMAN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "GERMAN"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 203,
-                "subjects": [
-                    "GERMAN"
-                ]
-            }
-        ],
-        "prerequisites_text": "GERMAN\u00a0102or placement intoGERMAN\u00a0203"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "GERMAN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 102,
+                    "subjects": [
+                        "GERMAN"
+                    ]
                 },
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 203,
+                            "subjects": [
+                                "GERMAN"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -119,19 +86,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 403,
-            "subjects": [
-                "GERMAN"
-            ]
-        },
-        {
             "course_number": 404,
-            "subjects": [
-                "GERMAN"
-            ]
-        },
-        {
-            "course_number": 102,
             "subjects": [
                 "GERMAN"
             ]
@@ -144,6 +99,18 @@
         },
         {
             "course_number": 204,
+            "subjects": [
+                "GERMAN"
+            ]
+        },
+        {
+            "course_number": 102,
+            "subjects": [
+                "GERMAN"
+            ]
+        },
+        {
+            "course_number": 403,
             "subjects": [
                 "GERMAN"
             ]
@@ -163,12 +130,12 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "NICOLA SCHMERBECK",
-                    "JENNIFER ANN DELAHANTY",
                     "GIDEON T. STANTON",
+                    "JENNIFER ANN DELAHANTY",
                     "HELENA TAURA RUF",
-                    "BENJAMIN JOEL PARROT",
-                    "KRISTOPHER IMBRIGOTTA"
+                    "NICOLA SCHMERBECK",
+                    "KRISTOPHER IMBRIGOTTA",
+                    "BENJAMIN JOEL PARROT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -193,9 +160,9 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
+                    "GIDEON T. STANTON",
                     "SARA NICOLE JAMES",
-                    "REGINA MCCONAGHY",
-                    "GIDEON T. STANTON"
+                    "REGINA MCCONAGHY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -220,12 +187,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "SARA NICOLE JAMES",
                     "WILLIAM WALTZ",
                     "ELLIOTT EMERSON GOUGEON",
-                    "CLAIRE MARIE DOUGHTY",
+                    "BENJAMIN FREY",
                     "KORNELIA BARBARA ENGELSMA",
-                    "SARA NICOLE JAMES",
-                    "BENJAMIN FREY"
+                    "CLAIRE MARIE DOUGHTY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -251,8 +218,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "HELENA TAURA RUF",
-                    "ADRIENNE EVA MUNCY",
-                    "TYLER LUITEN"
+                    "TYLER LUITEN",
+                    "ADRIENNE EVA MUNCY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -277,11 +244,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "FRIEDERIKE FICHTNER",
                     "SARA NICOLE JAMES",
                     "KATIE ELISABETH CHAPMAN",
-                    "BENJAMIN JOEL PARROT",
-                    "RAGNAR CHRISTIAN SVARE"
+                    "RAGNAR CHRISTIAN SVARE",
+                    "FRIEDERIKE FICHTNER",
+                    "BENJAMIN JOEL PARROT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -333,10 +300,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "WILLIAM WALTZ",
-                    "SARAH DAWN KORPI",
                     "IVANA BRADARIC GRUBBS",
-                    "JENNY WOLFF",
-                    "RAGNAR CHRISTIAN SVARE"
+                    "SARAH DAWN KORPI",
+                    "RAGNAR CHRISTIAN SVARE",
+                    "JENNY WOLFF"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -387,10 +354,10 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "KELSEY WHITE",
                     "IVANA BRADARIC GRUBBS",
-                    "CHRISTINE ROSE RITTENHOUSE",
                     "ANDREW BLIEVERNICHT",
+                    "KELSEY WHITE",
+                    "CHRISTINE ROSE RITTENHOUSE",
                     "REGINA MCCONAGHY",
                     "SARAH REED"
                 ],
@@ -444,11 +411,11 @@
                 "incomplete": 0,
                 "instructors": [
                     "WILLIAM WALTZ",
-                    "FRIEDERIKE FICHTNER",
+                    "ALYSON SEWELL",
                     "ERIC LINDSAY",
+                    "FRIEDERIKE FICHTNER",
                     "ELIZABETH MACKIE SUETMEIER",
-                    "JANA MARTIN",
-                    "ALYSON SEWELL"
+                    "JANA MARTIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -473,8 +440,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "SARA NICOLE JAMES",
-                    "ELIZABETH MACKIE SUETMEIER"
+                    "ELIZABETH MACKIE SUETMEIER",
+                    "SARA NICOLE JAMES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -499,12 +466,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SARAH DAWN KORPI",
-                    "JANA MARTIN",
                     "EMILY HEIDRICH",
+                    "SARAH DAWN KORPI",
+                    "RAGNAR CHRISTIAN SVARE",
+                    "JANA MARTIN",
                     "JOEL STARK",
-                    "MARY ALLISON",
-                    "RAGNAR CHRISTIAN SVARE"
+                    "MARY ALLISON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -529,8 +496,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "KAROLINA MAY-CHU",
-                    "ELIZABETH MACKIE SUETMEIER"
+                    "ELIZABETH MACKIE SUETMEIER",
+                    "KAROLINA MAY-CHU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -556,10 +523,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "KRISTIN CLARE SPETH",
-                    "SARA FARSIU",
-                    "THOMAS MASSNICK",
+                    "LIUBOV KOSTYUKOVA",
                     "Melissa Sheedy",
-                    "LIUBOV KOSTYUKOVA"
+                    "SARA FARSIU",
+                    "THOMAS MASSNICK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -610,10 +577,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CHARLES HARVEY",
+                    "CHRISTOPHER STOHS",
                     "SAMANTHA LITTY",
-                    "T. CLINTON FORD",
-                    "CHRISTOPHER STOHS"
+                    "CHARLES HARVEY",
+                    "T. CLINTON FORD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -639,8 +606,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "LISA YAGER",
-                    "RAGNAR CHRISTIAN SVARE",
-                    "MELANIE YOEURP"
+                    "MELANIE YOEURP",
+                    "RAGNAR CHRISTIAN SVARE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -665,10 +632,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "MATTHEW BOUTILIER",
                     "CHARLES HARVEY",
-                    "CHRISTOPHER TABISZ",
                     "RICHARD HRONEK",
-                    "MATTHEW BOUTILIER"
+                    "CHRISTOPHER TABISZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -693,8 +660,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RAGNAR CHRISTIAN SVARE",
-                    "RICHARD HRONEK"
+                    "RICHARD HRONEK",
+                    "RAGNAR CHRISTIAN SVARE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -746,8 +713,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CHRISTOPHER TABISZ",
-                    "MELANIE YOEURP"
+                    "MELANIE YOEURP",
+                    "CHRISTOPHER TABISZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -772,10 +739,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "THOMAS MASSNICK",
                     "IAN WILCK",
+                    "MATTHEW GREENE",
                     "LUCIAN ROTHE",
-                    "MATTHEW GREENE"
+                    "THOMAS MASSNICK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -826,10 +793,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LEAH EWING",
                     "WALTER FERJENTSIK",
-                    "IAN WILCK",
-                    "ELIZABETH ALLABY"
+                    "LEAH EWING",
+                    "ELIZABETH ALLABY",
+                    "IAN WILCK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -854,8 +821,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LILLILOTTE KOHLER-BUSCH",
-                    "MELANIE YOEURP"
+                    "MELANIE YOEURP",
+                    "LILLILOTTE KOHLER-BUSCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -880,10 +847,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "ALYSSA FRANZE",
                     "CHEN CHEN",
-                    "LILLILOTTE KOHLER-BUSCH",
                     "LAUREN CASSIDY",
-                    "ALYSSA FRANZE"
+                    "LILLILOTTE KOHLER-BUSCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -908,8 +875,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LEAH EWING",
                     "ALAYNA BRUNEY",
+                    "LEAH EWING",
                     "Jeanne SCHUELLER"
                 ],
                 "no_credit": 0,
@@ -936,8 +903,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "HANNAH ELDRIDGE",
-                    "MORGAN CACIC",
                     "CARSTEN HAAS",
+                    "MORGAN CACIC",
                     "Jeanne SCHUELLER"
                 ],
                 "no_credit": 0,
@@ -963,11 +930,11 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "NICHOLAS OTT",
-                    "LISA STEINER",
-                    "LAUREN CASSIDY",
+                    "Jeanne SCHUELLER",
                     "BERNHARD BERINGER",
-                    "Jeanne SCHUELLER"
+                    "LAUREN CASSIDY",
+                    "LISA STEINER",
+                    "NICHOLAS OTT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -992,8 +959,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "HANNAH BREWER-JENSEN",
                     "ALAYNA BRUNEY",
+                    "HANNAH BREWER-JENSEN",
                     "Jeanne SCHUELLER"
                 ],
                 "no_credit": 0,
@@ -1019,11 +986,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LEAH EWING",
+                    "Jeanne SCHUELLER",
                     "ALYSSA BRYL",
                     "SARAH FERCHAU",
-                    "Jeanne SCHUELLER",
-                    "CASSANDRA WINKELMAN"
+                    "CASSANDRA WINKELMAN",
+                    "LEAH EWING"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1048,8 +1015,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "HANNAH BREWER-JENSEN",
                     "CASSANDRA WINKELMAN",
+                    "HANNAH BREWER-JENSEN",
                     "Jeanne SCHUELLER"
                 ],
                 "no_credit": 0,
@@ -1075,11 +1042,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Finn Shepherd",
-                    "ALYSSA BRYL",
-                    "KATHERINE MASTERSON",
                     "Jeanne SCHUELLER",
-                    "Robin Cummins"
+                    "ALYSSA BRYL",
+                    "Robin Cummins",
+                    "KATHERINE MASTERSON",
+                    "Finn Shepherd"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1104,9 +1071,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KATHERINE MASTERSON",
                     "JAMESON LYNCH",
-                    "Jeanne SCHUELLER"
+                    "Jeanne SCHUELLER",
+                    "KATHERINE MASTERSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1131,11 +1098,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Finn Shepherd",
+                    "Jeanne SCHUELLER",
+                    "THU HUYEN NGUYEN",
                     "Brandon Pahl",
                     "KATHERINE MASTERSON",
-                    "Jeanne SCHUELLER",
-                    "THU HUYEN NGUYEN"
+                    "Finn Shepherd"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

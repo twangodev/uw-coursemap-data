@@ -27,50 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Develop a knowledge of mathematical tools for quantitatively assessing financial risk. Emphasize the applications to problems encountered in actuarial science.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        },
-                        "declared in Capstone Certificate in Actuarial Science",
-                        "declared in undergraduate Business Exchange program."
-                    ],
-                    "operator": "OR"
-                },
-                "Not open to graduate students."
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "ACTSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 303,
-                "subjects": [
-                    "ACTSCI"
-                ]
-            },
-            " or concurrent enrollment), declared in Capstone Certificate in Actuarial Science, or declared in undergraduate Business Exchange program. Not open to graduate students."
-        ],
-        "prerequisites_text": "(ACT\u00a0SCI\u00a0303or concurrent enrollment), declared in Capstone Certificate in Actuarial Science, or declared in undergraduate Business Exchange program. Not open to graduate students."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 303,
+            "subjects": [
+                "ACTSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -79,8 +43,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 303,
+                                    "subjects": [
+                                        "ACTSCI"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -117,13 +83,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 399,
+            "course_number": 930,
             "subjects": [
-                "ACTSCI"
+                "RMI"
             ]
         },
         {
-            "course_number": 640,
+            "course_number": 651,
             "subjects": [
                 "ACTSCI"
             ]
@@ -135,15 +101,15 @@
             ]
         },
         {
-            "course_number": 651,
+            "course_number": 640,
             "subjects": [
                 "ACTSCI"
             ]
         },
         {
-            "course_number": 930,
+            "course_number": 399,
             "subjects": [
-                "RMI"
+                "ACTSCI"
             ]
         }
     ],
@@ -211,8 +177,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kirk PETER",
-                    "MELISSA PINNEY"
+                    "MELISSA PINNEY",
+                    "Kirk PETER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

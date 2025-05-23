@@ -1,18 +1,34 @@
 [
     {
         "data": {
-            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
-            "id": "MATH 96",
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
             "parent": "MATH",
-            "title": "PREPARATORY ALGEBRA"
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
         }
     },
     {
         "data": {
-            "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
-            "id": "STAT 324",
-            "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
+            "id": "MATH 320",
+            "parent": "MATH",
+            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
         }
     },
     {
@@ -33,14 +49,6 @@
     },
     {
         "data": {
-            "description": "Introduction to basic probability and statistical tools and methods from an industrial application perspective. Random variables and probability distributions; descriptive statistics; point estimates. Perform hypothesis testing, construct confidence intervals, and understand design of experiments in the context of motivating case studies. Regression and correlation analysis. Focus on applying statistical methods and tools to solve engineering problems. Use of Microsoft Excel to interpret and analyze data.",
-            "id": "ISYE 210",
-            "parent": "ISYE",
-            "title": "INTRODUCTION TO INDUSTRIAL STATISTICS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to data-driven techniques for surrogate modeling based engineering design. Apply data-driven approaches to engineering design problems such as design of structural and thermofluid components and systems.",
             "id": "ME 536",
             "parent": "ME",
@@ -53,14 +61,6 @@
             "id": "MATH 221",
             "parent": "MATH",
             "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to modern statistical practice in the life sciences, using the R programming language. Topics include: exploratory data analysis, probability and random variables; one-sample testing and confidence intervals, role of assumptions, sample size determination, two-sample inference; basic ideas in experimental design, analysis of variance, linear regression, goodness-of fit; biological applications.",
-            "id": "STAT 371",
-            "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR THE LIFE SCIENCES"
         }
     },
     {
@@ -89,13 +89,23 @@
     },
     {
         "data": {
-            "id": "BME",
-            "type": "compound"
+            "description": "Topics in multi-variable calculus and introduction to differential equations.",
+            "id": "MATH 376",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
         }
     },
     {
         "data": {
-            "id": "ISYE",
+            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
+            "id": "MATH 375",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "id": "BME",
             "type": "compound"
         }
     },
@@ -113,32 +123,32 @@
     },
     {
         "data": {
-            "id": "STAT",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "source": "BME 325",
             "target": "ME 536"
         }
     },
     {
         "data": {
-            "source": "ISYE 210",
-            "target": "ME 536"
+            "source": "MATH 112",
+            "target": "MATH 113"
         }
     },
     {
         "data": {
             "source": "MATH 112",
-            "target": "STAT 371"
+            "target": "MATH 221"
         }
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "ISYE 210"
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -155,14 +165,8 @@
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "STAT 371"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -179,38 +183,38 @@
     },
     {
         "data": {
-            "source": "MATH 221",
-            "target": "STAT 371"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 222",
             "target": "BME 325"
         }
     },
     {
         "data": {
-            "source": "MATH 96",
-            "target": "MATH 112"
+            "source": "MATH 222",
+            "target": "MATH 320"
         }
     },
     {
         "data": {
-            "source": "STAT 324",
+            "source": "MATH 320",
             "target": "ME 536"
         }
     },
     {
         "data": {
-            "source": "STAT 324",
-            "target": "STAT 371"
+            "source": "MATH 375",
+            "target": "MATH 376"
         }
     },
     {
         "data": {
-            "source": "STAT 371",
-            "target": "STAT 324"
+            "source": "MATH 376",
+            "target": "ME 536"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     }
 ]

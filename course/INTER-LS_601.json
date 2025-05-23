@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Select a particular application area of social science research -- a contemporary issue or problem area related to one's own career or community experiences and goals-- through a series of readings, group discussions, research activities, and writing assignments. Design a research review project that will summarize and analyze the most promising social science research paths to a solution of this issue or problem.  Key steps include: problem definition, literature review, and thesis development.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "INTER-LS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 302,
-                "subjects": [
-                    "INTER-LS"
-                ]
-            },
-            {
-                "course_number": 301,
-                "subjects": [
-                    "INTER-LS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "INTER-LS"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 302,
-                "subjects": [
-                    "INTER-LS"
-                ]
-            }
-        ],
-        "prerequisites_text": "INTER-LS\u00a0301and302"
-    },
+        {
+            "course_number": 302,
+            "subjects": [
+                "INTER-LS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "INTER-LS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 302,
+                    "subjects": [
+                        "INTER-LS"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -119,19 +92,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 302,
-            "subjects": [
-                "INTER-LS"
-            ]
-        },
-        {
             "course_number": 602,
             "subjects": [
                 "INTER-LS"
             ]
         },
         {
-            "course_number": 106,
+            "course_number": 302,
             "subjects": [
                 "INTER-LS"
             ]
@@ -144,6 +111,12 @@
         },
         {
             "course_number": 301,
+            "subjects": [
+                "INTER-LS"
+            ]
+        },
+        {
+            "course_number": 106,
             "subjects": [
                 "INTER-LS"
             ]

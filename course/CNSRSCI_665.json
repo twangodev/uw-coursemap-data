@@ -27,87 +27,45 @@
         "unsatisfactory": 0
     },
     "description": "Application of advanced analytical techniques to examine household financial risk. Implications for financial planning of changes in family structure and earnings. Private and social insurance that guard against economic consequences of death, disability, ill health, retirement, marital dissolution. Use of financial planning software.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "ECON"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 275,
-                "subjects": [
-                    "CNSRSCI"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 275,
-                "subjects": [
-                    "CNSRSCI"
-                ]
-            }
-        ],
-        "prerequisites_text": "(ECON\u00a0101or111) andCNSR\u00a0SCI\u00a0275"
-    },
+        {
+            "course_number": 275,
+            "subjects": [
+                "CNSRSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "ECON"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 111,
+                            "subjects": [
+                                "ECON"
+                            ]
                         }
                     ],
                     "operator": "OR"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 275,
+                    "subjects": [
+                        "CNSRSCI"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -159,19 +117,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 275,
-            "subjects": [
-                "CNSRSCI"
-            ]
-        },
-        {
-            "course_number": 775,
-            "subjects": [
-                "CNSRSCI"
-            ]
-        },
-        {
             "course_number": 273,
+            "subjects": [
+                "CNSRSCI"
+            ]
+        },
+        {
+            "course_number": 675,
             "subjects": [
                 "CNSRSCI"
             ]
@@ -183,7 +135,13 @@
             ]
         },
         {
-            "course_number": 675,
+            "course_number": 775,
+            "subjects": [
+                "CNSRSCI"
+            ]
+        },
+        {
+            "course_number": 275,
             "subjects": [
                 "CNSRSCI"
             ]

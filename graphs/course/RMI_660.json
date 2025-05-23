@@ -1,18 +1,26 @@
 [
     {
         "data": {
-            "description": "Build fundamental skills and processes to develop a strong foundation in business analysis utilizing Excel. Learn the fundamentals of data construction, manipulation, summarization, analysis and presentation.",
-            "id": "GENBUS 106",
-            "parent": "GENBUS",
-            "title": "FOUNDATIONAL SKILLS FOR BUSINESS ANALYSIS"
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
         }
     },
     {
         "data": {
-            "description": "Development of quantitative intuition through practical applications and use of analysis tools. Specifically, emphasis will be on how to manage, summarize, explore, and visualize databases. The essentials of probability will be introduced and applied to decision problems where there is uncertainty. Emphasis on hypothesis testing and regression analysis and include an introduction to simulation methods. Throughout, attention will be paid to effective communication of data analysis. The use of business cases will connect the course material to both real world settings and recent advances in data analysis, including big data and data mining.",
-            "id": "GENBUS 306",
-            "parent": "GENBUS",
-            "title": "BUSINESS ANALYTICS I"
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
         }
     },
     {
@@ -37,14 +45,6 @@
             "id": "GENBUS 704",
             "parent": "GENBUS",
             "title": "DATA TO DECISIONS"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
@@ -89,6 +89,14 @@
     },
     {
         "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "id": "ECON",
             "type": "compound"
         }
@@ -109,6 +117,12 @@
         "data": {
             "id": "RMI",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 101",
+            "target": "ECON 102"
         }
     },
     {
@@ -137,50 +151,56 @@
     },
     {
         "data": {
-            "source": "GENBUS 106",
-            "target": "GENBUS 306"
-        }
-    },
-    {
-        "data": {
-            "source": "GENBUS 306",
-            "target": "RMI 660"
-        }
-    },
-    {
-        "data": {
             "source": "GENBUS 704",
             "target": "RMI 660"
         }
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "GENBUS 306"
+            "source": "MATH 112",
+            "target": "MATH 113"
         }
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
+            "source": "MATH 112",
             "target": "MATH 221"
         }
     },
     {
         "data": {
-            "source": "MATH 213",
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
             "target": "MATH 221"
         }
     },
     {
         "data": {
             "source": "MATH 221",
+            "target": "ECON 111"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
             "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {

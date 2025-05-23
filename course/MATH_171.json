@@ -27,90 +27,39 @@
         "unsatisfactory": 1
     },
     "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "placement into",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "does not fulfill the requisite"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 96,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 96,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 96,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 171,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ". ",
-            {
-                "course_number": 118,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " does not fulfill the requisite"
-        ],
-        "prerequisites_text": "MATH\u00a096or placement intoMATH\u00a0171.MATH\u00a0118does not fulfill the requisite"
-    },
+        {
+            "course_number": 118,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 96,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 "placement into",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 171,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "."
                             ],
@@ -122,8 +71,10 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 118,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         "does not fulfill the requisite"
                     ],
@@ -134,13 +85,13 @@
         },
         "course_references": [
             {
-                "course_number": 96,
+                "course_number": 118,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 118,
+                "course_number": 96,
                 "subjects": [
                     "MATH"
                 ]
@@ -179,25 +130,25 @@
             ]
         },
         {
-            "course_number": 114,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
             "course_number": 217,
             "subjects": [
                 "MATH"
             ]
         },
         {
-            "course_number": 211,
+            "course_number": 221,
             "subjects": [
                 "MATH"
             ]
         },
         {
-            "course_number": 221,
+            "course_number": 114,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 211,
             "subjects": [
                 "MATH"
             ]
@@ -293,8 +244,8 @@
                 "f": 30,
                 "incomplete": 0,
                 "instructors": [
-                    "SEAN PAUL",
-                    "JOSEPH MILLER"
+                    "JOSEPH MILLER",
+                    "SEAN PAUL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -472,8 +423,8 @@
                 "f": 9,
                 "incomplete": 0,
                 "instructors": [
-                    "LAURA VILLAFUERTE ALTUZAR",
-                    "ALEXANDER HANHART"
+                    "ALEXANDER HANHART",
+                    "LAURA VILLAFUERTE ALTUZAR"
                 ],
                 "no_credit": 0,
                 "no_work": 1,

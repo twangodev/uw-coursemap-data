@@ -27,46 +27,26 @@
         "unsatisfactory": 0
     },
     "description": "Application and use of GIS techniques in physical and human geography. Includes an introduction to a generic framework of GIS applications, case studies, and student projects. Cases range from urban and regional geography, to marketing geography, and to physical and environmental geography.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 377,
-                "subjects": [
-                    "CIVENGR",
-                    "ENVIRST",
-                    "GEOG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 377,
-                "subjects": [
-                    "ENVIRST",
-                    "CIVENGR",
-                    "GEOG"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "GEOG/\u200bCIV\u00a0ENGR/\u200bENVIR\u00a0ST\u00a0\u00a0377or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 377,
+            "subjects": [
+                "CIVENGR",
+                "ENVIRST",
+                "GEOG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 377,
+                    "subjects": [
+                        "CIVENGR",
+                        "ENVIRST",
+                        "GEOG"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -86,8 +66,8 @@
             {
                 "course_number": 377,
                 "subjects": [
-                    "ENVIRST",
                     "CIVENGR",
+                    "ENVIRST",
                     "GEOG"
                 ]
             },
@@ -97,17 +77,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 377,
+            "subjects": [
+                "CIVENGR",
+                "ENVIRST",
+                "GEOG"
+            ]
+        },
+        {
             "course_number": 532,
             "subjects": [
                 "URBRPL",
                 "ENVIRST",
-                "GEOG",
-                "LANDARC"
-            ]
-        },
-        {
-            "course_number": 579,
-            "subjects": [
+                "LANDARC",
                 "GEOG"
             ]
         },
@@ -124,10 +106,8 @@
             ]
         },
         {
-            "course_number": 377,
+            "course_number": 579,
             "subjects": [
-                "ENVIRST",
-                "CIVENGR",
                 "GEOG"
             ]
         }

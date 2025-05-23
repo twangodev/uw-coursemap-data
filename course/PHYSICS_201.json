@@ -27,110 +27,38 @@
         "unsatisfactory": 4
     },
     "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not open to students with credit for",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ". Not open to students with credit for ",
-            {
-                "course_number": 207,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "MATH\u00a0217or221. Not open to students with credit forPHYSICS\u00a0207or247."
-    },
+        {
+            "course_number": 207,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 221,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 "."
                             ],
@@ -145,8 +73,10 @@
                             "children": [
                                 "Not open to students with credit for",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 207,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -154,8 +84,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 247,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 },
                                 "."
                             ],
@@ -227,19 +159,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 247,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
             "course_number": 202,
             "subjects": [
                 "PHYSICS"
             ]
         },
         {
-            "course_number": 207,
+            "course_number": 103,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 247,
             "subjects": [
                 "PHYSICS"
             ]
@@ -251,7 +183,7 @@
             ]
         },
         {
-            "course_number": 103,
+            "course_number": 207,
             "subjects": [
                 "PHYSICS"
             ]
@@ -297,8 +229,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Lisa EVERETT",
-                    "Cary FOREST"
+                    "Cary FOREST",
+                    "Lisa EVERETT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1002,8 +934,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MOHAMMAD SHERAFATI",
-                    "Yibin Pan"
+                    "Yibin Pan",
+                    "MOHAMMAD SHERAFATI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1028,8 +960,8 @@
                 "f": 3,
                 "incomplete": 1,
                 "instructors": [
-                    "Josh Weber",
-                    "Yibin Pan"
+                    "Yibin Pan",
+                    "Josh Weber"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1054,8 +986,8 @@
                 "f": 3,
                 "incomplete": 2,
                 "instructors": [
-                    "Josh Weber",
-                    "JEFFREY SCHMIDT"
+                    "JEFFREY SCHMIDT",
+                    "Josh Weber"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1105,8 +1037,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Josh Weber",
-                    "Sridhara DASU"
+                    "Sridhara DASU",
+                    "Josh Weber"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

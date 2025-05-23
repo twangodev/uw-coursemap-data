@@ -27,79 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to algebraic topology. Emphasis on geometric aspects, including two-dimensional manifolds, the fundamental group, covering spaces, basic simplicial homology theory, the Euler-Poincare formula, and homotopy classes of mappings.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                {
-                    "children": [
-                        "member of the Pre-Masters Mathematics",
-                        "Visiting International",
-                        "Program"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 551,
+            "subjects": [
+                "MATH"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 551,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 541,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 551,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 541,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ") or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-        ],
-        "prerequisites_text": "(MATH\u00a0551and541) or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-    },
+        {
+            "course_number": 541,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 551,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 541,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -118,13 +75,13 @@
         },
         "course_references": [
             {
-                "course_number": 551,
+                "course_number": 541,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 541,
+                "course_number": 551,
                 "subjects": [
                     "MATH"
                 ]
@@ -151,13 +108,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 851,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 951,
+            "course_number": 853,
             "subjects": [
                 "MATH"
             ]
@@ -169,13 +120,19 @@
             ]
         },
         {
-            "course_number": 853,
+            "course_number": 753,
             "subjects": [
                 "MATH"
             ]
         },
         {
-            "course_number": 753,
+            "course_number": 951,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 851,
             "subjects": [
                 "MATH"
             ]

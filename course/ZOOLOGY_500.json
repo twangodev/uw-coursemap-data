@@ -27,45 +27,15 @@
         "unsatisfactory": 0
     },
     "description": "A wide range of topics in neurobiology research from molecular neurobiology to integrative systems. Topics discussed by invited UW-Madison faculty researchers might include: ion channels and synaptic plasticity, neural development, sensory and cognitive physiology, biological basis of behavioral disorders and cognitive decline.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Declared in Neurobiology",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "concurrent enrollment."
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Neurobiology and ",
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            " or concurrent enrollment."
-        ],
-        "prerequisites_text": "Declared in Neurobiology andZOOLOGY/\u200bPSYCH\u00a0\u00a0523or concurrent enrollment."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 523,
+            "subjects": [
+                "PSYCH",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -73,8 +43,11 @@
                     "children": [
                         "Declared in Neurobiology",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 523,
+                            "subjects": [
+                                "PSYCH",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -87,8 +60,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -97,8 +70,8 @@
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             },
             " or concurrent enrollment."
@@ -107,21 +80,8 @@
     },
     "similar_courses": [
         {
-            "course_number": 205,
-            "subjects": [
-                "PSYCH"
-            ]
-        },
-        {
             "course_number": 200,
             "subjects": [
-                "ZOOLOGY"
-            ]
-        },
-        {
-            "course_number": 616,
-            "subjects": [
-                "NEURODPT",
                 "ZOOLOGY"
             ]
         },
@@ -132,10 +92,23 @@
             ]
         },
         {
+            "course_number": 616,
+            "subjects": [
+                "NEURODPT",
+                "ZOOLOGY"
+            ]
+        },
+        {
             "course_number": 620,
             "subjects": [
                 "ZOOLOGY",
                 "NTP"
+            ]
+        },
+        {
+            "course_number": 205,
+            "subjects": [
+                "PSYCH"
             ]
         }
     ],

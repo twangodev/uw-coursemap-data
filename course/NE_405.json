@@ -27,129 +27,56 @@
         "unsatisfactory": 0
     },
     "description": "The neutronics behavior of fission reactors, primarily from a theoretical, one-speed perspective. Criticality, fission product poisoning, reactivity control, reactor stability and introductory concepts in fuel management, followed by slowing down and one-speed diffusion theory.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 305,
+            "subjects": [
+                "NE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 305,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 305,
-                "subjects": [
-                    "NE"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 321,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "N\u00a0E\u00a0305and (MATH\u00a0319,320,321, or375), or graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 319,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 305,
+                            "subjects": [
+                                "NE"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 319,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 321,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 375,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -164,7 +91,7 @@
         },
         "course_references": [
             {
-                "course_number": 319,
+                "course_number": 321,
                 "subjects": [
                     "MATH"
                 ]
@@ -176,7 +103,13 @@
                 ]
             },
             {
-                "course_number": 321,
+                "course_number": 375,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 319,
                 "subjects": [
                     "MATH"
                 ]
@@ -185,12 +118,6 @@
                 "course_number": 305,
                 "subjects": [
                     "NE"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
                 ]
             }
         ],
@@ -235,12 +162,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 555,
-            "subjects": [
-                "NE"
-            ]
-        },
-        {
             "course_number": 411,
             "subjects": [
                 "NE"
@@ -253,13 +174,19 @@
             ]
         },
         {
+            "course_number": 505,
+            "subjects": [
+                "NE"
+            ]
+        },
+        {
             "course_number": 305,
             "subjects": [
                 "NE"
             ]
         },
         {
-            "course_number": 505,
+            "course_number": 555,
             "subjects": [
                 "NE"
             ]

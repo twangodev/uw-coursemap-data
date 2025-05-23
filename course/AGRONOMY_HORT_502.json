@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 502,
         "subjects": [
-            "AGRONOMY",
-            "HORT"
+            "HORT",
+            "AGRONOMY"
         ]
     },
     "course_title": "TECHNIQUES OF PLANT BREEDING",
@@ -28,112 +28,21 @@
         "unsatisfactory": 0
     },
     "description": "Lab and field techniques used in breeding and maintaining economic crops.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 466,
+            "subjects": [
+                "GENETICS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 466,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 467,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(GENETICS\u00a0466or467) and (BOTANY/\u200bBIOLOGY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151, orBIOCORE\u00a0381) or graduate/professional standing"
-    },
+        {
+            "course_number": 130,
+            "subjects": [
+                "BIOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -142,12 +51,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 466,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 467,
+                                    "subjects": [
+                                        "GENETICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -155,16 +68,25 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 130,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 151,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 381,
+                                    "subjects": [
+                                        "BIOCORE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -178,7 +100,14 @@
         },
         "course_references": [
             {
-                "course_number": 467,
+                "course_number": 130,
+                "subjects": [
+                    "BIOLOGY",
+                    "BOTANY"
+                ]
+            },
+            {
+                "course_number": 466,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -190,7 +119,7 @@
                 ]
             },
             {
-                "course_number": 466,
+                "course_number": 467,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -200,13 +129,6 @@
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
                     "BOTANY"
                 ]
             }
@@ -258,23 +180,8 @@
         {
             "course_number": 338,
             "subjects": [
-                "AGRONOMY",
-                "HORT"
-            ]
-        },
-        {
-            "course_number": 957,
-            "subjects": [
-                "GENETICS",
-                "AGRONOMY",
-                "HORT"
-            ]
-        },
-        {
-            "course_number": 550,
-            "subjects": [
-                "GENETICS",
-                "HORT"
+                "HORT",
+                "AGRONOMY"
             ]
         },
         {
@@ -286,8 +193,23 @@
         {
             "course_number": 501,
             "subjects": [
-                "AGRONOMY",
-                "HORT"
+                "HORT",
+                "AGRONOMY"
+            ]
+        },
+        {
+            "course_number": 550,
+            "subjects": [
+                "HORT",
+                "GENETICS"
+            ]
+        },
+        {
+            "course_number": 957,
+            "subjects": [
+                "GENETICS",
+                "HORT",
+                "AGRONOMY"
             ]
         }
     ],
@@ -305,8 +227,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Irwin Goldman",
-                    "JAMES NIENHUIS"
+                    "JAMES NIENHUIS",
+                    "Irwin Goldman"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -331,8 +253,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Irwin Goldman",
-                    "JAMES NIENHUIS"
+                    "JAMES NIENHUIS",
+                    "Irwin Goldman"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -382,8 +304,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Irwin Goldman",
-                    "JAMES NIENHUIS"
+                    "JAMES NIENHUIS",
+                    "Irwin Goldman"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -408,9 +330,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YIQUN WENG",
+                    "JAMES NIENHUIS",
                     "Irwin Goldman",
-                    "JAMES NIENHUIS"
+                    "YIQUN WENG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -435,8 +357,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Irwin Goldman",
-                    "JAMES NIENHUIS"
+                    "JAMES NIENHUIS",
+                    "Irwin Goldman"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -461,8 +383,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Irwin Goldman",
-                    "JAMES NIENHUIS"
+                    "JAMES NIENHUIS",
+                    "Irwin Goldman"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -487,8 +409,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Irwin Goldman",
-                    "JAMES NIENHUIS"
+                    "JAMES NIENHUIS",
+                    "Irwin Goldman"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

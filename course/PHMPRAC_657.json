@@ -27,42 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Addresses the selection, dosing, and monitoring of drugs in children from birth to adolescence. Drugs in pregnancy and lactation are also addressed. The course combines lecture,small group work, and discussion.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "concurrent enrollment"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 656,
-                "subjects": [
-                    "PHMPRAC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 656,
-                "subjects": [
-                    "PHMPRAC"
-                ]
-            },
-            " or concurrent enrollment"
-        ],
-        "prerequisites_text": "PHM\u00a0PRAC\u00a0656or concurrent enrollment"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 656,
+            "subjects": [
+                "PHMPRAC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 656,
+                    "subjects": [
+                        "PHMPRAC"
+                    ]
                 },
                 "concurrent enrollment"
             ],
@@ -101,12 +81,6 @@
             ]
         },
         {
-            "course_number": 556,
-            "subjects": [
-                "PHMPRAC"
-            ]
-        },
-        {
             "course_number": 654,
             "subjects": [
                 "PHMPRAC"
@@ -114,6 +88,12 @@
         },
         {
             "course_number": 655,
+            "subjects": [
+                "PHMPRAC"
+            ]
+        },
+        {
+            "course_number": 556,
             "subjects": [
                 "PHMPRAC"
             ]

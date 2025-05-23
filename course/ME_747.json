@@ -27,71 +27,30 @@
         "unsatisfactory": 0
     },
     "description": "Digital control theory, design methodology, and techniques for controller implementation on digital computers. Advanced single and multi-axis motion generation algorithms. Multiple processor control systems. Multiple objective control systems for machinery guidance and manufacturing processes. Precision control. Knowledge of digital control [such asM\u00a0E\u00a0447] strongly encouraged.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 446,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 332,
-                "subjects": [
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 446,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 332,
-                "subjects": [
-                    "ECE"
-                ]
-            },
-            ") and graduate/professional standing"
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0446orE\u00a0C\u00a0E\u00a0332) and graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 446,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 446,
+                            "subjects": [
+                                "ME"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 332,
+                            "subjects": [
+                                "ECE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -102,15 +61,15 @@
         },
         "course_references": [
             {
-                "course_number": 446,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
                 "course_number": 332,
                 "subjects": [
                     "ECE"
+                ]
+            },
+            {
+                "course_number": 446,
+                "subjects": [
+                    "ME"
                 ]
             }
         ],
@@ -141,13 +100,14 @@
             ]
         },
         {
-            "course_number": 447,
+            "course_number": 577,
             "subjects": [
-                "ME"
+                "ME",
+                "ECE"
             ]
         },
         {
-            "course_number": 577,
+            "course_number": 733,
             "subjects": [
                 "ME",
                 "ECE"
@@ -160,10 +120,9 @@
             ]
         },
         {
-            "course_number": 733,
+            "course_number": 447,
             "subjects": [
-                "ME",
-                "ECE"
+                "ME"
             ]
         }
     ],
@@ -606,8 +565,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "NEIL DUFFIE",
-                    "PETER MEYER"
+                    "PETER MEYER",
+                    "NEIL DUFFIE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

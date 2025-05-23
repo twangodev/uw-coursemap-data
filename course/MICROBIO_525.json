@@ -8,42 +8,22 @@
     "course_title": "FIELD STUDIES OF PLANETARY MICROBIOLOGY AND LIFE IN THE UNIVERSE",
     "cumulative_grade_data": null,
     "description": "Explores the origins, early evolution, and most common traces left by our planet's form of microbial life. Discovery and interpretation of microbial biosignatures in the context of a simulated surface lander mission through travel to field sites. Introduction to microbial biosignatures as inferred through satellite and drone imagery interpretation, portable XRF elemental analysis, UV-VIS-IR spectrophotometry, body and trace fossil analysis and interpretation, and metagenome sequencing. Explore evidence and methods of detection of life on other planets.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 520,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 520,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "MICROBIO\u00a0520or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 520,
+            "subjects": [
+                "MICROBIO"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 520,
+                    "subjects": [
+                        "MICROBIO"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -70,12 +50,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 117,
-            "subjects": [
-                "GEOSCI"
-            ]
-        },
-        {
             "course_number": 520,
             "subjects": [
                 "MICROBIO"
@@ -88,6 +62,13 @@
             ]
         },
         {
+            "course_number": 425,
+            "subjects": [
+                "SOILSCI",
+                "MICROBIO"
+            ]
+        },
+        {
             "course_number": 154,
             "subjects": [
                 "ZOOLOGY",
@@ -95,10 +76,9 @@
             ]
         },
         {
-            "course_number": 425,
+            "course_number": 117,
             "subjects": [
-                "MICROBIO",
-                "SOILSCI"
+                "GEOSCI"
             ]
         }
     ],

@@ -27,43 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "Fundamental principles of engine operation and application including cycle analysis, gas analysis, effect of operating conditions and engine design on air pollution.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "M\u00a0E\u00a0361, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 361,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 361,
+                    "subjects": [
+                        "ME"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -91,15 +70,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 623,
+            "course_number": 569,
             "subjects": [
-                "EPD"
-            ]
-        },
-        {
-            "course_number": 361,
-            "subjects": [
-                "EPD"
+                "ME"
             ]
         },
         {
@@ -109,15 +82,21 @@
             ]
         },
         {
-            "course_number": 569,
+            "course_number": 769,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 769,
+            "course_number": 361,
             "subjects": [
-                "ME"
+                "EPD"
+            ]
+        },
+        {
+            "course_number": 623,
+            "subjects": [
+                "EPD"
             ]
         }
     ],

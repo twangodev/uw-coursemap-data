@@ -27,83 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Develop a knowledge of fundamental mathematical tools for quantitatively assessing risk. Emphasize the applications of these tools to problems encountered in actuarial science.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "concurrent enrollment"
-                            ],
-                            "operator": "OR"
-                        },
-                        "declared in undergraduate Business Exchange program."
-                    ],
-                    "operator": "OR"
-                },
-                "Not open to graduate/professional students."
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 331,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 331,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or concurrent enrollment), or declared in undergraduate Business Exchange program. Not open to graduate/professional students."
-        ],
-        "prerequisites_text": "(STAT/\u200bMATH\u00a0\u00a0309,MATH\u00a0331,STAT\u00a0333,340, or concurrent enrollment), or declared in undergraduate Business Exchange program. Not open to graduate/professional students."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 331,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -112,20 +43,29 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 309,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 331,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 333,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 "concurrent enrollment"
                             ],
@@ -141,15 +81,16 @@
         },
         "course_references": [
             {
-                "course_number": 331,
+                "course_number": 309,
                 "subjects": [
+                    "STAT",
                     "MATH"
                 ]
             },
             {
-                "course_number": 333,
+                "course_number": 331,
                 "subjects": [
-                    "STAT"
+                    "MATH"
                 ]
             },
             {
@@ -159,9 +100,8 @@
                 ]
             },
             {
-                "course_number": 309,
+                "course_number": 333,
                 "subjects": [
-                    "MATH",
                     "STAT"
                 ]
             }
@@ -171,8 +111,8 @@
             {
                 "course_number": 309,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ", ",
@@ -202,7 +142,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 650,
+            "course_number": 651,
             "subjects": [
                 "ACTSCI"
             ]
@@ -214,7 +154,7 @@
             ]
         },
         {
-            "course_number": 301,
+            "course_number": 650,
             "subjects": [
                 "ACTSCI"
             ]
@@ -226,7 +166,7 @@
             ]
         },
         {
-            "course_number": 651,
+            "course_number": 301,
             "subjects": [
                 "ACTSCI"
             ]
@@ -246,8 +186,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kirk PETER",
-                    "JIE GAO"
+                    "JIE GAO",
+                    "Kirk PETER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -272,8 +212,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kirk PETER",
-                    "Peng Shi"
+                    "Peng Shi",
+                    "Kirk PETER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

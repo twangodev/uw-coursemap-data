@@ -2,10 +2,10 @@
     "course_reference": {
         "course_number": 444,
         "subjects": [
-            "ENVIRST",
             "GEOSCI",
-            "GLE",
-            "CIVENGR"
+            "ENVIRST",
+            "CIVENGR",
+            "GLE"
         ]
     },
     "course_title": "PRACTICAL APPLICATIONS OF GPS SURVEYING",
@@ -30,79 +30,34 @@
         "unsatisfactory": 0
     },
     "description": "Global positioning system surveying for field applications. Signals. Coordinate systems. Datums. Cartographic projections. Satellite orbits. Choosing hardware. Strategies for data collection and analysis. Assessing uncertainty. Geocoding satellite images. Integrating data with Geographic Information Systems. Emerging technologies.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "MATH\u00a0211,217,221, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 211,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 211,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 217,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 221,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -156,12 +111,26 @@
     },
     "similar_courses": [
         {
+            "course_number": 379,
+            "subjects": [
+                "GEOG"
+            ]
+        },
+        {
+            "course_number": 377,
+            "subjects": [
+                "CIVENGR",
+                "ENVIRST",
+                "GEOG"
+            ]
+        },
+        {
             "course_number": 532,
             "subjects": [
                 "URBRPL",
                 "ENVIRST",
-                "GEOG",
-                "LANDARC"
+                "LANDARC",
+                "GEOG"
             ]
         },
         {
@@ -172,22 +141,8 @@
             ]
         },
         {
-            "course_number": 379,
-            "subjects": [
-                "GEOG"
-            ]
-        },
-        {
             "course_number": 170,
             "subjects": [
-                "GEOG"
-            ]
-        },
-        {
-            "course_number": 377,
-            "subjects": [
-                "ENVIRST",
-                "CIVENGR",
                 "GEOG"
             ]
         }

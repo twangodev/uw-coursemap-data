@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Provides methods and materials for appropriate dance instruction in the public and private sectors for an array of ages. Advocates for Dance Education in both public and private settings and emphasizes the value of Dance in enhancing the quality of life for all people.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 156,
+            "subjects": [
+                "DANCE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 274,
-                "subjects": [
-                    "DANCE"
-                ]
-            },
-            {
-                "course_number": 156,
-                "subjects": [
-                    "DANCE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 156,
-                "subjects": [
-                    "DANCE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 274,
-                "subjects": [
-                    "DANCE"
-                ]
-            }
-        ],
-        "prerequisites_text": "DANCE\u00a0156and274"
-    },
+        {
+            "course_number": 274,
+            "subjects": [
+                "DANCE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 156,
+                    "subjects": [
+                        "DANCE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 274,
+                    "subjects": [
+                        "DANCE"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -119,7 +92,19 @@
     },
     "similar_courses": [
         {
+            "course_number": 379,
+            "subjects": [
+                "DANCE"
+            ]
+        },
+        {
             "course_number": 399,
+            "subjects": [
+                "DANCE"
+            ]
+        },
+        {
+            "course_number": 373,
             "subjects": [
                 "DANCE"
             ]
@@ -132,18 +117,6 @@
         },
         {
             "course_number": 100,
-            "subjects": [
-                "DANCE"
-            ]
-        },
-        {
-            "course_number": 373,
-            "subjects": [
-                "DANCE"
-            ]
-        },
-        {
-            "course_number": 379,
             "subjects": [
                 "DANCE"
             ]

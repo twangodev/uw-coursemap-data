@@ -27,71 +27,36 @@
         "unsatisfactory": 3
     },
     "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns. For civil engineers.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 201,
+            "subjects": [
+                "EMA"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "E\u00a0M\u00a0A\u00a0201andMATH\u00a0222, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "EMA"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -135,18 +100,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 306,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 601,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
             "course_number": 506,
             "subjects": [
                 "EMA"
@@ -161,8 +114,20 @@
         {
             "course_number": 307,
             "subjects": [
-                "EMA",
+                "ME",
+                "EMA"
+            ]
+        },
+        {
+            "course_number": 306,
+            "subjects": [
                 "ME"
+            ]
+        },
+        {
+            "course_number": 601,
+            "subjects": [
+                "EMA"
             ]
         }
     ],
@@ -806,8 +771,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Corinne HENAK",
-                    "Christian FRANCK"
+                    "Christian FRANCK",
+                    "Corinne HENAK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -988,12 +953,12 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "Andrew MIKKELSON",
+                    "ZISHENG YE",
                     "TANMAY GALANKAR",
-                    "MATTHEW WROBLEWSKI",
                     "GRAHAM HUNT",
                     "Jennifer Detlor",
-                    "Andrew MIKKELSON",
-                    "ZISHENG YE"
+                    "MATTHEW WROBLEWSKI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1018,8 +983,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "YING LI",
-                    "MELIH ERITEN"
+                    "MELIH ERITEN",
+                    "YING LI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

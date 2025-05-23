@@ -2,96 +2,25 @@
     "course_reference": {
         "course_number": 651,
         "subjects": [
-            "F&WECOL",
-            "ZOOLOGY",
             "ENVIRST",
-            "BOTANY"
+            "ZOOLOGY",
+            "BOTANY",
+            "F&WECOL"
         ]
     },
     "course_title": "CONSERVATION BIOLOGY",
     "cumulative_grade_data": null,
     "description": "Application of ecological principles and human dimensions to the conservation of biological diversity. Topics: biodiversity science; conservation planning; population ecology; habitat loss, species exploitation, invasive species, pollution; human attitudes and activities as they affect the biosphere; approaches to monitoring interventions.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Satisfied Quantitative Reasoning",
-                        "QR",
-                        "A requirement",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 460,
-                "subjects": [
-                    "F&WECOL",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 450,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 455,
-                "subjects": [
-                    "F&WECOL",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Satisfied Quantitative Reasoning (QR) A requirement and ",
-            {
-                "course_number": 450,
-                "subjects": [
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 455,
-                "subjects": [
-                    "F&WECOL",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 460,
-                "subjects": [
-                    "F&WECOL",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "Satisfied Quantitative Reasoning (QR) A requirement andZOOLOGY/\u200bBOTANY\u00a0\u00a0450,F&W\u00a0ECOL/\u200bBOTANY\u00a0\u00a0455,ZOOLOGY/\u200bBOTANY/\u200bF&W\u00a0ECOL\u00a0\u00a0460, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 460,
+            "subjects": [
+                "F&WECOL",
+                "ZOOLOGY",
+                "BOTANY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -101,19 +30,29 @@
                         "QR",
                         "A requirement",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 450,
+                            "subjects": [
+                                "ZOOLOGY",
+                                "BOTANY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 455,
+                    "subjects": [
+                        "F&WECOL",
+                        "BOTANY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 460,
+                    "subjects": [
+                        "F&WECOL",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -121,16 +60,16 @@
         },
         "course_references": [
             {
-                "course_number": 450,
+                "course_number": 460,
                 "subjects": [
+                    "F&WECOL",
                     "ZOOLOGY",
                     "BOTANY"
                 ]
             },
             {
-                "course_number": 460,
+                "course_number": 450,
                 "subjects": [
-                    "F&WECOL",
                     "ZOOLOGY",
                     "BOTANY"
                 ]
@@ -175,18 +114,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 110,
-            "subjects": [
-                "F&WECOL"
-            ]
-        },
-        {
-            "course_number": 413,
-            "subjects": [
-                "ENVIRST"
-            ]
-        },
-        {
             "course_number": 460,
             "subjects": [
                 "F&WECOL",
@@ -195,15 +122,27 @@
             ]
         },
         {
-            "course_number": 360,
+            "course_number": 110,
             "subjects": [
-                "F&WECOL",
-                "ZOOLOGY",
-                "ENVIRST"
+                "F&WECOL"
             ]
         },
         {
             "course_number": 951,
+            "subjects": [
+                "ENVIRST"
+            ]
+        },
+        {
+            "course_number": 360,
+            "subjects": [
+                "ENVIRST",
+                "ZOOLOGY",
+                "F&WECOL"
+            ]
+        },
+        {
+            "course_number": 413,
             "subjects": [
                 "ENVIRST"
             ]

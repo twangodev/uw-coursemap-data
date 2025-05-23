@@ -27,70 +27,36 @@
         "unsatisfactory": 0
     },
     "description": "Focuses on silkscreen printing. Discharge, burnout, and chemical resist processes, specific to screen printing. Develop conceptual ideas and explore alternative ways of producing images.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 227,
+            "subjects": [
+                "DS"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 227,
-                "subjects": [
-                    "DS"
-                ]
-            },
-            {
-                "course_number": 327,
-                "subjects": [
-                    "DS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 227,
-                "subjects": [
-                    "DS"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 327,
-                "subjects": [
-                    "DS"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "DS\u00a0227and327, or graduate/professional standing"
-    },
+        {
+            "course_number": 327,
+            "subjects": [
+                "DS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 227,
+                            "subjects": [
+                                "DS"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 327,
+                            "subjects": [
+                                "DS"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -101,13 +67,13 @@
         },
         "course_references": [
             {
-                "course_number": 327,
+                "course_number": 227,
                 "subjects": [
                     "DS"
                 ]
             },
             {
-                "course_number": 227,
+                "course_number": 327,
                 "subjects": [
                     "DS"
                 ]
@@ -133,12 +99,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 101,
-            "subjects": [
-                "DS"
-            ]
-        },
-        {
             "course_number": 319,
             "subjects": [
                 "DS"
@@ -151,13 +111,19 @@
             ]
         },
         {
-            "course_number": 428,
+            "course_number": 101,
             "subjects": [
                 "DS"
             ]
         },
         {
             "course_number": 227,
+            "subjects": [
+                "DS"
+            ]
+        },
+        {
+            "course_number": 428,
             "subjects": [
                 "DS"
             ]

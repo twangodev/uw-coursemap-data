@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 563,
         "subjects": [
-            "PLPATH",
-            "BOTANY"
+            "BOTANY",
+            "PLPATH"
         ]
     },
     "course_title": "PHYLOGENETIC ANALYSIS OF MOLECULAR DATA",
@@ -28,148 +28,21 @@
         "unsatisfactory": 0
     },
     "description": "Theory and practice of phylogenetic inference from DNA sequence data.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 130,
+            "subjects": [
+                "BIOLOGY",
+                "BOTANY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 240,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 324,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 371,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,BOTANY/\u200bBIOLOGY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101, orBIOCORE\u00a0381) and (STAT\u00a0240,301,324, or371) or graduate/professional standing"
-    },
+        {
+            "course_number": 371,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -178,20 +51,32 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 151,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 130,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "BOTANY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 381,
+                                    "subjects": [
+                                        "BIOCORE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -199,20 +84,28 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 240,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 301,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 324,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 371,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -226,16 +119,16 @@
         },
         "course_references": [
             {
-                "course_number": 301,
+                "course_number": 130,
                 "subjects": [
-                    "STAT"
+                    "BIOLOGY",
+                    "BOTANY"
                 ]
             },
             {
-                "course_number": 101,
+                "course_number": 301,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
+                    "STAT"
                 ]
             },
             {
@@ -257,12 +150,6 @@
                 ]
             },
             {
-                "course_number": 240,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
                 "course_number": 151,
                 "subjects": [
                     "BIOLOGY",
@@ -271,10 +158,16 @@
                 ]
             },
             {
-                "course_number": 130,
+                "course_number": 101,
                 "subjects": [
                     "BIOLOGY",
-                    "BOTANY"
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 240,
+                "subjects": [
+                    "STAT"
                 ]
             }
         ],
@@ -351,26 +244,26 @@
             ]
         },
         {
-            "course_number": 505,
+            "course_number": 130,
             "subjects": [
-                "ENTOM",
-                "PLPATH",
+                "BIOLOGY",
                 "BOTANY"
             ]
         },
         {
             "course_number": 624,
             "subjects": [
+                "ZOOLOGY",
                 "ENTOM",
-                "GENETICS",
-                "ZOOLOGY"
+                "GENETICS"
             ]
         },
         {
-            "course_number": 130,
+            "course_number": 505,
             "subjects": [
-                "BIOLOGY",
-                "BOTANY"
+                "PLPATH",
+                "BOTANY",
+                "ENTOM"
             ]
         },
         {
@@ -394,8 +287,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "David BAUM",
-                    "NATALIA IVALU CACHO"
+                    "NATALIA IVALU CACHO",
+                    "David BAUM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

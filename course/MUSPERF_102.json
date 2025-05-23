@@ -27,68 +27,31 @@
         "unsatisfactory": 0
     },
     "description": "Continuation of group instruction in beginning piano.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "declared in Music"
-                    ],
-                    "operator": "AND"
-                },
-                "Music: Performance BM",
-                "Music: Education BM"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "MUSPERF"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "MUSPERF"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "MUSPERF"
-                ]
-            },
-            " and declared in Music, Music: Performance BM, or Music: Education BM"
-        ],
-        "prerequisites_text": "MUS\u00a0PERF\u00a0101or placement intoMUS\u00a0PERF\u00a0102and declared in Music, Music: Performance BM, or Music: Education BM"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "MUSPERF"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "MUSPERF"
+                    ]
                 },
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "MUSPERF"
+                            ]
                         },
                         "declared in Music"
                     ],
@@ -145,13 +108,13 @@
             ]
         },
         {
-            "course_number": 103,
+            "course_number": 201,
             "subjects": [
                 "MUSPERF"
             ]
         },
         {
-            "course_number": 201,
+            "course_number": 103,
             "subjects": [
                 "MUSPERF"
             ]
@@ -196,8 +159,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "QINGLAN CHEN",
-                    "YOO RI HONG"
+                    "YOO RI HONG",
+                    "QINGLAN CHEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -349,9 +312,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KA MAN NG",
                     "JIHUN CHO",
-                    "MARGARET RUNAAS"
+                    "MARGARET RUNAAS",
+                    "KA MAN NG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -401,8 +364,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SUNG HO YANG",
-                    "MARGARET RUNAAS"
+                    "MARGARET RUNAAS",
+                    "SUNG HO YANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -452,8 +415,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "HAZIM SUHADI",
-                    "DINO MULIC"
+                    "DINO MULIC",
+                    "HAZIM SUHADI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -503,8 +466,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "HAZIM SUHADI",
-                    "YUSUKE KOMURA"
+                    "YUSUKE KOMURA",
+                    "HAZIM SUHADI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -605,8 +568,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "OXANA KHRAMOVA",
-                    "KYLE JOHNSON"
+                    "KYLE JOHNSON",
+                    "OXANA KHRAMOVA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -656,8 +619,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KYLE JOHNSON",
-                    "LEAH KANG"
+                    "LEAH KANG",
+                    "KYLE JOHNSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -707,8 +670,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SHUK KI WONG",
-                    "LEAH KANG"
+                    "LEAH KANG",
+                    "SHUK KI WONG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -809,8 +772,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "YOO MIN LEE",
-                    "VIET ANH ERIC TRAN"
+                    "VIET ANH ERIC TRAN",
+                    "YOO MIN LEE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -860,8 +823,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Ying WANG",
-                    "IASON GIAGTZOGLOU"
+                    "IASON GIAGTZOGLOU",
+                    "Ying WANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -886,8 +849,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOO MIN LEE",
-                    "JESSICA JOHNSON"
+                    "JESSICA JOHNSON",
+                    "YOO MIN LEE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -912,8 +875,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CHANGYUE LIU",
-                    "JESSICA JOHNSON"
+                    "JESSICA JOHNSON",
+                    "CHANGYUE LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -938,8 +901,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOO MIN LEE",
-                    "JAMES CARL OSORIO"
+                    "JAMES CARL OSORIO",
+                    "YOO MIN LEE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -964,8 +927,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOO MIN LEE",
-                    "JAMES CARL OSORIO"
+                    "JAMES CARL OSORIO",
+                    "YOO MIN LEE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -990,10 +953,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YOO MIN LEE",
-                    "ELIZABETH VAUGHAN",
+                    "WOO LEE",
                     "JAMES CARL OSORIO",
-                    "WOO LEE"
+                    "ELIZABETH VAUGHAN",
+                    "YOO MIN LEE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1044,10 +1007,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ELIZABETH VAUGHAN",
-                    "HYEYEON SEOK",
+                    "Sarah Prescott",
                     "MINHA JEON",
-                    "Sarah Prescott"
+                    "ELIZABETH VAUGHAN",
+                    "HYEYEON SEOK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

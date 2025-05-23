@@ -27,79 +27,49 @@
         "unsatisfactory": 0
     },
     "description": "Examination of social scientific research addressing characteristics of science, public understanding of science, science news, and relationships between scientists and journalists. Application of this knowledge to several case studies examining the function of communication in specific scientific or technical contexts.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Senior standing",
-                "declared in Life Sciences Communication",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 250,
+            "subjects": [
+                "LSC"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 251,
-                "subjects": [
-                    "LSC"
-                ]
-            },
-            {
-                "course_number": 250,
-                "subjects": [
-                    "LSC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Senior standing, declared in Life Sciences Communication, ",
-            {
-                "course_number": 250,
-                "subjects": [
-                    "LSC"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 251,
-                "subjects": [
-                    "LSC"
-                ]
-            }
-        ],
-        "prerequisites_text": "Senior standing, declared in Life Sciences Communication,LSC\u00a0250and251"
-    },
+        {
+            "course_number": 251,
+            "subjects": [
+                "LSC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Senior standing",
                 "declared in Life Sciences Communication",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 250,
+                    "subjects": [
+                        "LSC"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 251,
+                    "subjects": [
+                        "LSC"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 251,
+                "course_number": 250,
                 "subjects": [
                     "LSC"
                 ]
             },
             {
-                "course_number": 250,
+                "course_number": 251,
                 "subjects": [
                     "LSC"
                 ]
@@ -125,13 +95,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 835,
-            "subjects": [
-                "LSC"
-            ]
-        },
-        {
-            "course_number": 251,
+            "course_number": 850,
             "subjects": [
                 "LSC"
             ]
@@ -149,7 +113,13 @@
             ]
         },
         {
-            "course_number": 850,
+            "course_number": 835,
+            "subjects": [
+                "LSC"
+            ]
+        },
+        {
+            "course_number": 251,
             "subjects": [
                 "LSC"
             ]

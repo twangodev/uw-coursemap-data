@@ -8,65 +8,30 @@
     "course_title": "ACCELERATED INTERMEDIATE ITALIAN",
     "cumulative_grade_data": null,
     "description": "Accelerated development of Italian oral, reading and writing skills, equivalent to the completion of bothITALIAN\u00a0203andITALIAN\u00a0204.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "105."
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        "Not open to students with credit for",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "ITALIAN"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ITALIAN"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ITALIAN"
-                ]
-            },
-            " or 105. Not open to students with credit for ",
-            {
-                "course_number": 204,
-                "subjects": [
-                    "ITALIAN"
-                ]
-            }
-        ],
-        "prerequisites_text": "ITALIAN\u00a0102or 105. Not open to students with credit forITALIAN\u00a0204"
-    },
+        {
+            "course_number": 204,
+            "subjects": [
+                "ITALIAN"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "ITALIAN"
+                            ]
                         },
                         "105."
                     ],
@@ -76,8 +41,10 @@
                     "children": [
                         "Not open to students with credit for",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 204,
+                            "subjects": [
+                                "ITALIAN"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -118,19 +85,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 204,
-            "subjects": [
-                "ITALIAN"
-            ]
-        },
-        {
-            "course_number": 201,
-            "subjects": [
-                "ITALIAN"
-            ]
-        },
-        {
             "course_number": 101,
+            "subjects": [
+                "ITALIAN"
+            ]
+        },
+        {
+            "course_number": 204,
             "subjects": [
                 "ITALIAN"
             ]
@@ -146,6 +107,12 @@
             "subjects": [
                 "ITALIAN"
             ]
+        },
+        {
+            "course_number": 201,
+            "subjects": [
+                "ITALIAN"
+            ]
         }
     ],
     "term_data": {
@@ -157,7 +124,9 @@
                 ],
                 "ethnics_studies": false,
                 "general_education": false,
-                "instructors": {},
+                "instructors": {
+                    "Giulia Schimmenti": "GSCHIMMENTI@WISC.EDU"
+                },
                 "last_taught_term": "2025 Summr",
                 "school": {
                     "abbreviation": "L",

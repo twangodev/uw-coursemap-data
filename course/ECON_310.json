@@ -27,123 +27,42 @@
         "unsatisfactory": 8
     },
     "description": "Introduction to analysis of economic data. The techniques of descriptive statistics and statistical inference (hypothesis testing and estimation) as directed toward application in economic research.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "ECON"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 111,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(ECON\u00a0101,102, or111) and (MATH\u00a0211,217, or221)"
-    },
+        {
+            "course_number": 211,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "ECON"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "ECON"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 111,
+                            "subjects": [
+                                "ECON"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -151,16 +70,22 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 211,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 217,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 221,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -170,27 +95,9 @@
         },
         "course_references": [
             {
-                "course_number": 101,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            {
                 "course_number": 217,
                 "subjects": [
                     "MATH"
-                ]
-            },
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "ECON"
                 ]
             },
             {
@@ -200,9 +107,27 @@
                 ]
             },
             {
+                "course_number": 101,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            {
                 "course_number": 111,
                 "subjects": [
                     "ECON"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "ECON"
+                ]
+            },
+            {
+                "course_number": 211,
+                "subjects": [
+                    "MATH"
                 ]
             }
         ],
@@ -255,6 +180,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 400,
+            "subjects": [
+                "ECON"
+            ]
+        },
+        {
             "course_number": 410,
             "subjects": [
                 "ECON"
@@ -268,12 +199,6 @@
         },
         {
             "course_number": 570,
-            "subjects": [
-                "ECON"
-            ]
-        },
-        {
-            "course_number": 400,
             "subjects": [
                 "ECON"
             ]
@@ -699,8 +624,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JACK PORTER",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "JACK PORTER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -725,8 +650,8 @@
                 "f": 4,
                 "incomplete": 1,
                 "instructors": [
-                    "Christopher MCKELVEY",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Christopher MCKELVEY"
                 ],
                 "no_credit": 0,
                 "no_work": 2,
@@ -801,8 +726,8 @@
                 "f": 2,
                 "incomplete": 2,
                 "instructors": [
-                    "Christopher MCKELVEY",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Christopher MCKELVEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -827,8 +752,8 @@
                 "f": 4,
                 "incomplete": 3,
                 "instructors": [
-                    "WILLIAM SANDHOLM",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "WILLIAM SANDHOLM"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -853,8 +778,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Christopher MCKELVEY",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Christopher MCKELVEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -879,8 +804,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "Christopher MCKELVEY",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Christopher MCKELVEY"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -905,8 +830,8 @@
                 "f": 6,
                 "incomplete": 1,
                 "instructors": [
-                    "WILLIAM SANDHOLM",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "WILLIAM SANDHOLM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -931,8 +856,8 @@
                 "f": 4,
                 "incomplete": 1,
                 "instructors": [
-                    "Gregory PAC",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Gregory PAC"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -957,8 +882,8 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "Gregory PAC",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Gregory PAC"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -983,8 +908,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "Gregory PAC",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Gregory PAC"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -1009,8 +934,8 @@
                 "f": 1,
                 "incomplete": 3,
                 "instructors": [
-                    "Gregory PAC",
-                    "Christopher MCKELVEY"
+                    "Christopher MCKELVEY",
+                    "Gregory PAC"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -1035,8 +960,8 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "Gregory PAC",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Gregory PAC"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -1061,8 +986,8 @@
                 "f": 4,
                 "incomplete": 2,
                 "instructors": [
-                    "Gregory PAC",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Gregory PAC"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1087,8 +1012,8 @@
                 "f": 5,
                 "incomplete": 0,
                 "instructors": [
-                    "Gregory PAC",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Gregory PAC"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1113,13 +1038,13 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "JONATHAN KROAH",
                     "Christopher MCKELVEY",
-                    "David HANSEN",
-                    "Ryan Mather",
-                    "CLAIRE KIM",
+                    "JONATHAN KROAH",
                     "JIAOYANG LI",
-                    "DUONG DANG"
+                    "DUONG DANG",
+                    "CLAIRE KIM",
+                    "Ryan Mather",
+                    "David HANSEN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1169,8 +1094,8 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "Gregory PAC",
-                    "David HANSEN"
+                    "David HANSEN",
+                    "Gregory PAC"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

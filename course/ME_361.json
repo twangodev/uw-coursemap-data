@@ -27,75 +27,20 @@
         "unsatisfactory": 2
     },
     "description": "First and second laws of thermodynamics; thermodynamic properties of gases, vapors, and gas-vapor mixtures; energy-systems analysis including power cycles, refrigeration cycles and air-conditioning processes. Introduction to thermodynamics of reacting mixtures.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 103,
+            "subjects": [
+                "CHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 103,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 201,
-                "subjects": [
-                    "EMA"
-                ]
-            },
-            ", or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(CHEM\u00a0103or109) andE\u00a0M\u00a0A\u00a0201, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 201,
+            "subjects": [
+                "EMA"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -104,19 +49,25 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 103,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 109,
+                                    "subjects": [
+                                        "CHEM"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 201,
+                            "subjects": [
+                                "EMA"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -127,7 +78,7 @@
         },
         "course_references": [
             {
-                "course_number": 103,
+                "course_number": 109,
                 "subjects": [
                     "CHEM"
                 ]
@@ -139,7 +90,7 @@
                 ]
             },
             {
-                "course_number": 109,
+                "course_number": 103,
                 "subjects": [
                     "CHEM"
                 ]
@@ -173,15 +124,21 @@
     },
     "similar_courses": [
         {
+            "course_number": 311,
+            "subjects": [
+                "CBE"
+            ]
+        },
+        {
             "course_number": 761,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 361,
+            "course_number": 310,
             "subjects": [
-                "EPD"
+                "CBE"
             ]
         },
         {
@@ -191,15 +148,9 @@
             ]
         },
         {
-            "course_number": 311,
+            "course_number": 361,
             "subjects": [
-                "CBE"
-            ]
-        },
-        {
-            "course_number": 310,
-            "subjects": [
-                "CBE"
+                "EPD"
             ]
         }
     ],
@@ -268,8 +219,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GREGORY NELLIS",
-                    "JAY MARTIN"
+                    "JAY MARTIN",
+                    "GREGORY NELLIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -294,8 +245,8 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "SANFORD KLEIN",
                     "JAY MARTIN",
+                    "SANFORD KLEIN",
                     "John PFOTENHAUER"
                 ],
                 "no_credit": 0,
@@ -347,9 +298,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "GREGORY NELLIS",
+                    "SANFORD KLEIN",
                     "DAVID FOSTER",
-                    "SANFORD KLEIN"
+                    "GREGORY NELLIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -374,9 +325,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Franklin MILLER",
                     "GREGORY NELLIS",
-                    "Mario TRUJILLO"
+                    "Mario TRUJILLO",
+                    "Franklin MILLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -401,9 +352,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "GREGORY NELLIS",
                     "JAY MARTIN",
-                    "John PFOTENHAUER"
+                    "John PFOTENHAUER",
+                    "GREGORY NELLIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -454,9 +405,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
+                    "Mark ANDERSON",
                     "Jason OAKLEY",
-                    "Franklin MILLER",
-                    "Mark ANDERSON"
+                    "Franklin MILLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -534,10 +485,10 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "MING LEI",
-                    "Tom KRUPENKIN",
                     "TSUNG-HSING HSU",
-                    "SANFORD KLEIN"
+                    "MING LEI",
+                    "SANFORD KLEIN",
+                    "Tom KRUPENKIN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -563,8 +514,8 @@
                 "incomplete": 3,
                 "instructors": [
                     "Scott SANDERS",
-                    "Franklin MILLER",
-                    "John PFOTENHAUER"
+                    "John PFOTENHAUER",
+                    "Franklin MILLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -589,9 +540,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "GREGORY NELLIS",
                     "Sage Kokjohn",
-                    "SANFORD KLEIN"
+                    "SANFORD KLEIN",
+                    "GREGORY NELLIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -617,8 +568,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Scott SANDERS",
-                    "Franklin MILLER",
-                    "Tom KRUPENKIN"
+                    "Tom KRUPENKIN",
+                    "Franklin MILLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -670,8 +621,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Jason OAKLEY",
-                    "WENJIE ZHOU",
-                    "John PFOTENHAUER"
+                    "John PFOTENHAUER",
+                    "WENJIE ZHOU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -697,8 +648,8 @@
                 "incomplete": 2,
                 "instructors": [
                     "ARGANTHAEL BERSON",
-                    "Scott SANDERS",
-                    "KRISTOFER DRESSLER"
+                    "KRISTOFER DRESSLER",
+                    "Scott SANDERS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -723,8 +674,8 @@
                 "f": 2,
                 "incomplete": 2,
                 "instructors": [
-                    "Franklin MILLER",
-                    "KRISTOFER DRESSLER"
+                    "KRISTOFER DRESSLER",
+                    "Franklin MILLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -750,8 +701,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "Scott SANDERS",
-                    "Franklin MILLER",
-                    "KRISTOFER DRESSLER"
+                    "KRISTOFER DRESSLER",
+                    "Franklin MILLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -802,9 +753,9 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "GREGORY NELLIS",
                     "Mark ANDERSON",
-                    "KRISTOFER DRESSLER"
+                    "KRISTOFER DRESSLER",
+                    "GREGORY NELLIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -933,11 +884,11 @@
                 "f": 4,
                 "incomplete": 0,
                 "instructors": [
-                    "GREGORY NELLIS",
+                    "CHEN XU",
+                    "YUHAI XIANG",
                     "Mark ANDERSON",
                     "Tom KRUPENKIN",
-                    "YUHAI XIANG",
-                    "CHEN XU"
+                    "GREGORY NELLIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -988,9 +939,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "ARGANTHAEL BERSON",
-                    "Franklin MILLER",
+                    "CHEN XU",
                     "Tom KRUPENKIN",
-                    "CHEN XU"
+                    "Franklin MILLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1067,8 +1018,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "ARGANTHAEL BERSON",
-                    "Franklin MILLER",
-                    "ALI NABAA"
+                    "ALI NABAA",
+                    "Franklin MILLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1120,8 +1071,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Jason OAKLEY",
-                    "TONY GROTJAN",
-                    "GREGORY NELLIS"
+                    "GREGORY NELLIS",
+                    "TONY GROTJAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

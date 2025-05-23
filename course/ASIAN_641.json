@@ -27,80 +27,33 @@
         "unsatisfactory": 0
     },
     "description": "Covers the history of Chinese literature from the Zhou through the end of the Yuan, focusing primarily on poetic and prose genres. Primary source readings will be in Chinese, with additional critical assessment of published translations; secondary source readings in both Chinese and English.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                "placement into",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        "graduate/professional standing."
-                    ],
-                    "operator": "OR"
-                },
-                "Not open to students with credit for E ASIAN 651 prior to Fall 2019."
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 302,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            ", placement into ",
-            {
-                "course_number": 302,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            ", or graduate/professional standing. Not open to students with credit for E ASIAN 651 prior to Fall 2019."
-        ],
-        "prerequisites_text": "ASIALANG\u00a0301, placement intoASIALANG\u00a0302, or graduate/professional standing. Not open to students with credit for E ASIAN 651 prior to Fall 2019."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 302,
+            "subjects": [
+                "ASIALANG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 301,
+                            "subjects": [
+                                "ASIALANG"
+                            ]
                         },
                         {
                             "children": [
                                 "placement into",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 302,
+                                    "subjects": [
+                                        "ASIALANG"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -115,13 +68,13 @@
         },
         "course_references": [
             {
-                "course_number": 302,
+                "course_number": 301,
                 "subjects": [
                     "ASIALANG"
                 ]
             },
             {
-                "course_number": 301,
+                "course_number": 302,
                 "subjects": [
                     "ASIALANG"
                 ]
@@ -147,7 +100,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 642,
+            "course_number": 951,
+            "subjects": [
+                "ASIAN"
+            ]
+        },
+        {
+            "course_number": 701,
             "subjects": [
                 "ASIAN"
             ]
@@ -165,13 +124,7 @@
             ]
         },
         {
-            "course_number": 701,
-            "subjects": [
-                "ASIAN"
-            ]
-        },
-        {
-            "course_number": 951,
+            "course_number": 642,
             "subjects": [
                 "ASIAN"
             ]

@@ -27,71 +27,44 @@
         "unsatisfactory": 0
     },
     "description": "Statistical function estimation and classification; reproducing kernel machines, support vector machines; high dimensional model selection and estimation; Bayesian, empirical Bayesian interpretation of nonparametric learning methods; log density ANOVA and graphical models; tree ensemble methods including bagging, boosting, and random forest.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 610,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 610,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 710,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            }
-        ],
-        "prerequisites_text": "STAT\u00a0610orMATH/\u200bSTAT\u00a0\u00a0710"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 610,
+            "subjects": [
+                "STAT"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 610,
+                    "subjects": [
+                        "STAT"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 710,
+                    "subjects": [
+                        "STAT",
+                        "MATH"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 610,
+                "course_number": 710,
                 "subjects": [
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             {
-                "course_number": 710,
+                "course_number": 610,
                 "subjects": [
-                    "MATH",
                     "STAT"
                 ]
             }
@@ -107,14 +80,20 @@
             {
                 "course_number": 710,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             }
         ],
         "prerequisites_text": "STAT\u00a0610orMATH/\u200bSTAT\u00a0\u00a0710"
     },
     "similar_courses": [
+        {
+            "course_number": 443,
+            "subjects": [
+                "STAT"
+            ]
+        },
         {
             "course_number": 451,
             "subjects": [
@@ -128,21 +107,15 @@
             ]
         },
         {
-            "course_number": 613,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
             "course_number": 861,
             "subjects": [
-                "COMPSCI",
                 "STAT",
-                "ECE"
+                "ECE",
+                "COMPSCI"
             ]
         },
         {
-            "course_number": 443,
+            "course_number": 613,
             "subjects": [
                 "STAT"
             ]

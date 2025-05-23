@@ -27,66 +27,32 @@
         "unsatisfactory": 0
     },
     "description": "Extensive readings in modern Japanese literature and discussion of literary content.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "E ASIAN 303 prior to Fall 2019",
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 304,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 303,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            },
-            " (or E ASIAN 303 prior to Fall 2019) or placement into ",
-            {
-                "course_number": 304,
-                "subjects": [
-                    "ASIALANG"
-                ]
-            }
-        ],
-        "prerequisites_text": "ASIALANG\u00a0303(or E ASIAN 303 prior to Fall 2019) or placement intoASIALANG\u00a0304"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 304,
+            "subjects": [
+                "ASIALANG"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 303,
+                    "subjects": [
+                        "ASIALANG"
+                    ]
                 },
                 "E ASIAN 303 prior to Fall 2019",
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 304,
+                            "subjects": [
+                                "ASIALANG"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -127,25 +93,25 @@
     },
     "similar_courses": [
         {
-            "course_number": 573,
-            "subjects": [
-                "ASIAN"
-            ]
-        },
-        {
             "course_number": 355,
             "subjects": [
                 "ASIAN"
             ]
         },
         {
-            "course_number": 354,
+            "course_number": 763,
             "subjects": [
                 "ASIAN"
             ]
         },
         {
-            "course_number": 763,
+            "course_number": 573,
+            "subjects": [
+                "ASIAN"
+            ]
+        },
+        {
+            "course_number": 354,
             "subjects": [
                 "ASIAN"
             ]

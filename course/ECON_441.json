@@ -27,55 +27,28 @@
         "unsatisfactory": 3
     },
     "description": "Analyzes the problems of the public sector in dealing with domestic issues of education, urban areas, welfare, natural resources, and the environment; provides students with opportunity to apply the tools of economic analysis that are pertinent to domestic public sector problems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ECON"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "ECON"
-                ]
-            }
-        ],
-        "prerequisites_text": "ECON\u00a0301or311"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "ECON"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "ECON"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "ECON"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -113,7 +86,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 968,
+            "course_number": 741,
             "subjects": [
                 "ECON"
             ]
@@ -125,7 +98,7 @@
             ]
         },
         {
-            "course_number": 742,
+            "course_number": 968,
             "subjects": [
                 "ECON"
             ]
@@ -133,12 +106,12 @@
         {
             "course_number": 845,
             "subjects": [
-                "URBRPL",
-                "ECON"
+                "ECON",
+                "URBRPL"
             ]
         },
         {
-            "course_number": 741,
+            "course_number": 742,
             "subjects": [
                 "ECON"
             ]

@@ -1,6 +1,14 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
             "description": "An examination of intellectual freedom in the United States including censorship, minors' rights, the Internet, privacy, and copyright with focus on theoretical questions related to the First Amendment to the U.S. Constitution, and historical developments.",
             "id": "LEGALST/LIS 645",
             "title": "INTELLECTUAL FREEDOM"
@@ -188,6 +196,14 @@
             "id": "LIS 668",
             "parent": "LIS",
             "title": "DIGITAL CURATION AND COLLECTIONS"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
         }
     },
     {
@@ -446,14 +462,6 @@
             "id": "LIS 652",
             "parent": "LIS",
             "title": "XML AND LINKED DATA"
-        }
-    },
-    {
-        "data": {
-            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
-            "id": "COMPSCI 220",
-            "parent": "COMPSCI",
-            "title": "DATA SCIENCE PROGRAMMING I"
         }
     },
     {
@@ -727,14 +735,14 @@
     },
     {
         "data": {
-            "source": "COMARTS/LIS 705",
-            "target": "LIS 706"
+            "id": "MATH",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "source": "COMPSCI 220",
-            "target": "COMPSCI 320"
+            "source": "COMARTS/LIS 705",
+            "target": "LIS 706"
         }
     },
     {
@@ -843,6 +851,18 @@
         "data": {
             "source": "LIS 602",
             "target": "LIS 826"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "COMPSCI/LIS 102"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "COMPSCI/LIS 102"
         }
     }
 ]

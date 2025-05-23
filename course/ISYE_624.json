@@ -27,135 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Techniques for modeling systems in which uncertainty is an essential factor. Emphasizes why, how and when techniques can or cannot be applied, rather than their mathematical derivation. Case studies and/or examples from such areas as logistics, production, and service industries.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 311,
+            "subjects": [
+                "STAT"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 311,
-                "subjects": [
-                    "STAT"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(STAT/\u200bMATH\u00a0\u00a0309,311, orSTAT/\u200bMATH\u00a0\u00a0431) and (MATH\u00a0320,340,341, or375), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 320,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -164,16 +49,24 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 309,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 311,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 431,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -181,20 +74,28 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 341,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 375,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -209,13 +110,19 @@
         },
         "course_references": [
             {
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
                 "course_number": 311,
                 "subjects": [
                     "STAT"
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
@@ -227,29 +134,23 @@
                 ]
             },
             {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 309,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 320,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 431,
+                "subjects": [
+                    "STAT",
+                    "MATH"
                 ]
             }
         ],
@@ -258,8 +159,8 @@
             {
                 "course_number": 309,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ", ",
@@ -273,8 +174,8 @@
             {
                 "course_number": 431,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ") and (",
@@ -311,18 +212,16 @@
     },
     "similar_courses": [
         {
-            "course_number": 320,
+            "course_number": 719,
             "subjects": [
-                "ISYE"
+                "ISYE",
+                "COMPSCI"
             ]
         },
         {
-            "course_number": 632,
+            "course_number": 323,
             "subjects": [
-                "ISYE",
-                "OTM",
-                "MATH",
-                "STAT"
+                "ISYE"
             ]
         },
         {
@@ -332,16 +231,18 @@
             ]
         },
         {
-            "course_number": 719,
+            "course_number": 320,
             "subjects": [
-                "COMPSCI",
                 "ISYE"
             ]
         },
         {
-            "course_number": 323,
+            "course_number": 632,
             "subjects": [
-                "ISYE"
+                "STAT",
+                "MATH",
+                "ISYE",
+                "OTM"
             ]
         }
     ],
@@ -709,8 +610,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "YIXUAN ZHANG",
-                    "Qiaomin XIE"
+                    "Qiaomin XIE",
+                    "YIXUAN ZHANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

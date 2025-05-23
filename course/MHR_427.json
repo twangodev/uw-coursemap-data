@@ -27,66 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "General management course that analyzes and integrates growth patterns and business disciplines in context of nascent and high growth firms.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Sophomore standing",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        "declared in undergraduate Business Exchange program."
-                    ],
-                    "operator": "OR"
-                },
-                "Not open to graduate/professional students"
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 422,
+            "subjects": [
+                "MHR"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 422,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            {
-                "course_number": 211,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing, ",
-            {
-                "course_number": 422,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            ", and ",
-            {
-                "course_number": 211,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            },
-            "; or declared in undergraduate Business Exchange program. Not open to graduate/professional students"
-        ],
-        "prerequisites_text": "Sophomore standing,M\u00a0H\u00a0R\u00a0422, andACCT\u00a0I\u00a0S\u00a0211; or declared in undergraduate Business Exchange program. Not open to graduate/professional students"
-    },
+        {
+            "course_number": 211,
+            "subjects": [
+                "ACCTIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -96,12 +50,16 @@
                             "children": [
                                 "Sophomore standing",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 422,
+                                    "subjects": [
+                                        "MHR"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 211,
+                                    "subjects": [
+                                        "ACCTIS"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -116,15 +74,15 @@
         },
         "course_references": [
             {
-                "course_number": 422,
-                "subjects": [
-                    "MHR"
-                ]
-            },
-            {
                 "course_number": 211,
                 "subjects": [
                     "ACCTIS"
+                ]
+            },
+            {
+                "course_number": 422,
+                "subjects": [
+                    "MHR"
                 ]
             }
         ],
@@ -149,13 +107,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 724,
+            "course_number": 722,
             "subjects": [
                 "MHR"
             ]
         },
         {
-            "course_number": 722,
+            "course_number": 724,
             "subjects": [
                 "MHR"
             ]
@@ -343,7 +301,7 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael WILLIAMS"
+                    "Michael Williams"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -694,8 +652,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CHANG LIU",
-                    "PHILIP GREENWOOD"
+                    "PHILIP GREENWOOD",
+                    "CHANG LIU"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

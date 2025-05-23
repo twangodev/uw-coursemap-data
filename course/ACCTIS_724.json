@@ -27,67 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Methodologies and tools for tax research; utilization of tax research tools; preparation of investigative reports; professional and interprofessional responsibilities; administrative procedures and techniques.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Graduate/professional standing",
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        "declared in Business: Accounting",
-                        "Business Analysis MSB"
-                    ],
-                    "operator": "AND"
-                },
-                "declared in graduate Business Exchange program"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 620,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            },
-            {
-                "course_number": 742,
-                "subjects": [
-                    "LAW"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Graduate/professional standing and (",
-            {
-                "course_number": 620,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 742,
-                "subjects": [
-                    "LAW"
-                ]
-            },
-            "), declared in Business: Accounting and Business Analysis MSB, or declared in graduate Business Exchange program"
-        ],
-        "prerequisites_text": "Graduate/professional standing and (ACCT\u00a0I\u00a0S\u00a0620orLAW\u00a0742), declared in Business: Accounting and Business Analysis MSB, or declared in graduate Business Exchange program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 620,
+            "subjects": [
+                "ACCTIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -97,12 +44,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 620,
+                                    "subjects": [
+                                        "ACCTIS"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 742,
+                                    "subjects": [
+                                        "LAW"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -118,15 +69,15 @@
         },
         "course_references": [
             {
-                "course_number": 620,
-                "subjects": [
-                    "ACCTIS"
-                ]
-            },
-            {
                 "course_number": 742,
                 "subjects": [
                     "LAW"
+                ]
+            },
+            {
+                "course_number": 620,
+                "subjects": [
+                    "ACCTIS"
                 ]
             }
         ],
@@ -157,18 +108,6 @@
             ]
         },
         {
-            "course_number": 725,
-            "subjects": [
-                "ACCTIS"
-            ]
-        },
-        {
-            "course_number": 772,
-            "subjects": [
-                "ACCTIS"
-            ]
-        },
-        {
             "course_number": 971,
             "subjects": [
                 "ACCTIS"
@@ -176,6 +115,18 @@
         },
         {
             "course_number": 601,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 725,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 772,
             "subjects": [
                 "ACCTIS"
             ]

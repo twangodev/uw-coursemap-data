@@ -27,86 +27,34 @@
         "unsatisfactory": 1
     },
     "description": "A rigorous introduction to probability theory at an advanced undergraduate level. Only a minimal amount of measure theory is used, in particular, the theory of Lebesgue integrals is not needed. It is aimed at math majors and Master's degree students, or students in other fields who will need probability in their future careers. Gives an introduction to the basics (Kolmogorov axioms, conditional probability and independence, random variables, expectation) and discusses some classical results with proofs (DeMoivre-Laplace limit theorems, the study of simple random walk on the one dimensional lattice, applications of generating functions).",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                {
-                    "children": [
-                        "member of the Pre-Masters Mathematics",
-                        "Visiting International",
-                        "Program"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 521,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 421,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 421,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 521,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-        ],
-        "prerequisites_text": "MATH\u00a0376,421, or521or graduate/professional standing or member of the Pre-Masters Mathematics (Visiting International) Program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 521,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 376,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 421,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 521,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing",
                 {
@@ -122,12 +70,6 @@
         },
         "course_references": [
             {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 521,
                 "subjects": [
                     "MATH"
@@ -135,6 +77,12 @@
             },
             {
                 "course_number": 421,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 376,
                 "subjects": [
                     "MATH"
                 ]
@@ -167,17 +115,17 @@
     },
     "similar_courses": [
         {
-            "course_number": 733,
+            "course_number": 709,
             "subjects": [
-                "MATH",
-                "STAT"
+                "STAT",
+                "MATH"
             ]
         },
         {
-            "course_number": 431,
+            "course_number": 733,
             "subjects": [
-                "MATH",
-                "STAT"
+                "STAT",
+                "MATH"
             ]
         },
         {
@@ -187,17 +135,17 @@
             ]
         },
         {
-            "course_number": 709,
+            "course_number": 431,
             "subjects": [
-                "MATH",
-                "STAT"
+                "STAT",
+                "MATH"
             ]
         },
         {
             "course_number": 833,
             "subjects": [
-                "MATH",
-                "STAT"
+                "STAT",
+                "MATH"
             ]
         }
     ],

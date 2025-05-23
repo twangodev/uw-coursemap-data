@@ -27,64 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "Planning, designing, and managing civil and environmental engineering systems. Fundamentals of the systems approach; marginal analysis; optimization techniques; decision analysis; economic analysis; cost-effectiveness analysis. Case study applications.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "MATH\u00a0217,221, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 217,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 221,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -125,15 +89,16 @@
     },
     "similar_courses": [
         {
-            "course_number": 578,
+            "course_number": 322,
             "subjects": [
                 "CIVENGR"
             ]
         },
         {
-            "course_number": 322,
+            "course_number": 421,
             "subjects": [
-                "CIVENGR"
+                "CIVENGR",
+                "GLE"
             ]
         },
         {
@@ -143,16 +108,15 @@
             ]
         },
         {
-            "course_number": 421,
+            "course_number": 694,
             "subjects": [
-                "GLE",
-                "CIVENGR"
+                "CIVENGR",
+                "PUBAFFR"
             ]
         },
         {
-            "course_number": 694,
+            "course_number": 578,
             "subjects": [
-                "PUBAFFR",
                 "CIVENGR"
             ]
         }

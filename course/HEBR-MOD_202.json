@@ -27,64 +27,31 @@
         "unsatisfactory": 0
     },
     "description": "Readings from modern Hebrew texts, intermediate grammar and syntax, development of oral proficiency, emphasis on class discussions.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        "placement into",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "HEBR-MOD"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 201,
-                "subjects": [
-                    "HEBR-MOD"
-                ]
-            },
-            " or placement into ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "HEBR-MOD"
-                ]
-            }
-        ],
-        "prerequisites_text": "HEBR-MOD\u00a0201or placement intoHEBR-MOD\u00a0202"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 201,
+            "subjects": [
+                "HEBR-MOD"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 201,
+                    "subjects": [
+                        "HEBR-MOD"
+                    ]
                 },
                 {
                     "children": [
                         "placement into",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 202,
+                            "subjects": [
+                                "HEBR-MOD"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -119,19 +86,19 @@
     },
     "similar_courses": [
         {
-            "course_number": 311,
-            "subjects": [
-                "HEBR-MOD"
-            ]
-        },
-        {
             "course_number": 101,
             "subjects": [
                 "HEBR-MOD"
             ]
         },
         {
-            "course_number": 201,
+            "course_number": 311,
+            "subjects": [
+                "HEBR-MOD"
+            ]
+        },
+        {
+            "course_number": 102,
             "subjects": [
                 "HEBR-MOD"
             ]
@@ -143,7 +110,7 @@
             ]
         },
         {
-            "course_number": 102,
+            "course_number": 201,
             "subjects": [
                 "HEBR-MOD"
             ]

@@ -27,87 +27,37 @@
         "unsatisfactory": 0
     },
     "description": "Continuation ofPHYSICS\u00a0247. Electromagnetism, circuits, optics, additional topics in modern physics; with computation.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 247,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or concurrent enrollment or ",
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or concurrent enrollment)"
-        ],
-        "prerequisites_text": "PHYSICS\u00a0247and (MATH\u00a0234or concurrent enrollment orMATH\u00a0376or concurrent enrollment)"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 247,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 247,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         "concurrent enrollment",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 376,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -118,12 +68,6 @@
         },
         "course_references": [
             {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 247,
                 "subjects": [
                     "PHYSICS"
@@ -131,6 +75,12 @@
             },
             {
                 "course_number": 234,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 376,
                 "subjects": [
                     "MATH"
                 ]
@@ -163,13 +113,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 249,
-            "subjects": [
-                "PHYSICS"
-            ]
-        },
-        {
-            "course_number": 247,
+            "course_number": 104,
             "subjects": [
                 "PHYSICS"
             ]
@@ -181,13 +125,19 @@
             ]
         },
         {
-            "course_number": 104,
+            "course_number": 249,
             "subjects": [
                 "PHYSICS"
             ]
         },
         {
             "course_number": 241,
+            "subjects": [
+                "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 247,
             "subjects": [
                 "PHYSICS"
             ]
@@ -234,8 +184,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Cary FOREST",
-                    "LYNN DOUGLAS KNUTSON",
-                    "LAWRENCE WATSON"
+                    "LAWRENCE WATSON",
+                    "LYNN DOUGLAS KNUTSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -260,8 +210,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Lisa EVERETT",
-                    "TERESA MONTARULI"
+                    "TERESA MONTARULI",
+                    "Lisa EVERETT"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -286,8 +236,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LYNN DOUGLAS KNUTSON",
-                    "Gary SHIU"
+                    "Gary SHIU",
+                    "LYNN DOUGLAS KNUTSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -312,8 +262,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Duncan CARLSMITH",
-                    "BRUCE MELLADO"
+                    "BRUCE MELLADO",
+                    "Duncan CARLSMITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -492,8 +442,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Brian REBEL",
-                    "Duncan CARLSMITH"
+                    "Duncan CARLSMITH",
+                    "Brian REBEL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

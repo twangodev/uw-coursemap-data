@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 526,
         "subjects": [
-            "COMPSCI",
-            "ISYE"
+            "ISYE",
+            "COMPSCI"
         ]
     },
     "course_title": "ADVANCED LINEAR PROGRAMMING",
@@ -28,162 +28,67 @@
         "unsatisfactory": 0
     },
     "description": "Review of linear programming. Polynomial time methods for linear programming. Quadratic programs and linear complementarity problems and related solution techniques. Solution sets and their continuity properties. Error bounds for linear inequalities and programs. Parallel algorithms for linear and quadratic programs.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "301",
-                                "302",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [
-                                        "placement into",
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 525,
-                "subjects": [
-                    "ISYE",
-                    "COMPSCI",
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 525,
-                "subjects": [
-                    "MATH",
-                    "COMPSCI",
-                    "ISYE",
-                    "STAT"
-                ]
-            },
-            " and (",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", 301, 302, ",
-            {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", or placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ") or graduate/professional standing"
-        ],
-        "prerequisites_text": "STAT/\u200bCOMP\u00a0SCI/\u200bI\u00a0SY\u00a0E/\u200bMATH\u00a0\u00a0525and (COMP\u00a0SCI\u00a0200,220,300, 301, 302,310, or placement intoCOMP\u00a0SCI\u00a0300) or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 525,
+            "subjects": [
+                "STAT",
+                "MATH",
+                "ISYE",
+                "COMPSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 525,
+                            "subjects": [
+                                "STAT",
+                                "MATH",
+                                "ISYE",
+                                "COMPSCI"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 200,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 220,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 300,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 "301",
                                 "302",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 310,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
                                     "children": [
                                         "placement into",
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 300,
+                                            "subjects": [
+                                                "COMPSCI"
+                                            ]
                                         }
                                     ],
                                     "operator": "AND"
@@ -200,22 +105,19 @@
         },
         "course_references": [
             {
-                "course_number": 200,
+                "course_number": 300,
                 "subjects": [
                     "COMPSCI"
                 ]
             },
             {
-                "course_number": 525,
+                "course_number": 220,
                 "subjects": [
-                    "ISYE",
-                    "COMPSCI",
-                    "MATH",
-                    "STAT"
+                    "COMPSCI"
                 ]
             },
             {
-                "course_number": 300,
+                "course_number": 200,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -227,8 +129,11 @@
                 ]
             },
             {
-                "course_number": 220,
+                "course_number": 525,
                 "subjects": [
+                    "STAT",
+                    "MATH",
+                    "ISYE",
                     "COMPSCI"
                 ]
             }
@@ -237,10 +142,10 @@
             {
                 "course_number": 525,
                 "subjects": [
+                    "STAT",
                     "MATH",
-                    "COMPSCI",
                     "ISYE",
-                    "STAT"
+                    "COMPSCI"
                 ]
             },
             " and (",
@@ -284,6 +189,21 @@
     },
     "similar_courses": [
         {
+            "course_number": 723,
+            "subjects": [
+                "ISYE",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 524,
+            "subjects": [
+                "ECE",
+                "COMPSCI",
+                "ISYE"
+            ]
+        },
+        {
             "course_number": 728,
             "subjects": [
                 "MATH",
@@ -292,32 +212,17 @@
             ]
         },
         {
-            "course_number": 524,
+            "course_number": 787,
             "subjects": [
-                "COMPSCI",
-                "ISYE",
-                "ECE"
+                "COMPSCI"
             ]
         },
         {
             "course_number": 525,
             "subjects": [
+                "STAT",
                 "MATH",
                 "ISYE",
-                "COMPSCI",
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 723,
-            "subjects": [
-                "COMPSCI",
-                "ISYE"
-            ]
-        },
-        {
-            "course_number": 787,
-            "subjects": [
                 "COMPSCI"
             ]
         }
@@ -386,8 +291,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael FERRIS",
-                    "XIAOMIN ZHANG"
+                    "XIAOMIN ZHANG",
+                    "Michael FERRIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

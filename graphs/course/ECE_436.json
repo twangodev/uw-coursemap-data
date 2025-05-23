@@ -1,6 +1,14 @@
 [
     {
         "data": {
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
+        }
+    },
+    {
+        "data": {
             "description": "Amplitude, frequency, pulse, and pulse-code modulation. Narrow-band noise representation and signal-to-noise ratios for various modulation schemes. Pulse shaping, timing recovery, carrier synchronization, and equalization. Sampling, quantization and coding.",
             "id": "ECE 436",
             "parent": "ECE",
@@ -33,14 +41,6 @@
     },
     {
         "data": {
-            "description": "Time-domain response and convolution; frequency-domain response using Fourier series, Fourier transform, Laplace transform; discrete Fourier series and transform; sampling; z-transform; relationships between time and frequency descriptions of discrete and continuous signals and systems.",
-            "id": "ECE 330",
-            "parent": "ECE",
-            "title": "SIGNALS AND SYSTEMS"
-        }
-    },
-    {
-        "data": {
             "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
             "id": "MATH 171",
             "parent": "MATH",
@@ -62,19 +62,13 @@
     {
         "data": {
             "source": "ECE 203",
-            "target": "ECE 330"
-        }
-    },
-    {
-        "data": {
-            "source": "ECE 203",
             "target": "ECE 436"
         }
     },
     {
         "data": {
-            "source": "ECE 330",
-            "target": "ECE 436"
+            "source": "MATH 118",
+            "target": "MATH 171"
         }
     },
     {

@@ -2,105 +2,27 @@
     "course_reference": {
         "course_number": 566,
         "subjects": [
-            "ME",
-            "EP"
+            "EP",
+            "ME"
         ]
     },
     "course_title": "CRYOGENICS",
     "cumulative_grade_data": null,
     "description": "Applications of cryogenics, material properties at low temperatures, refrigeration and liquefaction systems, measurement techniques, insulation, storage and transfer of cryogenics, safety and handling.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 361,
+            "subjects": [
+                "ME"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 364,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CBE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 415,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 364,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            "), or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(M\u00a0E\u00a0361orPHYSICS\u00a0415) and (CBE\u00a0320orM\u00a0E\u00a0364), or graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 364,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -109,12 +31,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 361,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 415,
+                                    "subjects": [
+                                        "PHYSICS"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -122,12 +48,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "CBE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 364,
+                                    "subjects": [
+                                        "ME"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -142,15 +72,9 @@
         },
         "course_references": [
             {
-                "course_number": 361,
+                "course_number": 320,
                 "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 415,
-                "subjects": [
-                    "PHYSICS"
+                    "CBE"
                 ]
             },
             {
@@ -160,9 +84,15 @@
                 ]
             },
             {
-                "course_number": 320,
+                "course_number": 361,
                 "subjects": [
-                    "CBE"
+                    "ME"
+                ]
+            },
+            {
+                "course_number": 415,
+                "subjects": [
+                    "PHYSICS"
                 ]
             }
         ],
@@ -201,6 +131,18 @@
     },
     "similar_courses": [
         {
+            "course_number": 564,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 602,
+            "subjects": [
+                "NE"
+            ]
+        },
+        {
             "course_number": 561,
             "subjects": [
                 "ME"
@@ -216,18 +158,6 @@
             "course_number": 530,
             "subjects": [
                 "MS&E"
-            ]
-        },
-        {
-            "course_number": 602,
-            "subjects": [
-                "NE"
-            ]
-        },
-        {
-            "course_number": 564,
-            "subjects": [
-                "ME"
             ]
         }
     ],

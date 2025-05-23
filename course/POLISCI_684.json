@@ -27,43 +27,22 @@
         "unsatisfactory": 0
     },
     "description": "A class for honors students writing their senior honors thesis within a seminar format. Focus is on conceptualization, research design, writing of the thesis, and relevant issues of political science. Continuation of 683. Seniors only.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "senior standing only",
-                "declared in an Honors program"
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 683,
-                "subjects": [
-                    "POLISCI"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 683,
-                "subjects": [
-                    "POLISCI"
-                ]
-            },
-            ", senior standing only, and declared in an Honors program"
-        ],
-        "prerequisites_text": "POLI\u00a0SCI\u00a0683, senior standing only, and declared in an Honors program"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 683,
+            "subjects": [
+                "POLISCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 683,
+                    "subjects": [
+                        "POLISCI"
+                    ]
                 },
                 "senior standing only",
                 "declared in an Honors program"
@@ -91,13 +70,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 683,
-            "subjects": [
-                "POLISCI"
-            ]
-        },
-        {
-            "course_number": 681,
+            "course_number": 801,
             "subjects": [
                 "POLISCI"
             ]
@@ -109,13 +82,19 @@
             ]
         },
         {
-            "course_number": 801,
+            "course_number": 682,
             "subjects": [
                 "POLISCI"
             ]
         },
         {
-            "course_number": 682,
+            "course_number": 683,
+            "subjects": [
+                "POLISCI"
+            ]
+        },
+        {
+            "course_number": 681,
             "subjects": [
                 "POLISCI"
             ]

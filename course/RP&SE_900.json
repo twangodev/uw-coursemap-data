@@ -27,79 +27,49 @@
         "unsatisfactory": 0
     },
     "description": "Supervised experience in clinical rehabilitation counseling practice (advanced).",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in Rehabilitation Counselor Education graduate program",
-                "completion of",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 880,
+            "subjects": [
+                "RP&SE"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 890,
-                "subjects": [
-                    "RP&SE"
-                ]
-            },
-            {
-                "course_number": 880,
-                "subjects": [
-                    "RP&SE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Rehabilitation Counselor Education graduate program and completion of ",
-            {
-                "course_number": 880,
-                "subjects": [
-                    "RP&SE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 890,
-                "subjects": [
-                    "RP&SE"
-                ]
-            }
-        ],
-        "prerequisites_text": "Declared in Rehabilitation Counselor Education graduate program and completion ofRP\u00a0&\u00a0SE\u00a0880and890"
-    },
+        {
+            "course_number": 890,
+            "subjects": [
+                "RP&SE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Declared in Rehabilitation Counselor Education graduate program",
                 "completion of",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 880,
+                    "subjects": [
+                        "RP&SE"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 890,
+                    "subjects": [
+                        "RP&SE"
+                    ]
                 }
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 890,
+                "course_number": 880,
                 "subjects": [
                     "RP&SE"
                 ]
             },
             {
-                "course_number": 880,
+                "course_number": 890,
                 "subjects": [
                     "RP&SE"
                 ]
@@ -125,19 +95,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 920,
-            "subjects": [
-                "RP&SE"
-            ]
-        },
-        {
             "course_number": 880,
             "subjects": [
                 "RP&SE"
             ]
         },
         {
-            "course_number": 930,
+            "course_number": 910,
             "subjects": [
                 "RP&SE"
             ]
@@ -149,7 +113,13 @@
             ]
         },
         {
-            "course_number": 910,
+            "course_number": 930,
+            "subjects": [
+                "RP&SE"
+            ]
+        },
+        {
+            "course_number": 920,
             "subjects": [
                 "RP&SE"
             ]
@@ -220,8 +190,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "FONG H. CHAN",
-                    "David Rosenthal",
-                    "NORMAN BERVEN"
+                    "NORMAN BERVEN",
+                    "David Rosenthal"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

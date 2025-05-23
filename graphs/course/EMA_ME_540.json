@@ -1,18 +1,18 @@
 [
     {
         "data": {
-            "description": "Harmonic motion; natural frequencies and vibration of damped and undamped single and multi-degree of freedom systems; modal analysis; influence coefficients; lumped-mass modeling; dynamic load factors; Rayleigh's method; flow-induced vibrations; shaft whirl; balancing; vibration absorbers and tuned mass dampers; finite element modeling.",
-            "id": "ME 440",
-            "parent": "ME",
-            "title": "INTERMEDIATE VIBRATIONS"
+            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
+            "id": "MATH 118",
+            "parent": "MATH",
+            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
         }
     },
     {
         "data": {
-            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
-            "id": "MATH 320",
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
             "parent": "MATH",
-            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
+            "title": "TRIGONOMETRY"
         }
     },
     {
@@ -20,6 +20,14 @@
             "description": "Application of digital data acquisition to the investigation of mechanical components, structures and systems using time histories, transforms and response functions to characterize free, forced and transient inputs. Introduction to sensors, instrumentation and methods appropriate for dynamic system response.",
             "id": "EMA/ME 540",
             "title": "EXPERIMENTAL VIBRATION AND DYNAMIC SYSTEM ANALYSIS"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
         }
     },
     {
@@ -64,14 +72,6 @@
     },
     {
         "data": {
-            "description": "Mathematical modeling and analysis of dynamic systems with mechanical, thermal, and fluid elements. Topics: time domain solutions, analog computer simulation, linearization techniques, block diagram representation, numerical methods and frequency domain solutions. Students are assumed to have basic competence in particle and planar rigid body dynamics, matrix and vector algebra, and linear differential equations.",
-            "id": "ME 340",
-            "parent": "ME",
-            "title": "DYNAMIC SYSTEMS"
-        }
-    },
-    {
-        "data": {
             "description": "Principles of mechanics, force systems, equilibrium, structures, distributed forces, moments of inertia of areas, and friction.",
             "id": "EMA 201",
             "parent": "EMA",
@@ -80,18 +80,10 @@
     },
     {
         "data": {
-            "description": "Rectilinear and curvilinear motion of a particle; force, mass, acceleration; work, potential, and kinetic energy; impulse and momentum; kinematics of rigid bodies; moving coordinate systems with relative motion; general planar rigid body kinematics and kinetics. Applications to linkages, cams and geared systems.",
-            "id": "ME 240",
-            "parent": "ME",
-            "title": "DYNAMICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns.",
-            "id": "ME 306",
-            "parent": "ME",
-            "title": "MECHANICS OF MATERIALS"
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
         }
     },
     {
@@ -122,26 +114,8 @@
     },
     {
         "data": {
-            "id": "ME",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "source": "EMA 201",
             "target": "EMA 202"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 201",
-            "target": "ME 240"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 201",
-            "target": "ME 306"
         }
     },
     {
@@ -158,8 +132,26 @@
     },
     {
         "data": {
-            "source": "EMA/ME 540",
-            "target": "ME 440"
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 118",
+            "target": "MATH 112"
         }
     },
     {
@@ -177,7 +169,7 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "MATH 221"
+            "target": "MATH 222"
         }
     },
     {
@@ -200,56 +192,8 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "MATH 320"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "ME 240"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "ME 306"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 320",
-            "target": "ME 340"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 240",
-            "target": "EMA 545"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 240",
-            "target": "ME 340"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 306",
-            "target": "ME 440"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 340",
-            "target": "ME 440"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 440",
-            "target": "EMA/ME 540"
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     }
 ]

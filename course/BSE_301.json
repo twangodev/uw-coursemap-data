@@ -27,70 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "An introduction to land information management through the principles of geospatial technologies and methods for analysis and interpretation of geospatial data. Includes both the basic land surveying technology and advanced remote observation of land resources by airborne and space-based sensors.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 113,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 113,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 114,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "prerequisites_text": "MATH\u00a0113,114, or217"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 113,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 113,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 114,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 217,
+                    "subjects": [
+                        "MATH"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -103,13 +67,13 @@
                 ]
             },
             {
-                "course_number": 114,
+                "course_number": 113,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 113,
+                "course_number": 114,
                 "subjects": [
                     "MATH"
                 ]
@@ -141,9 +105,11 @@
     },
     "similar_courses": [
         {
-            "course_number": 579,
+            "course_number": 695,
             "subjects": [
-                "GEOG"
+                "ENVIRST",
+                "LANDARC",
+                "SOILSCI"
             ]
         },
         {
@@ -153,29 +119,27 @@
             ]
         },
         {
-            "course_number": 371,
-            "subjects": [
-                "GLE",
-                "GEOG",
-                "GEOSCI",
-                "F&WECOL",
-                "ENVIRST",
-                "LANDARC"
-            ]
-        },
-        {
             "course_number": 377,
             "subjects": [
-                "ENVIRST",
                 "CIVENGR",
+                "ENVIRST",
                 "GEOG"
             ]
         },
         {
-            "course_number": 695,
+            "course_number": 579,
             "subjects": [
-                "SOILSCI",
+                "GEOG"
+            ]
+        },
+        {
+            "course_number": 371,
+            "subjects": [
+                "GEOSCI",
                 "ENVIRST",
+                "GEOG",
+                "GLE",
+                "F&WECOL",
                 "LANDARC"
             ]
         }

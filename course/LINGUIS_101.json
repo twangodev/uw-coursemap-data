@@ -27,47 +27,25 @@
         "unsatisfactory": 7
     },
     "description": "Elementary theory and practical work in phonetics, phonology, morphology, and syntax, with attention to formal grammar.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Not open to students with credit for",
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "."
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ANTHRO",
-                    "LINGUIS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Not open to students with credit for ",
-            {
-                "course_number": 301,
-                "subjects": [
-                    "ANTHRO",
-                    "LINGUIS"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "Not open to students with credit forLINGUIS/\u200bANTHRO\u00a0\u00a0301."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "ANTHRO",
+                "LINGUIS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Not open to students with credit for",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "ANTHRO",
+                        "LINGUIS"
+                    ]
                 },
                 "."
             ],
@@ -97,6 +75,18 @@
     },
     "similar_courses": [
         {
+            "course_number": 310,
+            "subjects": [
+                "LINGUIS"
+            ]
+        },
+        {
+            "course_number": 571,
+            "subjects": [
+                "LINGUIS"
+            ]
+        },
+        {
             "course_number": 510,
             "subjects": [
                 "LINGUIS"
@@ -109,21 +99,9 @@
             ]
         },
         {
-            "course_number": 310,
-            "subjects": [
-                "LINGUIS"
-            ]
-        },
-        {
             "course_number": 301,
             "subjects": [
                 "ANTHRO",
-                "LINGUIS"
-            ]
-        },
-        {
-            "course_number": 571,
-            "subjects": [
                 "LINGUIS"
             ]
         }

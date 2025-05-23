@@ -27,71 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "The founding and growth of the military establishment, the exercise of the military art, and military policies treated in connection with relevant political, social, and economic factors.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Sophomore standing.",
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not open to students with credit for",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 427,
-                "subjects": [
-                    "HISTORY"
-                ]
-            },
-            {
-                "course_number": 428,
-                "subjects": [
-                    "HISTORY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Sophomore standing. Not open to students with credit for ",
-            {
-                "course_number": 427,
-                "subjects": [
-                    "HISTORY"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 428,
-                "subjects": [
-                    "HISTORY"
-                ]
-            },
-            "."
-        ],
-        "prerequisites_text": "Sophomore standing. Not open to students with credit forHISTORY\u00a0427or428."
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 427,
+            "subjects": [
+                "HISTORY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -102,8 +45,10 @@
                             "children": [
                                 "Not open to students with credit for",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 427,
+                                    "subjects": [
+                                        "HISTORY"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
@@ -111,8 +56,10 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 428,
+                                    "subjects": [
+                                        "HISTORY"
+                                    ]
                                 },
                                 "."
                             ],
@@ -126,13 +73,13 @@
         },
         "course_references": [
             {
-                "course_number": 428,
+                "course_number": 427,
                 "subjects": [
                     "HISTORY"
                 ]
             },
             {
-                "course_number": 427,
+                "course_number": 428,
                 "subjects": [
                     "HISTORY"
                 ]
@@ -159,13 +106,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 101,
+            "course_number": 491,
             "subjects": [
-                "HISTORY"
+                "MILSCI"
             ]
         },
         {
-            "course_number": 428,
+            "course_number": 101,
             "subjects": [
                 "HISTORY"
             ]
@@ -177,15 +124,15 @@
             ]
         },
         {
-            "course_number": 427,
+            "course_number": 428,
             "subjects": [
                 "HISTORY"
             ]
         },
         {
-            "course_number": 491,
+            "course_number": 427,
             "subjects": [
-                "MILSCI"
+                "HISTORY"
             ]
         }
     ],

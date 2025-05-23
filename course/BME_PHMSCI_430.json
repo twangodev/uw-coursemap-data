@@ -28,136 +28,20 @@
         "unsatisfactory": 1
     },
     "description": "Addresses the range of materials currently being utilized for various biomedical applications, the biological systems governing biomaterial applications, analytical techniques pertinent to biomaterial evaluation, and selected major medical applications in which biomaterials play an important role.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "OR"
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 153,
+            "subjects": [
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 153,
-                "subjects": [
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 151,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 153,
-                "subjects": [
-                    "ZOOLOGY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 343,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "(ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY\u00a0153, orBIOCORE\u00a0383) and (CHEM\u00a0341or343)"
-    },
+        {
+            "course_number": 341,
+            "subjects": [
+                "CHEM"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -166,27 +50,41 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 101,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 102,
+                                    "subjects": [
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
+                                    ]
                                 }
                             ],
                             "operator": "AND"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 151,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY",
+                                "BOTANY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 153,
+                            "subjects": [
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 383,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -194,12 +92,16 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 341,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 343,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         }
                     ],
                     "operator": "OR"
@@ -208,31 +110,6 @@
             "operator": "AND"
         },
         "course_references": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 341,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 153,
-                "subjects": [
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 383,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
             {
                 "course_number": 102,
                 "subjects": [
@@ -252,6 +129,31 @@
                     "BIOLOGY",
                     "ZOOLOGY",
                     "BOTANY"
+                ]
+            },
+            {
+                "course_number": 153,
+                "subjects": [
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 383,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 341,
+                "subjects": [
+                    "CHEM"
                 ]
             }
         ],
@@ -315,18 +217,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 510,
-            "subjects": [
-                "BME"
-            ]
-        },
-        {
-            "course_number": 648,
-            "subjects": [
-                "CBE"
-            ]
-        },
-        {
             "course_number": 545,
             "subjects": [
                 "BME"
@@ -336,6 +226,18 @@
             "course_number": 606,
             "subjects": [
                 "BME"
+            ]
+        },
+        {
+            "course_number": 510,
+            "subjects": [
+                "BME"
+            ]
+        },
+        {
+            "course_number": 648,
+            "subjects": [
+                "CBE"
             ]
         },
         {
@@ -409,8 +311,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "HEATHER WALDECK",
-                    "WEIYUAN KAO"
+                    "WEIYUAN KAO",
+                    "HEATHER WALDECK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -435,9 +337,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "WEIYUAN KAO",
                     "KYLE KLEINBECK",
-                    "HEATHER WALDECK",
-                    "WEIYUAN KAO"
+                    "HEATHER WALDECK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -462,9 +364,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "WEIYUAN KAO",
                     "DAVID CANTU",
-                    "HEATHER WALDECK",
-                    "WEIYUAN KAO"
+                    "HEATHER WALDECK"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -489,10 +391,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "John Puccinelli",
                     "COLE DRIFKA",
-                    "WHITNEY JOHNSON",
                     "WEIYUAN KAO",
-                    "John Puccinelli"
+                    "WHITNEY JOHNSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -517,8 +419,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "WEIYUAN KAO",
-                    "John Puccinelli"
+                    "John Puccinelli",
+                    "WEIYUAN KAO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -543,11 +445,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "COLE DRIFKA",
-                    "WEIYUAN KAO",
-                    "John Puccinelli",
                     "DAVID CANTU",
-                    "HANNAH COHEN"
+                    "John Puccinelli",
+                    "COLE DRIFKA",
+                    "HANNAH COHEN",
+                    "WEIYUAN KAO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -572,10 +474,10 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
+                    "John Puccinelli",
                     "COLE DRIFKA",
-                    "DANIEL THOMPSON",
                     "WEIYUAN KAO",
-                    "John Puccinelli"
+                    "DANIEL THOMPSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -600,9 +502,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KATHERINE JEFFRIS",
+                    "John Puccinelli",
                     "DEEPA ACHARYA",
-                    "John Puccinelli"
+                    "KATHERINE JEFFRIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -627,10 +529,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Randolph ASHTON",
-                    "SEYYED ALIREZA AGHAYEEMEIBODY",
                     "UGEUN CHOI",
-                    "John Puccinelli"
+                    "Randolph ASHTON",
+                    "John Puccinelli",
+                    "SEYYED ALIREZA AGHAYEEMEIBODY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -655,10 +557,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Randolph ASHTON",
+                    "Tracy Puccinelli",
                     "TIK-CHEE CHENG",
-                    "PETER MOUA",
-                    "Tracy Puccinelli"
+                    "Randolph ASHTON",
+                    "PETER MOUA"
                 ],
                 "no_credit": 0,
                 "no_work": 1,
@@ -683,10 +585,10 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Randolph ASHTON",
-                    "Tracy Puccinelli",
+                    "JAMES JORGENSEN",
                     "BRETT NAPIWOCKI",
-                    "JAMES JORGENSEN"
+                    "Randolph ASHTON",
+                    "Tracy Puccinelli"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -711,10 +613,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "Tracy Puccinelli",
                     "Randolph ASHTON",
-                    "SEYYED ALIREZA AGHAYEEMEIBODY",
                     "ANDREW BALDYS",
-                    "Tracy Puccinelli"
+                    "SEYYED ALIREZA AGHAYEEMEIBODY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -739,10 +641,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "VERA SHURYGINA",
                     "Randolph ASHTON",
-                    "Tracy Puccinelli",
                     "BRITNEY WASHINGTON",
-                    "VERA SHURYGINA"
+                    "Tracy Puccinelli"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -767,8 +669,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Randolph ASHTON",
                     "Tracy Puccinelli",
+                    "Randolph ASHTON",
                     "BRITNEY WASHINGTON",
                     "NOAH RUH"
                 ],
@@ -795,8 +697,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Randolph ASHTON",
                     "Tracy Puccinelli",
+                    "Randolph ASHTON",
                     "SETH ZIMA",
                     "FRANK SEIPEL"
                 ],

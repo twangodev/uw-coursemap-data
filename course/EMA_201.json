@@ -27,51 +27,24 @@
         "unsatisfactory": 37
     },
     "description": "Principles of mechanics, force systems, equilibrium, structures, distributed forces, moments of inertia of areas, and friction.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "concurrent enrollment"
-                    ],
-                    "operator": "OR"
-                },
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 222,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or concurrent enrollment) or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(MATH\u00a0222or concurrent enrollment) or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         "concurrent enrollment"
                     ],
@@ -103,12 +76,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 202,
-            "subjects": [
-                "EMA"
-            ]
-        },
-        {
             "course_number": 303,
             "subjects": [
                 "EMA"
@@ -116,6 +83,12 @@
         },
         {
             "course_number": 200,
+            "subjects": [
+                "EMA"
+            ]
+        },
+        {
+            "course_number": 202,
             "subjects": [
                 "EMA"
             ]
@@ -347,9 +320,9 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "SUZANNAH SANDRIK",
                     "ERIC PHILLIPS",
                     "Andrew MIKKELSON",
+                    "SUZANNAH SANDRIK",
                     "MICHAEL PLESHA"
                 ],
                 "no_credit": 0,

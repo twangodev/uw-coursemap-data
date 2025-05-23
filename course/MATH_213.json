@@ -27,70 +27,34 @@
         "unsatisfactory": 9
     },
     "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 211,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "prerequisites_text": "MATH\u00a0211,217, or221"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 211,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 211,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 217,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 221,
+                    "subjects": [
+                        "MATH"
+                    ]
                 }
             ],
             "operator": "OR"
@@ -147,13 +111,7 @@
             ]
         },
         {
-            "course_number": 421,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 211,
+            "course_number": 376,
             "subjects": [
                 "MATH"
             ]
@@ -165,7 +123,13 @@
             ]
         },
         {
-            "course_number": 376,
+            "course_number": 421,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 211,
             "subjects": [
                 "MATH"
             ]

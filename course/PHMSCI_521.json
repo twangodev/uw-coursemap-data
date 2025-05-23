@@ -8,111 +8,26 @@
     "course_title": "PHARMACOLOGY I",
     "cumulative_grade_data": null,
     "description": "Pharmacological actions of important drugs, including drugs that affect the peripheral and central nervous systems.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in the Doctor of Pharmacy program with second year standing",
-                {
-                    "children": [
-                        "declared in Pharmacology",
-                        "Toxicology BS",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 508,
+            "subjects": [
+                "BIOCHEM"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 508,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 404,
-                "subjects": [
-                    "PATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in the Doctor of Pharmacy program with second year standing; or declared in Pharmacology and Toxicology BS, ",
-            {
-                "course_number": 508,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 404,
-                "subjects": [
-                    "PATH"
-                ]
-            },
-            ", and (",
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 486,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            ")"
-        ],
-        "prerequisites_text": "Declared in the Doctor of Pharmacy program with second year standing; or declared in Pharmacology and Toxicology BS,BIOCHEM\u00a0508,PATH\u00a0404, and (ANAT&PHY\u00a0335,435, orBIOCORE\u00a0486)"
-    },
+        {
+            "course_number": 404,
+            "subjects": [
+                "PATH"
+            ]
+        },
+        {
+            "course_number": 435,
+            "subjects": [
+                "ANAT&PHY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -122,26 +37,36 @@
                         "declared in Pharmacology",
                         "Toxicology BS",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 508,
+                            "subjects": [
+                                "BIOCHEM"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 404,
+                            "subjects": [
+                                "PATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 335,
+                                    "subjects": [
+                                        "ANAT&PHY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 435,
+                                    "subjects": [
+                                        "ANAT&PHY"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 486,
+                                    "subjects": [
+                                        "BIOCORE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -154,24 +79,6 @@
         },
         "course_references": [
             {
-                "course_number": 508,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 486,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
                 "course_number": 335,
                 "subjects": [
                     "ANAT&PHY"
@@ -181,6 +88,24 @@
                 "course_number": 404,
                 "subjects": [
                     "PATH"
+                ]
+            },
+            {
+                "course_number": 435,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            {
+                "course_number": 486,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            {
+                "course_number": 508,
+                "subjects": [
+                    "BIOCHEM"
                 ]
             }
         ],
@@ -226,9 +151,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 761,
+            "course_number": 770,
             "subjects": [
-                "PHMSCI"
+                "PHARMACY"
             ]
         },
         {
@@ -251,9 +176,9 @@
             ]
         },
         {
-            "course_number": 770,
+            "course_number": 761,
             "subjects": [
-                "PHARMACY"
+                "PHMSCI"
             ]
         }
     ],

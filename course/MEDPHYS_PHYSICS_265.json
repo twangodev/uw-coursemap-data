@@ -28,96 +28,45 @@
         "unsatisfactory": 0
     },
     "description": "A general interest survey that introduces the principles and applications of medical physics. Topics include biomechanics, energy usage and temperature regulation, pressure, sound and hearing, ultrasound, electricity in the body, optics and the eye, ionizing radiation in diagnosis and therapy, radiobiology, and nuclear medicine.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 202,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 248,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "prerequisites_text": "PHYSICS\u00a0104,202,208, or248"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 208,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 104,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 202,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 208,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 248,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
             {
                 "course_number": 202,
                 "subjects": [
@@ -125,13 +74,19 @@
                 ]
             },
             {
-                "course_number": 248,
+                "course_number": 104,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 104,
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            },
+            {
+                "course_number": 248,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -170,19 +125,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 679,
-            "subjects": [
-                "MEDPHYS"
-            ]
-        },
-        {
-            "course_number": 671,
-            "subjects": [
-                "MEDPHYS"
-            ]
-        },
-        {
             "course_number": 900,
+            "subjects": [
+                "MEDPHYS"
+            ]
+        },
+        {
+            "course_number": 510,
             "subjects": [
                 "MEDPHYS"
             ]
@@ -194,7 +143,13 @@
             ]
         },
         {
-            "course_number": 510,
+            "course_number": 679,
+            "subjects": [
+                "MEDPHYS"
+            ]
+        },
+        {
+            "course_number": 671,
             "subjects": [
                 "MEDPHYS"
             ]

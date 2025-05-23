@@ -27,120 +27,20 @@
         "unsatisfactory": 0
     },
     "description": "Theory and applications of multivariate statistical methods. Basic concepts and statistical reasoning which underlie the techniques of multivariate analysis. Ideas rather than derivations stressed although basic models discussed to give the student some feeling for their adequacy in particular situations. Acquaintance with and use of existing computer programs in the multivariate analysis area.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "declared in Statistics VISP"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 333,
+            "subjects": [
+                "STAT"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ") and (",
-            {
-                "course_number": 320,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 341,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), graduate/professional standing, or declared in Statistics VISP"
-        ],
-        "prerequisites_text": "(STAT\u00a0333or340) and (MATH\u00a0320,340,341, or375), graduate/professional standing, or declared in Statistics VISP"
-    },
+        {
+            "course_number": 375,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -149,12 +49,16 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 333,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -162,20 +66,28 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 320,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 340,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 341,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 375,
+                                    "subjects": [
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -190,7 +102,19 @@
         },
         "course_references": [
             {
-                "course_number": 320,
+                "course_number": 340,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 333,
+                "subjects": [
+                    "STAT"
+                ]
+            },
+            {
+                "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
@@ -202,21 +126,9 @@
                 ]
             },
             {
-                "course_number": 375,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
-                ]
-            },
-            {
-                "course_number": 340,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 333,
-                "subjects": [
-                    "STAT"
                 ]
             },
             {
@@ -275,15 +187,9 @@
     },
     "similar_courses": [
         {
-            "course_number": 602,
+            "course_number": 850,
             "subjects": [
                 "STAT"
-            ]
-        },
-        {
-            "course_number": 560,
-            "subjects": [
-                "GEOG"
             ]
         },
         {
@@ -293,7 +199,7 @@
             ]
         },
         {
-            "course_number": 850,
+            "course_number": 602,
             "subjects": [
                 "STAT"
             ]
@@ -302,6 +208,12 @@
             "course_number": 849,
             "subjects": [
                 "STAT"
+            ]
+        },
+        {
+            "course_number": 560,
+            "subjects": [
+                "GEOG"
             ]
         }
     ],
@@ -444,8 +356,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "YIN LI",
-                    "PAUL SAVARIAPPAN"
+                    "PAUL SAVARIAPPAN",
+                    "YIN LI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

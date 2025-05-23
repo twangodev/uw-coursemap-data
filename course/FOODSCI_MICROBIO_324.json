@@ -2,8 +2,8 @@
     "course_reference": {
         "course_number": 324,
         "subjects": [
-            "MICROBIO",
-            "FOODSCI"
+            "FOODSCI",
+            "MICROBIO"
         ]
     },
     "course_title": "FOOD MICROBIOLOGY LABORATORY",
@@ -28,77 +28,21 @@
         "unsatisfactory": 0
     },
     "description": "Lab exercises dealing with food preservation, spoilage, and food poisoning. Isolation, identification and quantification of specific microbes occurring in foods, and food fermentations by bacteria and yeast.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "concurrent enrollment"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 102,
+            "subjects": [
+                "MICROBIO"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 325,
-                "subjects": [
-                    "MICROBIO",
-                    "FOODSCI"
-                ]
-            },
-            {
-                "course_number": 304,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 304,
-                "subjects": [
-                    "MICROBIO"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 325,
-                "subjects": [
-                    "MICROBIO",
-                    "FOODSCI"
-                ]
-            },
-            " or concurrent enrollment"
-        ],
-        "prerequisites_text": "(MICROBIO\u00a0102orMICROBIO\u00a0304) andFOOD\u00a0SCI/\u200bMICROBIO\u00a0\u00a0325or concurrent enrollment"
-    },
+        {
+            "course_number": 325,
+            "subjects": [
+                "FOODSCI",
+                "MICROBIO"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -107,19 +51,26 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 102,
+                                    "subjects": [
+                                        "MICROBIO"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 304,
+                                    "subjects": [
+                                        "MICROBIO"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 325,
+                            "subjects": [
+                                "FOODSCI",
+                                "MICROBIO"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -130,15 +81,15 @@
         },
         "course_references": [
             {
-                "course_number": 325,
+                "course_number": 304,
                 "subjects": [
-                    "MICROBIO",
-                    "FOODSCI"
+                    "MICROBIO"
                 ]
             },
             {
-                "course_number": 304,
+                "course_number": 325,
                 "subjects": [
+                    "FOODSCI",
                     "MICROBIO"
                 ]
             },
@@ -168,8 +119,8 @@
             {
                 "course_number": 325,
                 "subjects": [
-                    "MICROBIO",
-                    "FOODSCI"
+                    "FOODSCI",
+                    "MICROBIO"
                 ]
             },
             " or concurrent enrollment"
@@ -178,10 +129,16 @@
     },
     "similar_courses": [
         {
+            "course_number": 725,
+            "subjects": [
+                "FOODSCI"
+            ]
+        },
+        {
             "course_number": 325,
             "subjects": [
-                "MICROBIO",
-                "FOODSCI"
+                "FOODSCI",
+                "MICROBIO"
             ]
         },
         {
@@ -198,12 +155,6 @@
         },
         {
             "course_number": 432,
-            "subjects": [
-                "FOODSCI"
-            ]
-        },
-        {
-            "course_number": 725,
             "subjects": [
                 "FOODSCI"
             ]

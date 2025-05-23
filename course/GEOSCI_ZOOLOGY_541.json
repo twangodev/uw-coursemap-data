@@ -28,83 +28,37 @@
         "unsatisfactory": 0
     },
     "description": "The evolutionary process as interpreted from the fossil record. Topics include: the study of form; tempo and mode of evolution; levels and mechanisms of evolutionary change; extinction in the fossil record; trends and patterns in the history of life; macroevolution.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 304,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 304,
-                "subjects": [
-                    "GEOSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "GEOSCI\u00a0304,ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 304,
+            "subjects": [
+                "GEOSCI"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 304,
+                    "subjects": [
+                        "GEOSCI"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 101,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -163,6 +117,12 @@
     },
     "similar_courses": [
         {
+            "course_number": 204,
+            "subjects": [
+                "GEOSCI"
+            ]
+        },
+        {
             "course_number": 542,
             "subjects": [
                 "GEOSCI",
@@ -181,12 +141,6 @@
                 "ANTHRO",
                 "ZOOLOGY",
                 "BOTANY"
-            ]
-        },
-        {
-            "course_number": 204,
-            "subjects": [
-                "GEOSCI"
             ]
         },
         {
@@ -285,8 +239,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Shanan PETERS",
-                    "ANDREW ZAFFOS"
+                    "ANDREW ZAFFOS",
+                    "Shanan PETERS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

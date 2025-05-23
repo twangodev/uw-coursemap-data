@@ -8,120 +8,38 @@
     "course_title": "FIELD MARINE BIOLOGY",
     "cumulative_grade_data": null,
     "description": "Provides a hands-on, research-driven experience within a marine environment, centering on exposure to 1) the diverse organisms and ecological interactions of coastal marine habitats 2) conservation issues relevant in these habitats 3) the research process from formulating interesting biological questions to conducting scientific research. Features immersion in a variety of marine habitats along with presentations by experts on marine conservation issues.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 101,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 382,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            "), or ",
-            {
-                "course_number": 152,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
-                ]
-            }
-        ],
-        "prerequisites_text": "(BIOCORE\u00a0381and382), (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101and102), orZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0152"
-    },
+        {
+            "course_number": 102,
+            "subjects": [
+                "BIOLOGY",
+                "ZOOLOGY"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 382,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -129,41 +47,52 @@
                 {
                     "children": [
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 101,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 102,
+                            "subjects": [
+                                "BIOLOGY",
+                                "ZOOLOGY"
+                            ]
                         }
                     ],
                     "operator": "AND"
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 152,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY",
+                        "BOTANY"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 101,
+                "course_number": 102,
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 382,
+                "course_number": 381,
                 "subjects": [
                     "BIOCORE"
                 ]
             },
             {
-                "course_number": 381,
+                "course_number": 101,
                 "subjects": [
-                    "BIOCORE"
+                    "BIOLOGY",
+                    "ZOOLOGY"
                 ]
             },
             {
@@ -175,10 +104,9 @@
                 ]
             },
             {
-                "course_number": 102,
+                "course_number": 382,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
+                    "BIOCORE"
                 ]
             }
         ],
@@ -227,20 +155,29 @@
     },
     "similar_courses": [
         {
-            "course_number": 955,
+            "course_number": 800,
             "subjects": [
                 "ZOOLOGY"
             ]
         },
         {
+            "course_number": 750,
+            "subjects": [
+                "GEOSCI",
+                "ENVIRST",
+                "ZOOLOGY",
+                "ATMOCN"
+            ]
+        },
+        {
             "course_number": 911,
             "subjects": [
-                "ATMOCN",
-                "ZOOLOGY",
-                "CIVENGR",
-                "BOTANY",
                 "GEOSCI",
-                "ENVIRST"
+                "ENVIRST",
+                "ZOOLOGY",
+                "BOTANY",
+                "CIVENGR",
+                "ATMOCN"
             ]
         },
         {
@@ -250,16 +187,7 @@
             ]
         },
         {
-            "course_number": 750,
-            "subjects": [
-                "ATMOCN",
-                "GEOSCI",
-                "ZOOLOGY",
-                "ENVIRST"
-            ]
-        },
-        {
-            "course_number": 800,
+            "course_number": 955,
             "subjects": [
                 "ZOOLOGY"
             ]

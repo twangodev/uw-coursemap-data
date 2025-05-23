@@ -27,68 +27,41 @@
         "unsatisfactory": 0
     },
     "description": "Explores applications of quantum theory to both the hardware and the software that underpin modern quantum information technology. Advanced quantum circuit theory: Clifford group and Gottesman-Knill theorem, Mathematica code. Decoherence: density matrices, probability distributions, T1 and T2. Advanced error correction: master equation, Kraus operators, fault tolerance, quantum tomography. Hardware: Trapped ions, Paul traps, sideband cooling, CZ and MS gates, neutral atoms, superconductors, quantum dots.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 731,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 531,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 731,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "prerequisites_text": "PHYSICS\u00a0531or731"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 731,
+            "subjects": [
+                "PHYSICS"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 531,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 731,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
                 }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 531,
+                "course_number": 731,
                 "subjects": [
                     "PHYSICS"
                 ]
             },
             {
-                "course_number": 731,
+                "course_number": 531,
                 "subjects": [
                     "PHYSICS"
                 ]
@@ -113,10 +86,16 @@
     },
     "similar_courses": [
         {
+            "course_number": 780,
+            "subjects": [
+                "STAT"
+            ]
+        },
+        {
             "course_number": 746,
             "subjects": [
-                "PHYSICS",
-                "ECE"
+                "ECE",
+                "PHYSICS"
             ]
         },
         {
@@ -126,19 +105,13 @@
             ]
         },
         {
-            "course_number": 780,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 731,
+            "course_number": 709,
             "subjects": [
                 "PHYSICS"
             ]
         },
         {
-            "course_number": 709,
+            "course_number": 731,
             "subjects": [
                 "PHYSICS"
             ]

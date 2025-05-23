@@ -27,61 +27,34 @@
         "unsatisfactory": 0
     },
     "description": "Formulate and reflect on the obligations and responsibilities of teaching in contexts different from the US. Capstone provides field experiences with virtual, community, and campus organizations relevant to planning curriculum, teaching, and cross-cultural comparison of educational contexts. Addresses colonization and power, assumptions of difference, and cross-cultural awareness in teaching and learning.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 418,
+            "subjects": [
+                "CURRIC"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 418,
-                "subjects": [
-                    "CURRIC"
-                ]
-            },
-            {
-                "course_number": 366,
-                "subjects": [
-                    "CURRIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 418,
-                "subjects": [
-                    "CURRIC"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 366,
-                "subjects": [
-                    "CURRIC"
-                ]
-            }
-        ],
-        "prerequisites_text": "CURRIC\u00a0418and366"
-    },
+        {
+            "course_number": 366,
+            "subjects": [
+                "CURRIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 418,
+                    "subjects": [
+                        "CURRIC"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 366,
+                    "subjects": [
+                        "CURRIC"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -125,13 +98,13 @@
             ]
         },
         {
-            "course_number": 418,
+            "course_number": 274,
             "subjects": [
-                "CURRIC"
+                "EDPOL"
             ]
         },
         {
-            "course_number": 366,
+            "course_number": 418,
             "subjects": [
                 "CURRIC"
             ]
@@ -143,9 +116,9 @@
             ]
         },
         {
-            "course_number": 274,
+            "course_number": 366,
             "subjects": [
-                "EDPOL"
+                "CURRIC"
             ]
         }
     ],

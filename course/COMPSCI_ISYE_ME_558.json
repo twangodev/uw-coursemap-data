@@ -2,9 +2,9 @@
     "course_reference": {
         "course_number": 558,
         "subjects": [
-            "COMPSCI",
             "ME",
-            "ISYE"
+            "ISYE",
+            "COMPSCI"
         ]
     },
     "course_title": "INTRODUCTION TO COMPUTATIONAL GEOMETRY",
@@ -29,65 +29,20 @@
         "unsatisfactory": 0
     },
     "description": "Introduction to fundamental geometric computations and algorithms, and their use for solving engineering and scientific problems. Computer representations of simple geometric objects and paradigms for algorithm design. Applications from areas of engineering analysis, design and manufacturing, biology, statistics, and other sciences.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "COMP SCI 367",
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 400,
+            "subjects": [
+                "COMPSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(COMP SCI 367 or ",
-            {
-                "course_number": 400,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ") and ",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "(COMP SCI 367 or400) andMATH\u00a0234or graduate/professional standing"
-    },
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -97,15 +52,19 @@
                             "children": [
                                 "COMP SCI 367",
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 400,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
                         },
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 234,
+                            "subjects": [
+                                "MATH"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -149,26 +108,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 524,
-            "subjects": [
-                "COMPSCI",
-                "ISYE",
-                "ECE"
-            ]
-        },
-        {
-            "course_number": 535,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 559,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
             "course_number": 758,
             "subjects": [
                 "ME"
@@ -178,6 +117,26 @@
             "course_number": 231,
             "subjects": [
                 "ME"
+            ]
+        },
+        {
+            "course_number": 535,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 524,
+            "subjects": [
+                "ECE",
+                "COMPSCI",
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 559,
+            "subjects": [
+                "COMPSCI"
             ]
         }
     ],
@@ -320,8 +279,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MIKOLA LYSENKO",
-                    "VADIM SHAPIRO"
+                    "VADIM SHAPIRO",
+                    "MIKOLA LYSENKO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

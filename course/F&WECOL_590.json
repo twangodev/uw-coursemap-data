@@ -27,45 +27,24 @@
         "unsatisfactory": 0
     },
     "description": "Resource management planning in state and federal land management agencies. Apply principles by working in teams to develop a management plan for a real property by inventorying resources; developing management objectives and alternatives; and analyzing their ecological, social and institutional implications.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in Forest Science",
-                "Junior Standing",
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
-        },
-        "course_references": [
-            {
-                "course_number": 658,
-                "subjects": [
-                    "F&WECOL"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Forest Science, Junior Standing, and ",
-            {
-                "course_number": 658,
-                "subjects": [
-                    "F&WECOL"
-                ]
-            }
-        ],
-        "prerequisites_text": "Declared in Forest Science, Junior Standing, andF&W\u00a0ECOL\u00a0658"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 658,
+            "subjects": [
+                "F&WECOL"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 "Declared in Forest Science",
                 "Junior Standing",
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 658,
+                    "subjects": [
+                        "F&WECOL"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -91,19 +70,14 @@
     },
     "similar_courses": [
         {
-            "course_number": 101,
+            "course_number": 515,
             "subjects": [
+                "ENVIRST",
                 "F&WECOL"
             ]
         },
         {
             "course_number": 379,
-            "subjects": [
-                "F&WECOL"
-            ]
-        },
-        {
-            "course_number": 675,
             "subjects": [
                 "F&WECOL"
             ]
@@ -115,10 +89,15 @@
             ]
         },
         {
-            "course_number": 515,
+            "course_number": 675,
             "subjects": [
-                "F&WECOL",
-                "ENVIRST"
+                "F&WECOL"
+            ]
+        },
+        {
+            "course_number": 101,
+            "subjects": [
+                "F&WECOL"
             ]
         }
     ],

@@ -28,65 +28,38 @@
         "unsatisfactory": 0
     },
     "description": "The learning and teaching of music at the high school level.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                }
-            ],
-            "operator": "AND"
+    "optimized_prerequisites": [
+        {
+            "course_number": 301,
+            "subjects": [
+                "MUSIC",
+                "CURRIC"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            },
-            {
-                "course_number": 337,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 301,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 337,
-                "subjects": [
-                    "MUSIC",
-                    "CURRIC"
-                ]
-            }
-        ],
-        "prerequisites_text": "MUSIC/\u200bCURRIC\u00a0\u00a0301andMUSIC/\u200bCURRIC\u00a0\u00a0337"
-    },
+        {
+            "course_number": 337,
+            "subjects": [
+                "MUSIC",
+                "CURRIC"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 301,
+                    "subjects": [
+                        "MUSIC",
+                        "CURRIC"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 337,
+                    "subjects": [
+                        "MUSIC",
+                        "CURRIC"
+                    ]
                 }
             ],
             "operator": "AND"
@@ -128,16 +101,16 @@
     },
     "similar_courses": [
         {
+            "course_number": 122,
+            "subjects": [
+                "MUSIC"
+            ]
+        },
+        {
             "course_number": 410,
             "subjects": [
                 "MUSIC",
                 "CURRIC"
-            ]
-        },
-        {
-            "course_number": 122,
-            "subjects": [
-                "MUSIC"
             ]
         },
         {

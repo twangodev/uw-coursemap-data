@@ -27,45 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Laboratory procedures and skills commonly used in exercise physiology.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Declared in Kinesiology",
-                "Physical Education",
-                {
-                    "children": [
-                        "Athletic Training",
-                        {
-                            "children": [],
-                            "operator": null
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 314,
-                "subjects": [
-                    "KINES"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Declared in Kinesiology, Physical Education, or Athletic Training, and ",
-            {
-                "course_number": 314,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            " or graduate/professional standing"
-        ],
-        "prerequisites_text": "Declared in Kinesiology, Physical Education, or Athletic Training, andKINES\u00a0314or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 314,
+            "subjects": [
+                "KINES"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -75,8 +44,10 @@
                     "children": [
                         "Athletic Training",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 314,
+                            "subjects": [
+                                "KINES"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -107,7 +78,20 @@
     },
     "similar_courses": [
         {
-            "course_number": 555,
+            "course_number": 115,
+            "subjects": [
+                "KINES"
+            ]
+        },
+        {
+            "course_number": 523,
+            "subjects": [
+                "NURSING",
+                "KINES"
+            ]
+        },
+        {
+            "course_number": 614,
             "subjects": [
                 "KINES"
             ]
@@ -119,22 +103,9 @@
             ]
         },
         {
-            "course_number": 115,
+            "course_number": 555,
             "subjects": [
                 "KINES"
-            ]
-        },
-        {
-            "course_number": 614,
-            "subjects": [
-                "KINES"
-            ]
-        },
-        {
-            "course_number": 523,
-            "subjects": [
-                "KINES",
-                "NURSING"
             ]
         }
     ],
@@ -152,8 +123,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LI-LI JI",
-                    "WILLIAM SCHRAGE"
+                    "WILLIAM SCHRAGE",
+                    "LI-LI JI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

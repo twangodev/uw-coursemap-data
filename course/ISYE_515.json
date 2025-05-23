@@ -27,46 +27,14 @@
         "unsatisfactory": 0
     },
     "description": "Addresses the role of the industrial engineer as a \"manager\" of continuous improvement in design and production processes. Provides modern tools and techniques for planning and managing team projects, integrating the concepts of total quality, data based decision making, and resource management.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        "Senior standing",
-                        {
-                            "children": [],
-                            "operator": null
-                        },
-                        "formerly E P D 397"
-                    ],
-                    "operator": "AND"
-                },
-                "concurrent enrollment",
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 397,
-                "subjects": [
-                    "INTEREGR"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "Senior standing and ",
-            {
-                "course_number": 397,
-                "subjects": [
-                    "INTEREGR"
-                ]
-            },
-            " (formerly E P D 397) or concurrent enrollment, graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "Senior standing andINTEREGR\u00a0397(formerly E P D 397) or concurrent enrollment, graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 397,
+            "subjects": [
+                "INTEREGR"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -74,8 +42,10 @@
                     "children": [
                         "Senior standing",
                         {
-                            "children": [],
-                            "operator": null
+                            "course_number": 397,
+                            "subjects": [
+                                "INTEREGR"
+                            ]
                         },
                         "formerly E P D 397"
                     ],
@@ -109,19 +79,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 520,
-            "subjects": [
-                "ISYE"
-            ]
-        },
-        {
             "course_number": 450,
             "subjects": [
                 "ISYE"
             ]
         },
         {
-            "course_number": 191,
+            "course_number": 520,
             "subjects": [
                 "ISYE"
             ]
@@ -134,6 +98,12 @@
         },
         {
             "course_number": 575,
+            "subjects": [
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 191,
             "subjects": [
                 "ISYE"
             ]

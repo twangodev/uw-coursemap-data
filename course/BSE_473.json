@@ -27,63 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "Engineering and management applications of soil-plant-water relationships applied to water management systems and efficient water use.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 217,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", or graduate/professional standing"
-        ],
-        "prerequisites_text": "MATH\u00a0217,221, or graduate/professional standing"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 217,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 221,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -125,8 +90,16 @@
         {
             "course_number": 612,
             "subjects": [
-                "GLE",
-                "CIVENGR"
+                "CIVENGR",
+                "GLE"
+            ]
+        },
+        {
+            "course_number": 532,
+            "subjects": [
+                "ATMOCN",
+                "SOILSCI",
+                "AGRONOMY"
             ]
         },
         {
@@ -136,21 +109,13 @@
             ]
         },
         {
-            "course_number": 472,
+            "course_number": 571,
             "subjects": [
                 "BSE"
             ]
         },
         {
-            "course_number": 532,
-            "subjects": [
-                "ATMOCN",
-                "AGRONOMY",
-                "SOILSCI"
-            ]
-        },
-        {
-            "course_number": 571,
+            "course_number": 472,
             "subjects": [
                 "BSE"
             ]

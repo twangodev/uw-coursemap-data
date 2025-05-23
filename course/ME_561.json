@@ -27,64 +27,28 @@
         "unsatisfactory": 0
     },
     "description": "Fundamentals; phase and chemical equilibria; availability; thermodynamic relationships.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [],
-                    "operator": null
-                },
-                {
-                    "children": [],
-                    "operator": null
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
-        },
-        "course_references": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
-                "course_number": 311,
-                "subjects": [
-                    "CBE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "CBE"
-                ]
-            },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "M\u00a0E\u00a0361orCBE\u00a0311, or graduate/professional standing, or member of Engineering Guest Students"
-    },
+    "optimized_prerequisites": [
+        {
+            "course_number": 361,
+            "subjects": [
+                "ME"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 361,
+                    "subjects": [
+                        "ME"
+                    ]
                 },
                 {
-                    "children": [],
-                    "operator": null
+                    "course_number": 311,
+                    "subjects": [
+                        "CBE"
+                    ]
                 },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
@@ -93,15 +57,15 @@
         },
         "course_references": [
             {
-                "course_number": 361,
-                "subjects": [
-                    "ME"
-                ]
-            },
-            {
                 "course_number": 311,
                 "subjects": [
                     "CBE"
+                ]
+            },
+            {
+                "course_number": 361,
+                "subjects": [
+                    "ME"
                 ]
             }
         ],
@@ -125,7 +89,13 @@
     },
     "similar_courses": [
         {
-            "course_number": 661,
+            "course_number": 330,
+            "subjects": [
+                "MS&E"
+            ]
+        },
+        {
+            "course_number": 561,
             "subjects": [
                 "CHEM"
             ]
@@ -137,13 +107,7 @@
             ]
         },
         {
-            "course_number": 330,
-            "subjects": [
-                "MS&E"
-            ]
-        },
-        {
-            "course_number": 561,
+            "course_number": 661,
             "subjects": [
                 "CHEM"
             ]
@@ -319,8 +283,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "LUIS FONSECA",
-                    "SANFORD KLEIN"
+                    "SANFORD KLEIN",
+                    "LUIS FONSECA"
                 ],
                 "no_credit": 0,
                 "no_work": 1,

@@ -27,181 +27,26 @@
         "unsatisfactory": 0
     },
     "description": "Principles, algorithms, and industrial engineering applications of machine learning. Predictive analytics, with a focus on combining data and models to improve decision-making. Methods include: statistics, linear regression, logistic regression, regularization, over-fitting, clustering, classification and regression trees, boosting, bagging, deep learning, and neural networks. Applications areas include: healthcare, transportation, and the public sector.",
-    "optimized_prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [
-                                        "placement into",
-                                        {
-                                            "children": [],
-                                            "operator": null
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                },
-                                {
-                                    "children": [],
-                                    "operator": null
-                                }
-                            ],
-                            "operator": "OR"
-                        }
-                    ],
-                    "operator": "AND"
-                },
-                "graduate/professional standing",
-                "member of Engineering Guest Students"
-            ],
-            "operator": "OR"
+    "optimized_prerequisites": [
+        {
+            "course_number": 220,
+            "subjects": [
+                "COMPSCI"
+            ]
         },
-        "course_references": [
-            {
-                "course_number": 210,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            {
-                "course_number": 323,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            {
-                "course_number": 524,
-                "subjects": [
-                    "COMPSCI",
-                    "ISYE",
-                    "ECE"
-                ]
-            }
-        ],
-        "linked_requisite_text": [
-            "(",
-            {
-                "course_number": 200,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 220,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            ", or placement into ",
-            {
-                "course_number": 300,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            "), (",
-            {
-                "course_number": 323,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            " or ",
-            {
-                "course_number": 524,
-                "subjects": [
-                    "ISYE",
-                    "COMPSCI",
-                    "ECE"
-                ]
-            },
-            "), and (",
-            {
-                "course_number": 210,
-                "subjects": [
-                    "ISYE"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 311,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 324,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            ", ",
-            {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            ", or ",
-            {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            "), graduate/professional standing, or member of Engineering Guest Students"
-        ],
-        "prerequisites_text": "(COMP\u00a0SCI\u00a0200,220, or placement intoCOMP\u00a0SCI\u00a0300), (I\u00a0SY\u00a0E\u00a0323orI\u00a0SY\u00a0E/\u200bCOMP\u00a0SCI/\u200bE\u00a0C\u00a0E\u00a0\u00a0524), and (I\u00a0SY\u00a0E\u00a0210,STAT\u00a0311,324,STAT/\u200bMATH\u00a0\u00a0309, or431), graduate/professional standing, or member of Engineering Guest Students"
-    },
+        {
+            "course_number": 323,
+            "subjects": [
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 210,
+            "subjects": [
+                "ISYE"
+            ]
+        }
+    ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
@@ -210,19 +55,25 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 200,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 220,
+                                    "subjects": [
+                                        "COMPSCI"
+                                    ]
                                 },
                                 {
                                     "children": [
                                         "placement into",
                                         {
-                                            "children": [],
-                                            "operator": null
+                                            "course_number": 300,
+                                            "subjects": [
+                                                "COMPSCI"
+                                            ]
                                         }
                                     ],
                                     "operator": "AND"
@@ -233,12 +84,18 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 323,
+                                    "subjects": [
+                                        "ISYE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 524,
+                                    "subjects": [
+                                        "ECE",
+                                        "COMPSCI",
+                                        "ISYE"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -246,24 +103,36 @@
                         {
                             "children": [
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 210,
+                                    "subjects": [
+                                        "ISYE"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 311,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 324,
+                                    "subjects": [
+                                        "STAT"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 309,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 },
                                 {
-                                    "children": [],
-                                    "operator": null
+                                    "course_number": 431,
+                                    "subjects": [
+                                        "STAT",
+                                        "MATH"
+                                    ]
                                 }
                             ],
                             "operator": "OR"
@@ -278,41 +147,19 @@
         },
         "course_references": [
             {
-                "course_number": 311,
-                "subjects": [
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 200,
+                "course_number": 300,
                 "subjects": [
                     "COMPSCI"
                 ]
             },
             {
-                "course_number": 524,
+                "course_number": 220,
                 "subjects": [
-                    "ISYE",
-                    "COMPSCI",
-                    "ECE"
+                    "COMPSCI"
                 ]
             },
             {
-                "course_number": 309,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 431,
-                "subjects": [
-                    "MATH",
-                    "STAT"
-                ]
-            },
-            {
-                "course_number": 300,
+                "course_number": 200,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -330,15 +177,37 @@
                 ]
             },
             {
-                "course_number": 220,
+                "course_number": 311,
                 "subjects": [
-                    "COMPSCI"
+                    "STAT"
                 ]
             },
             {
                 "course_number": 324,
                 "subjects": [
                     "STAT"
+                ]
+            },
+            {
+                "course_number": 309,
+                "subjects": [
+                    "STAT",
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 524,
+                "subjects": [
+                    "ECE",
+                    "COMPSCI",
+                    "ISYE"
+                ]
+            },
+            {
+                "course_number": 431,
+                "subjects": [
+                    "STAT",
+                    "MATH"
                 ]
             }
         ],
@@ -375,9 +244,9 @@
             {
                 "course_number": 524,
                 "subjects": [
+                    "ECE",
                     "ISYE",
-                    "COMPSCI",
-                    "ECE"
+                    "COMPSCI"
                 ]
             },
             "), and (",
@@ -405,16 +274,16 @@
             {
                 "course_number": 309,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             ", or ",
             {
                 "course_number": 431,
                 "subjects": [
-                    "MATH",
-                    "STAT"
+                    "STAT",
+                    "MATH"
                 ]
             },
             "), graduate/professional standing, or member of Engineering Guest Students"
@@ -423,21 +292,21 @@
     },
     "similar_courses": [
         {
+            "course_number": 656,
+            "subjects": [
+                "GENBUS"
+            ]
+        },
+        {
             "course_number": 612,
             "subjects": [
                 "ISYE"
             ]
         },
         {
-            "course_number": 603,
+            "course_number": 412,
             "subjects": [
                 "ISYE"
-            ]
-        },
-        {
-            "course_number": 656,
-            "subjects": [
-                "GENBUS"
             ]
         },
         {
@@ -447,7 +316,7 @@
             ]
         },
         {
-            "course_number": 412,
+            "course_number": 603,
             "subjects": [
                 "ISYE"
             ]
@@ -492,8 +361,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Justin BOUTILIER",
-                    "ARI SMITH"
+                    "ARI SMITH",
+                    "Justin BOUTILIER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
