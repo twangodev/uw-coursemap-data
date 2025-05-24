@@ -1,14 +1,6 @@
 [
     {
         "data": {
-            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
-            "id": "MATH 118",
-            "parent": "MATH",
-            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
-        }
-    },
-    {
-        "data": {
             "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
             "id": "MATH 113",
             "parent": "MATH",
@@ -419,6 +411,14 @@
     },
     {
         "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
             "description": "Techniques of real estate valuation. Property analysis, market analysis, legal and political analysis, and highest and best use analysis; in-depth exposure to the three approaches to valuation; sales comparison, income, and cost; application to main commercial property types; the role of valuation in real estate investment.",
             "id": "REALEST 415",
             "parent": "REALEST",
@@ -552,13 +552,13 @@
     {
         "data": {
             "source": "ECON 101",
-            "target": "ECON/REALEST/URBRPL 420"
+            "target": "ECON 311"
         }
     },
     {
         "data": {
-            "source": "ECON 102",
-            "target": "ECON 111"
+            "source": "ECON 101",
+            "target": "ECON/REALEST/URBRPL 420"
         }
     },
     {
@@ -575,20 +575,14 @@
     },
     {
         "data": {
+            "source": "ECON 102",
+            "target": "ECON 311"
+        }
+    },
+    {
+        "data": {
             "source": "ECON 111",
             "target": "ECON 101"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 111",
-            "target": "ECON 102"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 111",
-            "target": "ECON 311"
         }
     },
     {
@@ -612,12 +606,6 @@
     {
         "data": {
             "source": "ECON 301",
-            "target": "ECON 311"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 301",
             "target": "REALEST 706"
         }
     },
@@ -625,12 +613,6 @@
         "data": {
             "source": "ECON 310",
             "target": "ECON/FINANCE 300"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 311",
-            "target": "ECON 301"
         }
     },
     {
@@ -677,18 +659,6 @@
     },
     {
         "data": {
-            "source": "MATH 118",
-            "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 118",
-            "target": "MATH 171"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 171",
             "target": "MATH 217"
         }
@@ -697,12 +667,6 @@
         "data": {
             "source": "MATH 211",
             "target": "ECON 310"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
         }
     },
     {
@@ -721,6 +685,18 @@
         "data": {
             "source": "MATH 221",
             "target": "MATH 211"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "ECON 311"
         }
     },
     {

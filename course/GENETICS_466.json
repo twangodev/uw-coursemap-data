@@ -20,12 +20,6 @@
             "subjects": [
                 "CHEM"
             ]
-        },
-        {
-            "course_number": 467,
-            "subjects": [
-                "GENETICS"
-            ]
         }
     ],
     "prerequisites": {
@@ -34,138 +28,84 @@
                 {
                     "children": [
                         {
-                            "children": [
-                                {
-                                    "course_number": 151,
-                                    "subjects": [
-                                        "BIOLOGY",
-                                        "ZOOLOGY",
-                                        "BOTANY"
-                                    ]
-                                },
-                                {
-                                    "course_number": 381,
-                                    "subjects": [
-                                        "BIOCORE"
-                                    ]
-                                },
-                                {
-                                    "course_number": 130,
-                                    "subjects": [
-                                        "BIOLOGY",
-                                        "BOTANY"
-                                    ]
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "course_number": 101,
-                                            "subjects": [
-                                                "BIOLOGY",
-                                                "ZOOLOGY"
-                                            ]
-                                        },
-                                        {
-                                            "course_number": 102,
-                                            "subjects": [
-                                                "BIOLOGY",
-                                                "ZOOLOGY"
-                                            ]
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "OR"
+                            "course_number": 151,
+                            "subjects": [
+                                "BIOLOGY",
+                                "BOTANY",
+                                "ZOOLOGY"
+                            ]
+                        },
+                        {
+                            "course_number": 381,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
+                        },
+                        {
+                            "course_number": 130,
+                            "subjects": [
+                                "BOTANY",
+                                "BIOLOGY"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "course_number": 104,
+                                    "course_number": 101,
                                     "subjects": [
-                                        "CHEM"
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
                                     ]
                                 },
                                 {
-                                    "course_number": 109,
+                                    "course_number": 102,
                                     "subjects": [
-                                        "CHEM"
-                                    ]
-                                },
-                                {
-                                    "course_number": 115,
-                                    "subjects": [
-                                        "CHEM"
-                                    ]
-                                }
-                            ],
-                            "operator": "OR"
-                        },
-                        "."
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not eligible to enroll if credit earned for",
-                                {
-                                    "course_number": 467,
-                                    "subjects": [
-                                        "GENETICS"
+                                        "BIOLOGY",
+                                        "ZOOLOGY"
                                     ]
                                 }
                             ],
                             "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                },
+                {
+                    "children": [
+                        {
+                            "course_number": 104,
+                            "subjects": [
+                                "CHEM"
+                            ]
                         },
                         {
-                            "course_number": 468,
+                            "course_number": 109,
                             "subjects": [
-                                "GENETICS"
+                                "CHEM"
+                            ]
+                        },
+                        {
+                            "course_number": 115,
+                            "subjects": [
+                                "CHEM"
                             ]
                         }
                     ],
                     "operator": "OR"
-                }
+                },
+                "."
             ],
             "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 102,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 130,
-                "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
-                ]
-            },
-            {
-                "course_number": 468,
-                "subjects": [
-                    "GENETICS"
-                ]
-            },
-            {
-                "course_number": 381,
-                "subjects": [
-                    "BIOCORE"
-                ]
-            },
-            {
-                "course_number": 104,
+                "course_number": 115,
                 "subjects": [
                     "CHEM"
                 ]
             },
             {
-                "course_number": 467,
+                "course_number": 468,
                 "subjects": [
                     "GENETICS"
                 ]
@@ -177,17 +117,17 @@
                 ]
             },
             {
-                "course_number": 151,
+                "course_number": 381,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
+                    "BIOCORE"
                 ]
             },
             {
-                "course_number": 115,
+                "course_number": 151,
                 "subjects": [
-                    "CHEM"
+                    "BIOLOGY",
+                    "BOTANY",
+                    "ZOOLOGY"
                 ]
             },
             {
@@ -195,6 +135,32 @@
                 "subjects": [
                     "BIOLOGY",
                     "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 467,
+                "subjects": [
+                    "GENETICS"
+                ]
+            },
+            {
+                "course_number": 102,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 104,
+                "subjects": [
+                    "CHEM"
+                ]
+            },
+            {
+                "course_number": 130,
+                "subjects": [
+                    "BOTANY",
+                    "BIOLOGY"
                 ]
             }
         ],
@@ -204,8 +170,8 @@
                 "course_number": 151,
                 "subjects": [
                     "BIOLOGY",
-                    "ZOOLOGY",
-                    "BOTANY"
+                    "BOTANY",
+                    "ZOOLOGY"
                 ]
             },
             " or ",
@@ -219,8 +185,8 @@
             {
                 "course_number": 130,
                 "subjects": [
-                    "BIOLOGY",
-                    "BOTANY"
+                    "BOTANY",
+                    "BIOLOGY"
                 ]
             },
             " or ",
@@ -279,16 +245,22 @@
     },
     "similar_courses": [
         {
+            "course_number": 624,
+            "subjects": [
+                "ENTOM",
+                "GENETICS",
+                "ZOOLOGY"
+            ]
+        },
+        {
             "course_number": 468,
             "subjects": [
                 "GENETICS"
             ]
         },
         {
-            "course_number": 624,
+            "course_number": 545,
             "subjects": [
-                "ZOOLOGY",
-                "ENTOM",
                 "GENETICS"
             ]
         },
@@ -300,12 +272,6 @@
         },
         {
             "course_number": 566,
-            "subjects": [
-                "GENETICS"
-            ]
-        },
-        {
-            "course_number": 545,
             "subjects": [
                 "GENETICS"
             ]

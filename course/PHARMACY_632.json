@@ -39,49 +39,36 @@
         "abstract_syntax_tree": {
             "children": [
                 {
+                    "course_number": 523,
+                    "subjects": [
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 611,
+                    "subjects": [
+                        "PSYCH",
+                        "NTP",
+                        "NEURODPT"
+                    ]
+                },
+                {
                     "children": [
                         {
-                            "course_number": 523,
+                            "course_number": 770,
                             "subjects": [
-                                "PSYCH",
-                                "ZOOLOGY"
+                                "PHARMACY"
                             ]
                         },
-                        {
-                            "course_number": 611,
-                            "subjects": [
-                                "NEURODPT",
-                                "PSYCH",
-                                "NTP"
-                            ]
-                        },
-                        {
-                            "children": [
-                                {
-                                    "course_number": 770,
-                                    "subjects": [
-                                        "PHARMACY"
-                                    ]
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
+                        "."
                     ],
-                    "operator": "OR"
-                },
-                "Not open to students with credit for NTP 632."
+                    "operator": "AND"
+                }
             ],
-            "operator": "AND"
+            "operator": "OR"
         },
         "course_references": [
-            {
-                "course_number": 523,
-                "subjects": [
-                    "PSYCH",
-                    "ZOOLOGY"
-                ]
-            },
             {
                 "course_number": 770,
                 "subjects": [
@@ -91,9 +78,16 @@
             {
                 "course_number": 611,
                 "subjects": [
-                    "NEURODPT",
                     "PSYCH",
-                    "NTP"
+                    "NTP",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 523,
+                "subjects": [
+                    "PSYCH",
+                    "ZOOLOGY"
                 ]
             }
         ],
@@ -109,9 +103,9 @@
             {
                 "course_number": 611,
                 "subjects": [
-                    "NEURODPT",
                     "PSYCH",
-                    "NTP"
+                    "NTP",
+                    "NEURODPT"
                 ]
             },
             " or ",
@@ -127,7 +121,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 771,
+            "course_number": 564,
             "subjects": [
                 "PHARMACY"
             ]
@@ -145,7 +139,7 @@
             ]
         },
         {
-            "course_number": 564,
+            "course_number": 771,
             "subjects": [
                 "PHARMACY"
             ]
@@ -171,8 +165,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "ZARMEEN ZAHID",
-                    "Matthew Banks"
+                    "Matthew Banks",
+                    "ZARMEEN ZAHID"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

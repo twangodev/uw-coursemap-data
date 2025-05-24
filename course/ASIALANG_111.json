@@ -33,12 +33,6 @@
             "subjects": [
                 "ASIALANG"
             ]
-        },
-        {
-            "course_number": 101,
-            "subjects": [
-                "ASIALANG"
-            ]
         }
     ],
     "prerequisites": {
@@ -47,59 +41,30 @@
                 {
                     "children": [
                         {
-                            "children": [
-                                {
-                                    "course_number": 110,
-                                    "subjects": [
-                                        "ASIALANG"
-                                    ]
-                                },
-                                "E ASIAN 121 prior to Fall 2019"
-                            ],
-                            "operator": "AND"
+                            "course_number": 110,
+                            "subjects": [
+                                "ASIALANG"
+                            ]
                         },
-                        {
-                            "children": [
-                                "placement into",
-                                {
-                                    "course_number": 111,
-                                    "subjects": [
-                                        "ASIALANG"
-                                    ]
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
-                        }
+                        "E ASIAN 121 prior to Fall 2019"
                     ],
-                    "operator": "OR"
+                    "operator": "AND"
                 },
                 {
                     "children": [
+                        "placement into",
                         {
-                            "children": [
-                                "Not open to students with credit for",
-                                {
-                                    "course_number": 101,
-                                    "subjects": [
-                                        "ASIALANG"
-                                    ]
-                                }
-                            ],
-                            "operator": "AND"
+                            "course_number": 111,
+                            "subjects": [
+                                "ASIALANG"
+                            ]
                         },
-                        {
-                            "children": [
-                                "E ASIAN 101",
-                                "122 prior to Fall 2019"
-                            ],
-                            "operator": "OR"
-                        }
+                        "."
                     ],
-                    "operator": "OR"
+                    "operator": "AND"
                 }
             ],
-            "operator": "AND"
+            "operator": "OR"
         },
         "course_references": [
             {
@@ -142,13 +107,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 212,
-            "subjects": [
-                "ASIALANG"
-            ]
-        },
-        {
-            "course_number": 102,
+            "course_number": 110,
             "subjects": [
                 "ASIALANG"
             ]
@@ -166,7 +125,13 @@
             ]
         },
         {
-            "course_number": 110,
+            "course_number": 102,
+            "subjects": [
+                "ASIALANG"
+            ]
+        },
+        {
+            "course_number": 212,
             "subjects": [
                 "ASIALANG"
             ]

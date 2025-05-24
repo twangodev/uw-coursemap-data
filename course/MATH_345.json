@@ -20,123 +20,83 @@
             "subjects": [
                 "COMPSCI"
             ]
-        },
-        {
-            "course_number": 341,
-            "subjects": [
-                "MATH"
-            ]
         }
     ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
+                    "course_number": 222,
+                    "subjects": [
+                        "MATH"
+                    ]
+                },
+                {
                     "children": [
                         {
-                            "course_number": 222,
+                            "course_number": 200,
                             "subjects": [
-                                "MATH"
+                                "COMPSCI"
+                            ]
+                        },
+                        {
+                            "course_number": 220,
+                            "subjects": [
+                                "COMPSCI"
+                            ]
+                        },
+                        {
+                            "course_number": 300,
+                            "subjects": [
+                                "COMPSCI"
+                            ]
+                        },
+                        {
+                            "course_number": 310,
+                            "subjects": [
+                                "COMPSCI"
+                            ]
+                        },
+                        {
+                            "course_number": 320,
+                            "subjects": [
+                                "COMPSCI"
                             ]
                         },
                         {
                             "children": [
-                                {
-                                    "course_number": 200,
-                                    "subjects": [
-                                        "COMPSCI"
-                                    ]
-                                },
-                                {
-                                    "course_number": 220,
-                                    "subjects": [
-                                        "COMPSCI"
-                                    ]
-                                },
+                                "placement in",
                                 {
                                     "course_number": 300,
                                     "subjects": [
                                         "COMPSCI"
                                     ]
-                                },
-                                {
-                                    "course_number": 310,
-                                    "subjects": [
-                                        "COMPSCI"
-                                    ]
-                                },
-                                {
-                                    "course_number": 320,
-                                    "subjects": [
-                                        "COMPSCI"
-                                    ]
-                                },
-                                {
-                                    "children": [
-                                        "placement in",
-                                        {
-                                            "course_number": 300,
-                                            "subjects": [
-                                                "COMPSCI"
-                                            ]
-                                        }
-                                    ],
-                                    "operator": "AND"
                                 }
-                            ],
-                            "operator": "OR"
-                        },
-                        "."
-                    ],
-                    "operator": "AND"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                "Not open to students with credit for",
-                                {
-                                    "course_number": 320,
-                                    "subjects": [
-                                        "MATH"
-                                    ]
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "course_number": 340,
-                            "subjects": [
-                                "MATH"
-                            ]
-                        },
-                        {
-                            "course_number": 341,
-                            "subjects": [
-                                "MATH"
-                            ]
-                        },
-                        {
-                            "children": [
-                                {
-                                    "course_number": 375,
-                                    "subjects": [
-                                        "MATH"
-                                    ]
-                                },
-                                "."
                             ],
                             "operator": "AND"
                         }
                     ],
                     "operator": "OR"
-                }
+                },
+                "."
             ],
             "operator": "AND"
         },
         "course_references": [
             {
                 "course_number": 300,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 320,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 310,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -154,13 +114,13 @@
                 ]
             },
             {
-                "course_number": 340,
+                "course_number": 320,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 375,
+                "course_number": 340,
                 "subjects": [
                     "MATH"
                 ]
@@ -172,25 +132,13 @@
                 ]
             },
             {
-                "course_number": 310,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 320,
-                "subjects": [
-                    "COMPSCI"
-                ]
-            },
-            {
-                "course_number": 320,
+                "course_number": 222,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 222,
+                "course_number": 375,
                 "subjects": [
                     "MATH"
                 ]
@@ -279,13 +227,7 @@
     },
     "similar_courses": [
         {
-            "course_number": 443,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 340,
+            "course_number": 320,
             "subjects": [
                 "MATH"
             ]
@@ -297,7 +239,7 @@
             ]
         },
         {
-            "course_number": 320,
+            "course_number": 340,
             "subjects": [
                 "MATH"
             ]
@@ -307,8 +249,14 @@
             "subjects": [
                 "STAT",
                 "MATH",
-                "ISYE",
-                "COMPSCI"
+                "COMPSCI",
+                "ISYE"
+            ]
+        },
+        {
+            "course_number": 443,
+            "subjects": [
+                "MATH"
             ]
         }
     ],

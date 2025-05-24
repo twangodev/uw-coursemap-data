@@ -1,14 +1,6 @@
 [
     {
         "data": {
-            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
-            "id": "MATH 118",
-            "parent": "MATH",
-            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
-        }
-    },
-    {
-        "data": {
             "description": "A rigorous introduction to probability theory at an advanced undergraduate level. Only a minimal amount of measure theory is used, in particular, the theory of Lebesgue integrals is not needed. It is aimed at math majors and Master's degree students, or students in other fields who will need probability in their future careers. Gives an introduction to the basics (Kolmogorov axioms, conditional probability and independence, random variables, expectation) and discusses some classical results with proofs (DeMoivre-Laplace limit theorems, the study of simple random walk on the one dimensional lattice, applications of generating functions).",
             "id": "MATH 531",
             "parent": "MATH",
@@ -164,14 +156,6 @@
     },
     {
         "data": {
-            "description": "Elements of probability, important discrete distributions, acceptance sampling by attributes, sample characteristics, probability distributions and population characteristics, the normal distribution, acceptance sampling plans based on sample means and variances, sampling from the normal, the central limit theorem, point and interval estimation.",
-            "id": "STAT 311",
-            "parent": "STAT",
-            "title": "INTRODUCTION TO THEORY AND METHODS OF MATHEMATICAL STATISTICS I"
-        }
-    },
-    {
-        "data": {
             "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
             "id": "MATH 211",
             "parent": "MATH",
@@ -222,14 +206,6 @@
             "id": "OTM 777",
             "parent": "OTM",
             "title": "TECHNOLOGY STRATEGY AND PRODUCT MANAGEMENT APPLIED LEARNING"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
@@ -345,14 +321,6 @@
     },
     {
         "data": {
-            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
-            "id": "ECON 102",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MACROECONOMICS"
-        }
-    },
-    {
-        "data": {
             "description": "Management of operations throughout an organization or supply chain. Emphasizes the coordination of resources to improve cost, quality, and customer service. Topics include capacity and materials management, operations strategy, and process improvement.",
             "id": "OTM 700",
             "parent": "OTM",
@@ -460,9 +428,25 @@
     },
     {
         "data": {
+            "description": "Topics in multi-variable calculus and introduction to differential equations.",
+            "id": "MATH 376",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
+        }
+    },
+    {
+        "data": {
             "description": "Topics include discrete-time Markov chains, Poisson point processes, continuous-time Markov chains, and renewal processes. Applications to queueing, branching, and other models in science, engineering and business.",
             "id": "ISYE/MATH/OTM/STAT 632",
             "title": "INTRODUCTION TO STOCHASTIC PROCESSES"
+        }
+    },
+    {
+        "data": {
+            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
+            "id": "MATH 375",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
@@ -503,38 +487,14 @@
     },
     {
         "data": {
-            "id": "STAT",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 101",
-            "target": "ECON 102"
-        }
-    },
-    {
-        "data": {
             "source": "ECON 101",
             "target": "MARKETNG 300"
         }
     },
     {
         "data": {
-            "source": "ECON 102",
-            "target": "ECON 111"
-        }
-    },
-    {
-        "data": {
             "source": "ECON 111",
             "target": "ECON 101"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 111",
-            "target": "ECON 102"
         }
     },
     {
@@ -599,32 +559,8 @@
     },
     {
         "data": {
-            "source": "MATH 118",
-            "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 211",
             "target": "GENBUS 306"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "MATH 222"
         }
     },
     {
@@ -659,6 +595,18 @@
     },
     {
         "data": {
+            "source": "MATH 375",
+            "target": "MATH 376"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 376",
+            "target": "MATH/STAT 309"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 421",
             "target": "MATH 521"
         }
@@ -685,12 +633,6 @@
         "data": {
             "source": "MATH/STAT 309",
             "target": "ISYE/MATH/OTM/STAT 632"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH/STAT 309",
-            "target": "STAT 311"
         }
     },
     {
@@ -775,12 +717,6 @@
         "data": {
             "source": "OTM 700",
             "target": "OTM 758"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 311",
-            "target": "MATH/STAT 309"
         }
     }
 ]

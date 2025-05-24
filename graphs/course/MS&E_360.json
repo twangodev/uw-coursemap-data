@@ -1,10 +1,10 @@
 [
     {
         "data": {
-            "description": "Introduction to: atomic, electronic, and defect structures in materials; diffusional, mechanical and electrical properties of materials; and the role of structure and defects in diffusional, mechanical, and electrical properties.",
-            "id": "MS&E 351",
-            "parent": "MS&E",
-            "title": "MATERIALS SCIENCE-STRUCTURE AND PROPERTY RELATIONS IN SOLIDS"
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
         }
     },
     {
@@ -17,10 +17,38 @@
     },
     {
         "data": {
+            "description": "Stoichiometry and the mole concept, the behavior of gases, liquids and solids, thermochemistry, electronic structure of atoms and chemical bonding, descriptive chemistry of selected elements and compounds, intermolecular forces, and chemistry laboratory skills.",
+            "id": "CHEM 103",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY I"
+        }
+    },
+    {
+        "data": {
             "description": "The basic structures and resulting properties of solid materials, including phase equilibria, meta-stability, mechanical properties, failure, corrosion, and materials selection.",
             "id": "MS&E 350",
             "parent": "MS&E",
             "title": "INTRODUCTION TO MATERIALS SCIENCE"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
+            "id": "MATH 171",
+            "parent": "MATH",
+            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
+        }
+    },
+    {
+        "data": {
+            "id": "CHEM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MATH",
+            "type": "compound"
         }
     },
     {
@@ -31,26 +59,26 @@
     },
     {
         "data": {
-            "source": "MS&E 350",
-            "target": "MS&E 351"
+            "source": "CHEM 103",
+            "target": "MS&E 350"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 171",
+            "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 171"
         }
     },
     {
         "data": {
             "source": "MS&E 350",
             "target": "MS&E 360"
-        }
-    },
-    {
-        "data": {
-            "source": "MS&E 351",
-            "target": "MS&E 350"
-        }
-    },
-    {
-        "data": {
-            "source": "MS&E 351",
-            "target": "MS&E 351"
         }
     }
 ]

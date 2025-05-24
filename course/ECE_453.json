@@ -39,12 +39,6 @@
             "subjects": [
                 "COMPSCI"
             ]
-        },
-        {
-            "course_number": 455,
-            "subjects": [
-                "ECE"
-            ]
         }
     ],
     "prerequisites": {
@@ -53,64 +47,23 @@
                 {
                     "children": [
                         {
-                            "children": [
-                                {
-                                    "course_number": 315,
-                                    "subjects": [
-                                        "ECE"
-                                    ]
-                                },
-                                {
-                                    "course_number": 300,
-                                    "subjects": [
-                                        "COMPSCI"
-                                    ]
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        "graduate/professional standing."
-                    ],
-                    "operator": "OR"
-                },
-                {
-                    "children": [
-                        "Not open to special students",
-                        {
-                            "children": [
-                                "students with credit for",
-                                {
-                                    "course_number": 454,
-                                    "subjects": [
-                                        "ECE"
-                                    ]
-                                }
-                            ],
-                            "operator": "AND"
-                        },
-                        {
-                            "course_number": 455,
+                            "course_number": 315,
                             "subjects": [
                                 "ECE"
                             ]
                         },
                         {
-                            "children": [
-                                {
-                                    "course_number": 554,
-                                    "subjects": [
-                                        "ECE"
-                                    ]
-                                },
-                                "."
-                            ],
-                            "operator": "AND"
+                            "course_number": 300,
+                            "subjects": [
+                                "COMPSCI"
+                            ]
                         }
                     ],
-                    "operator": "OR"
-                }
+                    "operator": "AND"
+                },
+                "graduate/professional standing."
             ],
-            "operator": "AND"
+            "operator": "OR"
         },
         "course_references": [
             {
@@ -120,13 +73,13 @@
                 ]
             },
             {
-                "course_number": 554,
+                "course_number": 455,
                 "subjects": [
                     "ECE"
                 ]
             },
             {
-                "course_number": 455,
+                "course_number": 554,
                 "subjects": [
                     "ECE"
                 ]
@@ -188,18 +141,18 @@
         {
             "course_number": 552,
             "subjects": [
-                "ECE",
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 751,
-            "subjects": [
+                "COMPSCI",
                 "ECE"
             ]
         },
         {
             "course_number": 353,
+            "subjects": [
+                "ECE"
+            ]
+        },
+        {
+            "course_number": 751,
             "subjects": [
                 "ECE"
             ]

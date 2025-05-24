@@ -1,10 +1,42 @@
 [
     {
         "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "A survey of the nature of point defects, how these defects are produced, how the defects migrate and cluster, and what effects point defects and defect clusters have on the physical and mechanical properties of metals.",
             "id": "NE 541",
             "parent": "NE",
             "title": "RADIATION DAMAGE IN METALS"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
+            "id": "CHEM 115",
+            "parent": "CHEM",
+            "title": "CHEMICAL PRINCIPLES I"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
         }
     },
     {
@@ -17,10 +49,30 @@
     },
     {
         "data": {
-            "description": "The basic structures and resulting properties of solid materials, including phase equilibria, meta-stability, mechanical properties, failure, corrosion, and materials selection.",
-            "id": "MS&E 350",
-            "parent": "MS&E",
-            "title": "INTRODUCTION TO MATERIALS SCIENCE"
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "id": "CHEM",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MATH",
+            "type": "compound"
         }
     },
     {
@@ -37,20 +89,44 @@
     },
     {
         "data": {
-            "source": "MS&E 350",
+            "source": "CHEM 115",
             "target": "MS&E 351"
         }
     },
     {
         "data": {
-            "source": "MS&E 351",
-            "target": "MS&E 350"
+            "source": "MATH 112",
+            "target": "MATH 113"
         }
     },
     {
         "data": {
-            "source": "MS&E 351",
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
             "target": "MS&E 351"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     },
     {

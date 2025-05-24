@@ -29,13 +29,19 @@
     "description": "A mathematical approach to the principles and theories of national income determination, analysis of savings, consumption, investment and other aggregates in the national and international economy and relation to employment, inflation, and stabilization.",
     "optimized_prerequisites": [
         {
-            "course_number": 111,
+            "course_number": 222,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 101,
             "subjects": [
                 "ECON"
             ]
         },
         {
-            "course_number": 302,
+            "course_number": 102,
             "subjects": [
                 "ECON"
             ]
@@ -47,72 +53,55 @@
                 {
                     "children": [
                         {
-                            "children": [
-                                {
-                                    "course_number": 222,
-                                    "subjects": [
-                                        "MATH"
-                                    ]
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "course_number": 101,
-                                            "subjects": [
-                                                "ECON"
-                                            ]
-                                        },
-                                        {
-                                            "course_number": 102,
-                                            "subjects": [
-                                                "ECON"
-                                            ]
-                                        }
-                                    ],
-                                    "operator": "AND"
-                                }
-                            ],
-                            "operator": "AND"
+                            "course_number": 222,
+                            "subjects": [
+                                "MATH"
+                            ]
                         },
                         {
                             "children": [
                                 {
-                                    "course_number": 111,
+                                    "course_number": 101,
                                     "subjects": [
                                         "ECON"
                                     ]
                                 },
-                                "."
+                                {
+                                    "course_number": 102,
+                                    "subjects": [
+                                        "ECON"
+                                    ]
+                                }
                             ],
                             "operator": "AND"
                         }
                     ],
-                    "operator": "OR"
+                    "operator": "AND"
                 },
                 {
                     "children": [
-                        "Not open to students who have credit for",
                         {
-                            "course_number": 302,
+                            "course_number": 111,
                             "subjects": [
                                 "ECON"
                             ]
-                        }
+                        },
+                        "."
                     ],
                     "operator": "AND"
                 }
             ],
-            "operator": "AND"
+            "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 102,
+                "course_number": 111,
                 "subjects": [
                     "ECON"
                 ]
             },
             {
-                "course_number": 302,
+                "course_number": 102,
                 "subjects": [
                     "ECON"
                 ]
@@ -124,7 +113,7 @@
                 ]
             },
             {
-                "course_number": 111,
+                "course_number": 302,
                 "subjects": [
                     "ECON"
                 ]
@@ -176,18 +165,6 @@
     },
     "similar_courses": [
         {
-            "course_number": 702,
-            "subjects": [
-                "ECON"
-            ]
-        },
-        {
-            "course_number": 302,
-            "subjects": [
-                "ECON"
-            ]
-        },
-        {
             "course_number": 810,
             "subjects": [
                 "ECON"
@@ -201,6 +178,18 @@
         },
         {
             "course_number": 102,
+            "subjects": [
+                "ECON"
+            ]
+        },
+        {
+            "course_number": 302,
+            "subjects": [
+                "ECON"
+            ]
+        },
+        {
+            "course_number": 702,
             "subjects": [
                 "ECON"
             ]

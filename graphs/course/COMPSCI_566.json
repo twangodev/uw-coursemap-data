@@ -1,14 +1,6 @@
 [
     {
         "data": {
-            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
-            "id": "MATH 118",
-            "parent": "MATH",
-            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
-        }
-    },
-    {
-        "data": {
             "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
             "id": "MATH 113",
             "parent": "MATH",
@@ -29,22 +21,6 @@
             "id": "STAT 311",
             "parent": "STAT",
             "title": "INTRODUCTION TO THEORY AND METHODS OF MATHEMATICAL STATISTICS I"
-        }
-    },
-    {
-        "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
@@ -81,13 +57,6 @@
     },
     {
         "data": {
-            "description": "Probability and combinatorial methods, discrete and continuous, univariate and multivariate distributions, expected values, moments, normal distribution and derived distributions, estimation.",
-            "id": "MATH/STAT 309",
-            "title": "INTRODUCTION TO PROBABILITY AND MATHEMATICAL STATISTICS I"
-        }
-    },
-    {
-        "data": {
             "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
@@ -120,6 +89,14 @@
     },
     {
         "data": {
+            "description": "Topics in multi-variable calculus and introduction to differential equations.",
+            "id": "MATH 376",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
+        }
+    },
+    {
+        "data": {
             "description": "Topics include image formation, feature detection, motion estimation, image mosaics, 3D shape reconstruction, and object recognition. Applications of these techniques include building 3D maps, creating virtual characters, organizing photo and video databases, human computer interaction, video surveillance, and automatic vehicle navigation. Broad overview of various computer vision and machine learning techniques and sensing and imaging technologies used in computer vision applications. This is a project-based course.",
             "id": "COMPSCI 566",
             "parent": "COMPSCI",
@@ -128,13 +105,15 @@
     },
     {
         "data": {
-            "id": "COMPSCI",
-            "type": "compound"
+            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
+            "id": "MATH 375",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
         "data": {
-            "id": "CROSSLISTED",
+            "id": "COMPSCI",
             "type": "compound"
         }
     },
@@ -188,36 +167,6 @@
     },
     {
         "data": {
-            "source": "MATH 118",
-            "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 221",
             "target": "MATH 222"
         }
@@ -242,26 +191,26 @@
     },
     {
         "data": {
+            "source": "MATH 375",
+            "target": "MATH 376"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 376",
+            "target": "STAT 311"
+        }
+    },
+    {
+        "data": {
             "source": "MATH 96",
             "target": "MATH 112"
         }
     },
     {
         "data": {
-            "source": "MATH/STAT 309",
-            "target": "STAT 311"
-        }
-    },
-    {
-        "data": {
             "source": "STAT 311",
             "target": "COMPSCI 566"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 311",
-            "target": "MATH/STAT 309"
         }
     }
 ]

@@ -1,14 +1,6 @@
 [
     {
         "data": {
-            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
-            "id": "MATH 118",
-            "parent": "MATH",
-            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
-        }
-    },
-    {
-        "data": {
             "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
             "id": "MATH 113",
             "parent": "MATH",
@@ -21,14 +13,6 @@
             "id": "ECON 312",
             "parent": "ECON",
             "title": "INTERMEDIATE MACROECONOMIC THEORY - ADVANCED TREATMENT"
-        }
-    },
-    {
-        "data": {
-            "description": "A mathematical approach to the theory of consumption, production, pricing and resource allocation.",
-            "id": "ECON 311",
-            "parent": "ECON",
-            "title": "INTERMEDIATE MICROECONOMIC THEORY - ADVANCED TREATMENT"
         }
     },
     {
@@ -65,14 +49,6 @@
     },
     {
         "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
             "description": "Integrated treatment of macroeconomics and microeconomics (seeECON\u00a0101andECON\u00a0102). Accelerated approach to economics training, especially for Economics: Math Emphasis majors.",
             "id": "ECON 111",
             "parent": "ECON",
@@ -97,18 +73,18 @@
     },
     {
         "data": {
-            "description": "Principles and theories of national income determination, analysis of savings, consumption, investment and other aggregates in the national and international economy and relation to employment, inflation and stabilization.",
-            "id": "ECON 302",
-            "parent": "ECON",
-            "title": "INTERMEDIATE MACROECONOMIC THEORY"
-        }
-    },
-    {
-        "data": {
             "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
             "title": "ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
         }
     },
     {
@@ -161,8 +137,8 @@
     },
     {
         "data": {
-            "source": "ECON 102",
-            "target": "ECON 111"
+            "source": "ECON 101",
+            "target": "ECON 312"
         }
     },
     {
@@ -174,7 +150,7 @@
     {
         "data": {
             "source": "ECON 102",
-            "target": "ECON 302"
+            "target": "ECON 312"
         }
     },
     {
@@ -185,62 +161,14 @@
     },
     {
         "data": {
-            "source": "ECON 111",
-            "target": "ECON 102"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 111",
-            "target": "ECON 311"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 111",
-            "target": "ECON 312"
-        }
-    },
-    {
-        "data": {
             "source": "ECON 205",
             "target": "ECON 301"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 205",
-            "target": "ECON 302"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 301",
-            "target": "ECON 311"
         }
     },
     {
         "data": {
             "source": "ECON 301",
             "target": "ECON 475"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 302",
-            "target": "ECON 312"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 311",
-            "target": "ECON 301"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 312",
-            "target": "ECON 302"
         }
     },
     {
@@ -269,26 +197,8 @@
     },
     {
         "data": {
-            "source": "MATH 118",
-            "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 118",
-            "target": "MATH 171"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 171",
             "target": "MATH 217"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
         }
     },
     {
@@ -312,7 +222,13 @@
     {
         "data": {
             "source": "MATH 221",
-            "target": "MATH 211"
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "ECON 312"
         }
     },
     {

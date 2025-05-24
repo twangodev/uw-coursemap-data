@@ -1,14 +1,6 @@
 [
     {
         "data": {
-            "description": "A preparation and introductory math course for students enrolled in the Summer Collegiate Experience program. Includes material from precalculus and calculus and related topics depending on students' results on the math placement exam.",
-            "id": "MATH 118",
-            "parent": "MATH",
-            "title": "SUMMER COLLEGIATE EXPERIENCE MATHEMATICS COURSE"
-        }
-    },
-    {
-        "data": {
             "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
             "id": "MATH 113",
             "parent": "MATH",
@@ -37,22 +29,6 @@
             "id": "MATH 96",
             "parent": "MATH",
             "title": "PREPARATORY ALGEBRA"
-        }
-    },
-    {
-        "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
@@ -89,14 +65,6 @@
     },
     {
         "data": {
-            "description": "Introduction to: atomic, electronic, and defect structures in materials; diffusional, mechanical and electrical properties of materials; and the role of structure and defects in diffusional, mechanical, and electrical properties.",
-            "id": "MS&E 351",
-            "parent": "MS&E",
-            "title": "MATERIALS SCIENCE-STRUCTURE AND PROPERTY RELATIONS IN SOLIDS"
-        }
-    },
-    {
-        "data": {
             "description": "Kinematics, force-mass-acceleration relations, work and energy, impulse and momentum, moments of inertia and mass.",
             "id": "EMA 202",
             "parent": "EMA",
@@ -129,6 +97,14 @@
     },
     {
         "data": {
+            "description": "Stoichiometry and the mole concept, the behavior of gases, liquids and solids, thermochemistry, electronic structure of atoms and chemical bonding, descriptive chemistry of selected elements and compounds, intermolecular forces, and chemistry laboratory skills.",
+            "id": "CHEM 103",
+            "parent": "CHEM",
+            "title": "GENERAL CHEMISTRY I"
+        }
+    },
+    {
+        "data": {
             "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns.",
             "id": "ME 306",
             "parent": "ME",
@@ -149,6 +125,20 @@
             "id": "MS&E 350",
             "parent": "MS&E",
             "title": "INTRODUCTION TO MATERIALS SCIENCE"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
+            "id": "MATH 171",
+            "parent": "MATH",
+            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
+        }
+    },
+    {
+        "data": {
+            "id": "CHEM",
+            "type": "compound"
         }
     },
     {
@@ -179,6 +169,12 @@
         "data": {
             "id": "MS&E",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 103",
+            "target": "MS&E 350"
         }
     },
     {
@@ -225,32 +221,8 @@
     },
     {
         "data": {
-            "source": "MATH 118",
-            "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
+            "source": "MATH 171",
+            "target": "CHEM 103"
         }
     },
     {
@@ -297,6 +269,12 @@
     },
     {
         "data": {
+            "source": "MATH 96",
+            "target": "MATH 171"
+        }
+    },
+    {
+        "data": {
             "source": "ME 231",
             "target": "ME 331"
         }
@@ -329,24 +307,6 @@
         "data": {
             "source": "MS&E 350",
             "target": "ME 313"
-        }
-    },
-    {
-        "data": {
-            "source": "MS&E 350",
-            "target": "MS&E 351"
-        }
-    },
-    {
-        "data": {
-            "source": "MS&E 351",
-            "target": "MS&E 350"
-        }
-    },
-    {
-        "data": {
-            "source": "MS&E 351",
-            "target": "MS&E 351"
         }
     }
 ]
