@@ -1,79 +1,596 @@
 [
     {
         "course_reference": {
-            "course_number": 699,
+            "course_number": 625,
+            "subjects": [
+                "POPHLTH",
+                "PHMSCI",
+                "M&ENVTOX",
+                "PHMCOL-M",
+                "ONCOLOGY"
+            ]
+        },
+        "course_title": "TOXICOLOGY I",
+        "cumulative_grade_data": null,
+        "description": "Basic principles of toxicology and biochemical mechanisms of toxicity in mammalian species and man. Correlation between morphological and functional changes caused by toxicants in different organs of the body.",
+        "optimized_prerequisites": [
+            {
+                "course_number": 508,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            {
+                "course_number": 435,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            {
+                "course_number": 404,
+                "subjects": [
+                    "PATH"
+                ]
+            }
+        ],
+        "prerequisites": {
+            "abstract_syntax_tree": {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "course_number": 501,
+                                        "subjects": [
+                                            "BIOCHEM"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 508,
+                                        "subjects": [
+                                            "BIOCHEM"
+                                        ]
+                                    }
+                                ],
+                                "operator": "OR"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "course_number": 335,
+                                        "subjects": [
+                                            "ANAT&PHY"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 435,
+                                        "subjects": [
+                                            "ANAT&PHY"
+                                        ]
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "course_number": 485,
+                                                "subjects": [
+                                                    "BIOCORE"
+                                                ]
+                                            },
+                                            {
+                                                "course_number": 486,
+                                                "subjects": [
+                                                    "BIOCORE"
+                                                ]
+                                            }
+                                        ],
+                                        "operator": "AND"
+                                    }
+                                ],
+                                "operator": "OR"
+                            },
+                            {
+                                "course_number": 404,
+                                "subjects": [
+                                    "PATH"
+                                ]
+                            }
+                        ],
+                        "operator": "AND"
+                    },
+                    "graduate/professional standing"
+                ],
+                "operator": "OR"
+            },
+            "course_references": [
+                {
+                    "course_number": 485,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
+                },
+                {
+                    "course_number": 404,
+                    "subjects": [
+                        "PATH"
+                    ]
+                },
+                {
+                    "course_number": 508,
+                    "subjects": [
+                        "BIOCHEM"
+                    ]
+                },
+                {
+                    "course_number": 486,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
+                },
+                {
+                    "course_number": 335,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
+                },
+                {
+                    "course_number": 501,
+                    "subjects": [
+                        "BIOCHEM"
+                    ]
+                },
+                {
+                    "course_number": 435,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
+                }
+            ],
+            "linked_requisite_text": [
+                "(",
+                {
+                    "course_number": 501,
+                    "subjects": [
+                        "BIOCHEM"
+                    ]
+                },
+                " or ",
+                {
+                    "course_number": 508,
+                    "subjects": [
+                        "BIOCHEM"
+                    ]
+                },
+                ") and (",
+                {
+                    "course_number": 335,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 435,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
+                },
+                ", or (",
+                {
+                    "course_number": 485,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
+                },
+                " and ",
+                {
+                    "course_number": 486,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
+                },
+                ")) and ",
+                {
+                    "course_number": 404,
+                    "subjects": [
+                        "PATH"
+                    ]
+                },
+                "; or graduate/professional standing"
+            ],
+            "prerequisites_text": "(BIOCHEM\u00a0501or508) and (ANAT&PHY\u00a0335,435, or (BIOCORE\u00a0485and486)) andPATH\u00a0404; or graduate/professional standing"
+        },
+        "similar_courses": [
+            {
+                "course_number": 558,
+                "subjects": [
+                    "PHMSCI"
+                ]
+            },
+            {
+                "course_number": 781,
+                "subjects": [
+                    "PHMCOL-M"
+                ]
+            },
+            {
+                "course_number": 800,
+                "subjects": [
+                    "M&ENVTOX"
+                ]
+            },
+            {
+                "course_number": 555,
+                "subjects": [
+                    "COMPBIO"
+                ]
+            },
+            {
+                "course_number": 626,
+                "subjects": [
+                    "POPHLTH",
+                    "PHMSCI",
+                    "M&ENVTOX",
+                    "PHMCOL-M",
+                    "PATH"
+                ]
+            }
+        ],
+        "term_data": {
+            "1262": {
+                "enrollment_data": {
+                    "credit_count": [
+                        3,
+                        3
+                    ],
+                    "ethnics_studies": false,
+                    "general_education": false,
+                    "instructors": {},
+                    "last_taught_term": "Fall 2024",
+                    "school": {
+                        "abbreviation": "M",
+                        "name": "Medicine and Public Health",
+                        "url": "http://www.med.wisc.edu/"
+                    },
+                    "typically_offered": "Fall"
+                },
+                "grade_data": null
+            }
+        }
+    },
+    {
+        "course_reference": {
+            "course_number": 626,
+            "subjects": [
+                "POPHLTH",
+                "PHMSCI",
+                "M&ENVTOX",
+                "PHMCOL-M",
+                "PATH"
+            ]
+        },
+        "course_title": "TOXICOLOGY II",
+        "cumulative_grade_data": null,
+        "description": "Survey of the basic methods and fundamental biochemical mechanisms of toxicity. Toxicity in mammalian organ systems, techniques for evaluating toxicity, as well as mechanisms of species specificity, and environmental interactions (with toxicant examples) are presented.",
+        "optimized_prerequisites": [
+            {
+                "course_number": 625,
+                "subjects": [
+                    "POPHLTH",
+                    "PHMSCI",
+                    "M&ENVTOX",
+                    "PHMCOL-M",
+                    "ONCOLOGY"
+                ]
+            }
+        ],
+        "prerequisites": {
+            "abstract_syntax_tree": {
+                "course_number": 625,
+                "subjects": [
+                    "POPHLTH",
+                    "PHMSCI",
+                    "M&ENVTOX",
+                    "PHMCOL-M",
+                    "ONCOLOGY"
+                ]
+            },
+            "course_references": [
+                {
+                    "course_number": 625,
+                    "subjects": [
+                        "POPHLTH",
+                        "PHMSCI",
+                        "M&ENVTOX",
+                        "PHMCOL-M",
+                        "ONCOLOGY"
+                    ]
+                }
+            ],
+            "linked_requisite_text": [
+                {
+                    "course_number": 625,
+                    "subjects": [
+                        "POPHLTH",
+                        "PHMSCI",
+                        "M&ENVTOX",
+                        "PHMCOL-M",
+                        "ONCOLOGY"
+                    ]
+                }
+            ],
+            "prerequisites_text": "POP\u00a0HLTH/\u200bM&ENVTOX/\u200bONCOLOGY/\u200bPHM\u00a0SCI/\u200bPHMCOL-M\u00a0\u00a0625"
+        },
+        "similar_courses": [
+            {
+                "course_number": 625,
+                "subjects": [
+                    "POPHLTH",
+                    "PHMSCI",
+                    "M&ENVTOX",
+                    "PHMCOL-M",
+                    "ONCOLOGY"
+                ]
+            },
+            {
+                "course_number": 558,
+                "subjects": [
+                    "PHMSCI"
+                ]
+            },
+            {
+                "course_number": 800,
+                "subjects": [
+                    "M&ENVTOX"
+                ]
+            },
+            {
+                "course_number": 555,
+                "subjects": [
+                    "COMPBIO"
+                ]
+            },
+            {
+                "course_number": 606,
+                "subjects": [
+                    "PLPATH",
+                    "SOILSCI",
+                    "ENTOM",
+                    "F&WECOL"
+                ]
+            }
+        ],
+        "term_data": {}
+    },
+    {
+        "course_reference": {
+            "course_number": 789,
+            "subjects": [
+                "M&ENVTOX",
+                "POPHLTH"
+            ]
+        },
+        "course_title": "PRINCIPLES OF ENVIRONMENTAL HEALTH: A SYSTEMS THINKING APPROACH",
+        "cumulative_grade_data": {
+            "a": 130,
+            "ab": 16,
+            "b": 3,
+            "bc": 0,
+            "c": 0,
+            "credit": 0,
+            "d": 0,
+            "f": 0,
+            "incomplete": 4,
+            "instructors": null,
+            "no_credit": 0,
+            "no_work": 0,
+            "not_reported": 0,
+            "other": 0,
+            "passed": 0,
+            "satisfactory": 0,
+            "total": 153,
+            "unsatisfactory": 0
+        },
+        "description": "Provides an overview of the field of environmental health, using a systems thinking approach. Systems thinking recognizes that environmental health problem solving is complex and that solutions in one area may have positive or negative impacts on other areas. An introduction to the history of environmental health within the field of public health from the local to the federal and global level. Introduces multiple disciplines, methods and approaches to numerous environmental health topics. Includes introduction to methods and tools necessary for assessing human health risks from a variety of environmental hazards and exposures found in air, land, and water with a focus on physical and chemical risks. Additional details regarding specific hazard, exposure and health outcome data and their relationship to environmental health risk assessment, environmental health decision-making and management form a public health practice perspective will be discussed.",
+        "optimized_prerequisites": null,
+        "prerequisites": {
+            "abstract_syntax_tree": "Graduate/professional standing",
+            "course_references": [],
+            "linked_requisite_text": [
+                "Graduate/professional standing"
+            ],
+            "prerequisites_text": "Graduate/professional standing"
+        },
+        "similar_courses": [
+            {
+                "course_number": 213,
+                "subjects": [
+                    "HISTSCI",
+                    "ENVIRST"
+                ]
+            },
+            {
+                "course_number": 365,
+                "subjects": [
+                    "ENVIRST"
+                ]
+            },
+            {
+                "course_number": 739,
+                "subjects": [
+                    "POPHLTH",
+                    "ENVIRST"
+                ]
+            },
+            {
+                "course_number": 370,
+                "subjects": [
+                    "POPHLTH",
+                    "C&ESOC"
+                ]
+            },
+            {
+                "course_number": 570,
+                "subjects": [
+                    "ENTOM"
+                ]
+            }
+        ],
+        "term_data": {
+            "1174": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 45,
+                    "ab": 6,
+                    "b": 2,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Kristen Malecki"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 53,
+                    "unsatisfactory": 0
+                }
+            },
+            "1184": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 37,
+                    "ab": 8,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 1,
+                    "instructors": [
+                        "Kristen Malecki"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 46,
+                    "unsatisfactory": 0
+                }
+            },
+            "1194": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 48,
+                    "ab": 2,
+                    "b": 1,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 3,
+                    "instructors": [
+                        "Kristen Malecki"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 54,
+                    "unsatisfactory": 0
+                }
+            }
+        }
+    },
+    {
+        "course_reference": {
+            "course_number": 801,
             "subjects": [
                 "M&ENVTOX"
             ]
         },
-        "course_title": "SPECIAL PROBLEMS",
+        "course_title": "SCIENTIFIC COMMUNICATION IN MOLECULAR & ENVIRONMENTAL TOXICOLOGY",
         "cumulative_grade_data": {
-            "a": 2,
-            "ab": 0,
+            "a": 35,
+            "ab": 2,
             "b": 0,
             "bc": 0,
             "c": 0,
             "credit": 0,
             "d": 0,
             "f": 0,
-            "incomplete": 1,
+            "incomplete": 0,
             "instructors": null,
             "no_credit": 0,
             "no_work": 0,
-            "not_reported": 7,
+            "not_reported": 0,
             "other": 0,
             "passed": 0,
             "satisfactory": 0,
-            "total": 10,
+            "total": 37,
             "unsatisfactory": 0
         },
-        "description": "Directed study projects as arranged with instructor.",
+        "description": "Provides an overview of scientific communication; specifically, students will be exposed to the various methods of communicating their science including articles, proposals, presentations / lectures, and posters. Strategies will demonstrate best practices for each method and enable students to critically define what sets apart good examples from poor. Classroom discussions allow for comprehension of these means. Assignments are designed to familiarize the students with these methods. Students will have classroom instruction and the opportunity to learn from peer mentors as well as laboratory directors on different preferences and approaches to science communication.",
         "optimized_prerequisites": null,
         "prerequisites": {
-            "abstract_syntax_tree": "Consent of instructor",
+            "abstract_syntax_tree": "Graduate/professional standing",
             "course_references": [],
             "linked_requisite_text": [
-                "Consent of instructor"
+                "Graduate/professional standing"
             ],
-            "prerequisites_text": "Consent of instructor"
+            "prerequisites_text": "Graduate/professional standing"
         },
         "similar_courses": [
             {
-                "course_number": 699,
+                "course_number": 155,
                 "subjects": [
-                    "SOC"
+                    "LSC"
                 ]
             },
             {
-                "course_number": 699,
+                "course_number": 823,
                 "subjects": [
-                    "PORTUG"
+                    "ENVIRST",
+                    "LSC",
+                    "JOURN"
                 ]
             },
             {
-                "course_number": 399,
+                "course_number": 721,
                 "subjects": [
-                    "ENVIRST"
+                    "BIOCHEM"
                 ]
             },
             {
-                "course_number": 900,
+                "course_number": 800,
                 "subjects": [
-                    "ENVIRST"
+                    "M&ENVTOX"
                 ]
             },
             {
-                "course_number": 699,
+                "course_number": 710,
                 "subjects": [
-                    "ENVIRST"
+                    "ABT"
                 ]
             }
         ],
         "term_data": {
-            "1154": {
+            "1202": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 2,
+                    "a": 15,
                     "ab": 0,
                     "b": 0,
                     "bc": 0,
@@ -83,19 +600,504 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD"
+                        "Chad VEZINA",
+                        "SARAH YANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
-                    "not_reported": 7,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 15,
+                    "unsatisfactory": 0
+                }
+            },
+            "1224": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 6,
+                    "ab": 1,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Chad VEZINA"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 7,
+                    "unsatisfactory": 0
+                }
+            },
+            "1234": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 5,
+                    "ab": 1,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Chad VEZINA"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 6,
+                    "unsatisfactory": 0
+                }
+            },
+            "1244": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 9,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Chad VEZINA",
+                        "Laura HERNANDEZ"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
                     "total": 9,
                     "unsatisfactory": 0
                 }
+            }
+        }
+    },
+    {
+        "course_reference": {
+            "course_number": 631,
+            "subjects": [
+                "M&ENVTOX",
+                "CIVENGR",
+                "SOILSCI"
+            ]
+        },
+        "course_title": "TOXICANTS IN THE ENVIRONMENT: SOURCES, DISTRIBUTION, FATE, & EFFECTS",
+        "cumulative_grade_data": {
+            "a": 52,
+            "ab": 28,
+            "b": 42,
+            "bc": 1,
+            "c": 5,
+            "credit": 0,
+            "d": 2,
+            "f": 0,
+            "incomplete": 4,
+            "instructors": null,
+            "no_credit": 0,
+            "no_work": 0,
+            "not_reported": 1,
+            "other": 0,
+            "passed": 0,
+            "satisfactory": 2,
+            "total": 137,
+            "unsatisfactory": 0
+        },
+        "description": "Nature, sources, distribution, and fate of contaminants in air, water, soil, and food and potential for harmful exposure.",
+        "optimized_prerequisites": [
+            {
+                "course_number": 116,
+                "subjects": [
+                    "CHEM"
+                ]
             },
-            "1172": {
+            {
+                "course_number": 221,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            {
+                "course_number": 104,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            }
+        ],
+        "prerequisites": {
+            "abstract_syntax_tree": {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "course_number": 104,
+                                "subjects": [
+                                    "CHEM"
+                                ]
+                            },
+                            {
+                                "course_number": 109,
+                                "subjects": [
+                                    "CHEM"
+                                ]
+                            },
+                            {
+                                "course_number": 116,
+                                "subjects": [
+                                    "CHEM"
+                                ]
+                            }
+                        ],
+                        "operator": "OR"
+                    },
+                    {
+                        "children": [
+                            {
+                                "course_number": 211,
+                                "subjects": [
+                                    "MATH"
+                                ]
+                            },
+                            {
+                                "course_number": 217,
+                                "subjects": [
+                                    "MATH"
+                                ]
+                            },
+                            {
+                                "course_number": 221,
+                                "subjects": [
+                                    "MATH"
+                                ]
+                            }
+                        ],
+                        "operator": "OR"
+                    },
+                    {
+                        "children": [
+                            {
+                                "course_number": 104,
+                                "subjects": [
+                                    "PHYSICS"
+                                ]
+                            },
+                            {
+                                "course_number": 202,
+                                "subjects": [
+                                    "PHYSICS"
+                                ]
+                            },
+                            {
+                                "course_number": 208,
+                                "subjects": [
+                                    "PHYSICS"
+                                ]
+                            },
+                            {
+                                "course_number": 248,
+                                "subjects": [
+                                    "PHYSICS"
+                                ]
+                            }
+                        ],
+                        "operator": "OR"
+                    }
+                ],
+                "operator": "AND"
+            },
+            "course_references": [
+                {
+                    "course_number": 104,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
+                    "course_number": 202,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
+                    "course_number": 248,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
+                    "course_number": 109,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                {
+                    "course_number": 104,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                {
+                    "course_number": 116,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                {
+                    "course_number": 208,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
+                    "course_number": 221,
+                    "subjects": [
+                        "MATH"
+                    ]
+                },
+                {
+                    "course_number": 217,
+                    "subjects": [
+                        "MATH"
+                    ]
+                },
+                {
+                    "course_number": 211,
+                    "subjects": [
+                        "MATH"
+                    ]
+                }
+            ],
+            "linked_requisite_text": [
+                "(",
+                {
+                    "course_number": 104,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 109,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                ", or ",
+                {
+                    "course_number": 116,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                ") and (",
+                {
+                    "course_number": 211,
+                    "subjects": [
+                        "MATH"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 217,
+                    "subjects": [
+                        "MATH"
+                    ]
+                },
+                ", or ",
+                {
+                    "course_number": 221,
+                    "subjects": [
+                        "MATH"
+                    ]
+                },
+                ") and (",
+                {
+                    "course_number": 104,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 202,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 208,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                ", or ",
+                {
+                    "course_number": 248,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                ")"
+            ],
+            "prerequisites_text": "(CHEM\u00a0104,109, or116) and (MATH\u00a0211,217, or221) and (PHYSICS\u00a0104,202,208, or248)"
+        },
+        "similar_courses": [
+            {
+                "course_number": 621,
+                "subjects": [
+                    "SOILSCI"
+                ]
+            },
+            {
+                "course_number": 324,
+                "subjects": [
+                    "SOILSCI",
+                    "ENVIRST"
+                ]
+            },
+            {
+                "course_number": 430,
+                "subjects": [
+                    "SOILSCI"
+                ]
+            },
+            {
+                "course_number": 704,
+                "subjects": [
+                    "CIVENGR"
+                ]
+            },
+            {
+                "course_number": 606,
+                "subjects": [
+                    "PLPATH",
+                    "SOILSCI",
+                    "ENTOM",
+                    "F&WECOL"
+                ]
+            }
+        ],
+        "term_data": {
+            "1074": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 3,
+                    "ab": 1,
+                    "b": 2,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 6,
+                    "unsatisfactory": 0
+                }
+            },
+            "1084": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 1,
+                    "ab": 1,
+                    "b": 6,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 8,
+                    "unsatisfactory": 0
+                }
+            },
+            "1094": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 7,
+                    "ab": 3,
+                    "b": 6,
+                    "bc": 1,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 1,
+                    "total": 18,
+                    "unsatisfactory": 0
+                }
+            },
+            "1104": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 3,
+                    "ab": 2,
+                    "b": 6,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 11,
+                    "unsatisfactory": 0
+                }
+            },
+            "1114": {
                 "enrollment_data": null,
                 "grade_data": {
                     "a": 0,
@@ -108,8 +1110,7 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "COLIN JEFCOATE"
+                        "DAVID E ARMSTRONG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -121,7 +1122,32 @@
                     "unsatisfactory": 0
                 }
             },
-            "1224": {
+            "1124": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 2,
+                    "ab": 3,
+                    "b": 3,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 1,
+                    "instructors": [
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 9,
+                    "unsatisfactory": 0
+                }
+            },
+            "1134": {
                 "enrollment_data": null,
                 "grade_data": {
                     "a": 0,
@@ -132,9 +1158,9 @@
                     "credit": 0,
                     "d": 0,
                     "f": 0,
-                    "incomplete": 1,
+                    "incomplete": 0,
                     "instructors": [
-                        "Chad VEZINA"
+                        "JOEL PEDERSEN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -142,157 +1168,262 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 1,
+                    "total": 0,
                     "unsatisfactory": 0
                 }
             },
-            "1256": {
-                "enrollment_data": {
-                    "credit_count": [
-                        1,
-                        3
+            "1144": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 3,
+                    "ab": 0,
+                    "b": 3,
+                    "bc": 0,
+                    "c": 1,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "JOEL PEDERSEN"
                     ],
-                    "ethnics_studies": false,
-                    "general_education": false,
-                    "instructors": {
-                        "Lisa Arendt": "LMARENDT@WISC.EDU"
-                    },
-                    "last_taught_term": null,
-                    "school": {
-                        "abbreviation": "M",
-                        "name": "Medicine and Public Health",
-                        "url": "http://www.med.wisc.edu/"
-                    },
-                    "typically_offered": "Summer"
-                },
-                "grade_data": null
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 7,
+                    "unsatisfactory": 0
+                }
             },
-            "1262": {
-                "enrollment_data": {
-                    "credit_count": [
-                        1,
-                        3
+            "1154": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 2,
+                    "ab": 2,
+                    "b": 2,
+                    "bc": 0,
+                    "c": 1,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 1,
+                    "instructors": [
+                        "JOEL PEDERSEN"
                     ],
-                    "ethnics_studies": false,
-                    "general_education": false,
-                    "instructors": {
-                        "Chad VEZINA": "CMVEZINA@WISC.EDU"
-                    },
-                    "last_taught_term": null,
-                    "school": {
-                        "abbreviation": "M",
-                        "name": "Medicine and Public Health",
-                        "url": "http://www.med.wisc.edu/"
-                    },
-                    "typically_offered": "Summer"
-                },
-                "grade_data": null
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 8,
+                    "unsatisfactory": 0
+                }
+            },
+            "1164": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 2,
+                    "ab": 2,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 2,
+                    "instructors": [
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 6,
+                    "unsatisfactory": 0
+                }
+            },
+            "1174": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 3,
+                    "ab": 4,
+                    "b": 1,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 8,
+                    "unsatisfactory": 0
+                }
+            },
+            "1184": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 5,
+                    "ab": 1,
+                    "b": 2,
+                    "bc": 0,
+                    "c": 1,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "SAMUEL THOMAS",
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 9,
+                    "unsatisfactory": 0
+                }
+            },
+            "1202": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 4,
+                    "ab": 2,
+                    "b": 1,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 7,
+                    "unsatisfactory": 0
+                }
+            },
+            "1212": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 4,
+                    "ab": 1,
+                    "b": 3,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 2,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "JOEL PEDERSEN"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 1,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 11,
+                    "unsatisfactory": 0
+                }
+            },
+            "1222": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 0,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "STUART LICHTENBERG"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 0,
+                    "unsatisfactory": 0
+                }
+            },
+            "1234": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 1,
+                    "ab": 3,
+                    "b": 4,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Phillip BARAK"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 8,
+                    "unsatisfactory": 0
+                }
+            },
+            "1244": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 12,
+                    "ab": 3,
+                    "b": 3,
+                    "bc": 0,
+                    "c": 2,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Phillip BARAK"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 1,
+                    "total": 21,
+                    "unsatisfactory": 0
+                }
             }
         }
-    },
-    {
-        "course_reference": {
-            "course_number": 626,
-            "subjects": [
-                "M&ENVTOX",
-                "PATH",
-                "PHMCOL-M",
-                "PHMSCI",
-                "POPHLTH"
-            ]
-        },
-        "course_title": "TOXICOLOGY II",
-        "cumulative_grade_data": null,
-        "description": "Survey of the basic methods and fundamental biochemical mechanisms of toxicity. Toxicity in mammalian organ systems, techniques for evaluating toxicity, as well as mechanisms of species specificity, and environmental interactions (with toxicant examples) are presented.",
-        "optimized_prerequisites": [
-            {
-                "course_number": 625,
-                "subjects": [
-                    "M&ENVTOX",
-                    "PHMCOL-M",
-                    "PHMSCI",
-                    "ONCOLOGY",
-                    "POPHLTH"
-                ]
-            }
-        ],
-        "prerequisites": {
-            "abstract_syntax_tree": {
-                "course_number": 625,
-                "subjects": [
-                    "M&ENVTOX",
-                    "PHMCOL-M",
-                    "PHMSCI",
-                    "ONCOLOGY",
-                    "POPHLTH"
-                ]
-            },
-            "course_references": [
-                {
-                    "course_number": 625,
-                    "subjects": [
-                        "M&ENVTOX",
-                        "PHMCOL-M",
-                        "PHMSCI",
-                        "ONCOLOGY",
-                        "POPHLTH"
-                    ]
-                }
-            ],
-            "linked_requisite_text": [
-                {
-                    "course_number": 625,
-                    "subjects": [
-                        "M&ENVTOX",
-                        "PHMCOL-M",
-                        "PHMSCI",
-                        "ONCOLOGY",
-                        "POPHLTH"
-                    ]
-                }
-            ],
-            "prerequisites_text": "POP\u00a0HLTH/\u200bM&ENVTOX/\u200bONCOLOGY/\u200bPHM\u00a0SCI/\u200bPHMCOL-M\u00a0\u00a0625"
-        },
-        "similar_courses": [
-            {
-                "course_number": 800,
-                "subjects": [
-                    "M&ENVTOX"
-                ]
-            },
-            {
-                "course_number": 558,
-                "subjects": [
-                    "PHMSCI"
-                ]
-            },
-            {
-                "course_number": 625,
-                "subjects": [
-                    "M&ENVTOX",
-                    "PHMCOL-M",
-                    "PHMSCI",
-                    "ONCOLOGY",
-                    "POPHLTH"
-                ]
-            },
-            {
-                "course_number": 606,
-                "subjects": [
-                    "ENTOM",
-                    "SOILSCI",
-                    "F&WECOL",
-                    "PLPATH"
-                ]
-            },
-            {
-                "course_number": 555,
-                "subjects": [
-                    "COMPBIO"
-                ]
-            }
-        ],
-        "term_data": {}
     },
     {
         "course_reference": {
@@ -334,6 +1465,18 @@
         },
         "similar_courses": [
             {
+                "course_number": 801,
+                "subjects": [
+                    "M&ENVTOX"
+                ]
+            },
+            {
+                "course_number": 900,
+                "subjects": [
+                    "ENVIRST"
+                ]
+            },
+            {
                 "course_number": 909,
                 "subjects": [
                     "CIVENGR"
@@ -342,32 +1485,20 @@
             {
                 "course_number": 626,
                 "subjects": [
-                    "M&ENVTOX",
-                    "PATH",
-                    "PHMCOL-M",
+                    "POPHLTH",
                     "PHMSCI",
-                    "POPHLTH"
-                ]
-            },
-            {
-                "course_number": 801,
-                "subjects": [
-                    "M&ENVTOX"
+                    "M&ENVTOX",
+                    "PHMCOL-M",
+                    "PATH"
                 ]
             },
             {
                 "course_number": 606,
                 "subjects": [
-                    "ENTOM",
+                    "PLPATH",
                     "SOILSCI",
-                    "F&WECOL",
-                    "PLPATH"
-                ]
-            },
-            {
-                "course_number": 900,
-                "subjects": [
-                    "ENVIRST"
+                    "ENTOM",
+                    "F&WECOL"
                 ]
             }
         ],
@@ -1235,8 +2366,8 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Laura HERNANDEZ",
-                        "Chad VEZINA"
+                        "Chad VEZINA",
+                        "Laura HERNANDEZ"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -1261,8 +2392,8 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "SATHISH KUMAR",
-                        "Laura HERNANDEZ"
+                        "Laura HERNANDEZ",
+                        "SATHISH KUMAR"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -1297,81 +2428,79 @@
     },
     {
         "course_reference": {
-            "course_number": 801,
+            "course_number": 699,
             "subjects": [
                 "M&ENVTOX"
             ]
         },
-        "course_title": "SCIENTIFIC COMMUNICATION IN MOLECULAR & ENVIRONMENTAL TOXICOLOGY",
+        "course_title": "SPECIAL PROBLEMS",
         "cumulative_grade_data": {
-            "a": 35,
-            "ab": 2,
+            "a": 2,
+            "ab": 0,
             "b": 0,
             "bc": 0,
             "c": 0,
             "credit": 0,
             "d": 0,
             "f": 0,
-            "incomplete": 0,
+            "incomplete": 1,
             "instructors": null,
             "no_credit": 0,
             "no_work": 0,
-            "not_reported": 0,
+            "not_reported": 7,
             "other": 0,
             "passed": 0,
             "satisfactory": 0,
-            "total": 37,
+            "total": 10,
             "unsatisfactory": 0
         },
-        "description": "Provides an overview of scientific communication; specifically, students will be exposed to the various methods of communicating their science including articles, proposals, presentations / lectures, and posters. Strategies will demonstrate best practices for each method and enable students to critically define what sets apart good examples from poor. Classroom discussions allow for comprehension of these means. Assignments are designed to familiarize the students with these methods. Students will have classroom instruction and the opportunity to learn from peer mentors as well as laboratory directors on different preferences and approaches to science communication.",
+        "description": "Directed study projects as arranged with instructor.",
         "optimized_prerequisites": null,
         "prerequisites": {
-            "abstract_syntax_tree": "Graduate/professional standing",
+            "abstract_syntax_tree": "Consent of instructor",
             "course_references": [],
             "linked_requisite_text": [
-                "Graduate/professional standing"
+                "Consent of instructor"
             ],
-            "prerequisites_text": "Graduate/professional standing"
+            "prerequisites_text": "Consent of instructor"
         },
         "similar_courses": [
             {
-                "course_number": 155,
+                "course_number": 699,
                 "subjects": [
-                    "LSC"
+                    "SOC"
                 ]
             },
             {
-                "course_number": 800,
+                "course_number": 699,
                 "subjects": [
-                    "M&ENVTOX"
+                    "PORTUG"
                 ]
             },
             {
-                "course_number": 721,
+                "course_number": 399,
                 "subjects": [
-                    "BIOCHEM"
+                    "ENVIRST"
                 ]
             },
             {
-                "course_number": 710,
+                "course_number": 900,
                 "subjects": [
-                    "ABT"
+                    "ENVIRST"
                 ]
             },
             {
-                "course_number": 823,
+                "course_number": 699,
                 "subjects": [
-                    "JOURN",
-                    "LSC",
                     "ENVIRST"
                 ]
             }
         ],
         "term_data": {
-            "1202": {
+            "1154": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 15,
+                    "a": 2,
                     "ab": 0,
                     "b": 0,
                     "bc": 0,
@@ -1381,8 +2510,33 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "SARAH YANG",
-                        "Chad VEZINA"
+                        "CHRIS A. BRADFIELD"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 7,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 9,
+                    "unsatisfactory": 0
+                }
+            },
+            "1172": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 0,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "CHRIS A. BRADFIELD",
+                        "COLIN JEFCOATE"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -1390,193 +2544,15 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 15,
+                    "total": 0,
                     "unsatisfactory": 0
                 }
             },
             "1224": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 6,
-                    "ab": 1,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Chad VEZINA"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 7,
-                    "unsatisfactory": 0
-                }
-            },
-            "1234": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 5,
-                    "ab": 1,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Chad VEZINA"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 6,
-                    "unsatisfactory": 0
-                }
-            },
-            "1244": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 9,
+                    "a": 0,
                     "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Laura HERNANDEZ",
-                        "Chad VEZINA"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 9,
-                    "unsatisfactory": 0
-                }
-            }
-        }
-    },
-    {
-        "course_reference": {
-            "course_number": 789,
-            "subjects": [
-                "POPHLTH",
-                "M&ENVTOX"
-            ]
-        },
-        "course_title": "PRINCIPLES OF ENVIRONMENTAL HEALTH: A SYSTEMS THINKING APPROACH",
-        "cumulative_grade_data": {
-            "a": 130,
-            "ab": 16,
-            "b": 3,
-            "bc": 0,
-            "c": 0,
-            "credit": 0,
-            "d": 0,
-            "f": 0,
-            "incomplete": 4,
-            "instructors": null,
-            "no_credit": 0,
-            "no_work": 0,
-            "not_reported": 0,
-            "other": 0,
-            "passed": 0,
-            "satisfactory": 0,
-            "total": 153,
-            "unsatisfactory": 0
-        },
-        "description": "Provides an overview of the field of environmental health, using a systems thinking approach. Systems thinking recognizes that environmental health problem solving is complex and that solutions in one area may have positive or negative impacts on other areas. An introduction to the history of environmental health within the field of public health from the local to the federal and global level. Introduces multiple disciplines, methods and approaches to numerous environmental health topics. Includes introduction to methods and tools necessary for assessing human health risks from a variety of environmental hazards and exposures found in air, land, and water with a focus on physical and chemical risks. Additional details regarding specific hazard, exposure and health outcome data and their relationship to environmental health risk assessment, environmental health decision-making and management form a public health practice perspective will be discussed.",
-        "optimized_prerequisites": null,
-        "prerequisites": {
-            "abstract_syntax_tree": "Graduate/professional standing",
-            "course_references": [],
-            "linked_requisite_text": [
-                "Graduate/professional standing"
-            ],
-            "prerequisites_text": "Graduate/professional standing"
-        },
-        "similar_courses": [
-            {
-                "course_number": 739,
-                "subjects": [
-                    "POPHLTH",
-                    "ENVIRST"
-                ]
-            },
-            {
-                "course_number": 213,
-                "subjects": [
-                    "HISTSCI",
-                    "ENVIRST"
-                ]
-            },
-            {
-                "course_number": 570,
-                "subjects": [
-                    "ENTOM"
-                ]
-            },
-            {
-                "course_number": 365,
-                "subjects": [
-                    "ENVIRST"
-                ]
-            },
-            {
-                "course_number": 370,
-                "subjects": [
-                    "POPHLTH",
-                    "C&ESOC"
-                ]
-            }
-        ],
-        "term_data": {
-            "1174": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 45,
-                    "ab": 6,
-                    "b": 2,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Kristen Malecki"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 53,
-                    "unsatisfactory": 0
-                }
-            },
-            "1184": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 37,
-                    "ab": 8,
                     "b": 0,
                     "bc": 0,
                     "c": 0,
@@ -1585,7 +2561,7 @@
                     "f": 0,
                     "incomplete": 1,
                     "instructors": [
-                        "Kristen Malecki"
+                        "Chad VEZINA"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -1593,768 +2569,51 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 46,
+                    "total": 1,
                     "unsatisfactory": 0
                 }
             },
-            "1194": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 48,
-                    "ab": 2,
-                    "b": 1,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 3,
-                    "instructors": [
-                        "Kristen Malecki"
+            "1256": {
+                "enrollment_data": {
+                    "credit_count": [
+                        1,
+                        3
                     ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 54,
-                    "unsatisfactory": 0
-                }
-            }
-        }
-    },
-    {
-        "course_reference": {
-            "course_number": 631,
-            "subjects": [
-                "SOILSCI",
-                "CIVENGR",
-                "M&ENVTOX"
-            ]
-        },
-        "course_title": "TOXICANTS IN THE ENVIRONMENT: SOURCES, DISTRIBUTION, FATE, & EFFECTS",
-        "cumulative_grade_data": {
-            "a": 52,
-            "ab": 28,
-            "b": 42,
-            "bc": 1,
-            "c": 5,
-            "credit": 0,
-            "d": 2,
-            "f": 0,
-            "incomplete": 4,
-            "instructors": null,
-            "no_credit": 0,
-            "no_work": 0,
-            "not_reported": 1,
-            "other": 0,
-            "passed": 0,
-            "satisfactory": 2,
-            "total": 137,
-            "unsatisfactory": 0
-        },
-        "description": "Nature, sources, distribution, and fate of contaminants in air, water, soil, and food and potential for harmful exposure.",
-        "optimized_prerequisites": [
-            {
-                "course_number": 116,
-                "subjects": [
-                    "CHEM"
-                ]
-            },
-            {
-                "course_number": 221,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
-                "course_number": 104,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "prerequisites": {
-            "abstract_syntax_tree": {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "course_number": 104,
-                                "subjects": [
-                                    "CHEM"
-                                ]
-                            },
-                            {
-                                "course_number": 109,
-                                "subjects": [
-                                    "CHEM"
-                                ]
-                            },
-                            {
-                                "course_number": 116,
-                                "subjects": [
-                                    "CHEM"
-                                ]
-                            }
-                        ],
-                        "operator": "OR"
+                    "ethnics_studies": false,
+                    "general_education": false,
+                    "instructors": {
+                        "Lisa Arendt": "LMARENDT@WISC.EDU"
                     },
-                    {
-                        "children": [
-                            {
-                                "course_number": 211,
-                                "subjects": [
-                                    "MATH"
-                                ]
-                            },
-                            {
-                                "course_number": 217,
-                                "subjects": [
-                                    "MATH"
-                                ]
-                            },
-                            {
-                                "course_number": 221,
-                                "subjects": [
-                                    "MATH"
-                                ]
-                            }
-                        ],
-                        "operator": "OR"
+                    "last_taught_term": null,
+                    "school": {
+                        "abbreviation": "M",
+                        "name": "Medicine and Public Health",
+                        "url": "http://www.med.wisc.edu/"
                     },
-                    {
-                        "children": [
-                            {
-                                "course_number": 104,
-                                "subjects": [
-                                    "PHYSICS"
-                                ]
-                            },
-                            {
-                                "course_number": 202,
-                                "subjects": [
-                                    "PHYSICS"
-                                ]
-                            },
-                            {
-                                "course_number": 208,
-                                "subjects": [
-                                    "PHYSICS"
-                                ]
-                            },
-                            {
-                                "course_number": 248,
-                                "subjects": [
-                                    "PHYSICS"
-                                ]
-                            }
-                        ],
-                        "operator": "OR"
-                    }
-                ],
-                "operator": "AND"
+                    "typically_offered": "Summer"
+                },
+                "grade_data": null
             },
-            "course_references": [
-                {
-                    "course_number": 104,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 208,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 104,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                {
-                    "course_number": 221,
-                    "subjects": [
-                        "MATH"
-                    ]
-                },
-                {
-                    "course_number": 202,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 109,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                {
-                    "course_number": 211,
-                    "subjects": [
-                        "MATH"
-                    ]
-                },
-                {
-                    "course_number": 217,
-                    "subjects": [
-                        "MATH"
-                    ]
-                },
-                {
-                    "course_number": 248,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 116,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                }
-            ],
-            "linked_requisite_text": [
-                "(",
-                {
-                    "course_number": 104,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 109,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                ", or ",
-                {
-                    "course_number": 116,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                ") and (",
-                {
-                    "course_number": 211,
-                    "subjects": [
-                        "MATH"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 217,
-                    "subjects": [
-                        "MATH"
-                    ]
-                },
-                ", or ",
-                {
-                    "course_number": 221,
-                    "subjects": [
-                        "MATH"
-                    ]
-                },
-                ") and (",
-                {
-                    "course_number": 104,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 202,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 208,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                ", or ",
-                {
-                    "course_number": 248,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                ")"
-            ],
-            "prerequisites_text": "(CHEM\u00a0104,109, or116) and (MATH\u00a0211,217, or221) and (PHYSICS\u00a0104,202,208, or248)"
-        },
-        "similar_courses": [
-            {
-                "course_number": 324,
-                "subjects": [
-                    "SOILSCI",
-                    "ENVIRST"
-                ]
-            },
-            {
-                "course_number": 704,
-                "subjects": [
-                    "CIVENGR"
-                ]
-            },
-            {
-                "course_number": 621,
-                "subjects": [
-                    "SOILSCI"
-                ]
-            },
-            {
-                "course_number": 606,
-                "subjects": [
-                    "ENTOM",
-                    "SOILSCI",
-                    "F&WECOL",
-                    "PLPATH"
-                ]
-            },
-            {
-                "course_number": 430,
-                "subjects": [
-                    "SOILSCI"
-                ]
-            }
-        ],
-        "term_data": {
-            "1074": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 3,
-                    "ab": 1,
-                    "b": 2,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "JOEL PEDERSEN"
+            "1262": {
+                "enrollment_data": {
+                    "credit_count": [
+                        1,
+                        3
                     ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 6,
-                    "unsatisfactory": 0
-                }
-            },
-            "1084": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 1,
-                    "ab": 1,
-                    "b": 6,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 8,
-                    "unsatisfactory": 0
-                }
-            },
-            "1094": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 7,
-                    "ab": 3,
-                    "b": 6,
-                    "bc": 1,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 1,
-                    "total": 18,
-                    "unsatisfactory": 0
-                }
-            },
-            "1104": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 3,
-                    "ab": 2,
-                    "b": 6,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 11,
-                    "unsatisfactory": 0
-                }
-            },
-            "1114": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 0,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "DAVID E ARMSTRONG"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 0,
-                    "unsatisfactory": 0
-                }
-            },
-            "1124": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 2,
-                    "ab": 3,
-                    "b": 3,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 1,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 9,
-                    "unsatisfactory": 0
-                }
-            },
-            "1134": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 0,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 0,
-                    "unsatisfactory": 0
-                }
-            },
-            "1144": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 3,
-                    "ab": 0,
-                    "b": 3,
-                    "bc": 0,
-                    "c": 1,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 7,
-                    "unsatisfactory": 0
-                }
-            },
-            "1154": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 2,
-                    "ab": 2,
-                    "b": 2,
-                    "bc": 0,
-                    "c": 1,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 1,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 8,
-                    "unsatisfactory": 0
-                }
-            },
-            "1164": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 2,
-                    "ab": 2,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 2,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 6,
-                    "unsatisfactory": 0
-                }
-            },
-            "1174": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 3,
-                    "ab": 4,
-                    "b": 1,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 8,
-                    "unsatisfactory": 0
-                }
-            },
-            "1184": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 5,
-                    "ab": 1,
-                    "b": 2,
-                    "bc": 0,
-                    "c": 1,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "SAMUEL THOMAS",
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 9,
-                    "unsatisfactory": 0
-                }
-            },
-            "1202": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 4,
-                    "ab": 2,
-                    "b": 1,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 7,
-                    "unsatisfactory": 0
-                }
-            },
-            "1212": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 4,
-                    "ab": 1,
-                    "b": 3,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 2,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "JOEL PEDERSEN"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 1,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 11,
-                    "unsatisfactory": 0
-                }
-            },
-            "1222": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 0,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "STUART LICHTENBERG"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 0,
-                    "unsatisfactory": 0
-                }
-            },
-            "1234": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 1,
-                    "ab": 3,
-                    "b": 4,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Phillip BARAK"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 8,
-                    "unsatisfactory": 0
-                }
-            },
-            "1244": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 12,
-                    "ab": 3,
-                    "b": 3,
-                    "bc": 0,
-                    "c": 2,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Phillip BARAK"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 1,
-                    "total": 21,
-                    "unsatisfactory": 0
-                }
+                    "ethnics_studies": false,
+                    "general_education": false,
+                    "instructors": {
+                        "Chad VEZINA": "CMVEZINA@WISC.EDU"
+                    },
+                    "last_taught_term": null,
+                    "school": {
+                        "abbreviation": "M",
+                        "name": "Medicine and Public Health",
+                        "url": "http://www.med.wisc.edu/"
+                    },
+                    "typically_offered": "Summer"
+                },
+                "grade_data": null
             }
         }
     },
@@ -2400,25 +2659,25 @@
             {
                 "course_number": 990,
                 "subjects": [
-                    "S&APHM"
-                ]
-            },
-            {
-                "course_number": 990,
-                "subjects": [
                     "PHMSCI"
                 ]
             },
             {
                 "course_number": 990,
                 "subjects": [
-                    "ENVIRST"
+                    "HORT"
                 ]
             },
             {
                 "course_number": 990,
                 "subjects": [
-                    "HORT"
+                    "S&APHM"
+                ]
+            },
+            {
+                "course_number": 990,
+                "subjects": [
+                    "ENVIRST"
                 ]
             },
             {
@@ -2442,29 +2701,29 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "NORMAN DRINKWATER",
-                        "WADE BUSHMAN",
                         "WILLIAM HICKEY",
-                        "VLADIMIR SPIEGELMAN",
-                        "SUSAN SMITH",
-                        "JOEL PEDERSEN",
-                        "WARREN PAUL PORTER",
-                        "DAVID JARRARD",
-                        "ERIC JOHNSON",
-                        "BRIAN FOX",
-                        "B L ALLEN-HOFFMANN",
-                        "THOMAS JEFFRIES",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "Jeffrey Johnson",
-                        "Eric SANDGREN",
-                        "TERRY D. OBERLEY",
-                        "MARK COOK",
                         "Nancy KELLER",
+                        "WADE BUSHMAN",
+                        "Eric SANDGREN",
+                        "VLADIMIR SPIEGELMAN",
+                        "Jeffrey Johnson",
+                        "Jae-Hyuk Yu",
+                        "RICHARD PETERSON",
+                        "SUSAN SMITH",
+                        "DAVID JARRARD",
+                        "MARK COOK",
+                        "ERIC JOHNSON",
+                        "TERRY D. OBERLEY",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "BRIAN FOX",
+                        "JOEL PEDERSEN",
                         "AJIT VERMA",
-                        "RICHARD PETERSON"
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN",
+                        "THOMAS JEFFRIES",
+                        "B L ALLEN-HOFFMANN",
+                        "NORMAN DRINKWATER"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2489,29 +2748,29 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "NORMAN DRINKWATER",
-                        "CHRIS A. BRADFIELD",
-                        "WADE BUSHMAN",
                         "WILLIAM HICKEY",
+                        "Nancy KELLER",
+                        "WADE BUSHMAN",
+                        "Eric SANDGREN",
                         "VLADIMIR SPIEGELMAN",
+                        "Jeffrey Johnson",
+                        "Jae-Hyuk Yu",
+                        "RICHARD PETERSON",
                         "SUSAN SMITH",
-                        "JOEL PEDERSEN",
-                        "WARREN PAUL PORTER",
+                        "MARK COOK",
                         "DAVID JARRARD",
                         "ERIC JOHNSON",
+                        "TERRY D. OBERLEY",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "AJIT VERMA",
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN",
                         "B L ALLEN-HOFFMANN",
                         "THOMAS JEFFRIES",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "Jeffrey Johnson",
-                        "Eric SANDGREN",
-                        "TERRY D. OBERLEY",
-                        "MARK COOK",
-                        "Nancy KELLER",
-                        "AJIT VERMA",
-                        "RICHARD PETERSON"
+                        "NORMAN DRINKWATER"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2536,27 +2795,27 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "NORMAN DRINKWATER",
-                        "CHRIS A. BRADFIELD",
-                        "WADE BUSHMAN",
                         "WILLIAM HICKEY",
+                        "WADE BUSHMAN",
+                        "Eric SANDGREN",
                         "VLADIMIR SPIEGELMAN",
+                        "Jeffrey Johnson",
+                        "Jae-Hyuk Yu",
+                        "RICHARD PETERSON",
                         "SUSAN SMITH",
-                        "JOEL PEDERSEN",
                         "DAVID JARRARD",
-                        "ERIC JOHNSON",
                         "Lauren TREPANIER",
+                        "ERIC JOHNSON",
+                        "TERRY D. OBERLEY",
+                        "Nihal AHMAD",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "AJIT VERMA",
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN",
                         "B L ALLEN-HOFFMANN",
                         "THOMAS JEFFRIES",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "Jeffrey Johnson",
-                        "Eric SANDGREN",
-                        "TERRY D. OBERLEY",
-                        "AJIT VERMA",
-                        "RICHARD PETERSON"
+                        "NORMAN DRINKWATER"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2581,28 +2840,28 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "NORMAN DRINKWATER",
-                        "CHRIS A. BRADFIELD",
-                        "WADE BUSHMAN",
                         "WILLIAM HICKEY",
-                        "SUSAN SMITH",
-                        "JOEL PEDERSEN",
-                        "DAVID JARRARD",
-                        "ERIC JOHNSON",
-                        "HASAN MUKHTAR",
-                        "Lauren TREPANIER",
-                        "B L ALLEN-HOFFMANN",
-                        "THOMAS JEFFRIES",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "Jeffrey Johnson",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
+                        "COLIN JEFCOATE",
+                        "HASAN MUKHTAR",
+                        "Jeffrey Johnson",
+                        "Jae-Hyuk Yu",
+                        "SUSAN SMITH",
+                        "DAVID JARRARD",
+                        "Lauren TREPANIER",
                         "ZSUZSANNA FABRY",
+                        "ERIC JOHNSON",
                         "TERRY D. OBERLEY",
+                        "Nihal AHMAD",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
                         "AJIT VERMA",
-                        "COLIN JEFCOATE"
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN",
+                        "THOMAS JEFFRIES",
+                        "B L ALLEN-HOFFMANN",
+                        "NORMAN DRINKWATER"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2627,26 +2886,26 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "CHRIS A. BRADFIELD",
-                        "WADE BUSHMAN",
                         "WILLIAM HICKEY",
-                        "SUSAN SMITH",
-                        "JOEL PEDERSEN",
-                        "DAVID JARRARD",
-                        "ERIC JOHNSON",
-                        "HASAN MUKHTAR",
-                        "Lauren TREPANIER",
-                        "B L ALLEN-HOFFMANN",
-                        "THOMAS JEFFRIES",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
-                        "Jeffrey Johnson",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
+                        "HASAN MUKHTAR",
+                        "Jeffrey Johnson",
+                        "SUSAN SMITH",
+                        "DAVID JARRARD",
+                        "Lauren TREPANIER",
                         "ZSUZSANNA FABRY",
+                        "RANDAL TIBBETTS",
+                        "ERIC JOHNSON",
                         "TERRY D. OBERLEY",
+                        "Nihal AHMAD",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
                         "AJIT VERMA",
-                        "RANDAL TIBBETTS"
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN",
+                        "B L ALLEN-HOFFMANN",
+                        "THOMAS JEFFRIES"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2671,31 +2930,31 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "CHRIS A. BRADFIELD",
-                        "WILLIAM DOVE",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
                         "WILLIAM HICKEY",
-                        "SUSAN SMITH",
-                        "JOEL PEDERSEN",
-                        "DAVID JARRARD",
-                        "HASAN MUKHTAR",
-                        "ERIC JOHNSON",
-                        "Wei XU",
-                        "Lauren TREPANIER",
-                        "B L ALLEN-HOFFMANN",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
+                        "HASAN MUKHTAR",
                         "YOUNGSOOK LEE",
+                        "Jae-Hyuk Yu",
+                        "SUSAN SMITH",
+                        "William KARASOV",
+                        "DAVID JARRARD",
+                        "WILLIAM DOVE",
+                        "Lauren TREPANIER",
                         "ZSUZSANNA FABRY",
-                        "TERRY D. OBERLEY",
                         "NADER SHEIBANI",
-                        "AJIT VERMA",
+                        "Wei XU",
+                        "RANDAL TIBBETTS",
+                        "ERIC JOHNSON",
                         "Yongna XING",
-                        "RANDAL TIBBETTS"
+                        "TERRY D. OBERLEY",
+                        "Nihal AHMAD",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "AJIT VERMA",
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN",
+                        "B L ALLEN-HOFFMANN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2720,32 +2979,32 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "GABRIELA G. CEZAR",
-                        "ADNAN A ELFARRA",
-                        "CHRIS A. BRADFIELD",
-                        "WILLIAM DOVE",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
                         "WILLIAM HICKEY",
-                        "SUSAN SMITH",
-                        "WARREN PAUL PORTER",
-                        "JOEL PEDERSEN",
-                        "DAVID JARRARD",
-                        "HASAN MUKHTAR",
-                        "ERIC JOHNSON",
-                        "Wei XU",
-                        "Lauren TREPANIER",
-                        "B L ALLEN-HOFFMANN",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "YOUNGSOOK LEE",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
+                        "HASAN MUKHTAR",
+                        "YOUNGSOOK LEE",
+                        "Jae-Hyuk Yu",
+                        "SUSAN SMITH",
+                        "William KARASOV",
+                        "DAVID JARRARD",
+                        "WILLIAM DOVE",
+                        "Lauren TREPANIER",
                         "ZSUZSANNA FABRY",
-                        "TERRY D. OBERLEY",
                         "NADER SHEIBANI",
+                        "Wei XU",
+                        "RANDAL TIBBETTS",
+                        "ERIC JOHNSON",
+                        "TERRY D. OBERLEY",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "GABRIELA G. CEZAR",
                         "AJIT VERMA",
-                        "RANDAL TIBBETTS"
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN",
+                        "B L ALLEN-HOFFMANN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2770,33 +3029,33 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "GABRIELA G. CEZAR",
-                        "ADNAN A ELFARRA",
-                        "CHRIS A. BRADFIELD",
-                        "WILLIAM DOVE",
-                        "ANNE GRIEP",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
                         "WILLIAM HICKEY",
-                        "SUSAN SMITH",
-                        "WARREN PAUL PORTER",
-                        "JOEL PEDERSEN",
-                        "DAVID JARRARD",
-                        "ERIC JOHNSON",
-                        "HASAN MUKHTAR",
-                        "Wei XU",
-                        "Lauren TREPANIER",
-                        "B L ALLEN-HOFFMANN",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
                         "JAMES SHULL",
-                        "Jae-Hyuk Yu",
-                        "YOUNGSOOK LEE",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
-                        "TERRY D. OBERLEY",
+                        "HASAN MUKHTAR",
+                        "YOUNGSOOK LEE",
+                        "Jae-Hyuk Yu",
+                        "SUSAN SMITH",
+                        "William KARASOV",
+                        "DAVID JARRARD",
+                        "WILLIAM DOVE",
+                        "Lauren TREPANIER",
                         "NADER SHEIBANI",
+                        "Wei XU",
+                        "RANDAL TIBBETTS",
+                        "ERIC JOHNSON",
+                        "TERRY D. OBERLEY",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "ANNE GRIEP",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "GABRIELA G. CEZAR",
                         "AJIT VERMA",
-                        "RANDAL TIBBETTS"
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN",
+                        "B L ALLEN-HOFFMANN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2821,28 +3080,28 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
+                        "WILLIAM HICKEY",
+                        "JAMES SHULL",
+                        "WADE BUSHMAN",
+                        "Eric SANDGREN",
+                        "HASAN MUKHTAR",
+                        "YOUNGSOOK LEE",
+                        "Jae-Hyuk Yu",
+                        "William KARASOV",
+                        "DAVID JARRARD",
+                        "WILLIAM DOVE",
+                        "Lauren TREPANIER",
+                        "NADER SHEIBANI",
+                        "Wei XU",
+                        "RANDAL TIBBETTS",
+                        "TERRY D. OBERLEY",
+                        "WARREN PAUL PORTER",
+                        "ANNE GRIEP",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
                         "GABRIELA G. CEZAR",
                         "ADNAN A ELFARRA",
-                        "CHRIS A. BRADFIELD",
-                        "WILLIAM DOVE",
-                        "ANNE GRIEP",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
-                        "WILLIAM HICKEY",
-                        "JOEL PEDERSEN",
-                        "WARREN PAUL PORTER",
-                        "DAVID JARRARD",
-                        "HASAN MUKHTAR",
-                        "Wei XU",
-                        "Lauren TREPANIER",
-                        "WARREN HEIDEMAN",
-                        "JAMES SHULL",
-                        "Jae-Hyuk Yu",
-                        "Eric SANDGREN",
-                        "YOUNGSOOK LEE",
-                        "TERRY D. OBERLEY",
-                        "NADER SHEIBANI",
-                        "RANDAL TIBBETTS"
+                        "WARREN HEIDEMAN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2867,30 +3126,30 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "CHRIS A. BRADFIELD",
-                        "WILLIAM DOVE",
-                        "ANNE GRIEP",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
                         "WILLIAM HICKEY",
-                        "VLADIMIR SPIEGELMAN",
-                        "JOEL PEDERSEN",
-                        "WARREN PAUL PORTER",
-                        "DAVID JARRARD",
-                        "HASAN MUKHTAR",
-                        "Wei XU",
-                        "Lauren TREPANIER",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
                         "JAMES SHULL",
-                        "Jae-Hyuk Yu",
-                        "YOUNGSOOK LEE",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
+                        "HASAN MUKHTAR",
+                        "VLADIMIR SPIEGELMAN",
+                        "YOUNGSOOK LEE",
+                        "Jae-Hyuk Yu",
+                        "William KARASOV",
+                        "DAVID JARRARD",
+                        "WILLIAM DOVE",
+                        "Lauren TREPANIER",
                         "ZSUZSANNA FABRY",
-                        "TERRY D. OBERLEY",
                         "NADER SHEIBANI",
-                        "RANDAL TIBBETTS"
+                        "Wei XU",
+                        "RANDAL TIBBETTS",
+                        "TERRY D. OBERLEY",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "ANNE GRIEP",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2915,26 +3174,26 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "CHRIS A. BRADFIELD",
-                        "WILLIAM DOVE",
-                        "ANNE GRIEP",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
-                        "VLADIMIR SPIEGELMAN",
-                        "WARREN PAUL PORTER",
-                        "JOEL PEDERSEN",
-                        "Wei XU",
-                        "Lauren TREPANIER",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
                         "JAMES SHULL",
-                        "Jae-Hyuk Yu",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
+                        "VLADIMIR SPIEGELMAN",
                         "YOUNGSOOK LEE",
+                        "Jae-Hyuk Yu",
+                        "William KARASOV",
+                        "WILLIAM DOVE",
+                        "Lauren TREPANIER",
                         "ZSUZSANNA FABRY",
                         "NADER SHEIBANI",
-                        "RANDAL TIBBETTS"
+                        "Wei XU",
+                        "RANDAL TIBBETTS",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "ANNE GRIEP",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2959,21 +3218,21 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "VLADIMIR SPIEGELMAN",
-                        "VIJAYASARADHI SETALURI",
-                        "WARREN HEIDEMAN",
-                        "JOEL PEDERSEN",
-                        "CHRIS A. BRADFIELD",
-                        "WILLIAM DOVE",
-                        "TIMOTHY BUGNI",
-                        "Nihal AHMAD",
-                        "ANNE GRIEP",
                         "ZSUZSANNA FABRY",
-                        "LINDA SCHULER",
-                        "MARK COOK",
                         "WADE BUSHMAN",
-                        "William KARASOV"
+                        "TIMOTHY BUGNI",
+                        "ADNAN A ELFARRA",
+                        "William KARASOV",
+                        "Nihal AHMAD",
+                        "MARK COOK",
+                        "WARREN HEIDEMAN",
+                        "WILLIAM DOVE",
+                        "ANNE GRIEP",
+                        "LINDA SCHULER",
+                        "VIJAYASARADHI SETALURI",
+                        "VLADIMIR SPIEGELMAN",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2998,26 +3257,26 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ADNAN A ELFARRA",
-                        "CHRIS A. BRADFIELD",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
                         "WILLIAM HICKEY",
-                        "VLADIMIR SPIEGELMAN",
-                        "JOEL PEDERSEN",
-                        "WARREN PAUL PORTER",
-                        "Wei XU",
-                        "LINDA SCHULER",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
                         "JAMES SHULL",
-                        "Jae-Hyuk Yu",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
+                        "TIMOTHY BUGNI",
+                        "VLADIMIR SPIEGELMAN",
                         "YOUNGSOOK LEE",
+                        "Jae-Hyuk Yu",
+                        "William KARASOV",
                         "MARK COOK",
-                        "NADER SHEIBANI",
+                        "LINDA SCHULER",
                         "VIJAYASARADHI SETALURI",
-                        "TIMOTHY BUGNI"
+                        "NADER SHEIBANI",
+                        "Wei XU",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "ADNAN A ELFARRA",
+                        "WARREN HEIDEMAN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3042,31 +3301,31 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "GREGORY KENNEDY",
-                        "ANNE GRIEP",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
                         "WILLIAM HICKEY",
-                        "VLADIMIR SPIEGELMAN",
-                        "SUSAN SMITH",
-                        "YING GE",
-                        "JOEL PEDERSEN",
-                        "WARREN PAUL PORTER",
-                        "Wei XU",
-                        "Lauren TREPANIER",
-                        "JAMES A THOMSON",
-                        "LINDA SCHULER",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
                         "JAMES SHULL",
-                        "Jae-Hyuk Yu",
-                        "YOUNGSOOK LEE",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
+                        "TIMOTHY BUGNI",
+                        "VLADIMIR SPIEGELMAN",
+                        "GREGORY KENNEDY",
+                        "YOUNGSOOK LEE",
+                        "Jae-Hyuk Yu",
+                        "YING GE",
+                        "SUSAN SMITH",
+                        "JAMES A THOMSON",
+                        "William KARASOV",
                         "MARK COOK",
-                        "NADER SHEIBANI",
+                        "LINDA SCHULER",
                         "VIJAYASARADHI SETALURI",
-                        "TIMOTHY BUGNI"
+                        "Lauren TREPANIER",
+                        "NADER SHEIBANI",
+                        "Wei XU",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "ANNE GRIEP",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "WARREN HEIDEMAN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3091,28 +3350,28 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "GREGORY KENNEDY",
-                        "ANNE GRIEP",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
-                        "VLADIMIR SPIEGELMAN",
-                        "SUSAN SMITH",
-                        "YING GE",
-                        "WARREN PAUL PORTER",
-                        "JOEL PEDERSEN",
-                        "Wei XU",
-                        "Lauren TREPANIER",
-                        "JAMES A THOMSON",
-                        "LINDA SCHULER",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
                         "JAMES SHULL",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
-                        "MARK COOK",
+                        "TIMOTHY BUGNI",
                         "QUE LAN",
+                        "VLADIMIR SPIEGELMAN",
+                        "GREGORY KENNEDY",
+                        "YING GE",
+                        "SUSAN SMITH",
+                        "JAMES A THOMSON",
+                        "William KARASOV",
+                        "MARK COOK",
+                        "LINDA SCHULER",
                         "VIJAYASARADHI SETALURI",
-                        "TIMOTHY BUGNI"
+                        "Lauren TREPANIER",
+                        "Wei XU",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "ANNE GRIEP",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "WARREN HEIDEMAN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3137,27 +3396,27 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "EMERY BRESNICK",
-                        "CHRIS A. BRADFIELD",
-                        "GREGORY KENNEDY",
-                        "ANNE GRIEP",
-                        "WADE BUSHMAN",
-                        "William KARASOV",
-                        "VLADIMIR SPIEGELMAN",
-                        "YING GE",
-                        "WARREN PAUL PORTER",
-                        "JOEL PEDERSEN",
-                        "Wei XU",
-                        "JAMES A THOMSON",
-                        "LINDA SCHULER",
-                        "WARREN HEIDEMAN",
-                        "Nihal AHMAD",
                         "JAMES SHULL",
-                        "Jae-Hyuk Yu",
+                        "WADE BUSHMAN",
                         "Eric SANDGREN",
+                        "WILLIAM RICKE",
+                        "VLADIMIR SPIEGELMAN",
+                        "GREGORY KENNEDY",
+                        "Jae-Hyuk Yu",
+                        "YING GE",
+                        "JAMES A THOMSON",
+                        "William KARASOV",
                         "MARK COOK",
                         "VIJAYASARADHI SETALURI",
-                        "WILLIAM RICKE"
+                        "LINDA SCHULER",
+                        "Wei XU",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "ANNE GRIEP",
+                        "CHRIS A. BRADFIELD",
+                        "EMERY BRESNICK",
+                        "JOEL PEDERSEN",
+                        "WARREN HEIDEMAN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3182,27 +3441,27 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "EMERY BRESNICK",
-                        "CHRIS A. BRADFIELD",
-                        "GREGORY KENNEDY",
-                        "Paul Koch",
-                        "ANNE GRIEP",
-                        "William KARASOV",
-                        "VLADIMIR SPIEGELMAN",
-                        "YING GE",
-                        "JOEL PEDERSEN",
-                        "WARREN PAUL PORTER",
-                        "Russell GROVES",
-                        "Wei XU",
-                        "JAMES A THOMSON",
-                        "LINDA SCHULER",
                         "JAMES SHULL",
-                        "Jae-Hyuk Yu",
-                        "MARK COOK",
-                        "Robert Lipinski",
-                        "VIJAYASARADHI SETALURI",
+                        "Russell GROVES",
+                        "Paul Koch",
                         "WILLIAM RICKE",
-                        "RICHARD PETERSON"
+                        "VLADIMIR SPIEGELMAN",
+                        "GREGORY KENNEDY",
+                        "Jae-Hyuk Yu",
+                        "RICHARD PETERSON",
+                        "YING GE",
+                        "JAMES A THOMSON",
+                        "Robert Lipinski",
+                        "William KARASOV",
+                        "MARK COOK",
+                        "LINDA SCHULER",
+                        "VIJAYASARADHI SETALURI",
+                        "Wei XU",
+                        "WARREN PAUL PORTER",
+                        "ANNE GRIEP",
+                        "CHRIS A. BRADFIELD",
+                        "EMERY BRESNICK",
+                        "JOEL PEDERSEN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3227,30 +3486,30 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "GREGORY KENNEDY",
-                        "Paul Koch",
-                        "ANNE GRIEP",
-                        "William KARASOV",
-                        "VLADIMIR SPIEGELMAN",
-                        "YING GE",
-                        "WARREN PAUL PORTER",
-                        "JOEL PEDERSEN",
-                        "Russell GROVES",
                         "DHANANSAYAN SHANMUGANAYAGAM",
-                        "Wei XU",
-                        "Chad VEZINA",
-                        "JAMES A THOMSON",
-                        "LINDA SCHULER",
-                        "Jae-Hyuk Yu",
-                        "MARK COOK",
-                        "Robert Lipinski",
-                        "NADER SHEIBANI",
                         "David Beebe",
-                        "VIJAYASARADHI SETALURI",
+                        "Russell GROVES",
+                        "Paul Koch",
                         "WILLIAM RICKE",
-                        "JOSHUA MEZRICH",
-                        "RICHARD PETERSON"
+                        "VLADIMIR SPIEGELMAN",
+                        "GREGORY KENNEDY",
+                        "Jae-Hyuk Yu",
+                        "RICHARD PETERSON",
+                        "YING GE",
+                        "JAMES A THOMSON",
+                        "Robert Lipinski",
+                        "William KARASOV",
+                        "MARK COOK",
+                        "LINDA SCHULER",
+                        "VIJAYASARADHI SETALURI",
+                        "NADER SHEIBANI",
+                        "Wei XU",
+                        "WARREN PAUL PORTER",
+                        "ANNE GRIEP",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "Chad VEZINA",
+                        "JOSHUA MEZRICH"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3275,28 +3534,28 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "GREGORY KENNEDY",
-                        "Paul Koch",
-                        "William KARASOV",
-                        "VLADIMIR SPIEGELMAN",
-                        "WARREN PAUL PORTER",
-                        "JOEL PEDERSEN",
-                        "Russell GROVES",
                         "DHANANSAYAN SHANMUGANAYAGAM",
-                        "Wei XU",
-                        "Chad VEZINA",
-                        "JAMES A THOMSON",
-                        "LINDA SCHULER",
-                        "Jae-Hyuk Yu",
-                        "MARK COOK",
-                        "Robert Lipinski",
-                        "NADER SHEIBANI",
                         "David Beebe",
-                        "VIJAYASARADHI SETALURI",
+                        "Russell GROVES",
+                        "Paul Koch",
                         "WILLIAM RICKE",
-                        "JOSHUA MEZRICH",
-                        "RICHARD PETERSON"
+                        "VLADIMIR SPIEGELMAN",
+                        "GREGORY KENNEDY",
+                        "Jae-Hyuk Yu",
+                        "RICHARD PETERSON",
+                        "JAMES A THOMSON",
+                        "Robert Lipinski",
+                        "William KARASOV",
+                        "MARK COOK",
+                        "VIJAYASARADHI SETALURI",
+                        "LINDA SCHULER",
+                        "NADER SHEIBANI",
+                        "Wei XU",
+                        "WARREN PAUL PORTER",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "Chad VEZINA",
+                        "JOSHUA MEZRICH"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3321,29 +3580,29 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "GREGORY KENNEDY",
-                        "DUDLEY LAMMING",
-                        "William KARASOV",
-                        "VLADIMIR SPIEGELMAN",
-                        "JOEL PEDERSEN",
-                        "WARREN PAUL PORTER",
-                        "Russell GROVES",
                         "DHANANSAYAN SHANMUGANAYAGAM",
-                        "Wei XU",
-                        "Chad VEZINA",
-                        "JAMES A THOMSON",
-                        "LINDA SCHULER",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "MARK COOK",
-                        "Robert Lipinski",
-                        "NADER SHEIBANI",
                         "David Beebe",
-                        "VIJAYASARADHI SETALURI",
+                        "Russell GROVES",
                         "WILLIAM RICKE",
-                        "JOSHUA MEZRICH",
-                        "RICHARD PETERSON"
+                        "VLADIMIR SPIEGELMAN",
+                        "GREGORY KENNEDY",
+                        "Jae-Hyuk Yu",
+                        "RICHARD PETERSON",
+                        "JAMES A THOMSON",
+                        "Robert Lipinski",
+                        "William KARASOV",
+                        "MARK COOK",
+                        "VIJAYASARADHI SETALURI",
+                        "LINDA SCHULER",
+                        "NADER SHEIBANI",
+                        "Wei XU",
+                        "Nihal AHMAD",
+                        "WARREN PAUL PORTER",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "Chad VEZINA",
+                        "DUDLEY LAMMING",
+                        "JOSHUA MEZRICH"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3368,24 +3627,24 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "DUDLEY LAMMING",
-                        "William KARASOV",
-                        "JOEL PEDERSEN",
                         "DHANANSAYAN SHANMUGANAYAGAM",
-                        "DAVID JARRARD",
-                        "Wei XU",
-                        "Chad VEZINA",
-                        "JAMES A THOMSON",
-                        "LINDA SCHULER",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "MARK COOK",
-                        "Robert Lipinski",
-                        "NADER SHEIBANI",
                         "David Beebe",
-                        "VIJAYASARADHI SETALURI",
                         "WILLIAM RICKE",
+                        "Jae-Hyuk Yu",
+                        "JAMES A THOMSON",
+                        "Robert Lipinski",
+                        "William KARASOV",
+                        "DAVID JARRARD",
+                        "MARK COOK",
+                        "LINDA SCHULER",
+                        "VIJAYASARADHI SETALURI",
+                        "NADER SHEIBANI",
+                        "Wei XU",
+                        "Nihal AHMAD",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "Chad VEZINA",
+                        "DUDLEY LAMMING",
                         "JOSHUA MEZRICH"
                     ],
                     "no_credit": 0,
@@ -3411,29 +3670,29 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "Paul Koch",
-                        "DUDLEY LAMMING",
-                        "William KARASOV",
-                        "JOEL PEDERSEN",
-                        "Russell GROVES",
                         "DHANANSAYAN SHANMUGANAYAGAM",
-                        "DAVID JARRARD",
-                        "Chad VEZINA",
-                        "JAMES A THOMSON",
-                        "LINDA SCHULER",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "Lloyd SMITH",
-                        "MARK COOK",
-                        "Robert Lipinski",
-                        "NADER SHEIBANI",
                         "David Beebe",
-                        "VIJAYASARADHI SETALURI",
-                        "Kristen Malecki",
+                        "Russell GROVES",
+                        "Paul Koch",
+                        "Lloyd SMITH",
                         "WILLIAM RICKE",
-                        "VINCENT CRYNS",
-                        "JOSHUA MEZRICH"
+                        "Jae-Hyuk Yu",
+                        "Kristen Malecki",
+                        "JAMES A THOMSON",
+                        "Robert Lipinski",
+                        "William KARASOV",
+                        "MARK COOK",
+                        "DAVID JARRARD",
+                        "LINDA SCHULER",
+                        "VIJAYASARADHI SETALURI",
+                        "NADER SHEIBANI",
+                        "Nihal AHMAD",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "Chad VEZINA",
+                        "DUDLEY LAMMING",
+                        "JOSHUA MEZRICH",
+                        "VINCENT CRYNS"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3458,26 +3717,26 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "Paul Koch",
-                        "DUDLEY LAMMING",
-                        "William KARASOV",
-                        "JOEL PEDERSEN",
-                        "Russell GROVES",
                         "DHANANSAYAN SHANMUGANAYAGAM",
-                        "Chad VEZINA",
-                        "JAMES A THOMSON",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "Lloyd SMITH",
-                        "MARK COOK",
-                        "Robert Lipinski",
-                        "NADER SHEIBANI",
                         "David Beebe",
+                        "Russell GROVES",
+                        "Paul Koch",
                         "COLIN JEFCOATE",
+                        "Lloyd SMITH",
                         "WILLIAM RICKE",
-                        "VINCENT CRYNS",
-                        "JOSHUA MEZRICH"
+                        "Jae-Hyuk Yu",
+                        "JAMES A THOMSON",
+                        "Robert Lipinski",
+                        "William KARASOV",
+                        "MARK COOK",
+                        "NADER SHEIBANI",
+                        "Nihal AHMAD",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "Chad VEZINA",
+                        "DUDLEY LAMMING",
+                        "JOSHUA MEZRICH",
+                        "VINCENT CRYNS"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3502,27 +3761,27 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "Paul Koch",
-                        "KATHERINE MCMAHON",
-                        "DUDLEY LAMMING",
-                        "William KARASOV",
-                        "Sean Ronnekleiv-Kelly",
-                        "JOEL PEDERSEN",
-                        "Russell GROVES",
                         "DHANANSAYAN SHANMUGANAYAGAM",
-                        "Chad VEZINA",
-                        "JAMES A THOMSON",
-                        "Nihal AHMAD",
-                        "Jae-Hyuk Yu",
-                        "Robert Lipinski",
-                        "NADER SHEIBANI",
-                        "Nancy KELLER",
                         "David Beebe",
+                        "Nancy KELLER",
+                        "Russell GROVES",
+                        "Paul Koch",
                         "COLIN JEFCOATE",
                         "WILLIAM RICKE",
-                        "VINCENT CRYNS",
-                        "JOSHUA MEZRICH"
+                        "Jae-Hyuk Yu",
+                        "JAMES A THOMSON",
+                        "Robert Lipinski",
+                        "William KARASOV",
+                        "NADER SHEIBANI",
+                        "Nihal AHMAD",
+                        "CHRIS A. BRADFIELD",
+                        "JOEL PEDERSEN",
+                        "Sean Ronnekleiv-Kelly",
+                        "KATHERINE MCMAHON",
+                        "Chad VEZINA",
+                        "DUDLEY LAMMING",
+                        "JOSHUA MEZRICH",
+                        "VINCENT CRYNS"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3547,24 +3806,24 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "CHRIS A. BRADFIELD",
-                        "Paul Koch",
-                        "JOEL PEDERSEN",
-                        "Sean Ronnekleiv-Kelly",
-                        "Russell GROVES",
                         "DHANANSAYAN SHANMUGANAYAGAM",
+                        "NADER SHEIBANI",
+                        "Nancy KELLER",
+                        "David Beebe",
+                        "Russell GROVES",
+                        "Paul Koch",
+                        "JOSHUA MEZRICH",
+                        "VINCENT CRYNS",
+                        "Sean Ronnekleiv-Kelly",
+                        "JAMES A THOMSON",
+                        "WILLIAM RICKE",
                         "Nihal AHMAD",
                         "KATHERINE MCMAHON",
-                        "WILLIAM RICKE",
-                        "VINCENT CRYNS",
                         "DUDLEY LAMMING",
-                        "JOSHUA MEZRICH",
                         "Chad VEZINA",
-                        "Nancy KELLER",
+                        "CHRIS A. BRADFIELD",
                         "WILLIAM MURPHY",
-                        "JAMES A THOMSON",
-                        "NADER SHEIBANI",
-                        "David Beebe"
+                        "JOEL PEDERSEN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3589,23 +3848,23 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Robert Lipinski",
-                        "CHRIS A. BRADFIELD",
-                        "Paul Koch",
-                        "JOEL PEDERSEN",
-                        "Sean Ronnekleiv-Kelly",
-                        "Russell GROVES",
                         "DHANANSAYAN SHANMUGANAYAGAM",
+                        "NADER SHEIBANI",
+                        "David Beebe",
+                        "Paul Koch",
+                        "Russell GROVES",
+                        "VINCENT CRYNS",
+                        "Sean Ronnekleiv-Kelly",
+                        "JAMES A THOMSON",
+                        "WILLIAM RICKE",
+                        "Robert Lipinski",
                         "Nihal AHMAD",
                         "KATHERINE MCMAHON",
-                        "WILLIAM RICKE",
-                        "VINCENT CRYNS",
                         "DUDLEY LAMMING",
                         "Chad VEZINA",
+                        "CHRIS A. BRADFIELD",
                         "WILLIAM MURPHY",
-                        "JAMES A THOMSON",
-                        "NADER SHEIBANI",
-                        "David Beebe"
+                        "JOEL PEDERSEN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3630,21 +3889,21 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
+                        "DHANANSAYAN SHANMUGANAYAGAM",
                         "NADER SHEIBANI",
-                        "Cara Westmark",
-                        "CHRIS A. BRADFIELD",
+                        "Russell GROVES",
                         "Paul Koch",
                         "Sean Ronnekleiv-Kelly",
-                        "Nihal AHMAD",
-                        "JOEL PEDERSEN",
-                        "VINCENT CRYNS",
-                        "DHANANSAYAN SHANMUGANAYAGAM",
-                        "KATHERINE MCMAHON",
-                        "Russell GROVES",
-                        "Chad VEZINA",
-                        "Lauren TREPANIER",
                         "JAMES A THOMSON",
-                        "Robert Lipinski"
+                        "Nihal AHMAD",
+                        "KATHERINE MCMAHON",
+                        "Cara Westmark",
+                        "Robert Lipinski",
+                        "Chad VEZINA",
+                        "CHRIS A. BRADFIELD",
+                        "VINCENT CRYNS",
+                        "Lauren TREPANIER",
+                        "JOEL PEDERSEN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3669,21 +3928,21 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "NADER SHEIBANI",
-                        "Cara Westmark",
                         "YUN LIANG",
-                        "CHRIS A. BRADFIELD",
+                        "DHANANSAYAN SHANMUGANAYAGAM",
+                        "NADER SHEIBANI",
                         "Paul Koch",
                         "Sean Ronnekleiv-Kelly",
-                        "Nihal AHMAD",
-                        "JOEL PEDERSEN",
-                        "VINCENT CRYNS",
-                        "DHANANSAYAN SHANMUGANAYAGAM",
-                        "KATHERINE MCMAHON",
-                        "Chad VEZINA",
-                        "Lauren TREPANIER",
                         "JAMES A THOMSON",
-                        "Robert Lipinski"
+                        "Nihal AHMAD",
+                        "KATHERINE MCMAHON",
+                        "Cara Westmark",
+                        "Robert Lipinski",
+                        "Chad VEZINA",
+                        "CHRIS A. BRADFIELD",
+                        "VINCENT CRYNS",
+                        "Lauren TREPANIER",
+                        "JOEL PEDERSEN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3708,19 +3967,19 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "NADER SHEIBANI",
-                        "Cara Westmark",
                         "YUN LIANG",
-                        "CHRIS A. BRADFIELD",
+                        "NADER SHEIBANI",
                         "Paul Koch",
                         "Sean Ronnekleiv-Kelly",
-                        "Nihal AHMAD",
-                        "JOEL PEDERSEN",
-                        "VINCENT CRYNS",
                         "KATHERINE MCMAHON",
+                        "Nihal AHMAD",
+                        "Robert Lipinski",
+                        "Cara Westmark",
                         "Chad VEZINA",
+                        "CHRIS A. BRADFIELD",
+                        "VINCENT CRYNS",
                         "Lauren TREPANIER",
-                        "Robert Lipinski"
+                        "JOEL PEDERSEN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3745,19 +4004,19 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "NADER SHEIBANI",
-                        "Cara Westmark",
                         "YUN LIANG",
+                        "NADER SHEIBANI",
                         "Kristen Malecki",
-                        "CHRIS A. BRADFIELD",
                         "Paul Koch",
                         "Sean Ronnekleiv-Kelly",
-                        "Nihal AHMAD",
-                        "JOEL PEDERSEN",
-                        "VINCENT CRYNS",
                         "KATHERINE MCMAHON",
+                        "Nihal AHMAD",
+                        "Robert Lipinski",
+                        "Cara Westmark",
                         "Chad VEZINA",
-                        "Robert Lipinski"
+                        "CHRIS A. BRADFIELD",
+                        "VINCENT CRYNS",
+                        "JOEL PEDERSEN"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3783,19 +4042,19 @@
                     "incomplete": 0,
                     "instructors": [
                         "NADER SHEIBANI",
-                        "Cara Westmark",
-                        "Kimberly Stietz",
                         "Kristen Malecki",
-                        "CHRIS A. BRADFIELD",
                         "Paul Koch",
                         "Erica MAJUMDER",
-                        "Nihal AHMAD",
                         "Sean Ronnekleiv-Kelly",
-                        "VINCENT CRYNS",
                         "KATHERINE MCMAHON",
+                        "Nihal AHMAD",
+                        "Robert Lipinski",
+                        "Cara Westmark",
                         "Chad VEZINA",
+                        "CHRIS A. BRADFIELD",
+                        "VINCENT CRYNS",
                         "Lauren TREPANIER",
-                        "Robert Lipinski"
+                        "Kimberly Stietz"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3820,18 +4079,18 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
+                        "Eric YEN",
                         "NADER SHEIBANI",
-                        "Kimberly Stietz",
-                        "CHRIS A. BRADFIELD",
                         "Paul Koch",
                         "Erica MAJUMDER",
                         "Sean Ronnekleiv-Kelly",
-                        "VINCENT CRYNS",
                         "KATHERINE MCMAHON",
-                        "Chad VEZINA",
-                        "Lauren TREPANIER",
                         "Robert Lipinski",
-                        "Eric YEN"
+                        "Chad VEZINA",
+                        "Kimberly Stietz",
+                        "CHRIS A. BRADFIELD",
+                        "Lauren TREPANIER",
+                        "VINCENT CRYNS"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3856,17 +4115,17 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Kimberly Stietz",
-                        "Sean Ronnekleiv-Kelly",
-                        "Paul Koch",
-                        "Erica MAJUMDER",
-                        "VINCENT CRYNS",
-                        "ANJON AUDHYA",
-                        "FEYZA ENGIN",
                         "BRYAN BEDNARZ",
+                        "FEYZA ENGIN",
+                        "Paul Koch",
+                        "ANJON AUDHYA",
+                        "Erica MAJUMDER",
+                        "Sean Ronnekleiv-Kelly",
+                        "Robert Lipinski",
                         "Chad VEZINA",
+                        "Kimberly Stietz",
                         "Lauren TREPANIER",
-                        "Robert Lipinski"
+                        "VINCENT CRYNS"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3891,19 +4150,19 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Kimberly Stietz",
-                        "CHRIS A. BRADFIELD",
+                        "BRYAN BEDNARZ",
+                        "Daniel Matson",
                         "Paul Koch",
                         "Erica MAJUMDER",
-                        "Sean Ronnekleiv-Kelly",
-                        "VINCENT CRYNS",
                         "ANJON AUDHYA",
-                        "BRYAN BEDNARZ",
+                        "Sean Ronnekleiv-Kelly",
+                        "Robert Lipinski",
                         "Chad VEZINA",
-                        "Daniel Matson",
+                        "CHRIS A. BRADFIELD",
+                        "VINCENT CRYNS",
                         "Lauren TREPANIER",
                         "RICHARD ANDERSON",
-                        "Robert Lipinski"
+                        "Kimberly Stietz"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3928,20 +4187,20 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Robert Lipinski",
-                        "Kimberly Stietz",
-                        "Sean Ronnekleiv-Kelly",
-                        "Paul Koch",
-                        "Lisa Arendt",
-                        "Erica MAJUMDER",
-                        "VINCENT CRYNS",
-                        "ANJON AUDHYA",
-                        "Heather BARKHOLTZ",
                         "BRYAN BEDNARZ",
-                        "Chad VEZINA",
+                        "Heather BARKHOLTZ",
                         "Daniel Matson",
                         "Lauren TREPANIER",
-                        "RICHARD ANDERSON"
+                        "Paul Koch",
+                        "ANJON AUDHYA",
+                        "Erica MAJUMDER",
+                        "Sean Ronnekleiv-Kelly",
+                        "Robert Lipinski",
+                        "Chad VEZINA",
+                        "VINCENT CRYNS",
+                        "Lisa Arendt",
+                        "RICHARD ANDERSON",
+                        "Kimberly Stietz"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3966,19 +4225,19 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Paul Koch",
-                        "Erica MAJUMDER",
-                        "VINCENT CRYNS",
-                        "ANJON AUDHYA",
-                        "Heather BARKHOLTZ",
                         "BRYAN BEDNARZ",
-                        "Chad VEZINA",
+                        "Heather BARKHOLTZ",
                         "Daniel Matson",
-                        "Lauren TREPANIER",
-                        "SATHISH KUMAR",
-                        "RICHARD ANDERSON",
+                        "Paul Koch",
+                        "ANJON AUDHYA",
+                        "Erica MAJUMDER",
                         "Robert Lipinski",
-                        "Mark Meyer"
+                        "Chad VEZINA",
+                        "Mark Meyer",
+                        "SATHISH KUMAR",
+                        "Lauren TREPANIER",
+                        "RICHARD ANDERSON",
+                        "VINCENT CRYNS"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -4061,265 +4320,6 @@
                         "url": "http://www.med.wisc.edu/"
                     },
                     "typically_offered": "Occasionally"
-                },
-                "grade_data": null
-            }
-        }
-    },
-    {
-        "course_reference": {
-            "course_number": 625,
-            "subjects": [
-                "M&ENVTOX",
-                "PHMCOL-M",
-                "PHMSCI",
-                "ONCOLOGY",
-                "POPHLTH"
-            ]
-        },
-        "course_title": "TOXICOLOGY I",
-        "cumulative_grade_data": null,
-        "description": "Basic principles of toxicology and biochemical mechanisms of toxicity in mammalian species and man. Correlation between morphological and functional changes caused by toxicants in different organs of the body.",
-        "optimized_prerequisites": [
-            {
-                "course_number": 508,
-                "subjects": [
-                    "BIOCHEM"
-                ]
-            },
-            {
-                "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 404,
-                "subjects": [
-                    "PATH"
-                ]
-            }
-        ],
-        "prerequisites": {
-            "abstract_syntax_tree": {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [
-                                    {
-                                        "course_number": 501,
-                                        "subjects": [
-                                            "BIOCHEM"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 508,
-                                        "subjects": [
-                                            "BIOCHEM"
-                                        ]
-                                    }
-                                ],
-                                "operator": "OR"
-                            },
-                            {
-                                "children": [
-                                    {
-                                        "course_number": 335,
-                                        "subjects": [
-                                            "ANAT&PHY"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 435,
-                                        "subjects": [
-                                            "ANAT&PHY"
-                                        ]
-                                    },
-                                    {
-                                        "children": [
-                                            {
-                                                "course_number": 485,
-                                                "subjects": [
-                                                    "BIOCORE"
-                                                ]
-                                            },
-                                            {
-                                                "course_number": 486,
-                                                "subjects": [
-                                                    "BIOCORE"
-                                                ]
-                                            }
-                                        ],
-                                        "operator": "AND"
-                                    }
-                                ],
-                                "operator": "OR"
-                            },
-                            {
-                                "course_number": 404,
-                                "subjects": [
-                                    "PATH"
-                                ]
-                            }
-                        ],
-                        "operator": "AND"
-                    },
-                    "graduate/professional standing"
-                ],
-                "operator": "OR"
-            },
-            "course_references": [
-                {
-                    "course_number": 435,
-                    "subjects": [
-                        "ANAT&PHY"
-                    ]
-                },
-                {
-                    "course_number": 486,
-                    "subjects": [
-                        "BIOCORE"
-                    ]
-                },
-                {
-                    "course_number": 485,
-                    "subjects": [
-                        "BIOCORE"
-                    ]
-                },
-                {
-                    "course_number": 508,
-                    "subjects": [
-                        "BIOCHEM"
-                    ]
-                },
-                {
-                    "course_number": 501,
-                    "subjects": [
-                        "BIOCHEM"
-                    ]
-                },
-                {
-                    "course_number": 404,
-                    "subjects": [
-                        "PATH"
-                    ]
-                },
-                {
-                    "course_number": 335,
-                    "subjects": [
-                        "ANAT&PHY"
-                    ]
-                }
-            ],
-            "linked_requisite_text": [
-                "(",
-                {
-                    "course_number": 501,
-                    "subjects": [
-                        "BIOCHEM"
-                    ]
-                },
-                " or ",
-                {
-                    "course_number": 508,
-                    "subjects": [
-                        "BIOCHEM"
-                    ]
-                },
-                ") and (",
-                {
-                    "course_number": 335,
-                    "subjects": [
-                        "ANAT&PHY"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 435,
-                    "subjects": [
-                        "ANAT&PHY"
-                    ]
-                },
-                ", or (",
-                {
-                    "course_number": 485,
-                    "subjects": [
-                        "BIOCORE"
-                    ]
-                },
-                " and ",
-                {
-                    "course_number": 486,
-                    "subjects": [
-                        "BIOCORE"
-                    ]
-                },
-                ")) and ",
-                {
-                    "course_number": 404,
-                    "subjects": [
-                        "PATH"
-                    ]
-                },
-                "; or graduate/professional standing"
-            ],
-            "prerequisites_text": "(BIOCHEM\u00a0501or508) and (ANAT&PHY\u00a0335,435, or (BIOCORE\u00a0485and486)) andPATH\u00a0404; or graduate/professional standing"
-        },
-        "similar_courses": [
-            {
-                "course_number": 626,
-                "subjects": [
-                    "M&ENVTOX",
-                    "PATH",
-                    "PHMCOL-M",
-                    "PHMSCI",
-                    "POPHLTH"
-                ]
-            },
-            {
-                "course_number": 800,
-                "subjects": [
-                    "M&ENVTOX"
-                ]
-            },
-            {
-                "course_number": 558,
-                "subjects": [
-                    "PHMSCI"
-                ]
-            },
-            {
-                "course_number": 781,
-                "subjects": [
-                    "PHMCOL-M"
-                ]
-            },
-            {
-                "course_number": 555,
-                "subjects": [
-                    "COMPBIO"
-                ]
-            }
-        ],
-        "term_data": {
-            "1262": {
-                "enrollment_data": {
-                    "credit_count": [
-                        3,
-                        3
-                    ],
-                    "ethnics_studies": false,
-                    "general_education": false,
-                    "instructors": {},
-                    "last_taught_term": "Fall 2024",
-                    "school": {
-                        "abbreviation": "M",
-                        "name": "Medicine and Public Health",
-                        "url": "http://www.med.wisc.edu/"
-                    },
-                    "typically_offered": "Fall"
                 },
                 "grade_data": null
             }
