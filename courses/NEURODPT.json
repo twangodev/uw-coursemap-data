@@ -1,6 +1,224 @@
 [
     {
         "course_reference": {
+            "course_number": 610,
+            "subjects": [
+                "NTP",
+                "NEURODPT"
+            ]
+        },
+        "course_title": "CELLULAR AND MOLECULAR NEUROSCIENCE",
+        "cumulative_grade_data": null,
+        "description": "Study of original papers leading to an understanding of the molecular basis of electrical activity in neurons. Topics include voltage-sensitive currents, molecular biology of neuronal receptorrs, synaptic transmission and sensory transduction.",
+        "keywords": [
+            "receptorrs synaptic",
+            "electrical activity",
+            "currents molecular",
+            "neurons topics",
+            "biology neuronal"
+        ],
+        "optimized_prerequisites": [
+            {
+                "course_number": 523,
+                "subjects": [
+                    "PSYCH",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 208,
+                "subjects": [
+                    "PHYSICS"
+                ]
+            }
+        ],
+        "prerequisites": {
+            "abstract_syntax_tree": {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "course_number": 523,
+                                "subjects": [
+                                    "PSYCH",
+                                    "ZOOLOGY"
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "course_number": 202,
+                                        "subjects": [
+                                            "PHYSICS"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 208,
+                                        "subjects": [
+                                            "PHYSICS"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 248,
+                                        "subjects": [
+                                            "PHYSICS"
+                                        ]
+                                    }
+                                ],
+                                "operator": "OR"
+                            }
+                        ],
+                        "operator": "AND"
+                    },
+                    "graduate/professional standing"
+                ],
+                "operator": "OR"
+            },
+            "course_references": [
+                {
+                    "course_number": 202,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
+                    "course_number": 523,
+                    "subjects": [
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 248,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
+                    "course_number": 208,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                }
+            ],
+            "linked_requisite_text": [
+                {
+                    "course_number": 523,
+                    "subjects": [
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
+                },
+                " and (",
+                {
+                    "course_number": 202,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 208,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                ", or ",
+                {
+                    "course_number": 248,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                "), or graduate/professional standing"
+            ],
+            "prerequisites_text": "ZOOLOGY/\u200bPSYCH\u00a0\u00a0523and (PHYSICS\u00a0202,208, or248), or graduate/professional standing"
+        },
+        "satisfies": [
+            {
+                "course_number": 611,
+                "subjects": [
+                    "NTP",
+                    "PSYCH",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 640,
+                "subjects": [
+                    "NTP",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 735,
+                "subjects": [
+                    "NEUROL"
+                ]
+            }
+        ],
+        "similar_courses": [
+            {
+                "course_number": 629,
+                "subjects": [
+                    "NTP",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 523,
+                "subjects": [
+                    "PSYCH",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 616,
+                "subjects": [
+                    "NEURODPT",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 640,
+                "subjects": [
+                    "NTP",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 900,
+                "subjects": [
+                    "NTP"
+                ]
+            }
+        ],
+        "term_data": {
+            "1262": {
+                "enrollment_data": {
+                    "credit_count": [
+                        4,
+                        4
+                    ],
+                    "ethnics_studies": false,
+                    "general_education": false,
+                    "instructors": {
+                        "MATT JONES": "MATHEWJONES@WISC.EDU"
+                    },
+                    "last_taught_term": "Fall 2024",
+                    "school": {
+                        "abbreviation": "M",
+                        "name": "Medicine and Public Health",
+                        "url": "http://www.med.wisc.edu/"
+                    },
+                    "typically_offered": "Fall"
+                },
+                "grade_data": null
+            }
+        }
+    },
+    {
+        "course_reference": {
             "course_number": 990,
             "subjects": [
                 "NEURODPT"
@@ -47,21 +265,15 @@
         "satisfies": [],
         "similar_courses": [
             {
+                "course_number": 990,
+                "subjects": [
+                    "PHYSIOL"
+                ]
+            },
+            {
                 "course_number": 699,
                 "subjects": [
                     "NEURODPT"
-                ]
-            },
-            {
-                "course_number": 990,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            },
-            {
-                "course_number": 990,
-                "subjects": [
-                    "POPHLTH"
                 ]
             },
             {
@@ -73,7 +285,13 @@
             {
                 "course_number": 990,
                 "subjects": [
-                    "PHYSIOL"
+                    "POPHLTH"
+                ]
+            },
+            {
+                "course_number": 990,
+                "subjects": [
+                    "PHYSICS"
                 ]
             }
         ],
@@ -91,12 +309,12 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "BARON CHANDA",
-                        "Meyer JACKSON",
-                        "CYNTHIA CZAJKOWSKI",
                         "EDWIN CHAPMAN",
-                        "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "TIMOTHY GOMEZ",
+                        "Meyer JACKSON",
+                        "BARON CHANDA",
+                        "CYNTHIA CZAJKOWSKI",
+                        "XINYU ZHAO"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -121,13 +339,13 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "BARON CHANDA",
-                        "RAUNAK SINHA",
-                        "Meyer JACKSON",
-                        "CYNTHIA CZAJKOWSKI",
                         "EDWIN CHAPMAN",
-                        "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "TIMOTHY GOMEZ",
+                        "Meyer JACKSON",
+                        "BARON CHANDA",
+                        "CYNTHIA CZAJKOWSKI",
+                        "RAUNAK SINHA",
+                        "XINYU ZHAO"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -152,13 +370,13 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "BARON CHANDA",
-                        "Darcie MOORE",
-                        "Meyer JACKSON",
-                        "CYNTHIA CZAJKOWSKI",
                         "EDWIN CHAPMAN",
-                        "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
+                        "Meyer JACKSON",
+                        "BARON CHANDA",
+                        "CYNTHIA CZAJKOWSKI",
+                        "XINYU ZHAO"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -183,14 +401,14 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "BARON CHANDA",
-                        "Darcie MOORE",
-                        "RAUNAK SINHA",
-                        "Meyer JACKSON",
-                        "CYNTHIA CZAJKOWSKI",
                         "EDWIN CHAPMAN",
-                        "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
+                        "Meyer JACKSON",
+                        "BARON CHANDA",
+                        "CYNTHIA CZAJKOWSKI",
+                        "RAUNAK SINHA",
+                        "XINYU ZHAO"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -215,12 +433,12 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "RAUNAK SINHA",
+                        "EDWIN CHAPMAN",
                         "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
                         "Meyer JACKSON",
                         "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
-                        "TIMOTHY GOMEZ"
+                        "RAUNAK SINHA"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -245,13 +463,13 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "RAUNAK SINHA",
+                        "EDWIN CHAPMAN",
                         "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
                         "Meyer JACKSON",
                         "XIN HUANG",
                         "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
-                        "TIMOTHY GOMEZ"
+                        "RAUNAK SINHA"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -276,12 +494,12 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "RAUNAK SINHA",
+                        "EDWIN CHAPMAN",
                         "Darcie MOORE",
-                        "Meyer JACKSON",
                         "AVTAR ROOPRA",
+                        "Meyer JACKSON",
                         "XIN HUANG",
-                        "EDWIN CHAPMAN"
+                        "RAUNAK SINHA"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -306,14 +524,14 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "RAUNAK SINHA",
-                        "Darcie MOORE",
-                        "Meyer JACKSON",
-                        "AVTAR ROOPRA",
-                        "JON LEVINE",
-                        "XIN HUANG",
                         "EDWIN CHAPMAN",
-                        "Gail ROBERTSON"
+                        "Darcie MOORE",
+                        "AVTAR ROOPRA",
+                        "Meyer JACKSON",
+                        "XIN HUANG",
+                        "Gail ROBERTSON",
+                        "RAUNAK SINHA",
+                        "JON LEVINE"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -338,13 +556,13 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "RAUNAK SINHA",
-                        "Darcie MOORE",
-                        "Andre Moura da Costa e Sousa",
-                        "Meyer JACKSON",
-                        "AVTAR ROOPRA",
-                        "JON LEVINE",
                         "EDWIN CHAPMAN",
+                        "Darcie MOORE",
+                        "AVTAR ROOPRA",
+                        "Meyer JACKSON",
+                        "RAUNAK SINHA",
+                        "JON LEVINE",
+                        "Andre Moura da Costa e Sousa",
                         "XINYU ZHAO"
                     ],
                     "no_credit": 0,
@@ -370,14 +588,14 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "RAUNAK SINHA",
-                        "Andre Moura da Costa e Sousa",
-                        "Meyer JACKSON",
-                        "AVTAR ROOPRA",
-                        "JON LEVINE",
                         "EDWIN CHAPMAN",
-                        "XINYU ZHAO",
-                        "Abbas RIZVI"
+                        "Abbas RIZVI",
+                        "AVTAR ROOPRA",
+                        "Meyer JACKSON",
+                        "RAUNAK SINHA",
+                        "JON LEVINE",
+                        "Andre Moura da Costa e Sousa",
+                        "XINYU ZHAO"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -402,15 +620,15 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "RAUNAK SINHA",
-                        "Darcie MOORE",
-                        "Andre Moura da Costa e Sousa",
-                        "Meyer JACKSON",
-                        "AVTAR ROOPRA",
-                        "JON LEVINE",
                         "EDWIN CHAPMAN",
-                        "XINYU ZHAO",
-                        "Abbas RIZVI"
+                        "Darcie MOORE",
+                        "Abbas RIZVI",
+                        "AVTAR ROOPRA",
+                        "Meyer JACKSON",
+                        "RAUNAK SINHA",
+                        "JON LEVINE",
+                        "Andre Moura da Costa e Sousa",
+                        "XINYU ZHAO"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -435,16 +653,16 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "RAUNAK SINHA",
-                        "Darcie MOORE",
-                        "Andre Moura da Costa e Sousa",
-                        "Meyer JACKSON",
-                        "AVTAR ROOPRA",
-                        "Luis Populin",
-                        "JON LEVINE",
                         "EDWIN CHAPMAN",
-                        "XINYU ZHAO",
-                        "Abbas RIZVI"
+                        "Darcie MOORE",
+                        "Abbas RIZVI",
+                        "AVTAR ROOPRA",
+                        "Meyer JACKSON",
+                        "Luis Populin",
+                        "RAUNAK SINHA",
+                        "JON LEVINE",
+                        "Andre Moura da Costa e Sousa",
+                        "XINYU ZHAO"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -552,1210 +770,108 @@
     },
     {
         "course_reference": {
-            "course_number": 674,
+            "course_number": 629,
             "subjects": [
-                "ZOOLOGY",
-                "NEURODPT",
-                "PSYCH"
+                "NTP",
+                "NEURODPT"
             ]
         },
-        "course_title": "BEHAVIORAL NEUROENDOCRINOLOGY SEMINAR",
-        "cumulative_grade_data": {
-            "a": 34,
-            "ab": 2,
-            "b": 0,
-            "bc": 0,
-            "c": 0,
-            "credit": 0,
-            "d": 0,
-            "f": 0,
-            "incomplete": 0,
-            "instructors": null,
-            "no_credit": 0,
-            "no_work": 0,
-            "not_reported": 0,
-            "other": 0,
-            "passed": 0,
-            "satisfactory": 0,
-            "total": 36,
-            "unsatisfactory": 0
-        },
-        "description": "Behavior results from a complex interplay among hormones, the brain, and environmental factors. Behaviors and their underlying neural substrates have evolved in response to specific environmental conditions, resulting in vast species diversity in behavioral and neuroendocrine solutions to environmental problems. Designed to explore the primary literature on the neuroendocrine underpinnings of behavior spanning from feeding to sex differences in complex social behaviors. A range of taxonomic groups will be discussed, including (but not limited to) mammals, birds, and fish.",
+        "course_title": "MOLECULAR AND CELLULAR MECHANISMS OF MEMORY",
+        "cumulative_grade_data": null,
+        "description": "Focuses on the cell signaling and the resulting structural changes that occur at neuronal synapses during memory formation. The aim is to understand how the synaptic changes underlying memory occur.",
         "keywords": [
-            "behavioral",
-            "brain environmental",
-            "neuroendocrine solutions",
-            "interplay hormones",
-            "neuroendocrine underpinnings"
+            "underlying memory",
+            "occur neuronal",
+            "memory occur",
+            "understand synaptic",
+            "synaptic changes"
         ],
         "optimized_prerequisites": [
             {
-                "course_number": 101,
+                "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
-                    "BIOLOGY"
-                ]
-            }
-        ],
-        "prerequisites": {
-            "abstract_syntax_tree": {
-                "children": [
-                    {
-                        "course_number": 101,
-                        "subjects": [
-                            "ZOOLOGY",
-                            "BIOLOGY"
-                        ]
-                    },
-                    {
-                        "course_number": 151,
-                        "subjects": [
-                            "ZOOLOGY",
-                            "BOTANY",
-                            "BIOLOGY"
-                        ]
-                    },
-                    {
-                        "course_number": 383,
-                        "subjects": [
-                            "BIOCORE"
-                        ]
-                    },
-                    "graduate/professional standing"
-                ],
-                "operator": "OR"
-            },
-            "course_references": [
-                {
-                    "course_number": 101,
-                    "subjects": [
-                        "ZOOLOGY",
-                        "BIOLOGY"
-                    ]
-                },
-                {
-                    "course_number": 151,
-                    "subjects": [
-                        "ZOOLOGY",
-                        "BOTANY",
-                        "BIOLOGY"
-                    ]
-                },
-                {
-                    "course_number": 383,
-                    "subjects": [
-                        "BIOCORE"
-                    ]
-                }
-            ],
-            "linked_requisite_text": [
-                {
-                    "course_number": 101,
-                    "subjects": [
-                        "ZOOLOGY",
-                        "BIOLOGY"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 151,
-                    "subjects": [
-                        "BOTANY",
-                        "ZOOLOGY",
-                        "BIOLOGY"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 383,
-                    "subjects": [
-                        "BIOCORE"
-                    ]
-                },
-                " or graduate/professional standing"
-            ],
-            "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,BIOCORE\u00a0383or graduate/professional standing"
-        },
-        "satisfies": [],
-        "similar_courses": [
-            {
-                "course_number": 454,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 513,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 616,
-                "subjects": [
-                    "ZOOLOGY",
-                    "NEURODPT"
-                ]
-            },
-            {
-                "course_number": 449,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 603,
-                "subjects": [
+                    "PSYCH",
                     "ZOOLOGY"
                 ]
             }
         ],
-        "term_data": {
-            "1182": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 8,
-                    "ab": 2,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Lauren RITERS"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 10,
-                    "unsatisfactory": 0
-                }
-            },
-            "1202": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 17,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Lauren RITERS"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 17,
-                    "unsatisfactory": 0
-                }
-            },
-            "1222": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 9,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Lauren RITERS"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 9,
-                    "unsatisfactory": 0
-                }
-            },
-            "1262": {
-                "enrollment_data": {
-                    "credit_count": [
-                        2,
-                        2
-                    ],
-                    "ethnics_studies": false,
-                    "general_education": false,
-                    "instructors": {
-                        "Lauren RITERS": "LVRITERS@WISC.EDU"
-                    },
-                    "last_taught_term": "Fall 2021",
-                    "school": {
-                        "abbreviation": "L",
-                        "name": "Letters and Science",
-                        "url": "http://www.ls.wisc.edu/"
-                    },
-                    "typically_offered": "Every Other Fall"
-                },
-                "grade_data": null
-            }
-        }
-    },
-    {
-        "course_reference": {
-            "course_number": 640,
-            "subjects": [
-                "NTP",
-                "NEURODPT"
-            ]
-        },
-        "course_title": "COMPUTATIONAL NEUROSCIENCE: FROM SINGLE CELLS TO WHOLE BRAIN MODELS",
-        "cumulative_grade_data": {
-            "a": 7,
-            "ab": 1,
-            "b": 0,
-            "bc": 0,
-            "c": 0,
-            "credit": 0,
-            "d": 0,
-            "f": 0,
-            "incomplete": 0,
-            "instructors": null,
-            "no_credit": 0,
-            "no_work": 0,
-            "not_reported": 0,
-            "other": 0,
-            "passed": 0,
-            "satisfactory": 0,
-            "total": 8,
-            "unsatisfactory": 0
-        },
-        "description": "Theory and application of methods in computational neuroscience across various levels of organization from single cells to global brain dynamics and cognition. Computational neuroscience is an approach to understanding the development and function of nervous systems in mechanistic terms at many different structural scales. Topics include biophysical properties of neurons and synapses, neural plasticity, sensory systems, neural circuits, whole brain analysis and modeling, and different views on brain function. Includes primers on relevant computational techniques (ICA, information theoretical approaches, dynamical systems) and a computational problem set. Starts with an introduction to MATLAB (used for problem sets).",
-        "keywords": [
-            "function nervous",
-            "properties neurons",
-            "neurons synapses",
-            "cognition computational",
-            "neuroscience approach"
-        ],
-        "optimized_prerequisites": [
-            {
-                "course_number": 610,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT"
-                ]
-            },
-            {
-                "course_number": 611,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            }
-        ],
         "prerequisites": {
             "abstract_syntax_tree": {
                 "children": [
+                    "Graduate/professional standing",
                     {
-                        "children": [
-                            {
-                                "course_number": 523,
-                                "subjects": [
-                                    "ZOOLOGY",
-                                    "PSYCH"
-                                ]
-                            },
-                            {
-                                "course_number": 454,
-                                "subjects": [
-                                    "PSYCH"
-                                ]
-                            },
-                            {
-                                "course_number": 221,
-                                "subjects": [
-                                    "MATH"
-                                ]
-                            },
-                            {
-                                "children": [
-                                    {
-                                        "course_number": 104,
-                                        "subjects": [
-                                            "PHYSICS"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 202,
-                                        "subjects": [
-                                            "PHYSICS"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 208,
-                                        "subjects": [
-                                            "PHYSICS"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 248,
-                                        "subjects": [
-                                            "PHYSICS"
-                                        ]
-                                    }
-                                ],
-                                "operator": "OR"
-                            }
-                        ],
-                        "operator": "AND"
-                    },
-                    {
-                        "children": [
-                            "graduate/professional standing",
-                            {
-                                "course_number": 610,
-                                "subjects": [
-                                    "NTP",
-                                    "NEURODPT"
-                                ]
-                            },
-                            {
-                                "course_number": 611,
-                                "subjects": [
-                                    "NTP",
-                                    "NEURODPT",
-                                    "PSYCH"
-                                ]
-                            }
-                        ],
-                        "operator": "AND"
-                    }
-                ],
-                "operator": "OR"
-            },
-            "course_references": [
-                {
-                    "course_number": 454,
-                    "subjects": [
-                        "PSYCH"
-                    ]
-                },
-                {
-                    "course_number": 202,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 104,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 248,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 610,
-                    "subjects": [
-                        "NTP",
-                        "NEURODPT"
-                    ]
-                },
-                {
-                    "course_number": 611,
-                    "subjects": [
-                        "NTP",
-                        "NEURODPT",
-                        "PSYCH"
-                    ]
-                },
-                {
-                    "course_number": 523,
-                    "subjects": [
-                        "ZOOLOGY",
-                        "PSYCH"
-                    ]
-                },
-                {
-                    "course_number": 208,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 221,
-                    "subjects": [
-                        "MATH"
-                    ]
-                }
-            ],
-            "linked_requisite_text": [
-                {
-                    "course_number": 523,
-                    "subjects": [
-                        "ZOOLOGY",
-                        "PSYCH"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 454,
-                    "subjects": [
-                        "PSYCH"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 221,
-                    "subjects": [
-                        "MATH"
-                    ]
-                },
-                ", and (",
-                {
-                    "course_number": 104,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 202,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 208,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                ", or ",
-                {
-                    "course_number": 248,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                "); or graduate/professional standing and ",
-                {
-                    "course_number": 610,
-                    "subjects": [
-                        "NTP",
-                        "NEURODPT"
-                    ]
-                },
-                " and ",
-                {
-                    "course_number": 611,
-                    "subjects": [
-                        "NTP",
-                        "NEURODPT",
-                        "PSYCH"
-                    ]
-                }
-            ],
-            "prerequisites_text": "PSYCH/\u200bZOOLOGY\u00a0\u00a0523,PSYCH\u00a0454,MATH\u00a0221, and (PHYSICS\u00a0104,202,208, or248); or graduate/professional standing andNEURODPT/\u200bNTP\u00a0\u00a0610andPSYCH/\u200bNEURODPT/\u200bNTP\u00a0\u00a0611"
-        },
-        "satisfies": [],
-        "similar_courses": [
-            {
-                "course_number": 610,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT"
-                ]
-            },
-            {
-                "course_number": 900,
-                "subjects": [
-                    "NTP"
-                ]
-            },
-            {
-                "course_number": 611,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 765,
-                "subjects": [
-                    "NTP",
-                    "ZOOLOGY",
-                    "NEURODPT"
-                ]
-            },
-            {
-                "course_number": 629,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT"
-                ]
-            }
-        ],
-        "term_data": {
-            "1244": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 7,
-                    "ab": 1,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Larissa ALBANTAKIS",
-                        "Meyer JACKSON",
-                        "MATHEW JONES"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 8,
-                    "unsatisfactory": 0
-                }
-            }
-        }
-    },
-    {
-        "course_reference": {
-            "course_number": 747,
-            "subjects": [
-                "NEURODPT"
-            ]
-        },
-        "course_title": "SENSORY AND MOTOR SYSTEMS",
-        "cumulative_grade_data": {
-            "a": 0,
-            "ab": 0,
-            "b": 0,
-            "bc": 0,
-            "c": 0,
-            "credit": 0,
-            "d": 0,
-            "f": 0,
-            "incomplete": 0,
-            "instructors": null,
-            "no_credit": 0,
-            "no_work": 0,
-            "not_reported": 0,
-            "other": 0,
-            "passed": 0,
-            "satisfactory": 76,
-            "total": 76,
-            "unsatisfactory": 0
-        },
-        "description": "Overview of the basic science principles of sensory and motor systems in the central and peripheral nervous system, with clinicians providing complementary presentations on their relevant experiences in the clinic. Topics include Somatosensory pathways in spinal cord, brainstem and cerebrum, Motor neurons in spinal cord and brainstem and the descending systems that control them, Blood Supply of the CNS and affiliated vascular syndromes, Cerebellum, Basal Ganglia and associated pathways, Eye Movement control, Vestibular, Auditory, and Visual systems and organization of Cerebral Cortex.",
-        "keywords": [
-            "pathways spinal",
-            "cerebral cortex",
-            "syndromes cerebellum",
-            "principles sensory",
-            "somatosensory pathways"
-        ],
-        "optimized_prerequisites": [
-            {
-                "course_number": 810,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            {
-                "course_number": 811,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            {
-                "course_number": 812,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            },
-            {
-                "course_number": 813,
-                "subjects": [
-                    "MEDSC-M"
-                ]
-            }
-        ],
-        "prerequisites": {
-            "abstract_syntax_tree": {
-                "children": [
-                    {
-                        "course_number": 810,
+                        "course_number": 335,
                         "subjects": [
-                            "MEDSC-M"
+                            "ANAT&PHY"
                         ]
                     },
                     {
-                        "course_number": 811,
+                        "course_number": 435,
                         "subjects": [
-                            "MEDSC-M"
+                            "ANAT&PHY"
                         ]
                     },
-                    {
-                        "course_number": 812,
-                        "subjects": [
-                            "MEDSC-M"
-                        ]
-                    },
-                    {
-                        "course_number": 813,
-                        "subjects": [
-                            "MEDSC-M"
-                        ]
-                    }
-                ],
-                "operator": "AND"
-            },
-            "course_references": [
-                {
-                    "course_number": 810,
-                    "subjects": [
-                        "MEDSC-M"
-                    ]
-                },
-                {
-                    "course_number": 813,
-                    "subjects": [
-                        "MEDSC-M"
-                    ]
-                },
-                {
-                    "course_number": 812,
-                    "subjects": [
-                        "MEDSC-M"
-                    ]
-                },
-                {
-                    "course_number": 811,
-                    "subjects": [
-                        "MEDSC-M"
-                    ]
-                }
-            ],
-            "linked_requisite_text": [
-                {
-                    "course_number": 810,
-                    "subjects": [
-                        "MEDSC-M"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 811,
-                    "subjects": [
-                        "MEDSC-M"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 812,
-                    "subjects": [
-                        "MEDSC-M"
-                    ]
-                },
-                ", and ",
-                {
-                    "course_number": 813,
-                    "subjects": [
-                        "MEDSC-M"
-                    ]
-                }
-            ],
-            "prerequisites_text": "MED\u00a0SC-M\u00a0810,811,812, and813"
-        },
-        "satisfies": [],
-        "similar_courses": [
-            {
-                "course_number": 500,
-                "subjects": [
-                    "PHYTHER"
-                ]
-            },
-            {
-                "course_number": 200,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            {
-                "course_number": 713,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            {
-                "course_number": 611,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 531,
-                "subjects": [
-                    "KINES"
-                ]
-            }
-        ],
-        "term_data": {
-            "1204": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 0,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "DANIEL J UHLRICH",
-                        "PHILIP SMITH"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 8,
-                    "total": 8,
-                    "unsatisfactory": 0
-                }
-            },
-            "1224": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 0,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "DANIEL J UHLRICH"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 32,
-                    "total": 32,
-                    "unsatisfactory": 0
-                }
-            },
-            "1234": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 0,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "DANIEL J UHLRICH"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 12,
-                    "total": 12,
-                    "unsatisfactory": 0
-                }
-            },
-            "1244": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 0,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "DANIEL J UHLRICH"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 24,
-                    "total": 24,
-                    "unsatisfactory": 0
-                }
-            }
-        }
-    },
-    {
-        "course_reference": {
-            "course_number": 610,
-            "subjects": [
-                "NTP",
-                "NEURODPT"
-            ]
-        },
-        "course_title": "CELLULAR AND MOLECULAR NEUROSCIENCE",
-        "cumulative_grade_data": null,
-        "description": "Study of original papers leading to an understanding of the molecular basis of electrical activity in neurons. Topics include voltage-sensitive currents, molecular biology of neuronal receptorrs, synaptic transmission and sensory transduction.",
-        "keywords": [
-            "receptorrs synaptic",
-            "electrical activity",
-            "currents molecular",
-            "neurons topics",
-            "biology neuronal"
-        ],
-        "optimized_prerequisites": [
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 208,
-                "subjects": [
-                    "PHYSICS"
-                ]
-            }
-        ],
-        "prerequisites": {
-            "abstract_syntax_tree": {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "course_number": 523,
-                                "subjects": [
-                                    "ZOOLOGY",
-                                    "PSYCH"
-                                ]
-                            },
-                            {
-                                "children": [
-                                    {
-                                        "course_number": 202,
-                                        "subjects": [
-                                            "PHYSICS"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 208,
-                                        "subjects": [
-                                            "PHYSICS"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 248,
-                                        "subjects": [
-                                            "PHYSICS"
-                                        ]
-                                    }
-                                ],
-                                "operator": "OR"
-                            }
-                        ],
-                        "operator": "AND"
-                    },
-                    "graduate/professional standing"
-                ],
-                "operator": "OR"
-            },
-            "course_references": [
-                {
-                    "course_number": 202,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 523,
-                    "subjects": [
-                        "ZOOLOGY",
-                        "PSYCH"
-                    ]
-                },
-                {
-                    "course_number": 248,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                {
-                    "course_number": 208,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                }
-            ],
-            "linked_requisite_text": [
-                {
-                    "course_number": 523,
-                    "subjects": [
-                        "ZOOLOGY",
-                        "PSYCH"
-                    ]
-                },
-                " and (",
-                {
-                    "course_number": 202,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 208,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                ", or ",
-                {
-                    "course_number": 248,
-                    "subjects": [
-                        "PHYSICS"
-                    ]
-                },
-                "), or graduate/professional standing"
-            ],
-            "prerequisites_text": "ZOOLOGY/\u200bPSYCH\u00a0\u00a0523and (PHYSICS\u00a0202,208, or248), or graduate/professional standing"
-        },
-        "satisfies": [
-            {
-                "course_number": 611,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 735,
-                "subjects": [
-                    "NEUROL"
-                ]
-            },
-            {
-                "course_number": 640,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT"
-                ]
-            }
-        ],
-        "similar_courses": [
-            {
-                "course_number": 640,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT"
-                ]
-            },
-            {
-                "course_number": 616,
-                "subjects": [
-                    "ZOOLOGY",
-                    "NEURODPT"
-                ]
-            },
-            {
-                "course_number": 900,
-                "subjects": [
-                    "NTP"
-                ]
-            },
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 629,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT"
-                ]
-            }
-        ],
-        "term_data": {
-            "1262": {
-                "enrollment_data": {
-                    "credit_count": [
-                        4,
-                        4
-                    ],
-                    "ethnics_studies": false,
-                    "general_education": false,
-                    "instructors": {
-                        "MATT JONES": "MATHEWJONES@WISC.EDU"
-                    },
-                    "last_taught_term": "Fall 2024",
-                    "school": {
-                        "abbreviation": "M",
-                        "name": "Medicine and Public Health",
-                        "url": "http://www.med.wisc.edu/"
-                    },
-                    "typically_offered": "Fall"
-                },
-                "grade_data": null
-            }
-        }
-    },
-    {
-        "course_reference": {
-            "course_number": 616,
-            "subjects": [
-                "ZOOLOGY",
-                "NEURODPT"
-            ]
-        },
-        "course_title": "LAB COURSE IN NEUROBIOLOGY AND BEHAVIOR",
-        "cumulative_grade_data": null,
-        "description": "Independent experimental modules exploring neurophysiology and behavior will be completed in groups.  Learn techniques and develop investigations into three separate areas of neurobiology.",
-        "keywords": [
-            "groups learn",
-            "modules exploring",
-            "independent experimental",
-            "neurophysiology",
-            "areas neurobiology"
-        ],
-        "optimized_prerequisites": [
-            {
-                "course_number": 523,
-                "subjects": [
-                    "ZOOLOGY",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 454,
-                "subjects": [
-                    "PSYCH"
-                ]
-            }
-        ],
-        "prerequisites": {
-            "abstract_syntax_tree": {
-                "children": [
+                    "PHYSIOL 335",
+                    "435",
                     {
                         "course_number": 523,
                         "subjects": [
-                            "ZOOLOGY",
-                            "PSYCH"
-                        ]
-                    },
-                    {
-                        "course_number": 454,
-                        "subjects": [
-                            "PSYCH"
+                            "PSYCH",
+                            "ZOOLOGY"
                         ]
                     }
                 ],
-                "operator": "AND"
+                "operator": "OR"
             },
             "course_references": [
                 {
-                    "course_number": 454,
+                    "course_number": 435,
                     "subjects": [
-                        "PSYCH"
+                        "ANAT&PHY"
                     ]
                 },
                 {
                     "course_number": 523,
                     "subjects": [
-                        "ZOOLOGY",
-                        "PSYCH"
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 335,
+                    "subjects": [
+                        "ANAT&PHY"
                     ]
                 }
             ],
             "linked_requisite_text": [
+                "Graduate/professional standing or ",
+                {
+                    "course_number": 335,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 435,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
+                },
+                ", PHYSIOL 335, 435 or ",
                 {
                     "course_number": 523,
                     "subjects": [
-                        "ZOOLOGY",
-                        "PSYCH"
-                    ]
-                },
-                " and ",
-                {
-                    "course_number": 454,
-                    "subjects": [
-                        "PSYCH"
+                        "PSYCH",
+                        "ZOOLOGY"
                     ]
                 }
             ],
-            "prerequisites_text": "ZOOLOGY/\u200bPSYCH\u00a0\u00a0523andPSYCH\u00a0454"
+            "prerequisites_text": "Graduate/professional standing orANAT&PHY\u00a0335,435, PHYSIOL 335, 435 orZOOLOGY/\u200bPSYCH\u00a0\u00a0523"
         },
         "satisfies": [],
         "similar_courses": [
-            {
-                "course_number": 454,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 674,
-                "subjects": [
-                    "ZOOLOGY",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 620,
-                "subjects": [
-                    "NTP",
-                    "ZOOLOGY"
-                ]
-            },
             {
                 "course_number": 610,
                 "subjects": [
@@ -1764,183 +880,33 @@
                 ]
             },
             {
-                "course_number": 611,
+                "course_number": 523,
+                "subjects": [
+                    "PSYCH",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 444,
+                "subjects": [
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 640,
                 "subjects": [
                     "NTP",
-                    "NEURODPT",
-                    "PSYCH"
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 900,
+                "subjects": [
+                    "NTP"
                 ]
             }
         ],
         "term_data": {}
-    },
-    {
-        "course_reference": {
-            "course_number": 675,
-            "subjects": [
-                "NEURODPT"
-            ]
-        },
-        "course_title": "SELECTED TOPICS IN PHYSIOLOGY",
-        "cumulative_grade_data": {
-            "a": 6,
-            "ab": 0,
-            "b": 0,
-            "bc": 0,
-            "c": 0,
-            "credit": 0,
-            "d": 0,
-            "f": 0,
-            "incomplete": 0,
-            "instructors": null,
-            "no_credit": 0,
-            "no_work": 0,
-            "not_reported": 0,
-            "other": 0,
-            "passed": 0,
-            "satisfactory": 0,
-            "total": 6,
-            "unsatisfactory": 0
-        },
-        "description": "Topics include: advanced cardiovascular physiology, advanced respiratory physiology, advanced endocrinology, membrane transport physiology and neurobiology.",
-        "keywords": [
-            "advanced endocrinology",
-            "cardiovascular",
-            "transport physiology",
-            "physiology neurobiology",
-            "advanced respiratory"
-        ],
-        "optimized_prerequisites": null,
-        "prerequisites": {
-            "abstract_syntax_tree": "None",
-            "course_references": [],
-            "linked_requisite_text": [
-                "None"
-            ],
-            "prerequisites_text": "None"
-        },
-        "satisfies": [],
-        "similar_courses": [
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 610,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT"
-                ]
-            },
-            {
-                "course_number": 900,
-                "subjects": [
-                    "NTP"
-                ]
-            },
-            {
-                "course_number": 611,
-                "subjects": [
-                    "NTP",
-                    "NEURODPT",
-                    "PSYCH"
-                ]
-            },
-            {
-                "course_number": 811,
-                "subjects": [
-                    "NURSING"
-                ]
-            }
-        ],
-        "term_data": {
-            "1192": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 6,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "BARON CHANDA",
-                        "KATHERINE HENZLER",
-                        "Gail ROBERTSON",
-                        "CYNTHIA CZAJKOWSKI"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 6,
-                    "unsatisfactory": 0
-                }
-            },
-            "1194": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 0,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "BARON CHANDA",
-                        "KATHERINE HENZLER",
-                        "Gail ROBERTSON",
-                        "CYNTHIA CZAJKOWSKI"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 0,
-                    "unsatisfactory": 0
-                }
-            },
-            "1202": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 0,
-                    "ab": 0,
-                    "b": 0,
-                    "bc": 0,
-                    "c": 0,
-                    "credit": 0,
-                    "d": 0,
-                    "f": 0,
-                    "incomplete": 0,
-                    "instructors": [
-                        "BARON CHANDA",
-                        "KATHERINE HENZLER",
-                        "Gail ROBERTSON",
-                        "CYNTHIA CZAJKOWSKI"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 0,
-                    "unsatisfactory": 0
-                }
-            }
-        }
     },
     {
         "course_reference": {
@@ -1984,12 +950,6 @@
         "satisfies": [],
         "similar_courses": [
             {
-                "course_number": 799,
-                "subjects": [
-                    "PSYCH"
-                ]
-            },
-            {
                 "course_number": 699,
                 "subjects": [
                     "PSYCHIAT"
@@ -2004,13 +964,19 @@
             {
                 "course_number": 699,
                 "subjects": [
-                    "PHYASST"
+                    "DS"
+                ]
+            },
+            {
+                "course_number": 799,
+                "subjects": [
+                    "PSYCH"
                 ]
             },
             {
                 "course_number": 699,
                 "subjects": [
-                    "DS"
+                    "PHYASST"
                 ]
             }
         ],
@@ -2028,21 +994,21 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "KATHERINE KALIL",
-                        "PETER LIPTON",
-                        "Meyer JACKSON",
-                        "SU-CHUN ZHANG",
-                        "ZHEN HUANG",
-                        "AVTAR ROOPRA",
-                        "ERIK DENT",
-                        "MATHEW JONES",
-                        "Luis Populin",
-                        "MILES EPSTEIN",
-                        "ARNOLD RUOHO",
                         "EDWIN CHAPMAN",
+                        "ZHEN HUANG",
+                        "ERIK DENT",
+                        "ARNOLD RUOHO",
+                        "TIMOTHY GOMEZ",
+                        "AVTAR ROOPRA",
+                        "Meyer JACKSON",
+                        "PETER LIPTON",
+                        "KATHERINE KALIL",
+                        "MATHEW JONES",
                         "SHING-YAN CHIU",
+                        "MILES EPSTEIN",
+                        "Luis Populin",
                         "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2067,19 +1033,19 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "PETER LIPTON",
-                        "XUELIN LOU",
-                        "SU-CHUN ZHANG",
-                        "ZHEN HUANG",
-                        "AVTAR ROOPRA",
-                        "MATHEW JONES",
-                        "ERIK DENT",
-                        "XIN HUANG",
-                        "ARNOLD RUOHO",
-                        "Luis Populin",
                         "EDWIN CHAPMAN",
+                        "ZHEN HUANG",
+                        "ERIK DENT",
+                        "ARNOLD RUOHO",
+                        "TIMOTHY GOMEZ",
+                        "AVTAR ROOPRA",
+                        "XIN HUANG",
+                        "XUELIN LOU",
+                        "PETER LIPTON",
+                        "MATHEW JONES",
+                        "Luis Populin",
                         "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2104,20 +1070,20 @@
                     "f": 0,
                     "incomplete": 1,
                     "instructors": [
-                        "KATHERINE KALIL",
-                        "BARON CHANDA",
-                        "PETER LIPTON",
+                        "EDWIN CHAPMAN",
+                        "ERIK DENT",
+                        "TIMOTHY GOMEZ",
                         "XUELIN LOU",
                         "SU-CHUN ZHANG",
-                        "Luis Populin",
-                        "MATHEW JONES",
-                        "ERIK DENT",
-                        "JON LEVINE",
+                        "BARON CHANDA",
                         "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
+                        "PETER LIPTON",
+                        "KATHERINE KALIL",
+                        "MATHEW JONES",
+                        "JON LEVINE",
                         "SHING-YAN CHIU",
+                        "Luis Populin",
                         "XINYU ZHAO",
-                        "TIMOTHY GOMEZ",
                         "ROBERT FETTIPLACE"
                     ],
                     "no_credit": 0,
@@ -2143,24 +1109,24 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "KATHERINE KALIL",
-                        "BARON CHANDA",
-                        "PETER LIPTON",
-                        "Meyer JACKSON",
-                        "XUELIN LOU",
-                        "SU-CHUN ZHANG",
+                        "ARNOLD RUOHO",
                         "ZHEN HUANG",
+                        "ERIK DENT",
+                        "EDWIN CHAPMAN",
+                        "TIMOTHY GOMEZ",
                         "AVTAR ROOPRA",
+                        "Meyer JACKSON",
+                        "XIN HUANG",
+                        "XUELIN LOU",
+                        "BARON CHANDA",
+                        "CYNTHIA CZAJKOWSKI",
+                        "ROBERT FETTIPLACE",
+                        "PETER LIPTON",
+                        "KATHERINE KALIL",
                         "MATHEW JONES",
                         "Luis Populin",
-                        "ERIK DENT",
-                        "XIN HUANG",
-                        "ARNOLD RUOHO",
-                        "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
                         "XINYU ZHAO",
-                        "TIMOTHY GOMEZ",
-                        "ROBERT FETTIPLACE"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2185,23 +1151,23 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "BARON CHANDA",
-                        "Darcie MOORE",
-                        "PETER LIPTON",
-                        "XUELIN LOU",
-                        "SU-CHUN ZHANG",
-                        "ZHEN HUANG",
-                        "ARI ROSENBERG",
-                        "ERIK DENT",
-                        "MATHEW JONES",
-                        "AVTAR ROOPRA",
                         "ARNOLD RUOHO",
+                        "ZHEN HUANG",
+                        "ERIK DENT",
+                        "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
+                        "AVTAR ROOPRA",
                         "XIN HUANG",
-                        "Luis Populin",
+                        "XUELIN LOU",
+                        "BARON CHANDA",
                         "CYNTHIA CZAJKOWSKI",
+                        "PETER LIPTON",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
                         "SHING-YAN CHIU",
+                        "Luis Populin",
                         "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2226,19 +1192,19 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "BARON CHANDA",
-                        "Darcie MOORE",
-                        "PETER LIPTON",
-                        "SU-CHUN ZHANG",
-                        "ZHEN HUANG",
-                        "AVTAR ROOPRA",
-                        "ERIK DENT",
-                        "XIN HUANG",
                         "ARNOLD RUOHO",
+                        "ZHEN HUANG",
+                        "ERIK DENT",
+                        "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
+                        "AVTAR ROOPRA",
+                        "XIN HUANG",
+                        "BARON CHANDA",
                         "CYNTHIA CZAJKOWSKI",
+                        "PETER LIPTON",
                         "SHING-YAN CHIU",
                         "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2263,22 +1229,22 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
+                        "EDWIN CHAPMAN",
                         "Darcie MOORE",
-                        "PETER LIPTON",
+                        "ERIK DENT",
+                        "ARNOLD RUOHO",
                         "TIMOTHY GOMEZ",
-                        "SU-CHUN ZHANG",
                         "ZHEN HUANG",
                         "AVTAR ROOPRA",
-                        "ARI ROSENBERG",
-                        "MATHEW JONES",
-                        "ERIK DENT",
                         "XIN HUANG",
-                        "ARNOLD RUOHO",
                         "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
+                        "Gail ROBERTSON",
+                        "PETER LIPTON",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
                         "SHING-YAN CHIU",
                         "XINYU ZHAO",
-                        "Gail ROBERTSON"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2303,24 +1269,24 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "BARON CHANDA",
-                        "Darcie MOORE",
-                        "PETER LIPTON",
-                        "TIMOTHY GOMEZ",
-                        "SU-CHUN ZHANG",
+                        "EDWIN CHAPMAN",
                         "ZHEN HUANG",
-                        "ARI ROSENBERG",
-                        "MATHEW JONES",
-                        "AVTAR ROOPRA",
-                        "Luis Populin",
                         "ERIK DENT",
+                        "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
+                        "AVTAR ROOPRA",
                         "YEVGENYA GRINBLAT",
                         "XIN HUANG",
+                        "BARON CHANDA",
                         "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
+                        "Gail ROBERTSON",
+                        "PETER LIPTON",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
                         "SHING-YAN CHIU",
+                        "Luis Populin",
                         "XINYU ZHAO",
-                        "Gail ROBERTSON"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2345,22 +1311,22 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "BARON CHANDA",
-                        "Darcie MOORE",
-                        "RAUNAK SINHA",
-                        "PETER LIPTON",
-                        "TIMOTHY GOMEZ",
-                        "SU-CHUN ZHANG",
-                        "ROBERT PEARCE",
-                        "AVTAR ROOPRA",
+                        "EDWIN CHAPMAN",
+                        "ZHEN HUANG",
                         "ERIK DENT",
+                        "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
+                        "AVTAR ROOPRA",
+                        "ROBERT PEARCE",
+                        "BARON CHANDA",
+                        "Gail ROBERTSON",
+                        "PETER LIPTON",
                         "MATHEW JONES",
                         "ARI ROSENBERG",
+                        "RAUNAK SINHA",
                         "Luis Populin",
-                        "ZHEN HUANG",
-                        "EDWIN CHAPMAN",
                         "XINYU ZHAO",
-                        "Gail ROBERTSON"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2385,22 +1351,22 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "BARON CHANDA",
-                        "Darcie MOORE",
-                        "RAUNAK SINHA",
-                        "SU-CHUN ZHANG",
+                        "EDWIN CHAPMAN",
                         "ZHEN HUANG",
-                        "ARI ROSENBERG",
-                        "MATHEW JONES",
                         "ERIK DENT",
-                        "Luis Populin",
+                        "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
                         "ROBERT PEARCE",
                         "XIN HUANG",
+                        "BARON CHANDA",
                         "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
+                        "RAUNAK SINHA",
                         "SHING-YAN CHIU",
+                        "Luis Populin",
                         "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2425,21 +1391,21 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "RAUNAK SINHA",
+                        "EDWIN CHAPMAN",
+                        "ZHEN HUANG",
+                        "ERIK DENT",
                         "Darcie MOORE",
                         "TIMOTHY GOMEZ",
-                        "SU-CHUN ZHANG",
-                        "ZHEN HUANG",
                         "ROBERT PEARCE",
-                        "ARI ROSENBERG",
-                        "Luis Populin",
                         "XIN HUANG",
-                        "ERIK DENT",
                         "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
+                        "Gail ROBERTSON",
+                        "ARI ROSENBERG",
+                        "RAUNAK SINHA",
                         "SHING-YAN CHIU",
+                        "Luis Populin",
                         "XINYU ZHAO",
-                        "Gail ROBERTSON"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2464,18 +1430,18 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Darcie MOORE",
-                        "SU-CHUN ZHANG",
-                        "ZHEN HUANG",
-                        "Luis Populin",
-                        "ROBERT PEARCE",
-                        "ERIK DENT",
-                        "XIN HUANG",
-                        "ARI ROSENBERG",
-                        "CYNTHIA CZAJKOWSKI",
                         "EDWIN CHAPMAN",
+                        "ZHEN HUANG",
+                        "ERIK DENT",
+                        "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
+                        "ROBERT PEARCE",
+                        "XIN HUANG",
+                        "CYNTHIA CZAJKOWSKI",
+                        "ARI ROSENBERG",
+                        "Luis Populin",
                         "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2500,15 +1466,15 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Darcie MOORE",
-                        "ROBERT PEARCE",
-                        "Luis Populin",
-                        "ERIK DENT",
-                        "MATHEW JONES",
-                        "CYNTHIA CZAJKOWSKI",
                         "EDWIN CHAPMAN",
-                        "XINYU ZHAO",
-                        "TIMOTHY GOMEZ"
+                        "Darcie MOORE",
+                        "ERIK DENT",
+                        "TIMOTHY GOMEZ",
+                        "ROBERT PEARCE",
+                        "CYNTHIA CZAJKOWSKI",
+                        "MATHEW JONES",
+                        "Luis Populin",
+                        "XINYU ZHAO"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2534,22 +1500,22 @@
                     "incomplete": 0,
                     "instructors": [
                         "Darcie MOORE",
-                        "RAUNAK SINHA",
-                        "Andre Moura da Costa e Sousa",
-                        "TIMOTHY GOMEZ",
-                        "SU-CHUN ZHANG",
-                        "ROBERT PEARCE",
-                        "AVTAR ROOPRA",
-                        "ARI ROSENBERG",
-                        "MATHEW JONES",
-                        "Luis Populin",
                         "ERIK DENT",
+                        "TIMOTHY GOMEZ",
+                        "AVTAR ROOPRA",
+                        "ROBERT PEARCE",
+                        "Luis Populin",
                         "XIN HUANG",
                         "CYNTHIA CZAJKOWSKI",
-                        "SHING-YAN CHIU",
-                        "XINYU ZHAO",
                         "Gail ROBERTSON",
-                        "ROBERT FETTIPLACE"
+                        "ROBERT FETTIPLACE",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
+                        "RAUNAK SINHA",
+                        "SHING-YAN CHIU",
+                        "Andre Moura da Costa e Sousa",
+                        "XINYU ZHAO",
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2575,21 +1541,21 @@
                     "incomplete": 0,
                     "instructors": [
                         "Darcie MOORE",
-                        "RAUNAK SINHA",
-                        "Andre Moura da Costa e Sousa",
-                        "TIMOTHY GOMEZ",
-                        "SU-CHUN ZHANG",
                         "ZHEN HUANG",
+                        "ERIK DENT",
+                        "TIMOTHY GOMEZ",
                         "AVTAR ROOPRA",
-                        "ARI ROSENBERG",
                         "ROBERT PEARCE",
                         "Luis Populin",
-                        "ERIK DENT",
                         "XIN HUANG",
                         "CYNTHIA CZAJKOWSKI",
-                        "XINYU ZHAO",
                         "Gail ROBERTSON",
-                        "ROBERT FETTIPLACE"
+                        "ROBERT FETTIPLACE",
+                        "ARI ROSENBERG",
+                        "RAUNAK SINHA",
+                        "Andre Moura da Costa e Sousa",
+                        "XINYU ZHAO",
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2614,23 +1580,23 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Darcie MOORE",
-                        "RAUNAK SINHA",
-                        "Andre Moura da Costa e Sousa",
-                        "TIMOTHY GOMEZ",
+                        "EDWIN CHAPMAN",
                         "ZHEN HUANG",
+                        "ERIK DENT",
+                        "Darcie MOORE",
+                        "TIMOTHY GOMEZ",
                         "AVTAR ROOPRA",
-                        "ARI ROSENBERG",
-                        "MATHEW JONES",
                         "ROBERT PEARCE",
                         "Luis Populin",
-                        "ERIK DENT",
                         "XIN HUANG",
                         "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
+                        "Gail ROBERTSON",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
+                        "RAUNAK SINHA",
                         "SHING-YAN CHIU",
-                        "XINYU ZHAO",
-                        "Gail ROBERTSON"
+                        "Andre Moura da Costa e Sousa",
+                        "XINYU ZHAO"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2655,24 +1621,24 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Darcie MOORE",
-                        "RAUNAK SINHA",
-                        "Andre Moura da Costa e Sousa",
-                        "TIMOTHY GOMEZ",
-                        "SU-CHUN ZHANG",
-                        "ROBERT PEARCE",
-                        "ARI ROSENBERG",
-                        "MATHEW JONES",
-                        "Luis Populin",
-                        "ERIK DENT",
-                        "YEVGENYA GRINBLAT",
-                        "XIN HUANG",
-                        "CYNTHIA CZAJKOWSKI",
                         "EDWIN CHAPMAN",
-                        "SHING-YAN CHIU",
-                        "XINYU ZHAO",
+                        "Darcie MOORE",
+                        "ERIK DENT",
+                        "TIMOTHY GOMEZ",
+                        "ROBERT PEARCE",
+                        "Luis Populin",
+                        "XIN HUANG",
+                        "SU-CHUN ZHANG",
+                        "CYNTHIA CZAJKOWSKI",
                         "Gail ROBERTSON",
-                        "ROBERT FETTIPLACE"
+                        "ROBERT FETTIPLACE",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
+                        "RAUNAK SINHA",
+                        "SHING-YAN CHIU",
+                        "Andre Moura da Costa e Sousa",
+                        "XINYU ZHAO",
+                        "YEVGENYA GRINBLAT"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2697,24 +1663,24 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
+                        "EDWIN CHAPMAN",
                         "Darcie MOORE",
-                        "RAUNAK SINHA",
-                        "Andre Moura da Costa e Sousa",
-                        "TIMOTHY GOMEZ",
-                        "SU-CHUN ZHANG",
-                        "ROBERT PEARCE",
-                        "ARI ROSENBERG",
-                        "MATHEW JONES",
-                        "Luis Populin",
                         "ERIK DENT",
+                        "TIMOTHY GOMEZ",
                         "YEVGENYA GRINBLAT",
+                        "ROBERT PEARCE",
+                        "Luis Populin",
                         "XIN HUANG",
                         "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
-                        "SHING-YAN CHIU",
-                        "XINYU ZHAO",
                         "Gail ROBERTSON",
-                        "ROBERT FETTIPLACE"
+                        "ROBERT FETTIPLACE",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
+                        "RAUNAK SINHA",
+                        "SHING-YAN CHIU",
+                        "Andre Moura da Costa e Sousa",
+                        "XINYU ZHAO",
+                        "SU-CHUN ZHANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2739,22 +1705,22 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
+                        "EDWIN CHAPMAN",
                         "Darcie MOORE",
+                        "ERIK DENT",
+                        "TIMOTHY GOMEZ",
+                        "Luis Populin",
+                        "XIN HUANG",
+                        "SU-CHUN ZHANG",
+                        "CYNTHIA CZAJKOWSKI",
+                        "ROBERT FETTIPLACE",
+                        "Gail ROBERTSON",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
                         "RAUNAK SINHA",
                         "Andre Moura da Costa e Sousa",
-                        "TIMOTHY GOMEZ",
-                        "SU-CHUN ZHANG",
-                        "ARI ROSENBERG",
-                        "MATHEW JONES",
-                        "Luis Populin",
-                        "ERIK DENT",
-                        "YEVGENYA GRINBLAT",
-                        "XIN HUANG",
-                        "CYNTHIA CZAJKOWSKI",
-                        "EDWIN CHAPMAN",
                         "XINYU ZHAO",
-                        "Gail ROBERTSON",
-                        "ROBERT FETTIPLACE"
+                        "YEVGENYA GRINBLAT"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2779,23 +1745,23 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
+                        "EDWIN CHAPMAN",
                         "Darcie MOORE",
-                        "Andre Moura da Costa e Sousa",
-                        "TIMOTHY GOMEZ",
-                        "ROBERT PEARCE",
-                        "AVTAR ROOPRA",
-                        "ARI ROSENBERG",
-                        "MATHEW JONES",
-                        "Luis Populin",
                         "ERIK DENT",
+                        "Jared CREGG",
+                        "TIMOTHY GOMEZ",
+                        "AVTAR ROOPRA",
                         "YEVGENYA GRINBLAT",
+                        "ROBERT PEARCE",
                         "XIN HUANG",
                         "CYNTHIA CZAJKOWSKI",
-                        "Jared CREGG",
-                        "EDWIN CHAPMAN",
-                        "SHING-YAN CHIU",
-                        "XINYU ZHAO",
                         "Gail ROBERTSON",
+                        "MATHEW JONES",
+                        "ARI ROSENBERG",
+                        "Luis Populin",
+                        "SHING-YAN CHIU",
+                        "Andre Moura da Costa e Sousa",
+                        "XINYU ZHAO",
                         "ROBERT FETTIPLACE"
                     ],
                     "no_credit": 0,
@@ -2907,8 +1873,8 @@
             "course_number": 611,
             "subjects": [
                 "NTP",
-                "NEURODPT",
-                "PSYCH"
+                "PSYCH",
+                "NEURODPT"
             ]
         },
         "course_title": "SYSTEMS NEUROSCIENCE",
@@ -2967,12 +1933,6 @@
         },
         "satisfies": [
             {
-                "course_number": 632,
-                "subjects": [
-                    "PHARMACY"
-                ]
-            },
-            {
                 "course_number": 640,
                 "subjects": [
                     "NTP",
@@ -2984,18 +1944,15 @@
                 "subjects": [
                     "NTP"
                 ]
+            },
+            {
+                "course_number": 632,
+                "subjects": [
+                    "PHARMACY"
+                ]
             }
         ],
         "similar_courses": [
-            {
-                "course_number": 619,
-                "subjects": [
-                    "NTP",
-                    "ZOOLOGY",
-                    "PSYCH",
-                    "ANTHRO"
-                ]
-            },
             {
                 "course_number": 747,
                 "subjects": [
@@ -3003,16 +1960,25 @@
                 ]
             },
             {
-                "course_number": 200,
+                "course_number": 619,
                 "subjects": [
-                    "KINES"
+                    "NTP",
+                    "PSYCH",
+                    "ZOOLOGY",
+                    "ANTHRO"
                 ]
             },
             {
                 "course_number": 616,
                 "subjects": [
-                    "ZOOLOGY",
-                    "NEURODPT"
+                    "NEURODPT",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 200,
+                "subjects": [
+                    "KINES"
                 ]
             },
             {
@@ -3026,11 +1992,467 @@
     },
     {
         "course_reference": {
+            "course_number": 675,
+            "subjects": [
+                "NEURODPT"
+            ]
+        },
+        "course_title": "SELECTED TOPICS IN PHYSIOLOGY",
+        "cumulative_grade_data": {
+            "a": 6,
+            "ab": 0,
+            "b": 0,
+            "bc": 0,
+            "c": 0,
+            "credit": 0,
+            "d": 0,
+            "f": 0,
+            "incomplete": 0,
+            "instructors": null,
+            "no_credit": 0,
+            "no_work": 0,
+            "not_reported": 0,
+            "other": 0,
+            "passed": 0,
+            "satisfactory": 0,
+            "total": 6,
+            "unsatisfactory": 0
+        },
+        "description": "Topics include: advanced cardiovascular physiology, advanced respiratory physiology, advanced endocrinology, membrane transport physiology and neurobiology.",
+        "keywords": [
+            "advanced endocrinology",
+            "cardiovascular",
+            "transport physiology",
+            "physiology neurobiology",
+            "advanced respiratory"
+        ],
+        "optimized_prerequisites": null,
+        "prerequisites": {
+            "abstract_syntax_tree": "None",
+            "course_references": [],
+            "linked_requisite_text": [
+                "None"
+            ],
+            "prerequisites_text": "None"
+        },
+        "satisfies": [],
+        "similar_courses": [
+            {
+                "course_number": 610,
+                "subjects": [
+                    "NTP",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 335,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            {
+                "course_number": 811,
+                "subjects": [
+                    "NURSING"
+                ]
+            },
+            {
+                "course_number": 611,
+                "subjects": [
+                    "NTP",
+                    "PSYCH",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 900,
+                "subjects": [
+                    "NTP"
+                ]
+            }
+        ],
+        "term_data": {
+            "1192": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 6,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "BARON CHANDA",
+                        "CYNTHIA CZAJKOWSKI",
+                        "Gail ROBERTSON",
+                        "KATHERINE HENZLER"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 6,
+                    "unsatisfactory": 0
+                }
+            },
+            "1194": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 0,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "BARON CHANDA",
+                        "CYNTHIA CZAJKOWSKI",
+                        "Gail ROBERTSON",
+                        "KATHERINE HENZLER"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 0,
+                    "unsatisfactory": 0
+                }
+            },
+            "1202": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 0,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "BARON CHANDA",
+                        "CYNTHIA CZAJKOWSKI",
+                        "Gail ROBERTSON",
+                        "KATHERINE HENZLER"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 0,
+                    "unsatisfactory": 0
+                }
+            }
+        }
+    },
+    {
+        "course_reference": {
+            "course_number": 747,
+            "subjects": [
+                "NEURODPT"
+            ]
+        },
+        "course_title": "SENSORY AND MOTOR SYSTEMS",
+        "cumulative_grade_data": {
+            "a": 0,
+            "ab": 0,
+            "b": 0,
+            "bc": 0,
+            "c": 0,
+            "credit": 0,
+            "d": 0,
+            "f": 0,
+            "incomplete": 0,
+            "instructors": null,
+            "no_credit": 0,
+            "no_work": 0,
+            "not_reported": 0,
+            "other": 0,
+            "passed": 0,
+            "satisfactory": 76,
+            "total": 76,
+            "unsatisfactory": 0
+        },
+        "description": "Overview of the basic science principles of sensory and motor systems in the central and peripheral nervous system, with clinicians providing complementary presentations on their relevant experiences in the clinic. Topics include Somatosensory pathways in spinal cord, brainstem and cerebrum, Motor neurons in spinal cord and brainstem and the descending systems that control them, Blood Supply of the CNS and affiliated vascular syndromes, Cerebellum, Basal Ganglia and associated pathways, Eye Movement control, Vestibular, Auditory, and Visual systems and organization of Cerebral Cortex.",
+        "keywords": [
+            "pathways spinal",
+            "cerebral cortex",
+            "syndromes cerebellum",
+            "principles sensory",
+            "somatosensory pathways"
+        ],
+        "optimized_prerequisites": [
+            {
+                "course_number": 810,
+                "subjects": [
+                    "MEDSC-M"
+                ]
+            },
+            {
+                "course_number": 811,
+                "subjects": [
+                    "MEDSC-M"
+                ]
+            },
+            {
+                "course_number": 812,
+                "subjects": [
+                    "MEDSC-M"
+                ]
+            },
+            {
+                "course_number": 813,
+                "subjects": [
+                    "MEDSC-M"
+                ]
+            }
+        ],
+        "prerequisites": {
+            "abstract_syntax_tree": {
+                "children": [
+                    {
+                        "course_number": 810,
+                        "subjects": [
+                            "MEDSC-M"
+                        ]
+                    },
+                    {
+                        "course_number": 811,
+                        "subjects": [
+                            "MEDSC-M"
+                        ]
+                    },
+                    {
+                        "course_number": 812,
+                        "subjects": [
+                            "MEDSC-M"
+                        ]
+                    },
+                    {
+                        "course_number": 813,
+                        "subjects": [
+                            "MEDSC-M"
+                        ]
+                    }
+                ],
+                "operator": "AND"
+            },
+            "course_references": [
+                {
+                    "course_number": 813,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
+                },
+                {
+                    "course_number": 812,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
+                },
+                {
+                    "course_number": 811,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
+                },
+                {
+                    "course_number": 810,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
+                }
+            ],
+            "linked_requisite_text": [
+                {
+                    "course_number": 810,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 811,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 812,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
+                },
+                ", and ",
+                {
+                    "course_number": 813,
+                    "subjects": [
+                        "MEDSC-M"
+                    ]
+                }
+            ],
+            "prerequisites_text": "MED\u00a0SC-M\u00a0810,811,812, and813"
+        },
+        "satisfies": [],
+        "similar_courses": [
+            {
+                "course_number": 531,
+                "subjects": [
+                    "KINES"
+                ]
+            },
+            {
+                "course_number": 713,
+                "subjects": [
+                    "KINES"
+                ]
+            },
+            {
+                "course_number": 611,
+                "subjects": [
+                    "NTP",
+                    "PSYCH",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 500,
+                "subjects": [
+                    "PHYTHER"
+                ]
+            },
+            {
+                "course_number": 200,
+                "subjects": [
+                    "KINES"
+                ]
+            }
+        ],
+        "term_data": {
+            "1204": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 0,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "DANIEL J UHLRICH",
+                        "PHILIP SMITH"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 8,
+                    "total": 8,
+                    "unsatisfactory": 0
+                }
+            },
+            "1224": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 0,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "DANIEL J UHLRICH"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 32,
+                    "total": 32,
+                    "unsatisfactory": 0
+                }
+            },
+            "1234": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 0,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "DANIEL J UHLRICH"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 12,
+                    "total": 12,
+                    "unsatisfactory": 0
+                }
+            },
+            "1244": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 0,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "DANIEL J UHLRICH"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 24,
+                    "total": 24,
+                    "unsatisfactory": 0
+                }
+            }
+        }
+    },
+    {
+        "course_reference": {
             "course_number": 765,
             "subjects": [
                 "NTP",
-                "ZOOLOGY",
-                "NEURODPT"
+                "NEURODPT",
+                "ZOOLOGY"
             ]
         },
         "course_title": "DEVELOPMENTAL NEUROSCIENCE",
@@ -3055,7 +2477,7 @@
         "satisfies": [],
         "similar_courses": [
             {
-                "course_number": 640,
+                "course_number": 610,
                 "subjects": [
                     "NTP",
                     "NEURODPT"
@@ -3068,16 +2490,16 @@
                 ]
             },
             {
-                "course_number": 610,
+                "course_number": 616,
                 "subjects": [
-                    "NTP",
-                    "NEURODPT"
+                    "NEURODPT",
+                    "ZOOLOGY"
                 ]
             },
             {
-                "course_number": 616,
+                "course_number": 640,
                 "subjects": [
-                    "ZOOLOGY",
+                    "NTP",
                     "NEURODPT"
                 ]
             },
@@ -3092,27 +2514,33 @@
     },
     {
         "course_reference": {
-            "course_number": 629,
+            "course_number": 616,
             "subjects": [
-                "NTP",
-                "NEURODPT"
+                "NEURODPT",
+                "ZOOLOGY"
             ]
         },
-        "course_title": "MOLECULAR AND CELLULAR MECHANISMS OF MEMORY",
+        "course_title": "LAB COURSE IN NEUROBIOLOGY AND BEHAVIOR",
         "cumulative_grade_data": null,
-        "description": "Focuses on the cell signaling and the resulting structural changes that occur at neuronal synapses during memory formation. The aim is to understand how the synaptic changes underlying memory occur.",
+        "description": "Independent experimental modules exploring neurophysiology and behavior will be completed in groups.  Learn techniques and develop investigations into three separate areas of neurobiology.",
         "keywords": [
-            "underlying memory",
-            "occur neuronal",
-            "memory occur",
-            "understand synaptic",
-            "synaptic changes"
+            "groups learn",
+            "modules exploring",
+            "independent experimental",
+            "neurophysiology",
+            "areas neurobiology"
         ],
         "optimized_prerequisites": [
             {
                 "course_number": 523,
                 "subjects": [
-                    "ZOOLOGY",
+                    "PSYCH",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 454,
+                "subjects": [
                     "PSYCH"
                 ]
             }
@@ -3120,88 +2548,364 @@
         "prerequisites": {
             "abstract_syntax_tree": {
                 "children": [
-                    "Graduate/professional standing",
-                    {
-                        "course_number": 335,
-                        "subjects": [
-                            "ANAT&PHY"
-                        ]
-                    },
-                    {
-                        "course_number": 435,
-                        "subjects": [
-                            "ANAT&PHY"
-                        ]
-                    },
-                    "PHYSIOL 335",
-                    "435",
                     {
                         "course_number": 523,
                         "subjects": [
-                            "ZOOLOGY",
+                            "PSYCH",
+                            "ZOOLOGY"
+                        ]
+                    },
+                    {
+                        "course_number": 454,
+                        "subjects": [
                             "PSYCH"
                         ]
+                    }
+                ],
+                "operator": "AND"
+            },
+            "course_references": [
+                {
+                    "course_number": 523,
+                    "subjects": [
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 454,
+                    "subjects": [
+                        "PSYCH"
+                    ]
+                }
+            ],
+            "linked_requisite_text": [
+                {
+                    "course_number": 523,
+                    "subjects": [
+                        "PSYCH",
+                        "ZOOLOGY"
+                    ]
+                },
+                " and ",
+                {
+                    "course_number": 454,
+                    "subjects": [
+                        "PSYCH"
+                    ]
+                }
+            ],
+            "prerequisites_text": "ZOOLOGY/\u200bPSYCH\u00a0\u00a0523andPSYCH\u00a0454"
+        },
+        "satisfies": [],
+        "similar_courses": [
+            {
+                "course_number": 610,
+                "subjects": [
+                    "NTP",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 611,
+                "subjects": [
+                    "NTP",
+                    "PSYCH",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 454,
+                "subjects": [
+                    "PSYCH"
+                ]
+            },
+            {
+                "course_number": 674,
+                "subjects": [
+                    "PSYCH",
+                    "NEURODPT",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 620,
+                "subjects": [
+                    "NTP",
+                    "ZOOLOGY"
+                ]
+            }
+        ],
+        "term_data": {}
+    },
+    {
+        "course_reference": {
+            "course_number": 640,
+            "subjects": [
+                "NTP",
+                "NEURODPT"
+            ]
+        },
+        "course_title": "COMPUTATIONAL NEUROSCIENCE: FROM SINGLE CELLS TO WHOLE BRAIN MODELS",
+        "cumulative_grade_data": {
+            "a": 7,
+            "ab": 1,
+            "b": 0,
+            "bc": 0,
+            "c": 0,
+            "credit": 0,
+            "d": 0,
+            "f": 0,
+            "incomplete": 0,
+            "instructors": null,
+            "no_credit": 0,
+            "no_work": 0,
+            "not_reported": 0,
+            "other": 0,
+            "passed": 0,
+            "satisfactory": 0,
+            "total": 8,
+            "unsatisfactory": 0
+        },
+        "description": "Theory and application of methods in computational neuroscience across various levels of organization from single cells to global brain dynamics and cognition. Computational neuroscience is an approach to understanding the development and function of nervous systems in mechanistic terms at many different structural scales. Topics include biophysical properties of neurons and synapses, neural plasticity, sensory systems, neural circuits, whole brain analysis and modeling, and different views on brain function. Includes primers on relevant computational techniques (ICA, information theoretical approaches, dynamical systems) and a computational problem set. Starts with an introduction to MATLAB (used for problem sets).",
+        "keywords": [
+            "function nervous",
+            "properties neurons",
+            "neurons synapses",
+            "cognition computational",
+            "neuroscience approach"
+        ],
+        "optimized_prerequisites": [
+            {
+                "course_number": 610,
+                "subjects": [
+                    "NTP",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 611,
+                "subjects": [
+                    "NTP",
+                    "PSYCH",
+                    "NEURODPT"
+                ]
+            }
+        ],
+        "prerequisites": {
+            "abstract_syntax_tree": {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "course_number": 523,
+                                "subjects": [
+                                    "PSYCH",
+                                    "ZOOLOGY"
+                                ]
+                            },
+                            {
+                                "course_number": 454,
+                                "subjects": [
+                                    "PSYCH"
+                                ]
+                            },
+                            {
+                                "course_number": 221,
+                                "subjects": [
+                                    "MATH"
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "course_number": 104,
+                                        "subjects": [
+                                            "PHYSICS"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 202,
+                                        "subjects": [
+                                            "PHYSICS"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 208,
+                                        "subjects": [
+                                            "PHYSICS"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 248,
+                                        "subjects": [
+                                            "PHYSICS"
+                                        ]
+                                    }
+                                ],
+                                "operator": "OR"
+                            }
+                        ],
+                        "operator": "AND"
+                    },
+                    {
+                        "children": [
+                            "graduate/professional standing",
+                            {
+                                "course_number": 610,
+                                "subjects": [
+                                    "NTP",
+                                    "NEURODPT"
+                                ]
+                            },
+                            {
+                                "course_number": 611,
+                                "subjects": [
+                                    "NTP",
+                                    "PSYCH",
+                                    "NEURODPT"
+                                ]
+                            }
+                        ],
+                        "operator": "AND"
                     }
                 ],
                 "operator": "OR"
             },
             "course_references": [
                 {
-                    "course_number": 435,
+                    "course_number": 523,
                     "subjects": [
-                        "ANAT&PHY"
+                        "PSYCH",
+                        "ZOOLOGY"
                     ]
                 },
                 {
-                    "course_number": 523,
+                    "course_number": 610,
                     "subjects": [
-                        "ZOOLOGY",
+                        "NTP",
+                        "NEURODPT"
+                    ]
+                },
+                {
+                    "course_number": 202,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
+                    "course_number": 248,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
+                    "course_number": 611,
+                    "subjects": [
+                        "NTP",
+                        "PSYCH",
+                        "NEURODPT"
+                    ]
+                },
+                {
+                    "course_number": 221,
+                    "subjects": [
+                        "MATH"
+                    ]
+                },
+                {
+                    "course_number": 208,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
+                    "course_number": 454,
+                    "subjects": [
                         "PSYCH"
                     ]
                 },
                 {
-                    "course_number": 335,
+                    "course_number": 104,
                     "subjects": [
-                        "ANAT&PHY"
+                        "PHYSICS"
                     ]
                 }
             ],
             "linked_requisite_text": [
-                "Graduate/professional standing or ",
                 {
-                    "course_number": 335,
+                    "course_number": 523,
                     "subjects": [
-                        "ANAT&PHY"
+                        "PSYCH",
+                        "ZOOLOGY"
                     ]
                 },
                 ", ",
                 {
-                    "course_number": 435,
+                    "course_number": 454,
                     "subjects": [
-                        "ANAT&PHY"
+                        "PSYCH"
                     ]
                 },
-                ", PHYSIOL 335, 435 or ",
+                ", ",
                 {
-                    "course_number": 523,
+                    "course_number": 221,
                     "subjects": [
-                        "ZOOLOGY",
-                        "PSYCH"
+                        "MATH"
+                    ]
+                },
+                ", and (",
+                {
+                    "course_number": 104,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 202,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 208,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                ", or ",
+                {
+                    "course_number": 248,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                "); or graduate/professional standing and ",
+                {
+                    "course_number": 610,
+                    "subjects": [
+                        "NTP",
+                        "NEURODPT"
+                    ]
+                },
+                " and ",
+                {
+                    "course_number": 611,
+                    "subjects": [
+                        "NTP",
+                        "PSYCH",
+                        "NEURODPT"
                     ]
                 }
             ],
-            "prerequisites_text": "Graduate/professional standing orANAT&PHY\u00a0335,435, PHYSIOL 335, 435 orZOOLOGY/\u200bPSYCH\u00a0\u00a0523"
+            "prerequisites_text": "PSYCH/\u200bZOOLOGY\u00a0\u00a0523,PSYCH\u00a0454,MATH\u00a0221, and (PHYSICS\u00a0104,202,208, or248); or graduate/professional standing andNEURODPT/\u200bNTP\u00a0\u00a0610andPSYCH/\u200bNEURODPT/\u200bNTP\u00a0\u00a0611"
         },
         "satisfies": [],
         "similar_courses": [
             {
-                "course_number": 444,
-                "subjects": [
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 640,
+                "course_number": 629,
                 "subjects": [
                     "NTP",
                     "NEURODPT"
@@ -3215,19 +2919,315 @@
                 ]
             },
             {
+                "course_number": 611,
+                "subjects": [
+                    "NTP",
+                    "PSYCH",
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 765,
+                "subjects": [
+                    "NTP",
+                    "NEURODPT",
+                    "ZOOLOGY"
+                ]
+            },
+            {
                 "course_number": 900,
                 "subjects": [
                     "NTP"
                 ]
+            }
+        ],
+        "term_data": {
+            "1244": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 7,
+                    "ab": 1,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "MATHEW JONES",
+                        "Larissa ALBANTAKIS",
+                        "Meyer JACKSON"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 8,
+                    "unsatisfactory": 0
+                }
+            }
+        }
+    },
+    {
+        "course_reference": {
+            "course_number": 674,
+            "subjects": [
+                "PSYCH",
+                "NEURODPT",
+                "ZOOLOGY"
+            ]
+        },
+        "course_title": "BEHAVIORAL NEUROENDOCRINOLOGY SEMINAR",
+        "cumulative_grade_data": {
+            "a": 34,
+            "ab": 2,
+            "b": 0,
+            "bc": 0,
+            "c": 0,
+            "credit": 0,
+            "d": 0,
+            "f": 0,
+            "incomplete": 0,
+            "instructors": null,
+            "no_credit": 0,
+            "no_work": 0,
+            "not_reported": 0,
+            "other": 0,
+            "passed": 0,
+            "satisfactory": 0,
+            "total": 36,
+            "unsatisfactory": 0
+        },
+        "description": "Behavior results from a complex interplay among hormones, the brain, and environmental factors. Behaviors and their underlying neural substrates have evolved in response to specific environmental conditions, resulting in vast species diversity in behavioral and neuroendocrine solutions to environmental problems. Designed to explore the primary literature on the neuroendocrine underpinnings of behavior spanning from feeding to sex differences in complex social behaviors. A range of taxonomic groups will be discussed, including (but not limited to) mammals, birds, and fish.",
+        "keywords": [
+            "behavioral",
+            "brain environmental",
+            "neuroendocrine solutions",
+            "interplay hormones",
+            "neuroendocrine underpinnings"
+        ],
+        "optimized_prerequisites": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            }
+        ],
+        "prerequisites": {
+            "abstract_syntax_tree": {
+                "children": [
+                    {
+                        "course_number": 101,
+                        "subjects": [
+                            "BIOLOGY",
+                            "ZOOLOGY"
+                        ]
+                    },
+                    {
+                        "course_number": 151,
+                        "subjects": [
+                            "BIOLOGY",
+                            "BOTANY",
+                            "ZOOLOGY"
+                        ]
+                    },
+                    {
+                        "course_number": 383,
+                        "subjects": [
+                            "BIOCORE"
+                        ]
+                    },
+                    "graduate/professional standing"
+                ],
+                "operator": "OR"
+            },
+            "course_references": [
+                {
+                    "course_number": 101,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 383,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
+                },
+                {
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "BOTANY",
+                        "ZOOLOGY"
+                    ]
+                }
+            ],
+            "linked_requisite_text": [
+                {
+                    "course_number": 101,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "BOTANY",
+                        "ZOOLOGY"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 383,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
+                },
+                " or graduate/professional standing"
+            ],
+            "prerequisites_text": "ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,BIOCORE\u00a0383or graduate/professional standing"
+        },
+        "satisfies": [],
+        "similar_courses": [
+            {
+                "course_number": 449,
+                "subjects": [
+                    "PSYCH"
+                ]
             },
             {
-                "course_number": 523,
+                "course_number": 513,
                 "subjects": [
-                    "ZOOLOGY",
+                    "PSYCH"
+                ]
+            },
+            {
+                "course_number": 603,
+                "subjects": [
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 616,
+                "subjects": [
+                    "NEURODPT",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 454,
+                "subjects": [
                     "PSYCH"
                 ]
             }
         ],
-        "term_data": {}
+        "term_data": {
+            "1182": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 8,
+                    "ab": 2,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Lauren RITERS"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 10,
+                    "unsatisfactory": 0
+                }
+            },
+            "1202": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 17,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Lauren RITERS"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 17,
+                    "unsatisfactory": 0
+                }
+            },
+            "1222": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 9,
+                    "ab": 0,
+                    "b": 0,
+                    "bc": 0,
+                    "c": 0,
+                    "credit": 0,
+                    "d": 0,
+                    "f": 0,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Lauren RITERS"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 9,
+                    "unsatisfactory": 0
+                }
+            },
+            "1262": {
+                "enrollment_data": {
+                    "credit_count": [
+                        2,
+                        2
+                    ],
+                    "ethnics_studies": false,
+                    "general_education": false,
+                    "instructors": {
+                        "Lauren RITERS": "LVRITERS@WISC.EDU"
+                    },
+                    "last_taught_term": "Fall 2021",
+                    "school": {
+                        "abbreviation": "L",
+                        "name": "Letters and Science",
+                        "url": "http://www.ls.wisc.edu/"
+                    },
+                    "typically_offered": "Every Other Fall"
+                },
+                "grade_data": null
+            }
+        }
     }
 ]
