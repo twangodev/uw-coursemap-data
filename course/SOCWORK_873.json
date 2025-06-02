@@ -26,39 +26,65 @@
         "total": 292,
         "unsatisfactory": 0
     },
-    "description": "Develops advanced practice knowledge and skills for social workers practicing in health and health care settings.",
+    "description": "Advanced practice knowledge and skills for social workers practicing in health and health care settings.",
     "keywords": [
-        "develops advanced",
+        "health care",
+        "practice",
         "workers practicing",
         "knowledge skills",
-        "practicing health",
         "social workers"
     ],
-    "optimized_prerequisites": null,
+    "optimized_prerequisites": [
+        {
+            "course_number": 441,
+            "subjects": [
+                "SOCWORK"
+            ]
+        }
+    ],
     "prerequisites": {
-        "abstract_syntax_tree": "Declared in Social Work MSW",
-        "course_references": [],
-        "linked_requisite_text": [
-            "Declared in Social Work MSW"
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "course_number": 441,
+                            "subjects": [
+                                "SOCWORK"
+                            ]
+                        },
+                        "graduate/professional standing"
+                    ],
+                    "operator": "AND"
+                },
+                "declared in Social Work Advanced Standing MSW"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 441,
+                "subjects": [
+                    "SOCWORK"
+                ]
+            }
         ],
-        "prerequisites_text": "Declared in Social Work MSW"
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 441,
+                "subjects": [
+                    "SOCWORK"
+                ]
+            },
+            " and graduate/professional standing) or declared in Social Work Advanced Standing MSW"
+        ],
+        "prerequisites_text": "(SOC\u00a0WORK\u00a0441and graduate/professional standing) or declared in Social Work Advanced Standing MSW"
     },
     "satisfies": [],
     "similar_courses": [
         {
-            "course_number": 821,
-            "subjects": [
-                "SOCWORK"
-            ]
-        },
-        {
-            "course_number": 861,
-            "subjects": [
-                "SOCWORK"
-            ]
-        },
-        {
-            "course_number": 874,
+            "course_number": 835,
             "subjects": [
                 "SOCWORK"
             ]
@@ -70,7 +96,19 @@
             ]
         },
         {
-            "course_number": 835,
+            "course_number": 874,
+            "subjects": [
+                "SOCWORK"
+            ]
+        },
+        {
+            "course_number": 861,
+            "subjects": [
+                "SOCWORK"
+            ]
+        },
+        {
+            "course_number": 648,
             "subjects": [
                 "SOCWORK"
             ]
@@ -315,9 +353,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "ELIZABETH MOUA",
                     "Timothy Latimer",
-                    "SARAH VALENCIA",
-                    "ELIZABETH MOUA"
+                    "SARAH VALENCIA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

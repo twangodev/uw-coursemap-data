@@ -17,6 +17,14 @@
     },
     {
         "data": {
+            "description": "Application of federal tax provisions and administrative rules pertaining to corporations and shareholders, including elective provisions for \"S\" corporations. Emphasis on tax planning and the consequences of corporate and shareholder decisions.",
+            "id": "ACCTIS 621",
+            "parent": "ACCTIS",
+            "title": "CORPORATE AND ADVANCED TAXATION"
+        }
+    },
+    {
+        "data": {
             "description": "Examines both financial and managerial accounting for business decisions. Emphasizes preparation and interpretation of financial statements, analysis of financial information, determination of costs for products and services, and use of accounting information for planning and control of business operations.",
             "id": "ACCTIS 300",
             "parent": "ACCTIS",
@@ -25,7 +33,7 @@
     },
     {
         "data": {
-            "description": "Examines current and emerging financial accounting theory and techniques used to measure and report financial information to investors, creditors, and other external users. Emphasizes asset and income determination, preparation and interpretation of financial statements, and related disclosure requirements.",
+            "description": "Examines current and emerging financial reporting theory and techniques used primarily to measure and disclose assets and determine income. Emphasis on analysis and measurement.",
             "id": "ACCTIS 301",
             "parent": "ACCTIS",
             "title": "FINANCIAL REPORTING I"
@@ -41,7 +49,21 @@
     },
     {
         "data": {
+            "description": "Federal income taxation; basic rules, theory and policy.",
+            "id": "LAW 742",
+            "parent": "LAW",
+            "title": "TAXATION I"
+        }
+    },
+    {
+        "data": {
             "id": "ACCTIS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "LAW",
             "type": "compound"
         }
     },
@@ -72,6 +94,24 @@
     {
         "data": {
             "source": "ACCTIS 620",
+            "target": "ACCTIS 621"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 620",
+            "target": "ACCTIS 725"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 621",
+            "target": "ACCTIS 725"
+        }
+    },
+    {
+        "data": {
+            "source": "LAW 742",
             "target": "ACCTIS 725"
         }
     }

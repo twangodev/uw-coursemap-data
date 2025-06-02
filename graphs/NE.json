@@ -41,6 +41,14 @@
     },
     {
         "data": {
+            "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
+            "id": "MATH 340",
+            "parent": "MATH",
+            "title": "ELEMENTARY MATRIX AND LINEAR ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Analysis of nuclear systems for the production of useful power. Emphasis: thermodynamic cycles, reactor types, coupling of reactor and power plant, design synthesis, and plant economics.",
             "id": "NE 550",
             "parent": "NE",
@@ -129,7 +137,7 @@
             "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
             "id": "STAT 324",
             "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
+            "title": "INTRODUCTION TO STATISTICS FOR SCIENCE AND ENGINEERING"
         }
     },
     {
@@ -412,18 +420,18 @@
     },
     {
         "data": {
-            "description": "Principles of mechanics, force systems, equilibrium, structures, distributed forces, moments of inertia of areas, and friction.",
-            "id": "EMA 201",
-            "parent": "EMA",
-            "title": "STATICS"
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "COLLEGE ALGEBRA"
         }
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
-            "id": "MATH 112",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, logarithmic, and trigonometric functions. Topics include equations, inequalities, functions, and their graphs. Other topics include trigonometric equations and identities and the geometric significance of trigonometry. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provide the algebra and trigonometry skills required for calculus.",
+            "id": "MATH 114",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "PRECALCULUS"
         }
     },
     {
@@ -480,14 +488,6 @@
             "id": "MATH 319",
             "parent": "MATH",
             "title": "TECHNIQUES IN ORDINARY DIFFERENTIAL EQUATIONS"
-        }
-    },
-    {
-        "data": {
-            "description": "Review of topics in electrodynamics and special relativity; ionization and energy loss during scattering of charged particles; radiation from charged particles including Bremstrahlung, Cerenkov, and Synchrotron radiation; Thomson scattering of electromagnetic waves by charged particles. Knowledge of Dynamics [such asE\u00a0M\u00a0A\u00a0202orPHYSICS\u00a0311] and Electromagnetics [such asPHYSICS\u00a0322] required.",
-            "id": "NE 741",
-            "parent": "NE",
-            "title": "INTERACTION OF RADIATION WITH MATTER"
         }
     },
     {
@@ -580,14 +580,6 @@
     },
     {
         "data": {
-            "description": "The two semester sequenceMATH\u00a0112-MATH\u00a0113covers similar material asMATH\u00a0114, but in a slower pace. Not recommended for students with less than an AB inMATH\u00a096.",
-            "id": "MATH 114",
-            "parent": "MATH",
-            "title": "ALGEBRA AND TRIGONOMETRY"
-        }
-    },
-    {
-        "data": {
             "description": "Thermodynamics and kinetics of metallic corrosion. The common forms of corrosion and corrosion susceptibility tests. Electrochemical measurement of corrosion rates. Corrosion prevention, economic considerations. High temperature oxidation and sulphidation. Corrosion case histories.",
             "id": "MS&E/NE 433",
             "title": "PRINCIPLES OF CORROSION"
@@ -625,10 +617,10 @@
     },
     {
         "data": {
-            "description": "Vector analysis: algebra and geometry of vectors, vector differential and integral calculus, theorems of Green, Gauss, and Stokes; complex analysis: analytic functions, complex integrals and residues, Taylor and Laurent series.",
+            "description": "Vector analysis: algebra and geometry of vectors, index notation, 3D rotations, Euler angles; vector differential and integral calculus, theorems of Green, Gauss, and Stokes; grad, div, curl, and Laplacian in cylindrical and spherical coordinates; Complex analysis: analytic functions, Cauchy-Riemann equations, conformal mapping, complex integrals, residue theorem.",
             "id": "MATH 321",
             "parent": "MATH",
-            "title": "APPLIED MATHEMATICAL ANALYSIS"
+            "title": "APPLIED MATHEMATICAL ANALYSIS 1: VECTOR AND COMPLEX CALCULUS"
         }
     },
     {
@@ -667,12 +659,6 @@
     {
         "data": {
             "id": "ECE",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "EMA",
             "type": "compound"
         }
     },
@@ -780,12 +766,6 @@
     },
     {
         "data": {
-            "source": "EMA 201",
-            "target": "ME 361"
-        }
-    },
-    {
-        "data": {
             "source": "EP 271",
             "target": "NE 412"
         }
@@ -853,12 +833,6 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "EMA 201"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
             "target": "EP 271"
         }
     },
@@ -878,6 +852,12 @@
         "data": {
             "source": "MATH 222",
             "target": "MATH 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 340"
         }
     },
     {
@@ -919,6 +899,12 @@
     {
         "data": {
             "source": "MATH 319",
+            "target": "MATH 321"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 319",
             "target": "ME 363"
         }
     },
@@ -942,12 +928,6 @@
     },
     {
         "data": {
-            "source": "MATH 320",
-            "target": "MATH 321"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 321",
             "target": "PHYSICS 311"
         }
@@ -956,6 +936,12 @@
         "data": {
             "source": "MATH 321",
             "target": "PHYSICS 322"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 340",
+            "target": "MATH 321"
         }
     },
     {
@@ -1142,6 +1128,12 @@
         "data": {
             "source": "PHYSICS 201",
             "target": "EP 271"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 201",
+            "target": "ME 361"
         }
     },
     {

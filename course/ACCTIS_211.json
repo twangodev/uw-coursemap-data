@@ -36,7 +36,7 @@
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 100,
+            "course_number": 300,
             "subjects": [
                 "ACCTIS"
             ]
@@ -51,11 +51,29 @@
                         "ACCTIS"
                     ]
                 },
+                {
+                    "children": [
+                        {
+                            "course_number": 300,
+                            "subjects": [
+                                "ACCTIS"
+                            ]
+                        },
+                        "declared in the Certificate in Accounting Fundamentals"
+                    ],
+                    "operator": "AND"
+                },
                 "declared in undergraduate Business Exchange program"
             ],
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 300,
+                "subjects": [
+                    "ACCTIS"
+                ]
+            },
             {
                 "course_number": 100,
                 "subjects": [
@@ -70,15 +88,22 @@
                     "ACCTIS"
                 ]
             },
-            " or declared in undergraduate Business Exchange program"
+            ", (",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "ACCTIS"
+                ]
+            },
+            " and declared in the Certificate in Accounting Fundamentals), or declared in undergraduate Business Exchange program"
         ],
-        "prerequisites_text": "ACCT\u00a0I\u00a0S\u00a0100or declared in undergraduate Business Exchange program"
+        "prerequisites_text": "ACCT\u00a0I\u00a0S\u00a0100, (ACCT\u00a0I\u00a0S\u00a0300and declared in the Certificate in Accounting Fundamentals), or declared in undergraduate Business Exchange program"
     },
     "satisfies": [
         {
-            "course_number": 310,
+            "course_number": 427,
             "subjects": [
-                "ACCTIS"
+                "MHR"
             ]
         },
         {
@@ -88,27 +113,21 @@
             ]
         },
         {
-            "course_number": 427,
+            "course_number": 310,
             "subjects": [
-                "MHR"
+                "ACCTIS"
             ]
         }
     ],
     "similar_courses": [
         {
-            "course_number": 100,
+            "course_number": 300,
             "subjects": [
                 "ACCTIS"
             ]
         },
         {
             "course_number": 771,
-            "subjects": [
-                "ACCTIS"
-            ]
-        },
-        {
-            "course_number": 300,
             "subjects": [
                 "ACCTIS"
             ]
@@ -121,6 +140,12 @@
         },
         {
             "course_number": 710,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 100,
             "subjects": [
                 "ACCTIS"
             ]
@@ -140,13 +165,13 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "TIMOTHY KEUNE",
-                    "CARMAN ANN NELSON",
                     "NICOLLE LEAH BELDEN",
-                    "JANET JOOEUN KIM",
-                    "JODI LYNN BELLOVARY",
                     "MICHAEL JOHN KREEMER",
-                    "WENDY JANICE MORRIS"
+                    "WENDY JANICE MORRIS",
+                    "JODI LYNN BELLOVARY",
+                    "JANET JOOEUN KIM",
+                    "CARMAN ANN NELSON",
+                    "TIMOTHY KEUNE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -171,13 +196,13 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "MITCHELL ALLEN MENEAU",
                     "ADAM JOSEPH VANDERLEEST",
-                    "AMY JO HARTSTERN",
-                    "JENNA ROSE HIRSCHBOECK",
-                    "KAREN ANN ROWNTREE",
                     "MATHEW J YANG",
-                    "ERIN PATRICK LAVELLE"
+                    "ERIN PATRICK LAVELLE",
+                    "MITCHELL ALLEN MENEAU",
+                    "JENNA ROSE HIRSCHBOECK",
+                    "AMY JO HARTSTERN",
+                    "KAREN ANN ROWNTREE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -202,13 +227,13 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "TIMOTHY KEUNE",
+                    "JONATHAN PAUL MILO",
                     "LUKE MICHAEL HARTZHEIM",
                     "ASHLEY MARIE MUEHLBAUER",
-                    "JONATHAN PAUL MILO",
-                    "JASON ROBERT PREISLER",
                     "JORDAN JOHN ZIRBEL",
-                    "JILLIAN MARIE MCCOOL"
+                    "JILLIAN MARIE MCCOOL",
+                    "TIMOTHY KEUNE",
+                    "JASON ROBERT PREISLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -233,12 +258,12 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ZACHARY DAVID BERGHOUSE",
-                    "ASHLEY MARIE MANESTAR",
                     "JODI LYNN BELLOVARY",
-                    "WILLIAM BRENDAN O'NEILL",
-                    "KRISTIN LEIGH BARRY",
+                    "ASHLEY MARIE MANESTAR",
                     "LAURA ELIZABETH MUSKATEVC",
+                    "KRISTIN LEIGH BARRY",
+                    "WILLIAM BRENDAN O'NEILL",
+                    "ZACHARY DAVID BERGHOUSE",
                     "WILLIAM ANTON SILBERZAHN"
                 ],
                 "no_credit": 0,
@@ -264,13 +289,13 @@
                 "f": 8,
                 "incomplete": 0,
                 "instructors": [
+                    "SCOTT ZASTOUPIL",
                     "CATHERINE KUHN",
                     "MICHAEL KLEINHEINZ",
-                    "ERIC JOURDAN",
-                    "SAMIRA LISOWSKI",
-                    "SCOTT ZASTOUPIL",
                     "MARIE POPPY",
-                    "JON DAVIS"
+                    "JON DAVIS",
+                    "SAMIRA LISOWSKI",
+                    "ERIC JOURDAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -295,13 +320,13 @@
                 "f": 6,
                 "incomplete": 0,
                 "instructors": [
-                    "TIMOTHY KEUNE",
-                    "ANDREW MOHR",
                     "JEREMY BONOW",
-                    "DAVID RUDOLPH",
-                    "DANIEL STEPHENSON",
                     "SETH LA REAU",
-                    "ASHLEY ANDREW"
+                    "TIMOTHY KEUNE",
+                    "DANIEL STEPHENSON",
+                    "ASHLEY ANDREW",
+                    "DAVID RUDOLPH",
+                    "ANDREW MOHR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -326,13 +351,13 @@
                 "f": 7,
                 "incomplete": 0,
                 "instructors": [
-                    "KATHRYN QUIRK",
-                    "ANDREW THEIS",
+                    "ASHLEY QUACKENBOSS",
+                    "BENJAMIN COSTELLO",
                     "BRYANT PRZYBILLA",
                     "JODI LYNN BELLOVARY",
                     "ABBIE DALY",
-                    "ASHLEY QUACKENBOSS",
-                    "BENJAMIN COSTELLO"
+                    "KATHRYN QUIRK",
+                    "ANDREW THEIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -357,19 +382,19 @@
                 "f": 9,
                 "incomplete": 0,
                 "instructors": [
-                    "ALLISON MOVRICH",
-                    "BRANDON ZITOMER",
-                    "BRETT LUNDBERG",
-                    "THOMAS BALL",
-                    "WILLIAM BANTZ",
-                    "MICHAEL STUDER",
-                    "DANYELLE ELKIND",
                     "ALEXANDER KITA",
-                    "ABBIE DALY",
                     "DAN ZHU",
-                    "HEATHER BOOMS",
+                    "BRANDON ZITOMER",
+                    "DANYELLE ELKIND",
+                    "THOMAS BALL",
+                    "ALLISON MOVRICH",
+                    "BRETT LUNDBERG",
+                    "NICHOLAS HARA",
+                    "ABBIE DALY",
                     "ERIN RADEMACHER",
-                    "NICHOLAS HARA"
+                    "HEATHER BOOMS",
+                    "MICHAEL STUDER",
+                    "WILLIAM BANTZ"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -394,13 +419,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "NICOLETTE HOFF",
-                    "CLINT URBACH",
-                    "RACHEL PEIRICK",
-                    "JILL DEARING",
                     "AMANDA CONVERY",
+                    "NICOLETTE HOFF",
+                    "JILL DEARING",
+                    "RACHEL PEIRICK",
+                    "JULIE POLYWKA",
                     "LAURA MORTENSEN",
-                    "JULIE POLYWKA"
+                    "CLINT URBACH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -425,19 +450,19 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "KAYLA LAUERSDORF",
+                    "CASS HAUSSERMAN",
+                    "CHRIS THOMPSON",
+                    "ALLISON HAMMING",
                     "MOLLY SEIDL",
+                    "THOMAS SKOGLUND",
+                    "MATTHEW BRODY",
                     "KELLY VANDEKREEKE",
                     "SARAH DOBRICK",
-                    "ALLISON HAMMING",
-                    "TARA THOMPSON",
-                    "THOMAS SKOGLUND",
-                    "Katharine Widlak",
-                    "MATTHEW BRODY",
-                    "STEPHANIE HIETPAS",
-                    "CHRIS THOMPSON",
                     "JENNIFER CORNICK",
-                    "CASS HAUSSERMAN"
+                    "TARA THOMPSON",
+                    "Katharine Widlak",
+                    "STEPHANIE HIETPAS",
+                    "KAYLA LAUERSDORF"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -463,8 +488,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "AMANDA CONVERY",
-                    "ABBIE DALY",
-                    "ELLA MATSUMURA"
+                    "ELLA MATSUMURA",
+                    "ABBIE DALY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -489,13 +514,13 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KELLY HERMUS",
-                    "ELLA MATSUMURA",
-                    "KARA OBERMIRE",
                     "AMANDA CONVERY",
+                    "ELLA MATSUMURA",
+                    "JASON EHRMANTRAUT",
+                    "KARA OBERMIRE",
+                    "KELLY HERMUS",
                     "KATHERINE CULHANE",
-                    "JOHN SMITS",
-                    "JASON EHRMANTRAUT"
+                    "JOHN SMITS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -521,8 +546,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "KENNETH REHBERGER",
-                    "ABBIE DALY",
-                    "ELLA MATSUMURA"
+                    "ELLA MATSUMURA",
+                    "ABBIE DALY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -547,20 +572,20 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
+                    "DAVID GRASSE",
+                    "TAE WOONG HAN",
+                    "ELLA MATSUMURA",
                     "NATHAN DREIKOSEN",
                     "JOSEPH PASKOV",
-                    "ELLA MATSUMURA",
                     "NATHAN CHIVERS",
+                    "SAVKA LAZAREVIC",
+                    "JACOB RUSSART",
                     "YUE JIANG",
-                    "TAE WOONG HAN",
+                    "CAMERON KERKHOFF",
                     "DAVID BOTHWELL",
                     "ABBIE DALY",
-                    "JACOB RUSSART",
                     "CAITLIN EDWARDS",
-                    "SAVKA LAZAREVIC",
-                    "CAMERON KERKHOFF",
-                    "BRITTANY GROW",
-                    "DAVID GRASSE"
+                    "BRITTANY GROW"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -585,12 +610,12 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "CLAYTON WITTA",
                     "ELLA MATSUMURA",
+                    "CLAYTON WITTA",
                     "RACHEL MARTIN",
-                    "MICHAEL ACOSTA",
+                    "ABBIE DALY",
                     "KACEY KELLER",
-                    "ABBIE DALY"
+                    "MICHAEL ACOSTA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -615,23 +640,23 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "MAX GROTHMAN",
-                    "SALMAN AASI",
-                    "ELLA MATSUMURA",
-                    "LEI HUA",
-                    "KYLE ROMANCE",
-                    "KAYLA DIX",
-                    "CHERYL CASCIO",
-                    "MICHAEL VAN HOORN",
-                    "DANIELLE MCMAHON",
-                    "JESSICA ROBBINS",
-                    "ABBIE DALY",
-                    "JACOB JANSEN",
-                    "DAVID JONAS",
+                    "KIMBERLY CONNOR",
                     "JOSEPH MEEUSEN",
-                    "EMILY ROSENBAUM",
+                    "ELLA MATSUMURA",
+                    "KYLE ROMANCE",
+                    "CHERYL CASCIO",
+                    "DAVID JONAS",
+                    "LEI HUA",
                     "JESSE STERNAD",
-                    "KIMBERLY CONNOR"
+                    "SALMAN AASI",
+                    "JESSICA ROBBINS",
+                    "MAX GROTHMAN",
+                    "JACOB JANSEN",
+                    "DANIELLE MCMAHON",
+                    "ABBIE DALY",
+                    "MICHAEL VAN HOORN",
+                    "EMILY ROSENBAUM",
+                    "KAYLA DIX"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -656,11 +681,11 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "KRISTEN DENNIS",
-                    "RACHEL MARTIN",
-                    "JASON CHOI",
                     "KAYLA NORDGREN",
+                    "KRISTEN DENNIS",
+                    "JASON CHOI",
                     "DIMITRI YATSENKO",
+                    "RACHEL MARTIN",
                     "ANN O'BRIEN",
                     "EMILY ROSENBAUM"
                 ],
@@ -687,26 +712,26 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "WILLIAM SCHAEFER",
-                    "KOLBY KNUTH",
-                    "JASON CHOI",
-                    "YITING JIANG",
-                    "ALISON LIN",
-                    "MICHELLE GARGUS",
-                    "ELIZABETH LECHNER",
-                    "MICHAEL CZUBKOWSKI",
-                    "CHRISTOPHER LOUK",
-                    "ANN O'BRIEN",
-                    "JONATHAN WILD",
-                    "LEE SWARTZ",
-                    "LAWRENCE MUFFUH",
-                    "KAYLA NORDGREN",
-                    "DIMITRI YATSENKO",
-                    "NIKELLE MORRIS",
-                    "MICHELLE LOKE",
-                    "ADAM HALDIMAN",
                     "RACHEL BERRYMAN",
-                    "MATTHEW BAKER"
+                    "DIMITRI YATSENKO",
+                    "MICHAEL CZUBKOWSKI",
+                    "MICHELLE GARGUS",
+                    "JONATHAN WILD",
+                    "MATTHEW BAKER",
+                    "LAWRENCE MUFFUH",
+                    "KOLBY KNUTH",
+                    "ALISON LIN",
+                    "ELIZABETH LECHNER",
+                    "WILLIAM SCHAEFER",
+                    "ANN O'BRIEN",
+                    "NIKELLE MORRIS",
+                    "KAYLA NORDGREN",
+                    "ADAM HALDIMAN",
+                    "JASON CHOI",
+                    "CHRISTOPHER LOUK",
+                    "MICHELLE LOKE",
+                    "LEE SWARTZ",
+                    "YITING JIANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -731,11 +756,11 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "DANA HINSKE",
-                    "WILLIAM KWON",
-                    "MICHAEL POLKOFF",
                     "KAYLA NORDGREN",
+                    "DANA HINSKE",
+                    "MICHAEL POLKOFF",
                     "DIMITRI YATSENKO",
+                    "WILLIAM KWON",
                     "ANN O'BRIEN"
                 ],
                 "no_credit": 0,
@@ -761,25 +786,25 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JEFFREY COHEN",
-                    "JAMES MCMANUS",
-                    "CHRISTINA HOO",
-                    "CAITLIN SCHNORBACH",
+                    "BRIANNA BRINCKMAN",
+                    "DIMITRI YATSENKO",
                     "GREGORY NOVO",
-                    "NICHOLAS KUBSCH",
+                    "JONATHAN WEBER",
+                    "CONNOR O'HEARN",
                     "MAAREN O'KEEFE",
                     "MATTHEW FROMMELT",
-                    "ANN O'BRIEN",
-                    "JENNIFER KANE",
-                    "CHRISTA VANDER PAS",
-                    "KAYLA NORDGREN",
-                    "LEAH SCHMID",
-                    "DIMITRI YATSENKO",
-                    "BRIANNA BRINCKMAN",
-                    "JONATHAN WEBER",
-                    "BRITTANY GOLDSWORTHY",
+                    "CAITLIN SCHNORBACH",
                     "AUSTIN STREHLOW",
-                    "CONNOR O'HEARN"
+                    "NICHOLAS KUBSCH",
+                    "JAMES MCMANUS",
+                    "BRITTANY GOLDSWORTHY",
+                    "JEFFREY COHEN",
+                    "ANN O'BRIEN",
+                    "KAYLA NORDGREN",
+                    "CHRISTINA HOO",
+                    "LEAH SCHMID",
+                    "CHRISTA VANDER PAS",
+                    "JENNIFER KANE"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -805,9 +830,9 @@
                 "incomplete": 1,
                 "instructors": [
                     "Kristen FUHREMANN",
-                    "MARY VERNON",
+                    "ALYSSA KRONEBERG",
                     "DIMITRI YATSENKO",
-                    "ALYSSA KRONEBERG"
+                    "MARY VERNON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -832,23 +857,23 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "JEFFREY KREUTZ",
-                    "DEREK WEISMAN",
                     "JESSICA SMITH",
-                    "ABBEY PETERSON",
-                    "MADELEINE RAMSEY",
-                    "BRANDON JAEGER",
                     "IN GYUN BAEK",
-                    "KRISTA FORTCAMP",
-                    "Kristen FUHREMANN",
-                    "MICHAEL HEITHOFF",
-                    "SAVANNAH WINDHORN",
-                    "KILIAN BARTELS",
+                    "GEORGE COOGAN",
                     "BENJAMIN MOY",
+                    "JOHN PEIRSON",
+                    "MICHAEL HEITHOFF",
                     "NICHOLAS FAHRNEY",
                     "PETER HAMILTON",
-                    "JOHN PEIRSON",
-                    "GEORGE COOGAN"
+                    "KILIAN BARTELS",
+                    "Kristen FUHREMANN",
+                    "BRANDON JAEGER",
+                    "DEREK WEISMAN",
+                    "JEFFREY KREUTZ",
+                    "KRISTA FORTCAMP",
+                    "ABBEY PETERSON",
+                    "SAVANNAH WINDHORN",
+                    "MADELEINE RAMSEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -873,11 +898,11 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "LAUREN LOMMEN",
-                    "IN GYUN BAEK",
-                    "KELSEY KNUTSON",
                     "ALEXANDRA COBB",
+                    "IN GYUN BAEK",
                     "Kristen FUHREMANN",
+                    "LAUREN LOMMEN",
+                    "KELSEY KNUTSON",
                     "DAVID BROCHTRUP"
                 ],
                 "no_credit": 0,
@@ -903,18 +928,18 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "SISILIA HALIM",
-                    "CARLY VANDER PAS",
                     "KATHLEEN LAWLER",
-                    "SARA WILLIAMS",
-                    "KATHRYN MEYERS",
-                    "JACOB WEDIG",
-                    "JOSEPH GRABOWSKI",
-                    "ZACHARY ZAJDEL",
-                    "Kristen FUHREMANN",
                     "IN GYUN BAEK",
-                    "JONAH SIBLEY",
                     "MADELINE NASH",
+                    "CARLY VANDER PAS",
+                    "KATHRYN MEYERS",
+                    "SISILIA HALIM",
+                    "Kristen FUHREMANN",
+                    "ZACHARY ZAJDEL",
+                    "JOSEPH GRABOWSKI",
+                    "JONAH SIBLEY",
+                    "JACOB WEDIG",
+                    "SARA WILLIAMS",
                     "MARISA OLSON"
                 ],
                 "no_credit": 0,
@@ -940,14 +965,14 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KYLIE PICEK",
-                    "SEUNG KYO AHN",
                     "HENRY JENNERMAN",
-                    "TILLY CHORNEY",
+                    "IN GYUN BAEK",
+                    "PAUL KIMMEL",
+                    "SEUNG KYO AHN",
                     "ASPEN SPONEM",
                     "Kristen FUHREMANN",
-                    "PAUL KIMMEL",
-                    "IN GYUN BAEK"
+                    "KYLIE PICEK",
+                    "TILLY CHORNEY"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -972,19 +997,19 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "JOHN GATCHEL",
-                    "RACHEL CREWS",
-                    "PAUL KIMMEL",
-                    "SEUNG KYO AHN",
-                    "ERICH KUSS",
-                    "KATE HOLUBOWICZ",
-                    "DEREK EGBERT",
-                    "PAIGE WONDERS",
-                    "IN GYUN BAEK",
-                    "Kristen FUHREMANN",
                     "SARAH MAULE",
+                    "DEREK EGBERT",
+                    "IN GYUN BAEK",
+                    "KATE HOLUBOWICZ",
+                    "PAUL KIMMEL",
+                    "RACHEL CREWS",
                     "FREDERICK FIGGE",
+                    "SEUNG KYO AHN",
                     "PATRICK LIU",
+                    "PAIGE WONDERS",
+                    "JOHN GATCHEL",
+                    "Kristen FUHREMANN",
+                    "ERICH KUSS",
                     "NICHOLAS EUFRASIO"
                 ],
                 "no_credit": 0,
@@ -1011,13 +1036,13 @@
                 "incomplete": 0,
                 "instructors": [
                     "JACKSON SMYTH",
-                    "KAITLIN NELSON",
+                    "PAUL KIMMEL",
                     "SEUNG KYO AHN",
+                    "Kristen FUHREMANN",
                     "TAYLOR WILSON",
                     "ALEXANDER KALOF",
-                    "KYLE WEISSMAN",
-                    "Kristen FUHREMANN",
-                    "PAUL KIMMEL"
+                    "KAITLIN NELSON",
+                    "KYLE WEISSMAN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1042,20 +1067,20 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MORGAN RICHARDS",
-                    "SEUNG KYO AHN",
-                    "ASHLEY HALL",
-                    "GARRETT SPELLMAN",
-                    "AUSTIN ANDERSON",
-                    "LAUREN STUBER",
                     "MATTHEW ZEMAN",
-                    "JOSEPH BURGOYNE",
                     "JOSEPH FAHNING",
+                    "AUSTIN ANDERSON",
+                    "ASHLEY HALL",
                     "MICHAEL BEAM",
+                    "PAUL KIMMEL",
+                    "SEUNG KYO AHN",
                     "ETHAN LIEBE",
-                    "BRETT BRESTER",
                     "Kristen FUHREMANN",
-                    "PAUL KIMMEL"
+                    "GARRETT SPELLMAN",
+                    "JOSEPH BURGOYNE",
+                    "LAUREN STUBER",
+                    "BRETT BRESTER",
+                    "MORGAN RICHARDS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1080,17 +1105,17 @@
                 "f": 3,
                 "incomplete": 0,
                 "instructors": [
-                    "QUINN BARKOW",
-                    "KAYLA KLEIN",
-                    "HEATHER RUDNICKI",
+                    "PAUL KIMMEL",
                     "MATT GRIFFITH",
-                    "BENJAMIN RODHEIM",
-                    "ALEC SHEAFFER",
-                    "RACHEL BAKER",
-                    "EMMA DORSHORST",
                     "Kristen FUHREMANN",
+                    "BENJAMIN RODHEIM",
+                    "HEATHER RUDNICKI",
+                    "KAYLA KLEIN",
+                    "EMMA DORSHORST",
+                    "RACHEL BAKER",
                     "ABIGAIL FAHEY",
-                    "PAUL KIMMEL"
+                    "ALEC SHEAFFER",
+                    "QUINN BARKOW"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1115,17 +1140,17 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "JACLYN SACO",
-                    "JOSEPH CATALANO",
                     "WILLIAM GERLACH",
                     "MACY GEBHARDT",
-                    "PAUL UDONI",
-                    "SIERRA SCHWINGLE",
-                    "Kristen FUHREMANN",
-                    "SARAH KADERAVEK",
-                    "MCKAY JONES",
                     "KENDRA TREMELLING",
-                    "DYLAN WIDMER"
+                    "DYLAN WIDMER",
+                    "Kristen FUHREMANN",
+                    "JOSEPH CATALANO",
+                    "PAUL UDONI",
+                    "SARAH KADERAVEK",
+                    "JACLYN SACO",
+                    "SIERRA SCHWINGLE",
+                    "MCKAY JONES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1150,20 +1175,20 @@
                 "f": 4,
                 "incomplete": 1,
                 "instructors": [
-                    "SIERRA SCHWINGLE",
-                    "DYLAN WIDMER",
-                    "STEVEN MOLLOY",
-                    "ANNIKA JOHNSON",
-                    "JOSEPH CATALANO",
                     "HUNTER HOCHMUTH",
                     "WILLIAM GERLACH",
                     "MACY GEBHARDT",
-                    "MOLLY BAUS",
-                    "Kristen FUHREMANN",
-                    "SARAH KADERAVEK",
-                    "MCKAY JONES",
                     "KENDRA TREMELLING",
-                    "PAUL UDONI"
+                    "DYLAN WIDMER",
+                    "Kristen FUHREMANN",
+                    "JOSEPH CATALANO",
+                    "MOLLY BAUS",
+                    "ANNIKA JOHNSON",
+                    "PAUL UDONI",
+                    "SARAH KADERAVEK",
+                    "STEVEN MOLLOY",
+                    "SIERRA SCHWINGLE",
+                    "MCKAY JONES"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1188,18 +1213,18 @@
                 "f": 2,
                 "incomplete": 2,
                 "instructors": [
-                    "NICOLE PINK",
-                    "PARKER KNOPE",
-                    "JOSHUA FAHRNEY",
-                    "RYAN LIEBERGEN",
                     "NICHOLAS CANNON",
                     "LAUREN HAHN",
-                    "JAKOB CZUPEK",
+                    "RYAN LIEBERGEN",
                     "ARDEN RUEHL",
+                    "PARKER KNOPE",
+                    "JAKOB CZUPEK",
                     "CARSON SCHIER",
                     "Kristen FUHREMANN",
-                    "EVAN AGNEW",
-                    "CONNOR HANDEL"
+                    "CONNOR HANDEL",
+                    "NICOLE PINK",
+                    "JOSHUA FAHRNEY",
+                    "EVAN AGNEW"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1224,20 +1249,20 @@
                 "f": 4,
                 "incomplete": 1,
                 "instructors": [
-                    "NICOLE PINK",
-                    "ANDI MCCORKLE",
-                    "TAIDGH MCMANUS",
                     "LAUREN HAHN",
+                    "GEORGE JAMISON",
                     "RYAN UNRUH",
                     "JOSH KRITZER",
-                    "MATTHEW PHELAN",
-                    "JADYN SYVERSON",
-                    "DRAKE PAWLAK",
-                    "GEORGE JAMISON",
+                    "TAIDGH MCMANUS",
                     "JACE HIPP",
-                    "EVAN AGNEW",
+                    "DRAKE PAWLAK",
+                    "ANDI MCCORKLE",
+                    "JADYN SYVERSON",
                     "Kristen FUHREMANN",
-                    "MARGARET KOPREK"
+                    "MARGARET KOPREK",
+                    "NICOLE PINK",
+                    "MATTHEW PHELAN",
+                    "EVAN AGNEW"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1262,17 +1287,17 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "ETHAN KOLESKY",
+                    "ASIA HOLM",
+                    "NICHOLAS FRIEDRICHS",
                     "MAXWELL CINCOTTA",
-                    "Katharine Widlak",
+                    "JAKOB BENNETT",
                     "NATHAN KAPLON",
+                    "ETHAN KOLESKY",
+                    "COLE NAVIN",
                     "SARAH EISENDRATH",
                     "THOMAS O'BRIEN",
-                    "ASIA HOLM",
-                    "COLE NAVIN",
                     "SETH WELD",
-                    "NICHOLAS FRIEDRICHS",
-                    "JAKOB BENNETT"
+                    "Katharine Widlak"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1297,19 +1322,19 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "TYLER MCWILLIAMS",
-                    "BENNETT OLSON",
                     "MOLLY MCENEANY",
-                    "HANNAH NIETFELD",
-                    "Katharine Widlak",
-                    "EMMA WILLIAMS",
-                    "NATHAN KAPLON",
-                    "THOMAS O'BRIEN",
-                    "SETH WELD",
-                    "NICK UNORA",
                     "NICHOLAS FRIEDRICHS",
+                    "HANNAH NIETFELD",
+                    "TYLER MCWILLIAMS",
                     "JAKOB BENNETT",
-                    "CLAIRE CIRRINCIONE"
+                    "EMMA WILLIAMS",
+                    "NICK UNORA",
+                    "Katharine Widlak",
+                    "THOMAS O'BRIEN",
+                    "NATHAN KAPLON",
+                    "SETH WELD",
+                    "CLAIRE CIRRINCIONE",
+                    "BENNETT OLSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1334,19 +1359,19 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "EMMA DUFFING",
-                    "MATTHEW GRUNDMAN",
-                    "JADYN BARTELS",
-                    "HAONING LIU",
-                    "JOSH BREUNIG",
-                    "JARED BREUNIG",
-                    "Katharine Widlak",
                     "SAMUEL KNAUSS",
-                    "LILY WEBER",
+                    "JARED BREUNIG",
                     "NISHA DESAI",
                     "GRACE KADERAVEK",
+                    "JOSH BREUNIG",
+                    "MATTHEW GRUNDMAN",
+                    "SAMUEL WELLS",
+                    "HAONING LIU",
+                    "EMMA DUFFING",
+                    "LILY WEBER",
                     "EMMA REINHART",
-                    "SAMUEL WELLS"
+                    "Katharine Widlak",
+                    "JADYN BARTELS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

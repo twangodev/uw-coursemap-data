@@ -26,53 +26,161 @@
         "total": 2,
         "unsatisfactory": 0
     },
-    "description": "Provides an in-depth introduction to the molecular and cellular principles of pharmacology. Emphasis is on the mechanisms of drug and small molecule action in cells, with a particular focus on downstream signaling pathways, second messenger systems, protein kinase cascades, and the regulation of gene transcription.",
+    "description": "In-depth introduction to the molecular and cellular principles of pharmacology. Emphasis on the mechanisms of drug and small molecule action in cells, with a focus on downstream signaling pathways, second messenger systems, protein kinase cascades, and the regulation of gene transcription.",
     "keywords": [
         "molecular cellular",
-        "protein kinase",
         "downstream signaling",
+        "protein kinase",
         "pharmacology emphasis",
         "principles pharmacology"
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 521,
+            "course_number": 508,
             "subjects": [
-                "PHMSCI"
+                "BIOCHEM"
+            ]
+        },
+        {
+            "course_number": 404,
+            "subjects": [
+                "PATH"
+            ]
+        },
+        {
+            "course_number": 486,
+            "subjects": [
+                "BIOCORE"
             ]
         }
     ],
     "prerequisites": {
         "abstract_syntax_tree": {
-            "course_number": 521,
-            "subjects": [
-                "PHMSCI"
-            ]
+            "children": [
+                "Declared in Pharmacology",
+                "Toxicology BS",
+                {
+                    "course_number": 508,
+                    "subjects": [
+                        "BIOCHEM"
+                    ]
+                },
+                {
+                    "course_number": 404,
+                    "subjects": [
+                        "PATH"
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "course_number": 335,
+                            "subjects": [
+                                "ANAT&PHY"
+                            ]
+                        },
+                        {
+                            "course_number": 435,
+                            "subjects": [
+                                "ANAT&PHY"
+                            ]
+                        },
+                        {
+                            "course_number": 486,
+                            "subjects": [
+                                "BIOCORE"
+                            ]
+                        }
+                    ],
+                    "operator": "OR"
+                }
+            ],
+            "operator": "AND"
         },
         "course_references": [
             {
-                "course_number": 521,
+                "course_number": 335,
                 "subjects": [
-                    "PHMSCI"
+                    "ANAT&PHY"
+                ]
+            },
+            {
+                "course_number": 508,
+                "subjects": [
+                    "BIOCHEM"
+                ]
+            },
+            {
+                "course_number": 404,
+                "subjects": [
+                    "PATH"
+                ]
+            },
+            {
+                "course_number": 435,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            {
+                "course_number": 486,
+                "subjects": [
+                    "BIOCORE"
                 ]
             }
         ],
         "linked_requisite_text": [
+            "Declared in Pharmacology and Toxicology BS, ",
             {
-                "course_number": 521,
+                "course_number": 508,
                 "subjects": [
-                    "PHMSCI"
+                    "BIOCHEM"
                 ]
-            }
+            },
+            ", ",
+            {
+                "course_number": 404,
+                "subjects": [
+                    "PATH"
+                ]
+            },
+            ", and (",
+            {
+                "course_number": 335,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 435,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 486,
+                "subjects": [
+                    "BIOCORE"
+                ]
+            },
+            ")"
         ],
-        "prerequisites_text": "PHM\u00a0SCI\u00a0521"
+        "prerequisites_text": "Declared in Pharmacology and Toxicology BS,BIOCHEM\u00a0508,PATH\u00a0404, and (ANAT&PHY\u00a0335,435, orBIOCORE\u00a0486)"
     },
     "satisfies": [],
     "similar_courses": [
         {
-            "course_number": 781,
+            "course_number": 432,
             "subjects": [
-                "PHMCOL-M"
+                "PHMSCI"
+            ]
+        },
+        {
+            "course_number": 510,
+            "subjects": [
+                "PHMSCI"
             ]
         },
         {
@@ -82,21 +190,15 @@
             ]
         },
         {
-            "course_number": 931,
+            "course_number": 680,
             "subjects": [
                 "PHMSCI"
             ]
         },
         {
-            "course_number": 780,
+            "course_number": 781,
             "subjects": [
-                "PHMSCI"
-            ]
-        },
-        {
-            "course_number": 932,
-            "subjects": [
-                "PHMSCI"
+                "PHMCOL-M"
             ]
         }
     ],
@@ -114,34 +216,34 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "EDWIN CHAPMAN",
-                    "Darcie MOORE",
-                    "TIMOTHY BUGNI",
-                    "RICHARD ANDERSON",
-                    "John SVAREN",
-                    "Lingjun LI",
-                    "EMERY BRESNICK",
-                    "XINYU ZHAO",
-                    "Mark Burkard",
-                    "ANJON AUDHYA",
-                    "Shigeki MIYAMOTO",
-                    "BETH WEAVER",
-                    "ALEXEY GLUKHOV",
-                    "AHMED MAHMOUD",
-                    "Jeffrey Johnson",
-                    "CODY WENTHUR",
-                    "BARON CHANDA",
-                    "Lara COLLIER",
-                    "Weiping TANG",
-                    "ANNA HUTTENLOCHER",
-                    "RANDAL TIBBETTS",
-                    "YING GE",
-                    "ALAN RAPRAEGER",
                     "YOUNGSOOK LEE",
-                    "Nathan SHERER",
-                    "Michelle Kimple",
+                    "Lara COLLIER",
+                    "Robert STRIKER",
+                    "EDWIN CHAPMAN",
+                    "Mark Burkard",
+                    "John SVAREN",
+                    "Weiping TANG",
                     "MEGAN KOTH",
-                    "Robert STRIKER"
+                    "ANNA HUTTENLOCHER",
+                    "BETH WEAVER",
+                    "BARON CHANDA",
+                    "Shigeki MIYAMOTO",
+                    "Lingjun LI",
+                    "Michelle Kimple",
+                    "ANJON AUDHYA",
+                    "AHMED MAHMOUD",
+                    "EMERY BRESNICK",
+                    "ALAN RAPRAEGER",
+                    "RICHARD ANDERSON",
+                    "Jeffrey Johnson",
+                    "XINYU ZHAO",
+                    "TIMOTHY BUGNI",
+                    "Darcie MOORE",
+                    "YING GE",
+                    "RANDAL TIBBETTS",
+                    "Nathan SHERER",
+                    "CODY WENTHUR",
+                    "ALEXEY GLUKHOV"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

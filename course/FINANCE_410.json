@@ -36,10 +36,28 @@
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 300,
+            "course_number": 305,
             "subjects": [
-                "ECON",
                 "FINANCE"
+            ]
+        },
+        {
+            "course_number": 325,
+            "subjects": [
+                "FINANCE"
+            ]
+        },
+        {
+            "course_number": 330,
+            "subjects": [
+                "FINANCE"
+            ]
+        },
+        {
+            "course_number": 320,
+            "subjects": [
+                "FINANCE",
+                "ECON"
             ]
         }
     ],
@@ -47,11 +65,34 @@
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 300,
-                    "subjects": [
-                        "ECON",
-                        "FINANCE"
-                    ]
+                    "children": [
+                        {
+                            "course_number": 305,
+                            "subjects": [
+                                "FINANCE"
+                            ]
+                        },
+                        {
+                            "course_number": 325,
+                            "subjects": [
+                                "FINANCE"
+                            ]
+                        },
+                        {
+                            "course_number": 330,
+                            "subjects": [
+                                "FINANCE"
+                            ]
+                        },
+                        {
+                            "course_number": 320,
+                            "subjects": [
+                                "FINANCE",
+                                "ECON"
+                            ]
+                        }
+                    ],
+                    "operator": "AND"
                 },
                 "declared in undergraduate Business Exchange program"
             ],
@@ -59,24 +100,64 @@
         },
         "course_references": [
             {
-                "course_number": 300,
+                "course_number": 320,
                 "subjects": [
-                    "ECON",
+                    "FINANCE",
+                    "ECON"
+                ]
+            },
+            {
+                "course_number": 305,
+                "subjects": [
+                    "FINANCE"
+                ]
+            },
+            {
+                "course_number": 325,
+                "subjects": [
+                    "FINANCE"
+                ]
+            },
+            {
+                "course_number": 330,
+                "subjects": [
                     "FINANCE"
                 ]
             }
         ],
         "linked_requisite_text": [
+            "(",
             {
-                "course_number": 300,
+                "course_number": 305,
                 "subjects": [
-                    "ECON",
                     "FINANCE"
                 ]
             },
-            " or declared in undergraduate Business Exchange program"
+            ", ",
+            {
+                "course_number": 325,
+                "subjects": [
+                    "FINANCE"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 330,
+                "subjects": [
+                    "FINANCE"
+                ]
+            },
+            ", and ",
+            {
+                "course_number": 320,
+                "subjects": [
+                    "FINANCE",
+                    "ECON"
+                ]
+            },
+            ") or declared in undergraduate Business Exchange program"
         ],
-        "prerequisites_text": "FINANCE/\u200bECON\u00a0\u00a0300or declared in undergraduate Business Exchange program"
+        "prerequisites_text": "(FINANCE\u00a0305,325,330, andECON/\u200bFINANCE\u00a0\u00a0320) or declared in undergraduate Business Exchange program"
     },
     "satisfies": [
         {
@@ -88,7 +169,7 @@
     ],
     "similar_courses": [
         {
-            "course_number": 700,
+            "course_number": 420,
             "subjects": [
                 "FINANCE"
             ]
@@ -100,7 +181,7 @@
             ]
         },
         {
-            "course_number": 420,
+            "course_number": 646,
             "subjects": [
                 "FINANCE"
             ]
@@ -112,7 +193,7 @@
             ]
         },
         {
-            "course_number": 646,
+            "course_number": 700,
             "subjects": [
                 "FINANCE"
             ]
@@ -582,9 +663,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PAVEL BRENDLER",
                     "JAMES JOHANNES",
-                    "ROBERTO ROBATTO"
+                    "ROBERTO ROBATTO",
+                    "PAVEL BRENDLER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

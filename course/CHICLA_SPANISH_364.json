@@ -2,11 +2,11 @@
     "course_reference": {
         "course_number": 364,
         "subjects": [
-            "SPANISH",
-            "CHICLA"
+            "CHICLA",
+            "SPANISH"
         ]
     },
-    "course_title": "SURVEY OF LATINO AND LATINA POPULAR CULTURE",
+    "course_title": "SURVEY OF LATINX/E POPULAR CULTURE",
     "cumulative_grade_data": {
         "a": 34,
         "ab": 7,
@@ -27,18 +27,19 @@
         "total": 46,
         "unsatisfactory": 0
     },
-    "description": "Analysis of Latina and Latino popular culture to consider the varied make-up of Latinos, their specific histories, social dynamics and politics through their creative expressions, performances and cultural contestations. Covers key terms and concepts, cultural developments, and diverse interpretations while focusing in the analysis of Latinx music, performance art, film and media, sports, food, and car culture. Other topics include the production, circulation and reception of Latinx popular culture, the use of Spanish and English languages, issues of identity, migration and interculturality, the role of the cultural industry, and the context of globalization. Broadly explores the intersectionality of race, ethnicity, class, gender, sexuality, and nation regarding Latinos. Taught in Spanish.",
+    "description": "Analysis of Latinx/e popular culture to consider the varied make-up of Latinx/e populations, their specific histories, social dynamics, and politics through their creative expressions, performances, and cultural contestations. Covers key terms and concepts, cultural developments, and diverse interpretations while focusing in the analysis of Latinx/e music, performance art, film and media, sports, food, and car culture. Other topics include the production, circulation, and reception of Latinx/e popular culture, the use of Spanish and English languages, issues of identity, migration, and interculturality, the role of the cultural industry, and the context of globalization. Broadly explores the intersectionality of race, ethnicity, class, gender, sexuality, and nation regarding Latinx/e populations. Taught in Spanish.",
     "keywords": [
-        "latinx music",
-        "latina",
-        "latinx popular",
-        "make latinos",
-        "regarding latinos"
+        "culture consider",
+        "culture topics",
+        "popular culture",
+        "analysis latinx",
+        "make latinx"
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 223,
+            "course_number": 222,
             "subjects": [
+                "CHICLA",
                 "SPANISH"
             ]
         },
@@ -53,10 +54,22 @@
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 223,
-                    "subjects": [
-                        "SPANISH"
-                    ]
+                    "children": [
+                        {
+                            "course_number": 222,
+                            "subjects": [
+                                "CHICLA",
+                                "SPANISH"
+                            ]
+                        },
+                        {
+                            "course_number": 223,
+                            "subjects": [
+                                "SPANISH"
+                            ]
+                        }
+                    ],
+                    "operator": "OR"
                 },
                 {
                     "course_number": 224,
@@ -69,26 +82,42 @@
         },
         "course_references": [
             {
+                "course_number": 224,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
+            {
                 "course_number": 223,
                 "subjects": [
                     "SPANISH"
                 ]
             },
             {
-                "course_number": 224,
+                "course_number": 222,
                 "subjects": [
+                    "CHICLA",
                     "SPANISH"
                 ]
             }
         ],
         "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 222,
+                "subjects": [
+                    "CHICLA",
+                    "SPANISH"
+                ]
+            },
+            " or ",
             {
                 "course_number": 223,
                 "subjects": [
                     "SPANISH"
                 ]
             },
-            " and ",
+            ") and ",
             {
                 "course_number": 224,
                 "subjects": [
@@ -96,43 +125,36 @@
                 ]
             }
         ],
-        "prerequisites_text": "SPANISH\u00a0223and224"
+        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222orSPANISH\u00a0223) andSPANISH\u00a0224"
     },
     "satisfies": [
         {
-            "course_number": 469,
+            "course_number": 468,
             "subjects": [
-                "SPANISH",
-                "CHICLA"
+                "SPANISH"
             ]
         },
         {
-            "course_number": 468,
+            "course_number": 469,
             "subjects": [
+                "CHICLA",
                 "SPANISH"
             ]
         }
     ],
     "similar_courses": [
         {
-            "course_number": 419,
-            "subjects": [
-                "COMARTS",
-                "CHICLA"
-            ]
-        },
-        {
-            "course_number": 467,
-            "subjects": [
-                "SPANISH",
-                "CHICLA"
-            ]
-        },
-        {
             "course_number": 469,
             "subjects": [
-                "SPANISH",
-                "CHICLA"
+                "CHICLA",
+                "SPANISH"
+            ]
+        },
+        {
+            "course_number": 419,
+            "subjects": [
+                "CHICLA",
+                "COMARTS"
             ]
         },
         {
@@ -142,10 +164,17 @@
             ]
         },
         {
+            "course_number": 368,
+            "subjects": [
+                "CHICLA",
+                "ENGL"
+            ]
+        },
+        {
             "course_number": 222,
             "subjects": [
-                "SPANISH",
-                "CHICLA"
+                "CHICLA",
+                "SPANISH"
             ]
         }
     ],

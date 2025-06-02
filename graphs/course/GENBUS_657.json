@@ -1,0 +1,97 @@
+[
+    {
+        "data": {
+            "description": "An introduction to machine learning models for business applications. Builds on the predictive modeling basics by developing general algorithmic prediction models for supervised machine learning. Covers additive models, CARTs, bagging/boosting, deep learning approaches, and AI models. Discussion of unsupervised learning techniques, including clustering and anomaly detection.",
+            "id": "GENBUS 657",
+            "parent": "GENBUS",
+            "title": "MACHINE LEARNING AND ARTIFICIAL INTELLIGENCE MODELS FOR BUSINESS ANALYTICS"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to predictive modeling for business applications beginning with some of the foundations. Leads to development of linear regression and classification models, and discussion of building models for prediction. Topics include selection, regularization, and the bias-variance tradeoff.",
+            "id": "GENBUS 656",
+            "parent": "GENBUS",
+            "title": "FOUNDATIONS OF STATISTICAL LEARNING FOR BUSINESS ANALYTICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Probability and combinatorial methods, discrete and continuous, univariate and multivariate distributions, expected values, moments, normal distribution and derived distributions, estimation.",
+            "id": "MATH/STAT 309",
+            "title": "INTRODUCTION TO PROBABILITY AND MATHEMATICAL STATISTICS I"
+        }
+    },
+    {
+        "data": {
+            "description": "Statistical inference and analyses based on models will be introduced and applied in a business context using a calculus-based focus. Topics covered include point estimation, confidence intervals, hypothesis testing, regression models, and time series models. Various methods for fitting a model to data will be explored, and uncertainty about parameter estimates will be quantified so decision makers have information about the quality of the estimates. Regression and time series models are commonly used in business analytics applications and will be used to analyze business data and make inferences and predictions.",
+            "id": "GENBUS 317",
+            "parent": "GENBUS",
+            "title": "MATHEMATICAL FOUNDATIONS OF BUSINESS ANALYTICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics in multi-variable calculus and introduction to differential equations.",
+            "id": "MATH 376",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
+        }
+    },
+    {
+        "data": {
+            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
+            "id": "MATH 375",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "GENBUS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 317",
+            "target": "GENBUS 656"
+        }
+    },
+    {
+        "data": {
+            "source": "GENBUS 656",
+            "target": "GENBUS 657"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 375",
+            "target": "MATH 376"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 376",
+            "target": "MATH/STAT 309"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH/STAT 309",
+            "target": "GENBUS 317"
+        }
+    }
+]

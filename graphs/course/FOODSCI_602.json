@@ -33,14 +33,6 @@
     },
     {
         "data": {
-            "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
-            "id": "PHYSICS 201",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
             "description": "Chemistry, nutrition, and metabolism of biological systems.",
             "id": "BIOCHEM 501",
             "parent": "BIOCHEM",
@@ -76,7 +68,7 @@
             "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
             "id": "STAT 324",
             "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
+            "title": "INTRODUCTION TO STATISTICS FOR SCIENCE AND ENGINEERING"
         }
     },
     {
@@ -116,6 +108,14 @@
             "id": "MATH 221",
             "parent": "MATH",
             "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to physics at the non-calculus level. Principles of mechanics, heat, and waves, with applications to a number of different fields. Not recommended for students in the physical sciences and engineering.",
+            "id": "PHYSICS 103",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
         }
     },
     {
@@ -167,10 +167,18 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, logarithmic, and trigonometric functions. Topics include equations, inequalities, functions, and their graphs. Other topics include trigonometric equations and identities and the geometric significance of trigonometry. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provide the algebra and trigonometry skills required for calculus.",
+            "id": "MATH 114",
+            "parent": "MATH",
+            "title": "PRECALCULUS"
         }
     },
     {
@@ -179,14 +187,6 @@
             "id": "CHEM 103",
             "parent": "CHEM",
             "title": "GENERAL CHEMISTRY I"
-        }
-    },
-    {
-        "data": {
-            "description": "The two semester sequenceMATH\u00a0112-MATH\u00a0113covers similar material asMATH\u00a0114, but in a slower pace. Not recommended for students with less than an AB inMATH\u00a096.",
-            "id": "MATH 114",
-            "parent": "MATH",
-            "title": "ALGEBRA AND TRIGONOMETRY"
         }
     },
     {
@@ -411,6 +411,12 @@
     {
         "data": {
             "source": "MATH 211",
+            "target": "PHYSICS 103"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
             "target": "STAT 324"
         }
     },
@@ -430,12 +436,6 @@
         "data": {
             "source": "MATH 221",
             "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "PHYSICS 201"
         }
     },
     {
@@ -464,7 +464,7 @@
     },
     {
         "data": {
-            "source": "PHYSICS 201",
+            "source": "PHYSICS 103",
             "target": "FOODSCI 440"
         }
     },

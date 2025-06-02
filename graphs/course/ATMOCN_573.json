@@ -9,14 +9,6 @@
     },
     {
         "data": {
-            "description": "An introduction to multiple programming languages and technical computing methods used in the Atmospheric and Oceanic Sciences. Data analysis methods and software development for specialized applications related to the field are also highlighted.",
-            "id": "ATMOCN 573",
-            "parent": "ATMOCN",
-            "title": "COMPUTATIONAL METHODS IN ATMOSPHERIC AND OCEANIC SCIENCES"
-        }
-    },
-    {
-        "data": {
             "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
             "id": "MATH 96",
             "parent": "MATH",
@@ -25,10 +17,18 @@
     },
     {
         "data": {
-            "description": "Introduction to Object-Oriented Programming using classes and objects to solve more complex problems. Introduces array-based and linked data structures: including lists, stacks, and queues. Programming assignments require writing and developing multi-class (file) programs using interfaces, generics, and exception handling to solve challenging real world problems. Topics reviewed include reading/writing data and objects from/to files and exception handling, and command line arguments. Topics introduced: object-oriented design; class vs. object; create and define interfaces and iterators; searching and sorting; abstract data types (List,Stack,Queue,PriorityQueue(Heap),Binary Search Tree); generic interfaces (parametric polymorphism); how to design and write test methods and classes; array based vs. linked node implementations; introduction to complexity analysis; recursion.",
-            "id": "COMPSCI 300",
+            "description": "Hands-on introduction to open-source research computing tools commonly used in the atmospheric and oceanic sciences. Covers Python basics, including standard data structures, environments, and packages that are useful for analyzing and visualizing a variety of observational and computational atmospheric and oceanic science datasets. Additional open-source tools for version control, sharing code, and collaborating on analysis are also introduced and open science best practice are discussed.",
+            "id": "ATMOCN 573",
+            "parent": "ATMOCN",
+            "title": "RESEARCH COMPUTING IN ATMOSPHERIC AND OCEANIC SCIENCES"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
+            "id": "COMPSCI 220",
             "parent": "COMPSCI",
-            "title": "PROGRAMMING II"
+            "title": "DATA SCIENCE PROGRAMMING I"
         }
     },
     {
@@ -49,18 +49,10 @@
     },
     {
         "data": {
-            "description": "Learn the process of incrementally developing small (200-500 lines) programs along with the fundamental Computer Science topics. These topics include: problem abstraction and decomposition, the edit-compile-run cycle, using variables of primitive and more complex data types, conditional and loop-based flow control, basic testing and debugging techniques, how to define and call functions (methods), and IO processing techniques. Also teaches and reinforces good programming practices including the use of a consistent style, and meaningful documentation. Intended for students who have no prior programming experience.",
-            "id": "COMPSCI 200",
-            "parent": "COMPSCI",
-            "title": "PROGRAMMING I"
-        }
-    },
-    {
-        "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
         }
     },
     {
@@ -91,13 +83,7 @@
     },
     {
         "data": {
-            "source": "COMPSCI 200",
-            "target": "COMPSCI 300"
-        }
-    },
-    {
-        "data": {
-            "source": "COMPSCI 300",
+            "source": "COMPSCI 220",
             "target": "ATMOCN 573"
         }
     },

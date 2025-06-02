@@ -42,10 +42,9 @@
             ]
         },
         {
-            "course_number": 300,
+            "course_number": 310,
             "subjects": [
-                "ECON",
-                "FINANCE"
+                "GENBUS"
             ]
         }
     ],
@@ -61,11 +60,21 @@
                             ]
                         },
                         {
-                            "course_number": 300,
-                            "subjects": [
-                                "ECON",
-                                "FINANCE"
-                            ]
+                            "children": [
+                                {
+                                    "course_number": 100,
+                                    "subjects": [
+                                        "ACCTIS"
+                                    ]
+                                },
+                                {
+                                    "course_number": 310,
+                                    "subjects": [
+                                        "GENBUS"
+                                    ]
+                                }
+                            ],
+                            "operator": "OR"
                         }
                     ],
                     "operator": "AND"
@@ -76,16 +85,21 @@
         },
         "course_references": [
             {
-                "course_number": 300,
-                "subjects": [
-                    "ECON",
-                    "FINANCE"
-                ]
-            },
-            {
                 "course_number": 322,
                 "subjects": [
                     "MHR"
+                ]
+            },
+            {
+                "course_number": 100,
+                "subjects": [
+                    "ACCTIS"
+                ]
+            },
+            {
+                "course_number": 310,
+                "subjects": [
+                    "GENBUS"
                 ]
             }
         ],
@@ -96,17 +110,23 @@
                     "MHR"
                 ]
             },
-            " and ",
+            " and (",
             {
-                "course_number": 300,
+                "course_number": 100,
                 "subjects": [
-                    "ECON",
-                    "FINANCE"
+                    "ACCTIS"
                 ]
             },
-            ", or declared in the Business Exchange program"
+            " or ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "GENBUS"
+                ]
+            },
+            ") or declared in the Business Exchange program"
         ],
-        "prerequisites_text": "M\u00a0H\u00a0R\u00a0322andECON/\u200bFINANCE\u00a0\u00a0300, or declared in the Business Exchange program"
+        "prerequisites_text": "M\u00a0H\u00a0R\u00a0322and (ACCT\u00a0I\u00a0S\u00a0100orGEN\u00a0BUS\u00a0310) or declared in the Business Exchange program"
     },
     "satisfies": [
         {
@@ -114,23 +134,29 @@
             "subjects": [
                 "MHR"
             ]
+        },
+        {
+            "course_number": 438,
+            "subjects": [
+                "MHR"
+            ]
         }
     ],
     "similar_courses": [
         {
-            "course_number": 434,
-            "subjects": [
-                "MHR"
-            ]
-        },
-        {
-            "course_number": 722,
-            "subjects": [
-                "MHR"
-            ]
-        },
-        {
             "course_number": 427,
+            "subjects": [
+                "MHR"
+            ]
+        },
+        {
+            "course_number": 322,
+            "subjects": [
+                "MHR"
+            ]
+        },
+        {
+            "course_number": 434,
             "subjects": [
                 "MHR"
             ]
@@ -142,7 +168,7 @@
             ]
         },
         {
-            "course_number": 322,
+            "course_number": 722,
             "subjects": [
                 "MHR"
             ]
@@ -289,8 +315,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP GREENWOOD",
-                    "JASON O'TOOLE"
+                    "JASON O'TOOLE",
+                    "PHILIP GREENWOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -315,8 +341,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "CHAD NAVIS",
-                    "PHILLIP KIM"
+                    "PHILLIP KIM",
+                    "CHAD NAVIS"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -391,9 +417,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MICHELE EILEEN YODER",
                     "JONATHAN ECKHARDT",
-                    "Stefan KOEHLER"
+                    "Stefan KOEHLER",
+                    "MICHELE EILEEN YODER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -597,8 +623,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP GREENWOOD",
-                    "JOHN SURDYK"
+                    "JOHN SURDYK",
+                    "PHILIP GREENWOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -649,8 +675,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP GREENWOOD",
-                    "JOHN SURDYK"
+                    "JOHN SURDYK",
+                    "PHILIP GREENWOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -700,8 +726,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP GREENWOOD",
-                    "Adam BOCK"
+                    "Adam BOCK",
+                    "PHILIP GREENWOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -726,8 +752,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP GREENWOOD",
-                    "Adam BOCK"
+                    "Adam BOCK",
+                    "PHILIP GREENWOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -752,8 +778,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP GREENWOOD",
-                    "Adam BOCK"
+                    "Adam BOCK",
+                    "PHILIP GREENWOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -803,8 +829,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP GREENWOOD",
-                    "Adam BOCK"
+                    "Adam BOCK",
+                    "PHILIP GREENWOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -829,9 +855,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "BEKHZOD KHOSHIMOV",
                     "RUSSELL COFF",
-                    "SANGYUN KIM",
-                    "BEKHZOD KHOSHIMOV"
+                    "SANGYUN KIM"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -856,8 +882,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PHILIP GREENWOOD",
-                    "Adam BOCK"
+                    "Adam BOCK",
+                    "PHILIP GREENWOOD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -907,7 +933,7 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "Michael WILLIAMS"
+                    "Michael Williams"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -932,9 +958,9 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "Michael WILLIAMS",
+                    "ELTON LI",
                     "JONATHAN ECKHARDT",
-                    "ELTON LI"
+                    "Michael Williams"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -959,10 +985,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "MARTIN GANCO",
-                    "RUSSELL COFF",
+                    "CHANG LIU",
                     "BEKHZOD KHOSHIMOV",
-                    "CHANG LIU"
+                    "RUSSELL COFF",
+                    "MARTIN GANCO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -987,9 +1013,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael WILLIAMS",
+                    "ELTON LI",
                     "JONATHAN ECKHARDT",
-                    "ELTON LI"
+                    "Michael Williams"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1014,8 +1040,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Michael WILLIAMS",
-                    "ZHILING LIN"
+                    "ZHILING LIN",
+                    "Michael Williams"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

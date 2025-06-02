@@ -9,26 +9,18 @@
     },
     {
         "data": {
+            "description": "Continuation ofMATH\u00a0171. Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Completion ofMATH\u00a0217implies completion ofMATH\u00a0221and114.",
+            "id": "MATH 217",
+            "parent": "MATH",
+            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY II"
+        }
+    },
+    {
+        "data": {
             "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
             "id": "MATH 96",
             "parent": "MATH",
             "title": "PREPARATORY ALGEBRA"
-        }
-    },
-    {
-        "data": {
-            "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
-            "id": "STAT 324",
-            "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
-        }
-    },
-    {
-        "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
@@ -49,15 +41,45 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Introduction to probability, random variables, and random processes. Confidence intervals, introduction to experimental design and hypothesis testing. Statistical averages, correlation, and spectral analysis for wide sense stationary processes. Random signals and noise in linear systems.",
+            "id": "ECE 331",
+            "parent": "ECE",
+            "title": "INTRODUCTION TO RANDOM SIGNAL ANALYSIS AND STATISTICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to the signals, information, and computational techniques in electrical engineering.",
+            "id": "ECE 203",
+            "parent": "ECE",
+            "title": "SIGNALS, INFORMATION, AND COMPUTATION"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
+            "id": "MATH 171",
+            "parent": "MATH",
+            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
         }
     },
     {
         "data": {
             "id": "CIVENGR",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "ECE",
             "type": "compound"
         }
     },
@@ -69,8 +91,14 @@
     },
     {
         "data": {
-            "id": "STAT",
-            "type": "compound"
+            "source": "ECE 203",
+            "target": "ECE 331"
+        }
+    },
+    {
+        "data": {
+            "source": "ECE 331",
+            "target": "CIVENGR 516"
         }
     },
     {
@@ -93,20 +121,20 @@
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "STAT 324"
+            "source": "MATH 171",
+            "target": "MATH 217"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 217",
+            "target": "ECE 203"
         }
     },
     {
         "data": {
             "source": "MATH 221",
             "target": "CIVENGR 516"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
         }
     },
     {
@@ -117,8 +145,8 @@
     },
     {
         "data": {
-            "source": "STAT 324",
-            "target": "CIVENGR 516"
+            "source": "MATH 96",
+            "target": "MATH 171"
         }
     }
 ]

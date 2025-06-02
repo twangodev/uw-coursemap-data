@@ -5,7 +5,7 @@
             "STAT"
         ]
     },
-    "course_title": "STATISTICAL COMPUTING",
+    "course_title": "COMPUTATIONAL STATISTICS",
     "cumulative_grade_data": {
         "a": 156,
         "ab": 86,
@@ -26,27 +26,44 @@
         "total": 280,
         "unsatisfactory": 0
     },
-    "description": "The design of statistical software including special techniques for probability distributions, methods of simulation of random processes, numerical methods for linear models and multivariate analysis, and methods for nonlinear models.",
+    "description": "Statistical inference from the perspective of computation. Statistical problems include data reduction, parameter estimation, hypothesis testing, prediction, statistical modeling, and both Bayesian and non-Bayesian inference. Computational issues include algorithms for model fitting (optimization), computing standard errors, calculating various model properties (integration), as well as systems to organize and manage data and to deploy computations.",
     "keywords": [
-        "nonlinear models",
-        "random processes",
-        "software",
-        "probability distributions",
-        "methods simulation"
+        "statistical",
+        "computations",
+        "bayesian inference",
+        "statistical modeling",
+        "computational issues"
     ],
     "optimized_prerequisites": null,
     "prerequisites": {
-        "abstract_syntax_tree": "Graduate/professional standing",
+        "abstract_syntax_tree": {
+            "children": [
+                "Declared in Statistics MS",
+                "Statistics PhD",
+                "Biomedical Data Science PhD",
+                "Biomedical Data Science MS",
+                "Business PhD",
+                "Statistics Doctoral Minor"
+            ],
+            "operator": "OR"
+        },
         "course_references": [],
         "linked_requisite_text": [
-            "Graduate/professional standing"
+            "Declared in Statistics MS, Statistics PhD, Biomedical Data Science PhD, Biomedical Data Science MS, Business PhD, or Statistics Doctoral Minor"
         ],
-        "prerequisites_text": "Graduate/professional standing"
+        "prerequisites_text": "Declared in Statistics MS, Statistics PhD, Biomedical Data Science PhD, Biomedical Data Science MS, Business PhD, or Statistics Doctoral Minor"
     },
     "satisfies": [],
     "similar_courses": [
         {
-            "course_number": 601,
+            "course_number": 310,
+            "subjects": [
+                "STAT",
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 610,
             "subjects": [
                 "STAT"
             ]
@@ -58,21 +75,15 @@
             ]
         },
         {
-            "course_number": 602,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 613,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
             "course_number": 471,
             "subjects": [
-                "COMPSCI",
+                "STAT",
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 612,
+            "subjects": [
                 "STAT"
             ]
         }

@@ -9,7 +9,23 @@
     },
     {
         "data": {
-            "description": "Analysis of fixed income, bond markets. The objective of the class is to introduce tools for evaluating bonds and making decisions about trading and hedging portfolios of fixed income securities. The main focus is on government bonds and derivative securities associated with them. Consider basic ways to price these bonds using techniques that are well established on Wall St. Introduces basic trading strategies based on exploiting mis-priced securities. Such strategies are profitable when risks are minimized, and so we will discuss several ways to measure and minimize risk. Also discusses the pricing of derivative securities such as bond options and swaps. Other topics include repo financing, mortgage markets, and basic issues involving default risk of corporate bonds.",
+            "description": "An analysis of the U.S. financial system, its responsiveness to and impact on economic activity and policy, its procedures for assessing and pricing risks on various financial instruments, and its role in the allocation of funds to different sectors in the economy.",
+            "id": "FINANCE 305",
+            "parent": "FINANCE",
+            "title": "FINANCIAL MARKETS, INSTITUTIONS AND ECONOMIC ACTIVITY"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to applied econometrics - the statistical methods economists use to evaluate empirical relationships and test economic theory. Emphasis on application of econometrics to real world data using modern statistical software and developing skills needed to understand empirical work in economics.",
+            "id": "ECON 400",
+            "parent": "ECON",
+            "title": "INTRODUCTION TO APPLIED ECONOMETRICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Analysis of fixed income, bond markets. Introduce tools for evaluating bonds and making decisions about trading and hedging portfolios of fixed income securities. Focus on government bonds and derivative securities. Consider basic ways to price bonds using techniques that are well established on Wall St. Introduces basic trading strategies based on exploiting mis-priced securities. Strategize ways to measure and minimize risk. Other topics include repo financing, mortgage markets, and basic issues involving default risk of corporate bonds.",
             "id": "FINANCE 340",
             "parent": "FINANCE",
             "title": "FIXED INCOME SECURITIES"
@@ -28,6 +44,14 @@
             "id": "MATH 96",
             "parent": "MATH",
             "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Development of the theory, method and analytical techniques of financial management. Techniques of capital budgeting; valuation of projects and firms; theory of capital structure; dividend policy; cost of capital; mergers and acquisitions.",
+            "id": "FINANCE 325",
+            "parent": "FINANCE",
+            "title": "CORPORATION FINANCE"
         }
     },
     {
@@ -52,6 +76,14 @@
             "id": "ACCTIS 300",
             "parent": "ACCTIS",
             "title": "ACCOUNTING PRINCIPLES"
+        }
+    },
+    {
+        "data": {
+            "description": "Examines current and emerging financial reporting theory and techniques used primarily to measure and disclose assets and determine income. Emphasis on analysis and measurement.",
+            "id": "ACCTIS 301",
+            "parent": "ACCTIS",
+            "title": "FINANCIAL REPORTING I"
         }
     },
     {
@@ -112,10 +144,17 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Structure and functioning of securities markets; principles of portfolio construction; models of the tradeoff between risk and expected return.",
+            "id": "ECON/FINANCE 320",
+            "title": "INVESTMENT THEORY"
         }
     },
     {
@@ -156,6 +195,12 @@
     },
     {
         "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 301"
+        }
+    },
+    {
+        "data": {
             "source": "ACCTIS 300",
             "target": "ACCTIS 100"
         }
@@ -164,6 +209,12 @@
         "data": {
             "source": "ACCTIS 300",
             "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 301",
+            "target": "FINANCE 325"
         }
     },
     {
@@ -193,13 +244,61 @@
     {
         "data": {
             "source": "ECON 310",
+            "target": "ECON 400"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 310",
             "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 400",
+            "target": "ECON/FINANCE 320"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "ECON/FINANCE 320"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "FINANCE 305"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "FINANCE 325"
         }
     },
     {
         "data": {
             "source": "ECON/FINANCE 300",
             "target": "FINANCE 330"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 320",
+            "target": "FINANCE 340"
+        }
+    },
+    {
+        "data": {
+            "source": "FINANCE 305",
+            "target": "FINANCE 340"
+        }
+    },
+    {
+        "data": {
+            "source": "FINANCE 325",
+            "target": "FINANCE 340"
         }
     },
     {
@@ -236,6 +335,18 @@
         "data": {
             "source": "MATH 211",
             "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "ECON/FINANCE 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "FINANCE 325"
         }
     },
     {

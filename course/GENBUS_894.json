@@ -21,31 +21,31 @@
             "subjects": [
                 "GENBUS"
             ]
-        },
-        {
-            "course_number": 888,
-            "subjects": [
-                "GENBUS"
-            ]
         }
     ],
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 883,
+                    "course_number": 657,
                     "subjects": [
                         "GENBUS"
                     ]
                 },
                 {
-                    "course_number": 888,
-                    "subjects": [
-                        "GENBUS"
-                    ]
+                    "children": [
+                        "GEN BUS 888 prior to Fall 2025",
+                        {
+                            "course_number": 883,
+                            "subjects": [
+                                "GENBUS"
+                            ]
+                        }
+                    ],
+                    "operator": "AND"
                 }
             ],
-            "operator": "AND"
+            "operator": "OR"
         },
         "course_references": [
             {
@@ -55,7 +55,7 @@
                 ]
             },
             {
-                "course_number": 888,
+                "course_number": 657,
                 "subjects": [
                     "GENBUS"
                 ]
@@ -63,37 +63,25 @@
         ],
         "linked_requisite_text": [
             {
-                "course_number": 883,
+                "course_number": 657,
                 "subjects": [
                     "GENBUS"
                 ]
             },
-            " and ",
+            " (or GEN BUS 888 prior to Fall 2025) and ",
             {
-                "course_number": 888,
+                "course_number": 883,
                 "subjects": [
                     "GENBUS"
                 ]
             }
         ],
-        "prerequisites_text": "GEN\u00a0BUS\u00a0883and888"
+        "prerequisites_text": "GEN\u00a0BUS\u00a0657(or GEN BUS 888 prior to Fall 2025) andGEN\u00a0BUS\u00a0883"
     },
     "satisfies": [],
     "similar_courses": [
         {
-            "course_number": 840,
-            "subjects": [
-                "GENBUS"
-            ]
-        },
-        {
-            "course_number": 895,
-            "subjects": [
-                "GENBUS"
-            ]
-        },
-        {
-            "course_number": 884,
+            "course_number": 760,
             "subjects": [
                 "GENBUS"
             ]
@@ -105,7 +93,19 @@
             ]
         },
         {
-            "course_number": 760,
+            "course_number": 840,
+            "subjects": [
+                "GENBUS"
+            ]
+        },
+        {
+            "course_number": 884,
+            "subjects": [
+                "GENBUS"
+            ]
+        },
+        {
+            "course_number": 895,
             "subjects": [
                 "GENBUS"
             ]

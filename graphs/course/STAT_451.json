@@ -1,6 +1,54 @@
 [
     {
         "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Intermediate approach to Data Science programming using Python. Experience with basic tabular analysis in Python is assumed. Learn to implement data structures (e.g., graphs) to efficiently represent datasets. Software-engineering tools such as version control and Python virtual environments will be introduced, with an emphasis on reproducibility of analysis. Tracing and A/B testing will be introduced as techniques for generating meaningful datasets. Introduces basic classification, clustering, optimization, and simulation techniques. Plotting and visual communication will be emphasized throughout the course.",
+            "id": "COMPSCI 320",
+            "parent": "COMPSCI",
+            "title": "DATA SCIENCE PROGRAMMING II"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to Data Science programming using Python. In addition to a survey of programming basics (control flow and data structures), web scraping, database queries, and tabular analysis will be introduced. Projects will emphasize analyzing real datasets in a variety of forms and visual communication using plotting tools. Similar toCOMP\u00a0SCI\u00a0220but the pedagogical style of the projects will be adapted to graduate students in fields other than computer science and data science. No previous programming experience required.",
+            "id": "COMPSCI 319",
+            "parent": "COMPSCI",
+            "title": "DATA SCIENCE PROGRAMMING I FOR RESEARCH"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to linear algebra, differential calculus in several variables, and basic optimization theory with applications to data science and related topics. Vectors, analytic geometry, matrices, linear functions, linear independence, orthogonality, inverses, partial derivatives and gradients, Taylor approximation, gradient descent, Lagrange multipliers, clustering, regression, classification. Implementation in Python.",
+            "id": "MATH 345",
+            "parent": "MATH",
+            "title": "LINEAR ALGEBRA AND OPTIMIZATION"
+        }
+    },
+    {
+        "data": {
             "description": "Pattern classification, regression analysis, clustering, and dimensionality reduction. For each category, covers fundamental algorithms and selections of contemporary, current state-of-the-art algorithms. Focus on evaluation of machine learning models using statistical methods. Statistical pattern classification approaches, including maximum likelihood estimation and Bayesian decision theory, algorithmic and nonparametric approaches. Practical use of machine learning algorithms using open source libraries from the Python programming ecosystem.",
             "id": "STAT 451",
             "parent": "STAT",
@@ -9,10 +57,24 @@
     },
     {
         "data": {
-            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
-            "id": "MATH 375",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
+            "id": "MATH 112",
             "parent": "MATH",
-            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "id": "COMPSCI",
+            "type": "compound"
         }
     },
     {
@@ -29,8 +91,56 @@
     },
     {
         "data": {
-            "source": "MATH 375",
+            "source": "COMPSCI 319",
+            "target": "COMPSCI 320"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 320",
+            "target": "MATH 345"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "MATH 345"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 345",
             "target": "STAT 451"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
         }
     }
 ]

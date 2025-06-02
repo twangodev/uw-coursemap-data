@@ -26,13 +26,13 @@
         "total": 7736,
         "unsatisfactory": 3
     },
-    "description": "Examines current and emerging financial accounting theory and techniques used to measure and report financial information to investors, creditors, and other external users. Emphasizes asset and income determination, preparation and interpretation of financial statements, and related disclosure requirements.",
+    "description": "Examines current and emerging financial reporting theory and techniques used primarily to measure and disclose assets and determine income. Emphasis on analysis and measurement.",
     "keywords": [
-        "disclosure requirements",
-        "investors creditors",
+        "disclose",
+        "assets determine",
+        "determine income",
         "emerging financial",
-        "interpretation financial",
-        "accounting theory"
+        "reporting theory"
     ],
     "optimized_prerequisites": [
         {
@@ -51,11 +51,28 @@
                         "ACCTIS"
                     ]
                 },
-                "declared in undergraduate Business Exchange program"
+                {
+                    "children": [
+                        {
+                            "course_number": 300,
+                            "subjects": [
+                                "ACCTIS"
+                            ]
+                        },
+                        "declared in the Certificate in Accounting Fundamentals"
+                    ],
+                    "operator": "AND"
+                }
             ],
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 300,
+                "subjects": [
+                    "ACCTIS"
+                ]
+            },
             {
                 "course_number": 100,
                 "subjects": [
@@ -70,25 +87,20 @@
                     "ACCTIS"
                 ]
             },
-            " or declared in undergraduate Business Exchange program"
+            " or (",
+            {
+                "course_number": 300,
+                "subjects": [
+                    "ACCTIS"
+                ]
+            },
+            " and declared in the Certificate in Accounting Fundamentals)"
         ],
-        "prerequisites_text": "ACCT\u00a0I\u00a0S\u00a0100or declared in undergraduate Business Exchange program"
+        "prerequisites_text": "ACCT\u00a0I\u00a0S\u00a0100or (ACCT\u00a0I\u00a0S\u00a0300and declared in the Certificate in Accounting Fundamentals)"
     },
     "satisfies": [
         {
-            "course_number": 457,
-            "subjects": [
-                "FINANCE"
-            ]
-        },
-        {
-            "course_number": 630,
-            "subjects": [
-                "ACCTIS"
-            ]
-        },
-        {
-            "course_number": 302,
+            "course_number": 340,
             "subjects": [
                 "ACCTIS"
             ]
@@ -106,7 +118,19 @@
             ]
         },
         {
-            "course_number": 340,
+            "course_number": 457,
+            "subjects": [
+                "FINANCE"
+            ]
+        },
+        {
+            "course_number": 630,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 302,
             "subjects": [
                 "ACCTIS"
             ]
@@ -114,13 +138,7 @@
     ],
     "similar_courses": [
         {
-            "course_number": 100,
-            "subjects": [
-                "ACCTIS"
-            ]
-        },
-        {
-            "course_number": 770,
+            "course_number": 701,
             "subjects": [
                 "ACCTIS"
             ]
@@ -132,13 +150,19 @@
             ]
         },
         {
-            "course_number": 701,
+            "course_number": 702,
             "subjects": [
                 "ACCTIS"
             ]
         },
         {
-            "course_number": 702,
+            "course_number": 100,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 770,
             "subjects": [
                 "ACCTIS"
             ]
@@ -158,10 +182,10 @@
                 "f": 2,
                 "incomplete": 0,
                 "instructors": [
-                    "TIMOTHY HARRISON SHEA",
-                    "MATHEW J YANG",
                     "TING LUO",
-                    "THOMAS TIERNEY"
+                    "THOMAS TIERNEY",
+                    "TIMOTHY HARRISON SHEA",
+                    "MATHEW J YANG"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -186,8 +210,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "RAGHAVAN D NAIR",
-                    "THOMAS TIERNEY"
+                    "THOMAS TIERNEY",
+                    "RAGHAVAN D NAIR"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -212,8 +236,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "SHANA CLOR PROELL",
-                    "THOMAS TIERNEY"
+                    "THOMAS TIERNEY",
+                    "SHANA CLOR PROELL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -238,9 +262,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "THOMAS TIERNEY",
                     "DANIEL WANGERIN",
-                    "HEATHER LYNN PESCH",
-                    "THOMAS TIERNEY"
+                    "HEATHER LYNN PESCH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -265,9 +289,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SHANA CLOR PROELL",
+                    "THOMAS TIERNEY",
                     "DANIEL WANGERIN",
-                    "THOMAS TIERNEY"
+                    "SHANA CLOR PROELL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -318,8 +342,8 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "SHANA CLOR PROELL",
-                    "THOMAS TIERNEY"
+                    "THOMAS TIERNEY",
+                    "SHANA CLOR PROELL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -370,8 +394,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "ANITA AUDRETSCH",
                     "Kristen FUHREMANN",
+                    "ANITA AUDRETSCH",
                     "THOMAS TIERNEY"
                 ],
                 "no_credit": 0,
@@ -423,9 +447,9 @@
                 "f": 2,
                 "incomplete": 1,
                 "instructors": [
-                    "KENNETH WINTER",
                     "Kristen FUHREMANN",
                     "ANN O'BRIEN",
+                    "KENNETH WINTER",
                     "THOMAS TIERNEY"
                 ],
                 "no_credit": 0,
@@ -505,8 +529,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "TROY VAN BEEK",
-                    "Fabio GAERTNER",
-                    "THOMAS TIERNEY"
+                    "THOMAS TIERNEY",
+                    "Fabio GAERTNER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -557,9 +581,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Fabio GAERTNER",
-                    "DERECK BARR-PULLIAM",
                     "TROY VAN BEEK",
+                    "DERECK BARR-PULLIAM",
+                    "Fabio GAERTNER",
                     "Russell EPP"
                 ],
                 "no_credit": 0,
@@ -719,10 +743,10 @@
                 "incomplete": 2,
                 "instructors": [
                     "MATT GRIFFITH",
-                    "LOGAN STEELE",
-                    "TERRY WARFIELD",
                     "Kristen FUHREMANN",
-                    "ANN O'BRIEN"
+                    "LOGAN STEELE",
+                    "ANN O'BRIEN",
+                    "TERRY WARFIELD"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -803,8 +827,8 @@
                     "Joanna WANGERIN",
                     "DANIEL WANGERIN",
                     "MATT GRIFFITH",
-                    "Russell EPP",
-                    "ANN O'BRIEN"
+                    "ANN O'BRIEN",
+                    "Russell EPP"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -829,9 +853,9 @@
                 "f": 1,
                 "incomplete": 1,
                 "instructors": [
-                    "Joanna WANGERIN",
-                    "TERRY WARFIELD",
                     "MATT GRIFFITH",
+                    "TERRY WARFIELD",
+                    "Joanna WANGERIN",
                     "Russell EPP"
                 ],
                 "no_credit": 0,
@@ -857,9 +881,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Joanna WANGERIN",
-                    "ANN O'BRIEN",
                     "MATT GRIFFITH",
+                    "ANN O'BRIEN",
+                    "Joanna WANGERIN",
                     "Russell EPP"
                 ],
                 "no_credit": 0,
@@ -885,10 +909,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "MATT GRIFFITH",
                     "RUYUN FENG",
-                    "Kristen FUHREMANN",
                     "Joanna WANGERIN",
-                    "MATT GRIFFITH"
+                    "Kristen FUHREMANN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -913,8 +937,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Joanna WANGERIN",
                     "MATT GRIFFITH",
+                    "Joanna WANGERIN",
                     "Russell EPP"
                 ],
                 "no_credit": 0,
@@ -942,8 +966,8 @@
                 "instructors": [
                     "Joanna WANGERIN",
                     "DANA OUTHOUSE",
-                    "RUYUN FENG",
                     "MATT GRIFFITH",
+                    "RUYUN FENG",
                     "TIMOTHY BUHL"
                 ],
                 "no_credit": 0,
@@ -969,10 +993,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristen FUHREMANN",
-                    "Joanna WANGERIN",
                     "MATT GRIFFITH",
-                    "Russell EPP"
+                    "Joanna WANGERIN",
+                    "Russell EPP",
+                    "Kristen FUHREMANN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -998,10 +1022,10 @@
                 "incomplete": 0,
                 "instructors": [
                     "Joanna WANGERIN",
-                    "RUYUN FENG",
+                    "ANDREA TILLET",
                     "MATT GRIFFITH",
-                    "Russell EPP",
-                    "ANDREA TILLET"
+                    "RUYUN FENG",
+                    "Russell EPP"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1026,10 +1050,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Kristen FUHREMANN",
-                    "Joanna WANGERIN",
                     "MATT GRIFFITH",
-                    "BRETT KILLION"
+                    "BRETT KILLION",
+                    "Joanna WANGERIN",
+                    "Kristen FUHREMANN"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1054,10 +1078,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "RUYUN FENG",
                     "ANDREA TILLET",
-                    "MATT GRIFFITH",
-                    "ANN O'BRIEN"
+                    "ANN O'BRIEN",
+                    "RUYUN FENG",
+                    "MATT GRIFFITH"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -1082,10 +1106,10 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "Joanna WANGERIN",
-                    "Dan KELLY",
-                    "MATT GRIFFITH",
                     "DAIN DONELSON",
+                    "Dan KELLY",
+                    "Joanna WANGERIN",
+                    "MATT GRIFFITH",
                     "Kristen FUHREMANN"
                 ],
                 "no_credit": 0,

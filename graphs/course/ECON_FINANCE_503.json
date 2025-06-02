@@ -17,6 +17,14 @@
     },
     {
         "data": {
+            "description": "An introduction to applied econometrics - the statistical methods economists use to evaluate empirical relationships and test economic theory. Emphasis on application of econometrics to real world data using modern statistical software and developing skills needed to understand empirical work in economics.",
+            "id": "ECON 400",
+            "parent": "ECON",
+            "title": "INTRODUCTION TO APPLIED ECONOMETRICS"
+        }
+    },
+    {
+        "data": {
             "description": "Concepts and techniques in corporate finance and investments. Topics include the financial environment, securities markets, financial markets, financial statements and analysis, working capital management, capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision-making under uncertainty, mergers, options, and futures.",
             "id": "ECON/FINANCE 300",
             "title": "INTRODUCTION TO FINANCE"
@@ -28,6 +36,14 @@
             "id": "MATH 96",
             "parent": "MATH",
             "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Development of the theory, method and analytical techniques of financial management. Techniques of capital budgeting; valuation of projects and firms; theory of capital structure; dividend policy; cost of capital; mergers and acquisitions.",
+            "id": "FINANCE 325",
+            "parent": "FINANCE",
+            "title": "CORPORATION FINANCE"
         }
     },
     {
@@ -52,6 +68,14 @@
             "id": "ACCTIS 300",
             "parent": "ACCTIS",
             "title": "ACCOUNTING PRINCIPLES"
+        }
+    },
+    {
+        "data": {
+            "description": "Examines current and emerging financial reporting theory and techniques used primarily to measure and disclose assets and determine income. Emphasis on analysis and measurement.",
+            "id": "ACCTIS 301",
+            "parent": "ACCTIS",
+            "title": "FINANCIAL REPORTING I"
         }
     },
     {
@@ -104,17 +128,32 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
-            "id": "MATH 112",
-            "parent": "MATH",
-            "title": "ALGEBRA"
+            "description": "Pricing and uses of the most common derivatives including options, forward contracts, futures contracts, and swaps.",
+            "id": "FINANCE 330",
+            "parent": "FINANCE",
+            "title": "DERIVATIVE SECURITIES"
         }
     },
     {
         "data": {
-            "description": "Search theory provides framework for understanding markets; is used to study questions in monetary, public, financial economics.  This course will develop theoretical tools used to introduce frictions in formal models; will address the role of frictions in several applied scenarios.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "COLLEGE ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Search theory provides framework for understanding markets and is used to study questions in monetary, public, financial economics. Develop theoretical tools used to introduce frictions in formal models and address the role of frictions in several applied scenarios.",
             "id": "ECON/FINANCE 503",
             "title": "MARKETS WITH FRICTIONS"
+        }
+    },
+    {
+        "data": {
+            "description": "Structure and functioning of securities markets; principles of portfolio construction; models of the tradeoff between risk and expected return.",
+            "id": "ECON/FINANCE 320",
+            "title": "INVESTMENT THEORY"
         }
     },
     {
@@ -155,6 +194,12 @@
     },
     {
         "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 301"
+        }
+    },
+    {
+        "data": {
             "source": "ACCTIS 300",
             "target": "ACCTIS 100"
         }
@@ -163,6 +208,12 @@
         "data": {
             "source": "ACCTIS 300",
             "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 301",
+            "target": "FINANCE 325"
         }
     },
     {
@@ -192,7 +243,25 @@
     {
         "data": {
             "source": "ECON 310",
+            "target": "ECON 400"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 310",
             "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 400",
+            "target": "ECON/FINANCE 320"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "ECON/FINANCE 320"
         }
     },
     {
@@ -203,7 +272,37 @@
     },
     {
         "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "FINANCE 325"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "FINANCE 330"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 320",
+            "target": "ECON/FINANCE 503"
+        }
+    },
+    {
+        "data": {
             "source": "FINANCE 305",
+            "target": "ECON/FINANCE 503"
+        }
+    },
+    {
+        "data": {
+            "source": "FINANCE 325",
+            "target": "ECON/FINANCE 503"
+        }
+    },
+    {
+        "data": {
+            "source": "FINANCE 330",
             "target": "ECON/FINANCE 503"
         }
     },
@@ -240,7 +339,19 @@
     {
         "data": {
             "source": "MATH 213",
-            "target": "ECON/FINANCE 503"
+            "target": "ECON/FINANCE 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "FINANCE 325"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "FINANCE 330"
         }
     },
     {

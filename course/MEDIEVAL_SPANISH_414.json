@@ -6,7 +6,7 @@
             "MEDIEVAL"
         ]
     },
-    "course_title": "LITERATURA DE LA EDAD MEDIA CASTELLANA (SS. XII-XV)",
+    "course_title": "LITERATURE OF THE CASTILIAN MIDDLE AGE (XII-XV CENTURIES)",
     "cumulative_grade_data": {
         "a": 110,
         "ab": 54,
@@ -27,18 +27,19 @@
         "total": 204,
         "unsatisfactory": 0
     },
-    "description": "The study of a particular author, work, topic, or literary genre of the Middle Ages and/or Early Renaissance (through15th century): Poema de mio Cid, mester de juglaria, Libro de buen amor, mester de clerecia, El conde Lucanor, La Celestina, etc.",
+    "description": "The study of a particular author, work, topic, or literary genre of the Middle Ages and/or Early Renaissance (through the 15th century): Poema de mio Cid, mester de juglaria, Libro de buen amor, mester de clerecia, El conde Lucanor, La Celestina, etc.",
     "keywords": [
-        "renaissance through15th",
-        "genre middle",
         "particular author",
+        "renaissance",
         "topic literary",
+        "15th century",
         "middle ages"
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 223,
+            "course_number": 222,
             "subjects": [
+                "CHICLA",
                 "SPANISH"
             ]
         },
@@ -53,28 +54,70 @@
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 223,
-                    "subjects": [
-                        "SPANISH"
-                    ]
+                    "children": [
+                        {
+                            "course_number": 222,
+                            "subjects": [
+                                "CHICLA",
+                                "SPANISH"
+                            ]
+                        },
+                        {
+                            "course_number": 223,
+                            "subjects": [
+                                "SPANISH"
+                            ]
+                        }
+                    ],
+                    "operator": "OR"
                 },
                 {
                     "course_number": 224,
                     "subjects": [
                         "SPANISH"
                     ]
-                },
-                "."
+                }
             ],
             "operator": "AND"
         },
         "course_references": [
+            {
+                "course_number": 224,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
             {
                 "course_number": 223,
                 "subjects": [
                     "SPANISH"
                 ]
             },
+            {
+                "course_number": 222,
+                "subjects": [
+                    "CHICLA",
+                    "SPANISH"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 222,
+                "subjects": [
+                    "CHICLA",
+                    "SPANISH"
+                ]
+            },
+            " or ",
+            {
+                "course_number": 223,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
+            ") and ",
             {
                 "course_number": 224,
                 "subjects": [
@@ -82,33 +125,10 @@
                 ]
             }
         ],
-        "linked_requisite_text": [
-            {
-                "course_number": 223,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 224,
-                "subjects": [
-                    "SPANISH"
-                ]
-            },
-            ". Graduate students may not enroll"
-        ],
-        "prerequisites_text": "SPANISH\u00a0223and224. Graduate students may not enroll"
+        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222orSPANISH\u00a0223) andSPANISH\u00a0224"
     },
     "satisfies": [],
     "similar_courses": [
-        {
-            "course_number": 803,
-            "subjects": [
-                "ENGL",
-                "MEDIEVAL"
-            ]
-        },
         {
             "course_number": 718,
             "subjects": [
@@ -135,6 +155,12 @@
             "subjects": [
                 "ENGL",
                 "MEDIEVAL"
+            ]
+        },
+        {
+            "course_number": 852,
+            "subjects": [
+                "SPANISH"
             ]
         }
     ],

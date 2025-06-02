@@ -34,31 +34,50 @@
         "managing secondary",
         "educational policies"
     ],
-    "optimized_prerequisites": null,
-    "prerequisites": {
-        "abstract_syntax_tree": "Graduate/professional standing",
-        "course_references": [],
-        "linked_requisite_text": [
-            "Graduate/professional standing"
-        ],
-        "prerequisites_text": "Graduate/professional standing"
-    },
-    "satisfies": [],
-    "similar_courses": [
-        {
-            "course_number": 309,
-            "subjects": [
-                "EDPOL"
-            ]
-        },
+    "optimized_prerequisites": [
         {
             "course_number": 209,
             "subjects": [
                 "EDPOL"
             ]
+        }
+    ],
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "course_number": 209,
+                    "subjects": [
+                        "EDPOL"
+                    ]
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
         },
+        "course_references": [
+            {
+                "course_number": 209,
+                "subjects": [
+                    "EDPOL"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 209,
+                "subjects": [
+                    "EDPOL"
+                ]
+            },
+            " or graduate/professional standing"
+        ],
+        "prerequisites_text": "ED\u00a0POL\u00a0209or graduate/professional standing"
+    },
+    "satisfies": [],
+    "similar_courses": [
         {
-            "course_number": 603,
+            "course_number": 209,
             "subjects": [
                 "EDPOL"
             ]
@@ -73,6 +92,18 @@
             "course_number": 823,
             "subjects": [
                 "ELPA"
+            ]
+        },
+        {
+            "course_number": 309,
+            "subjects": [
+                "EDPOL"
+            ]
+        },
+        {
+            "course_number": 603,
+            "subjects": [
+                "EDPOL"
             ]
         }
     ],

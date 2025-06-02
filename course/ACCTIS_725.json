@@ -40,6 +40,18 @@
             "subjects": [
                 "ACCTIS"
             ]
+        },
+        {
+            "course_number": 621,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
+        {
+            "course_number": 742,
+            "subjects": [
+                "LAW"
+            ]
         }
     ],
     "prerequisites": {
@@ -47,7 +59,6 @@
             "children": [
                 {
                     "children": [
-                        "Graduate/professional standing",
                         {
                             "children": [
                                 {
@@ -57,13 +68,20 @@
                                     ]
                                 },
                                 {
-                                    "course_number": 742,
+                                    "course_number": 621,
                                     "subjects": [
-                                        "LAW"
+                                        "ACCTIS"
                                     ]
-                                }
+                                },
+                                "graduate/professional standing"
                             ],
-                            "operator": "OR"
+                            "operator": "AND"
+                        },
+                        {
+                            "course_number": 742,
+                            "subjects": [
+                                "LAW"
+                            ]
                         },
                         "declared in Business: Accounting",
                         "Business Analysis MSB"
@@ -86,29 +104,48 @@
                 "subjects": [
                     "ACCTIS"
                 ]
+            },
+            {
+                "course_number": 621,
+                "subjects": [
+                    "ACCTIS"
+                ]
             }
         ],
         "linked_requisite_text": [
-            "Graduate/professional standing and (",
+            "(",
             {
                 "course_number": 620,
                 "subjects": [
                     "ACCTIS"
                 ]
             },
-            " or ",
+            ", ",
+            {
+                "course_number": 621,
+                "subjects": [
+                    "ACCTIS"
+                ]
+            },
+            ", and graduate/professional standing), ",
             {
                 "course_number": 742,
                 "subjects": [
                     "LAW"
                 ]
             },
-            "), declared in Business: Accounting and Business Analysis MSB, or declared in graduate Business Exchange program"
+            ", declared in Business: Accounting and Business Analysis MSB, or declared in graduate Business Exchange program"
         ],
-        "prerequisites_text": "Graduate/professional standing and (ACCT\u00a0I\u00a0S\u00a0620orLAW\u00a0742), declared in Business: Accounting and Business Analysis MSB, or declared in graduate Business Exchange program"
+        "prerequisites_text": "(ACCT\u00a0I\u00a0S\u00a0620,621, and graduate/professional standing),LAW\u00a0742, declared in Business: Accounting and Business Analysis MSB, or declared in graduate Business Exchange program"
     },
     "satisfies": [],
     "similar_courses": [
+        {
+            "course_number": 329,
+            "subjects": [
+                "ACCTIS"
+            ]
+        },
         {
             "course_number": 870,
             "subjects": [
@@ -116,7 +153,7 @@
             ]
         },
         {
-            "course_number": 772,
+            "course_number": 724,
             "subjects": [
                 "ACCTIS"
             ]
@@ -128,13 +165,7 @@
             ]
         },
         {
-            "course_number": 329,
-            "subjects": [
-                "ACCTIS"
-            ]
-        },
-        {
-            "course_number": 724,
+            "course_number": 772,
             "subjects": [
                 "ACCTIS"
             ]

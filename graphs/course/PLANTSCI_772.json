@@ -1,0 +1,82 @@
+[
+    {
+        "data": {
+            "description": "Descriptive statistics, distributions, one- and two-sample normal inference, power, one-way ANOVA, simple linear regression, categorical data, non-parametric methods; underlying assumptions and diagnostic work.",
+            "id": "F&WECOL/STAT 571",
+            "title": "STATISTICAL METHODS FOR BIOSCIENCE I"
+        }
+    },
+    {
+        "data": {
+            "description": "Development of models, programs, inferences, and interpretations of analysis of variance in biological research; mixed models and their development; choosing the correct inference range; variance and covariance analyses; repeated measures; dealing with missing data.",
+            "id": "PLANTSCI 772",
+            "parent": "PLANTSCI",
+            "title": "APPLICATIONS IN ANOVA AND MIXED MODELS"
+        }
+    },
+    {
+        "data": {
+            "description": "Experimental design and proper data analysis are critical processes for scientific research. Planning and performing research studies have statistical implications that influence how results are interpreted. Learn the fundamentals of generalized linear models, experimental design, and data analysis using common examples from biological studies.",
+            "id": "ANSCI 865",
+            "parent": "ANSCI",
+            "title": "DESIGN AND ANALYSIS OF BIOLOGICAL STUDIES"
+        }
+    },
+    {
+        "data": {
+            "description": "Polynomial regression, multiple regression, two-way ANOVA with and without interaction, split-plot design, subsampling, analysis of covariance, elementary sampling, introduction to bioassay.",
+            "id": "F&WECOL/STAT 572",
+            "title": "STATISTICAL METHODS FOR BIOSCIENCE II"
+        }
+    },
+    {
+        "data": {
+            "description": "Review of methods for controlling error in research experiments; review and in-depth development of factorial treatment designs; theory, analysis, and examples of advanced experimental designs for plant and animal research.",
+            "id": "PLANTSCI 771",
+            "parent": "PLANTSCI",
+            "title": "EXPERIMENTAL DESIGN AND ANALYSIS"
+        }
+    },
+    {
+        "data": {
+            "id": "ANSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "PLANTSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ANSCI 865",
+            "target": "PLANTSCI 771"
+        }
+    },
+    {
+        "data": {
+            "source": "F&WECOL/STAT 571",
+            "target": "F&WECOL/STAT 572"
+        }
+    },
+    {
+        "data": {
+            "source": "F&WECOL/STAT 572",
+            "target": "PLANTSCI 772"
+        }
+    },
+    {
+        "data": {
+            "source": "PLANTSCI 771",
+            "target": "PLANTSCI 772"
+        }
+    }
+]

@@ -26,17 +26,17 @@
         "total": 48,
         "unsatisfactory": 0
     },
-    "description": "One part of a series of courses to train students in the quantitative methods typically used by economic analysts in a professional setting. Provides students with the opportunity to synthesize the material they've learned in their coursework in a start-to-finish econometric analysis similar in scope and timeline to what they often would be expected to do in a professional setting. The final course product is a professional report. Students should think of this report as a professional analyst's Master's thesis - a demonstration of the student's training and capability for professional work, to be shared with prospective employers.",
+    "description": "Quantitative methods typically used by economic analysts in a professional setting. Synthesize and apply previous coursework to conduct econometric analysis and produce a professional report.",
     "keywords": [
-        "economic",
-        "econometric analysis",
-        "analyst master",
-        "finish econometric",
+        "used economic",
+        "conduct econometric",
+        "methods typically",
+        "quantitative",
         "analysts professional"
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 637,
+            "course_number": 719,
             "subjects": [
                 "AAE"
             ]
@@ -44,14 +44,31 @@
     ],
     "prerequisites": {
         "abstract_syntax_tree": {
-            "course_number": 637,
-            "subjects": [
-                "AAE"
-            ]
+            "children": [
+                {
+                    "course_number": 637,
+                    "subjects": [
+                        "AAE"
+                    ]
+                },
+                {
+                    "course_number": 719,
+                    "subjects": [
+                        "AAE"
+                    ]
+                }
+            ],
+            "operator": "OR"
         },
         "course_references": [
             {
                 "course_number": 637,
+                "subjects": [
+                    "AAE"
+                ]
+            },
+            {
+                "course_number": 719,
                 "subjects": [
                     "AAE"
                 ]
@@ -63,16 +80,24 @@
                 "subjects": [
                     "AAE"
                 ]
+            },
+            " or ",
+            {
+                "course_number": 719,
+                "subjects": [
+                    "AAE"
+                ]
             }
         ],
-        "prerequisites_text": "A\u00a0A\u00a0E\u00a0637"
+        "prerequisites_text": "A\u00a0A\u00a0E\u00a0637or719"
     },
     "satisfies": [],
     "similar_courses": [
         {
-            "course_number": 705,
+            "course_number": 526,
             "subjects": [
-                "AAE"
+                "AAE",
+                "ECON"
             ]
         },
         {
@@ -82,19 +107,19 @@
             ]
         },
         {
-            "course_number": 500,
+            "course_number": 400,
             "subjects": [
-                "AAE"
+                "ECON"
             ]
         },
         {
-            "course_number": 723,
+            "course_number": 706,
             "subjects": [
-                "AAE"
+                "ECON"
             ]
         },
         {
-            "course_number": 721,
+            "course_number": 701,
             "subjects": [
                 "AAE"
             ]
@@ -240,9 +265,9 @@
                 "f": 0,
                 "incomplete": 4,
                 "instructors": [
-                    "SHI GUANMING",
+                    "Jordan Van Rijn",
                     "Jing YI",
-                    "Jordan Van Rijn"
+                    "SHI GUANMING"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -267,8 +292,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Jing YI",
-                    "Jordan Van Rijn"
+                    "Jordan Van Rijn",
+                    "Jing YI"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -293,9 +318,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SHI GUANMING",
+                    "Jordan Van Rijn",
                     "Jing YI",
-                    "Jordan Van Rijn"
+                    "SHI GUANMING"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

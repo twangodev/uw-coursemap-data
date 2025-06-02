@@ -1,6 +1,30 @@
 [
     {
         "data": {
+            "description": "An approved advanced practice social work field seminar and placement.",
+            "id": "SOCWORK 800",
+            "parent": "SOCWORK",
+            "title": "FIELD PRACTICE AND INTEGRATIVE SEMINAR III"
+        }
+    },
+    {
+        "data": {
+            "description": "An approved generalist field seminar and social work agency placement. Seminar and placement require a minimum of 16 hours per week. The second course of the two-semester generalist field sequence.",
+            "id": "SOCWORK 401",
+            "parent": "SOCWORK",
+            "title": "FIELD PRACTICE AND INTEGRATIVE SEMINAR II"
+        }
+    },
+    {
+        "data": {
+            "description": "An approved generalist field seminar and social work community agency placement. Seminar and placement require a minimum of 16 hours/week. The first course of the two-semester generalist field sequence.",
+            "id": "SOCWORK 400",
+            "parent": "SOCWORK",
+            "title": "FIELD PRACTICE AND INTEGRATIVE SEMINAR I"
+        }
+    },
+    {
+        "data": {
             "description": "Practice and coursework in educational settings to conceptualize social work skills in schools and to integrate knowledge of social work theory and practice.",
             "id": "SOCWORK 815",
             "parent": "SOCWORK",
@@ -11,6 +35,24 @@
         "data": {
             "id": "SOCWORK",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "SOCWORK 400",
+            "target": "SOCWORK 401"
+        }
+    },
+    {
+        "data": {
+            "source": "SOCWORK 401",
+            "target": "SOCWORK 800"
+        }
+    },
+    {
+        "data": {
+            "source": "SOCWORK 800",
+            "target": "SOCWORK 815"
         }
     }
 ]

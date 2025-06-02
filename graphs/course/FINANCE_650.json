@@ -9,6 +9,22 @@
     },
     {
         "data": {
+            "description": "An analysis of the U.S. financial system, its responsiveness to and impact on economic activity and policy, its procedures for assessing and pricing risks on various financial instruments, and its role in the allocation of funds to different sectors in the economy.",
+            "id": "FINANCE 305",
+            "parent": "FINANCE",
+            "title": "FINANCIAL MARKETS, INSTITUTIONS AND ECONOMIC ACTIVITY"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to applied econometrics - the statistical methods economists use to evaluate empirical relationships and test economic theory. Emphasis on application of econometrics to real world data using modern statistical software and developing skills needed to understand empirical work in economics.",
+            "id": "ECON 400",
+            "parent": "ECON",
+            "title": "INTRODUCTION TO APPLIED ECONOMETRICS"
+        }
+    },
+    {
+        "data": {
             "description": "Concepts and techniques in corporate finance and investments. Topics include the financial environment, securities markets, financial markets, financial statements and analysis, working capital management, capital budgeting, cost of capital, dividend policy, asset valuation, investments, decision-making under uncertainty, mergers, options, and futures.",
             "id": "ECON/FINANCE 300",
             "title": "INTRODUCTION TO FINANCE"
@@ -20,6 +36,14 @@
             "id": "MATH 96",
             "parent": "MATH",
             "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Development of the theory, method and analytical techniques of financial management. Techniques of capital budgeting; valuation of projects and firms; theory of capital structure; dividend policy; cost of capital; mergers and acquisitions.",
+            "id": "FINANCE 325",
+            "parent": "FINANCE",
+            "title": "CORPORATION FINANCE"
         }
     },
     {
@@ -48,10 +72,26 @@
     },
     {
         "data": {
+            "description": "Examines current and emerging financial reporting theory and techniques used primarily to measure and disclose assets and determine income. Emphasis on analysis and measurement.",
+            "id": "ACCTIS 301",
+            "parent": "ACCTIS",
+            "title": "FINANCIAL REPORTING I"
+        }
+    },
+    {
+        "data": {
             "description": "Examines generally accepted accounting principles for measurement and reporting of financial information in a balance sheet, income statement, and statement of cash flows; introduction to analysis and interpretation of financial accounting data for decision-making purposes.",
             "id": "ACCTIS 100",
             "parent": "ACCTIS",
             "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
+        }
+    },
+    {
+        "data": {
+            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
+            "id": "MATH 213",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
@@ -96,15 +136,30 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
-            "id": "MATH 112",
-            "parent": "MATH",
-            "title": "ALGEBRA"
+            "description": "Pricing and uses of the most common derivatives including options, forward contracts, futures contracts, and swaps.",
+            "id": "FINANCE 330",
+            "parent": "FINANCE",
+            "title": "DERIVATIVE SECURITIES"
         }
     },
     {
         "data": {
-            "description": "Study of the market for corporate control including mergers and tender offers. Motives for business combinations; impacts on security holders, managers, labor, economic efficiency; federal and state laws; offensive and defensive strategies. Term paper involving comprehensive analysis of issues.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "COLLEGE ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Structure and functioning of securities markets; principles of portfolio construction; models of the tradeoff between risk and expected return.",
+            "id": "ECON/FINANCE 320",
+            "title": "INVESTMENT THEORY"
+        }
+    },
+    {
+        "data": {
+            "description": "Study of the market for corporate control including mergers and tender offers. Motives for business combinations; impacts on security holders, managers, labor, economic efficiency; federal and state laws; offensive and defensive strategies.",
             "id": "FINANCE 650",
             "parent": "FINANCE",
             "title": "MERGERS AND ACQUISITIONS"
@@ -112,10 +167,10 @@
     },
     {
         "data": {
-            "description": "Theory and practice of financial management of firms. Techniques of capital budgeting under certainty and uncertainty; valuation of projects and firms; theory of capital structure; dividend policy; cost of capital; mergers and acquisitions.",
-            "id": "FINANCE 725",
+            "description": "Theory and practice of business valuation: using financial statements, modeling cash flows, present value, using multiples.",
+            "id": "FINANCE 635",
             "parent": "FINANCE",
-            "title": "CORPORATION FINANCE THEORY AND PRACTICE"
+            "title": "BUSINESS VALUATION"
         }
     },
     {
@@ -156,6 +211,12 @@
     },
     {
         "data": {
+            "source": "ACCTIS 100",
+            "target": "ACCTIS 301"
+        }
+    },
+    {
+        "data": {
             "source": "ACCTIS 300",
             "target": "ACCTIS 100"
         }
@@ -164,6 +225,12 @@
         "data": {
             "source": "ACCTIS 300",
             "target": "ECON/FINANCE 300"
+        }
+    },
+    {
+        "data": {
+            "source": "ACCTIS 301",
+            "target": "FINANCE 325"
         }
     },
     {
@@ -193,24 +260,78 @@
     {
         "data": {
             "source": "ECON 310",
+            "target": "ECON 400"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON 310",
             "target": "ECON/FINANCE 300"
         }
     },
     {
         "data": {
+            "source": "ECON 400",
+            "target": "ECON/FINANCE 320"
+        }
+    },
+    {
+        "data": {
             "source": "ECON/FINANCE 300",
+            "target": "ECON/FINANCE 320"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "FINANCE 305"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "FINANCE 325"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 300",
+            "target": "FINANCE 330"
+        }
+    },
+    {
+        "data": {
+            "source": "ECON/FINANCE 320",
+            "target": "FINANCE 635"
+        }
+    },
+    {
+        "data": {
+            "source": "FINANCE 305",
+            "target": "FINANCE 635"
+        }
+    },
+    {
+        "data": {
+            "source": "FINANCE 325",
+            "target": "FINANCE 635"
+        }
+    },
+    {
+        "data": {
+            "source": "FINANCE 330",
+            "target": "FINANCE 635"
+        }
+    },
+    {
+        "data": {
+            "source": "FINANCE 635",
             "target": "FINANCE 650"
         }
     },
     {
         "data": {
             "source": "FINANCE 700",
-            "target": "FINANCE 725"
-        }
-    },
-    {
-        "data": {
-            "source": "FINANCE 725",
             "target": "FINANCE 650"
         }
     },
@@ -236,6 +357,30 @@
         "data": {
             "source": "MATH 211",
             "target": "ECON 310"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "MATH 213"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "ECON/FINANCE 320"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "FINANCE 325"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 213",
+            "target": "FINANCE 330"
         }
     },
     {

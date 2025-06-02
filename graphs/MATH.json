@@ -33,17 +33,18 @@
     },
     {
         "data": {
-            "description": "An introduction to proof writing techniques through a study of classical topics in elementary number theory. Topics include the divisibility, basic properties of primes, congruences, Fermat's theorem.",
-            "id": "MATH 467",
+            "description": "An introduction to ergodic theory and dynamics on the moduli space of translation surfaces with applications to counting problems in rational billiards and on flat surfaces. Covers dynamical techniques inspired by homogeneous dynamics including the use of Margulis functions to establish quantitative recurrence results; the use of random walks, inspired by work of Benoist and Quint, to prove measure rigidity statements; and the use of Zimmer's theory of the algebraic hull to prove finiteness results.",
+            "id": "MATH 858",
             "parent": "MATH",
-            "title": "INTRODUCTION TO NUMBER THEORY"
+            "title": "INTRODUCTION TO DYNAMICS ON MODULI SPACES"
         }
     },
     {
         "data": {
-            "description": "Coding theory. Codes (linear, Hamming, Golay, dual); decoding-encoding; Shannon's theorem; sphere-packing; singleton and Gilbert-Varshamov bounds; weight enumerators; MacWilliams identities; finite fields; other codes (Reed-Muller, cyclic, BCH, Reed-Solomon) and error-correction algorithms.",
-            "id": "ECE/MATH 641",
-            "title": "INTRODUCTION TO ERROR-CORRECTING CODES"
+            "description": "An introduction to proof writing techniques through a study of classical topics in elementary number theory. Topics include the divisibility, basic properties of primes, congruences, Fermat's theorem.",
+            "id": "MATH 467",
+            "parent": "MATH",
+            "title": "INTRODUCTION TO NUMBER THEORY"
         }
     },
     {
@@ -143,6 +144,14 @@
     },
     {
         "data": {
+            "description": "Sturm-Liouville theory; Fourier series, including mean convergence; initial and boundary value problems for linear second order partial differential equations, including separation of variables and eigenfunction expansions; fundamental solutions and Green's functions in multiple dimensions.",
+            "id": "MATH 322",
+            "parent": "MATH",
+            "title": "APPLIED MATHEMATICAL ANALYSIS 2: PARTIAL DIFFERENTIAL EQUATIONS"
+        }
+    },
+    {
+        "data": {
             "description": "Topics covered include axioms of probability, random variables, the most important discrete and continuous probability distributions, expectation and variance, conditional probability and conditional expectations, Markov's and Chebyshev's inequalities, laws of large numbers, and the central limit theorem. Includes a brief introduction to techniques of multivariate integration.",
             "id": "MATH 331",
             "parent": "MATH",
@@ -194,13 +203,6 @@
             "id": "MATH 851",
             "parent": "MATH",
             "title": "TOPICS IN GEOMETRIC TOPOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Advanced interdisciplinary introduction to qualitative and geometric methods for dissipative nonlinear dynamical systems. Local bifurcations of ordinary differential equations and maps. Chaotic attractors, horseshoes and detection of chaos.",
-            "id": "CBE/ECE/MATH 777",
-            "title": "NONLINEAR DYNAMICS, BIFURCATIONS AND CHAOS"
         }
     },
     {
@@ -317,6 +319,13 @@
             "description": "An introduction to measure theoretic probability and stochastic processes.Topics include foundations, independence, zero-one laws, laws of large numbers, convergence in distribution, characteristic functions, central limit theorems, random walks, conditional expectations. Familiarity with basic measure theory (e.g.MATH\u00a0629or721) or concurrent registration inMATH\u00a0721is strongly recommended.",
             "id": "MATH/STAT 733",
             "title": "THEORY OF PROBABILITY I"
+        }
+    },
+    {
+        "data": {
+            "description": "An introduction to measure theoretic probability, random variables, and high-dimensional statistics; conditional expectation, sufficiency, and unbiased estimation; methods of large sample theory including laws of large numbers and central limit theorems.",
+            "id": "MATH/STAT 709",
+            "title": "MATHEMATICAL STATISTICS I"
         }
     },
     {
@@ -487,7 +496,7 @@
             "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
             "id": "STAT 324",
             "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
+            "title": "INTRODUCTION TO STATISTICS FOR SCIENCE AND ENGINEERING"
         }
     },
     {
@@ -570,9 +579,9 @@
     },
     {
         "data": {
-            "description": "Estimation, efficiency, Neyman-Pearson theory of hypothesis testing, confidence regions, decision theory, analysis of variance, and distribution of quadratic forms.",
+            "description": "Estimation theory, efficiency, Neyman-Pearson theory of hypothesis testing, confidence regions, decision theory, likelihood ratio theory, current research topics in mathematical statistics.",
             "id": "MATH/STAT 710",
-            "title": "MATHEMATICAL STATISTICS"
+            "title": "MATHEMATICAL STATISTICS II"
         }
     },
     {
@@ -806,13 +815,6 @@
     },
     {
         "data": {
-            "description": "Introduction to measure theoretic probability; derivation and transformation of probability distributions; generating functions and characteristic functions; conditional expectation, sufficiency, and unbiased estimation; methods of large sample theory including laws of large numbers and central limit theorems; order statistics.",
-            "id": "MATH/STAT 709",
-            "title": "MATHEMATICAL STATISTICS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to spectral methods (Fourier, Chebyshev, Fast Fourier Transform), finite element methods (Galerkin methods, energy estimates and error analysis), and mesh-free methods (Monte-Carlo, smoothed-particle hydrodynamics) for solving partial differential equations. Applications from science and engineering. Applications from science and engineering. Students are strongly encouraged to have programming skills (e.g.COMP\u00a0SCI\u00a0200), undergraduate numerical analysis (e.g.MATH/\u200bCOMP\u00a0SCI\u00a0\u00a0514orCOMP\u00a0SCI\u00a0412), analysis (MATH\u00a0322and521) and linear algebra (e.g.MATH\u00a0341or equiv.)",
             "id": "COMPSCI/MATH 715",
             "title": "METHODS OF COMPUTATIONAL MATHEMATICS II"
@@ -887,10 +889,18 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, logarithmic, and trigonometric functions. Topics include equations, inequalities, functions, and their graphs. Other topics include trigonometric equations and identities and the geometric significance of trigonometry. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provide the algebra and trigonometry skills required for calculus.",
+            "id": "MATH 114",
+            "parent": "MATH",
+            "title": "PRECALCULUS"
         }
     },
     {
@@ -1030,14 +1040,6 @@
     },
     {
         "data": {
-            "description": "Sturm-Liouville theory; Fourier series, including mean convergence; boundary value problems for linear second order partial differential equations, including separation of variables and eigenfunction expansions.",
-            "id": "MATH 322",
-            "parent": "MATH",
-            "title": "APPLIED MATHEMATICAL ANALYSIS"
-        }
-    },
-    {
-        "data": {
             "description": "Summary of matrix algebra required, theory of estimable functions, incomplete blocks, balanced incomplete block designs, partially balanced incomplete block designs.",
             "id": "MATH/STAT 803",
             "title": "EXPERIMENTAL DESIGN I"
@@ -1081,14 +1083,6 @@
             "id": "MATH 341",
             "parent": "MATH",
             "title": "LINEAR ALGEBRA"
-        }
-    },
-    {
-        "data": {
-            "description": "The two semester sequenceMATH\u00a0112-MATH\u00a0113covers similar material asMATH\u00a0114, but in a slower pace. Not recommended for students with less than an AB inMATH\u00a096.",
-            "id": "MATH 114",
-            "parent": "MATH",
-            "title": "ALGEBRA AND TRIGONOMETRY"
         }
     },
     {
@@ -1139,18 +1133,18 @@
     },
     {
         "data": {
-            "description": "Topics in algebra, trigonometry, differential, integral and multi-variable calculus and analytic geometry will be covered depending on which calculus courseMATH\u00a0228is attached to.MATH\u00a0228must be taken in conjunction with the appropriate WES section ofMATH\u00a0171,217,221,222, or234.",
-            "id": "MATH 228",
-            "parent": "MATH",
-            "title": "WES CALCULUS SUPPLEMENT"
-        }
-    },
-    {
-        "data": {
             "description": "Topics in algebraic combinatorics such as (but not limited to) association schemes, hypergeometric series, classical orthogonal polynomials, codes,  lattices, invariant theory, alternating sign matrices and domino tilings, statistical mechanical models, 6j-symbols, buildings and diagram geometries, matroids.",
             "id": "MATH 846",
             "parent": "MATH",
             "title": "TOPICS IN COMBINATORICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics in differential, integral and multi-variable calculus and analytic geometry.",
+            "id": "MATH 228",
+            "parent": "MATH",
+            "title": "WES CALCULUS SUPPLEMENT"
         }
     },
     {
@@ -1234,10 +1228,10 @@
     },
     {
         "data": {
-            "description": "Vector analysis: algebra and geometry of vectors, vector differential and integral calculus, theorems of Green, Gauss, and Stokes; complex analysis: analytic functions, complex integrals and residues, Taylor and Laurent series.",
+            "description": "Vector analysis: algebra and geometry of vectors, index notation, 3D rotations, Euler angles; vector differential and integral calculus, theorems of Green, Gauss, and Stokes; grad, div, curl, and Laplacian in cylindrical and spherical coordinates; Complex analysis: analytic functions, Cauchy-Riemann equations, conformal mapping, complex integrals, residue theorem.",
             "id": "MATH 321",
             "parent": "MATH",
-            "title": "APPLIED MATHEMATICAL ANALYSIS"
+            "title": "APPLIED MATHEMATICAL ANALYSIS 1: VECTOR AND COMPLEX CALCULUS"
         }
     },
     {
@@ -1415,6 +1409,12 @@
     {
         "data": {
             "source": "MATH 222",
+            "target": "MATH 228"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
             "target": "MATH 234"
         }
     },
@@ -1498,14 +1498,14 @@
     },
     {
         "data": {
-            "source": "MATH 320",
-            "target": "COMPSCI/MATH 514"
+            "source": "MATH 319",
+            "target": "MATH 321"
         }
     },
     {
         "data": {
             "source": "MATH 320",
-            "target": "MATH 321"
+            "target": "COMPSCI/MATH 514"
         }
     },
     {
@@ -1547,12 +1547,6 @@
     {
         "data": {
             "source": "MATH 322",
-            "target": "COMPSCI/MATH 514"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 322",
             "target": "MATH 619"
         }
     },
@@ -1566,6 +1560,12 @@
         "data": {
             "source": "MATH 340",
             "target": "COMPSCI/ISYE/MATH 425"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 340",
+            "target": "MATH 321"
         }
     },
     {
@@ -1739,6 +1739,12 @@
     {
         "data": {
             "source": "MATH 521",
+            "target": "COMPSCI/MATH 514"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 521",
             "target": "MATH 522"
         }
     },
@@ -1794,12 +1800,6 @@
         "data": {
             "source": "MATH 531",
             "target": "MATH 535"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 541",
-            "target": "ECE/MATH 641"
         }
     },
     {

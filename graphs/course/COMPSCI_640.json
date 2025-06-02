@@ -16,14 +16,6 @@
     },
     {
         "data": {
-            "description": "Input-output hardware, interrupt handling, properties of magnetic tapes, discs and drums, associative memories and virtual address translation techniques. Batch processing, time sharing and real-time systems, scheduling resource allocation, modular software systems, performance measurement and system evaluation.",
-            "id": "COMPSCI 537",
-            "parent": "COMPSCI",
-            "title": "INTRODUCTION TO OPERATING SYSTEMS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to Object-Oriented Programming using classes and objects to solve more complex problems. Introduces array-based and linked data structures: including lists, stacks, and queues. Programming assignments require writing and developing multi-class (file) programs using interfaces, generics, and exception handling to solve challenging real world problems. Topics reviewed include reading/writing data and objects from/to files and exception handling, and command line arguments. Topics introduced: object-oriented design; class vs. object; create and define interfaces and iterators; searching and sorting; abstract data types (List,Stack,Queue,PriorityQueue(Heap),Binary Search Tree); generic interfaces (parametric polymorphism); how to design and write test methods and classes; array based vs. linked node implementations; introduction to complexity analysis; recursion.",
             "id": "COMPSCI 300",
             "parent": "COMPSCI",
@@ -47,6 +39,14 @@
     },
     {
         "data": {
+            "description": "The third course in our programming fundamentals sequence. It presumes that students understand and use functional and object-oriented design and abstract data types as needed. This course introduces balanced search trees, graphs, graph traversal algorithms, hash tables and sets, and complexity analysis and about classes of problems that require each data type. Students are required to design and implement using high quality professional code, a medium sized program, that demonstrates knowledge and use of latest language features, tools, and conventions. Additional topics introduced will include as needed for projects: inheritance and polymorphism; anonymous inner classes, lambda functions, performance analysis to discover and optimize critical code blocks. Students learn about industry standards for code development. Students will design and implement a medium size project with a more advanced user-interface design, such as a web or mobile application with a GUI and event- driven implementation; use of version-control software.",
+            "id": "COMPSCI 400",
+            "parent": "COMPSCI",
+            "title": "PROGRAMMING III"
+        }
+    },
+    {
+        "data": {
             "id": "COMPSCI",
             "type": "compound"
         }
@@ -66,12 +66,18 @@
     {
         "data": {
             "source": "COMPSCI 300",
+            "target": "COMPSCI 400"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 300",
             "target": "COMPSCI/ECE 354"
         }
     },
     {
         "data": {
-            "source": "COMPSCI 537",
+            "source": "COMPSCI 400",
             "target": "COMPSCI 640"
         }
     },
@@ -84,7 +90,7 @@
     {
         "data": {
             "source": "COMPSCI/ECE 354",
-            "target": "COMPSCI 537"
+            "target": "COMPSCI 640"
         }
     }
 ]

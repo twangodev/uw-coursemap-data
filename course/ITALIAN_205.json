@@ -17,7 +17,7 @@
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 102,
+            "course_number": 201,
             "subjects": [
                 "ITALIAN"
             ]
@@ -32,19 +32,36 @@
                         "ITALIAN"
                     ]
                 },
-                "105."
+                {
+                    "children": [
+                        {
+                            "course_number": 201,
+                            "subjects": [
+                                "ITALIAN"
+                            ]
+                        },
+                        "."
+                    ],
+                    "operator": "AND"
+                }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 204,
+                "course_number": 201,
                 "subjects": [
                     "ITALIAN"
                 ]
             },
             {
                 "course_number": 102,
+                "subjects": [
+                    "ITALIAN"
+                ]
+            },
+            {
+                "course_number": 204,
                 "subjects": [
                     "ITALIAN"
                 ]
@@ -57,7 +74,14 @@
                     "ITALIAN"
                 ]
             },
-            " or 105. Not open to students with credit for ",
+            " or ",
+            {
+                "course_number": 201,
+                "subjects": [
+                    "ITALIAN"
+                ]
+            },
+            ". Not open to students with credit for ",
             {
                 "course_number": 204,
                 "subjects": [
@@ -65,33 +89,9 @@
                 ]
             }
         ],
-        "prerequisites_text": "ITALIAN\u00a0102or 105. Not open to students with credit forITALIAN\u00a0204"
+        "prerequisites_text": "ITALIAN\u00a0102or201. Not open to students with credit forITALIAN\u00a0204"
     },
     "satisfies": [
-        {
-            "course_number": 321,
-            "subjects": [
-                "ITALIAN"
-            ]
-        },
-        {
-            "course_number": 322,
-            "subjects": [
-                "ITALIAN"
-            ]
-        },
-        {
-            "course_number": 230,
-            "subjects": [
-                "ITALIAN"
-            ]
-        },
-        {
-            "course_number": 340,
-            "subjects": [
-                "ITALIAN"
-            ]
-        },
         {
             "course_number": 311,
             "subjects": [
@@ -105,7 +105,31 @@
             ]
         },
         {
+            "course_number": 230,
+            "subjects": [
+                "ITALIAN"
+            ]
+        },
+        {
+            "course_number": 322,
+            "subjects": [
+                "ITALIAN"
+            ]
+        },
+        {
             "course_number": 312,
+            "subjects": [
+                "ITALIAN"
+            ]
+        },
+        {
+            "course_number": 340,
+            "subjects": [
+                "ITALIAN"
+            ]
+        },
+        {
+            "course_number": 321,
             "subjects": [
                 "ITALIAN"
             ]
@@ -113,19 +137,7 @@
     ],
     "similar_courses": [
         {
-            "course_number": 102,
-            "subjects": [
-                "ITALIAN"
-            ]
-        },
-        {
             "course_number": 101,
-            "subjects": [
-                "ITALIAN"
-            ]
-        },
-        {
-            "course_number": 204,
             "subjects": [
                 "ITALIAN"
             ]
@@ -138,6 +150,18 @@
         },
         {
             "course_number": 201,
+            "subjects": [
+                "ITALIAN"
+            ]
+        },
+        {
+            "course_number": 102,
+            "subjects": [
+                "ITALIAN"
+            ]
+        },
+        {
+            "course_number": 204,
             "subjects": [
                 "ITALIAN"
             ]

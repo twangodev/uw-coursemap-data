@@ -1,34 +1,10 @@
 [
     {
         "data": {
-            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
-            "id": "MATH 113",
-            "parent": "MATH",
-            "title": "TRIGONOMETRY"
-        }
-    },
-    {
-        "data": {
-            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
-            "id": "MATH 96",
-            "parent": "MATH",
-            "title": "PREPARATORY ALGEBRA"
-        }
-    },
-    {
-        "data": {
-            "description": "Descriptive statistics, probability concepts and distributions, random variables. Hypothesis tests and confidence intervals for one- and two-sample problems. Linear regression, model checking, and inference. Analysis of variance and basic ideas in experimental design. Utilizes the R programming language.",
-            "id": "STAT 324",
+            "description": "Elements of probability, important discrete distributions, acceptance sampling by attributes, sample characteristics, probability distributions and population characteristics, the normal distribution, acceptance sampling plans based on sample means and variances, sampling from the normal, the central limit theorem, point and interval estimation.",
+            "id": "STAT 311",
             "parent": "STAT",
-            "title": "INTRODUCTORY APPLIED STATISTICS FOR ENGINEERS"
-        }
-    },
-    {
-        "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
+            "title": "INTRODUCTION TO THEORY AND METHODS OF MATHEMATICAL STATISTICS I"
         }
     },
     {
@@ -48,18 +24,18 @@
     },
     {
         "data": {
-            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
-            "id": "MATH 221",
+            "description": "Topics in multi-variable calculus and introduction to differential equations.",
+            "id": "MATH 376",
             "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
         }
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
-            "id": "MATH 112",
+            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
+            "id": "MATH 375",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
@@ -94,43 +70,19 @@
     },
     {
         "data": {
-            "source": "MATH 112",
-            "target": "MATH 113"
+            "source": "MATH 375",
+            "target": "MATH 376"
         }
     },
     {
         "data": {
-            "source": "MATH 112",
-            "target": "MATH 221"
+            "source": "MATH 376",
+            "target": "STAT 311"
         }
     },
     {
         "data": {
-            "source": "MATH 113",
-            "target": "MATH 221"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "STAT 324"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "MATH 211"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 96",
-            "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "STAT 324",
+            "source": "STAT 311",
             "target": "ISYE/ME 512"
         }
     }

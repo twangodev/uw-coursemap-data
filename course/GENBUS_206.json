@@ -58,10 +58,16 @@
                     ]
                 },
                 {
-                    "course_number": 106,
-                    "subjects": [
-                        "GENBUS"
-                    ]
+                    "children": [
+                        {
+                            "course_number": 106,
+                            "subjects": [
+                                "GENBUS"
+                            ]
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
                 }
             ],
             "operator": "AND"
@@ -87,28 +93,23 @@
                     "MATH"
                 ]
             },
-            " and ",
+            " and (",
             {
                 "course_number": 106,
                 "subjects": [
                     "GENBUS"
                 ]
-            }
+            },
+            " or concurrent enrollment)"
         ],
-        "prerequisites_text": "MATH\u00a0112andGEN\u00a0BUS\u00a0106"
+        "prerequisites_text": "MATH\u00a0112and (GEN\u00a0BUS\u00a0106or concurrent enrollment)"
     },
     "satisfies": [
         {
-            "course_number": 207,
-            "subjects": [
-                "GENBUS"
-            ]
-        },
-        {
             "course_number": 300,
             "subjects": [
-                "ECON",
-                "FINANCE"
+                "FINANCE",
+                "ECON"
             ]
         },
         {
@@ -116,23 +117,17 @@
             "subjects": [
                 "MARKETNG"
             ]
+        },
+        {
+            "course_number": 207,
+            "subjects": [
+                "GENBUS"
+            ]
         }
     ],
     "similar_courses": [
         {
-            "course_number": 306,
-            "subjects": [
-                "GENBUS"
-            ]
-        },
-        {
             "course_number": 704,
-            "subjects": [
-                "GENBUS"
-            ]
-        },
-        {
-            "course_number": 881,
             "subjects": [
                 "GENBUS"
             ]
@@ -144,7 +139,19 @@
             ]
         },
         {
+            "course_number": 306,
+            "subjects": [
+                "GENBUS"
+            ]
+        },
+        {
             "course_number": 705,
+            "subjects": [
+                "GENBUS"
+            ]
+        },
+        {
+            "course_number": 881,
             "subjects": [
                 "GENBUS"
             ]

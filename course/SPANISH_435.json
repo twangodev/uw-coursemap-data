@@ -36,8 +36,9 @@
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 223,
+            "course_number": 222,
             "subjects": [
+                "CHICLA",
                 "SPANISH"
             ]
         },
@@ -52,10 +53,22 @@
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 223,
-                    "subjects": [
-                        "SPANISH"
-                    ]
+                    "children": [
+                        {
+                            "course_number": 222,
+                            "subjects": [
+                                "CHICLA",
+                                "SPANISH"
+                            ]
+                        },
+                        {
+                            "course_number": 223,
+                            "subjects": [
+                                "SPANISH"
+                            ]
+                        }
+                    ],
+                    "operator": "OR"
                 },
                 {
                     "course_number": 224,
@@ -68,26 +81,42 @@
         },
         "course_references": [
             {
+                "course_number": 224,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
+            {
                 "course_number": 223,
                 "subjects": [
                     "SPANISH"
                 ]
             },
             {
-                "course_number": 224,
+                "course_number": 222,
                 "subjects": [
+                    "CHICLA",
                     "SPANISH"
                 ]
             }
         ],
         "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 222,
+                "subjects": [
+                    "CHICLA",
+                    "SPANISH"
+                ]
+            },
+            " or ",
             {
                 "course_number": 223,
                 "subjects": [
                     "SPANISH"
                 ]
             },
-            " and ",
+            ") and ",
             {
                 "course_number": 224,
                 "subjects": [
@@ -95,7 +124,7 @@
                 ]
             }
         ],
-        "prerequisites_text": "SPANISH\u00a0223and224"
+        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222orSPANISH\u00a0223) andSPANISH\u00a0224"
     },
     "satisfies": [],
     "similar_courses": [
@@ -118,13 +147,13 @@
             ]
         },
         {
-            "course_number": 852,
+            "course_number": 324,
             "subjects": [
                 "SPANISH"
             ]
         },
         {
-            "course_number": 324,
+            "course_number": 852,
             "subjects": [
                 "SPANISH"
             ]

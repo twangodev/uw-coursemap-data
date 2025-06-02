@@ -9,6 +9,14 @@
     },
     {
         "data": {
+            "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
+            "id": "PHYSICS 201",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
+        }
+    },
+    {
+        "data": {
             "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
             "id": "MATH 96",
             "parent": "MATH",
@@ -41,18 +49,10 @@
     },
     {
         "data": {
-            "description": "Principles of mechanics, force systems, equilibrium, structures, distributed forces, moments of inertia of areas, and friction.",
-            "id": "EMA 201",
-            "parent": "EMA",
-            "title": "STATICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
         }
     },
     {
@@ -95,12 +95,6 @@
     },
     {
         "data": {
-            "id": "EMA",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "id": "MATH",
             "type": "compound"
         }
@@ -113,13 +107,13 @@
     },
     {
         "data": {
-            "source": "CHEM 103",
-            "target": "ME 361"
+            "id": "PHYSICS",
+            "type": "compound"
         }
     },
     {
         "data": {
-            "source": "EMA 201",
+            "source": "CHEM 103",
             "target": "ME 361"
         }
     },
@@ -155,8 +149,8 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "EMA 201"
+            "source": "MATH 221",
+            "target": "PHYSICS 201"
         }
     },
     {
@@ -187,6 +181,12 @@
         "data": {
             "source": "ME 361",
             "target": "ME 363"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 201",
+            "target": "ME 361"
         }
     }
 ]

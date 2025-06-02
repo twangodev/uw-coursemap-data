@@ -26,10 +26,10 @@
         "total": 92,
         "unsatisfactory": 0
     },
-    "description": "Drawing mainly from early modern Spanish and Colonial texts, this course will explore encounters and relations with different forms of \"otherness\". We will move from America to Spain and across the Mediterranean world to Istanbul, from the late 15th century to the 17th. Issues of race, ethnicity, and religious affiliation will take on diverse forms throughout the course. Spain's long history of relations between Muslims, Jews and Christians will form a backdrop to interactions with Amerindians, sub-Saharan Africans, Jews, Moriscos, Gypsies, North African Muslims and Turks. One of the millions of slaves during this period was Miguel de Cervantes, author of Don Quixote. He and many other writers would reflect profoundly on questions of \"otherness\" in works that would have universal implications and continue to connect with our concerns in the 21st century. Such works will guide us through this course, as will a wide array of visual resources from that era and our own.",
+    "description": "Drawing mainly from early modern Spanish and Colonial texts, covers encounters and relations with different forms of \"otherness\". Move from America to Spain and across the Mediterranean world to Istanbul, from the late 15th century to the 17th. Discuss issues of race, ethnicity, and religious affiliation. Spain's long history of relations between Muslims, Jews and Christians will form a backdrop to interactions with Amerindians, sub-Saharan Africans, Jews, Moriscos, Gypsies, North African Muslims and Turks. One of the millions of slaves during this period was Miguel de Cervantes, author of Don Quixote. He and many other writers would reflect profoundly on questions of \"otherness\" in works that would have universal implications and continue to connect with our concerns in the 21st century.",
     "keywords": [
-        "quixote",
         "mediterranean world",
+        "affiliation spain",
         "colonial texts",
         "miguel cervantes",
         "quixote writers"
@@ -52,10 +52,22 @@
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 223,
-                    "subjects": [
-                        "SPANISH"
-                    ]
+                    "children": [
+                        {
+                            "course_number": 222,
+                            "subjects": [
+                                "CHICLA",
+                                "SPANISH"
+                            ]
+                        },
+                        {
+                            "course_number": 223,
+                            "subjects": [
+                                "SPANISH"
+                            ]
+                        }
+                    ],
+                    "operator": "OR"
                 },
                 {
                     "course_number": 224,
@@ -68,26 +80,42 @@
         },
         "course_references": [
             {
+                "course_number": 224,
+                "subjects": [
+                    "SPANISH"
+                ]
+            },
+            {
                 "course_number": 223,
                 "subjects": [
                     "SPANISH"
                 ]
             },
             {
-                "course_number": 224,
+                "course_number": 222,
                 "subjects": [
+                    "CHICLA",
                     "SPANISH"
                 ]
             }
         ],
         "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 222,
+                "subjects": [
+                    "CHICLA",
+                    "SPANISH"
+                ]
+            },
+            " or ",
             {
                 "course_number": 223,
                 "subjects": [
                     "SPANISH"
                 ]
             },
-            " and ",
+            ") and ",
             {
                 "course_number": 224,
                 "subjects": [
@@ -95,10 +123,22 @@
                 ]
             }
         ],
-        "prerequisites_text": "SPANISH\u00a0223and224"
+        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222orSPANISH\u00a0223) andSPANISH\u00a0224"
     },
     "satisfies": [],
     "similar_courses": [
+        {
+            "course_number": 468,
+            "subjects": [
+                "SPANISH"
+            ]
+        },
+        {
+            "course_number": 701,
+            "subjects": [
+                "SPANISH"
+            ]
+        },
         {
             "course_number": 322,
             "subjects": [
@@ -112,19 +152,7 @@
             ]
         },
         {
-            "course_number": 701,
-            "subjects": [
-                "SPANISH"
-            ]
-        },
-        {
             "course_number": 324,
-            "subjects": [
-                "SPANISH"
-            ]
-        },
-        {
-            "course_number": 468,
             "subjects": [
                 "SPANISH"
             ]

@@ -26,13 +26,13 @@
         "total": 574,
         "unsatisfactory": 0
     },
-    "description": "Basic concepts; distributed programming; distributed file systems; atomic actions; fault tolerance, transactions, program and data replication, recovery; distributed machine architectures; security and authentication; load balancing and process migration; distributed debugging; distributed performance measurement; distributed simulation techniques; distributed applications; correctness considerations and proof systems.",
+    "description": "Large-scale distributed systems have become pervasive, underlying virtually all widely used computing services. Explore prevalent issues in designing and implementing distributed systems. Topics include fault tolerance, scalability, replication, distributed storage, consensus, reliability, performance, and correctness.",
     "keywords": [
-        "debugging distributed",
-        "distributed debugging",
-        "distributed simulation",
-        "distributed performance",
-        "distributed file"
+        "consensus reliability",
+        "tolerance scalability",
+        "fault tolerance",
+        "distributed storage",
+        "implementing distributed"
     ],
     "optimized_prerequisites": [
         {
@@ -44,14 +44,55 @@
     ],
     "prerequisites": {
         "abstract_syntax_tree": {
-            "course_number": 736,
-            "subjects": [
-                "COMPSCI"
-            ]
+            "children": [
+                {
+                    "course_number": 736,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
+                },
+                {
+                    "course_number": 744,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
+                },
+                {
+                    "course_number": 764,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
+                },
+                {
+                    "course_number": 774,
+                    "subjects": [
+                        "COMPSCI"
+                    ]
+                }
+            ],
+            "operator": "OR"
         },
         "course_references": [
             {
                 "course_number": 736,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 744,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 774,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            {
+                "course_number": 764,
                 "subjects": [
                     "COMPSCI"
                 ]
@@ -63,17 +104,37 @@
                 "subjects": [
                     "COMPSCI"
                 ]
+            },
+            ", ",
+            {
+                "course_number": 744,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 764,
+                "subjects": [
+                    "COMPSCI"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 774,
+                "subjects": [
+                    "COMPSCI"
+                ]
             }
         ],
-        "prerequisites_text": "COMP\u00a0SCI\u00a0736"
+        "prerequisites_text": "COMP\u00a0SCI\u00a0736,744,764, or774"
     },
     "satisfies": [],
     "similar_courses": [
         {
-            "course_number": 354,
+            "course_number": 736,
             "subjects": [
-                "COMPSCI",
-                "ECE"
+                "COMPSCI"
             ]
         },
         {
@@ -83,19 +144,19 @@
             ]
         },
         {
+            "course_number": 744,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
+            "course_number": 544,
+            "subjects": [
+                "COMPSCI"
+            ]
+        },
+        {
             "course_number": 764,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 537,
-            "subjects": [
-                "COMPSCI"
-            ]
-        },
-        {
-            "course_number": 736,
             "subjects": [
                 "COMPSCI"
             ]
@@ -466,9 +527,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "SURABHI GUPTA",
+                    "VINAY SAHADEVAPPA BANAKAR",
                     "ANDREA ARPACI-DUSSEAU",
-                    "VINAY SAHADEVAPPA BANAKAR"
+                    "SURABHI GUPTA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

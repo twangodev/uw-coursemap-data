@@ -5,7 +5,7 @@
             "MATH"
         ]
     },
-    "course_title": "APPLIED MATHEMATICAL ANALYSIS",
+    "course_title": "APPLIED MATHEMATICAL ANALYSIS 1: VECTOR AND COMPLEX CALCULUS",
     "cumulative_grade_data": {
         "a": 291,
         "ab": 215,
@@ -26,13 +26,13 @@
         "total": 2007,
         "unsatisfactory": 6
     },
-    "description": "Vector analysis: algebra and geometry of vectors, vector differential and integral calculus, theorems of Green, Gauss, and Stokes; complex analysis: analytic functions, complex integrals and residues, Taylor and Laurent series.",
+    "description": "Vector analysis: algebra and geometry of vectors, index notation, 3D rotations, Euler angles; vector differential and integral calculus, theorems of Green, Gauss, and Stokes; grad, div, curl, and Laplacian in cylindrical and spherical coordinates; Complex analysis: analytic functions, Cauchy-Riemann equations, conformal mapping, complex integrals, residue theorem.",
     "keywords": [
-        "stokes complex",
-        "calculus theorems",
+        "angles vector",
+        "analytic functions",
         "geometry vectors",
-        "complex integrals",
-        "analysis analytic"
+        "analysis algebra",
+        "complex analysis"
     ],
     "optimized_prerequisites": [
         {
@@ -42,7 +42,13 @@
             ]
         },
         {
-            "course_number": 320,
+            "course_number": 319,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 340,
             "subjects": [
                 "MATH"
             ]
@@ -51,29 +57,6 @@
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
-                {
-                    "course_number": 376,
-                    "subjects": [
-                        "MATH"
-                    ]
-                },
-                {
-                    "children": [
-                        {
-                            "course_number": 234,
-                            "subjects": [
-                                "MATH"
-                            ]
-                        },
-                        {
-                            "course_number": 319,
-                            "subjects": [
-                                "MATH"
-                            ]
-                        }
-                    ],
-                    "operator": "AND"
-                },
                 {
                     "children": [
                         {
@@ -100,6 +83,12 @@
                             ]
                         },
                         {
+                            "course_number": 319,
+                            "subjects": [
+                                "MATH"
+                            ]
+                        },
+                        {
                             "course_number": 340,
                             "subjects": [
                                 "MATH"
@@ -111,7 +100,7 @@
                 {
                     "children": [
                         {
-                            "course_number": 234,
+                            "course_number": 319,
                             "subjects": [
                                 "MATH"
                             ]
@@ -126,21 +115,10 @@
                     "operator": "AND"
                 },
                 {
-                    "children": [
-                        {
-                            "course_number": 234,
-                            "subjects": [
-                                "MATH"
-                            ]
-                        },
-                        {
-                            "course_number": 375,
-                            "subjects": [
-                                "MATH"
-                            ]
-                        }
-                    ],
-                    "operator": "AND"
+                    "course_number": 376,
+                    "subjects": [
+                        "MATH"
+                    ]
                 },
                 "graduate/professional standing"
             ],
@@ -160,25 +138,19 @@
                 ]
             },
             {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            {
                 "course_number": 234,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 319,
+                "course_number": 376,
                 "subjects": [
                     "MATH"
                 ]
             },
             {
-                "course_number": 375,
+                "course_number": 319,
                 "subjects": [
                     "MATH"
                 ]
@@ -191,27 +163,7 @@
             }
         ],
         "linked_requisite_text": [
-            {
-                "course_number": 376,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            ", (",
-            {
-                "course_number": 234,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            " and ",
-            {
-                "course_number": 319,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), (",
+            "(",
             {
                 "course_number": 234,
                 "subjects": [
@@ -232,7 +184,14 @@
                     "MATH"
                 ]
             },
-            " and ",
+            ", ",
+            {
+                "course_number": 319,
+                "subjects": [
+                    "MATH"
+                ]
+            },
+            ", and ",
             {
                 "course_number": 340,
                 "subjects": [
@@ -241,7 +200,7 @@
             },
             "), (",
             {
-                "course_number": 234,
+                "course_number": 319,
                 "subjects": [
                     "MATH"
                 ]
@@ -253,60 +212,34 @@
                     "MATH"
                 ]
             },
-            "), (",
+            "), ",
             {
-                "course_number": 234,
+                "course_number": 376,
                 "subjects": [
                     "MATH"
                 ]
             },
-            " and ",
-            {
-                "course_number": 375,
-                "subjects": [
-                    "MATH"
-                ]
-            },
-            "), or graduate/professional standing"
+            ", or graduate/professional standing"
         ],
-        "prerequisites_text": "MATH\u00a0376, (MATH\u00a0234and319), (MATH\u00a0234and320), (MATH\u00a0234and340), (MATH\u00a0234and341), (MATH\u00a0234and375), or graduate/professional standing"
+        "prerequisites_text": "(MATH\u00a0234and320), (MATH\u00a0234,319, and340), (MATH\u00a0319and341),MATH\u00a0376, or graduate/professional standing"
     },
     "satisfies": [
         {
-            "course_number": 322,
+            "course_number": 521,
             "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 405,
-            "subjects": [
-                "NE"
-            ]
-        },
-        {
-            "course_number": 453,
-            "subjects": [
-                "STAT"
-            ]
-        },
-        {
-            "course_number": 547,
-            "subjects": [
-                "EP",
                 "EMA"
-            ]
-        },
-        {
-            "course_number": 623,
-            "subjects": [
-                "MATH"
             ]
         },
         {
             "course_number": 311,
             "subjects": [
                 "PHYSICS"
+            ]
+        },
+        {
+            "course_number": 405,
+            "subjects": [
+                "NE"
             ]
         },
         {
@@ -320,27 +253,34 @@
             "subjects": [
                 "PHYSICS"
             ]
+        },
+        {
+            "course_number": 453,
+            "subjects": [
+                "STAT"
+            ]
+        },
+        {
+            "course_number": 623,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 547,
+            "subjects": [
+                "EP",
+                "EMA"
+            ]
+        },
+        {
+            "course_number": 322,
+            "subjects": [
+                "MATH"
+            ]
         }
     ],
     "similar_courses": [
-        {
-            "course_number": 320,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 375,
-            "subjects": [
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 801,
-            "subjects": [
-                "MATH"
-            ]
-        },
         {
             "course_number": 222,
             "subjects": [
@@ -348,7 +288,25 @@
             ]
         },
         {
+            "course_number": 221,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 234,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
             "course_number": 621,
+            "subjects": [
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 375,
             "subjects": [
                 "MATH"
             ]

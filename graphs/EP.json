@@ -16,6 +16,14 @@
     },
     {
         "data": {
+            "description": "Sturm-Liouville theory; Fourier series, including mean convergence; initial and boundary value problems for linear second order partial differential equations, including separation of variables and eigenfunction expansions; fundamental solutions and Green's functions in multiple dimensions.",
+            "id": "MATH 322",
+            "parent": "MATH",
+            "title": "APPLIED MATHEMATICAL ANALYSIS 2: PARTIAL DIFFERENTIAL EQUATIONS"
+        }
+    },
+    {
+        "data": {
             "description": "An introduction to current research topics in engineering physics. Development of an undergraduate research proposal supervised by faculty members.",
             "id": "EP 469",
             "parent": "EP",
@@ -24,10 +32,10 @@
     },
     {
         "data": {
-            "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
-            "id": "MATH 320",
+            "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
+            "id": "MATH 340",
             "parent": "MATH",
-            "title": "LINEAR ALGEBRA AND DIFFERENTIAL EQUATIONS"
+            "title": "ELEMENTARY MATRIX AND LINEAR ALGEBRA"
         }
     },
     {
@@ -147,10 +155,10 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
         }
     },
     {
@@ -191,14 +199,6 @@
             "id": "EP 920",
             "parent": "EP",
             "title": "ENGINEERING PHYSICS GRADUATE SEMINAR"
-        }
-    },
-    {
-        "data": {
-            "description": "Sturm-Liouville theory; Fourier series, including mean convergence; boundary value problems for linear second order partial differential equations, including separation of variables and eigenfunction expansions.",
-            "id": "MATH 322",
-            "parent": "MATH",
-            "title": "APPLIED MATHEMATICAL ANALYSIS"
         }
     },
     {
@@ -257,10 +257,10 @@
     },
     {
         "data": {
-            "description": "Vector analysis: algebra and geometry of vectors, vector differential and integral calculus, theorems of Green, Gauss, and Stokes; complex analysis: analytic functions, complex integrals and residues, Taylor and Laurent series.",
+            "description": "Vector analysis: algebra and geometry of vectors, index notation, 3D rotations, Euler angles; vector differential and integral calculus, theorems of Green, Gauss, and Stokes; grad, div, curl, and Laplacian in cylindrical and spherical coordinates; Complex analysis: analytic functions, Cauchy-Riemann equations, conformal mapping, complex integrals, residue theorem.",
             "id": "MATH 321",
             "parent": "MATH",
-            "title": "APPLIED MATHEMATICAL ANALYSIS"
+            "title": "APPLIED MATHEMATICAL ANALYSIS 1: VECTOR AND COMPLEX CALCULUS"
         }
     },
     {
@@ -315,12 +315,6 @@
         "data": {
             "source": "EMA 201",
             "target": "ME 306"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 201",
-            "target": "ME 361"
         }
     },
     {
@@ -422,7 +416,7 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "MATH 320"
+            "target": "MATH 340"
         }
     },
     {
@@ -446,13 +440,13 @@
     {
         "data": {
             "source": "MATH 319",
-            "target": "ME 363"
+            "target": "MATH 321"
         }
     },
     {
         "data": {
-            "source": "MATH 320",
-            "target": "MATH 321"
+            "source": "MATH 319",
+            "target": "ME 363"
         }
     },
     {
@@ -471,6 +465,12 @@
         "data": {
             "source": "MATH 322",
             "target": "EMA/EP 548"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 340",
+            "target": "MATH 321"
         }
     },
     {
@@ -525,6 +525,12 @@
         "data": {
             "source": "PHYSICS 201",
             "target": "EP 271"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 201",
+            "target": "ME 361"
         }
     }
 ]

@@ -26,7 +26,7 @@
     {
         "data": {
             "description": "Analysis of neural development with emphasis on experimental approaches. Combination of lectures and discussions of primary literature. Topics include neural induction, patterning, mechanisms of axon guidance, neural crest cell migration and differentiation, cortical development, and synapse formation and elimination.",
-            "id": "NEURODPT/NTP/ZOOLOGY 765",
+            "id": "NEURODPT/ZOOLOGY 765",
             "title": "DEVELOPMENTAL NEUROSCIENCE"
         }
     },
@@ -42,22 +42,6 @@
             "description": "Behavior results from a complex interplay among hormones, the brain, and environmental factors. Behaviors and their underlying neural substrates have evolved in response to specific environmental conditions, resulting in vast species diversity in behavioral and neuroendocrine solutions to environmental problems. Designed to explore the primary literature on the neuroendocrine underpinnings of behavior spanning from feeding to sex differences in complex social behaviors. A range of taxonomic groups will be discussed, including (but not limited to) mammals, birds, and fish.",
             "id": "NEURODPT/PSYCH/ZOOLOGY 674",
             "title": "BEHAVIORAL NEUROENDOCRINOLOGY SEMINAR"
-        }
-    },
-    {
-        "data": {
-            "description": "Behavior, including its development, motivation, frustrations, emotion, intelligence, learning, forgetting, personality, language, thinking, and social behavior.",
-            "id": "PSYCH 202",
-            "parent": "PSYCH",
-            "title": "INTRODUCTION TO PSYCHOLOGY"
-        }
-    },
-    {
-        "data": {
-            "description": "Biological basis of human and animal behaviors, including perception, action, cognition, social interaction and disease. Weekly themes from \"Cracking the Neural Code\" to \"Love and War\". Learn, develop and use neural mechanisms to explain and (attempt to) predict what they and others think and do in all facets of life.",
-            "id": "PSYCH 454",
-            "parent": "PSYCH",
-            "title": "BEHAVIORAL NEUROSCIENCE"
         }
     },
     {
@@ -103,7 +87,8 @@
     {
         "data": {
             "description": "Focuses on the cell signaling and the resulting structural changes that occur at neuronal synapses during memory formation. The aim is to understand how the synaptic changes underlying memory occur.",
-            "id": "NEURODPT/NTP 629",
+            "id": "NEURODPT 629",
+            "parent": "NEURODPT",
             "title": "MOLECULAR AND CELLULAR MECHANISMS OF MEMORY"
         }
     },
@@ -120,13 +105,6 @@
             "id": "MEDSC-M 811",
             "parent": "MEDSC-M",
             "title": "CHRONIC AND PREVENTIVE CARE"
-        }
-    },
-    {
-        "data": {
-            "description": "Independent experimental modules exploring neurophysiology and behavior will be completed in groups.  Learn techniques and develop investigations into three separate areas of neurobiology.",
-            "id": "NEURODPT/ZOOLOGY 616",
-            "title": "LAB COURSE IN NEUROBIOLOGY AND BEHAVIOR"
         }
     },
     {
@@ -210,10 +188,18 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, logarithmic, and trigonometric functions. Topics include equations, inequalities, functions, and their graphs. Other topics include trigonometric equations and identities and the geometric significance of trigonometry. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provide the algebra and trigonometry skills required for calculus.",
+            "id": "MATH 114",
+            "parent": "MATH",
+            "title": "PRECALCULUS"
         }
     },
     {
@@ -237,14 +223,6 @@
             "description": "Study of original papers leading to an understanding of the molecular basis of electrical activity in neurons. Topics include voltage-sensitive currents, molecular biology of neuronal receptorrs, synaptic transmission and sensory transduction.",
             "id": "NEURODPT/NTP 610",
             "title": "CELLULAR AND MOLECULAR NEUROSCIENCE"
-        }
-    },
-    {
-        "data": {
-            "description": "The two semester sequenceMATH\u00a0112-MATH\u00a0113covers similar material asMATH\u00a0114, but in a slower pace. Not recommended for students with less than an AB inMATH\u00a096.",
-            "id": "MATH 114",
-            "parent": "MATH",
-            "title": "ALGEBRA AND TRIGONOMETRY"
         }
     },
     {
@@ -310,12 +288,6 @@
     {
         "data": {
             "id": "PHYSICS",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "PSYCH",
             "type": "compound"
         }
     },
@@ -501,32 +473,14 @@
     },
     {
         "data": {
-            "source": "PSYCH 202",
-            "target": "PSYCH 454"
-        }
-    },
-    {
-        "data": {
-            "source": "PSYCH 454",
-            "target": "NEURODPT/ZOOLOGY 616"
+            "source": "PSYCH/ZOOLOGY 523",
+            "target": "NEURODPT 629"
         }
     },
     {
         "data": {
             "source": "PSYCH/ZOOLOGY 523",
             "target": "NEURODPT/NTP 610"
-        }
-    },
-    {
-        "data": {
-            "source": "PSYCH/ZOOLOGY 523",
-            "target": "NEURODPT/NTP 629"
-        }
-    },
-    {
-        "data": {
-            "source": "PSYCH/ZOOLOGY 523",
-            "target": "NEURODPT/ZOOLOGY 616"
         }
     }
 ]

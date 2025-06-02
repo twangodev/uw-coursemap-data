@@ -6,7 +6,7 @@
             "MATH"
         ]
     },
-    "course_title": "MATHEMATICAL STATISTICS",
+    "course_title": "MATHEMATICAL STATISTICS I",
     "cumulative_grade_data": {
         "a": 164,
         "ab": 131,
@@ -27,36 +27,44 @@
         "total": 406,
         "unsatisfactory": 0
     },
-    "description": "Introduction to measure theoretic probability; derivation and transformation of probability distributions; generating functions and characteristic functions; conditional expectation, sufficiency, and unbiased estimation; methods of large sample theory including laws of large numbers and central limit theorems; order statistics.",
+    "description": "An introduction to measure theoretic probability, random variables, and high-dimensional statistics; conditional expectation, sufficiency, and unbiased estimation; methods of large sample theory including laws of large numbers and central limit theorems.",
     "keywords": [
-        "theoretic probability",
-        "order statistics",
-        "distributions generating",
+        "expectation sufficiency",
         "introduction measure",
+        "dimensional statistics",
+        "large sample",
         "estimation methods"
     ],
     "optimized_prerequisites": null,
     "prerequisites": {
-        "abstract_syntax_tree": "Graduate/professional standing",
+        "abstract_syntax_tree": {
+            "children": [
+                "Declared in Statistics MS",
+                "Statistics PhD",
+                "Biomedical Data Science PhD",
+                "Biomedical Data Science MS",
+                "Statistics Doctoral Minor"
+            ],
+            "operator": "OR"
+        },
         "course_references": [],
         "linked_requisite_text": [
-            "Graduate/professional standing"
+            "Declared in Statistics MS, Statistics PhD, Biomedical Data Science PhD, Biomedical Data Science MS, or Statistics Doctoral Minor"
         ],
-        "prerequisites_text": "Graduate/professional standing"
+        "prerequisites_text": "Declared in Statistics MS, Statistics PhD, Biomedical Data Science PhD, Biomedical Data Science MS, or Statistics Doctoral Minor"
     },
     "satisfies": [
-        {
-            "course_number": 775,
-            "subjects": [
-                "ECON",
-                "STAT",
-                "GENBUS"
-            ]
-        },
         {
             "course_number": 779,
             "subjects": [
                 "MARKETNG"
+            ]
+        },
+        {
+            "course_number": 710,
+            "subjects": [
+                "STAT",
+                "MATH"
             ]
         },
         {
@@ -66,18 +74,27 @@
             ]
         },
         {
-            "course_number": 710,
+            "course_number": 775,
             "subjects": [
                 "STAT",
-                "MATH"
+                "ECON",
+                "GENBUS"
             ]
         }
     ],
     "similar_courses": [
         {
-            "course_number": 609,
+            "course_number": 733,
             "subjects": [
-                "STAT"
+                "STAT",
+                "MATH"
+            ]
+        },
+        {
+            "course_number": 309,
+            "subjects": [
+                "STAT",
+                "MATH"
             ]
         },
         {
@@ -87,22 +104,15 @@
             ]
         },
         {
+            "course_number": 609,
+            "subjects": [
+                "STAT"
+            ]
+        },
+        {
             "course_number": 431,
             "subjects": [
                 "STAT",
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 733,
-            "subjects": [
-                "STAT",
-                "MATH"
-            ]
-        },
-        {
-            "course_number": 531,
-            "subjects": [
                 "MATH"
             ]
         }

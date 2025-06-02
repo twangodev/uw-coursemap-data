@@ -17,6 +17,14 @@
     },
     {
         "data": {
+            "description": "Calculus-based introduction to physics intended for engineering students. Mechanics: kinematics, statics, dynamics; energy and momentum.",
+            "id": "PHYSICS 201",
+            "parent": "PHYSICS",
+            "title": "GENERAL PHYSICS"
+        }
+    },
+    {
+        "data": {
             "description": "Continuation ofMATH\u00a0171. Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Completion ofMATH\u00a0217implies completion ofMATH\u00a0221and114.",
             "id": "MATH 217",
             "parent": "MATH",
@@ -49,18 +57,10 @@
     },
     {
         "data": {
-            "description": "Principles of mechanics, force systems, equilibrium, structures, distributed forces, moments of inertia of areas, and friction.",
-            "id": "EMA 201",
-            "parent": "EMA",
-            "title": "STATICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
         }
     },
     {
@@ -77,14 +77,6 @@
             "id": "BSE 364",
             "parent": "BSE",
             "title": "ENGINEERING PROPERTIES OF FOOD AND BIOLOGICAL MATERIALS"
-        }
-    },
-    {
-        "data": {
-            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
-            "id": "MATH 222",
-            "parent": "MATH",
-            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
         }
     },
     {
@@ -109,12 +101,6 @@
     },
     {
         "data": {
-            "id": "EMA",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "id": "MATH",
             "type": "compound"
         }
@@ -127,6 +113,12 @@
     },
     {
         "data": {
+            "id": "PHYSICS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "source": "BSE 249",
             "target": "BSE 364"
         }
@@ -134,12 +126,6 @@
     {
         "data": {
             "source": "CHEM 103",
-            "target": "ME 361"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 201",
             "target": "ME 361"
         }
     },
@@ -182,13 +168,7 @@
     {
         "data": {
             "source": "MATH 221",
-            "target": "MATH 222"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "EMA 201"
+            "target": "PHYSICS 201"
         }
     },
     {
@@ -207,6 +187,12 @@
         "data": {
             "source": "ME 361",
             "target": "BSE 364"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 201",
+            "target": "ME 361"
         }
     }
 ]

@@ -26,17 +26,17 @@
         "total": 371,
         "unsatisfactory": 0
     },
-    "description": "Introduction to real estate modeling using ARGUS. ARGUS will be used to build a real estate model for acquisition transactions for office and retail mall properties. In addition, learn how to input assumptions, make decisions using reports, perform sensitivity analysis on model inputs and explain terminology used in Office and Retail real estate.",
+    "description": "Introduction to real estate modeling using ARGUS. ARGUS will be used to build a real estate model for acquisition transactions for office and retail mall properties. Learn how to input assumptions, make decisions using reports, perform sensitivity analysis on model inputs and explain terminology used in Office and Retail real estate.",
     "keywords": [
+        "real estate",
         "acquisition transactions",
         "modeling using",
-        "estate model",
         "argus argus",
         "using argus"
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 411,
+            "course_number": 410,
             "subjects": [
                 "REALEST"
             ]
@@ -46,18 +46,35 @@
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 411,
+                    "course_number": 410,
                     "subjects": [
                         "REALEST"
                     ]
                 },
-                "concurrent enrollment"
+                {
+                    "children": [
+                        {
+                            "course_number": 710,
+                            "subjects": [
+                                "REALEST"
+                            ]
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 411,
+                "course_number": 710,
+                "subjects": [
+                    "REALEST"
+                ]
+            },
+            {
+                "course_number": 410,
                 "subjects": [
                     "REALEST"
                 ]
@@ -65,14 +82,21 @@
         ],
         "linked_requisite_text": [
             {
-                "course_number": 411,
+                "course_number": 410,
                 "subjects": [
                     "REALEST"
                 ]
             },
-            " or concurrent enrollment"
+            " or (",
+            {
+                "course_number": 710,
+                "subjects": [
+                    "REALEST"
+                ]
+            },
+            " or concurrent enrollment)"
         ],
-        "prerequisites_text": "REAL\u00a0EST\u00a0411or concurrent enrollment"
+        "prerequisites_text": "REAL\u00a0EST\u00a0410or (REAL\u00a0EST\u00a0710or concurrent enrollment)"
     },
     "satisfies": [
         {
@@ -84,19 +108,13 @@
     ],
     "similar_courses": [
         {
-            "course_number": 701,
-            "subjects": [
-                "REALEST"
-            ]
-        },
-        {
-            "course_number": 411,
-            "subjects": [
-                "REALEST"
-            ]
-        },
-        {
             "course_number": 530,
+            "subjects": [
+                "REALEST"
+            ]
+        },
+        {
+            "course_number": 702,
             "subjects": [
                 "REALEST"
             ]
@@ -108,7 +126,13 @@
             ]
         },
         {
-            "course_number": 702,
+            "course_number": 701,
+            "subjects": [
+                "REALEST"
+            ]
+        },
+        {
+            "course_number": 411,
             "subjects": [
                 "REALEST"
             ]

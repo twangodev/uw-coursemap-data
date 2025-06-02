@@ -9,14 +9,6 @@
     },
     {
         "data": {
-            "description": "An introduction to linear algebra. Topics include matrix algebra, linear systems of equations, vector spaces, sub-spaces, linear dependence, span, basis, rank of matrices, determinants, linear transformations, coordinate representations, kernel, range, eigenvalues and eigenvectors, diagonalization, inner products and orthogonal vectors, symmetric matrices. Covers linear algebra topics in greater depth and detail thanMATH\u00a0320. Formal techniques in mathematical argument [MATH\u00a0341] not covered.",
-            "id": "MATH 340",
-            "parent": "MATH",
-            "title": "ELEMENTARY MATRIX AND LINEAR ALGEBRA"
-        }
-    },
-    {
-        "data": {
             "description": "Course designed for the biomedical researcher. Topics include: descriptive statistics, hypothesis testing, estimation, confidence intervals, t-tests, chi-squared tests, analysis of variance, linear regression, correlation, nonparametric tests, survival analysis and odds ratio. Biomedical applications used for each topic.",
             "id": "BMI/STAT 541",
             "title": "INTRODUCTION TO BIOSTATISTICS"
@@ -39,6 +31,29 @@
     },
     {
         "data": {
+            "description": "Hands-on introduction to biological and medical image analysis techniques. Topics include medical imaging formats, segmentation, registration, image quantification, and classification.",
+            "id": "BMI/COMPSCI 567",
+            "title": "BIOMEDICAL IMAGE ANALYSIS"
+        }
+    },
+    {
+        "data": {
+            "description": "Intermediate approach to Data Science programming using Python. Experience with basic tabular analysis in Python is assumed. Learn to implement data structures (e.g., graphs) to efficiently represent datasets. Software-engineering tools such as version control and Python virtual environments will be introduced, with an emphasis on reproducibility of analysis. Tracing and A/B testing will be introduced as techniques for generating meaningful datasets. Introduces basic classification, clustering, optimization, and simulation techniques. Plotting and visual communication will be emphasized throughout the course.",
+            "id": "COMPSCI 320",
+            "parent": "COMPSCI",
+            "title": "DATA SCIENCE PROGRAMMING II"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to Data Science programming using Python. In addition to a survey of programming basics (control flow and data structures), web scraping, database queries, and tabular analysis will be introduced. Projects will emphasize analyzing real datasets in a variety of forms and visual communication using plotting tools. Similar toCOMP\u00a0SCI\u00a0220but the pedagogical style of the projects will be adapted to graduate students in fields other than computer science and data science. No previous programming experience required.",
+            "id": "COMPSCI 319",
+            "parent": "COMPSCI",
+            "title": "DATA SCIENCE PROGRAMMING I FOR RESEARCH"
+        }
+    },
+    {
+        "data": {
             "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
             "id": "MATH 221",
             "parent": "MATH",
@@ -47,17 +62,18 @@
     },
     {
         "data": {
-            "description": "Present introductory medical image processing and analysis techniques. Topics include medical imaging formats, segmentation, registration, image quantification, classification.  Strongly encourage Matlab experience, such asCOMP\u00a0SCI\u00a0310or368-Matlab.",
-            "id": "BMI/COMPSCI 567",
-            "title": "MEDICAL IMAGE ANALYSIS"
+            "description": "Introduction to linear algebra, differential calculus in several variables, and basic optimization theory with applications to data science and related topics. Vectors, analytic geometry, matrices, linear functions, linear independence, orthogonality, inverses, partial derivatives and gradients, Taylor approximation, gradient descent, Lagrange multipliers, clustering, regression, classification. Implementation in Python.",
+            "id": "MATH 345",
+            "parent": "MATH",
+            "title": "LINEAR ALGEBRA AND OPTIMIZATION"
         }
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Students will formulate, analyze, solve, and interpret mathematical and real-world problems. Intended to provide the algebra skills required for calculus.",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
-            "title": "ALGEBRA"
+            "title": "COLLEGE ALGEBRA"
         }
     },
     {
@@ -66,6 +82,12 @@
             "id": "MATH 222",
             "parent": "MATH",
             "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "id": "COMPSCI",
+            "type": "compound"
         }
     },
     {
@@ -90,6 +112,18 @@
         "data": {
             "source": "BMI/STAT 541",
             "target": "BMI/COMPSCI 567"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 319",
+            "target": "COMPSCI 320"
+        }
+    },
+    {
+        "data": {
+            "source": "COMPSCI 320",
+            "target": "MATH 345"
         }
     },
     {
@@ -119,12 +153,12 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "MATH 340"
+            "target": "MATH 345"
         }
     },
     {
         "data": {
-            "source": "MATH 340",
+            "source": "MATH 345",
             "target": "BMI/COMPSCI 567"
         }
     },
