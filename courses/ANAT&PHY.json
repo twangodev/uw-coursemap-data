@@ -47,15 +47,15 @@
         "satisfies": [],
         "similar_courses": [
             {
-                "course_number": 337,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
                 "course_number": 699,
                 "subjects": [
                     "S&APHM"
+                ]
+            },
+            {
+                "course_number": 337,
+                "subjects": [
+                    "ANAT&PHY"
                 ]
             },
             {
@@ -167,10 +167,10 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ANDREW LOKUTA",
                         "Janet Branchaw",
+                        "GRACE LEE",
                         "Patrick HILLS-MEYER",
-                        "GRACE LEE"
+                        "ANDREW LOKUTA"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -195,11 +195,11 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Julie Stamm",
-                        "Patrick HILLS-MEYER",
-                        "GRACE LEE",
                         "ANDREW LOKUTA",
-                        "Janet Branchaw"
+                        "Patrick HILLS-MEYER",
+                        "Julie Stamm",
+                        "Janet Branchaw",
+                        "GRACE LEE"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -340,66 +340,356 @@
     },
     {
         "course_reference": {
-            "course_number": 235,
+            "course_number": 335,
             "subjects": [
                 "ANAT&PHY"
             ]
         },
-        "course_title": "HUMAN PHYSIOLOGY AND HEALTH",
+        "course_title": "PHYSIOLOGY",
         "cumulative_grade_data": {
-            "a": 192,
-            "ab": 172,
-            "b": 194,
-            "bc": 104,
-            "c": 63,
+            "a": 1625,
+            "ab": 594,
+            "b": 1327,
+            "bc": 472,
+            "c": 806,
             "credit": 0,
-            "d": 14,
-            "f": 13,
-            "incomplete": 1,
+            "d": 379,
+            "f": 121,
+            "incomplete": 11,
             "instructors": null,
             "no_credit": 0,
             "no_work": 1,
-            "not_reported": 1,
-            "other": 1,
+            "not_reported": 0,
+            "other": 0,
             "passed": 0,
-            "satisfactory": 6,
-            "total": 763,
-            "unsatisfactory": 1
+            "satisfactory": 68,
+            "total": 5427,
+            "unsatisfactory": 23
         },
-        "description": "Learn basic physiological concepts, apply them to understand human health and disease, and link them to broader core concepts in biology. Complete a project that applies conceptual understanding of general biology and physiology to investigate and create informational materials for the public about a disease or health promotion strategy. The foundational knowledge covered serves those interested in health sciences majors, as well as non-science students interested in life-long health.",
+        "description": "Core concepts in human physiology from cells to organ-systems via online lectures and active learning activities including laboratory experiments. Topics include homeostasis, membrane transport, cellular physiology, regulation of metabolism, and functions of the nervous, endocrine, muscular, reproductive, cardiovascular, respiratory, renal, and gastrointestinal system.",
         "keywords": [
-            "human health",
-            "health promotion",
-            "biology physiology",
-            "concepts biology",
-            "health sciences"
+            "metabolism functions",
+            "cells organ",
+            "homeostasis",
+            "organ systems",
+            "physiology regulation"
         ],
-        "optimized_prerequisites": null,
+        "optimized_prerequisites": [
+            {
+                "course_number": 101,
+                "subjects": [
+                    "ZOOLOGY",
+                    "BIOLOGY"
+                ]
+            },
+            {
+                "course_number": 109,
+                "subjects": [
+                    "CHEM"
+                ]
+            }
+        ],
         "prerequisites": {
-            "abstract_syntax_tree": "None",
-            "course_references": [],
-            "linked_requisite_text": [
-                "None"
+            "abstract_syntax_tree": {
+                "children": [
+                    {
+                        "children": [
+                            "Sophomore standing",
+                            {
+                                "children": [
+                                    {
+                                        "course_number": 101,
+                                        "subjects": [
+                                            "ZOOLOGY",
+                                            "BIOLOGY"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 130,
+                                        "subjects": [
+                                            "BOTANY",
+                                            "BIOLOGY"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 151,
+                                        "subjects": [
+                                            "BOTANY",
+                                            "ZOOLOGY",
+                                            "BIOLOGY"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 153,
+                                        "subjects": [
+                                            "ZOOLOGY"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 381,
+                                        "subjects": [
+                                            "BIOCORE"
+                                        ]
+                                    }
+                                ],
+                                "operator": "OR"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "course_number": 103,
+                                        "subjects": [
+                                            "CHEM"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 108,
+                                        "subjects": [
+                                            "CHEM"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 109,
+                                        "subjects": [
+                                            "CHEM"
+                                        ]
+                                    },
+                                    {
+                                        "course_number": 115,
+                                        "subjects": [
+                                            "CHEM"
+                                        ]
+                                    }
+                                ],
+                                "operator": "OR"
+                            }
+                        ],
+                        "operator": "AND"
+                    },
+                    "graduate/professional standing."
+                ],
+                "operator": "OR"
+            },
+            "course_references": [
+                {
+                    "course_number": 151,
+                    "subjects": [
+                        "BOTANY",
+                        "ZOOLOGY",
+                        "BIOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 101,
+                    "subjects": [
+                        "ZOOLOGY",
+                        "BIOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
+                },
+                {
+                    "course_number": 109,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                {
+                    "course_number": 115,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                {
+                    "course_number": 153,
+                    "subjects": [
+                        "ZOOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 130,
+                    "subjects": [
+                        "BOTANY",
+                        "BIOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 108,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                {
+                    "course_number": 435,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
+                },
+                {
+                    "course_number": 103,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                }
             ],
-            "prerequisites_text": "None"
+            "linked_requisite_text": [
+                "Sophomore standing, (",
+                {
+                    "course_number": 101,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 130,
+                    "subjects": [
+                        "BOTANY",
+                        "BIOLOGY"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "BOTANY",
+                        "ZOOLOGY"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 153,
+                    "subjects": [
+                        "ZOOLOGY"
+                    ]
+                },
+                " or ",
+                {
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
+                },
+                ") and (",
+                {
+                    "course_number": 103,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 108,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                ", ",
+                {
+                    "course_number": 109,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                " or ",
+                {
+                    "course_number": 115,
+                    "subjects": [
+                        "CHEM"
+                    ]
+                },
+                "), or graduate/professional standing. Not open to students with credit for PHYSIOL 435 or ",
+                {
+                    "course_number": 435,
+                    "subjects": [
+                        "ANAT&PHY"
+                    ]
+                }
+            ],
+            "prerequisites_text": "Sophomore standing, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,BOTANY/\u200bBIOLOGY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY\u00a0153orBIOCORE\u00a0381) and (CHEM\u00a0103,108,109or115), or graduate/professional standing. Not open to students with credit for PHYSIOL 435 orANAT&PHY\u00a0435"
         },
         "satisfies": [
+            {
+                "course_number": 521,
+                "subjects": [
+                    "PHMSCI"
+                ]
+            },
+            {
+                "course_number": 427,
+                "subjects": [
+                    "KINES"
+                ]
+            },
+            {
+                "course_number": 581,
+                "subjects": [
+                    "PHMSCI"
+                ]
+            },
+            {
+                "course_number": 625,
+                "subjects": [
+                    "PHMCOL-M",
+                    "POPHLTH",
+                    "ONCOLOGY",
+                    "PHMSCI",
+                    "M&ENVTOX"
+                ]
+            },
+            {
+                "course_number": 431,
+                "subjects": [
+                    "NUTRSCI"
+                ]
+            },
+            {
+                "course_number": 675,
+                "subjects": [
+                    "NUTRSCI"
+                ]
+            },
+            {
+                "course_number": 314,
+                "subjects": [
+                    "KINES"
+                ]
+            },
+            {
+                "course_number": 629,
+                "subjects": [
+                    "NEURODPT"
+                ]
+            },
             {
                 "course_number": 523,
                 "subjects": [
                     "KINES"
                 ]
+            },
+            {
+                "course_number": 525,
+                "subjects": [
+                    "KINES",
+                    "NUTRSCI"
+                ]
             }
         ],
         "similar_courses": [
             {
-                "course_number": 699,
+                "course_number": 675,
                 "subjects": [
-                    "ANAT&PHY"
+                    "NEURODPT"
                 ]
             },
             {
-                "course_number": 399,
+                "course_number": 337,
                 "subjects": [
                     "ANAT&PHY"
                 ]
@@ -411,34 +701,35 @@
                 ]
             },
             {
-                "course_number": 335,
+                "course_number": 338,
                 "subjects": [
                     "ANAT&PHY"
                 ]
             },
             {
-                "course_number": 485,
+                "course_number": 235,
                 "subjects": [
-                    "BIOCORE"
+                    "ANAT&PHY"
                 ]
             }
         ],
         "term_data": {
-            "1202": {
+            "1192": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 22,
-                    "ab": 20,
-                    "b": 15,
-                    "bc": 19,
-                    "c": 7,
+                    "a": 114,
+                    "ab": 59,
+                    "b": 111,
+                    "bc": 55,
+                    "c": 74,
                     "credit": 0,
-                    "d": 2,
-                    "f": 1,
+                    "d": 30,
+                    "f": 16,
                     "incomplete": 0,
                     "instructors": [
-                        "Janet Branchaw",
-                        "Morgan Shields"
+                        "ANDREW LOKUTA",
+                        "GRACE LEE",
+                        "KEVIN STRANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -446,129 +737,152 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 1,
-                    "total": 87,
+                    "total": 460,
                     "unsatisfactory": 0
                 }
             },
-            "1204": {
+            "1194": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 14,
-                    "ab": 10,
-                    "b": 27,
-                    "bc": 3,
-                    "c": 2,
+                    "a": 84,
+                    "ab": 48,
+                    "b": 105,
+                    "bc": 31,
+                    "c": 91,
                     "credit": 0,
-                    "d": 0,
-                    "f": 0,
+                    "d": 25,
+                    "f": 17,
                     "incomplete": 0,
                     "instructors": [
-                        "CAITLIN MURPHY",
-                        "Janet Branchaw"
+                        "Beth Altschafl",
+                        "KEVIN STRANG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
                     "not_reported": 0,
                     "other": 0,
                     "passed": 0,
-                    "satisfactory": 4,
-                    "total": 61,
+                    "satisfactory": 3,
+                    "total": 404,
+                    "unsatisfactory": 0
+                }
+            },
+            "1202": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 118,
+                    "ab": 59,
+                    "b": 126,
+                    "bc": 55,
+                    "c": 88,
+                    "credit": 0,
+                    "d": 39,
+                    "f": 12,
+                    "incomplete": 3,
+                    "instructors": [
+                        "ANDREW LOKUTA",
+                        "KEVIN STRANG"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 501,
                     "unsatisfactory": 1
+                }
+            },
+            "1204": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 74,
+                    "ab": 52,
+                    "b": 97,
+                    "bc": 37,
+                    "c": 34,
+                    "credit": 0,
+                    "d": 4,
+                    "f": 2,
+                    "incomplete": 0,
+                    "instructors": [
+                        "Beth Altschafl",
+                        "KEVIN STRANG"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 63,
+                    "total": 385,
+                    "unsatisfactory": 22
                 }
             },
             "1212": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 43,
-                    "ab": 20,
-                    "b": 12,
-                    "bc": 5,
-                    "c": 2,
+                    "a": 140,
+                    "ab": 65,
+                    "b": 121,
+                    "bc": 33,
+                    "c": 49,
                     "credit": 0,
-                    "d": 0,
-                    "f": 0,
+                    "d": 24,
+                    "f": 4,
                     "incomplete": 0,
                     "instructors": [
-                        "Anna Kowalkowski",
-                        "Janet Branchaw"
+                        "ANDREW LOKUTA"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
-                    "not_reported": 1,
+                    "not_reported": 0,
                     "other": 0,
                     "passed": 0,
-                    "satisfactory": 0,
-                    "total": 83,
+                    "satisfactory": 1,
+                    "total": 437,
                     "unsatisfactory": 0
                 }
             },
             "1222": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 18,
-                    "ab": 24,
-                    "b": 23,
-                    "bc": 9,
-                    "c": 6,
+                    "a": 80,
+                    "ab": 43,
+                    "b": 85,
+                    "bc": 37,
+                    "c": 86,
                     "credit": 0,
-                    "d": 1,
-                    "f": 1,
-                    "incomplete": 0,
+                    "d": 53,
+                    "f": 21,
+                    "incomplete": 1,
                     "instructors": [
-                        "Anna Kowalkowski",
-                        "Janet Branchaw"
+                        "ANDREW LOKUTA"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
                     "not_reported": 0,
-                    "other": 1,
+                    "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 83,
+                    "total": 406,
                     "unsatisfactory": 0
                 }
             },
             "1224": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 17,
-                    "ab": 15,
-                    "b": 17,
-                    "bc": 9,
-                    "c": 7,
+                    "a": 71,
+                    "ab": 26,
+                    "b": 81,
+                    "bc": 38,
+                    "c": 72,
                     "credit": 0,
-                    "d": 4,
-                    "f": 2,
+                    "d": 46,
+                    "f": 9,
                     "incomplete": 1,
                     "instructors": [
-                        "Beth Altschafl",
-                        "Janet Branchaw"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 1,
-                    "total": 73,
-                    "unsatisfactory": 0
-                }
-            },
-            "1232": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 14,
-                    "ab": 17,
-                    "b": 18,
-                    "bc": 15,
-                    "c": 9,
-                    "credit": 0,
-                    "d": 3,
-                    "f": 2,
-                    "incomplete": 0,
-                    "instructors": [
-                        "DANIEL SCHAEFER",
-                        "Janet Branchaw"
+                        "ANDREW LOKUTA"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -576,25 +890,53 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 78,
+                    "total": 344,
+                    "unsatisfactory": 0
+                }
+            },
+            "1232": {
+                "enrollment_data": null,
+                "grade_data": {
+                    "a": 183,
+                    "ab": 51,
+                    "b": 135,
+                    "bc": 34,
+                    "c": 73,
+                    "credit": 0,
+                    "d": 36,
+                    "f": 15,
+                    "incomplete": 5,
+                    "instructors": [
+                        "ANDREW LOKUTA",
+                        "GRACE LEE",
+                        "Eric WALSH"
+                    ],
+                    "no_credit": 0,
+                    "no_work": 0,
+                    "not_reported": 0,
+                    "other": 0,
+                    "passed": 0,
+                    "satisfactory": 0,
+                    "total": 532,
                     "unsatisfactory": 0
                 }
             },
             "1234": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 14,
-                    "ab": 18,
-                    "b": 16,
-                    "bc": 11,
-                    "c": 6,
+                    "a": 141,
+                    "ab": 39,
+                    "b": 84,
+                    "bc": 33,
+                    "c": 57,
                     "credit": 0,
-                    "d": 2,
-                    "f": 2,
+                    "d": 20,
+                    "f": 6,
                     "incomplete": 0,
                     "instructors": [
-                        "DANIEL SCHAEFER",
-                        "Janet Branchaw"
+                        "ANDREW LOKUTA",
+                        "GRACE LEE",
+                        "Eric WALSH"
                     ],
                     "no_credit": 0,
                     "no_work": 1,
@@ -602,24 +944,38 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 70,
+                    "total": 381,
                     "unsatisfactory": 0
                 }
             },
             "1242": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 14,
-                    "ab": 20,
-                    "b": 17,
-                    "bc": 13,
-                    "c": 10,
+                    "a": 206,
+                    "ab": 62,
+                    "b": 129,
+                    "bc": 40,
+                    "c": 67,
                     "credit": 0,
-                    "d": 0,
-                    "f": 2,
-                    "incomplete": 0,
+                    "d": 46,
+                    "f": 6,
+                    "incomplete": 1,
                     "instructors": [
-                        "Janet Branchaw"
+                        "Sophie Lindsay",
+                        "ANDREW LOKUTA",
+                        "Michael Steplyk",
+                        "KELLY KOCH",
+                        "SANDRA OSEI",
+                        "BRANDI GUETHS",
+                        "Eric WALSH",
+                        "JARED HARTUNG",
+                        "ELEANNA PANAGIOTOU",
+                        "SAREAN HARMONI GAYNOR-METZINGER",
+                        "STEVEN ARCH",
+                        "Hedyeh Khademi Motlagh",
+                        "ANGELYN BANACH",
+                        "MORGAN RACE",
+                        "JOHN CHRISTOPHER BARON"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -627,24 +983,37 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 76,
+                    "total": 557,
                     "unsatisfactory": 0
                 }
             },
             "1244": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 21,
-                    "ab": 14,
-                    "b": 22,
-                    "bc": 8,
-                    "c": 9,
+                    "a": 170,
+                    "ab": 35,
+                    "b": 112,
+                    "bc": 50,
+                    "c": 52,
                     "credit": 0,
-                    "d": 0,
-                    "f": 1,
+                    "d": 28,
+                    "f": 4,
                     "incomplete": 0,
                     "instructors": [
-                        "ANGELYN BANACH"
+                        "Sophie Lindsay",
+                        "ANDREW LOKUTA",
+                        "Michael Steplyk",
+                        "KELLY KOCH",
+                        "SANDRA OSEI",
+                        "MARIA PAUWELS",
+                        "Dong gun Jin",
+                        "BRANDI GUETHS",
+                        "OLIVIA VAN HAMMOND",
+                        "Eric WALSH",
+                        "ELEANNA PANAGIOTOU",
+                        "STEVEN ARCH",
+                        "ANGELYN BANACH",
+                        "JOHN CHRISTOPHER BARON"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -652,24 +1021,37 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 75,
+                    "total": 451,
                     "unsatisfactory": 0
                 }
             },
             "1252": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 15,
-                    "ab": 14,
-                    "b": 27,
-                    "bc": 12,
-                    "c": 5,
+                    "a": 244,
+                    "ab": 55,
+                    "b": 141,
+                    "bc": 29,
+                    "c": 63,
                     "credit": 0,
-                    "d": 2,
-                    "f": 2,
+                    "d": 28,
+                    "f": 9,
                     "incomplete": 0,
                     "instructors": [
-                        "Janet Branchaw"
+                        "ANDREW LOKUTA",
+                        "KATHLEEN MORALES",
+                        "ANDRES ORTIZ",
+                        "KELLY KOCH",
+                        "VARUN SURYAWANSHI",
+                        "SANDRA OSEI",
+                        "Michael Steplyk",
+                        "Kayla Van Asten",
+                        "Dong gun Jin",
+                        "Eric WALSH",
+                        "ELEANNA PANAGIOTOU",
+                        "ISABEL LAMPRE",
+                        "NICOLE EISENMANN",
+                        "SRINIVAS KOTTUR"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -677,22 +1059,44 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 77,
+                    "total": 569,
                     "unsatisfactory": 0
                 }
             },
-            "1262": {
+            "1256": {
                 "enrollment_data": {
                     "credit_count": [
-                        4,
-                        4
+                        5,
+                        5
                     ],
                     "ethnics_studies": false,
                     "general_education": false,
                     "instructors": {
-                        "Janet Branchaw": "BRANCHAW@WISC.EDU"
+                        "ANDREW LOKUTA": "AJLOKUTA@WISC.EDU",
+                        "Hedyeh Khademi Motlagh": "KHADEMIMOTLA@WISC.EDU",
+                        "Michael Steplyk": "MSTEPLYK@WISC.EDU",
+                        "Tingkai Qi": "TQI24@WISC.EDU"
                     },
-                    "last_taught_term": null,
+                    "last_taught_term": "2025 Summr",
+                    "school": {
+                        "abbreviation": "D",
+                        "name": "Education",
+                        "url": "http://www.education.wisc.edu/"
+                    },
+                    "typically_offered": "Fall, Spring, Summer"
+                },
+                "grade_data": null
+            },
+            "1262": {
+                "enrollment_data": {
+                    "credit_count": [
+                        5,
+                        5
+                    ],
+                    "ethnics_studies": false,
+                    "general_education": false,
+                    "instructors": {},
+                    "last_taught_term": "2025 Summr",
                     "school": {
                         "abbreviation": "D",
                         "name": "Education",
@@ -751,12 +1155,6 @@
         },
         "satisfies": [
             {
-                "course_number": 618,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            {
                 "course_number": 338,
                 "subjects": [
                     "ANAT&PHY"
@@ -764,6 +1162,12 @@
             },
             {
                 "course_number": 316,
+                "subjects": [
+                    "KINES"
+                ]
+            },
+            {
+                "course_number": 618,
                 "subjects": [
                     "KINES"
                 ]
@@ -778,6 +1182,12 @@
         "similar_courses": [
             {
                 "course_number": 699,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            {
+                "course_number": 335,
                 "subjects": [
                     "ANAT&PHY"
                 ]
@@ -799,12 +1209,6 @@
                 "subjects": [
                     "ANAT&PHY"
                 ]
-            },
-            {
-                "course_number": 335,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
             }
         ],
         "term_data": {
@@ -821,13 +1225,13 @@
                     "f": 5,
                     "incomplete": 0,
                     "instructors": [
-                        "MONICA DALECCIO",
-                        "Julie Stamm",
-                        "MCKENZIE ROWLEY",
-                        "AARON GILMOUR",
                         "JESSICA MUESBECK",
                         "Patrick HILLS-MEYER",
-                        "HALEY STEFFANUS"
+                        "AARON GILMOUR",
+                        "MONICA DALECCIO",
+                        "MCKENZIE ROWLEY",
+                        "HALEY STEFFANUS",
+                        "Julie Stamm"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -852,13 +1256,13 @@
                     "f": 3,
                     "incomplete": 0,
                     "instructors": [
-                        "MCKENZIE ROWLEY",
-                        "MONICA DALECCIO",
-                        "Julie Stamm",
-                        "AARON GILMOUR",
                         "JESSICA MUESBECK",
                         "Patrick HILLS-MEYER",
-                        "HALEY STEFFANUS"
+                        "AARON GILMOUR",
+                        "MONICA DALECCIO",
+                        "MCKENZIE ROWLEY",
+                        "HALEY STEFFANUS",
+                        "Julie Stamm"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -883,12 +1287,12 @@
                     "f": 3,
                     "incomplete": 2,
                     "instructors": [
-                        "Julie Stamm",
-                        "RALPH Nelson",
-                        "Patrick HILLS-MEYER",
-                        "LACEY GRANT",
+                        "MAYRENA HERNANDEZ",
                         "ALEXANDRA REYNOLDS",
-                        "MAYRENA HERNANDEZ"
+                        "Patrick HILLS-MEYER",
+                        "Julie Stamm",
+                        "LACEY GRANT",
+                        "RALPH Nelson"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -1142,7 +1546,9 @@
                     ],
                     "ethnics_studies": false,
                     "general_education": false,
-                    "instructors": {},
+                    "instructors": {
+                        "Eric WALSH": "EMWALSH3@WISC.EDU"
+                    },
                     "last_taught_term": "2025 Summr",
                     "school": {
                         "abbreviation": "D",
@@ -1368,8 +1774,8 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Julie Stamm",
-                        "ANDREW LOKUTA"
+                        "ANDREW LOKUTA",
+                        "Julie Stamm"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -1394,8 +1800,8 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Julie Stamm",
-                        "ANDREW LOKUTA"
+                        "ANDREW LOKUTA",
+                        "Julie Stamm"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -1470,8 +1876,8 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Julie Stamm",
                         "ANDREW LOKUTA",
+                        "Julie Stamm",
                         "Eric WALSH"
                     ],
                     "no_credit": 0,
@@ -1571,8 +1977,8 @@
             {
                 "course_number": 101,
                 "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
+                    "ZOOLOGY",
+                    "BIOLOGY"
                 ]
             },
             {
@@ -1599,23 +2005,23 @@
                                     {
                                         "course_number": 101,
                                         "subjects": [
-                                            "BIOLOGY",
-                                            "ZOOLOGY"
+                                            "ZOOLOGY",
+                                            "BIOLOGY"
                                         ]
                                     },
                                     {
                                         "course_number": 130,
                                         "subjects": [
-                                            "BIOLOGY",
-                                            "BOTANY"
+                                            "BOTANY",
+                                            "BIOLOGY"
                                         ]
                                     },
                                     {
                                         "course_number": 151,
                                         "subjects": [
-                                            "BIOLOGY",
                                             "BOTANY",
-                                            "ZOOLOGY"
+                                            "ZOOLOGY",
+                                            "BIOLOGY"
                                         ]
                                     },
                                     {
@@ -1694,6 +2100,21 @@
             },
             "course_references": [
                 {
+                    "course_number": 151,
+                    "subjects": [
+                        "BOTANY",
+                        "ZOOLOGY",
+                        "BIOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 101,
+                    "subjects": [
+                        "ZOOLOGY",
+                        "BIOLOGY"
+                    ]
+                },
+                {
                     "course_number": 103,
                     "subjects": [
                         "PHYSICS"
@@ -1706,15 +2127,9 @@
                     ]
                 },
                 {
-                    "course_number": 108,
+                    "course_number": 109,
                     "subjects": [
                         "CHEM"
-                    ]
-                },
-                {
-                    "course_number": 201,
-                    "subjects": [
-                        "PHYSICS"
                     ]
                 },
                 {
@@ -1724,35 +2139,32 @@
                     ]
                 },
                 {
+                    "course_number": 207,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
                     "course_number": 153,
                     "subjects": [
                         "ZOOLOGY"
                     ]
                 },
                 {
+                    "course_number": 201,
+                    "subjects": [
+                        "PHYSICS"
+                    ]
+                },
+                {
                     "course_number": 130,
                     "subjects": [
-                        "BIOLOGY",
-                        "BOTANY"
-                    ]
-                },
-                {
-                    "course_number": 151,
-                    "subjects": [
-                        "BIOLOGY",
                         "BOTANY",
-                        "ZOOLOGY"
+                        "BIOLOGY"
                     ]
                 },
                 {
-                    "course_number": 101,
-                    "subjects": [
-                        "BIOLOGY",
-                        "ZOOLOGY"
-                    ]
-                },
-                {
-                    "course_number": 109,
+                    "course_number": 108,
                     "subjects": [
                         "CHEM"
                     ]
@@ -1761,12 +2173,6 @@
                     "course_number": 103,
                     "subjects": [
                         "CHEM"
-                    ]
-                },
-                {
-                    "course_number": 207,
-                    "subjects": [
-                        "PHYSICS"
                     ]
                 }
             ],
@@ -1783,8 +2189,8 @@
                 {
                     "course_number": 130,
                     "subjects": [
-                        "BIOLOGY",
-                        "BOTANY"
+                        "BOTANY",
+                        "BIOLOGY"
                     ]
                 },
                 ", ",
@@ -1865,31 +2271,15 @@
         },
         "satisfies": [
             {
-                "course_number": 523,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            {
                 "course_number": 521,
                 "subjects": [
                     "PHMSCI"
                 ]
             },
             {
-                "course_number": 625,
+                "course_number": 335,
                 "subjects": [
-                    "PHMCOL-M",
-                    "PHMSCI",
-                    "POPHLTH",
-                    "M&ENVTOX",
-                    "ONCOLOGY"
-                ]
-            },
-            {
-                "course_number": 629,
-                "subjects": [
-                    "NEURODPT"
+                    "ANAT&PHY"
                 ]
             },
             {
@@ -1899,9 +2289,25 @@
                 ]
             },
             {
-                "course_number": 335,
+                "course_number": 625,
                 "subjects": [
-                    "ANAT&PHY"
+                    "PHMCOL-M",
+                    "POPHLTH",
+                    "ONCOLOGY",
+                    "PHMSCI",
+                    "M&ENVTOX"
+                ]
+            },
+            {
+                "course_number": 629,
+                "subjects": [
+                    "NEURODPT"
+                ]
+            },
+            {
+                "course_number": 523,
+                "subjects": [
+                    "KINES"
                 ]
             }
         ],
@@ -1913,7 +2319,7 @@
                 ]
             },
             {
-                "course_number": 235,
+                "course_number": 335,
                 "subjects": [
                     "ANAT&PHY"
                 ]
@@ -1931,7 +2337,7 @@
                 ]
             },
             {
-                "course_number": 335,
+                "course_number": 235,
                 "subjects": [
                     "ANAT&PHY"
                 ]
@@ -1951,8 +2357,8 @@
                     "f": 4,
                     "incomplete": 2,
                     "instructors": [
-                        "ANDREW LOKUTA",
-                        "Beth Altschafl"
+                        "Beth Altschafl",
+                        "ANDREW LOKUTA"
                     ],
                     "no_credit": 0,
                     "no_work": 2,
@@ -1977,8 +2383,8 @@
                     "f": 0,
                     "incomplete": 1,
                     "instructors": [
-                        "ANDREW LOKUTA",
-                        "Beth Altschafl"
+                        "Beth Altschafl",
+                        "ANDREW LOKUTA"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2003,10 +2409,10 @@
                     "f": 4,
                     "incomplete": 0,
                     "instructors": [
-                        "ANDREW LOKUTA",
                         "Beth Altschafl",
-                        "JESSICA BERG",
-                        "NICOLE EISENMANN"
+                        "ANDREW LOKUTA",
+                        "NICOLE EISENMANN",
+                        "JESSICA BERG"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2169,6 +2575,12 @@
                 ]
             },
             {
+                "course_number": 335,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            {
                 "course_number": 337,
                 "subjects": [
                     "ANAT&PHY"
@@ -2182,12 +2594,6 @@
             },
             {
                 "course_number": 435,
-                "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 335,
                 "subjects": [
                     "ANAT&PHY"
                 ]
@@ -2207,15 +2613,15 @@
                     "f": 1,
                     "incomplete": 0,
                     "instructors": [
-                        "TAYLOR LEVIN",
-                        "JACOB NINNEMAN",
-                        "Julie Stamm",
                         "CONNOR KARWOWSKI",
-                        "MEGAN GRAY",
+                        "JACOB NINNEMAN",
                         "Patrick HILLS-MEYER",
+                        "TAYLOR LEVIN",
                         "ANNIE STONE",
-                        "MEAGHAN LEIGHTON",
+                        "Julie Stamm",
                         "JENNA SHERMAN",
+                        "MEGAN GRAY",
+                        "MEAGHAN LEIGHTON",
                         "AMANDA BIRD"
                     ],
                     "no_credit": 0,
@@ -2241,15 +2647,15 @@
                     "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "JACOB NINNEMAN",
-                        "Julie Stamm",
                         "CONNOR KARWOWSKI",
-                        "MEGAN GRAY",
+                        "JACOB NINNEMAN",
                         "Patrick HILLS-MEYER",
+                        "Julie Stamm",
                         "ANNIE STONE",
-                        "JENNY BARTLOFF",
-                        "MEAGHAN LEIGHTON",
                         "JENNA SHERMAN",
+                        "MEGAN GRAY",
+                        "MEAGHAN LEIGHTON",
+                        "JENNY BARTLOFF",
                         "AMANDA BIRD"
                     ],
                     "no_credit": 0,
@@ -2276,15 +2682,15 @@
                     "incomplete": 0,
                     "instructors": [
                         "JACOB NINNEMAN",
-                        "Julie Stamm",
-                        "MEGAN GRAY",
                         "Patrick HILLS-MEYER",
-                        "VICTORIA NOTHNAGEL",
-                        "SABRINA KABAKOV",
-                        "SHANDA EDSALL",
+                        "MEGAN GRAY",
                         "MOLLY UMANA",
-                        "MEAGHAN LEIGHTON",
-                        "NICOLE EISENMANN"
+                        "Julie Stamm",
+                        "SABRINA KABAKOV",
+                        "NICOLE EISENMANN",
+                        "VICTORIA NOTHNAGEL",
+                        "SHANDA EDSALL",
+                        "MEAGHAN LEIGHTON"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2310,14 +2716,14 @@
                     "incomplete": 0,
                     "instructors": [
                         "JACOB NINNEMAN",
-                        "Julie Stamm",
-                        "MEGAN GRAY",
                         "Patrick HILLS-MEYER",
-                        "VICTORIA NOTHNAGEL",
-                        "RALPH Nelson",
-                        "TAYLOR DEGROOT",
-                        "SHANDA EDSALL",
                         "MOLLY UMANA",
+                        "Julie Stamm",
+                        "VICTORIA NOTHNAGEL",
+                        "TAYLOR DEGROOT",
+                        "RALPH Nelson",
+                        "MEGAN GRAY",
+                        "SHANDA EDSALL",
                         "MEAGHAN LEIGHTON"
                     ],
                     "no_credit": 0,
@@ -2343,16 +2749,16 @@
                     "f": 3,
                     "incomplete": 2,
                     "instructors": [
+                        "DANIEL SCHAEFER",
                         "JACOB NINNEMAN",
-                        "Julie Stamm",
                         "Patrick HILLS-MEYER",
+                        "LUCY BERGENTHAL",
+                        "MOLLY UMANA",
+                        "EMILY SKALETSKI",
+                        "Julie Stamm",
                         "RALPH Nelson",
                         "VICTORIA NOTHNAGEL",
-                        "LUCY BERGENTHAL",
-                        "EMILY SKALETSKI",
-                        "SHANDA EDSALL",
-                        "MOLLY UMANA",
-                        "DANIEL SCHAEFER"
+                        "SHANDA EDSALL"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2377,16 +2783,16 @@
                     "f": 1,
                     "incomplete": 0,
                     "instructors": [
+                        "MARGARET CONNERS",
+                        "MADI SEHMER",
+                        "UMAIMA MOHAMMED SAED",
+                        "Patrick HILLS-MEYER",
                         "QUENTEN HAACK",
+                        "GREGORY MCCLAIN",
                         "Julie Stamm",
                         "DANIEL DEUEL",
                         "RALPH Nelson",
-                        "Patrick HILLS-MEYER",
-                        "GREGORY MCCLAIN",
-                        "UMAIMA MOHAMMED SAED",
-                        "MARGARET CONNERS",
-                        "ASHLYN BARRY",
-                        "MADI SEHMER"
+                        "ASHLYN BARRY"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2411,16 +2817,16 @@
                     "f": 5,
                     "incomplete": 0,
                     "instructors": [
+                        "MARGARET CONNERS",
+                        "MADI SEHMER",
+                        "UMAIMA MOHAMMED SAED",
+                        "Patrick HILLS-MEYER",
                         "QUENTEN HAACK",
+                        "GREGORY MCCLAIN",
                         "Julie Stamm",
                         "DANIEL DEUEL",
                         "RALPH Nelson",
-                        "Patrick HILLS-MEYER",
-                        "GREGORY MCCLAIN",
-                        "UMAIMA MOHAMMED SAED",
-                        "ASHLYN BARRY",
-                        "MARGARET CONNERS",
-                        "MADI SEHMER"
+                        "ASHLYN BARRY"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2445,15 +2851,15 @@
                     "f": 1,
                     "incomplete": 1,
                     "instructors": [
-                        "QUENTEN HAACK",
-                        "Julie Stamm",
-                        "RALPH Nelson",
-                        "STEPHANIE CHENG",
-                        "Eric WALSH",
-                        "JOANNA HAGAN",
-                        "BRADEN JORENBY",
                         "MARGARET CONNERS",
                         "MADI SEHMER",
+                        "BRADEN JORENBY",
+                        "STEPHANIE CHENG",
+                        "QUENTEN HAACK",
+                        "Julie Stamm",
+                        "Eric WALSH",
+                        "RALPH Nelson",
+                        "JOANNA HAGAN",
                         "EMILY SRYGLER"
                     ],
                     "no_credit": 0,
@@ -2479,17 +2885,17 @@
                     "f": 2,
                     "incomplete": 1,
                     "instructors": [
-                        "QUENTEN HAACK",
-                        "Julie Stamm",
-                        "RALPH Nelson",
-                        "STEPHANIE CHENG",
-                        "Eric WALSH",
-                        "JOANNA HAGAN",
-                        "BRADEN JORENBY",
                         "MARGARET CONNERS",
                         "MADI SEHMER",
+                        "DANIEL SCHAEFER",
+                        "STEPHANIE CHENG",
+                        "QUENTEN HAACK",
+                        "Julie Stamm",
+                        "Eric WALSH",
                         "EMILY SRYGLER",
-                        "DANIEL SCHAEFER"
+                        "RALPH Nelson",
+                        "JOANNA HAGAN",
+                        "BRADEN JORENBY"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2514,16 +2920,16 @@
                     "f": 3,
                     "incomplete": 0,
                     "instructors": [
+                        "MADI SEHMER",
+                        "STEPH ADLER",
+                        "STEPHANIE CHENG",
+                        "EMME AUDLEY",
+                        "JESSICA VLISIDES",
+                        "Eric WALSH",
+                        "ALEXANDER MENDENHALL",
                         "Julie Stamm",
                         "GRACE BRANCHAW",
-                        "STEPH ADLER",
-                        "Eric WALSH",
-                        "STEPHANIE CHENG",
-                        "ALEXANDER MENDENHALL",
-                        "MADI SEHMER",
-                        "EMILY SRYGLER",
-                        "EMME AUDLEY",
-                        "JESSICA VLISIDES"
+                        "EMILY SRYGLER"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2548,17 +2954,17 @@
                     "f": 2,
                     "incomplete": 1,
                     "instructors": [
-                        "JILLIAN WESTON",
-                        "GRACE BRANCHAW",
-                        "Julie Stamm",
-                        "STEPHANIE CHENG",
                         "ANDREA HEILE",
                         "STEPH ADLER",
+                        "STEPHANIE CHENG",
+                        "JESSICA CABADING",
+                        "EMME AUDLEY",
+                        "Julie Stamm",
                         "Eric WALSH",
                         "ALEXANDER MENDENHALL",
-                        "EMILY SRYGLER",
-                        "EMME AUDLEY",
-                        "JESSICA CABADING"
+                        "GRACE BRANCHAW",
+                        "JILLIAN WESTON",
+                        "EMILY SRYGLER"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2583,16 +2989,16 @@
                     "f": 5,
                     "incomplete": 0,
                     "instructors": [
-                        "JOHN GIDLEY",
-                        "JILLIAN WESTON",
-                        "GRACE BRANCHAW",
-                        "Julie Stamm",
-                        "RAWAN ALNAHRAWI",
                         "ANDREA HEILE",
-                        "ALEXANDER MENDENHALL",
+                        "JOHN GIDLEY",
                         "SHANIA KELLY",
+                        "KRISTA BENASSI",
                         "EMME AUDLEY",
-                        "KRISTA BENASSI"
+                        "Julie Stamm",
+                        "ALEXANDER MENDENHALL",
+                        "GRACE BRANCHAW",
+                        "RAWAN ALNAHRAWI",
+                        "JILLIAN WESTON"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -2648,279 +3054,48 @@
     },
     {
         "course_reference": {
-            "course_number": 335,
+            "course_number": 235,
             "subjects": [
                 "ANAT&PHY"
             ]
         },
-        "course_title": "PHYSIOLOGY",
+        "course_title": "HUMAN PHYSIOLOGY AND HEALTH",
         "cumulative_grade_data": {
-            "a": 1625,
-            "ab": 594,
-            "b": 1327,
-            "bc": 472,
-            "c": 806,
+            "a": 192,
+            "ab": 172,
+            "b": 194,
+            "bc": 104,
+            "c": 63,
             "credit": 0,
-            "d": 379,
-            "f": 121,
-            "incomplete": 11,
+            "d": 14,
+            "f": 13,
+            "incomplete": 1,
             "instructors": null,
             "no_credit": 0,
             "no_work": 1,
-            "not_reported": 0,
-            "other": 0,
+            "not_reported": 1,
+            "other": 1,
             "passed": 0,
-            "satisfactory": 68,
-            "total": 5427,
-            "unsatisfactory": 23
+            "satisfactory": 6,
+            "total": 763,
+            "unsatisfactory": 1
         },
-        "description": "Core concepts in human physiology from cells to organ-systems via online lectures and active learning activities including laboratory experiments. Topics include homeostasis, membrane transport, cellular physiology, regulation of metabolism, and functions of the nervous, endocrine, muscular, reproductive, cardiovascular, respiratory, renal, and gastrointestinal system.",
+        "description": "Learn basic physiological concepts, apply them to understand human health and disease, and link them to broader core concepts in biology. Complete a project that applies conceptual understanding of general biology and physiology to investigate and create informational materials for the public about a disease or health promotion strategy. The foundational knowledge covered serves those interested in health sciences majors, as well as non-science students interested in life-long health.",
         "keywords": [
-            "metabolism functions",
-            "cells organ",
-            "homeostasis",
-            "organ systems",
-            "physiology regulation"
+            "human health",
+            "health promotion",
+            "biology physiology",
+            "concepts biology",
+            "health sciences"
         ],
-        "optimized_prerequisites": [
-            {
-                "course_number": 101,
-                "subjects": [
-                    "BIOLOGY",
-                    "ZOOLOGY"
-                ]
-            },
-            {
-                "course_number": 109,
-                "subjects": [
-                    "CHEM"
-                ]
-            }
-        ],
+        "optimized_prerequisites": null,
         "prerequisites": {
-            "abstract_syntax_tree": {
-                "children": [
-                    {
-                        "children": [
-                            "Sophomore standing",
-                            {
-                                "children": [
-                                    {
-                                        "course_number": 101,
-                                        "subjects": [
-                                            "BIOLOGY",
-                                            "ZOOLOGY"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 130,
-                                        "subjects": [
-                                            "BIOLOGY",
-                                            "BOTANY"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 151,
-                                        "subjects": [
-                                            "BIOLOGY",
-                                            "BOTANY",
-                                            "ZOOLOGY"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 153,
-                                        "subjects": [
-                                            "ZOOLOGY"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 381,
-                                        "subjects": [
-                                            "BIOCORE"
-                                        ]
-                                    }
-                                ],
-                                "operator": "OR"
-                            },
-                            {
-                                "children": [
-                                    {
-                                        "course_number": 103,
-                                        "subjects": [
-                                            "CHEM"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 108,
-                                        "subjects": [
-                                            "CHEM"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 109,
-                                        "subjects": [
-                                            "CHEM"
-                                        ]
-                                    },
-                                    {
-                                        "course_number": 115,
-                                        "subjects": [
-                                            "CHEM"
-                                        ]
-                                    }
-                                ],
-                                "operator": "OR"
-                            }
-                        ],
-                        "operator": "AND"
-                    },
-                    "graduate/professional standing."
-                ],
-                "operator": "OR"
-            },
-            "course_references": [
-                {
-                    "course_number": 381,
-                    "subjects": [
-                        "BIOCORE"
-                    ]
-                },
-                {
-                    "course_number": 435,
-                    "subjects": [
-                        "ANAT&PHY"
-                    ]
-                },
-                {
-                    "course_number": 108,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                {
-                    "course_number": 115,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                {
-                    "course_number": 153,
-                    "subjects": [
-                        "ZOOLOGY"
-                    ]
-                },
-                {
-                    "course_number": 130,
-                    "subjects": [
-                        "BIOLOGY",
-                        "BOTANY"
-                    ]
-                },
-                {
-                    "course_number": 151,
-                    "subjects": [
-                        "BIOLOGY",
-                        "BOTANY",
-                        "ZOOLOGY"
-                    ]
-                },
-                {
-                    "course_number": 101,
-                    "subjects": [
-                        "BIOLOGY",
-                        "ZOOLOGY"
-                    ]
-                },
-                {
-                    "course_number": 109,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                {
-                    "course_number": 103,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                }
-            ],
+            "abstract_syntax_tree": "None",
+            "course_references": [],
             "linked_requisite_text": [
-                "Sophomore standing, (",
-                {
-                    "course_number": 101,
-                    "subjects": [
-                        "BIOLOGY",
-                        "ZOOLOGY"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 130,
-                    "subjects": [
-                        "BIOLOGY",
-                        "BOTANY"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 151,
-                    "subjects": [
-                        "BIOLOGY",
-                        "BOTANY",
-                        "ZOOLOGY"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 153,
-                    "subjects": [
-                        "ZOOLOGY"
-                    ]
-                },
-                " or ",
-                {
-                    "course_number": 381,
-                    "subjects": [
-                        "BIOCORE"
-                    ]
-                },
-                ") and (",
-                {
-                    "course_number": 103,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 108,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                ", ",
-                {
-                    "course_number": 109,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                " or ",
-                {
-                    "course_number": 115,
-                    "subjects": [
-                        "CHEM"
-                    ]
-                },
-                "), or graduate/professional standing. Not open to students with credit for PHYSIOL 435 or ",
-                {
-                    "course_number": 435,
-                    "subjects": [
-                        "ANAT&PHY"
-                    ]
-                }
+                "None"
             ],
-            "prerequisites_text": "Sophomore standing, (ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101,BOTANY/\u200bBIOLOGY\u00a0\u00a0130,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY\u00a0153orBIOCORE\u00a0381) and (CHEM\u00a0103,108,109or115), or graduate/professional standing. Not open to students with credit for PHYSIOL 435 orANAT&PHY\u00a0435"
+            "prerequisites_text": "None"
         },
         "satisfies": [
             {
@@ -2928,76 +3103,23 @@
                 "subjects": [
                     "KINES"
                 ]
-            },
-            {
-                "course_number": 521,
-                "subjects": [
-                    "PHMSCI"
-                ]
-            },
-            {
-                "course_number": 427,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            {
-                "course_number": 625,
-                "subjects": [
-                    "PHMCOL-M",
-                    "PHMSCI",
-                    "POPHLTH",
-                    "M&ENVTOX",
-                    "ONCOLOGY"
-                ]
-            },
-            {
-                "course_number": 629,
-                "subjects": [
-                    "NEURODPT"
-                ]
-            },
-            {
-                "course_number": 675,
-                "subjects": [
-                    "NUTRSCI"
-                ]
-            },
-            {
-                "course_number": 581,
-                "subjects": [
-                    "PHMSCI"
-                ]
-            },
-            {
-                "course_number": 431,
-                "subjects": [
-                    "NUTRSCI"
-                ]
-            },
-            {
-                "course_number": 314,
-                "subjects": [
-                    "KINES"
-                ]
-            },
-            {
-                "course_number": 525,
-                "subjects": [
-                    "NUTRSCI",
-                    "KINES"
-                ]
             }
         ],
         "similar_courses": [
             {
-                "course_number": 235,
+                "course_number": 699,
                 "subjects": [
                     "ANAT&PHY"
                 ]
             },
             {
-                "course_number": 337,
+                "course_number": 335,
+                "subjects": [
+                    "ANAT&PHY"
+                ]
+            },
+            {
+                "course_number": 399,
                 "subjects": [
                     "ANAT&PHY"
                 ]
@@ -3009,35 +3131,28 @@
                 ]
             },
             {
-                "course_number": 338,
+                "course_number": 485,
                 "subjects": [
-                    "ANAT&PHY"
-                ]
-            },
-            {
-                "course_number": 675,
-                "subjects": [
-                    "NEURODPT"
+                    "BIOCORE"
                 ]
             }
         ],
         "term_data": {
-            "1192": {
+            "1202": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 114,
-                    "ab": 59,
-                    "b": 111,
-                    "bc": 55,
-                    "c": 74,
+                    "a": 22,
+                    "ab": 20,
+                    "b": 15,
+                    "bc": 19,
+                    "c": 7,
                     "credit": 0,
-                    "d": 30,
-                    "f": 16,
+                    "d": 2,
+                    "f": 1,
                     "incomplete": 0,
                     "instructors": [
-                        "ANDREW LOKUTA",
-                        "KEVIN STRANG",
-                        "GRACE LEE"
+                        "Morgan Shields",
+                        "Janet Branchaw"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3045,179 +3160,129 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 1,
-                    "total": 460,
+                    "total": 87,
                     "unsatisfactory": 0
-                }
-            },
-            "1194": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 84,
-                    "ab": 48,
-                    "b": 105,
-                    "bc": 31,
-                    "c": 91,
-                    "credit": 0,
-                    "d": 25,
-                    "f": 17,
-                    "incomplete": 0,
-                    "instructors": [
-                        "Beth Altschafl",
-                        "KEVIN STRANG"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 3,
-                    "total": 404,
-                    "unsatisfactory": 0
-                }
-            },
-            "1202": {
-                "enrollment_data": null,
-                "grade_data": {
-                    "a": 118,
-                    "ab": 59,
-                    "b": 126,
-                    "bc": 55,
-                    "c": 88,
-                    "credit": 0,
-                    "d": 39,
-                    "f": 12,
-                    "incomplete": 3,
-                    "instructors": [
-                        "ANDREW LOKUTA",
-                        "KEVIN STRANG"
-                    ],
-                    "no_credit": 0,
-                    "no_work": 0,
-                    "not_reported": 0,
-                    "other": 0,
-                    "passed": 0,
-                    "satisfactory": 0,
-                    "total": 501,
-                    "unsatisfactory": 1
                 }
             },
             "1204": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 74,
-                    "ab": 52,
-                    "b": 97,
-                    "bc": 37,
-                    "c": 34,
+                    "a": 14,
+                    "ab": 10,
+                    "b": 27,
+                    "bc": 3,
+                    "c": 2,
                     "credit": 0,
-                    "d": 4,
-                    "f": 2,
+                    "d": 0,
+                    "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "Beth Altschafl",
-                        "KEVIN STRANG"
+                        "CAITLIN MURPHY",
+                        "Janet Branchaw"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
                     "not_reported": 0,
                     "other": 0,
                     "passed": 0,
-                    "satisfactory": 63,
-                    "total": 385,
-                    "unsatisfactory": 22
+                    "satisfactory": 4,
+                    "total": 61,
+                    "unsatisfactory": 1
                 }
             },
             "1212": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 140,
-                    "ab": 65,
-                    "b": 121,
-                    "bc": 33,
-                    "c": 49,
+                    "a": 43,
+                    "ab": 20,
+                    "b": 12,
+                    "bc": 5,
+                    "c": 2,
                     "credit": 0,
-                    "d": 24,
-                    "f": 4,
+                    "d": 0,
+                    "f": 0,
                     "incomplete": 0,
                     "instructors": [
-                        "ANDREW LOKUTA"
+                        "Janet Branchaw",
+                        "Anna Kowalkowski"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
-                    "not_reported": 0,
+                    "not_reported": 1,
                     "other": 0,
                     "passed": 0,
-                    "satisfactory": 1,
-                    "total": 437,
+                    "satisfactory": 0,
+                    "total": 83,
                     "unsatisfactory": 0
                 }
             },
             "1222": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 80,
-                    "ab": 43,
-                    "b": 85,
-                    "bc": 37,
-                    "c": 86,
+                    "a": 18,
+                    "ab": 24,
+                    "b": 23,
+                    "bc": 9,
+                    "c": 6,
                     "credit": 0,
-                    "d": 53,
-                    "f": 21,
-                    "incomplete": 1,
+                    "d": 1,
+                    "f": 1,
+                    "incomplete": 0,
                     "instructors": [
-                        "ANDREW LOKUTA"
+                        "Janet Branchaw",
+                        "Anna Kowalkowski"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
                     "not_reported": 0,
-                    "other": 0,
+                    "other": 1,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 406,
+                    "total": 83,
                     "unsatisfactory": 0
                 }
             },
             "1224": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 71,
-                    "ab": 26,
-                    "b": 81,
-                    "bc": 38,
-                    "c": 72,
+                    "a": 17,
+                    "ab": 15,
+                    "b": 17,
+                    "bc": 9,
+                    "c": 7,
                     "credit": 0,
-                    "d": 46,
-                    "f": 9,
+                    "d": 4,
+                    "f": 2,
                     "incomplete": 1,
                     "instructors": [
-                        "ANDREW LOKUTA"
+                        "Beth Altschafl",
+                        "Janet Branchaw"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
                     "not_reported": 0,
                     "other": 0,
                     "passed": 0,
-                    "satisfactory": 0,
-                    "total": 344,
+                    "satisfactory": 1,
+                    "total": 73,
                     "unsatisfactory": 0
                 }
             },
             "1232": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 183,
-                    "ab": 51,
-                    "b": 135,
-                    "bc": 34,
-                    "c": 73,
+                    "a": 14,
+                    "ab": 17,
+                    "b": 18,
+                    "bc": 15,
+                    "c": 9,
                     "credit": 0,
-                    "d": 36,
-                    "f": 15,
-                    "incomplete": 5,
+                    "d": 3,
+                    "f": 2,
+                    "incomplete": 0,
                     "instructors": [
-                        "ANDREW LOKUTA",
-                        "Eric WALSH",
-                        "GRACE LEE"
+                        "DANIEL SCHAEFER",
+                        "Janet Branchaw"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3225,26 +3290,25 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 532,
+                    "total": 78,
                     "unsatisfactory": 0
                 }
             },
             "1234": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 141,
-                    "ab": 39,
-                    "b": 84,
-                    "bc": 33,
-                    "c": 57,
+                    "a": 14,
+                    "ab": 18,
+                    "b": 16,
+                    "bc": 11,
+                    "c": 6,
                     "credit": 0,
-                    "d": 20,
-                    "f": 6,
+                    "d": 2,
+                    "f": 2,
                     "incomplete": 0,
                     "instructors": [
-                        "ANDREW LOKUTA",
-                        "Eric WALSH",
-                        "GRACE LEE"
+                        "DANIEL SCHAEFER",
+                        "Janet Branchaw"
                     ],
                     "no_credit": 0,
                     "no_work": 1,
@@ -3252,38 +3316,24 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 381,
+                    "total": 70,
                     "unsatisfactory": 0
                 }
             },
             "1242": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 206,
-                    "ab": 62,
-                    "b": 129,
-                    "bc": 40,
-                    "c": 67,
+                    "a": 14,
+                    "ab": 20,
+                    "b": 17,
+                    "bc": 13,
+                    "c": 10,
                     "credit": 0,
-                    "d": 46,
-                    "f": 6,
-                    "incomplete": 1,
+                    "d": 0,
+                    "f": 2,
+                    "incomplete": 0,
                     "instructors": [
-                        "Hedyeh Khademi Motlagh",
-                        "MORGAN RACE",
-                        "STEVEN ARCH",
-                        "KELLY KOCH",
-                        "ELEANNA PANAGIOTOU",
-                        "SAREAN HARMONI GAYNOR-METZINGER",
-                        "Eric WALSH",
-                        "JOHN CHRISTOPHER BARON",
-                        "SOPHIE LINDSAY",
-                        "ANDREW LOKUTA",
-                        "ANGELYN BANACH",
-                        "JARED HARTUNG",
-                        "Michael Steplyk",
-                        "BRANDI GUETHS",
-                        "SANDRA OSEI"
+                        "Janet Branchaw"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3291,37 +3341,24 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 557,
+                    "total": 76,
                     "unsatisfactory": 0
                 }
             },
             "1244": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 170,
-                    "ab": 35,
-                    "b": 112,
-                    "bc": 50,
-                    "c": 52,
+                    "a": 21,
+                    "ab": 14,
+                    "b": 22,
+                    "bc": 8,
+                    "c": 9,
                     "credit": 0,
-                    "d": 28,
-                    "f": 4,
+                    "d": 0,
+                    "f": 1,
                     "incomplete": 0,
                     "instructors": [
-                        "STEVEN ARCH",
-                        "KELLY KOCH",
-                        "ELEANNA PANAGIOTOU",
-                        "MARIA PAUWELS",
-                        "Eric WALSH",
-                        "JOHN CHRISTOPHER BARON",
-                        "SOPHIE LINDSAY",
-                        "ANDREW LOKUTA",
-                        "OLIVIA VAN HAMMOND",
-                        "DONG GUN JIN",
-                        "ANGELYN BANACH",
-                        "Michael Steplyk",
-                        "BRANDI GUETHS",
-                        "SANDRA OSEI"
+                        "ANGELYN BANACH"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3329,37 +3366,24 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 451,
+                    "total": 75,
                     "unsatisfactory": 0
                 }
             },
             "1252": {
                 "enrollment_data": null,
                 "grade_data": {
-                    "a": 244,
-                    "ab": 55,
-                    "b": 141,
-                    "bc": 29,
-                    "c": 63,
+                    "a": 15,
+                    "ab": 14,
+                    "b": 27,
+                    "bc": 12,
+                    "c": 5,
                     "credit": 0,
-                    "d": 28,
-                    "f": 9,
+                    "d": 2,
+                    "f": 2,
                     "incomplete": 0,
                     "instructors": [
-                        "SRINIVAS KOTTUR",
-                        "ANDRES ORTIZ",
-                        "KELLY KOCH",
-                        "KATHLEEN MORALES",
-                        "ELEANNA PANAGIOTOU",
-                        "Eric WALSH",
-                        "ISABEL LAMPRE",
-                        "ANDREW LOKUTA",
-                        "DONG GUN JIN",
-                        "Kayla Van Asten",
-                        "NICOLE EISENMANN",
-                        "Michael Steplyk",
-                        "SANDRA OSEI",
-                        "VARUN SURYAWANSHI"
+                        "Janet Branchaw"
                     ],
                     "no_credit": 0,
                     "no_work": 0,
@@ -3367,44 +3391,22 @@
                     "other": 0,
                     "passed": 0,
                     "satisfactory": 0,
-                    "total": 569,
+                    "total": 77,
                     "unsatisfactory": 0
                 }
-            },
-            "1256": {
-                "enrollment_data": {
-                    "credit_count": [
-                        5,
-                        5
-                    ],
-                    "ethnics_studies": false,
-                    "general_education": false,
-                    "instructors": {
-                        "ANDREW LOKUTA": "AJLOKUTA@WISC.EDU",
-                        "Hedyeh Khademi Motlagh": "KHADEMIMOTLA@WISC.EDU",
-                        "Michael Steplyk": "MSTEPLYK@WISC.EDU",
-                        "Tingkai Qi": "TQI24@WISC.EDU"
-                    },
-                    "last_taught_term": "2025 Summr",
-                    "school": {
-                        "abbreviation": "D",
-                        "name": "Education",
-                        "url": "http://www.education.wisc.edu/"
-                    },
-                    "typically_offered": "Fall, Spring, Summer"
-                },
-                "grade_data": null
             },
             "1262": {
                 "enrollment_data": {
                     "credit_count": [
-                        5,
-                        5
+                        4,
+                        4
                     ],
                     "ethnics_studies": false,
                     "general_education": false,
-                    "instructors": {},
-                    "last_taught_term": "2025 Summr",
+                    "instructors": {
+                        "Janet Branchaw": "BRANCHAW@WISC.EDU"
+                    },
+                    "last_taught_term": null,
                     "school": {
                         "abbreviation": "D",
                         "name": "Education",
