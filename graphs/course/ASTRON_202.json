@@ -1,0 +1,146 @@
+[
+    {
+        "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
+            "description": "Calculus-based introduction to physics intended for Physics, AMEP, and Astronomy-Physics majors. Mechanics, waves, thermodynamics and statistical mechanics, topics in modern physics; with computation.  A more mathematically rigorous and in-depth introduction to physics than the other introductory physics sequences.",
+            "id": "PHYSICS 247",
+            "parent": "PHYSICS",
+            "title": "A MODERN INTRODUCTION TO PHYSICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
+            "id": "MATH 96",
+            "parent": "MATH",
+            "title": "PREPARATORY ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Learn the basic tools necessary to conduct research in astronomy.  Explore the programming techniques employed in astrophysical research, with a focus on the Python programming language and associated packages that are most often used in astronomy.",
+            "id": "ASTRON 202",
+            "parent": "ASTRON",
+            "title": "INTRODUCTION TO ASTRONOMY RESEARCH"
+        }
+    },
+    {
+        "data": {
+            "description": "Modern astrophysics involves applying physical principles to understand astronomical phenomena. Includes the solar system, stars, nebulae, galaxies, and cosmology, with emphasis on origins and evolution. Some nighttime observation with telescopes required.",
+            "id": "ASTRON 200",
+            "parent": "ASTRON",
+            "title": "THE PHYSICAL UNIVERSE"
+        }
+    },
+    {
+        "data": {
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
+            "id": "MATH 112",
+            "parent": "MATH",
+            "title": "COLLEGE ALGEBRA"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "description": "The cosmos is vast, mysterious, and beautiful. Join us on an exploration of the universe, from the big bang to the birth, life, and death of stars and the warped reality of black holes. Includes lifecycles of stars; supernovae and creation of elements; white dwarfs, pulsars and black holes; the Milky Way and galaxies; distances of stars and galaxies; quasars; expansion of universe; modern big bang cosmology, dark matter, dark energy.",
+            "id": "ASTRON 103",
+            "parent": "ASTRON",
+            "title": "THE EVOLVING UNIVERSE: STARS, GALAXIES, AND COSMOLOGY"
+        }
+    },
+    {
+        "data": {
+            "id": "ASTRON",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "MATH",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "PHYSICS",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "ASTRON 103",
+            "target": "ASTRON 202"
+        }
+    },
+    {
+        "data": {
+            "source": "ASTRON 200",
+            "target": "ASTRON 103"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 113"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "PHYSICS 247"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 96",
+            "target": "MATH 112"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 247",
+            "target": "ASTRON 200"
+        }
+    }
+]

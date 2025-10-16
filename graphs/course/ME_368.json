@@ -73,6 +73,14 @@
     },
     {
         "data": {
+            "description": "Kinematics, force-mass-acceleration relations, work and energy, impulse and momentum, moments of inertia and mass.",
+            "id": "EMA 202",
+            "parent": "EMA",
+            "title": "DYNAMICS"
+        }
+    },
+    {
+        "data": {
             "description": "Mathematical modeling and analysis of dynamic systems with mechanical, thermal, and fluid elements. Topics: time domain solutions, analog computer simulation, linearization techniques, block diagram representation, numerical methods and frequency domain solutions. Students are assumed to have basic competence in particle and planar rigid body dynamics, matrix and vector algebra, and linear differential equations.",
             "id": "ME 340",
             "parent": "ME",
@@ -93,14 +101,6 @@
             "id": "MATH 112",
             "parent": "MATH",
             "title": "COLLEGE ALGEBRA"
-        }
-    },
-    {
-        "data": {
-            "description": "Rectilinear and curvilinear motion of a particle; force, mass, acceleration; work, potential, and kinetic energy; impulse and momentum; kinematics of rigid bodies; moving coordinate systems with relative motion; general planar rigid body kinematics and kinetics. Applications to linkages, cams and geared systems.",
-            "id": "ME 240",
-            "parent": "ME",
-            "title": "DYNAMICS"
         }
     },
     {
@@ -198,13 +198,19 @@
     {
         "data": {
             "source": "EMA 201",
-            "target": "EMA 303"
+            "target": "EMA 202"
         }
     },
     {
         "data": {
             "source": "EMA 201",
-            "target": "ME 240"
+            "target": "EMA 303"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 202",
+            "target": "ME 340"
         }
     },
     {
@@ -270,12 +276,6 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "ME 240"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
             "target": "PHYSICS 247"
         }
     },
@@ -307,12 +307,6 @@
         "data": {
             "source": "MATH 96",
             "target": "MATH 171"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 240",
-            "target": "ME 340"
         }
     },
     {

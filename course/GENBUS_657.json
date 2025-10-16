@@ -28,12 +28,23 @@
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 656,
+                    "course_number": 640,
                     "subjects": [
-                        "GENBUS"
+                        "ACTSCI"
                     ]
                 },
-                "concurrent enrollment"
+                {
+                    "children": [
+                        {
+                            "course_number": 656,
+                            "subjects": [
+                                "GENBUS"
+                            ]
+                        },
+                        "concurrent enrollment"
+                    ],
+                    "operator": "OR"
+                }
             ],
             "operator": "OR"
         },
@@ -43,28 +54,41 @@
                 "subjects": [
                     "GENBUS"
                 ]
+            },
+            {
+                "course_number": 640,
+                "subjects": [
+                    "ACTSCI"
+                ]
             }
         ],
         "linked_requisite_text": [
+            {
+                "course_number": 640,
+                "subjects": [
+                    "ACTSCI"
+                ]
+            },
+            " or (",
             {
                 "course_number": 656,
                 "subjects": [
                     "GENBUS"
                 ]
             },
-            " or concurrent enrollment"
+            " or concurrent enrollment)"
         ],
-        "prerequisites_text": "GEN\u00a0BUS\u00a0656or concurrent enrollment"
+        "prerequisites_text": "ACT\u00a0SCI\u00a0640or (GEN\u00a0BUS\u00a0656or concurrent enrollment)"
     },
     "satisfies": [
         {
-            "course_number": 891,
+            "course_number": 894,
             "subjects": [
                 "GENBUS"
             ]
         },
         {
-            "course_number": 894,
+            "course_number": 891,
             "subjects": [
                 "GENBUS"
             ]
@@ -72,13 +96,7 @@
     ],
     "similar_courses": [
         {
-            "course_number": 730,
-            "subjects": [
-                "GENBUS"
-            ]
-        },
-        {
-            "course_number": 840,
+            "course_number": 656,
             "subjects": [
                 "GENBUS"
             ]
@@ -90,13 +108,19 @@
             ]
         },
         {
-            "course_number": 656,
+            "course_number": 207,
             "subjects": [
                 "GENBUS"
             ]
         },
         {
-            "course_number": 207,
+            "course_number": 107,
+            "subjects": [
+                "GENBUS"
+            ]
+        },
+        {
+            "course_number": 730,
             "subjects": [
                 "GENBUS"
             ]
@@ -114,6 +138,25 @@
                 "instructors": {
                     "Zhongtian Chen": "ZHONGTIAN.CHEN@WISC.EDU"
                 },
+                "last_taught_term": "2025 Fall",
+                "school": {
+                    "abbreviation": "B",
+                    "name": "Business",
+                    "url": "http://www.bus.wisc.edu/"
+                },
+                "typically_offered": "Not Applicable"
+            },
+            "grade_data": null
+        },
+        "1264": {
+            "enrollment_data": {
+                "credit_count": [
+                    2,
+                    2
+                ],
+                "ethnics_studies": false,
+                "general_education": false,
+                "instructors": {},
                 "last_taught_term": "2025 Fall",
                 "school": {
                     "abbreviation": "B",

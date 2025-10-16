@@ -1,26 +1,26 @@
 [
     {
         "data": {
-            "description": "Extensions of the linear regression model; introduction to multiple equation models.",
-            "id": "ECON 710",
-            "parent": "ECON",
-            "title": "ECONOMIC STATISTICS AND ECONOMETRICS II"
+            "description": "Focus on extending the standard regression model. Topics include nonlinear regression models, maximum likelihood estimation, panel data, simultaneous equations, linear and nonlinear systems, analysis of discrete choice, limited dependent variables, empirical economic applications and policy analysis.",
+            "id": "AAE 637",
+            "parent": "AAE",
+            "title": "APPLIED ECONOMETRIC ANALYSIS II"
         }
     },
     {
         "data": {
-            "description": "Prepares students for their own empirical work by examining contemporary econometric techniques as they are used in development, environment and natural resources, and agricultural economics. Guides students through a selection of applied models using past and current research as examples. By hearing lectures and working through papers, problem sets, replication exercises, and/or research projects, students will develop a deeper understanding of the many facets of empirical research in economics.",
+            "description": "Introduction to the standard linear regression model with an emphasis on application issues. Includes statistical foundation, hypothesis testing, functional form, model selection and procedures for handling violations of model assumption.",
+            "id": "AAE 636",
+            "parent": "AAE",
+            "title": "APPLIED ECONOMETRIC ANALYSIS I"
+        }
+    },
+    {
+        "data": {
+            "description": "Preparation for empirical work by examining contemporary econometric techniques as they are used in development, environment and natural resources, and agricultural economics. Review a selection of applied models using past and current research as examples. Develop a deeper understanding of the many facets of empirical research in economics.",
             "id": "AAE 737",
             "parent": "AAE",
             "title": "APPLIED ECONOMETRIC ANALYSIS III"
-        }
-    },
-    {
-        "data": {
-            "description": "Probability distributions, statistical inference; multiple linear regression; introduction to econometric methods. It is expected that students will have completed three semesters calculus (such asMATH\u00a0234) and linear algebra (such asMATH\u00a0340).",
-            "id": "ECON 709",
-            "parent": "ECON",
-            "title": "ECONOMIC STATISTICS AND ECONOMETRICS I"
         }
     },
     {
@@ -31,25 +31,19 @@
     },
     {
         "data": {
-            "id": "ECON",
-            "type": "compound"
+            "source": "AAE 636",
+            "target": "AAE 637"
         }
     },
     {
         "data": {
-            "source": "ECON 709",
+            "source": "AAE 636",
             "target": "AAE 737"
         }
     },
     {
         "data": {
-            "source": "ECON 709",
-            "target": "ECON 710"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 710",
+            "source": "AAE 637",
             "target": "AAE 737"
         }
     }

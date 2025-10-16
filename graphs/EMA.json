@@ -9,14 +9,6 @@
     },
     {
         "data": {
-            "description": "Dynamical systems theory, advanced rigid body attitude dynamics, Lagrange's equations of motion, conservation laws, quasi-coordinates, Routh's method for ignorable coordinates, Hamilton's equations of motion, dynamic stability, Liapunov stability methods, angular momentum methods for systems of rigid bodies, modeling of rotating elastic systems, Kane's equations of motion, deterministic chaos. Knowledge of advanced three-dimensional dynamics [such asE\u00a0M\u00a0A\u00a0542orPHYSICS\u00a0311] strongly encouraged.",
-            "id": "EMA 742",
-            "parent": "EMA",
-            "title": "THEORY AND APPLICATIONS IN ADVANCED DYNAMICS"
-        }
-    },
-    {
-        "data": {
             "description": "Emphasis is placed on techniques used to analyze aerospace structures. Variational principles, Hamilton's extended principle, Lagrange's equations, mathematical models for continuous systems, natural modes of vibrations, dynamic response using mode superposition, mode acceleration, residual flexibility, vibration analysis using finite element methods, advanced substructure representations, component mode synthesis, systems with rigid body modes for aeronautical and astronautical systems. Knowledge of vibrations [such asE\u00a0M\u00a0A\u00a0545orM\u00a0E\u00a0440] strongly encouraged.",
             "id": "EMA 745",
             "parent": "EMA",
@@ -95,10 +87,10 @@
     },
     {
         "data": {
-            "description": "An introduction to the fields of mechanics and aerospace engineering. Fundamental concepts in engineering, including modeling, analysis, design, fabrication and experimental testing. Career paths, engineering ethics, shop safety, and oral and written technical communication.",
+            "description": "An introduction to the fields of aerospace engineering and mechanics. Fundamental concepts in engineering, including modeling, analysis, design, fabrication and experimental testing. Career paths, engineering ethics, shop safety, and oral and written technical communication.",
             "id": "EMA 200",
             "parent": "EMA",
-            "title": "INTRODUCTION TO MECHANICS AND AEROSPACE"
+            "title": "INTRODUCTION TO AEROSPACE ENGINEERING"
         }
     },
     {
@@ -209,6 +201,14 @@
     },
     {
         "data": {
+            "description": "Elastic and plastic deformation of real solids. Dislocation theory with applications to metals and alloys. Fracture, fatigue, brittle failure and methods for measuring the mechanical properties of materials.",
+            "id": "MS&E 441",
+            "parent": "MS&E",
+            "title": "DEFORMATION OF SOLIDS"
+        }
+    },
+    {
+        "data": {
             "description": "Engineering achievements of the Renaissance period and their relation to modern engineering practice, key principles developed, and errors in understanding of that time. Innovative work of notable figures such as Galileo Galilei and Leonardo da Vinci and their contributions to fundamental mechanics principles of engineering, traced through modern engineering practice and current engineering applications. Introduction to concepts of stress, strain, tension, compression, deflection of beams, flaws, and fracture. Not for engineering majors.",
             "id": "EMA 103",
             "parent": "EMA",
@@ -286,6 +286,13 @@
     },
     {
         "data": {
+            "description": "Independent work in aerospace engineering, engineering mechanics, or mechanical engineering, supervised by a qualified instructor.",
+            "id": "EMA/ME 488",
+            "title": "HONORS IN RESEARCH I"
+        }
+    },
+    {
+        "data": {
             "description": "Introduction to calculus of functions of several variables; calculus on parameterized curves, derivatives of functions of several variables, multiple integrals, vector calculus.",
             "id": "MATH 234",
             "parent": "MATH",
@@ -342,7 +349,7 @@
     },
     {
         "data": {
-            "description": "Physical foundations of plasticity as a basis for choices made in the formulation of theories representing plastic deformation and their limitation. Motion of dislocations and formation and growth of deformation twins. Experimental results in the context of plasticity models. Traditional and research topics of plasticity and theories for rate-independent, rate-dependent, single and polycrystal descriptions. Numerical solution of equations and computational plasticity. Knowledge of mechanics of materials [such asE\u00a0M\u00a0A\u00a0303orM\u00a0E\u00a0306] and continuum mechanics [such as E M A 622] required.",
+            "description": "Physical foundations of plasticity as a basis for choices made in the formulation of theories representing plastic deformation and their limitation. Motion of dislocations and formation and growth of deformation twins. Experimental results in the context of plasticity models. Traditional and research topics of plasticity and theories for rate-independent, rate-dependent, single and polycrystal descriptions. Numerical solution of equations and computational plasticity. Knowledge of mechanics of materials [such asE\u00a0M\u00a0A\u00a0303or M E 306] and continuum mechanics [such as E M A 622] required.",
             "id": "EMA/ME 703",
             "title": "PLASTICITY THEORY AND PHYSICS"
         }
@@ -457,14 +464,6 @@
     },
     {
         "data": {
-            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns.",
-            "id": "ME 306",
-            "parent": "ME",
-            "title": "MECHANICS OF MATERIALS"
-        }
-    },
-    {
-        "data": {
             "description": "Students will select specific engineering design projects. These projects will be student team efforts supervised by individual faculty members.",
             "id": "EMA 569",
             "parent": "EMA",
@@ -485,6 +484,22 @@
             "id": "EMA 710",
             "parent": "EMA",
             "title": "MECHANICS OF CONTINUA"
+        }
+    },
+    {
+        "data": {
+            "description": "The basic factors that determine phase equilibria, structural and transformation characteristics of solids. Principles governing the thermodynamics and kinetics of phase transformations and microstructure evolution. Nucleation and growth processes in precipitation, recrystallization, solidification, oxidation, martensitic, ordering and spinodal reactions. Transformation behavior in polymers, biomaterials and nanomaterials.",
+            "id": "MS&E 352",
+            "parent": "MS&E",
+            "title": "MATERIALS SCIENCE-TRANSFORMATION OF SOLIDS"
+        }
+    },
+    {
+        "data": {
+            "description": "The basic structures and resulting properties of solid materials, including phase equilibria, meta-stability, mechanical properties, failure, corrosion, and materials selection.",
+            "id": "MS&E 350",
+            "parent": "MS&E",
+            "title": "INTRODUCTION TO MATERIALS SCIENCE"
         }
     },
     {
@@ -596,6 +611,12 @@
     },
     {
         "data": {
+            "id": "MS&E",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "PHYSICS",
             "type": "compound"
         }
@@ -608,6 +629,12 @@
     },
     {
         "data": {
+            "source": "CHEM 103",
+            "target": "MS&E 350"
+        }
+    },
+    {
+        "data": {
             "source": "EMA 201",
             "target": "EMA 202"
         }
@@ -616,12 +643,6 @@
         "data": {
             "source": "EMA 201",
             "target": "EMA 303"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 201",
-            "target": "ME 306"
         }
     },
     {
@@ -651,6 +672,12 @@
     {
         "data": {
             "source": "EMA 303",
+            "target": "CIVENGR/EMA/ME 508"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 303",
             "target": "EMA 405"
         }
     },
@@ -658,6 +685,12 @@
         "data": {
             "source": "EMA 303",
             "target": "EMA 469"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 303",
+            "target": "EMA 506"
         }
     },
     {
@@ -676,6 +709,18 @@
         "data": {
             "source": "EMA 303",
             "target": "EMA 630"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 303",
+            "target": "EMA/EP 615"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 303",
+            "target": "EMA/ME 307"
         }
     },
     {
@@ -783,6 +828,12 @@
     {
         "data": {
             "source": "MATH 221",
+            "target": "EMA 200"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
             "target": "MATH 222"
         }
     },
@@ -832,12 +883,6 @@
         "data": {
             "source": "MATH 222",
             "target": "MATH 340"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "ME 306"
         }
     },
     {
@@ -914,36 +959,6 @@
     },
     {
         "data": {
-            "source": "ME 306",
-            "target": "CIVENGR/EMA/ME 508"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 306",
-            "target": "EMA 506"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 306",
-            "target": "EMA/EP 615"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 306",
-            "target": "EMA/ME 307"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 306",
-            "target": "EMA/MS&E 541"
-        }
-    },
-    {
-        "data": {
             "source": "ME 361",
             "target": "ME 363"
         }
@@ -958,6 +973,24 @@
         "data": {
             "source": "ME 363",
             "target": "EMA 524"
+        }
+    },
+    {
+        "data": {
+            "source": "MS&E 350",
+            "target": "MS&E 352"
+        }
+    },
+    {
+        "data": {
+            "source": "MS&E 352",
+            "target": "MS&E 441"
+        }
+    },
+    {
+        "data": {
+            "source": "MS&E 441",
+            "target": "EMA/MS&E 541"
         }
     },
     {

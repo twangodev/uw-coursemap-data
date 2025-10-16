@@ -37,17 +37,35 @@
     ],
     "optimized_prerequisites": null,
     "prerequisites": {
-        "abstract_syntax_tree": "Declared in Elementary Education BSE",
+        "abstract_syntax_tree": {
+            "children": [
+                "Declared in Elementary Education BSE",
+                {
+                    "children": [
+                        "Elementary Education",
+                        "Special Education BSE"
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [],
         "linked_requisite_text": [
-            "Declared in Elementary Education BSE"
+            "Declared in Elementary Education BSE or Elementary Education and Special Education BSE"
         ],
-        "prerequisites_text": "Declared in Elementary Education BSE"
+        "prerequisites_text": "Declared in Elementary Education BSE or Elementary Education and Special Education BSE"
     },
     "satisfies": [],
     "similar_courses": [
         {
             "course_number": 835,
+            "subjects": [
+                "CURRIC"
+            ]
+        },
+        {
+            "course_number": 459,
             "subjects": [
                 "CURRIC"
             ]
@@ -66,12 +84,6 @@
         },
         {
             "course_number": 559,
-            "subjects": [
-                "CURRIC"
-            ]
-        },
-        {
-            "course_number": 459,
             "subjects": [
                 "CURRIC"
             ]
@@ -220,8 +232,8 @@
                 "incomplete": 0,
                 "instructors": [
                     "Simone Schweber",
-                    "KATY SWALWELL",
-                    "GLORIA J LADSON-BILLINGS"
+                    "GLORIA J LADSON-BILLINGS",
+                    "KATY SWALWELL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -271,8 +283,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "KATY SWALWELL",
-                    "GLORIA J LADSON-BILLINGS"
+                    "GLORIA J LADSON-BILLINGS",
+                    "KATY SWALWELL"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -374,8 +386,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Simone Schweber",
-                    "BETH SONDEL"
+                    "BETH SONDEL",
+                    "Simone Schweber"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -477,8 +489,8 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "ERIN QUAST",
                     "WARREN SCHWAB",
+                    "ERIN QUAST",
                     "BRIAN GIBBS"
                 ],
                 "no_credit": 0,
@@ -531,7 +543,7 @@
                 "instructors": [
                     "Simone Schweber",
                     "WARREN SCHWAB",
-                    "THOMAS OWENBY"
+                    "Thomas Owenby"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -582,9 +594,9 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "JEREMY SHUMPERT",
                     "ERIC LUCKEY",
-                    "BRETT BERTUCIO",
-                    "JEREMY SHUMPERT"
+                    "BRETT BERTUCIO"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -634,8 +646,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "GLEN WATER",
                     "YUN -WEN CHAN",
+                    "GLEN WATER",
                     "IRENE ANN RESENLY",
                     "ARUN KOLAR"
                 ],
@@ -740,8 +752,8 @@
                 "incomplete": 1,
                 "instructors": [
                     "Simone Schweber",
-                    "LAUREN LAUTER",
-                    "Jeremy Stoddard"
+                    "Jeremy Stoddard",
+                    "LAUREN LAUTER"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -818,9 +830,9 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
+                    "LAUREN LAUTER",
                     "JANEL ANDERSON",
-                    "Daniel Berman",
-                    "LAUREN LAUTER"
+                    "Daniel Berman"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

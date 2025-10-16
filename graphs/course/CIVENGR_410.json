@@ -33,18 +33,18 @@
     },
     {
         "data": {
-            "description": "Introduction to calculus of functions of several variables; calculus on parameterized curves, derivatives of functions of several variables, multiple integrals, vector calculus.",
-            "id": "MATH 234",
-            "parent": "MATH",
-            "title": "CALCULUS--FUNCTIONS OF SEVERAL VARIABLES"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
             "id": "MATH 221",
             "parent": "MATH",
             "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
+            "description": "Kinematics, force-mass-acceleration relations, work and energy, impulse and momentum, moments of inertia and mass.",
+            "id": "EMA 202",
+            "parent": "EMA",
+            "title": "DYNAMICS"
         }
     },
     {
@@ -65,18 +65,18 @@
     },
     {
         "data": {
-            "description": "Rectilinear and curvilinear motion of a particle; force, mass, acceleration; work, potential, and kinetic energy; impulse and momentum; kinematics of rigid bodies; moving coordinate systems with relative motion; general planar rigid body kinematics and kinetics. Applications to linkages, cams and geared systems.",
-            "id": "ME 240",
-            "parent": "ME",
-            "title": "DYNAMICS"
-        }
-    },
-    {
-        "data": {
             "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
             "id": "MATH 222",
             "parent": "MATH",
             "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
+            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
+            "id": "MATH 375",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
         }
     },
     {
@@ -99,12 +99,6 @@
     },
     {
         "data": {
-            "id": "ME",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
             "source": "CIVENGR 310",
             "target": "CIVENGR 410"
         }
@@ -112,7 +106,13 @@
     {
         "data": {
             "source": "EMA 201",
-            "target": "ME 240"
+            "target": "EMA 202"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 202",
+            "target": "CIVENGR 310"
         }
     },
     {
@@ -147,19 +147,7 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "MATH 234"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "ME 240"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 234",
+            "source": "MATH 375",
             "target": "CIVENGR 310"
         }
     },
@@ -167,12 +155,6 @@
         "data": {
             "source": "MATH 96",
             "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 240",
-            "target": "CIVENGR 310"
         }
     }
 ]

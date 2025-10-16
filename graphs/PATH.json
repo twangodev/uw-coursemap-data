@@ -72,6 +72,14 @@
     },
     {
         "data": {
+            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
+            "id": "BIOCORE 381",
+            "parent": "BIOCORE",
+            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
+        }
+    },
+    {
+        "data": {
             "description": "Basic principles of toxicology and biochemical mechanisms of toxicity in mammalian species and man. Correlation between morphological and functional changes caused by toxicants in different organs of the body.",
             "id": "M&ENVTOX/ONCOLOGY/PHMCOL-M/PHMSCI/POPHLTH 625",
             "title": "TOXICOLOGY I"
@@ -175,6 +183,22 @@
     },
     {
         "data": {
+            "description": "Explore the methods for environmental pathogen surveillance used in research and public health. Includes an advanced discussion of molecular genetics, genomics, and sequencing technologies. Explores the implications for public health and pandemic preparedness.",
+            "id": "PATH 501",
+            "parent": "PATH",
+            "title": "TOPICS IN ENVIRONMENTAL VIRAL PATHOGEN SURVEILLANCE"
+        }
+    },
+    {
+        "data": {
+            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
+            "id": "CHEM 115",
+            "parent": "CHEM",
+            "title": "CHEMICAL PRINCIPLES I"
+        }
+    },
+    {
+        "data": {
             "description": "Explores the major organ systems including nervous, endocrine, muscular, cardiovascular, renal, and gastrointestinal. The main learning objective is an understanding of the cellular and molecular mechanisms through which homeostasis is integrated and maintained. Not open to students with credit for PHYSIOL 335 or 435 prior to fall 2018 orANAT&PHY\u00a0335",
             "id": "ANAT&PHY 435",
             "parent": "ANAT&PHY",
@@ -218,6 +242,14 @@
             "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
             "id": "BIOLOGY/ZOOLOGY 101",
             "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Genetics in eukaryotes and prokaryotes.  Includes transmission genetics, molecular genetics, evolutionary genetics, genetic engineering, and societal issues associated with genetics.  Illustrative material includes bacteria, plants, insects, and vertebrates.",
+            "id": "GENETICS 466",
+            "parent": "GENETICS",
+            "title": "PRINCIPLES OF GENETICS"
         }
     },
     {
@@ -390,6 +422,14 @@
     },
     {
         "data": {
+            "description": "Structured observation experiences across various medical clinics, including hematology, oncology, infectious diseases, and surgical pathology settings. Bridge the gap between laboratory research and clinical practice; enhanced understanding of disease diagnosis, treatment planning, and patient care. Supplemental discussions and reflective assignments encourage critical thinking about how research can directly impact patient care.",
+            "id": "PATH 980",
+            "parent": "PATH",
+            "title": "CLINICAL EXPERIENCES FOR RESEARCHERS"
+        }
+    },
+    {
+        "data": {
             "description": "Survey of the basic methods and fundamental biochemical mechanisms of toxicity. Toxicity in mammalian organ systems, techniques for evaluating toxicity, as well as mechanisms of species specificity, and environmental interactions (with toxicant examples) are presented.",
             "id": "M&ENVTOX/PATH/PHMCOL-M/PHMSCI/POPHLTH 626",
             "title": "TOXICOLOGY II"
@@ -431,6 +471,13 @@
         "data": {
             "description": "Topics include: cell structure and function, cellular metabolism (enzymes, respiration, photosynthesis), information flow (DNA, RNA, protein), principles of genetics and selected topics in Animal Physiology.",
             "id": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "title": "INTRODUCTORY BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics include: selected topics in plant physiology, a survey of the five major kingdoms of organisms, speciation and evolutionary theory, and ecology at multiple levels of the biological hierarchy.",
+            "id": "BIOLOGY/BOTANY/ZOOLOGY 152",
             "title": "INTRODUCTORY BIOLOGY"
         }
     },
@@ -488,6 +535,12 @@
     },
     {
         "data": {
+            "id": "BIOCORE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "CHEM",
             "type": "compound"
         }
@@ -495,6 +548,12 @@
     {
         "data": {
             "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "GENETICS",
             "type": "compound"
         }
     },
@@ -542,8 +601,26 @@
     },
     {
         "data": {
+            "source": "BIOCORE 381",
+            "target": "GENETICS 466"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
+            "target": "BIOLOGY/BOTANY/ZOOLOGY 152"
+        }
+    },
+    {
+        "data": {
             "source": "BIOLOGY/BOTANY/ZOOLOGY 151",
             "target": "BIOLOGY/ZOOLOGY 101"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOLOGY/BOTANY/ZOOLOGY 152",
+            "target": "PATH 501"
         }
     },
     {
@@ -590,6 +667,12 @@
     },
     {
         "data": {
+            "source": "CHEM 115",
+            "target": "GENETICS 466"
+        }
+    },
+    {
+        "data": {
             "source": "CHEM 343",
             "target": "CHEM 345"
         }
@@ -598,6 +681,12 @@
         "data": {
             "source": "CHEM 345",
             "target": "BIOCHEM 507"
+        }
+    },
+    {
+        "data": {
+            "source": "GENETICS 466",
+            "target": "PATH 501"
         }
     },
     {

@@ -26,13 +26,13 @@
         "total": 433,
         "unsatisfactory": 0
     },
-    "description": "Develops preservice teachers' mathematical knowledge for teaching i.e., Pedagogical Content Knowledge - the kind of knowledge that blends mathematical and pedagogical understandings. Explores topics defined by the Common Core State Standards for Mathematics such as foundations of arithmetic, addition, subtraction, multiplication and division of whole numbers and integers, the base-ten system, number theory, foundations of fraction operations and geometry.",
+    "description": "Develops mathematical knowledge for teaching blending mathematical and pedagogical understandings. Explores topics defined by the Common Core State Standards for Mathematics such as foundations of arithmetic, addition, subtraction, multiplication and division of whole numbers and integers, the base-ten system, number theory, foundations of fraction operations and geometry.",
     "has_meetings": true,
     "keywords": [
-        "foundations fraction",
         "arithmetic",
+        "blending mathematical",
+        "foundations arithmetic",
         "standards mathematics",
-        "mathematical knowledge",
         "mathematical pedagogical"
     ],
     "optimized_prerequisites": null,
@@ -44,19 +44,33 @@
                         "Satisfied Quantitative Reasoning",
                         "QR",
                         "A requirement",
-                        "classified in pre-Elementary Education"
+                        "classified in pre-Elementary Education",
+                        "Pre-Elementary Education",
+                        "Special Education"
                     ],
                     "operator": "AND"
                 },
-                "declared in Elementary Education program"
+                {
+                    "children": [
+                        "declared in Elementary Education BSE",
+                        {
+                            "children": [
+                                "Elementary Education",
+                                "Special Education BSE"
+                            ],
+                            "operator": "AND"
+                        }
+                    ],
+                    "operator": "OR"
+                }
             ],
             "operator": "OR"
         },
         "course_references": [],
         "linked_requisite_text": [
-            "Satisfied Quantitative Reasoning (QR) A requirement and classified in pre-Elementary Education or declared in Elementary Education program"
+            "Satisfied Quantitative Reasoning (QR) A requirement and classified in pre-Elementary Education, Pre-Elementary Education and Special Education or (declared in Elementary Education BSE or Elementary Education and Special Education BSE)"
         ],
-        "prerequisites_text": "Satisfied Quantitative Reasoning (QR) A requirement and classified in pre-Elementary Education or declared in Elementary Education program"
+        "prerequisites_text": "Satisfied Quantitative Reasoning (QR) A requirement and classified in pre-Elementary Education, Pre-Elementary Education and Special Education or (declared in Elementary Education BSE or Elementary Education and Special Education BSE)"
     },
     "satisfies": [
         {
@@ -188,7 +202,7 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PRIYANKA AGARWAL"
+                    "Priyanka Agarwal"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -213,7 +227,7 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "PRIYANKA AGARWAL"
+                    "Priyanka Agarwal"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -238,7 +252,7 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PRIYANKA AGARWAL"
+                    "Priyanka Agarwal"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -263,10 +277,10 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "PRIYANKA AGARWAL",
-                    "RAHUL PANDA",
+                    "Priyanka Agarwal",
                     "AMANDA COVIELLO",
-                    "BURCU ALAPALA"
+                    "BURCU ALAPALA",
+                    "RAHUL PANDA"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -291,7 +305,7 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "PRIYANKA AGARWAL"
+                    "Priyanka Agarwal"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

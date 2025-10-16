@@ -26,14 +26,14 @@
         "total": 383,
         "unsatisfactory": 0
     },
-    "description": "Incompressible and compressible, laminar and turbulent flow of fluids. Classical and finite-difference analysis using differential and integral formulation of the continuity, momentum and energy equations. Application to ducts, plates, spheres, blades, pumps, turbines, lubrication, shockwaves, nozzles, diffusers and other mechanical engineering equipment.",
+    "description": "Incompressible differential and integral analysis for basic conservation laws, kinematics, exact solutions to Navier-Stokes, boundary layer theory, vorticity, potential flow, and selected topics.",
     "has_meetings": true,
     "keywords": [
-        "diffusers mechanical",
+        "conservation laws",
+        "solutions navier",
+        "theory vorticity",
         "incompressible",
-        "turbines lubrication",
-        "fluids classical",
-        "laminar turbulent"
+        "stokes boundary"
     ],
     "optimized_prerequisites": [
         {
@@ -52,12 +52,24 @@
                         "ME"
                     ]
                 },
+                {
+                    "course_number": 310,
+                    "subjects": [
+                        "CIVENGR"
+                    ]
+                },
                 "graduate/professional standing",
                 "member of Engineering Guest Students"
             ],
             "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 310,
+                "subjects": [
+                    "CIVENGR"
+                ]
+            },
             {
                 "course_number": 363,
                 "subjects": [
@@ -72,30 +84,19 @@
                     "ME"
                 ]
             },
-            ", or graduate/professional standing, or member of Engineering Guest Students"
+            ", ",
+            {
+                "course_number": 310,
+                "subjects": [
+                    "CIVENGR"
+                ]
+            },
+            ", graduate/professional standing, or member of Engineering Guest Students"
         ],
-        "prerequisites_text": "M\u00a0E\u00a0363, or graduate/professional standing, or member of Engineering Guest Students"
+        "prerequisites_text": "M\u00a0E\u00a0363,CIV\u00a0ENGR\u00a0310, graduate/professional standing, or member of Engineering Guest Students"
     },
     "satisfies": [],
     "similar_courses": [
-        {
-            "course_number": 573,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 363,
-            "subjects": [
-                "ME"
-            ]
-        },
-        {
-            "course_number": 572,
-            "subjects": [
-                "ME"
-            ]
-        },
         {
             "course_number": 705,
             "subjects": [
@@ -106,6 +107,24 @@
             "course_number": 310,
             "subjects": [
                 "CIVENGR"
+            ]
+        },
+        {
+            "course_number": 620,
+            "subjects": [
+                "CBE"
+            ]
+        },
+        {
+            "course_number": 363,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
+            "course_number": 573,
+            "subjects": [
+                "ME"
             ]
         }
     ],
@@ -473,8 +492,8 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Jinlong Wu",
-                    "ZISHENG YE"
+                    "ZISHENG YE",
+                    "Jinlong Wu"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

@@ -26,47 +26,121 @@
         "total": 178,
         "unsatisfactory": 0
     },
-    "description": "All major aspects of injection molding with emphases on design, processing, process physics, computer-aided engineering (CAE), troubleshooting, and advanced molding processes. Field trip, video presentation, case studies, term project with oral presentation, and hands-on sessions using commercial CAE simulation software.",
+    "description": "All major aspects of injection molding with emphases on materials, design, processing, process physics, computer-aided engineering (CAE), troubleshooting, and advanced molding processes.",
     "has_meetings": true,
     "keywords": [
+        "materials design",
+        "emphases",
         "injection",
-        "cae simulation",
-        "aided engineering",
-        "emphases design",
+        "engineering cae",
         "molding processes"
     ],
-    "optimized_prerequisites": null,
-    "prerequisites": {
-        "abstract_syntax_tree": {
-            "children": [
-                "Senior standing",
-                "member of Engineering Guest Students",
-                {
-                    "children": [
-                        "declared in Capstone Certificate in Polymer Processing",
-                        "Manufacturing"
-                    ],
-                    "operator": "AND"
-                }
-            ],
-            "operator": "OR"
-        },
-        "course_references": [],
-        "linked_requisite_text": [
-            "Senior standing, member of Engineering Guest Students, or declared in Capstone Certificate in Polymer Processing and Manufacturing"
-        ],
-        "prerequisites_text": "Senior standing, member of Engineering Guest Students, or declared in Capstone Certificate in Polymer Processing and Manufacturing"
-    },
-    "satisfies": [],
-    "similar_courses": [
+    "optimized_prerequisites": [
         {
-            "course_number": 313,
+            "course_number": 310,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 717,
+            "course_number": 331,
+            "subjects": [
+                "MS&E"
+            ]
+        },
+        {
+            "course_number": 421,
+            "subjects": [
+                "CHEM",
+                "MS&E"
+            ]
+        }
+    ],
+    "prerequisites": {
+        "abstract_syntax_tree": {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "course_number": 310,
+                            "subjects": [
+                                "ME"
+                            ]
+                        },
+                        {
+                            "course_number": 331,
+                            "subjects": [
+                                "MS&E"
+                            ]
+                        },
+                        {
+                            "course_number": 421,
+                            "subjects": [
+                                "CHEM",
+                                "MS&E"
+                            ]
+                        },
+                        "member of Engineering Guest Students",
+                        "declared in Capstone Certificate in Polymer Processing",
+                        "Manufacturing"
+                    ],
+                    "operator": "AND"
+                },
+                "graduate/professional standing"
+            ],
+            "operator": "OR"
+        },
+        "course_references": [
+            {
+                "course_number": 331,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            {
+                "course_number": 310,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            {
+                "course_number": 421,
+                "subjects": [
+                    "CHEM",
+                    "MS&E"
+                ]
+            }
+        ],
+        "linked_requisite_text": [
+            {
+                "course_number": 310,
+                "subjects": [
+                    "ME"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 331,
+                "subjects": [
+                    "MS&E"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 421,
+                "subjects": [
+                    "CHEM",
+                    "MS&E"
+                ]
+            },
+            ", member of Engineering Guest Students, declared in Capstone Certificate in Polymer Processing and Manufacturing, or graduate/professional standing"
+        ],
+        "prerequisites_text": "M\u00a0E\u00a0310,M\u00a0S\u00a0&\u00a0E\u00a0331,CHEM/\u200bM\u00a0S\u00a0&\u00a0E\u00a0\u00a0421, member of Engineering Guest Students, declared in Capstone Certificate in Polymer Processing and Manufacturing, or graduate/professional standing"
+    },
+    "satisfies": [],
+    "similar_courses": [
+        {
+            "course_number": 418,
             "subjects": [
                 "ME"
             ]
@@ -78,13 +152,19 @@
             ]
         },
         {
+            "course_number": 717,
+            "subjects": [
+                "ME"
+            ]
+        },
+        {
             "course_number": 331,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 418,
+            "course_number": 718,
             "subjects": [
                 "ME"
             ]
@@ -229,10 +309,10 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
-                    "Lih-Sheng Turng",
-                    "XIAOFEI SUN",
+                    "CHIH-LIN HSU",
                     "HELENE DEMONT",
-                    "CHIH-LIN HSU"
+                    "XIAOFEI SUN",
+                    "Lih-Sheng Turng"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -532,9 +612,9 @@
                 "f": 0,
                 "incomplete": 1,
                 "instructors": [
-                    "Lih-Sheng Turng",
+                    "Chung-Yin Lin",
                     "Nicole Zacharia",
-                    "Chung-Yin Lin"
+                    "Lih-Sheng Turng"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

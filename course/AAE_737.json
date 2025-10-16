@@ -26,26 +26,26 @@
         "total": 77,
         "unsatisfactory": 0
     },
-    "description": "Prepares students for their own empirical work by examining contemporary econometric techniques as they are used in development, environment and natural resources, and agricultural economics. Guides students through a selection of applied models using past and current research as examples. By hearing lectures and working through papers, problem sets, replication exercises, and/or research projects, students will develop a deeper understanding of the many facets of empirical research in economics.",
+    "description": "Preparation for empirical work by examining contemporary econometric techniques as they are used in development, environment and natural resources, and agricultural economics. Review a selection of applied models using past and current research as examples. Develop a deeper understanding of the many facets of empirical research in economics.",
     "has_meetings": false,
     "keywords": [
-        "research examples",
-        "agricultural economics",
-        "economics guides",
-        "contemporary econometric",
-        "students empirical"
+        "agricultural",
+        "resources agricultural",
+        "economics review",
+        "empirical research",
+        "contemporary econometric"
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 709,
+            "course_number": 636,
             "subjects": [
-                "ECON"
+                "AAE"
             ]
         },
         {
-            "course_number": 710,
+            "course_number": 637,
             "subjects": [
-                "ECON"
+                "AAE"
             ]
         }
     ],
@@ -53,21 +53,55 @@
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 709,
-                    "subjects": [
-                        "ECON"
-                    ]
+                    "children": [
+                        {
+                            "course_number": 709,
+                            "subjects": [
+                                "ECON"
+                            ]
+                        },
+                        {
+                            "course_number": 710,
+                            "subjects": [
+                                "ECON"
+                            ]
+                        }
+                    ],
+                    "operator": "AND"
                 },
                 {
-                    "course_number": 710,
-                    "subjects": [
-                        "ECON"
-                    ]
+                    "children": [
+                        {
+                            "course_number": 636,
+                            "subjects": [
+                                "AAE"
+                            ]
+                        },
+                        {
+                            "course_number": 637,
+                            "subjects": [
+                                "AAE"
+                            ]
+                        }
+                    ],
+                    "operator": "AND"
                 }
             ],
-            "operator": "AND"
+            "operator": "OR"
         },
         "course_references": [
+            {
+                "course_number": 637,
+                "subjects": [
+                    "AAE"
+                ]
+            },
+            {
+                "course_number": 636,
+                "subjects": [
+                    "AAE"
+                ]
+            },
             {
                 "course_number": 710,
                 "subjects": [
@@ -82,6 +116,7 @@
             }
         ],
         "linked_requisite_text": [
+            "(",
             {
                 "course_number": 709,
                 "subjects": [
@@ -94,9 +129,24 @@
                 "subjects": [
                     "ECON"
                 ]
-            }
+            },
+            ") or (",
+            {
+                "course_number": 636,
+                "subjects": [
+                    "AAE"
+                ]
+            },
+            " and ",
+            {
+                "course_number": 637,
+                "subjects": [
+                    "AAE"
+                ]
+            },
+            ")"
         ],
-        "prerequisites_text": "ECON\u00a0709and710"
+        "prerequisites_text": "(ECON\u00a0709and710) or (A\u00a0A\u00a0E\u00a0636and637)"
     },
     "satisfies": [],
     "similar_courses": [
@@ -107,6 +157,12 @@
             ]
         },
         {
+            "course_number": 724,
+            "subjects": [
+                "AAE"
+            ]
+        },
+        {
             "course_number": 400,
             "subjects": [
                 "ECON"
@@ -114,12 +170,6 @@
         },
         {
             "course_number": 637,
-            "subjects": [
-                "AAE"
-            ]
-        },
-        {
-            "course_number": 724,
             "subjects": [
                 "AAE"
             ]

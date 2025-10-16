@@ -187,14 +187,6 @@
     },
     {
         "data": {
-            "description": "Introduction to calculus of functions of several variables; calculus on parameterized curves, derivatives of functions of several variables, multiple integrals, vector calculus.",
-            "id": "MATH 234",
-            "parent": "MATH",
-            "title": "CALCULUS--FUNCTIONS OF SEVERAL VARIABLES"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
             "id": "MATH 221",
             "parent": "MATH",
@@ -250,6 +242,14 @@
             "description": "Key scientific concepts related to fossil and renewable energy resources. Apply the fundamentals of thermodynamics and chemical kinetics at solid interfaces to better understand the science behind using fossil and renewable energy resources. Evaluate the impacts of existing and emerging energy technologies on the environment.",
             "id": "CIVENGR/GLE 520",
             "title": "REACTIVE PROCESSES FOR SUSTAINABLE ENERGY AND RESOURCE PRODUCTION"
+        }
+    },
+    {
+        "data": {
+            "description": "Kinematics, force-mass-acceleration relations, work and energy, impulse and momentum, moments of inertia and mass.",
+            "id": "EMA 202",
+            "parent": "EMA",
+            "title": "DYNAMICS"
         }
     },
     {
@@ -360,14 +360,6 @@
             "id": "MATH 114",
             "parent": "MATH",
             "title": "PRECALCULUS"
-        }
-    },
-    {
-        "data": {
-            "description": "Rectilinear and curvilinear motion of a particle; force, mass, acceleration; work, potential, and kinetic energy; impulse and momentum; kinematics of rigid bodies; moving coordinate systems with relative motion; general planar rigid body kinematics and kinetics. Applications to linkages, cams and geared systems.",
-            "id": "ME 240",
-            "parent": "ME",
-            "title": "DYNAMICS"
         }
     },
     {
@@ -503,6 +495,14 @@
     },
     {
         "data": {
+            "description": "Vector spaces and linear transformations, differential calculus of scalar and vector fields, determinants, eigenvalues and eigenvectors, multiple integrals, line integrals, and surface integrals. Freshmen students are invited to enroll by the Department of Mathematics.",
+            "id": "MATH 375",
+            "parent": "MATH",
+            "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND LINEAR ALGEBRA"
+        }
+    },
+    {
+        "data": {
             "description": "Wind Energy Development and Balance-of-Plant Design. Up-front coverage includes the science and mechanics of wind energy including turbine basics, wind resource assessment, energy production, and economic return. Balance-of-plant design aspects include site layout and micro-siting, foundation systems, collector systems and interconnection, site civil and electrical infrastructure, and structural tower analysis. Development includes environmental due diligence and permitting, stakeholder engagement, energy policy and markets, and levelized cost of energy (LCOE).",
             "id": "CIVENGR/GLE 535",
             "title": "WIND ENERGY BALANCE-OF-PLANT DESIGN"
@@ -555,12 +555,6 @@
     {
         "data": {
             "id": "MATH",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "id": "ME",
             "type": "compound"
         }
     },
@@ -699,13 +693,19 @@
     {
         "data": {
             "source": "EMA 201",
-            "target": "EMA 303"
+            "target": "EMA 202"
         }
     },
     {
         "data": {
             "source": "EMA 201",
-            "target": "ME 240"
+            "target": "EMA 303"
+        }
+    },
+    {
+        "data": {
+            "source": "EMA 202",
+            "target": "CIVENGR 310"
         }
     },
     {
@@ -926,19 +926,7 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "MATH 234"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 222",
-            "target": "ME 240"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 234",
+            "source": "MATH 375",
             "target": "CIVENGR 310"
         }
     },
@@ -958,12 +946,6 @@
         "data": {
             "source": "MATH 96",
             "target": "MATH 171"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 240",
-            "target": "CIVENGR 310"
         }
     },
     {

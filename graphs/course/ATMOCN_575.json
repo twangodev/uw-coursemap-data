@@ -9,30 +9,6 @@
     },
     {
         "data": {
-            "description": "Introduction to theory of fluid motions for atmosphere and ocean. Elementary kinematics, fundamental forces, effects of earth's gravity and rotation, concepts and applications of hydrostatic and geostrophic balance.",
-            "id": "ATMOCN 310",
-            "parent": "ATMOCN",
-            "title": "DYNAMICS OF THE ATMOSPHERE AND OCEAN I"
-        }
-    },
-    {
-        "data": {
-            "description": "Calculus-based introduction to physics intended for Physics, AMEP, and Astronomy-Physics majors. Mechanics, waves, thermodynamics and statistical mechanics, topics in modern physics; with computation.  A more mathematically rigorous and in-depth introduction to physics than the other introductory physics sequences.",
-            "id": "PHYSICS 247",
-            "parent": "PHYSICS",
-            "title": "A MODERN INTRODUCTION TO PHYSICS"
-        }
-    },
-    {
-        "data": {
-            "description": "Continuation ofPHYSICS\u00a0247. Electromagnetism, circuits, optics, additional topics in modern physics; with computation.",
-            "id": "PHYSICS 248",
-            "parent": "PHYSICS",
-            "title": "A MODERN INTRODUCTION TO PHYSICS"
-        }
-    },
-    {
-        "data": {
             "description": "Covers the necessary mathematical tools needed to succeed in our algebra course and provides fundamental mathematical skills. Topics include real numbers, linear equations and inequalities, integral and fractional exponents, polynomials and their arithmetic, polynomial equations and equations with fractional exponents, the quadratic formula and completing the square, systems of two linear equations, graphing, and problem solving using algebra and graphs. All students must pass an assessment on basic mathematical skills to complete the course. The course does not count for degree credit.",
             "id": "MATH 96",
             "parent": "MATH",
@@ -41,10 +17,18 @@
     },
     {
         "data": {
-            "description": "Intermediate theory of fluid motions for atmosphere and ocean. Emphasis on large scale applications and basic theory for geophysical wave types. Thermal wind shear, frictional flow, vorticity concepts, Rossby waves, Sverdrup ocean flow.",
-            "id": "ATMOCN 311",
+            "description": "Hands-on introduction to open-source research computing tools commonly used in the atmospheric and oceanic sciences. Covers Python basics, including standard data structures, environments, and packages that are useful for analyzing and visualizing a variety of observational and computational atmospheric and oceanic science datasets. Additional open-source tools for version control, sharing code, and collaborating on analysis are also introduced and open science best practice are discussed.",
+            "id": "ATMOCN 573",
             "parent": "ATMOCN",
-            "title": "DYNAMICS OF THE ATMOSPHERE AND OCEAN II"
+            "title": "RESEARCH COMPUTING IN ATMOSPHERIC AND OCEANIC SCIENCES"
+        }
+    },
+    {
+        "data": {
+            "description": "Introduction to Data Science programming using Python.  No previous programming experience required.  Emphasis on analyzing real datasets in a variety of forms and visual communication.",
+            "id": "COMPSCI 220",
+            "parent": "COMPSCI",
+            "title": "DATA SCIENCE PROGRAMMING I"
         }
     },
     {
@@ -73,26 +57,10 @@
     },
     {
         "data": {
-            "description": "Physical variables, laws, characteristics and direct measurements for atmosphere and ocean. Thermodynamics and moist atmospheric processes. Basic physics of clouds, precipitation, and chemical constituents.",
-            "id": "ATMOCN 330",
-            "parent": "ATMOCN",
-            "title": "PHYSICS OF THE ATMOSPHERE AND OCEAN I"
-        }
-    },
-    {
-        "data": {
             "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
             "title": "COLLEGE ALGEBRA"
-        }
-    },
-    {
-        "data": {
-            "description": "Radiation, energy budget, and cloud physics. Scattering, absorption, emission and diabatic heating by shortwave and longwave processes. Introduction to cloud physics including cloud nucleation processes, particle growth, precipitation development, and convective cloud processes.",
-            "id": "ATMOCN 340",
-            "parent": "ATMOCN",
-            "title": "PHYSICS OF THE ATMOSPHERE AND OCEAN II"
         }
     },
     {
@@ -111,38 +79,26 @@
     },
     {
         "data": {
+            "id": "COMPSCI",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "MATH",
             "type": "compound"
         }
     },
     {
         "data": {
-            "id": "PHYSICS",
-            "type": "compound"
-        }
-    },
-    {
-        "data": {
-            "source": "ATMOCN 310",
-            "target": "ATMOCN 311"
-        }
-    },
-    {
-        "data": {
-            "source": "ATMOCN 311",
+            "source": "ATMOCN 573",
             "target": "ATMOCN 575"
         }
     },
     {
         "data": {
-            "source": "ATMOCN 330",
-            "target": "ATMOCN 340"
-        }
-    },
-    {
-        "data": {
-            "source": "ATMOCN 340",
-            "target": "ATMOCN 575"
+            "source": "COMPSCI 220",
+            "target": "ATMOCN 573"
         }
     },
     {
@@ -177,44 +133,14 @@
     },
     {
         "data": {
-            "source": "MATH 222",
-            "target": "PHYSICS 247"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 234",
-            "target": "ATMOCN 310"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 234",
-            "target": "ATMOCN 330"
+            "target": "ATMOCN 573"
         }
     },
     {
         "data": {
             "source": "MATH 96",
             "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 247",
-            "target": "PHYSICS 248"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 248",
-            "target": "ATMOCN 310"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 248",
-            "target": "ATMOCN 330"
         }
     }
 ]

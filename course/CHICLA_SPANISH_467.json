@@ -2,11 +2,11 @@
     "course_reference": {
         "course_number": 467,
         "subjects": [
-            "CHICLA",
-            "SPANISH"
+            "SPANISH",
+            "CHICLA"
         ]
     },
-    "course_title": "US LATINO LITERATURE",
+    "course_title": "US LATINX/E LITERATURE",
     "cumulative_grade_data": {
         "a": 53,
         "ab": 35,
@@ -27,20 +27,21 @@
         "total": 113,
         "unsatisfactory": 0
     },
-    "description": "Study the literature of Latinos and Latinas in the United States, particularly of writers of Mexican, Puerto Rican, Cuban, Dominican and Central American descent. Examines the impact of race and how individuals and communities negotiate situations of internal colonialism, migration, generational conflicts, tensions between assimilation and cultural preservation, gender roles, literary traditions, and transnational situations. Considers the linguistic, cultural and formal singularity of Latinx literature, the use of Spanish and English languages, the advent of feminist and queer writing, and the vision of the United States in their works regarding its past, its present and its future. Explores the intersectionality of race, ethnicity, class, gender, sexuality, and literary forms. Diverse theories and ways to read literary texts will be explored. Literary texts - novels, short stories, poetry and essays - will be read in English or Spanish, or a combination of both. Taught in Spanish",
+    "description": "Study the literature of Latinx/e populations in the United States, particularly of writers of Mexican, Puerto Rican, Cuban, Dominican, and Central American descent. Examines the impact of race and how individuals and communities negotiate situations of internal colonialism, migration, generational conflicts, tensions between assimilation and cultural preservation, gender roles, literary traditions, and transnational situations. Considers the linguistic, cultural, and formal singularity of Latinx/e literature, the use of Spanish and English languages, the advent of feminist and queer writing, and the vision of the United States in their works regarding its past, present, and future. Explores the intersectionality of race, ethnicity, class, gender, sexuality, and literary forms. Diverse theories and ways to read literary texts will be explored. Literary texts - novels, short stories, poetry, and essays - will be read in English or Spanish, or a combination of both. Taught in Spanish.",
     "has_meetings": false,
     "keywords": [
+        "texts novels",
         "read literary",
         "mexican puerto",
-        "literary texts",
-        "latinos",
+        "latinx populations",
         "queer writing"
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 223,
+            "course_number": 222,
             "subjects": [
-                "SPANISH"
+                "SPANISH",
+                "CHICLA"
             ]
         },
         {
@@ -54,10 +55,22 @@
         "abstract_syntax_tree": {
             "children": [
                 {
-                    "course_number": 223,
-                    "subjects": [
-                        "SPANISH"
-                    ]
+                    "children": [
+                        {
+                            "course_number": 222,
+                            "subjects": [
+                                "SPANISH",
+                                "CHICLA"
+                            ]
+                        },
+                        {
+                            "course_number": 223,
+                            "subjects": [
+                                "SPANISH"
+                            ]
+                        }
+                    ],
+                    "operator": "OR"
                 },
                 {
                     "course_number": 224,
@@ -76,6 +89,13 @@
                 ]
             },
             {
+                "course_number": 222,
+                "subjects": [
+                    "SPANISH",
+                    "CHICLA"
+                ]
+            },
+            {
                 "course_number": 223,
                 "subjects": [
                     "SPANISH"
@@ -83,13 +103,22 @@
             }
         ],
         "linked_requisite_text": [
+            "(",
+            {
+                "course_number": 222,
+                "subjects": [
+                    "SPANISH",
+                    "CHICLA"
+                ]
+            },
+            " or ",
             {
                 "course_number": 223,
                 "subjects": [
                     "SPANISH"
                 ]
             },
-            " and ",
+            ") and ",
             {
                 "course_number": 224,
                 "subjects": [
@@ -97,43 +126,42 @@
                 ]
             }
         ],
-        "prerequisites_text": "SPANISH\u00a0223and224"
+        "prerequisites_text": "(CHICLA/\u200bSPANISH\u00a0\u00a0222orSPANISH\u00a0223) andSPANISH\u00a0224"
     },
     "satisfies": [],
     "similar_courses": [
         {
-            "course_number": 306,
+            "course_number": 364,
             "subjects": [
-                "CHICLA",
-                "CURRIC"
-            ]
-        },
-        {
-            "course_number": 222,
-            "subjects": [
-                "CHICLA",
-                "SPANISH"
-            ]
-        },
-        {
-            "course_number": 469,
-            "subjects": [
-                "CHICLA",
-                "SPANISH"
+                "SPANISH",
+                "CHICLA"
             ]
         },
         {
             "course_number": 460,
             "subjects": [
-                "CHICLA",
-                "ENGL"
+                "ENGL",
+                "CHICLA"
+            ]
+        },
+        {
+            "course_number": 222,
+            "subjects": [
+                "SPANISH",
+                "CHICLA"
             ]
         },
         {
             "course_number": 368,
             "subjects": [
-                "CHICLA",
-                "ENGL"
+                "ENGL",
+                "CHICLA"
+            ]
+        },
+        {
+            "course_number": 327,
+            "subjects": [
+                "CHICLA"
             ]
         }
     ],

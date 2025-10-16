@@ -49,9 +49,9 @@
     },
     {
         "data": {
-            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns.",
-            "id": "ME 306",
-            "parent": "ME",
+            "description": "Stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, statically indeterminate members, columns. For civil engineers.",
+            "id": "EMA 303",
+            "parent": "EMA",
             "title": "MECHANICS OF MATERIALS"
         }
     },
@@ -83,14 +83,14 @@
     },
     {
         "data": {
-            "id": "ME",
-            "type": "compound"
+            "source": "EMA 201",
+            "target": "EMA 303"
         }
     },
     {
         "data": {
-            "source": "EMA 201",
-            "target": "ME 306"
+            "source": "EMA 303",
+            "target": "BME 315"
         }
     },
     {
@@ -126,19 +126,13 @@
     {
         "data": {
             "source": "MATH 222",
-            "target": "ME 306"
+            "target": "EMA 303"
         }
     },
     {
         "data": {
             "source": "MATH 96",
             "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 306",
-            "target": "BME 315"
         }
     }
 ]

@@ -26,16 +26,63 @@
     ],
     "prerequisites": {
         "abstract_syntax_tree": {
-            "course_number": 133,
-            "subjects": [
-                "GENETICS"
-            ]
+            "children": [
+                {
+                    "course_number": 133,
+                    "subjects": [
+                        "GENETICS"
+                    ]
+                },
+                {
+                    "course_number": 151,
+                    "subjects": [
+                        "BIOLOGY",
+                        "BOTANY",
+                        "ZOOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 101,
+                    "subjects": [
+                        "BIOLOGY",
+                        "ZOOLOGY"
+                    ]
+                },
+                {
+                    "course_number": 381,
+                    "subjects": [
+                        "BIOCORE"
+                    ]
+                }
+            ],
+            "operator": "OR"
         },
         "course_references": [
             {
                 "course_number": 133,
                 "subjects": [
                     "GENETICS"
+                ]
+            },
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BIOLOGY",
+                    "BOTANY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
                 ]
             }
         ],
@@ -45,9 +92,33 @@
                 "subjects": [
                     "GENETICS"
                 ]
+            },
+            ", ",
+            {
+                "course_number": 151,
+                "subjects": [
+                    "BIOLOGY",
+                    "BOTANY",
+                    "ZOOLOGY"
+                ]
+            },
+            ", ",
+            {
+                "course_number": 101,
+                "subjects": [
+                    "BIOLOGY",
+                    "ZOOLOGY"
+                ]
+            },
+            ", or ",
+            {
+                "course_number": 381,
+                "subjects": [
+                    "BIOCORE"
+                ]
             }
         ],
-        "prerequisites_text": "GENETICS\u00a0133"
+        "prerequisites_text": "GENETICS\u00a0133,ZOOLOGY/\u200bBIOLOGY/\u200bBOTANY\u00a0\u00a0151,ZOOLOGY/\u200bBIOLOGY\u00a0\u00a0101, orBIOCORE\u00a0381"
     },
     "satisfies": [
         {
@@ -58,20 +129,6 @@
         }
     ],
     "similar_courses": [
-        {
-            "course_number": 636,
-            "subjects": [
-                "MDGENET",
-                "GENETICS",
-                "POPHLTH"
-            ]
-        },
-        {
-            "course_number": 415,
-            "subjects": [
-                "ZOOLOGY"
-            ]
-        },
         {
             "course_number": 335,
             "subjects": [
@@ -85,6 +142,20 @@
             ]
         },
         {
+            "course_number": 636,
+            "subjects": [
+                "MDGENET",
+                "POPHLTH",
+                "GENETICS"
+            ]
+        },
+        {
+            "course_number": 415,
+            "subjects": [
+                "ZOOLOGY"
+            ]
+        },
+        {
             "course_number": 366,
             "subjects": [
                 "ANSCI"
@@ -93,6 +164,28 @@
     ],
     "term_data": {
         "1262": {
+            "enrollment_data": {
+                "credit_count": [
+                    3,
+                    3
+                ],
+                "ethnics_studies": false,
+                "general_education": false,
+                "instructors": {
+                    "Katie Vermillion Kalmon": "KVERMILLION@WISC.EDU",
+                    "Nicholas Zumwalde": "NAZUMWALDE@WISC.EDU"
+                },
+                "last_taught_term": "2025 Fall",
+                "school": {
+                    "abbreviation": "A",
+                    "name": "Agricultural and Life Sciences",
+                    "url": "http://www.cals.wisc.edu/"
+                },
+                "typically_offered": "Not Applicable"
+            },
+            "grade_data": null
+        },
+        "1264": {
             "enrollment_data": {
                 "credit_count": [
                     3,

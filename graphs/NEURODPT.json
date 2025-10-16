@@ -39,6 +39,14 @@
     },
     {
         "data": {
+            "description": "Basic principles of ecology and interrelations between individuals, populations, communities, ecosystems and their environment; transmission genetics and introduction to population genetics; origin of life, evolutionary mechanisms, ancestral relationships among species, and the diversity of life.",
+            "id": "BIOCORE 381",
+            "parent": "BIOCORE",
+            "title": "EVOLUTION, ECOLOGY, AND GENETICS"
+        }
+    },
+    {
+        "data": {
             "description": "Behavior results from a complex interplay among hormones, the brain, and environmental factors. Behaviors and their underlying neural substrates have evolved in response to specific environmental conditions, resulting in vast species diversity in behavioral and neuroendocrine solutions to environmental problems. Designed to explore the primary literature on the neuroendocrine underpinnings of behavior spanning from feeding to sex differences in complex social behaviors. A range of taxonomic groups will be discussed, including (but not limited to) mammals, birds, and fish.",
             "id": "NEURODPT/PSYCH/ZOOLOGY 674",
             "title": "BEHAVIORAL NEUROENDOCRINOLOGY SEMINAR"
@@ -78,6 +86,14 @@
     },
     {
         "data": {
+            "description": "Explores a detailed atomic and molecular view of matter and its interactions, with a specific focus on quantum theory, molecular structure, and chemical bonding. Application required for enrollment.",
+            "id": "CHEM 115",
+            "parent": "CHEM",
+            "title": "CHEMICAL PRINCIPLES I"
+        }
+    },
+    {
+        "data": {
             "description": "Focuses on molecular, genetic, embryologic, hormonal, anatomical and physiological factors that govern fertility, cell growth, fetal development, and pregnancy as well as the congenital anomalies that can occur when those processes are aberrant. Encompasses the full life-cycle spectrum including childhood growth and development, young adulthood/puberty, issues affecting adolescents and young adults, genetic basis of human disease, reproductive health, menopause, aging, unregulated cell growth (cancer) and end of life issues. Significant content from other competency domains, or \"longitudinal threads\", such as public health, advocacy, ethics, patient care/communication and clinical skills.",
             "id": "MEDSC-M 773",
             "parent": "MEDSC-M",
@@ -94,9 +110,24 @@
     },
     {
         "data": {
+            "description": "Functional genomics methods (RNA-seq, ATAC-seq, Hi-C, ChIP-seq, Tag, etc.) and their applications in the study of molecular and cellular mechanisms governing brain development, evolution, and neurodevelopmental and neuropsychiatric disorders. Overview of relevant aspects of Genetics and Neuroscience, including genomic approaches for gene discovery for human disorders and key properties of brain cells and circuit development. Bioinformatic approaches for analyzing genome-scale data sets. Critical consideration of experimental design and analysis strategies through reading and discussion of primary research literature and the development of an original research proposal. Emphasis will be placed upon how to effectively communicate science (written and oral).",
+            "id": "GENETICS/NEURODPT 650",
+            "title": "FUNCTIONAL GENOMICS OF BRAIN DISORDERS"
+        }
+    },
+    {
+        "data": {
             "description": "General biological principles. Topics include: evolution, ecology, animal behavior, cell structure and function, genetics and molecular genetics and the physiology of a variety of organ systems emphasizing function in humans.",
             "id": "BIOLOGY/ZOOLOGY 101",
             "title": "ANIMAL BIOLOGY"
+        }
+    },
+    {
+        "data": {
+            "description": "Genetics in eukaryotes and prokaryotes.  Includes transmission genetics, molecular genetics, evolutionary genetics, genetic engineering, and societal issues associated with genetics.  Illustrative material includes bacteria, plants, insects, and vertebrates.",
+            "id": "GENETICS 466",
+            "parent": "GENETICS",
+            "title": "PRINCIPLES OF GENETICS"
         }
     },
     {
@@ -257,6 +288,12 @@
     },
     {
         "data": {
+            "id": "BIOCORE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "CHEM",
             "type": "compound"
         }
@@ -264,6 +301,12 @@
     {
         "data": {
             "id": "CROSSLISTED",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "GENETICS",
             "type": "compound"
         }
     },
@@ -289,6 +332,12 @@
         "data": {
             "id": "PHYSICS",
             "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "source": "BIOCORE 381",
+            "target": "GENETICS 466"
         }
     },
     {
@@ -325,6 +374,18 @@
         "data": {
             "source": "CHEM 104",
             "target": "PSYCH/ZOOLOGY 523"
+        }
+    },
+    {
+        "data": {
+            "source": "CHEM 115",
+            "target": "GENETICS 466"
+        }
+    },
+    {
+        "data": {
+            "source": "GENETICS 466",
+            "target": "GENETICS/NEURODPT 650"
         }
     },
     {

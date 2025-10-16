@@ -45,7 +45,19 @@
         }
     ],
     "prerequisites": {
-        "abstract_syntax_tree": "Graduate/professional standing.",
+        "abstract_syntax_tree": {
+            "children": [
+                "Graduate/professional standing",
+                {
+                    "children": [
+                        "declared in Capstone Certificate in Power Conversion",
+                        "Control."
+                    ],
+                    "operator": "AND"
+                }
+            ],
+            "operator": "OR"
+        },
         "course_references": [
             {
                 "course_number": 746,
@@ -55,7 +67,7 @@
             }
         ],
         "linked_requisite_text": [
-            "Graduate/professional standing. Not open to students with credit for ",
+            "Graduate/professional standing or declared in Capstone Certificate in Power Conversion and Control. Not open to students with credit for ",
             {
                 "course_number": 746,
                 "subjects": [
@@ -64,16 +76,10 @@
             },
             "."
         ],
-        "prerequisites_text": "Graduate/professional standing. Not open to students with credit forM\u00a0E\u00a0746."
+        "prerequisites_text": "Graduate/professional standing or declared in Capstone Certificate in Power Conversion and Control. Not open to students with credit forM\u00a0E\u00a0746."
     },
     "satisfies": [],
     "similar_courses": [
-        {
-            "course_number": 340,
-            "subjects": [
-                "ME"
-            ]
-        },
         {
             "course_number": 733,
             "subjects": [
@@ -89,15 +95,21 @@
             ]
         },
         {
-            "course_number": 746,
+            "course_number": 470,
+            "subjects": [
+                "CBE"
+            ]
+        },
+        {
+            "course_number": 340,
             "subjects": [
                 "ME"
             ]
         },
         {
-            "course_number": 470,
+            "course_number": 746,
             "subjects": [
-                "CBE"
+                "ME"
             ]
         }
     ],
@@ -115,7 +127,7 @@
                 "f": 1,
                 "incomplete": 0,
                 "instructors": [
-                    "BARRY VANVEEN"
+                    "Barry Vanveen"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -166,7 +178,7 @@
                 "incomplete": 0,
                 "instructors": [
                     "AGOSTINO RUSSO",
-                    "NICHOLAS NAGEL"
+                    "Nicholas Nagel"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
