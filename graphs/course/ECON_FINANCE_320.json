@@ -40,14 +40,6 @@
     },
     {
         "data": {
-            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
-            "id": "MATH 211",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 1"
-        }
-    },
-    {
-        "data": {
             "description": "Examines both financial and managerial accounting for business decisions. Emphasizes preparation and interpretation of financial statements, analysis of financial information, determination of costs for products and services, and use of accounting information for planning and control of business operations.",
             "id": "ACCTIS 300",
             "parent": "ACCTIS",
@@ -60,14 +52,6 @@
             "id": "ACCTIS 100",
             "parent": "ACCTIS",
             "title": "INTRODUCTORY FINANCIAL ACCOUNTING"
-        }
-    },
-    {
-        "data": {
-            "description": "First order differential equations, introduction to multivariable calculus and constrained optimization, infinite sequences and series, methods of approximation, and a brief introduction to probability. Models and applications from business and the social sciences.",
-            "id": "MATH 213",
-            "parent": "MATH",
-            "title": "SURVEY OF CALCULUS 2"
         }
     },
     {
@@ -96,14 +80,6 @@
     },
     {
         "data": {
-            "description": "Macroeconomic measurement and models of aggregate demand and supply; fiscal and monetary policy for unemployment, inflation, and growth.",
-            "id": "ECON 102",
-            "parent": "ECON",
-            "title": "PRINCIPLES OF MACROECONOMICS"
-        }
-    },
-    {
-        "data": {
             "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
             "id": "MATH 112",
             "parent": "MATH",
@@ -115,6 +91,14 @@
             "description": "Structure and functioning of securities markets; principles of portfolio construction; models of the tradeoff between risk and expected return.",
             "id": "ECON/FINANCE 320",
             "title": "INVESTMENT THEORY"
+        }
+    },
+    {
+        "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
         }
     },
     {
@@ -162,12 +146,6 @@
     {
         "data": {
             "source": "ECON 101",
-            "target": "ECON 102"
-        }
-    },
-    {
-        "data": {
-            "source": "ECON 102",
             "target": "ECON 310"
         }
     },
@@ -227,24 +205,6 @@
     },
     {
         "data": {
-            "source": "MATH 211",
-            "target": "ECON 310"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "MATH 213"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 213",
-            "target": "ECON/FINANCE 320"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 221",
             "target": "ECON 111"
         }
@@ -252,7 +212,13 @@
     {
         "data": {
             "source": "MATH 221",
-            "target": "MATH 211"
+            "target": "MATH 222"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "ECON/FINANCE 320"
         }
     },
     {

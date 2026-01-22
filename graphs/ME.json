@@ -97,6 +97,14 @@
     },
     {
         "data": {
+            "description": "An interdisciplinary, systems-thinking approach to sustainability at the intersection of technology and society. Explores the operating principles and current state of technologies, primarily related to energy. Integrate perspectives from engineering, public policy, economics, public health, and environmental studies to analyze the societal and sustainability impacts of technological systems.",
+            "id": "ME 478",
+            "parent": "ME",
+            "title": "ENGINEERING SUSTAINABILITY: LINKING TECHNOLOGY, POLICY, HEALTH, AND ECONOMICS"
+        }
+    },
+    {
+        "data": {
             "description": "An introduction to linear algebra and differential equations with emphasis on the relationship between the theory of linear algebra and analytical and numerical techniques for solving differential equations. Linear algebra topics include linear systems, matrices and their algebra, vector spaces and linear transformations, eigenvalues and eigenvectors. Topics from differential equations include first order ODE, homogeneous and nonhomogeneous linear systems, and numerical methods.",
             "id": "MATH 320",
             "parent": "MATH",
@@ -308,17 +316,17 @@
     },
     {
         "data": {
-            "description": "Contemporary topics in composite materials, including innovations in sandwich structures, textile composites, and architected materials; fracture mechanics; durability and damage tolerance; experimental techniques; transient, micro, nonlinear, inelastic and environmental effects; advanced manufacturing methods: repair and applications. Knowledge of basic composite materials [such asCIV\u00a0ENGR/\u200bE\u00a0M\u00a0A/\u200bM\u00a0E\u00a0\u00a0508] is strongly encouraged.",
-            "id": "EMA/ME 708",
-            "title": "ADVANCED COMPOSITE MATERIALS"
+            "description": "Communication for engineering, science, and technology; theory and practice in planning, preparing, and critiquing reports, proposals, and workplace correspondence; persuasive argumentation, ethical decision-making strategies, multidisciplinary communication skills, research strategies, collaborative work; oral presentations.",
+            "id": "INTEREGR 397",
+            "parent": "INTEREGR",
+            "title": "ENGINEERING COMMUNICATION"
         }
     },
     {
         "data": {
-            "description": "Continuation ofMATH\u00a0171. Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Completion ofMATH\u00a0217implies completion ofMATH\u00a0221and114.",
-            "id": "MATH 217",
-            "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY II"
+            "description": "Contemporary topics in composite materials, including innovations in sandwich structures, textile composites, and architected materials; fracture mechanics; durability and damage tolerance; experimental techniques; transient, micro, nonlinear, inelastic and environmental effects; advanced manufacturing methods: repair and applications. Knowledge of basic composite materials [such asCIV\u00a0ENGR/\u200bE\u00a0M\u00a0A/\u200bM\u00a0E\u00a0\u00a0508] is strongly encouraged.",
+            "id": "EMA/ME 708",
+            "title": "ADVANCED COMPOSITE MATERIALS"
         }
     },
     {
@@ -583,8 +591,7 @@
     {
         "data": {
             "description": "Feedback control theory fundamentals; numerical optimal control algorithms underpinning autonomous systems; quadcopter kinematics  dynamics; quadcopter control and trajectory planning; hands-on labs on a nano quadcopter platform.",
-            "id": "ME 458",
-            "parent": "ME",
+            "id": "EMA/ME 458",
             "title": "INTRODUCTION TO FEEDBACK CONTROL OF AUTONOMOUS SYSTEMS"
         }
     },
@@ -734,6 +741,14 @@
             "id": "ME 563",
             "parent": "ME",
             "title": "INTERMEDIATE FLUID DYNAMICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Independent work and preparation of thesis in mechanical engineering.",
+            "id": "ME 489",
+            "parent": "ME",
+            "title": "HONORS IN RESEARCH II"
         }
     },
     {
@@ -1096,14 +1111,6 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, logarithmic, and trigonometric functions. Topics include equations, inequalities, functions, and their graphs. Other topics include trigonometric equations and identities and the geometric significance of trigonometry. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provide the algebra and trigonometry skills required for calculus.",
-            "id": "MATH 114",
-            "parent": "MATH",
-            "title": "PRECALCULUS"
-        }
-    },
-    {
-        "data": {
             "description": "Provides an in-depth introduction to the methods and analysis techniques used in computational solutions of fluid mechanics and heat transfer problems. Model problems are used to study the interaction of physical processes and numerical techniques. Contemporary methods for boundary layers, incompressible viscous flows, and inviscid compressible flows are studied. Finite differences and finite volume techniques are emphasized. Knowledge of programming language such as Python, C++, MATLAB or Java required.",
             "id": "ME 573",
             "parent": "ME",
@@ -1291,18 +1298,18 @@
     },
     {
         "data": {
-            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
-            "id": "MATH 171",
-            "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
-        }
-    },
-    {
-        "data": {
             "description": "Topics in multi-variable calculus and introduction to differential equations.",
             "id": "MATH 376",
             "parent": "MATH",
             "title": "TOPICS IN MULTI-VARIABLE CALCULUS AND DIFFERENTIAL EQUATIONS"
+        }
+    },
+    {
+        "data": {
+            "description": "Topics of special interest in mechanical engineering.",
+            "id": "ME 401",
+            "parent": "ME",
+            "title": "SPECIAL TOPICS IN MECHANICAL ENGINEERING"
         }
     },
     {
@@ -1318,14 +1325,6 @@
             "description": "Two-phase flow and heat transfer in engineering systems. Pool boiling and flow boiling. Phenomenological modeling.",
             "id": "ME/NE 520",
             "title": "TWO-PHASE FLOW AND HEAT TRANSFER"
-        }
-    },
-    {
-        "data": {
-            "description": "Undergraduate honors research projects supervised by faculty members.",
-            "id": "ME 489",
-            "parent": "ME",
-            "title": "HONORS IN RESEARCH"
         }
     },
     {
@@ -1406,6 +1405,12 @@
     {
         "data": {
             "id": "EMA",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
+            "id": "INTEREGR",
             "type": "compound"
         }
     },
@@ -1597,6 +1602,12 @@
     },
     {
         "data": {
+            "source": "ECE 332",
+            "target": "EMA/ME 458"
+        }
+    },
+    {
+        "data": {
             "source": "ECE 376",
             "target": "ECE/ME 576"
         }
@@ -1747,6 +1758,12 @@
     },
     {
         "data": {
+            "source": "INTEREGR 397",
+            "target": "ME 478"
+        }
+    },
+    {
+        "data": {
             "source": "ISYE 210",
             "target": "ISYE 315"
         }
@@ -1807,20 +1824,14 @@
     },
     {
         "data": {
-            "source": "MATH 114",
-            "target": "CHEM 104"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 171",
+            "source": "MATH 211",
             "target": "CHEM 103"
         }
     },
     {
         "data": {
-            "source": "MATH 171",
-            "target": "MATH 217"
+            "source": "MATH 211",
+            "target": "ECE 203"
         }
     },
     {
@@ -1833,12 +1844,6 @@
         "data": {
             "source": "MATH 211",
             "target": "STAT 324"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 217",
-            "target": "ECE 203"
         }
     },
     {
@@ -1863,12 +1868,6 @@
         "data": {
             "source": "MATH 221",
             "target": "PHYSICS 201"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "PHYSICS 202"
         }
     },
     {
@@ -2049,18 +2048,6 @@
         "data": {
             "source": "MATH 96",
             "target": "MATH 112"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 96",
-            "target": "MATH 114"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 96",
-            "target": "MATH 171"
         }
     },
     {
@@ -2343,12 +2330,6 @@
         "data": {
             "source": "ME 446",
             "target": "ME 447"
-        }
-    },
-    {
-        "data": {
-            "source": "ME 446",
-            "target": "ME 458"
         }
     },
     {

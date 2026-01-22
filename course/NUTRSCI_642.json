@@ -37,7 +37,7 @@
     ],
     "optimized_prerequisites": [
         {
-            "course_number": 631,
+            "course_number": 641,
             "subjects": [
                 "NUTRSCI"
             ]
@@ -46,54 +46,77 @@
     "prerequisites": {
         "abstract_syntax_tree": {
             "children": [
-                "Declared in Nutritional Science BS",
+                {
+                    "course_number": 641,
+                    "subjects": [
+                        "NUTRSCI"
+                    ]
+                },
+                {
+                    "course_number": 632,
+                    "subjects": [
+                        "NUTRSCI"
+                    ]
+                },
                 {
                     "children": [
-                        "BS-Dietetics",
-                        "Nutrition",
-                        {
-                            "course_number": 631,
-                            "subjects": [
-                                "NUTRSCI"
-                            ]
-                        }
+                        "concurrent enrollment",
+                        "declared in Nutritional Sciences BS"
                     ],
                     "operator": "AND"
                 },
-                "concurrent enrollment"
+                {
+                    "children": [
+                        "Nutritional Sciences BS-Nutrition",
+                        "Dietetics"
+                    ],
+                    "operator": "AND"
+                }
             ],
             "operator": "OR"
         },
         "course_references": [
             {
-                "course_number": 631,
+                "course_number": 632,
+                "subjects": [
+                    "NUTRSCI"
+                ]
+            },
+            {
+                "course_number": 641,
                 "subjects": [
                     "NUTRSCI"
                 ]
             }
         ],
         "linked_requisite_text": [
-            "Declared in Nutritional Science BS or BS-Dietetics and Nutrition and ",
             {
-                "course_number": 631,
+                "course_number": 641,
                 "subjects": [
                     "NUTRSCI"
                 ]
             },
-            " or concurrent enrollment"
+            ", ",
+            {
+                "course_number": 632,
+                "subjects": [
+                    "NUTRSCI"
+                ]
+            },
+            " or concurrent enrollment, and declared in Nutritional Sciences BS or Nutritional Sciences BS-Nutrition and Dietetics"
         ],
-        "prerequisites_text": "Declared in Nutritional Science BS or BS-Dietetics and Nutrition andNUTR\u00a0SCI\u00a0631or concurrent enrollment"
+        "prerequisites_text": "NUTR\u00a0SCI\u00a0641,NUTR\u00a0SCI\u00a0632or concurrent enrollment, and declared in Nutritional Sciences BS or Nutritional Sciences BS-Nutrition and Dietetics"
     },
     "satisfies": [],
     "similar_courses": [
         {
-            "course_number": 632,
+            "course_number": 652,
             "subjects": [
                 "NUTRSCI"
             ]
         },
         {
-            "course_number": 641,
+            "course_number": 632,
             "subjects": [
                 "NUTRSCI"
             ]
@@ -105,13 +128,13 @@
             ]
         },
         {
-            "course_number": 652,
+            "course_number": 200,
             "subjects": [
                 "NUTRSCI"
             ]
         },
         {
-            "course_number": 200,
+            "course_number": 641,
             "subjects": [
                 "NUTRSCI"
             ]
@@ -157,11 +180,11 @@
                 "f": 0,
                 "incomplete": 0,
                 "instructors": [
+                    "HUI-CHUAN LAI",
+                    "ADAM KUCHNIA",
                     "TARA LA ROWE",
                     "MAKAYLA SCHUCHARDT",
-                    "HUI-CHUAN LAI",
-                    "AMBER HAROLDSON",
-                    "ADAM KUCHNIA"
+                    "AMBER HAROLDSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -187,9 +210,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "HUI-CHUAN LAI",
+                    "ADAM KUCHNIA",
                     "MAKAYLA SCHUCHARDT",
-                    "AMBER HAROLDSON",
-                    "ADAM KUCHNIA"
+                    "AMBER HAROLDSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,
@@ -215,9 +238,9 @@
                 "incomplete": 0,
                 "instructors": [
                     "HUI-CHUAN LAI",
+                    "ADAM KUCHNIA",
                     "MAKAYLA SCHUCHARDT",
-                    "AMBER HAROLDSON",
-                    "ADAM KUCHNIA"
+                    "AMBER HAROLDSON"
                 ],
                 "no_credit": 0,
                 "no_work": 0,

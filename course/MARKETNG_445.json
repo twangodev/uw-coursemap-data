@@ -54,7 +54,6 @@
             "children": [
                 {
                     "children": [
-                        "Sophomore standing",
                         {
                             "course_number": 300,
                             "subjects": [
@@ -62,16 +61,10 @@
                             ]
                         },
                         {
-                            "children": [
-                                "GEN BUS 303",
-                                {
-                                    "course_number": 306,
-                                    "subjects": [
-                                        "GENBUS"
-                                    ]
-                                }
-                            ],
-                            "operator": "OR"
+                            "course_number": 306,
+                            "subjects": [
+                                "GENBUS"
+                            ]
                         }
                     ],
                     "operator": "AND"
@@ -82,47 +75,52 @@
         },
         "course_references": [
             {
-                "course_number": 306,
-                "subjects": [
-                    "GENBUS"
-                ]
-            },
-            {
                 "course_number": 300,
                 "subjects": [
                     "MARKETNG"
+                ]
+            },
+            {
+                "course_number": 306,
+                "subjects": [
+                    "GENBUS"
                 ]
             }
         ],
         "linked_requisite_text": [
-            "Sophomore standing, ",
             {
                 "course_number": 300,
                 "subjects": [
                     "MARKETNG"
                 ]
             },
-            " and (GEN BUS 303 or ",
+            " and ",
             {
                 "course_number": 306,
                 "subjects": [
                     "GENBUS"
                 ]
             },
-            "), or declared in the Business Exchange program"
+            " or declared in the Business Exchange program"
         ],
-        "prerequisites_text": "Sophomore standing,MARKETNG\u00a0300and (GEN BUS 303 or306), or declared in the Business Exchange program"
+        "prerequisites_text": "MARKETNG\u00a0300andGEN\u00a0BUS\u00a0306or declared in the Business Exchange program"
     },
     "satisfies": [],
     "similar_courses": [
         {
-            "course_number": 745,
+            "course_number": 442,
             "subjects": [
                 "MARKETNG"
             ]
         },
         {
-            "course_number": 442,
+            "course_number": 815,
+            "subjects": [
+                "MARKETNG"
+            ]
+        },
+        {
+            "course_number": 745,
             "subjects": [
                 "MARKETNG"
             ]
@@ -135,12 +133,6 @@
         },
         {
             "course_number": 450,
-            "subjects": [
-                "MARKETNG"
-            ]
-        },
-        {
-            "course_number": 815,
             "subjects": [
                 "MARKETNG"
             ]

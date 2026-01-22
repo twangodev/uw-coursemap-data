@@ -1,6 +1,14 @@
 [
     {
         "data": {
+            "description": "Covers the graphs, properties and geometric significance of trigonometric functions of a real variable. Other topics include trigonometric equations and identities, application, trigonometric form of complex numbers, DeMoivre's theorem, and polar and parametric equations. The course also has a significant number of applications, especially related to other disciplines.",
+            "id": "MATH 113",
+            "parent": "MATH",
+            "title": "TRIGONOMETRY"
+        }
+    },
+    {
+        "data": {
             "description": "",
             "id": "ANSCI/DYSCI/GENETICS 951",
             "title": "SEMINAR IN ANIMAL BREEDING"
@@ -96,6 +104,14 @@
             "description": "Discussion of literature that has a bearing on animal nutrition. Students are to survey the literature and present a seminar.",
             "id": "ANSCI/DYSCI 931",
             "title": "SEMINAR IN ANIMAL NUTRITION"
+        }
+    },
+    {
+        "data": {
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
@@ -212,6 +228,14 @@
     },
     {
         "data": {
+            "description": "Introduction to differential and integral calculus and plane analytic geometry; applications; transcendental functions.",
+            "id": "MATH 221",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 1"
+        }
+    },
+    {
+        "data": {
             "description": "Nutrients and their assimilation, function, and interactions that affect metabolism in mammals.  Differences among species will be used to emphasize unique digestive and physiological functions and how these differences affect metabolism of nutrients. Humans will be used in some comparisons. Follows physiological progression of nutrients, starting with an overview of the digestive tract followed by water and builds on specific roles of nutrients and substrates needed to provide basic processes required for maintenance, tissue accretion, and homeostatic regulation of nutrients.",
             "id": "ANSCI/DYSCI/NUTRSCI 311",
             "title": "COMPARATIVE ANIMAL NUTRITION"
@@ -242,6 +266,14 @@
     },
     {
         "data": {
+            "description": "Principles and practices of dairy nutrition and management. Explore various aspects of dairy farm operations, including dairy cattle nutrition, herd health, and farm diagnostics. Participation in team based dairy farm diagnostics.",
+            "id": "DYSCI 210",
+            "parent": "DYSCI",
+            "title": "DAIRY NUTRITION EXPERIENCE"
+        }
+    },
+    {
+        "data": {
             "description": "Principles of nutrition, breeding, reproduction, and management at the farm level are integrated. Develop skills in decision making, information gathering, problem solving, and interpersonal communication through field trips to working commercial dairy operations.",
             "id": "DYSCI 535",
             "parent": "DYSCI",
@@ -257,10 +289,10 @@
     },
     {
         "data": {
-            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, logarithmic, and trigonometric functions. Topics include equations, inequalities, functions, and their graphs. Other topics include trigonometric equations and identities and the geometric significance of trigonometry. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provide the algebra and trigonometry skills required for calculus.",
-            "id": "MATH 114",
+            "description": "Properties of elementary functions, such as polynomial, absolute value, radical, rational, exponential, and logarithmic functions. Topics include equations, inequalities, functions, and their graphs. Formulating, analyzing, solving, and interpreting mathematical and real-world problems. Provides the algebra skills required for calculus.",
+            "id": "MATH 112",
             "parent": "MATH",
-            "title": "PRECALCULUS"
+            "title": "COLLEGE ALGEBRA"
         }
     },
     {
@@ -330,14 +362,6 @@
             "id": "DYSCI 234",
             "parent": "DYSCI",
             "title": "DAIRY HERD MANAGEMENT II"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
-            "id": "MATH 171",
-            "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
         }
     },
     {
@@ -574,26 +598,38 @@
     },
     {
         "data": {
-            "source": "MATH 114",
-            "target": "CHEM 104"
+            "source": "MATH 112",
+            "target": "MATH 113"
         }
     },
     {
         "data": {
-            "source": "MATH 171",
+            "source": "MATH 112",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 113",
+            "target": "MATH 221"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
             "target": "CHEM 103"
         }
     },
     {
         "data": {
-            "source": "MATH 96",
-            "target": "MATH 114"
+            "source": "MATH 221",
+            "target": "MATH 211"
         }
     },
     {
         "data": {
             "source": "MATH 96",
-            "target": "MATH 171"
+            "target": "MATH 112"
         }
     }
 ]

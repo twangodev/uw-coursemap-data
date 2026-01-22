@@ -117,13 +117,6 @@
     },
     {
         "data": {
-            "description": "Background for professional numerical computation in Linux environments begins with shell scripting and software archiving. Programming skills in a compiled language are then developed through scientific and engineering examples. Engineering problem-solving skills are reinforced through applications that require numerical solutions to systems of differential and/or integral equations, while motivating progressively more advanced computational methods.",
-            "id": "EMA/EP 476",
-            "title": "INTRODUCTION TO SCIENTIFIC COMPUTING FOR ENGINEERING PHYSICS"
-        }
-    },
-    {
-        "data": {
             "description": "Calculus-based introduction to physics intended for engineering students. Electricity, magnetism, light, and sound.",
             "id": "PHYSICS 202",
             "parent": "PHYSICS",
@@ -209,18 +202,18 @@
     },
     {
         "data": {
-            "description": "Engineering achievements of the Renaissance period and their relation to modern engineering practice, key principles developed, and errors in understanding of that time. Innovative work of notable figures such as Galileo Galilei and Leonardo da Vinci and their contributions to fundamental mechanics principles of engineering, traced through modern engineering practice and current engineering applications. Introduction to concepts of stress, strain, tension, compression, deflection of beams, flaws, and fracture. Not for engineering majors.",
-            "id": "EMA 103",
-            "parent": "EMA",
-            "title": "PRINCIPLES OF ENGINEERING FROM THE RENAISSANCE TO MODERN TIMES"
-        }
-    },
-    {
-        "data": {
             "description": "Equations of elasticity in curvilinear and rectangular coordinates; two dimensional problems; problems of prismatic bars; variational methods and energy principles; complex variable and numerical methods; thermal stress problems. Knowledge of advanced mechanics of materials [such asE\u00a0M\u00a0A\u00a0506] and vector calculus [such asMATH\u00a0321] strongly encouraged.",
             "id": "EMA 700",
             "parent": "EMA",
             "title": "THEORY OF ELASTICITY"
+        }
+    },
+    {
+        "data": {
+            "description": "Essential concepts of differential and integral calculus; exponential and logarithmic functions; functions of several variables. Primarily for students in prebusiness and some social sciences. Students preparing for advanced study in mathematics, physics, engineering and other sciences (including most biological sciences) should takeMATH\u00a0221.",
+            "id": "MATH 211",
+            "parent": "MATH",
+            "title": "SURVEY OF CALCULUS 1"
         }
     },
     {
@@ -244,6 +237,13 @@
             "description": "Experimental methods for design and analysis of mechanical components, structures and materials. Electrically and optically recorded stress, strain and deformation data; computer acquisition/reduction/presentation techniques; applications to static and transient events, sensors, transducer design, NDT, fracture and residual stresses.",
             "id": "EMA/ME 570",
             "title": "EXPERIMENTAL MECHANICS"
+        }
+    },
+    {
+        "data": {
+            "description": "Feedback control theory fundamentals; numerical optimal control algorithms underpinning autonomous systems; quadcopter kinematics  dynamics; quadcopter control and trajectory planning; hands-on labs on a nano quadcopter platform.",
+            "id": "EMA/ME 458",
+            "title": "INTRODUCTION TO FEEDBACK CONTROL OF AUTONOMOUS SYSTEMS"
         }
     },
     {
@@ -317,6 +317,14 @@
     },
     {
         "data": {
+            "description": "Introduction to the signals, information, and computational techniques in electrical engineering.",
+            "id": "ECE 203",
+            "parent": "ECE",
+            "title": "SIGNALS, INFORMATION, AND COMPUTATION"
+        }
+    },
+    {
+        "data": {
             "description": "Kinematics, force-mass-acceleration relations, work and energy, impulse and momentum, moments of inertia and mass.",
             "id": "EMA 202",
             "parent": "EMA",
@@ -337,6 +345,14 @@
             "id": "EMA 630",
             "parent": "EMA",
             "title": "VISCOELASTIC SOLIDS"
+        }
+    },
+    {
+        "data": {
+            "description": "Modeling of continuous systems; computer-aided solutions to systems problems; feedback control systems; stability, frequency response and transient response using root locus, frequency domain and state variable methods.",
+            "id": "ECE 332",
+            "parent": "ECE",
+            "title": "FEEDBACK CONTROL SYSTEMS"
         }
     },
     {
@@ -363,8 +379,8 @@
     },
     {
         "data": {
-            "description": "Potential flow theory; stream functions; vortex filaments and sheets. Two- and three-dimensional wing theory. Doublet and panels methods. Propeller theory.",
-            "id": "EMA 521",
+            "description": "Potential flow theory; stream functions; vortex filaments and sheets. Two- and three-dimensional wing theory. Doublet and panels methods. Propeller theory. Was E M A 521 prior to Fall 2026.",
+            "id": "EMA 421",
             "parent": "EMA",
             "title": "AERODYNAMICS"
         }
@@ -520,10 +536,10 @@
     },
     {
         "data": {
-            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
-            "id": "MATH 171",
-            "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
+            "description": "Time-domain response and convolution; frequency-domain response using Fourier series, Fourier transform, Laplace transform; discrete Fourier series and transform; sampling; z-transform; relationships between time and frequency descriptions of discrete and continuous signals and systems.",
+            "id": "ECE 330",
+            "parent": "ECE",
+            "title": "SIGNALS AND SYSTEMS"
         }
     },
     {
@@ -587,6 +603,12 @@
     },
     {
         "data": {
+            "id": "ECE",
+            "type": "compound"
+        }
+    },
+    {
+        "data": {
             "id": "EMA",
             "type": "compound"
         }
@@ -635,6 +657,24 @@
     },
     {
         "data": {
+            "source": "ECE 203",
+            "target": "ECE 330"
+        }
+    },
+    {
+        "data": {
+            "source": "ECE 330",
+            "target": "ECE 332"
+        }
+    },
+    {
+        "data": {
+            "source": "ECE 332",
+            "target": "EMA/ME 458"
+        }
+    },
+    {
+        "data": {
             "source": "EMA 201",
             "target": "EMA 202"
         }
@@ -648,7 +688,7 @@
     {
         "data": {
             "source": "EMA 202",
-            "target": "EMA 521"
+            "target": "EMA 421"
         }
     },
     {
@@ -743,18 +783,6 @@
     },
     {
         "data": {
-            "source": "EMA 521",
-            "target": "EMA 522"
-        }
-    },
-    {
-        "data": {
-            "source": "EMA 521",
-            "target": "EMA 523"
-        }
-    },
-    {
-        "data": {
             "source": "EMA 542",
             "target": "EMA 523"
         }
@@ -797,12 +825,6 @@
     },
     {
         "data": {
-            "source": "EP 271",
-            "target": "EMA/EP 476"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 112",
             "target": "MATH 113"
         }
@@ -821,14 +843,26 @@
     },
     {
         "data": {
-            "source": "MATH 171",
+            "source": "MATH 211",
             "target": "CHEM 103"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 211",
+            "target": "ECE 203"
         }
     },
     {
         "data": {
             "source": "MATH 221",
             "target": "EMA 200"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 221",
+            "target": "MATH 211"
         }
     },
     {
@@ -841,12 +875,6 @@
         "data": {
             "source": "MATH 221",
             "target": "PHYSICS 201"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 221",
-            "target": "PHYSICS 202"
         }
     },
     {
@@ -894,12 +922,6 @@
     {
         "data": {
             "source": "MATH 319",
-            "target": "EMA/EP 476"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 319",
             "target": "MATH 321"
         }
     },
@@ -912,7 +934,7 @@
     {
         "data": {
             "source": "MATH 321",
-            "target": "EMA 521"
+            "target": "EMA 421"
         }
     },
     {
@@ -953,12 +975,6 @@
     },
     {
         "data": {
-            "source": "MATH 96",
-            "target": "MATH 171"
-        }
-    },
-    {
-        "data": {
             "source": "ME 361",
             "target": "ME 363"
         }
@@ -966,7 +982,7 @@
     {
         "data": {
             "source": "ME 363",
-            "target": "EMA 521"
+            "target": "EMA 421"
         }
     },
     {

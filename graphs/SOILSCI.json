@@ -78,6 +78,14 @@
     },
     {
         "data": {
+            "description": "Calculus-based introduction to physics intended for Physics, AMEP, and Astronomy-Physics majors. Mechanics, waves, thermodynamics and statistical mechanics, topics in modern physics; with computation.  A more mathematically rigorous and in-depth introduction to physics than the other introductory physics sequences.",
+            "id": "PHYSICS 247",
+            "parent": "PHYSICS",
+            "title": "A MODERN INTRODUCTION TO PHYSICS"
+        }
+    },
+    {
+        "data": {
             "description": "Calculus-based introduction to physics intended for students majoring in biological sciences. Mechanics: kinematics, statics, dynamics; energy and momentum. Heat and sound.",
             "id": "PHYSICS 207",
             "parent": "PHYSICS",
@@ -110,18 +118,18 @@
     },
     {
         "data": {
-            "description": "Continuation ofPHYSICS\u00a0103. Principles of electricity and magnetism, light, optics, and modern physics, with applications to a number of different fields. Not recommended for students in the physical sciences and engineering.",
-            "id": "PHYSICS 104",
+            "description": "Continuation ofPHYSICS\u00a0207: calculus-based introduction to physics intended for students majoring in biological sciences. Electricity, magnetism, light, and modern physics.",
+            "id": "PHYSICS 208",
             "parent": "PHYSICS",
             "title": "GENERAL PHYSICS"
         }
     },
     {
         "data": {
-            "description": "Continuation ofPHYSICS\u00a0207: calculus-based introduction to physics intended for students majoring in biological sciences. Electricity, magnetism, light, and modern physics.",
-            "id": "PHYSICS 208",
+            "description": "Continuation ofPHYSICS\u00a0247. Electromagnetism, circuits, optics, additional topics in modern physics; with computation.",
+            "id": "PHYSICS 248",
             "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
+            "title": "A MODERN INTRODUCTION TO PHYSICS"
         }
     },
     {
@@ -296,16 +304,8 @@
     },
     {
         "data": {
-            "description": "Introduction to physics at the non-calculus level. Principles of mechanics, heat, and waves, with applications to a number of different fields. Not recommended for students in the physical sciences and engineering.",
-            "id": "PHYSICS 103",
-            "parent": "PHYSICS",
-            "title": "GENERAL PHYSICS"
-        }
-    },
-    {
-        "data": {
             "description": "Introduction to the Earth as viewed from above, focusing on use of aerial photography and satellite imagery to study the environment. Includes physical processes of electromagnetic radiation, data types and sensing capabilities, methods for interpretation, analysis and mapping, and applications.",
-            "id": "ENVIRST/F&WECOL/GEOG/GEOSCI/GLE/LANDARC 371",
+            "id": "ENVIRST/GEOG/GEOSCI/GLE/LANDARC 371",
             "title": "INTRODUCTION TO ENVIRONMENTAL REMOTE SENSING"
         }
     },
@@ -501,6 +501,14 @@
     },
     {
         "data": {
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, vector geometry in two and three dimensions.",
+            "id": "MATH 222",
+            "parent": "MATH",
+            "title": "CALCULUS AND ANALYTIC GEOMETRY 2"
+        }
+    },
+    {
+        "data": {
             "description": "Topical oral presentations by guest speakers and graduate students on contemporary concerns and issues involving land and soils.",
             "id": "SOILSCI 728",
             "parent": "SOILSCI",
@@ -513,14 +521,6 @@
             "id": "SOILSCI 730",
             "parent": "SOILSCI",
             "title": "COLLOQUIUM: ENVIRONMENTAL REMEDIATION AND MANAGEMENT"
-        }
-    },
-    {
-        "data": {
-            "description": "Topics in algebra, trigonometry and precalculus are integrated with elementary differential calculus. Part of a 2-semester sequence withMATH\u00a0217; these two courses together are equivalent toMATH\u00a0114and221.",
-            "id": "MATH 171",
-            "parent": "MATH",
-            "title": "CALCULUS WITH ALGEBRA AND TRIGONOMETRY I"
         }
     },
     {
@@ -726,12 +726,6 @@
     },
     {
         "data": {
-            "source": "ENVIRST/F&WECOL/GEOG/GEOSCI/GLE/LANDARC 371",
-            "target": "SOILSCI 585"
-        }
-    },
-    {
-        "data": {
             "source": "ENVIRST/GEOG 120",
             "target": "ENVIRST/GEOG 127"
         }
@@ -746,6 +740,12 @@
         "data": {
             "source": "ENVIRST/GEOG 127",
             "target": "ENVIRST/GEOG 120"
+        }
+    },
+    {
+        "data": {
+            "source": "ENVIRST/GEOG/GEOSCI/GLE/LANDARC 371",
+            "target": "SOILSCI 585"
         }
     },
     {
@@ -769,7 +769,7 @@
     {
         "data": {
             "source": "MATH 114",
-            "target": "CHEM 104"
+            "target": "ENVIRST/GEOG/GEOSCI/GLE/LANDARC 371"
         }
     },
     {
@@ -780,32 +780,14 @@
     },
     {
         "data": {
-            "source": "MATH 171",
+            "source": "MATH 211",
             "target": "CHEM 103"
         }
     },
     {
         "data": {
-            "source": "MATH 171",
-            "target": "CHEM 109"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 171",
-            "target": "ENVIRST/F&WECOL/GEOG/GEOSCI/GLE/LANDARC 371"
-        }
-    },
-    {
-        "data": {
-            "source": "MATH 211",
-            "target": "PHYSICS 103"
-        }
-    },
-    {
-        "data": {
             "source": "MATH 221",
-            "target": "CIVENGR/M&ENVTOX/SOILSCI 631"
+            "target": "CHEM 109"
         }
     },
     {
@@ -817,13 +799,19 @@
     {
         "data": {
             "source": "MATH 221",
-            "target": "PHYSICS 207"
+            "target": "MATH 222"
         }
     },
     {
         "data": {
             "source": "MATH 221",
-            "target": "SOILSCI 622"
+            "target": "PHYSICS 207"
+        }
+    },
+    {
+        "data": {
+            "source": "MATH 222",
+            "target": "PHYSICS 247"
         }
     },
     {
@@ -840,26 +828,8 @@
     },
     {
         "data": {
-            "source": "MATH 96",
-            "target": "MATH 171"
-        }
-    },
-    {
-        "data": {
             "source": "MICROBIO 303",
             "target": "MICROBIO/SOILSCI 425"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 103",
-            "target": "PHYSICS 104"
-        }
-    },
-    {
-        "data": {
-            "source": "PHYSICS 104",
-            "target": "SOILSCI 622"
         }
     },
     {
@@ -872,6 +842,18 @@
         "data": {
             "source": "PHYSICS 208",
             "target": "CIVENGR/M&ENVTOX/SOILSCI 631"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 247",
+            "target": "PHYSICS 248"
+        }
+    },
+    {
+        "data": {
+            "source": "PHYSICS 248",
+            "target": "SOILSCI 622"
         }
     },
     {
